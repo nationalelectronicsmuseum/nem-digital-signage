@@ -1,0 +1,20 @@
+.nav-bar {
+    float: left;
+    position: absolute;
+}
+.nav {
+    background: rgb(255,255,255, 0.5);
+    font: black;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-links {
+    text-decoration: none;
+    font: black;
+    font-weight: 600;
+    font-size: 16pt;
+  }
