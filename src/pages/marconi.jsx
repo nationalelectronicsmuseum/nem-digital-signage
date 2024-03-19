@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import marconiImg from "../assets/img/marconi.svg";
 import MenuButton from "../components/button/menuButton.jsx";
 import Nav from "../components/nav/nav.jsx";
-import Slides from "../components/slides/slides.jsx";
 
 const Marconi = () => {
   const [menu, setMenu] = useState(true);
