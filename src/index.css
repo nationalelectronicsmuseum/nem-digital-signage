@@ -42,8 +42,8 @@ body {
 /* Images */
 
 .marconiImg {
-  width: 500px;
-  height: 500px;
+  width: 700px;
+  height: 700px;
 }
 
 .homeImg {
@@ -58,7 +58,16 @@ body {
 
 .showMenu {
   display: block;
-
+  position: absolute;
+  left:auto
 }
 
-/* Menu Toggle */
+/* Slide */
+.display {
+  display: flex;
+  flex-direction: row;
+}
+
+.description {
+  font-size: 24pt;
+}
