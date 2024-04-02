@@ -1,20 +1,12 @@
-import { Link } from "react-router-dom";
+import Menu from "../components/menu/menu";
 
 const Telegraph = () => {
   return (
-    <div>
+    <>
+    <Menu />
       <h1>The Telegraph Machine</h1>
-      <Link to="/" relative="path">
-        Home
-      </Link>
-      <Link to="/audio" relative="path">
-        Audio
-      </Link>
-      <Link to="/marconi" relative="path">
-        Marconi
-      </Link>
-      <h3>Nothing here yet</h3>
-    </div>
+      <h3>Trying to figure it out</h3>
+    </>
   );
 };
 

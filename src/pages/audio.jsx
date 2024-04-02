@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Menu from "../components/menu/menu.jsx";
 import MenuButton from "../components/button/menuButton.jsx";
 import Nav from "../components/nav/nav.jsx";
 
@@ -30,6 +31,7 @@ const Audio = () => {
 
       <h1 className="artifactTitle">The Audio Translator</h1>
       <h3>Under Maintenance</h3>
+      <Menu />
     </div>
   );
 };

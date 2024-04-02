@@ -4,6 +4,7 @@ import artifactImg from "../assets/img/marconi.svg";
 import MenuButton from "../components/button/menuButton.jsx";
 import Slides from "../components/slides/slides.jsx"
 import Nav from "../components/nav/nav.jsx";
+import Menu from "../components/menu/menu.jsx";
 
 const Marconi = () => {
   const [menu, setMenu] = useState(true);
@@ -37,12 +38,8 @@ const Marconi = () => {
 
   return (
     <>
-      <div className="nav-bar">
-        <MenuButton handleMenu={handleMenu} />
-        <div className={showMenu}>
-          <Nav />
-        </div>
-      </div>
+      
+      <Menu />
       <h1 className="artifactTitle">The Marconi Magnetic Detector</h1>
 
       <Slides artifact={artifact} artifactImg={artifactImg}/>
