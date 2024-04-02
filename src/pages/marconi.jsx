@@ -1,15 +1,8 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
 import artifactImg from "../assets/img/marconi.svg";
-import MenuButton from "../components/button/menuButton.jsx";
 import Slides from "../components/slides/slides.jsx"
-import Nav from "../components/nav/nav.jsx";
 import Menu from "../components/menu/menu.jsx";
 
 const Marconi = () => {
-  const [menu, setMenu] = useState(true);
-  const [showMenu, setShowMenu] = useState("hidden");
-
   const artifact = {
       title: "The Marconi Magnetic Detector",
       description:
@@ -23,23 +16,11 @@ const Marconi = () => {
       ]
     };
 
-  const handleMenu = () => {
-    // setMenu(true);
-    if (menu === true) {
-      setMenu(false);
-      setShowMenu("showMenu");
-      console.log("showMenu");
-    } else {
-      setMenu(true);
-      setShowMenu("hidden");
-      console.log("hidden");
-    }
-  };
-
   return (
     <>
       
       <Menu />
+      
       <h1 className="artifactTitle">The Marconi Magnetic Detector</h1>
 
       <Slides artifact={artifact} artifactImg={artifactImg}/>
