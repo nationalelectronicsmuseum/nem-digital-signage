@@ -10,7 +10,7 @@
   
     /* Center slide text vertically */
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
   }
   
@@ -26,7 +26,7 @@
     min-height: 100vh;
     display:flex;
     flex-direction: row;
-    overflow: scroll;
+    /* overflow: scroll; */
   }
   
   .bg3 {
@@ -37,6 +37,7 @@
 
   .left, .right {
     width:49.5%;
+    height: 600px;
   }
 
   .left {
@@ -46,4 +47,24 @@
   }
   .right{
     flex-direction:column-reverse;
+    text-align: left;
+    font-size: 24pt;
+  }
+
+  .info {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .swipe-mention {
+    color: gray;
+  }
+
+  .description {
+    overflow:scroll;
+    height: 550px;
+  }
+
+  .text {
+    overflow: scroll;
   }

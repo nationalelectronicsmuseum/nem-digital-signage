@@ -3,7 +3,7 @@ import marconiHome from "../assets/img/home-marconi.svg"
 import audioHome from "../assets/img/home-audio.svg"
 import telegraphHome from "../assets/img/home-telegraph.svg"
  
-const Home = () => {
+const HomeStation6 = () => {
     return (
         <div className="home">
             <div className="border">
@@ -19,4 +19,4 @@ const Home = () => {
     );
 };
  
-export default Home;
+export default HomeStation6;
