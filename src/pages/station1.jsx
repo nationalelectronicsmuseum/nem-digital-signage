@@ -1,5 +1,9 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import VoltImg from "../assets/img/volt.svg"
+import HumanBattImg from "../assets/img/human-batt.svg"
+import FaradayImg from "../assets/img/faraday.svg"
+import OrstedImg from "../assets/img/orsted.svg"
 
 function Station1() {
   return (
@@ -8,18 +12,20 @@ function Station1() {
                 <h1 className="title">National Electronics Museum</h1>
         </div>
 
+        <div className="homeLink">
         <Link to="/voltage-and-current" relative="path">
-            Voltage and Current
+            <img src={VoltImg} className="homeImg"></img>
         </Link>
         <Link to="/human-battery" relative="path">
-            Do you have the Power?
+            <img src={HumanBattImg} className="homeImg"></img>
         </Link>
         <Link to="/orsted" relative="path">
-            Orsted Experiment
+            <img src={OrstedImg} className="homeImg"></img>
         </Link>
         <Link to="/faraday" relative="path">
-            Faraday Experiment
+            <img src={FaradayImg} className="homeImg"></img>
         </Link>
+        </div>
     </div>
   )
 }

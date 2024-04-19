@@ -54,7 +54,6 @@ body {
 .homeImg {
   width: 25rem;
   height: 25rem;
-  margin: 3rem
 }
 
 .hidden {
@@ -77,3 +76,7 @@ body {
   font-size: 24pt;
 }
 
+.homeLink {
+  width: 100%;
+  overflow: scroll;
+}

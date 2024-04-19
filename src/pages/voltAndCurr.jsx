@@ -1,6 +1,6 @@
 import React from 'react'
 import Slides from "../components/slides/slides.jsx";
-import Menu from "../components/menu/menu.jsx";
+import MenuStation1 from '../components/menu/menuStation1.jsx';
 
 export default function voltAndCurr() {
   const artifact = {
@@ -24,7 +24,7 @@ export default function voltAndCurr() {
   }
   return (
     <>
-      <Menu />
+      <MenuStation1 />
       <h1 className="artifactTitle">Voltage and Current</h1>
 
       <Slides artifact={artifact}/>
