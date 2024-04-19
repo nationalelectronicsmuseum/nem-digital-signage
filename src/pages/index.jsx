@@ -13,6 +13,7 @@ const HomeStation6 = () => {
             <Link to="/audio" relative="path"><img src={audioHome} className="homeImg"></img></Link>
             <Link to="/marconi" relative="path"><img src={marconiHome} className="homeImg"></img></Link>
             <Link to="/telegraph" relative="path"><img src={telegraphHome} className="homeImg"></img></Link>
+            <Link to="/station1" relative="path"></Link>
             
             <button>ADA</button>
         </div>
