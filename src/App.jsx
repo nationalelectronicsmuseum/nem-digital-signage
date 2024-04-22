@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import { Link } from "react-router-dom";
 import "./App.css";
-import HomeStation6 from "./pages/index";
+import HomeStation from "./pages/homeStation";
 
 import Station1 from "./pages/station1";
 import VoltAndCurr from "./pages/voltAndCurr"
@@ -93,7 +93,7 @@ function App() {
         {/* Station 11*/}
 
         {/* Station 12*/}
-        <Route exact path="/" element={<HomeStation6 />} />
+        <Route exact path="/" element={<HomeStation />} />
         <Route path="/audio" element={<Audio />} />
         <Route path="/marconi" element={<Marconi />} />
         <Route path="/telegraph" element={<Telegraph />} />
