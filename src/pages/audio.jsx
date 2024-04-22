@@ -1,6 +1,6 @@
 import React from "react";
 import artifactImg from "../assets/img/home-audio.svg";
-import Menu from "../components/menu/menu.jsx";
+import MenuStation6 from "../components/menu/menuStation6";
 import Slides from "../components/slides/slides.jsx";
 
 const Audio = () => {
@@ -40,7 +40,7 @@ const Audio = () => {
 
   return (
     <div>
-      <Menu />
+      <MenuStation6 />
       <h1 className="artifactTitle">The Audio Translator</h1>
 
       <Slides artifact={artifact} artifactImg={artifactImg} />

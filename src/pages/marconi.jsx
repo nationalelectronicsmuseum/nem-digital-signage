@@ -1,6 +1,6 @@
 import artifactImg from "../assets/img/marconi.svg";
 import Slides from "../components/slides/slides.jsx";
-import Menu from "../components/menu/menu.jsx";
+import MenuStation6 from "../components/menu/menuStation6.jsx";
 
 const Marconi = () => {
   const artifact = {
@@ -72,7 +72,7 @@ const Marconi = () => {
 
   return (
     <>
-      <Menu />
+      <MenuStation6 />
 
       <h1 className="artifactTitle">The Marconi Magnetic Detector</h1>
 

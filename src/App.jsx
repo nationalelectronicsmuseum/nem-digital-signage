@@ -26,7 +26,7 @@ import MicrowaveTurntable from "./pages/microwaveTurntable"
 
 import Station5 from "./pages/station5"
 
-// import Station6 from "./pages/station6"
+import Station6 from "./pages/station6"
 import Audio from "./pages/audio";
 import Marconi from "./pages/marconi";
 import FirstBroadcast from "./pages/firstBroadcast";
@@ -72,7 +72,7 @@ function App() {
         <Route path="/station5" element={<Station5 />} />
 
         {/* Station 6 */}
-        {/* <Route path="/station6" element={<HomeStation6 />} /> */}
+        <Route path="/station6" element={<Station6 />} />
         <Route path="/marconi" element={<Marconi/>} />
         <Route path="/audio-translator" element={<Audio/>} />
         <Route path="/first-broadcast" element={<FirstBroadcast/>} />
