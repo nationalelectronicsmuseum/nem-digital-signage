@@ -369,7 +369,7 @@ export const artifact = [
   },
 
   {
-    title: "Theramin",
+    title: "Why do Microwaves Have Turntables?",
     info: [
       {
         id: 1,
@@ -385,29 +385,22 @@ export const artifact = [
       },
     ],
     description: [
-      "",
-      "",
-      "",
-      "",
+      "Microwave ovens generate electromagnetic waves (microwaves) that heat food by exciting water molecules within the food. Microwaves are invisible, so you can't see them inside a microwave oven, but their presence can be detected with neon lamps. The changing electromagnetic field from the microwaves will make charged particles move, and so the electrons in the metal legs will move creating current. This current makes the lamps glow.  The distribution of these waves inside the microwave tends to be uneven so a turntable helps rotate the food, ensuring that all parts of the dish receive relatively equal exposure to the microwaves. This results in more consistent and even cooking."
     ],
     impact:
-      "",
+      "Food in the oven absorbs microwave energy. The turntable rotates food through the high and low field intensities. Thorough cooking is the result. ",
     directions: {
       title: "How Does it Work?",
       steps: [
         {
           id: 1,
-          step: "",
-        },
-        {
-          id: 2,
-          step: "",
+          step: "Press the red button to the left of the microwave oven.",
         },
       ],
     },
-    how: "",
+    how: "Watch the neon lights on the turntable inside the microwave. They turn on and off and change in brightness as their position in the oven changes.  This is a visual demonstration of the inconsistency of the microwave energy. The distribution of microwave energy is inconsistent. This causes varying field intensities, or hot and cold spots in the oven.  A turntable is employed to reduce the likelihood of hot spots or cold spots in your food. ",
   },
-  
+
   {
     title: "",
     info: [
