@@ -402,43 +402,60 @@ export const artifact = [
   },
 
   {
-    title: "",
+    title: "Telegraph Machine - Connecting the World",
     info: [
       {
         id: 1,
-        text: "",
+        text: "Name: Telegraph Machine",
       },
       {
         id: 2,
-        text: "",
+        text: "Inventor: Samuel Morse and Alfred Vail ",
       },
       {
         id: 3,
-        text: "",
+        text: "Year of Invention: 1837 ",
+      },
+      {
+        id: 4,
+        text: "Speed: Messages transmitted in seconds ",
+      },
+      {
+        id: 5,
+        text: "Language: Morse Code (Dots and Dashes)",
+      },
+      {
+        id: 6,
+        text: "Global Connections: Linked continents, changing the way we share information worldwide ",
       },
     ],
     description: [
-      "",
+      "The telegraph transformed communication by sending messages long distance through wires, bridging gaps between people and places. Using Morse code, a series of dots and dashes, the telegraph connected the world faster than ever before. ",
       "",
       "",
       "",
     ],
     impact:
-      "",
+      "Before the telegraph, communication was slow, and important information often arrived too late. With telegraph wires stretching across continents, news could be delivered quickly, which was especially important for businesses, governments, and families waiting for important updates. The telegraph was not just a device; it was a bridge between people and places. It played a significant role in the construction of the transcontinental railroad. Its ability to transmit messages quickly and accurately over long distances played a vital role in the successful completion of this monumental engineering project, connecting the East and West coasts of the United States and making it easier to coordinate work and travel across the country. ",
     directions: {
       title: "How Does it Work?",
       steps: [
         {
           id: 1,
-          step: "",
+          step: "Push on the big black button on the telegraph key.",
         },
         {
           id: 2,
-          step: "",
+          step: "Hold then release for dashes, press and quickly release for dots.",
+        },
+        {
+          id: 3,
+          step: "Listen for the code from the sounder.",
         },
       ],
     },
-    how: "",
+    how: ["This was the earliest form of instant long-distance communication. Messages could be sent by tapping out a special code created by Samuel Morse on a telegraph key. Each letter of the alphabet has its own special sequence of dots and dashes. The name telegraph is derived from the word “tele” meaning far off and the word “graph” meaning to write. ",
+  "The telegraph's functioning relies on the transmission of electrical signals through wires and the interpretation of these signals into Morse code, enabling rapid long-distance communication in a time before telephones or modern digital communication methods existed.  When the operator presses the key, it completes an electrical circuit by connecting a battery to the telegraph wires.  This completion of the circuit sends an electrical pulse along the wires to the receiving end, where it triggers the sounder.  The operator at the receiving end listens to the clicks or beeps produced by the sounder and interprets the Morse code to understand the message. "],
   },
   {
     title: "",
