@@ -303,9 +303,9 @@ export const artifact = [
       },
     ],
     description: [
-      "",
-      "",
-      "",
+      "Static electricity is a form of electricity resulting from the imbalance between positive and negative charges within a material that occurs when electrons (the negatively charged particles in an atom) move from one material to another. If the electron-receiving material is either isolated or not an electrical conductor, it tends to hold on to the electrons, resulting in a buildup of electric charge. Since this charge is not moving, it is referred to as static electricity. When conditions allow the built-up charge to flow, the surplus of static electricity is discharged, and it becomes current electricity. ",
+      "Static Electricity is a phenomenon that occurs when certain materials rub against each other, causing electrons to move from one surface to another. This movement creates an imbalance of electric charges, leading to the buildup of static electricity. ",
+      "Thunderstorms are nature's electrical generators, producing immense static charges as water droplets and ice particles collide within clouds. When the buildup of static electricity becomes too great, it seeks a path to the ground, resulting in lightning strikes. These bolts of electricity can reach temperatures hotter than the surface of the sun and unleash destructive power upon anything in their path. ",
       "",
     ],
     impact:[
@@ -329,7 +329,7 @@ export const artifact = [
   },
 
   {
-    title: "",
+    title: "Polarization Experiment",
     info: [
       {
         id: 1,
@@ -345,31 +345,31 @@ export const artifact = [
       },
     ],
     description: [
-      "",
+      "This experiment demonstrates how filters allow electromagnetic waves oscillating in a certain direction to pass through while blocking others, showcasing the effects of polarization on electromagnetic waves.  With polarized sunglasses, the filter creates vertical openings for light. Only light rays that approach your eyes vertically can fit through those openings. The lenses block all the horizontal light waves bouncing off a smooth pond or a shiny car hood, for instance.  This is a similar concept to polarization on electromagnetic waves. ",
       "",
       "",
       "",
     ],
     impact:
-      "",
+      "Polarization is what lets the mesh screen in your microwave oven door block hazardous energy from escaping. The wires of the mesh are vertical and horizontal blocking waves moving in either direction. ",
     directions: {
       title: "How Does it Work?",
       steps: [
         {
           id: 1,
-          step: "",
+          step: "Press the red button.",
         },
         {
           id: 2,
-          step: "",
+          step: "Slowly rotate the screen wheel while watching the two meters. The left horn is transmitting, and the right horn is receiving.  ",
         },
       ],
     },
-    how: "",
+    how: "Look at the meters to see how much electromagnetic energy is being transmitted and how much is received. Do the amounts change as the screen wheel moves? The open wire screen can reflect or transmit electromagnetic waves which are vertically polarized. Some waves pass through the spaces between the wires, while other waves are reflected back off the wires. For vertically polarized waves, the screen blocks most effectively when its wires are also vertical. ",
   },
 
   {
-    title: "",
+    title: "Theramin",
     info: [
       {
         id: 1,
@@ -407,6 +407,7 @@ export const artifact = [
     },
     how: "",
   },
+  
   {
     title: "",
     info: [

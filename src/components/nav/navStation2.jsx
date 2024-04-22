@@ -6,6 +6,9 @@ const NavStation2 = () => {
   return (
     <>
       <div className="nav menu">
+      <Link to="/station2" relative="path" className="nav-links">
+            Home
+        </Link>
       <Link to="/jumping-wires" relative="path" className="nav-links">
             Jumping Wires
         </Link>

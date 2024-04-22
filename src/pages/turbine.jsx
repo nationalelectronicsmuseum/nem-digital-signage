@@ -1,5 +1,5 @@
 import React from 'react'
-import Slides from '../components/slides/slides'
+// import Slides from '../components/slides/slides'
 import MenuStation2 from '../components/menu/menuStation2'
 
 export default function Turbine() {
@@ -7,7 +7,8 @@ export default function Turbine() {
     <div>
       <MenuStation2 />
       <h1 className="artifactTitle">Manual Turbine</h1>
-      <Slides />
+      <p>In Progress</p>
+      {/* <Slides /> */}
     </div>
   )
 }

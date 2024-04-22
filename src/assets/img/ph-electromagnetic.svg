@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-1116.49,0)">
+        <g id="electromagnetic" transform="matrix(1,0,0,1,1116.49,0)">
+            <rect x="0" y="0" width="500" height="500" style="fill:none;"/>
+            <g transform="matrix(1,0,0,1,-528.28,-11.2422)">
+                <text x="576px" y="432.805px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:36px;">V<tspan x="599.361px 609.363px " y="432.805px 432.805px ">is</tspan>ible Electromagnetic</text>
+                <g transform="matrix(36,0,0,36,835.11,469.983)">
+                </g>
+                <text x="722.382px" y="469.983px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:36px;">W<tspan x="755.024px 775.046px " y="469.983px 469.983px ">av</tspan>es</text>
+            </g>
+            <g transform="matrix(1,0,0,1,-559,0)">
+                <path d="M1031,115L1031,285C1031,331.913 992.913,370 946,370L672,370C625.087,370 587,331.913 587,285L587,115C587,68.087 625.087,30 672,30L946,30C992.913,30 1031,68.087 1031,115Z" style="fill:rgb(235,235,235);"/>
+            </g>
+        </g>
+    </g>
+</svg>
