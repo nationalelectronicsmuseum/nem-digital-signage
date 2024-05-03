@@ -1,27 +1,33 @@
 import React from "react";
+import "../speech/speech.css"
 
 function Speech({ text }) {
   const synth = window.speechSynthesis;
-  const utterance = new SpeechSynthesisUtterance(text);
+  const utter = new SpeechSynthesisUtterance(text);
 
   const speakStart = () => {
-    synth.speak(utterance);
-      
+    synth.speak(utter);
   };
 
-  const speakPause = (event) => {
-    event.onpause(utterance)
-    console.log("pause");
-    
+  const speakPause = () => {
+    synth.pause();
+    console.log("utter", utter);
   };
- 
+
+  const speakResume = () => {
+    synth.resume();
+  };
+
   return (
     <div>
       <button onClick={speakStart} className="speech">
         <i className="fa-solid fa-volume-high"></i>
       </button>
-      <button onClick={() => speakPause(event)} className="speech">
+      <button onClick={speakPause} className="speech">
         <i className="fa-regular fa-circle-pause"></i>
+      </button>
+      <button onClick={speakResume} className="speech">
+        <i className="fa-regular fa-circle-play"></i>
       </button>
     </div>
   );

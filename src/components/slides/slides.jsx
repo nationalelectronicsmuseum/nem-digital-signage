@@ -14,7 +14,6 @@ const Slides = ({ artifact, artifactImg }) => {
       <Swiper className="mySwiper">
       
         <SwiperSlide>
-        <FontSize />
           <div className="bg">
             
             <div className="left description">
@@ -44,6 +43,7 @@ const Slides = ({ artifact, artifactImg }) => {
         <SwiperSlide>
           <div className="bg">
             <div className="left">
+            <Speech text={artifact.impact}/>
               <h3>The Impact</h3>
               <p className="description">{artifact.impact}</p>
             </div>
@@ -55,6 +55,7 @@ const Slides = ({ artifact, artifactImg }) => {
         <SwiperSlide>
           <div className="bg">
             <div className="left">
+            <Speech text={artifact.directions}/>
               <h3>{artifact.directions.title}</h3>
               <ol className="swipe-directions">
                 {artifact.directions.steps.map((el) => {
@@ -69,6 +70,7 @@ const Slides = ({ artifact, artifactImg }) => {
 
             <div className="right">
               <h3>What's Going On</h3>
+              <Speech text={artifact.how}/>
               <p className="description">{artifact.how}</p>
             </div>
           </div>
