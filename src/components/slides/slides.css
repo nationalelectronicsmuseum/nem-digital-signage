@@ -5,7 +5,7 @@
   
   .swiper-slide {
     text-align: center;
-    font-size: 18px;
+    font-size: 30px;
     /* background: #fff; */
   
     /* Center slide text vertically */
@@ -57,7 +57,8 @@
   }
 
   .swipe-mention {
-    color: gray;
+    color: lightgray;
+    margin: 0;
   }
 
   .description {
@@ -67,4 +68,5 @@
 
   .text {
     overflow: scroll;
+    font-family: 'opendyslexicmonoregular';
   }

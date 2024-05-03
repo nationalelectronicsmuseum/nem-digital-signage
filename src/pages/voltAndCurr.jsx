@@ -6,9 +6,9 @@ export default function voltAndCurr() {
   const artifact = {
     title: "Voltage and Current",
     info: [
-      {id: 1, text: "Voltage and Current"}
+      {id: 1, text: ""}
     ],
-    description: ["Voltage is sort of like electrical pressure. A current is a flow of electric charge. It`s best to think of it like this: voltage CAUSES electric current, just like water pressure causes water to flow.",
+    description: ["Voltage is sort of like electrical pressure. A current is a flow of electric charge. It is best to think of it like this: voltage CAUSES electric current, just like water pressure causes water to flow. ",
     
     "Voltage is the invisible energy that urges electricity to move from one place to another. Voltage and Current work hand in hand. Voltage provides the push, while Current keeps the electricity flowing. Together, they create the energy that powers our gadgets and lights up our world."],
     impact: "Understanding Voltage and Current helps engineers and scientists design safer and more efficient electrical systems. From the tiniest circuits to the grandest power grids, these concepts are crucial for creating technology that works reliably and safely.",

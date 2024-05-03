@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import './fontSize.css'
 
-export default function FontSize({font}) {
-    const [fontPt, setFontPt] = useState(font)
+function FontSize() {
+    const [fontPt, setFontPt] = useState(16)
     
     const increaseSize = () => {
         if(fontPt !== 20) {
@@ -22,10 +22,13 @@ export default function FontSize({font}) {
         console.log(fontPt)
     }
 
+    const font = {
+        fontSize :fontPt
+    }
 
   return (
     <div>
-        <h1>{fontPt}</h1>
+        <h1>Hello</h1>
         <div>
         <button className="btn" onClick={increaseSize}> + </button>
         <button className="btn" onClick={decreaseSize}> - </button>
@@ -33,3 +36,5 @@ export default function FontSize({font}) {
     </div>
   )
 }
+
+export default FontSize
