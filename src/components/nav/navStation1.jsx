@@ -21,6 +21,9 @@ const NavStation1 = () => {
         <Link to="/faraday" relative="path" className="nav-links">
         Faraday Experiment
         </Link>
+        <Link to="/" relative="path" className="nav-links">
+          <h6>Hub Station</h6>
+        </Link>
       </div>
       
       

@@ -21,6 +21,9 @@ const NavStation2 = () => {
         <Link to="/manual-turbine" relative="path" className="nav-links">
             Manual Turbine
         </Link>
+        <Link to="/" relative="path" className="nav-links">
+          <h6>Hub Station</h6>
+        </Link>
       </div>
     </>
   );

@@ -21,6 +21,9 @@ function navStation6() {
         <Link to="/evolution-of-sound" relative="path" className="nav-links">
           Evolution of Sound
         </Link>
+        <Link to="/" relative="path" className="nav-links">
+          <h6>Hub Station</h6>
+        </Link>
         </div>
     </div>
   )

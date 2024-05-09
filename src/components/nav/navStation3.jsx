@@ -18,6 +18,9 @@ const NavStation3 = () => {
         <Link to="/polarization" relative="path" className="nav-links">
             Polarization
         </Link>
+        <Link to="/" relative="path" className="nav-links">
+          <h6>Hub Station</h6>
+        </Link>
         </div>   
     </>
   )

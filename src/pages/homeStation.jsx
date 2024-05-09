@@ -10,8 +10,6 @@ function HomeStation() {
         <h1 className="title">National Electronics Museum</h1>
       </div>
 
-      <FontSize />
-
       <ul>
         <li><Link to="/station1" relative="path" className="homeImg">Station 1</Link></li>
         <li><Link to="/station2" relative="path" className="homeImg">Station 2</Link></li>

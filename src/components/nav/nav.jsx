@@ -9,15 +9,6 @@ const Nav = () => {
         <Link to="/" relative="path" className="nav-links">
           Home
         </Link>
-        <Link to="/marconi" relative="path" className="nav-links">
-          The Marconi Machine
-        </Link>
-        <Link to="/audio" relative="path" className="nav-links">
-          Audio
-        </Link>
-        <Link to="/telegraph" relative="path" className="nav-links">
-          Telegraph
-        </Link>
       </div>
       
       
