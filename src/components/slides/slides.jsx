@@ -18,6 +18,8 @@ const Slides = ({ artifact, artifactImg }) => {
     synth.cancel();
   };
 
+  const directionsText = artifact.directions.steps.map(x => x.step).join(' ')
+  
   return (
     <div>
       <Swiper
@@ -73,7 +75,8 @@ const Slides = ({ artifact, artifactImg }) => {
         <SwiperSlide>
           <div className="bg">
             <div className="left">
-              <Speech text={artifact.directions} />
+
+              <Speech text={directionsText} />
               <h3>{artifact.directions.title}</h3>
               <ol className="swipe-directions">
                 {artifact.directions.steps.map((el) => {

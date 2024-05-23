@@ -15,9 +15,9 @@ export default function voltAndCurr() {
     directions: {
       title: "How it Works",
       steps: [
-        {id: 1, step: "Turn knob clockwise and watch the meters"}, 
-        {id: 2, step: "Flip the switch and turn on light bulb while watching meters"},
-        {id: 3, step: "Rotate the knob to change voltage"}
+        {id: 1, step: "Turn knob clockwise and watch the meters."}, 
+        {id: 2, step: "Flip the switch and turn on light bulb while watching meters."},
+        {id: 3, step: "Rotate the knob to change voltage."}
       ]
     },
     how: "By flipping the switch, you close the circuit and allow the current to flow in the circuit`s path. Without the force of the voltage and the path of a circuit, current will not flow. Voltage pushes current, forcing it to flow through a closed circuit and light the bulb."
