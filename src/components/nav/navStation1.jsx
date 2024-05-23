@@ -6,7 +6,7 @@ const NavStation1 = () => {
   return (
     <div>
       <div className="nav menu">
-        <Link to="/station1" relative="path" className="nav-links">
+        <Link to="/station1" relative="path" className="nav-links" onClick={() => window.speechSynthesis.cancel()}>
           Home
         </Link>
         <Link to="/voltage-and-current" relative="path" className="nav-links">

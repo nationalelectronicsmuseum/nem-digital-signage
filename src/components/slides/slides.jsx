@@ -9,7 +9,7 @@ import "swiper/css/navigation";
 
 import "./slides.css";
 import Speech from "../speech/speech";
-import FontSize from "../fonts/fontSize";
+// import FontSize, {font} from "../fonts/fontSize";
 
 const Slides = ({ artifact, artifactImg }) => {
   const synth = window.speechSynthesis;
@@ -24,19 +24,24 @@ const Slides = ({ artifact, artifactImg }) => {
         pagination={{
           type: 'progressbar',
         }}
-        modules={[Pagination, Navigation]}
+        modules={[Pagination]}
         className="mySwiper"
         onSlideChange={speakStop}
       >
         <SwiperSlide>
           <div className="bg">
+            
             <div className="left description">
+
               <h6 className="swipe-mention">
                 <i className="fa-solid fa-angles-left"></i>Swipe
                 <i className="fa-solid fa-angles-right"></i>
               </h6>
+
               <Speech text={artifact.description} />
+
               <p>{artifact.description}</p>
+              
               <ul>
                 {artifact.info.map((el) => {
                   return (
