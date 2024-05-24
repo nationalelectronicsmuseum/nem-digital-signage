@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import './fontSize.css'
 
-function FontSize() {
-    const [fontPt, setFontPt] = useState(16)
+function FontSize({text}) {
+    const [fontPt, setFontPt] = useState(32)
     
     const increaseSize = () => {
-        if(fontPt !== 20) {
+        if(fontPt !== 40) {
             setFontPt(fontPt + 2)
         } else {
             
@@ -14,7 +14,7 @@ function FontSize() {
     }
 
     const decreaseSize = () => {
-        if(fontPt === 10) {
+        if(fontPt === 28) {
             return ''
         } else {
             setFontPt(fontPt - 2)
@@ -28,11 +28,13 @@ function FontSize() {
 
   return (
     <div>
-        <h1>Hello</h1>
         <div>
         <button className="btn" onClick={increaseSize}> + </button>
         <button className="btn" onClick={decreaseSize}> - </button>
         </div>
+
+        <p style={font}>{text}</p>
+
     </div>
   )
 }

@@ -9,17 +9,20 @@ import "swiper/css/navigation";
 
 import "./slides.css";
 import Speech from "../speech/speech";
-// import FontSize, {font} from "../fonts/fontSize";
+import FontSize from "../fonts/fontSize";
 
 const Slides = ({ artifact, artifactImg }) => {
+
   const synth = window.speechSynthesis;
   const speakStop = () => {
     console.log("Speech has stopped");
     synth.cancel();
   };
 
+
+
   const directionsText = artifact.directions.steps.map(x => x.step).join(' ')
-  
+
   return (
     <div>
       <Swiper
@@ -42,7 +45,9 @@ const Slides = ({ artifact, artifactImg }) => {
 
               <Speech text={artifact.description} />
 
-              <p>{artifact.description}</p>
+              <FontSize text={artifact.description}/>
+
+              {/* <p>{artifact.description}</p> */}
               
               <ul>
                 {artifact.info.map((el) => {
@@ -66,7 +71,8 @@ const Slides = ({ artifact, artifactImg }) => {
             <div className="left">
               <Speech text={artifact.impact} />
               <h3>The Impact</h3>
-              <p className="description">{artifact.impact}</p>
+              <FontSize text={artifact.impact}/>
+              {/* <p className="description">{artifact.impact}</p> */}
             </div>
             <div className="right"></div>
           </div>
@@ -92,8 +98,8 @@ const Slides = ({ artifact, artifactImg }) => {
             <div className="right">
               <Speech text={artifact.how} />
               <h3>What's Going On</h3>
-
-              <p className="description">{artifact.how}</p>
+              <FontSize text={artifact.how}/>
+              {/* <p className="description">{artifact.how}</p> */}
             </div>
           </div>
         </SwiperSlide>
