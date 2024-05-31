@@ -20,6 +20,11 @@
     height: 100%;
     object-fit: cover;
   }
+
+  .fg {
+    display:flex;
+    flex-direction: column;
+  }
   .bg {
     /* background: coral; */
     width: 100%;
@@ -44,7 +49,7 @@
   .left {
     font-size: 24pt;
     text-align: left;
-    line-height: 40pt;
+    /* line-height: 40pt; */
   }
   .right{
     flex-direction:column-reverse;
@@ -58,7 +63,7 @@
   }
 
   .swipe-mention {
-    color: lightgray;
+    color: gray;
     margin: 0;
   }
 
@@ -70,4 +75,8 @@
   .text {
     overflow: scroll;
     font-family: 'opendyslexicmonoregular';
+  }
+
+  h3 {
+    margin: .25em 0;
   }

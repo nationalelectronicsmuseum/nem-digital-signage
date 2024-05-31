@@ -8,6 +8,8 @@ function Speech({ text }) {
 
   const synth = window.speechSynthesis;
   const utter = new SpeechSynthesisUtterance(text);
+  utter.pitch = 1
+  utter.rate = 1.8
 
   const speakControl = () => {
     if (pause == false && stop == true) {
