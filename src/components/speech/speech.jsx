@@ -1,74 +1,112 @@
 import React, { useState } from "react";
 import "../speech/speech.css";
+import { icon } from "@fortawesome/fontawesome-svg-core";
 
-function Speech({ text }) {
+function Speech({ text, title }) {
   const [pause, setPause] = useState(false);
   const [stop, setStop] = useState(true);
-  const [playColor, setPlayColor] = useState("black")
+  // const [playColor, setPlayColor] = useState("")
+
+  const pauseIcon = "fa-regular fa-circle-pause";
+  const playIcon = "fa-regular fa-circle-play";
+  const [audioIcon, setAudioIcon] = useState(playIcon);
 
   const synth = window.speechSynthesis;
   const utter = new SpeechSynthesisUtterance(text);
-  utter.pitch = 1
-  utter.rate = 1.8
+
+  utter.pitch = 1;
+  utter.rate = 1.8;
+
+  const iconChange = () => {
+    console.log(audioIcon == pauseIcon);
+    // let pause = pauseIcon
+    if (audioIcon !== pauseIcon) {
+      setAudioIcon("fa-regular fa-circle-pause");
+      console.log("icon false", audioIcon);
+    } else {
+      setAudioIcon("fa-regular fa-circle-play");
+      console.log("icon true", audioIcon);
+    }
+  };
 
   const speakControl = () => {
+    //Starts speech
     if (pause == false && stop == true) {
       setStop(false);
       speakStart();
-    } else if (pause == false) {
+      console.log("Speech starting");
+
+      //pauses speech
+    } else if (pause == false && stop == false) {
       setPause(true);
       speakPause();
+      console.log("Speech paused");
+
+      //resumes speech
     } else if (pause == true) {
       setPause(false);
       speakResume();
+      setAudioIcon(playIcon);
+      console.log("Speech resuming");
     }
+
+    console.log(pause);
   };
 
   const speakStart = () => {
-    console.log("play");
     synth.cancel();
     synth.speak(utter);
-    setPlayColor("green")
   };
 
   const speakPause = () => {
-    console.log("pause");
-    if(pause == false) {
+    if (pause == false) {
       synth.pause();
-      setPause(true)
     } else {
-      speakResume()
-      setPause(false)
+      speakResume();
+      setPause(false);
     }
-    
   };
 
   const speakResume = () => {
-    console.log("resume");
     synth.resume();
   };
 
   const speakStop = () => {
-    // setStop(true);
-    console.log("stop");
+    setStop(true);
+    setPause(false);
     synth.cancel();
+    console.log("Speech stopped");
   };
 
-  const color = {
-    color : playColor
-  }
+  // const color = {
+  //   color: playColor,
+  // };
 
   return (
     <div>
-      <button onClick={speakStart} className="speech">
-        <i style={color} className="fa-regular fa-circle-play" data-fa-transform="grow-20"></i>
+      {/* <button onClick={speakControl} className="speech">
+        <i className={audioIcon} data-fa-transform="grow-20"></i>
       </button>
-      <button onClick={speakPause} className="speech">
-        <i className="fa-regular fa-circle-pause" data-fa-transform="grow-20"></i>
-      </button>
+
       <button onClick={speakStop} className="speech">
-        <i className="fa-regular fa-circle-stop" data-fa-transform="grow-20"></i>
-      </button>
+        <i
+          className="fa-regular fa-circle-stop"
+          data-fa-transform="grow-20"
+        ></i>
+      </button> */}
+
+      <div className="audioControl">
+        <h4 className="accs">{title}</h4>
+        <button onClick={speakControl} className="speech">
+          <i className={audioIcon} data-fa-transform="grow-20"></i>
+        </button>
+        <button onClick={speakStop} className="speech">
+          <i
+            className="fa-regular fa-circle-stop"
+            data-fa-transform="grow-20"
+          ></i>
+        </button>
+      </div>
     </div>
   );
 }

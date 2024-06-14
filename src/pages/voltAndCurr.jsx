@@ -1,7 +1,7 @@
 import React from 'react'
 import Slides from "../components/slides/slides.jsx";
 import MenuStation1 from '../components/menu/menuStation1.jsx';
-import FontSize from '../components/fonts/fontSize.jsx';
+import Accessibility from '../components/accessibility/accessibility.jsx';
 
 export default function voltAndCurr() {
   const artifact = {
@@ -23,13 +23,23 @@ export default function voltAndCurr() {
     },
     how: "By flipping the switch, you close the circuit and allow the current to flow in the circuit`s path. Without the force of the voltage and the path of a circuit, current will not flow. Voltage pushes current, forcing it to flow through a closed circuit and light the bulb."
   }
+
+  
   return (
-    <>
+    <div>
       <MenuStation1 />
-      
-      <h1 className="artifactTitle">Voltage and Current</h1>
+      <div className="sectionhead">
+        <div className="sectiontitle sectionleft">
+          <h1 className="artifactTitle">Voltage and Current</h1>
+        </div>
+
+        <div className="sectiontitle sectionright">
+          <Accessibility text={artifact}/>
+        </div>
+      </div>
 
       <Slides artifact={artifact}/>
-    </>
+      
+    </div>
   )
 }

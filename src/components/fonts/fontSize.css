@@ -3,38 +3,14 @@
     height: 30px;
     border: 1px solid gray;
     border-radius: 5px;
-    text-align: center;
 }
 
 .def {  
-    font-size: 16pt;
+    font-size: 10pt;
 }
 .med {  
     font-size: 18pt;
 }
 .lrg {  
-    font-size: 20pt;
-}
-
-.hide{
-    display: none;
-}
-
-.show {
-    display:block;
-    position:relative;
-}
-
-.qdbp {
-    border: 1px solid lightgray;
-    padding: 5px;
-    font-size: 16pt;
-}
-
-.selected{
-    color: lightslategray;
-}
-
-.noselected {
-    color: black;
+    font-size: 24pt;
 }

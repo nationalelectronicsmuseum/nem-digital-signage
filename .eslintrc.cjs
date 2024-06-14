@@ -19,8 +19,10 @@ module.exports = {
     ],
     "react/prop-types": [
     <enabled>, 
-      { ignore: <ignore>, 
-        customValidators: <customValidator>, 
-          skipUndeclared: <skipUndeclared> }]
+      { 
+      ignore: <ignore>, 
+      customValidators: <customValidator>, 
+      skipUndeclared: <skipUndeclared> 
+      }]
   },
 }

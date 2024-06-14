@@ -33,9 +33,8 @@ function MenuStation1() {
           <line x1="10" y1="75" x2="90" y2="75" className="line three"></line>
         </svg>
       </button>
-      {/* <MenuButton className="burger"/> */}
         <div className="background"></div>
-      <div className="shade"></div>
+      {/* <div className="shade"></div> */}
       <div className="menu" onClick={toggleMenu}>
         <NavStation1 />
       </div>

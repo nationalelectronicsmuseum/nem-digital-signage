@@ -20,8 +20,12 @@ const Slides = ({ artifact, artifactImg }) => {
 
   const directionsText = artifact.directions.steps.map((x) => x.step).join(" ");
 
+  const clicked = () => {
+    console.log("clicked")
+  }
+
   return (
-    <div>
+    <div className="swiperMain">
       <Swiper
         pagination={{
           type: "progressbar",
@@ -40,9 +44,9 @@ const Slides = ({ artifact, artifactImg }) => {
               <div className="left description">
                 
 
-                <FontSize text={artifact.description} />
+                {/* <FontSize text={artifact.description} /> */}
 
-                {/* <p>{artifact.description}</p> */}
+                <p>{artifact.description}</p>
 
                 <ul>
                   {artifact.info.map((el) => {
@@ -57,6 +61,8 @@ const Slides = ({ artifact, artifactImg }) => {
 
               <div className="right">
                 <img src={artifactImg}></img>
+                
+              <button onClick={clicked} >"Click Me"</button>
               </div>
             </div>
           </div>
@@ -66,9 +72,9 @@ const Slides = ({ artifact, artifactImg }) => {
           <div className="bg">
             <div className="left">
               <h3>The Impact</h3> 
-              <FontSize text={artifact.impact} />
+              {/* <FontSize text={artifact.impact} /> */}
               
-              {/* <p className="description">{artifact.impact}</p> */}
+              <p className="description">{artifact.impact}</p>
             </div>
             <div className="right"></div>
           </div>
@@ -98,8 +104,8 @@ const Slides = ({ artifact, artifactImg }) => {
           <div className="bg">
             <div className="left">
               <h3>What's Going On</h3>
-              <FontSize text={artifact.how} />
-              {/* <p className="description">{artifact.how}</p> */}
+              {/* <FontSize text={artifact.how} /> */}
+              <p className="description">{artifact.how}</p>
             </div>
           </div>
         </SwiperSlide>

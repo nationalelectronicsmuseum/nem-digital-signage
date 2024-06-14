@@ -85,3 +85,22 @@ body {
   width: 100%;
   overflow: scroll;
 }
+
+.sectionhead {
+  /* border:1px solid black; */
+  width: 100%;
+  height: auto;
+  display:flex;
+  flex-direction: row;
+  z-index: 7;
+}
+
+.sectionleft, 
+.sectionright {
+  width: 49%;
+}
+
+.sectionright {
+  flex-direction: row-reverse;
+  text-align: right;
+}

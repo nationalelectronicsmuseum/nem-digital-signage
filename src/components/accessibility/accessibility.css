@@ -1,0 +1,45 @@
+
+.hide{
+    display: none;
+}
+
+.show {
+    display:block;
+    width: 100%
+}
+
+.qdbp {
+    border: 1px solid lightgray;
+    padding: 5px;
+    font-size: 16pt;
+    cursor: pointer;
+    align-self: flex-end;
+    z-index: 5;
+}
+
+.selected{
+    color: lightslategray;
+}
+
+.noselected {
+    color: black;
+}
+
+.qp {
+    /* display: flex;
+    justify-content: right;
+    flex-direction:column; */
+    position:absolute;
+    right: 60px;
+    z-index: 2;
+    /* border: 1px solid gray; */
+    background-color: aliceblue;
+}
+
+.audioControl {
+    margin-bottom: 10px;;
+}
+
+.accs {
+    margin: 0;
+}
