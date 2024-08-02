@@ -3,6 +3,11 @@ import { Link } from "react-router-dom";
 import "./nav.css";
 
 function navStation6() {
+
+  const cancelSpeech = () => {
+    window.speechSynthesis.cancel()
+  }
+  
   return (
     <div>
         <div className="nav menu">

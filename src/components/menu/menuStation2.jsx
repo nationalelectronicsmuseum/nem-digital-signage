@@ -35,7 +35,7 @@ function MenuStation2() {
       </button>
       {/* <MenuButton className="burger"/> */}
         <div className="background"></div>
-      <div className="shade"></div>
+      {/* <div className="shade"></div> */}
       <div className="menu" onClick={toggleMenu}>
         <NavStation2 />
       </div>

@@ -86,6 +86,12 @@ body {
   overflow: scroll;
 }
 
+.btnNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .sectionhead {
   /* border:1px solid black; */
   width: 100%;

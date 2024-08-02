@@ -2,6 +2,8 @@ import React from "react";
 import artifactImg from "../assets/img/home-audio.svg";
 import MenuStation6 from "../components/menu/menuStation6";
 import Slides from "../components/slides/slides.jsx";
+import Accessibility from '../components/accessibility/accessibility.jsx';
+
 
 const Audio = () => {
   const artifact = {
@@ -41,8 +43,15 @@ const Audio = () => {
   return (
     <div>
       <MenuStation6 />
-      <h1 className="artifactTitle">The Audio Translator</h1>
+      <div className="sectionhead">
+        <div className="sectiontitle sectionleft">
+          <h1 className="artifactTitle">The Audio Translator</h1>
+        </div>
 
+        <div className="sectiontitle sectionright">
+          <Accessibility text={artifact}/>
+        </div>
+      </div>
       <Slides artifact={artifact} artifactImg={artifactImg} />
     </div>
   );

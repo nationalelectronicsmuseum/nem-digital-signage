@@ -24,7 +24,7 @@ function Speech({ text, title }) {
       setAudioIcon("fa-regular fa-circle-pause");
       console.log("icon false", audioIcon);
     } else {
-      setAudioIcon("fa-regular fa-circle-play");
+      setAudioIcon("fa-regular fa-circle-play fa-5x");
       console.log("icon true", audioIcon);
     }
   };
@@ -98,12 +98,11 @@ function Speech({ text, title }) {
       <div className="audioControl">
         <h4 className="accs">{title}</h4>
         <button onClick={speakControl} className="speech">
-          <i className={audioIcon} data-fa-transform="grow-20"></i>
+          <i className="fa-regular fa-circle-play fa-5x" ></i>
         </button>
         <button onClick={speakStop} className="speech">
           <i
-            className="fa-regular fa-circle-stop"
-            data-fa-transform="grow-20"
+            className="fa-regular fa-circle-stop fa-5x"
           ></i>
         </button>
       </div>

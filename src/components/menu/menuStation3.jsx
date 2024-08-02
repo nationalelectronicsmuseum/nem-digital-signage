@@ -35,7 +35,7 @@ export default function menuStation3() {
         </button>
         {/* <MenuButton className="burger"/> */}
           <div className="background"></div>
-        <div className="shade"></div>
+        {/* <div className="shade"></div> */}
         <div className="menu" onClick={toggleMenu}>
           <NavStation3 />
         </div>
