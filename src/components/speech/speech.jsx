@@ -102,8 +102,7 @@ function Speech({ text, title }) {
         </button>
         <button onClick={speakStop} className="speech">
           <i
-            className="fa-regular fa-circle-stop fa-5x"
-          ></i>
+            className="fa-regular fa-circle-stop fa-5x"></i>
         </button>
       </div>
     </div>

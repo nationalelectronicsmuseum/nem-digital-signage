@@ -1,9 +1,9 @@
-import {useState, createContext, useContext, React} from 'react'
+import {createContext} from 'react'
+
+export const SizeFont = createContext(24)
+
+export const SpaceFont =  createContext(18)
 
 
 
-export const FontSize =  createContext(24)
-
-
-
-export default FontSize
+export default {SizeFont, SpaceFont}

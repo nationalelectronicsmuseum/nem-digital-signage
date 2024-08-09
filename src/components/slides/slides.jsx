@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useContext} from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -9,7 +9,6 @@ import "swiper/css/navigation";
 
 import "./slides.css";
 import Speech from "../speech/speech";
-import FontSize from "../fonts/fontSize";
 
 const Slides = ({ artifact, artifactImg }) => {
   const synth = window.speechSynthesis;

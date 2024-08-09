@@ -13,7 +13,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
+* {
+  box-sizing: border-box;
+}
 
 /* * {
   box-sizing: border-box;
@@ -37,6 +39,7 @@ h1 {
 body {
   background-image: url('./assets/img/bg-opacity.png');
   background-size: cover;
+  background-repeat: repeat;
   overflow: hidden;
 }
 
@@ -82,8 +85,11 @@ body {
 }
 
 .homeLink {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 100%;
-  overflow: scroll;
+  justify-content: space-around;
 }
 
 .btnNav {
@@ -109,4 +115,55 @@ body {
 .sectionright {
   flex-direction: row-reverse;
   text-align: right;
+}
+
+@media screen and (max-width: 1700px){
+
+  .homeImg {
+    height: 25rem;
+    width: 18rem;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .homeImg {
+    height: 15rem;
+    width: 15rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 2em;
+  }
+  .homeImg {
+    height: 15rem;
+    width: 15rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .homeImg {
+    height: 14rem;
+    width: 14rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .homeImg {
+    height: 14rem;
+    width: 14rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .title {
+    font-size: 1.2em;
+    padding:0;
+  }
+
+  .homeImg {
+    height: 14rem;
+    width: 14rem;
+  }
 }
