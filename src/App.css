@@ -3,7 +3,7 @@
   max-width: 1920px;
   min-width: 400px;
   padding: 2rem;
-  /* height: 1080px; */
+  height: 1080px;
   max-height: fit-content;
   min-height: 500px;
 }
