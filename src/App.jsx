@@ -38,6 +38,11 @@ import Telegraph from "./pages/telegraph";
 import Station8 from "./pages/station8"
 import VacuumTube from "./pages/vacuumTube"
 
+import Station11 from "./pages/station11";
+import Station12 from "./pages/station12";
+import Station10 from "./pages/station10";
+import Station9 from "./pages/station9";
+
 function App() {
   
 
@@ -87,12 +92,18 @@ function App() {
         <Route path="/vacuum-tubes" element={<VacuumTube/>} />
 
         {/* Station 9 */}
+        <Route path="/station9" element={<Station9 />} />
 
         {/* Station 10 */}
+        <Route path="/station10" element={<Station10 />} />
 
         {/* Station 11*/}
+        <Route path="/station11" element={<Station11 />} />
 
         {/* Station 12*/}
+        <Route path="/station12" element={<Station12 />} />
+
+
         <Route exact path="/" element={<HomeStation />} />
         <Route path="/audio" element={<Audio />} />
         <Route path="/marconi" element={<Marconi />} />

@@ -5,7 +5,7 @@ import { icon } from "@fortawesome/fontawesome-svg-core";
 function Speech({ text, title }) {
   const [pause, setPause] = useState(false);
   const [stop, setStop] = useState(true);
-  // const [playColor, setPlayColor] = useState("")
+  const [playColor, setPlayColor] = useState("green")
 
   const pauseIcon = "fa-regular fa-circle-pause";
   const playIcon = "fa-regular fa-circle-play";
@@ -15,7 +15,17 @@ function Speech({ text, title }) {
   const utter = new SpeechSynthesisUtterance(text);
 
   utter.pitch = 1;
-  utter.rate = 1.8;
+  utter.rate = 1.2;
+
+  const changePlay = () => {
+    if(audioIcon === playIcon) {
+      console.log(playIcon)
+      setAudioIcon(pauseIcon)
+    } else {
+      console.log(pauseIcon)
+      setAudioIcon(playIcon)
+    }
+  }
 
   const iconChange = () => {
     console.log(audioIcon == pauseIcon);
@@ -95,15 +105,18 @@ function Speech({ text, title }) {
         ></i>
       </button> */}
 
+
       <div className="audioControl">
         <h4 className="accs">{title}</h4>
         <button onClick={speakControl} className="speech">
-          <i className="fa-regular fa-circle-play fa-5x" ></i>
+          <i className={playIcon} ></i>
         </button>
         <button onClick={speakStop} className="speech">
           <i
             className="fa-regular fa-circle-stop fa-5x"></i>
         </button>
+
+        <button onClick={changePlay}> Click please</button>
       </div>
     </div>
   );
