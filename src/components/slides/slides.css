@@ -31,7 +31,7 @@
   .bg {
     /* background: coral; */
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     display:flex;
     flex-direction: row;
     /* overflow: scroll; */
@@ -45,7 +45,7 @@
 
   .left, .right {
     width:49.5%;
-    height: 600px;
+    height: 100vh;
     overflow: scroll;
   }
 
@@ -73,6 +73,11 @@
   .description {
     overflow:scroll;
     height: 500px;
+
+  }
+
+  .description p {
+    margin: 0;
   }
 
   .text {

@@ -41,10 +41,8 @@ const Slides = ({ artifact, artifactImg }) => {
           </h6>
             <div className="bg">
               <div className="left description">
+                <Speech text={artifact.description} />
                 
-
-                {/* <FontSize text={artifact.description} /> */}
-
                 <p>{artifact.description}</p>
 
                 <ul>

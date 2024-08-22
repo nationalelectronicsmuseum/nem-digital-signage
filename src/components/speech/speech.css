@@ -1,7 +1,7 @@
 .speech {
-    width: 8vh;
-    height: 8vh;
-    margin: 0;
+    /* width: 8vh;
+    height: 8vh; */
+    margin-right: 1vh;
     cursor: pointer;
 }
 
@@ -13,14 +13,16 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
     height: 8vh;
     width: 100%;
-    border: solid black 1px;
+    /* border: solid black 1px; */
 }
 
 .speechToggle {
     display:flex;
-    width: 50%;
+    align-items: center;
+    width: 15vw;
 }
 
 .speechBtn {
