@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -20,8 +20,8 @@ const Slides = ({ artifact, artifactImg }) => {
   const directionsText = artifact.directions.steps.map((x) => x.step).join(" ");
 
   const clicked = () => {
-    console.log("clicked")
-  }
+    console.log("clicked");
+  };
 
   return (
     <div className="swiperMain">
@@ -35,14 +35,14 @@ const Slides = ({ artifact, artifactImg }) => {
       >
         <SwiperSlide>
           <div className="fg">
-          <h6 className="swipe-mention">
-                  <i className="fa-solid fa-angles-left"></i>Swipe
-                  <i className="fa-solid fa-angles-right"></i>
-          </h6>
+            <h6 className="swipe-mention">
+              <i className="fa-solid fa-angles-left"></i>Swipe
+              <i className="fa-solid fa-angles-right"></i>
+            </h6>
             <div className="bg">
               <div className="left description">
                 <Speech text={artifact.description} />
-                
+
                 <p>{artifact.description}</p>
 
                 <ul>
@@ -58,26 +58,38 @@ const Slides = ({ artifact, artifactImg }) => {
 
               <div className="right">
                 <img src={artifactImg}></img>
-                
-              <button onClick={clicked} >"Click Me"</button>
+
+                <button onClick={clicked}>"Click Me"</button>
               </div>
             </div>
           </div>
+          <span style={{ color: "#a70e20" }}>
+            <i className="fa-solid fa-angles-right"></i>
+          </span>
         </SwiperSlide>
 
         <SwiperSlide>
+          <span style={{ color: "#a70e20" }}>
+            <i className="fa-solid fa-angles-left"></i>
+          </span>
           <div className="bg">
             <div className="left">
-              <h3>The Impact</h3> 
+              <h3>The Impact</h3>
               {/* <FontSize text={artifact.impact} /> */}
-              
+
               <p className="description">{artifact.impact}</p>
             </div>
             <div className="right"></div>
           </div>
+          <span style={{ color: "#a70e20" }}>
+            <i className="fa-solid fa-angles-right"></i>
+          </span>
         </SwiperSlide>
 
         <SwiperSlide>
+          <span style={{ color: "#a70e20" }}>
+            <i className="fa-solid fa-angles-left"></i>
+          </span>
           <div className="bg">
             <div className="left">
               <Speech text={directionsText} />
@@ -95,9 +107,15 @@ const Slides = ({ artifact, artifactImg }) => {
 
             <div className="right"></div>
           </div>
+          <span style={{ color: "#a70e20" }}>
+            <i className="fa-solid fa-angles-right"></i>
+          </span>
         </SwiperSlide>
 
         <SwiperSlide>
+          <span style={{ color: "#a70e20" }}>
+            <i className="fa-solid fa-angles-left"></i>
+          </span>
           <div className="bg">
             <div className="left">
               <h3>What's Going On</h3>

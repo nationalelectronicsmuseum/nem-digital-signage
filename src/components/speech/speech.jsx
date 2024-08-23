@@ -62,6 +62,7 @@ function Speech({ text, title }) {
   const speakPause = () => {
     if (pause == false) {
       synth.pause();
+      setPause(true)
     } else {
       speakResume();
       setPause(false);
@@ -91,7 +92,7 @@ function Speech({ text, title }) {
           <i className="fa-solid fa-volume-high"></i>
         </div>
         <div className={speechBtn}>
-          <button onClick={speakControl} className="speech">
+          {/* <button onClick={speakControl} className="speech">
             {pause == false && stop == true ? (
               <i className={playIcon}></i>
             ) : pause == false && stop == false ? (
@@ -99,7 +100,14 @@ function Speech({ text, title }) {
             ) : pause == true ? (
               <i className={pauseIcon}></i>
             ) : (<i className={pauseIcon}></i>)}
-            {/* <i className={audioIcon}></i> */}
+          </button> */}
+
+          <button onClick={speakStart} className="speech">
+            <i className={playIcon}></i>
+          </button>
+
+          <button onClick={speakPause} className="speech">
+            <i className={pauseIcon}></i>
           </button>
 
           <button onClick={speakStop} className="speech">

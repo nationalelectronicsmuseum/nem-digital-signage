@@ -19,12 +19,13 @@ export function Accessibility() {
   return (
     <div>
       <button onClick={showMenu} className={selected}>
-        Accessibility
+      <i className="fa-solid fa-universal-access fa-3x"></i>
       </button>
       
       <div className={state}>
         <div className="background" onClick={showMenu}></div>
         <div className="qp">
+          <h2>Accessibility Menu</h2>
           <span className="qpChild">
             <h4>Language</h4>
             <span>

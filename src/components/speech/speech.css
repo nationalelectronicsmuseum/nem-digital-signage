@@ -45,7 +45,7 @@ input {
     height: 0;
 }
 
-span {
+.speechPlayer span {
     position: absolute;
     top: 0;
     left: 0;
@@ -57,7 +57,7 @@ span {
     border-radius: 30px;
 }
 
-span:before {
+.speechPlayer span:before {
     position: absolute;
     content: "";
     height: 25px;
