@@ -9,8 +9,11 @@ import "swiper/css/navigation";
 
 import "./slides.css";
 import Speech from "../speech/speech";
+import { Context } from "../../assets/accessibilityContext";
 
 const Slides = ({ artifact, artifactImg }) => {
+  const [context, setContext] = useContext(Context);
+
   const synth = window.speechSynthesis;
   const speakStop = () => {
     console.log("Speech has stopped");
@@ -35,15 +38,15 @@ const Slides = ({ artifact, artifactImg }) => {
       >
         <SwiperSlide>
           <div className="fg">
-            <h6 className="swipe-mention">
+            {/* <h6 className="swipe-mention">
               <i className="fa-solid fa-angles-left"></i>Swipe
               <i className="fa-solid fa-angles-right"></i>
-            </h6>
+            </h6> */}
             <div className="bg">
               <div className="left description">
                 <Speech text={artifact.description} />
 
-                <p>{artifact.description}</p>
+                <p style={{fontSize:`${context}`}}>{artifact.description}</p>
 
                 <ul>
                   {artifact.info.map((el) => {

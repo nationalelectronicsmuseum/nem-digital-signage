@@ -1,8 +1,9 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, createContext } from "react";
 import Slides from "../components/slides/slides.jsx";
 import MenuStation1 from "../components/menu/menuStation1.jsx";
 import Accessibility from "../components/accessibility/accessibility.jsx";
-import FontSize from "../components/TestContext.jsx";
+import {SizeFont} from "../components/TestContext.jsx";
+import TestB from "../components/TestB.jsx";
 
 
 export default function voltAndCurr() {
@@ -30,8 +31,9 @@ export default function voltAndCurr() {
     how: "By flipping the switch, you close the circuit and allow the current to flow in the circuit`s path. Without the force of the voltage and the path of a circuit, current will not flow. Voltage pushes current, forcing it to flow through a closed circuit and light the bulb.",
   };
 
-  const test = useContext(FontSize)
-  console.log(test)
+  // const Test = createContext(SizeFont)
+  const useTest = useContext(SizeFont)
+
 
   return (
     <div>
@@ -44,11 +46,7 @@ export default function voltAndCurr() {
           <h1 className="artifactTitle">Voltage and Current</h1>
         </div>
       </div>
-
       <Slides artifact={artifact} />
-
-      
-
     </div>
   );
 }

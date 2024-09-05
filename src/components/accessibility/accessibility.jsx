@@ -1,9 +1,22 @@
 import React, { useState, useContext } from "react";
+import { Context } from "../../assets/accessibilityContext";
 import "./accessibility.css";
 
 export function Accessibility() {
   const [state, setState] = useState("hide");
   const [selected, setSelected] = useState("qdbp notselected");
+  const [context, setContext] = useContext(Context);
+
+  const fontDef = () => {
+    setContext("35pt")
+  }
+  const fontSm = () => {
+    setContext("24pt")
+  }
+  const fontLg = () => {
+    setContext("45pt")
+  }
+
 
   const showMenu = () => {
     console.log("im clicked");
@@ -29,20 +42,25 @@ export function Accessibility() {
           <span className="qpChild">
             <h4>Language</h4>
             <span>
-              <select name="language">
+              {/* <select name="language">
                 <option value="english">"English"</option>
                 <option value="spanish">"Spanish"</option>
-              </select>
+              </select> */}
+              <button className="qpBtn">English</button>
+              <button className="qpBtn">Spanish</button>
             </span>
           </span>
           <span className="qpChild">
             <h4>Font Change</h4>
             <span>
-              <select>
+              {/* <select>
                 <option value="arial">"Arial"</option>
                 <option value="timesNewRoman">"Times New Roman"</option>
                 <option value="dyslex">"Dyslex"</option>
-              </select>
+              </select> */}
+              <button className="qpBtn">Arial</button>
+              <button className="qpBtn">Times New Roman</button>
+              <button className="qpBtn">Dyslex</button>
             </span>
           </span>
           <span className="qpChild">
@@ -50,9 +68,9 @@ export function Accessibility() {
               <h4>Text Size</h4>
             </span>
             <span>
-              <button className="qpBtn">o</button>
-              <button className="qpBtn">o</button>
-              <button className="qpBtn">o</button>
+              <button className="qpBtn" onClick={fontSm}>o</button>
+              <button className="qpBtn" onClick={fontDef}>o</button>
+              <button className="qpBtn" onClick={fontLg}>o</button>
             </span>
           </span>
           <span className="qpChild">
@@ -69,4 +87,4 @@ export function Accessibility() {
   );
 }
 
-export default Accessibility;
+export default Accessibility ;
