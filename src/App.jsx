@@ -44,20 +44,16 @@ import Station10 from "./pages/station10";
 import Station9 from "./pages/station9";
 
 import { Context } from "./assets/accessibilityContext";
-import TestA from "./components/TestA";
-import TestB from "./components/TestB";
 
 function App() {
-  const [context, setContext] = useState("default");
+  const [fontS, setFontS] = useState("default");
   const [lang, setLang] = useState("default");
   const [font, setFont] = useState("default");
 
   return (
-    <Context.Provider value={[context, setContext]}>
+    <Context.Provider value={[fontS, setFontS]}>
       <Context.Provider value={[lang, setLang]}>
         <Context.Provider value={[font, setFont]}>
-          <TestA />
-          <TestB />
           <Router>
             <Routes>
               {/* Station 1 */}

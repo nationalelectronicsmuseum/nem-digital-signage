@@ -5,18 +5,30 @@ import "./accessibility.css";
 export function Accessibility() {
   const [state, setState] = useState("hide");
   const [selected, setSelected] = useState("qdbp notselected");
-  const [context, setContext] = useContext(Context);
+  const [selectedSize, setSelectedSize] = useState("#a70e20")
+
+  const [lang, setLang] = useContext(Context);
+  const [fontS, setFontS] = useContext(Context);
+  
+  const selectEng = () => {
+    setLang("english")
+  }
+  const selectSpa = () => {
+    setLang("spanish")
+  }
 
   const fontDef = () => {
-    setContext("35pt")
+    setFontS("35pt")
+    console.log("default font")
   }
   const fontSm = () => {
-    setContext("24pt")
+    setFontS("24pt")
+    console.log("small font")
   }
   const fontLg = () => {
-    setContext("45pt")
+    setFontS("45pt")
+    console.log("large font")
   }
-
 
   const showMenu = () => {
     console.log("im clicked");
@@ -46,8 +58,8 @@ export function Accessibility() {
                 <option value="english">"English"</option>
                 <option value="spanish">"Spanish"</option>
               </select> */}
-              <button className="qpBtn">English</button>
-              <button className="qpBtn">Spanish</button>
+              <button className="qpBtn" onClick={selectEng}>English</button>
+              <button className="qpBtn" onClick={selectSpa}>Spanish</button>
             </span>
           </span>
           <span className="qpChild">
@@ -68,9 +80,9 @@ export function Accessibility() {
               <h4>Text Size</h4>
             </span>
             <span>
-              <button className="qpBtn" onClick={fontSm}>o</button>
-              <button className="qpBtn" onClick={fontDef}>o</button>
-              <button className="qpBtn" onClick={fontLg}>o</button>
+              <button className="qpBtn" style={{color : {selectedSize}}} onClick={fontSm}>o</button>
+              <button className="qpBtn" style={{color : {selectedSize}}} onClick={fontDef}>o</button>
+              <button className="qpBtn" style={{color : {selectedSize}}} onClick={fontLg}>o</button>
             </span>
           </span>
           <span className="qpChild">

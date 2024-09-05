@@ -12,7 +12,7 @@ import Speech from "../speech/speech";
 import { Context } from "../../assets/accessibilityContext";
 
 const Slides = ({ artifact, artifactImg }) => {
-  const [context, setContext] = useContext(Context);
+  const [fontS, setFontS] = useContext(Context);
 
   const synth = window.speechSynthesis;
   const speakStop = () => {
@@ -46,7 +46,7 @@ const Slides = ({ artifact, artifactImg }) => {
               <div className="left description">
                 <Speech text={artifact.description} />
 
-                <p style={{fontSize:`${context}`}}>{artifact.description}</p>
+                <p style={{fontSize:`${fontS}`}}>{artifact.description}</p>
 
                 <ul>
                   {artifact.info.map((el) => {

@@ -3,10 +3,11 @@ import Slides from "../components/slides/slides.jsx";
 import MenuStation1 from "../components/menu/menuStation1.jsx";
 import Accessibility from "../components/accessibility/accessibility.jsx";
 import {SizeFont} from "../components/TestContext.jsx";
-import TestB from "../components/TestB.jsx";
-
+import { Context } from "../assets/accessibilityContext.js";
 
 export default function voltAndCurr() {
+  const [lang, setLang] = useContext(Context);
+
   const artifact = {
     title: "Voltage and Current",
     info: [{ id: 1, text: "" }],
@@ -30,10 +31,29 @@ export default function voltAndCurr() {
     },
     how: "By flipping the switch, you close the circuit and allow the current to flow in the circuit`s path. Without the force of the voltage and the path of a circuit, current will not flow. Voltage pushes current, forcing it to flow through a closed circuit and light the bulb.",
   };
+  const artifactSpanish = {
+    title: "Voltaje y Corriente",
+    info: [{ id: 1, text: "" }],
+    description: [
+      "El voltaje es algo así como la presión eléctrica. Una corriente es un flujo de carga eléctrica. Es mejor pensarlo de esta manera: el voltaje CAUSA corriente eléctrica, al igual que la presión del agua hace que el agua fluya.",
 
-  // const Test = createContext(SizeFont)
-  const useTest = useContext(SizeFont)
-
+      "El voltaje es la energía invisible que impulsa a la electricidad a moverse de un lugar a otro. El voltaje y la corriente trabajan de la mano. El voltaje proporciona el impulso, mientras que la corriente mantiene el flujo de electricidad. Juntos, crean la energía que alimenta nuestros dispositivos e ilumina nuestro mundo."
+    ],
+    impact:
+      "Comprender el voltaje y la corriente ayuda a los ingenieros y científicos a diseñar sistemas eléctricos más seguros y eficientes. Desde los circuitos más pequeños hasta las redes eléctricas más grandes, estos conceptos son cruciales para crear tecnología que funcione de manera confiable y segura.",
+    directions: {
+      title: "Cómo Funciona",
+      steps: [
+        { id: 1, step: "Gire la perilla en el sentido de las agujas del reloj y observe los medidores." },
+        {
+          id: 2,
+          step: "Activa el interruptor y enciende la bombilla mientras observas los medidores.",
+        },
+        { id: 3, step: "Gire la perilla para cambiar el voltaje." },
+      ],
+    },
+    how: "Gire la perilla para cambiar. Al girar el interruptor, se cierra el circuito y se permite que la corriente fluya por el camino del circuito. Sin la fuerza del voltaje y el camino de un circuito, la corriente no fluirá. El voltaje empuja la corriente, lo que la obliga a fluir a través de un circuito cerrado y encender la bombilla.",
+  }
 
   return (
     <div>
@@ -46,7 +66,7 @@ export default function voltAndCurr() {
           <h1 className="artifactTitle">Voltage and Current</h1>
         </div>
       </div>
-      <Slides artifact={artifact} />
+      <Slides artifact={lang === "english" ? artifact: artifactSpanish} />
     </div>
   );
 }
