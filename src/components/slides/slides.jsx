@@ -9,10 +9,10 @@ import "swiper/css/navigation";
 
 import "./slides.css";
 import Speech from "../speech/speech";
-import { Context } from "../../assets/accessibilityContext";
+import { Context, ContextFontSize } from "../../assets/accessibilityContext";
 
 const Slides = ({ artifact, artifactImg }) => {
-  const [fontS, setFontS] = useContext(Context);
+  const [fontS, setFontS] = useContext(ContextFontSize);
 
   const synth = window.speechSynthesis;
   const speakStop = () => {

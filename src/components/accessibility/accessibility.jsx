@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import { Context } from "../../assets/accessibilityContext";
+import { Context, ContextFontSize, ContextFontFamily } from "../../assets/accessibilityContext";
 import "./accessibility.css";
 
 export function Accessibility() {
@@ -8,26 +8,76 @@ export function Accessibility() {
   const [selectedSize, setSelectedSize] = useState("#a70e20")
 
   const [lang, setLang] = useContext(Context);
-  const [fontS, setFontS] = useContext(Context);
+  const [fontS, setFontS] = useContext(ContextFontSize);
+  const [fontF, setFontF] = useContext(ContextFontFamily);
+
+  const [colorSpa, setColorSpa] = useState("qpBtn")
+  const [colorEng, setColorEng] = useState("qpBtn colorSelected")
+
+  const [colorFontSm, setColorFontSm] = useState("qpBtn")
+  const [colorFontDef, setColorFontDef] = useState("qpBtn colorSelected")
+  const [colorFontLg, setColorFontLg] = useState("qpBtn")
+
+  const [colorFamilySan, setColorFamilySan] = useState("qpBtn colorSelected")
+  const [colorFamilySerif, setColorFamilySerif] = useState("qpBtn")
+
+  const serifFont = "Times New Roman, Times, serif"
+  const sansFont = "Arial, Helvetica, sans-serif"
+
+  const test = document.querySelector(".fontSelect")
   
+  const synth = window.speechSynthesis;
   const selectEng = () => {
     setLang("english")
+    setColorEng("qpBtn colorSelected")
+    setColorSpa("qpBtn")
+    synth.cancel();
   }
   const selectSpa = () => {
     setLang("spanish")
+    setColorEng("qpBtn")
+    setColorSpa("qpBtn colorSelected")
+    synth.cancel();
+  }
+  const selectGer = () => {
+    setLang("german")
+  }
+  const selectFre = () => {
+    setLang("french")
   }
 
   const fontDef = () => {
     setFontS("35pt")
+    setColorFontSm("qpBtn")
+    setColorFontDef("qpBtn colorSelected")
+    setColorFontLg("qpBtn")
     console.log("default font")
   }
   const fontSm = () => {
     setFontS("24pt")
+    setColorFontSm("qpBtn colorSelected")
+    setColorFontDef("qpBtn")
+    setColorFontLg("qpBtn")
+    console.log(lang)
     console.log("small font")
   }
   const fontLg = () => {
     setFontS("45pt")
+    setColorFontSm("qpBtn")
+    setColorFontDef("qpBtn")
+    setColorFontLg("qpBtn colorSelected")
     console.log("large font")
+  }
+
+  const fontArial = () => {
+    test.style.fontFamily = sansFont
+    setColorFamilySan("qpBtn colorSelected")
+    setColorFamilySerif("qpBtn")
+  }
+  const fontTimes = () => {
+    test.style.fontFamily = serifFont
+    setColorFamilySan("qpBtn")
+    setColorFamilySerif("qpBtn colorSelected")
   }
 
   const showMenu = () => {
@@ -40,6 +90,10 @@ export function Accessibility() {
       setSelected("qdbp notselected");
     }
   };
+  
+
+  
+  
 
   return (
     <div>
@@ -53,13 +107,15 @@ export function Accessibility() {
           <h2>Accessibility Menu</h2>
           <span className="qpChild">
             <h4>Language</h4>
-            <span>
+            <span className="btnLng">
               {/* <select name="language">
                 <option value="english">"English"</option>
                 <option value="spanish">"Spanish"</option>
               </select> */}
-              <button className="qpBtn" onClick={selectEng}>English</button>
-              <button className="qpBtn" onClick={selectSpa}>Spanish</button>
+              <button className={colorEng} onClick={selectEng}>English</button>
+              <button className={colorSpa} onClick={selectSpa}>Spanish</button>
+              <button className="qpBtn" onClick={selectGer}>German</button>
+              <button className="qpBtn" onClick={selectFre}>French</button>
             </span>
           </span>
           <span className="qpChild">
@@ -70,8 +126,8 @@ export function Accessibility() {
                 <option value="timesNewRoman">"Times New Roman"</option>
                 <option value="dyslex">"Dyslex"</option>
               </select> */}
-              <button className="qpBtn">Arial</button>
-              <button className="qpBtn">Times New Roman</button>
+              <button className={colorFamilySan} onClick={fontArial}>Arial</button>
+              <button className={colorFamilySerif} onClick={fontTimes}>Times New Roman</button>
               <button className="qpBtn">Dyslex</button>
             </span>
           </span>
@@ -80,9 +136,9 @@ export function Accessibility() {
               <h4>Text Size</h4>
             </span>
             <span>
-              <button className="qpBtn" style={{color : {selectedSize}}} onClick={fontSm}>o</button>
-              <button className="qpBtn" style={{color : {selectedSize}}} onClick={fontDef}>o</button>
-              <button className="qpBtn" style={{color : {selectedSize}}} onClick={fontLg}>o</button>
+              <button className={colorFontSm} onClick={fontSm}>Small</button>
+              <button className={colorFontDef} onClick={fontDef}>Default</button>
+              <button className={colorFontLg} onClick={fontLg}>Large</button>
             </span>
           </span>
           <span className="qpChild">

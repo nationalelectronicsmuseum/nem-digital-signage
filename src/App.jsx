@@ -43,91 +43,94 @@ import Station12 from "./pages/station12";
 import Station10 from "./pages/station10";
 import Station9 from "./pages/station9";
 
-import { Context } from "./assets/accessibilityContext";
+import { Context, ContextFontSize, ContextFontFamily } from "./assets/accessibilityContext";
 
 function App() {
   const [fontS, setFontS] = useState("default");
-  const [lang, setLang] = useState("default");
-  const [font, setFont] = useState("default");
+  const [lang, setLang] = useState("english");
+  const [fontF, setFontF] = useState("default");
 
   return (
-    <Context.Provider value={[fontS, setFontS]}>
+    <ContextFontSize.Provider value={[fontS, setFontS]}>
       <Context.Provider value={[lang, setLang]}>
-        <Context.Provider value={[font, setFont]}>
-          <Router>
-            <Routes>
-              {/* Station 1 */}
-              <Route path="/station1" element={<Station1 />} />
-              <Route path="/voltage-and-current" element={<VoltAndCurr />} />
-              <Route path="/human-battery" element={<HumanBattery />} />
-              <Route path="/orsted" element={<Orsted />} />
-              <Route path="/faraday" element={<Faraday />} />
+        <ContextFontFamily.Provider value={[fontF, setFontF]}>
+            <Router>
+              <Routes>
+                {/* Station 1 */}
+                <Route path="/station1" element={<Station1 />} />
+                <Route path="/voltage-and-current" element={<VoltAndCurr />} />
+                <Route path="/human-battery" element={<HumanBattery />} />
+                <Route path="/orsted" element={<Orsted />} />
+                <Route path="/faraday" element={<Faraday />} />
 
-              {/* Station 2 */}
-              <Route path="/station2" element={<Station2 />} />
-              <Route path="/jumping-wires" element={<JumpingWires />} />
-              <Route path="/jacobs-ladder" element={<JacobsLadder />} />
-              <Route
-                path="/static-electricity"
-                element={<StaticElectricity />}
-              />
-              <Route path="/manual-turbine" element={<Turbine />} />
+                {/* Station 2 */}
+                <Route path="/station2" element={<Station2 />} />
+                <Route path="/jumping-wires" element={<JumpingWires />} />
+                <Route path="/jacobs-ladder" element={<JacobsLadder />} />
+                <Route
+                  path="/static-electricity"
+                  element={<StaticElectricity />}
+                />
+                <Route path="/manual-turbine" element={<Turbine />} />
 
-              {/* Station 3 */}
-              <Route path="/station3" element={<Station3 />} />
-              <Route path="/theremin" element={<Theremin />} />
-              <Route
-                path="/visible-electromagnetic-waves"
-                element={<VisibleElectronicWaves />}
-              />
-              <Route path="/polarization" element={<Polarization />} />
+                {/* Station 3 */}
+                <Route path="/station3" element={<Station3 />} />
+                <Route path="/theremin" element={<Theremin />} />
+                <Route
+                  path="/visible-electromagnetic-waves"
+                  element={<VisibleElectronicWaves />}
+                />
+                <Route path="/polarization" element={<Polarization />} />
 
-              {/* Station 4 */}
-              <Route path="/station4" element={<Station4 />} />
-              <Route
-                path="/microwave-turntable"
-                element={<MicrowaveTurntable />}
-              />
+                {/* Station 4 */}
+                <Route path="/station4" element={<Station4 />} />
+                <Route
+                  path="/microwave-turntable"
+                  element={<MicrowaveTurntable />}
+                />
 
-              {/* Station 5 */}
-              <Route path="/station5" element={<Station5 />} />
+                {/* Station 5 */}
+                <Route path="/station5" element={<Station5 />} />
 
-              {/* Station 6 */}
-              <Route path="/station6" element={<Station6 />} />
-              <Route path="/marconi" element={<Marconi />} />
-              <Route path="/audio-translator" element={<Audio />} />
-              <Route path="/first-broadcast" element={<FirstBroadcast />} />
-              <Route path="/evolution-of-sound" element={<EvolutionSound />} />
+                {/* Station 6 */}
+                <Route path="/station6" element={<Station6 />} />
+                <Route path="/marconi" element={<Marconi />} />
+                <Route path="/audio-translator" element={<Audio />} />
+                <Route path="/first-broadcast" element={<FirstBroadcast />} />
+                <Route
+                  path="/evolution-of-sound"
+                  element={<EvolutionSound />}
+                />
 
-              {/* Station 7 */}
-              <Route path="/station7" element={<Station7 />} />
-              <Route path="/telegraph" element={<Telegraph />} />
+                {/* Station 7 */}
+                <Route path="/station7" element={<Station7 />} />
+                <Route path="/telegraph" element={<Telegraph />} />
 
-              {/* Station 8 */}
-              <Route path="/station8" element={<Station8 />} />
-              <Route path="/vacuum-tubes" element={<VacuumTube />} />
+                {/* Station 8 */}
+                <Route path="/station8" element={<Station8 />} />
+                <Route path="/vacuum-tubes" element={<VacuumTube />} />
 
-              {/* Station 9 */}
-              <Route path="/station9" element={<Station9 />} />
+                {/* Station 9 */}
+                <Route path="/station9" element={<Station9 />} />
 
-              {/* Station 10 */}
-              <Route path="/station10" element={<Station10 />} />
+                {/* Station 10 */}
+                <Route path="/station10" element={<Station10 />} />
 
-              {/* Station 11*/}
-              <Route path="/station11" element={<Station11 />} />
+                {/* Station 11*/}
+                <Route path="/station11" element={<Station11 />} />
 
-              {/* Station 12*/}
-              <Route path="/station12" element={<Station12 />} />
+                {/* Station 12*/}
+                <Route path="/station12" element={<Station12 />} />
 
-              <Route exact path="/" element={<HomeStation />} />
-              <Route path="/audio" element={<Audio />} />
-              <Route path="/marconi" element={<Marconi />} />
-              <Route path="/telegraph" element={<Telegraph />} />
-            </Routes>
-          </Router>
+                <Route exact path="/" element={<HomeStation />} />
+                <Route path="/audio" element={<Audio />} />
+                <Route path="/marconi" element={<Marconi />} />
+                <Route path="/telegraph" element={<Telegraph />} />
+              </Routes>
+            </Router>
+          </ContextFontFamily.Provider>
         </Context.Provider>
-      </Context.Provider>
-    </Context.Provider>
+      </ContextFontSize.Provider>
   );
 }
 

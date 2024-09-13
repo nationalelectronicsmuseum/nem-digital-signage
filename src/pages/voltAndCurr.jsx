@@ -2,7 +2,6 @@ import React, { useState, useContext, createContext } from "react";
 import Slides from "../components/slides/slides.jsx";
 import MenuStation1 from "../components/menu/menuStation1.jsx";
 import Accessibility from "../components/accessibility/accessibility.jsx";
-import {SizeFont} from "../components/TestContext.jsx";
 import { Context } from "../assets/accessibilityContext.js";
 
 export default function voltAndCurr() {
@@ -66,7 +65,7 @@ export default function voltAndCurr() {
           <h1 className="artifactTitle">Voltage and Current</h1>
         </div>
       </div>
-      <Slides artifact={lang === "english" ? artifact: artifactSpanish} />
+      <Slides artifact={lang === "default" ? artifact: lang === "english" ? artifact : artifactSpanish} />
     </div>
   );
 }

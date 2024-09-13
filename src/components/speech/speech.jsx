@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import "../speech/speech.css";
-import { icon } from "@fortawesome/fontawesome-svg-core";
+import { Context } from "../../assets/accessibilityContext";
 
 function Speech({ text, title }) {
   const [pause, setPause] = useState(false);
@@ -12,9 +12,13 @@ function Speech({ text, title }) {
   const playIcon = "fa-regular fa-circle-play fa-4x";
   const [audioIcon, setAudioIcon] = useState(playIcon);
 
+  const [lang, setLang] = useContext(Context);
+  const [speechLang, setSpeechLang] = useState("en-US")
+
   const synth = window.speechSynthesis;
   const utter = new SpeechSynthesisUtterance(text);
 
+  utter.lang = speechLang
   utter.pitch = 1;
   utter.rate = 1.2;
 
@@ -55,6 +59,11 @@ function Speech({ text, title }) {
   };
 
   const speakStart = () => {
+    if(lang === "english"){
+      setSpeechLang("en-US")
+    } else {
+      setSpeechLang("es-MX")
+    }
     synth.cancel();
     synth.speak(utter);
   };
