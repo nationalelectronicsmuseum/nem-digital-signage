@@ -13,7 +13,7 @@ function Speech({ text, title }) {
   const [audioIcon, setAudioIcon] = useState(playIcon);
 
   const [lang, setLang] = useContext(Context);
-  const [speechLang, setSpeechLang] = useState("en-US")
+  const [speechLang, setSpeechLang] = useState("en-GB")
 
   const synth = window.speechSynthesis;
   const utter = new SpeechSynthesisUtterance(text);
@@ -60,7 +60,7 @@ function Speech({ text, title }) {
 
   const speakStart = () => {
     if(lang === "english"){
-      setSpeechLang("en-US")
+      setSpeechLang("en-GB")
     } else {
       setSpeechLang("es-MX")
     }

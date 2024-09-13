@@ -80,7 +80,7 @@ const Slides = ({ artifact, artifactImg }) => {
               <h3>The Impact</h3>
               {/* <FontSize text={artifact.impact} /> */}
 
-              <p className="description">{artifact.impact}</p>
+              <p className="description" style={{fontSize:`${fontS}`}}>{artifact.impact}</p>
             </div>
             <div className="right"></div>
           </div>
@@ -100,7 +100,7 @@ const Slides = ({ artifact, artifactImg }) => {
               <ol className="swipe-directions">
                 {artifact.directions.steps.map((el) => {
                   return (
-                    <li key={el.id} className="swipe-directions">
+                    <li key={el.id} className="swipe-directions" style={{fontSize:`${fontS}`}}>
                       {el.step}
                     </li>
                   );
@@ -123,7 +123,7 @@ const Slides = ({ artifact, artifactImg }) => {
             <div className="left">
               <h3>What's Going On</h3>
               {/* <FontSize text={artifact.how} /> */}
-              <p className="description">{artifact.how}</p>
+              <p className="description" style={{fontSize:`${fontS}`}}>{artifact.how}</p>
             </div>
           </div>
         </SwiperSlide>
