@@ -20,6 +20,8 @@ const Slides = ({ artifact, artifactImg }) => {
     synth.cancel();
   };
 
+  const descriptionText = artifact.description.join(" ")
+  // console.log("description", descriptionText)
   const directionsText = artifact.directions.steps.map((x) => x.step).join(" ");
 
   const clicked = () => {
@@ -44,7 +46,7 @@ const Slides = ({ artifact, artifactImg }) => {
             </h6> */}
             <div className="bg">
               <div className="left description">
-                <Speech text={artifact.description} />
+                <Speech text={descriptionText} />
 
                 <p style={{fontSize:`${fontS}`}}>{artifact.description}</p>
 
