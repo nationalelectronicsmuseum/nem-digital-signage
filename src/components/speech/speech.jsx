@@ -1,5 +1,7 @@
 import React, { useState, useContext } from "react";
 import "../speech/speech.css";
+import iconPlay from "../../assets/img/icon_play.svg"
+// import "../../assets/img/icon_play.svg"
 import { Context } from "../../assets/accessibilityContext";
 
 function Speech({ text, title }) {
@@ -78,17 +80,31 @@ function Speech({ text, title }) {
   }
 
   const speakControl = () => {
+    const speechDelay = () => {
+      setTimeout(() => {
+        synth.speak(utter);
+      }, "1500");
+    }
+    const speechReset = () => {
+      setTimeout(() => {
+        synth.pause();
+        synth.resume();
+      console.log("it hit!")
+      }, "10000");
+    }
+
+    console.log("timeout", speechDelay)
     //Starts speech
     if (speechText === "Play") {
       setSpeechText("Pause")
       setAudioIcon(pauseIcon)
-      speakStart();
+      speakStart(speechDelay,speechReset);
       console.log("Speech starting");
       //pauses speech
     }
     if ( speechText === "Pause") {
       setSpeechText("Resume")
-      speakPause();
+      speakPause(speechReset);
       // setAudioIcon(playIcon);
       console.log("Speech paused");
     }
@@ -104,7 +120,7 @@ function Speech({ text, title }) {
     console.log(pause);
   };
   
-  const speakStart = () => {
+  const speakStart = (x,y) => {
     if(lang === "english"){
       setSpeechLang("en-GB")
     } else {
@@ -112,26 +128,24 @@ function Speech({ text, title }) {
     }
     utter.lang = speechLang
     synth.cancel();
-    setTimeout(() => {
-      synth.speak(utter);
-    }, "1500");
 
-    setTimeout(() => {
-      synth.pause();
-      synth.resume();
-    console.log("it hit!")
-    }, "10000");
+    x()
+    y()
+
+    // setTimeout(() => {
+    //   synth.speak(utter);
+    // }, "1500");
+
+    // setTimeout(() => {
+    //   synth.pause();
+    //   synth.resume();
+    // console.log("it hit!")
+    // }, "10000");
     // synth.speak(utter);
   };
 
-  const speakPause = () => {
+  const speakPause = (y) => {
       synth.pause();
-      utter.onpause = (event) => {
-        const char = event.utterance.text.charAt(event.charIndex);
-        console.log(
-          `Speech paused at character ${event.charIndex} of "${event.utterance.text}", which is "${char}".`,
-        );
-      };
   };
 
   const speakResume = () => {
@@ -177,6 +191,10 @@ function Speech({ text, title }) {
           <button onClick={speakControl} className="speech">
             {speechText}
             {audioIcon}
+          </button>
+
+          <button>
+            <img src={iconPlay} className="iconImg"></img>
           </button>
 
           {/* <button onClick={speakStart} className="speech">

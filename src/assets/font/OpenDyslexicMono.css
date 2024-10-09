@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'OpenDyslexicMono';
+    src: url('OpenDyslexicMono-Regular.eot');
+    src: url('OpenDyslexicMono-Regular.eot?#iefix') format('embedded-opentype'),
+         url('OpenDyslexicMono-Regular.woff2') format('woff2'),
+         url('OpenDyslexicMono-Regular.woff') format('woff'),
+         url('OpenDyslexicMono-Regular.ttf')  format('truetype'),
+         url('OpenDyslexicMono-Regular.svg#OpenDyslexicMono') format('svg');
+}

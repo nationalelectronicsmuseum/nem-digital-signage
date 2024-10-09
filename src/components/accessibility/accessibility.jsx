@@ -20,9 +20,11 @@ export function Accessibility() {
 
   const [colorFamilySan, setColorFamilySan] = useState("qpBtn colorSelected")
   const [colorFamilySerif, setColorFamilySerif] = useState("qpBtn")
+  const [colorFamilyDyslex, setColorFamilyDyslex] = useState("qpBtn")
 
   const serifFont = "Times New Roman, Times, serif"
   const sansFont = "Arial, Helvetica, sans-serif"
+  const sansDyslex = "OpenDyslexicMono"
 
   const test = document.querySelector(".fontSelect")
   
@@ -73,11 +75,19 @@ export function Accessibility() {
     test.style.fontFamily = sansFont
     setColorFamilySan("qpBtn colorSelected")
     setColorFamilySerif("qpBtn")
+    setColorFamilyDyslex("qpBtn")
   }
   const fontTimes = () => {
     test.style.fontFamily = serifFont
     setColorFamilySan("qpBtn")
     setColorFamilySerif("qpBtn colorSelected")
+    setColorFamilyDyslex("qpBtn")
+  }
+  const fontDyslex = () => {
+    test.style.fontFamily = sansDyslex
+    setColorFamilySan("qpBtn")
+    setColorFamilySerif("qpBtn")
+    setColorFamilyDyslex("qpBtn colorSelected")
   }
 
   const showMenu = () => {
@@ -128,7 +138,7 @@ export function Accessibility() {
               </select> */}
               <button className={colorFamilySan} onClick={fontArial}>Arial</button>
               <button className={colorFamilySerif} onClick={fontTimes}>Times New Roman</button>
-              <button className="qpBtn">Dyslex</button>
+              <button className={colorFamilyDyslex} onClick={fontDyslex}>Dyslex</button>
             </span>
           </span>
           <span className="qpChild">

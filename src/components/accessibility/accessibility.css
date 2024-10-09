@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'OpenDyslexicMono';
+    src: url('../../assets/font/OpenDyslexicMono-Regular.eot');
+    src: url('../../assets/font/OpenDyslexicMono-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../../assets/font/OpenDyslexicMono-Regular.woff2') format('woff2'),
+         url('../../assets/font/OpenDyslexicMono-Regular.woff') format('woff'),
+         url('../../assets/font/OpenDyslexicMono-Regular.ttf')  format('truetype'),
+         url('../../assets/font/OpenDyslexicMono-Regular.svg#OpenDyslexicMono') format('svg');
+}
 
 .hide{
     display: none;

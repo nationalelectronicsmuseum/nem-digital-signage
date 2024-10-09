@@ -84,3 +84,7 @@ input {
 .present {
     display: block
 }
+
+.iconImg {
+    width:20%;
+}
