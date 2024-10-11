@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import "../speech/speech.css";
 import iconPlay from "../../assets/img/icon_play.svg"
 // import "../../assets/img/icon_play.svg"
-import { Context } from "../../assets/accessibilityContext";
+import { Context, ContextLangSpeech } from "../../assets/accessibilityContext";
 
 function Speech({ text, title }) {
   const [pause, setPause] = useState(false);
@@ -16,6 +16,7 @@ function Speech({ text, title }) {
   const [speechText, setSpeechText] = useState("Play")
 
   const [lang, setLang] = useContext(Context);
+  const [langSpeech, setLangSpeech] = useContext(ContextLangSpeech);
   const [speechLang, setSpeechLang] = useState("en-GB")
 
   const synth = window.speechSynthesis;
@@ -37,7 +38,7 @@ function Speech({ text, title }) {
     );
   })
 
-  // utter.lang = speechLang
+  utter.lang = langSpeech
   utter.pitch = 1;
   utter.rate = 1.2;
 
@@ -121,12 +122,12 @@ function Speech({ text, title }) {
   };
   
   const speakStart = (x,y) => {
-    if(lang === "english"){
-      setSpeechLang("en-GB")
-    } else {
-      setSpeechLang("es-MX")
-    }
-    utter.lang = speechLang
+    // if(lang === "english"){
+    //   setSpeechLang("en-GB")
+    // } else {
+    //   setSpeechLang("es-MX")
+    // }
+    // utter.lang = langSpeech
     synth.cancel();
 
     x()

@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import { Context, ContextFontSize, ContextFontFamily } from "../../assets/accessibilityContext";
+import { Context, ContextFontSize, ContextFontFamily, ContextLangSpeech } from "../../assets/accessibilityContext";
 import "./accessibility.css";
 
 export function Accessibility() {
@@ -10,6 +10,7 @@ export function Accessibility() {
   const [lang, setLang] = useContext(Context);
   const [fontS, setFontS] = useContext(ContextFontSize);
   const [fontF, setFontF] = useContext(ContextFontFamily);
+  const [langSpeech, setLangSpeech] = useContext(ContextLangSpeech)
 
   const [colorSpa, setColorSpa] = useState("qpBtn")
   const [colorEng, setColorEng] = useState("qpBtn colorSelected")
@@ -29,14 +30,17 @@ export function Accessibility() {
   const test = document.querySelector(".fontSelect")
   
   const synth = window.speechSynthesis;
+
   const selectEng = () => {
     setLang("english")
+    setLangSpeech("en-GB")
     setColorEng("qpBtn colorSelected")
     setColorSpa("qpBtn")
     synth.cancel();
   }
   const selectSpa = () => {
     setLang("spanish")
+    setLangSpeech("es-MX")
     setColorEng("qpBtn")
     setColorSpa("qpBtn colorSelected")
     synth.cancel();
@@ -48,6 +52,7 @@ export function Accessibility() {
     setLang("french")
   }
 
+  // Setting the Font Size
   const fontDef = () => {
     setFontS("35pt")
     setColorFontSm("qpBtn")
@@ -60,7 +65,6 @@ export function Accessibility() {
     setColorFontSm("qpBtn colorSelected")
     setColorFontDef("qpBtn")
     setColorFontLg("qpBtn")
-    console.log(lang)
     console.log("small font")
   }
   const fontLg = () => {
@@ -71,6 +75,7 @@ export function Accessibility() {
     console.log("large font")
   }
 
+  // Setting the Font family
   const fontArial = () => {
     test.style.fontFamily = sansFont
     setColorFamilySan("qpBtn colorSelected")

@@ -43,17 +43,24 @@ import Station12 from "./pages/station12";
 import Station10 from "./pages/station10";
 import Station9 from "./pages/station9";
 
-import { Context, ContextFontSize, ContextFontFamily } from "./assets/accessibilityContext";
+import {
+  Context,
+  ContextFontSize,
+  ContextFontFamily,
+  ContextLangSpeech,
+} from "./assets/accessibilityContext";
 
 function App() {
   const [fontS, setFontS] = useState("default");
   const [lang, setLang] = useState("english");
   const [fontF, setFontF] = useState("default");
+  const [langSpeech, setLangSpeech] = useState("en-GB");
 
   return (
     <ContextFontSize.Provider value={[fontS, setFontS]}>
       <Context.Provider value={[lang, setLang]}>
         <ContextFontFamily.Provider value={[fontF, setFontF]}>
+          <ContextLangSpeech.Provider value={[langSpeech, setLangSpeech]}>
             <Router>
               <Routes>
                 {/* Station 1 */}
@@ -128,9 +135,10 @@ function App() {
                 <Route path="/telegraph" element={<Telegraph />} />
               </Routes>
             </Router>
-          </ContextFontFamily.Provider>
-        </Context.Provider>
-      </ContextFontSize.Provider>
+          </ContextLangSpeech.Provider>
+        </ContextFontFamily.Provider>
+      </Context.Provider>
+    </ContextFontSize.Provider>
   );
 }
 
