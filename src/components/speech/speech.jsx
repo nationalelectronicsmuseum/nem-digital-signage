@@ -1,6 +1,8 @@
 import React, { useState, useContext } from "react";
 import "../speech/speech.css";
 import iconPlay from "../../assets/img/icon_play.svg"
+import iconStop from "../../assets/img/icon_stop.svg"
+import iconPause from "../../assets/img/icon_pause.svg"
 // import "../../assets/img/icon_play.svg"
 import { Context, ContextLangSpeech } from "../../assets/accessibilityContext";
 
@@ -17,7 +19,6 @@ function Speech({ text, title }) {
 
   const [lang, setLang] = useContext(Context);
   const [langSpeech, setLangSpeech] = useContext(ContextLangSpeech);
-  const [speechLang, setSpeechLang] = useState("en-GB")
 
   const synth = window.speechSynthesis;
   const utter = new SpeechSynthesisUtterance(text);
@@ -189,26 +190,30 @@ function Speech({ text, title }) {
               <i className={pauseIcon}></i>
             ) : (<i className={pauseIcon}></i>)}
           </button> */}
-          <button onClick={speakControl} className="speech">
+          {/* <button onClick={speakControl} className="speech">
             {speechText}
             {audioIcon}
-          </button>
+          </button> */}
 
-          <button>
-            <img src={iconPlay} className="iconImg"></img>
+          <button onClick={speakControl} className="speech">
+            <img src={ speechText == "Play" ? iconPlay : speechText == "Resume" ? iconPlay : iconPause} className="iconImg"></img>
+          </button>
+          
+          <button onClick={speakStop} className="speech">
+            <img src={iconStop} className="iconImg"></img>
           </button>
 
           {/* <button onClick={speakStart} className="speech">
             <i className={playIcon}></i>
           </button> */}
 
-          <button onClick={speakPause} className="speech">
+          {/* <button onClick={speakPause} className="speech">
             <i className={pauseIcon}></i>
           </button>
 
           <button onClick={speakStop} className="speech">
             <i className="fa-regular fa-circle-stop fa-4x"></i>
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

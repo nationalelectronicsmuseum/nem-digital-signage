@@ -22,7 +22,7 @@
 .speechToggle {
     display:flex;
     align-items: center;
-    width: 15vw;
+    width: 10vw;
 }
 
 .speechBtn {
@@ -82,7 +82,7 @@ input {
 }
 
 .present {
-    display: block
+    display: flex;
 }
 
 .iconImg {
