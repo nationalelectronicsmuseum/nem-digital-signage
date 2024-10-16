@@ -123,10 +123,6 @@ export function Accessibility() {
           <span className="qpChild">
             <h4>Language</h4>
             <span className="btnLng">
-              {/* <select name="language">
-                <option value="english">"English"</option>
-                <option value="spanish">"Spanish"</option>
-              </select> */}
               <button className={colorEng} onClick={selectEng}>English</button>
               <button className={colorSpa} onClick={selectSpa}>Spanish</button>
               <button className="qpBtn" onClick={selectGer}>German</button>
@@ -136,11 +132,6 @@ export function Accessibility() {
           <span className="qpChild">
             <h4>Font Change</h4>
             <span>
-              {/* <select>
-                <option value="arial">"Arial"</option>
-                <option value="timesNewRoman">"Times New Roman"</option>
-                <option value="dyslex">"Dyslex"</option>
-              </select> */}
               <button className={colorFamilySan} onClick={fontArial}>Arial</button>
               <button className={colorFamilySerif} onClick={fontTimes}>Times New Roman</button>
               <button className={colorFamilyDyslex} onClick={fontDyslex}>Dyslex</button>
@@ -154,14 +145,6 @@ export function Accessibility() {
               <button className={colorFontSm} onClick={fontSm}>Small</button>
               <button className={colorFontDef} onClick={fontDef}>Default</button>
               <button className={colorFontLg} onClick={fontLg}>Large</button>
-            </span>
-          </span>
-          <span className="qpChild">
-            <h4>Text Spacing</h4>
-            <span>
-              <button className="qpBtn">x</button>
-              <button className="qpBtn">x</button>
-              <button className="qpBtn">x</button>
             </span>
           </span>
         </div>

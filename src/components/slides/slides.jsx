@@ -110,25 +110,27 @@ const Slides = ({ artifact, artifactImg }) => {
               </ol>
             </div>
 
-            <div className="right"></div>
+            <div className="right">
+            <h3>What's Going On</h3>
+              <p className="description" style={{fontSize:`${fontS}`}}>{artifact.how}</p>
+            </div>
           </div>
           <span style={{ color: "#a70e20" }}>
             <i className="fa-solid fa-angles-right"></i>
           </span>
         </SwiperSlide>
 
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <span style={{ color: "#a70e20" }}>
             <i className="fa-solid fa-angles-left"></i>
           </span>
           <div className="bg">
             <div className="left">
               <h3>What's Going On</h3>
-              {/* <FontSize text={artifact.how} /> */}
               <p className="description" style={{fontSize:`${fontS}`}}>{artifact.how}</p>
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </div>
   );

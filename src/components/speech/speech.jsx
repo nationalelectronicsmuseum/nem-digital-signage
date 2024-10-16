@@ -85,7 +85,7 @@ function Speech({ text, title }) {
     const speechDelay = () => {
       setTimeout(() => {
         synth.speak(utter);
-      }, "1500");
+      }, "1000");
     }
     const speechReset = () => {
       setTimeout(() => {
@@ -98,6 +98,7 @@ function Speech({ text, title }) {
     console.log("timeout", speechDelay)
     //Starts speech
     if (speechText === "Play") {
+      synth.cancel()
       setSpeechText("Pause")
       setAudioIcon(pauseIcon)
       speakStart(speechDelay,speechReset);
