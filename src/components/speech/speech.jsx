@@ -82,6 +82,7 @@ function Speech({ text, title }) {
   }
 
   const speakControl = () => {
+    
     const speechDelay = () => {
       setTimeout(() => {
         synth.speak(utter);
@@ -144,7 +145,12 @@ function Speech({ text, title }) {
     //   synth.resume();
     // console.log("it hit!")
     // }, "10000");
-    // synth.speak(utter);
+    synth.speak(utter);
+    console.log("uttered")
+    synth.cancel();
+    console.log("canceled")
+    synth.speak(utter);
+    console.log("uttered again")
   };
 
   const speakPause = (y) => {
