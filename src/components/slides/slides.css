@@ -59,7 +59,7 @@
   .right{
     flex-direction:column-reverse;
     text-align: left;
-    font-size: 24pt;
+    font-size: 36pt;
   }
 
   .info {

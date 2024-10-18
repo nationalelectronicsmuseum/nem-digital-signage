@@ -55,6 +55,7 @@ function App() {
   const [lang, setLang] = useState("english");
   const [fontF, setFontF] = useState("default");
   const [langSpeech, setLangSpeech] = useState("en-GB");
+  // const [speechPlayer, setspeechPlayer] = useState("en-GB");
 
   return (
     <ContextFontSize.Provider value={[fontS, setFontS]}>

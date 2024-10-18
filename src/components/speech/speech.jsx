@@ -53,34 +53,6 @@ function Speech({ text, title }) {
     }
   };
 
-  const speechController = {
-    play() {
-      if (speechText === "Play") {
-        setSpeechText("Pause")
-        setAudioIcon(pauseIcon)
-        speakStart();
-        console.log("Speech starting");
-        //pauses speech
-      }
-    },
-    pause(){
-      if ( speechText === "Pause") {
-        setSpeechText("Resume")
-        speakPause();
-        // setAudioIcon(playIcon);
-        console.log("Speech paused");
-      }
-    },
-    resume(){
-      if (speechText === "Resume") {
-        setSpeechText("Pause")
-        speakResume();
-        // setAudioIcon(pauseIcon);
-        console.log("Speech resuming");
-      }
-    }
-  }
-
   const speakControl = () => {
     
     const speechDelay = () => {
@@ -125,26 +97,10 @@ function Speech({ text, title }) {
   };
   
   const speakStart = (x,y) => {
-    // if(lang === "english"){
-    //   setSpeechLang("en-GB")
-    // } else {
-    //   setSpeechLang("es-MX")
-    // }
-    // utter.lang = langSpeech
     synth.cancel();
 
     x()
     y()
-
-    // setTimeout(() => {
-    //   synth.speak(utter);
-    // }, "1500");
-
-    // setTimeout(() => {
-    //   synth.pause();
-    //   synth.resume();
-    // console.log("it hit!")
-    // }, "10000");
     synth.speak(utter);
     console.log("uttered")
     synth.cancel();

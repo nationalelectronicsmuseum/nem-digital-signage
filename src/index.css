@@ -81,6 +81,9 @@ body {
 }
 
 .description {
+  font-size: 36pt;
+}
+.description .speechToggle{
   font-size: 24pt;
 }
 
