@@ -4,6 +4,6 @@
   min-width: 400px;
   padding: 2rem;
   height: 1080px;
-  max-height: fit-content;
-  min-height: 500px;
+  /* max-height: fit-content;
+  min-height: 500px; */
 }
