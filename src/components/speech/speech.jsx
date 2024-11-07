@@ -4,7 +4,7 @@ import iconPlay from "../../assets/img/icon_play.svg"
 import iconStop from "../../assets/img/icon_stop.svg"
 import iconPause from "../../assets/img/icon_pause.svg"
 // import "../../assets/img/icon_play.svg"
-import { Context, ContextLangSpeech } from "../../assets/accessibilityContext";
+import { Context, ContextLangSpeech, ContextSpeechPlayer } from "../../assets/accessibilityContext";
 
 function Speech({ text, title }) {
   const [pause, setPause] = useState(false);
@@ -19,6 +19,7 @@ function Speech({ text, title }) {
 
   const [lang, setLang] = useContext(Context);
   const [langSpeech, setLangSpeech] = useContext(ContextLangSpeech);
+  const [speechPlayer, setspeechPlayer] = useContext(ContextSpeechPlayer);
 
   const synth = window.speechSynthesis;
   const utter = new SpeechSynthesisUtterance(text);
@@ -43,15 +44,15 @@ function Speech({ text, title }) {
   utter.pitch = 1;
   utter.rate = 1.2;
 
-  const callback = () => {
-    if (!toggle) {
-      setSpeechBtn("present");
-      setToggle(true);
-    } else {
-      setSpeechBtn("hidden");
-      setToggle(false);
-    }
-  };
+  // const callback = () => {
+  //   if (!toggle) {
+  //     setSpeechBtn("present");
+  //     setToggle(true);
+  //   } else {
+  //     setSpeechBtn("hidden");
+  //     setToggle(false);
+  //   }
+  // };
 
   const speakControl = () => {
     
@@ -135,28 +136,15 @@ function Speech({ text, title }) {
   return (
     <div>
       <div className="speechPlayer">
-        <div className="speechToggle">
+        {/* <div className="speechToggle">
           <i className="fa-solid fa-font"></i>
           <label>
             <input type="checkbox" onClick={callback} />
             <span />
           </label>
           <i className="fa-solid fa-volume-high"></i>
-        </div>
-        <div className={speechBtn}>
-          {/* <button onClick={speakControl} className="speech">
-            {pause == false && stop == true ? (
-              <i className={playIcon}></i>
-            ) : pause == false && stop == false ? (
-              <i className={pauseIcon}></i>
-            ) : pause == true ? (
-              <i className={pauseIcon}></i>
-            ) : (<i className={pauseIcon}></i>)}
-          </button> */}
-          {/* <button onClick={speakControl} className="speech">
-            {speechText}
-            {audioIcon}
-          </button> */}
+        </div> */}
+        <div className={speechPlayer}>
 
           <button onClick={speakControl} className="speech">
             <img src={ speechText == "Play" ? iconPlay : speechText == "Resume" ? iconPlay : iconPause} className="iconImg"></img>
@@ -166,17 +154,6 @@ function Speech({ text, title }) {
             <img src={iconStop} className="iconImg"></img>
           </button>
 
-          {/* <button onClick={speakStart} className="speech">
-            <i className={playIcon}></i>
-          </button> */}
-
-          {/* <button onClick={speakPause} className="speech">
-            <i className={pauseIcon}></i>
-          </button>
-
-          <button onClick={speakStop} className="speech">
-            <i className="fa-regular fa-circle-stop fa-4x"></i>
-          </button> */}
         </div>
       </div>
     </div>

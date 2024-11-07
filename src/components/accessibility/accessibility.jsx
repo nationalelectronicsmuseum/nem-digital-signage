@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import { Context, ContextFontSize, ContextFontFamily, ContextLangSpeech } from "../../assets/accessibilityContext";
+import { Context, ContextFontSize, ContextFontFamily, ContextLangSpeech, ContextListPadding } from "../../assets/accessibilityContext";
 import "./accessibility.css";
 
 export function Accessibility() {
@@ -11,6 +11,8 @@ export function Accessibility() {
   const [fontS, setFontS] = useContext(ContextFontSize);
   const [fontF, setFontF] = useContext(ContextFontFamily);
   const [langSpeech, setLangSpeech] = useContext(ContextLangSpeech)
+  const [listPadding, setListPadding] = useContext(ContextListPadding);
+
 
   const [colorSpa, setColorSpa] = useState("qpBtn")
   const [colorEng, setColorEng] = useState("qpBtn colorSelected")
@@ -55,6 +57,7 @@ export function Accessibility() {
   // Setting the Font Size
   const fontDef = () => {
     setFontS("35pt")
+    setListPadding("50px")
     setColorFontSm("qpBtn")
     setColorFontDef("qpBtn colorSelected")
     setColorFontLg("qpBtn")
@@ -62,6 +65,7 @@ export function Accessibility() {
   }
   const fontSm = () => {
     setFontS("24pt")
+    setListPadding("36px")
     setColorFontSm("qpBtn colorSelected")
     setColorFontDef("qpBtn")
     setColorFontLg("qpBtn")
@@ -69,6 +73,7 @@ export function Accessibility() {
   }
   const fontLg = () => {
     setFontS("45pt")
+    setListPadding("65px")
     setColorFontSm("qpBtn")
     setColorFontDef("qpBtn")
     setColorFontLg("qpBtn colorSelected")

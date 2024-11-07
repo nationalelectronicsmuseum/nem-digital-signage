@@ -11,6 +11,7 @@ function HomeStation() {
       </div>
 
       <ul>
+        {/* <li><Link to="/admin" relative="path" className="homeImg">Admin</Link></li> */}
         <li><Link to="/station1" relative="path" className="homeImg">Station 1</Link></li>
         <li><Link to="/station2" relative="path" className="homeImg">Station 2</Link></li>
         <li><Link to="/station3" relative="path" className="homeImg">Station 3</Link></li>

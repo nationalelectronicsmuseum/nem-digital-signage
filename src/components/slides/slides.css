@@ -26,6 +26,10 @@
     object-fit: cover;
   }
 
+  .swipe-directions{
+    margin: 0;
+  }
+
   .fg {
     display:flex;
     flex-direction: column;
@@ -47,7 +51,7 @@
 
   .left, .right {
     width:49.5%;
-    height: 100vh;
+    height: 70vh;
     overflow: scroll;
   }
 
@@ -56,6 +60,15 @@
     text-align: left;
     /* line-height: 40pt; */
   }
+
+  .left span,
+  .right span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
   .right{
     flex-direction:column-reverse;
     text-align: left;
@@ -75,7 +88,7 @@
   .description {
     overflow:scroll;
     height: 500px;
-
+    margin: 0;
   }
 
   .description p {

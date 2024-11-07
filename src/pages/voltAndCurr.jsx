@@ -2,10 +2,22 @@ import React, { useState, useContext, createContext } from "react";
 import Slides from "../components/slides/slides.jsx";
 import MenuStation1 from "../components/menu/menuStation1.jsx";
 import Accessibility from "../components/accessibility/accessibility.jsx";
-import { Context } from "../assets/accessibilityContext.js";
+import { Context, ContextSpeechPlayer } from "../assets/accessibilityContext.js";
 
 export default function voltAndCurr() {
   const [lang, setLang] = useContext(Context);
+  const [speechPlayer, setspeechPlayer] = useContext(ContextSpeechPlayer);
+  const [toggle, setToggle] = useState(false);
+
+  const callback = () => {
+    if (!toggle) {
+      setspeechPlayer("present");
+      setToggle(true);
+    } else {
+      setspeechPlayer("hiddenPlayer");
+      setToggle(false);
+    }
+  };
 
   const artifact = {
     title: "Voltage and Current",
@@ -58,6 +70,14 @@ export default function voltAndCurr() {
     <div>
       <div className="btnNav">
         <MenuStation1 />
+        <div className="speechToggle">
+          <i className="fa-solid fa-font"></i>
+          <label>
+            <input type="checkbox" onClick={callback} />
+            <span />
+          </label>
+          <i className="fa-solid fa-volume-high"></i>
+        </div>
         <Accessibility text={artifact} />
       </div>
       <div className="sectionhead">
