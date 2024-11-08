@@ -69,6 +69,11 @@
     justify-content: flex-start;
   }
 
+  .left h3,
+  .right h3 {
+    margin: .25em 0.5em .25em 0;
+  }
+
   .right{
     flex-direction:column-reverse;
     text-align: left;
@@ -87,14 +92,10 @@
 
   .description {
     overflow:scroll;
-    height: 500px;
+    height: 550px;
     margin: 0;
   }
 
   .description p {
     margin: 0;
-  }
-
-  h3 {
-    margin: .25em 0;
   }

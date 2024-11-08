@@ -70,15 +70,19 @@ export default function voltAndCurr() {
     <div>
       <div className="btnNav">
         <MenuStation1 />
-        <div className="speechToggle">
+        {/* <div className="speechToggle">
           <i className="fa-solid fa-font"></i>
           <label>
             <input type="checkbox" onClick={callback} />
             <span />
           </label>
           <i className="fa-solid fa-volume-high"></i>
+        </div> */}
+        <div className="accs">
+          <Accessibility text={artifact} />
+          <button onClick={callback} style={{border: "1px solid black", borderRadius: "10%",padding: "2px"}}>Audio <br></br>Player</button>
         </div>
-        <Accessibility text={artifact} />
+        
       </div>
       <div className="sectionhead">
         <div className="sectiontitle">
