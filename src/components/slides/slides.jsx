@@ -11,7 +11,7 @@ import "./slides.css";
 import Speech from "../speech/speech";
 import { Context, ContextFontSize, ContextListPadding } from "../../assets/accessibilityContext";
 
-const Slides = ({ artifact, artifactImg }) => {
+const Slides = ({ artifact, artifactImg1, artifactImg2 }) => {
   const [fontS, setFontS] = useContext(ContextFontSize);
   const [listPadding, setListPadding] = useContext(ContextListPadding);
 
@@ -63,9 +63,7 @@ const Slides = ({ artifact, artifactImg }) => {
               </div>
 
               <div className="right">
-                <img src={artifactImg}></img>
-
-                <button onClick={clicked}>"Click Me"</button>
+                <img style={{maxWidth: "400px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)"}} src={artifactImg1}></img>
               </div>
             </div>
           </div>
@@ -89,7 +87,9 @@ const Slides = ({ artifact, artifactImg }) => {
                 {artifact.impact}
               </p>
             </div>
-            <div className="right"></div>
+            <div className="right">
+              <img style={{maxWidth: "400px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)"}} src={artifactImg2}></img>
+            </div>
           </div>
           <span style={{ color: "#a70e20" }}>
             <i className="fa-solid fa-angles-right"></i>

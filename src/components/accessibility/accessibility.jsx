@@ -25,6 +25,9 @@ export function Accessibility() {
   const [colorFamilySerif, setColorFamilySerif] = useState("qpBtn")
   const [colorFamilyDyslex, setColorFamilyDyslex] = useState("qpBtn")
 
+  const [audioControlsOn, setAudioControlsOn] = useState("qpBtn")
+  const [audioControlsOff, setAudioControlsOff] = useState("qpBtn colorSelected")
+
   const serifFont = "Times New Roman, Times, serif"
   const sansFont = "Arial, Helvetica, sans-serif"
   const sansDyslex = "OpenDyslexicMono"
@@ -100,6 +103,17 @@ export function Accessibility() {
     setColorFamilyDyslex("qpBtn colorSelected")
   }
 
+  // Setting the audio controls
+  const audioControlOn = () => {
+    setAudioControlsOn("qpBtn colorSelected")
+    setAudioControlsOff("qpBtn")
+  }
+
+  const audioControlOff = () => {
+    setAudioControlsOn("qpBtn")
+    setAudioControlsOff("qpBtn colorSelected")
+  }
+
   const showMenu = () => {
     console.log("im clicked");
     if (state === "hide") {
@@ -150,6 +164,15 @@ export function Accessibility() {
               <button className={colorFontSm} onClick={fontSm}>Small</button>
               <button className={colorFontDef} onClick={fontDef}>Default</button>
               <button className={colorFontLg} onClick={fontLg}>Large</button>
+            </span>
+          </span>
+          <span className="qpChild">
+            <span>
+              <h4>Audio Controls</h4>
+            </span>
+            <span>
+              <button className={audioControlsOn} onClick={audioControlOn}>On</button>
+              <button className={audioControlsOff} onClick={audioControlOff}>Off</button>
             </span>
           </span>
         </div>

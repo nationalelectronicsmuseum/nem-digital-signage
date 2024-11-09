@@ -3,6 +3,8 @@ import Slides from "../components/slides/slides.jsx";
 import MenuStation1 from "../components/menu/menuStation1.jsx";
 import Accessibility from "../components/accessibility/accessibility.jsx";
 import { Context, ContextSpeechPlayer } from "../assets/accessibilityContext.js";
+import voltCurrImage from "../assets/img/voltcurr.png";
+import ohmslawGif from "../assets/img/ohmslaw.gif";
 
 export default function voltAndCurr() {
   const [lang, setLang] = useContext(Context);
@@ -91,7 +93,7 @@ export default function voltAndCurr() {
           <h1 className="artifactTitle">Voltage and Current</h1>
         </div>
       </div>
-      <Slides artifact={lang === "default" ? artifact: lang === "english" ? artifact : artifactSpanish} />
+      <Slides artifact={lang === "default" ? artifact: lang === "english" ? artifact : artifactSpanish} artifactImg1={ohmslawGif} artifactImg2={voltCurrImage} />
     </div>
   );
 }
