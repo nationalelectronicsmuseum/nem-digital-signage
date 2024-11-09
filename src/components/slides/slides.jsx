@@ -63,7 +63,7 @@ const Slides = ({ artifact, artifactImg1, artifactImg2 }) => {
               </div>
 
               <div className="right">
-                <img style={{maxWidth: "400px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)"}} src={artifactImg1}></img>
+                <img style={{maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)"}} src={artifactImg1}></img>
               </div>
             </div>
           </div>
@@ -88,7 +88,7 @@ const Slides = ({ artifact, artifactImg1, artifactImg2 }) => {
               </p>
             </div>
             <div className="right">
-              <img style={{maxWidth: "400px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)"}} src={artifactImg2}></img>
+              <img style={{maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)"}} src={artifactImg2}></img>
             </div>
           </div>
           <span style={{ color: "#a70e20" }}>
