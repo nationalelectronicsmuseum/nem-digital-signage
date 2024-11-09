@@ -80,7 +80,9 @@ export default function voltAndCurr() {
         </div> */}
         <div className="accs">
           <Accessibility text={artifact} />
-          <button onClick={callback} style={{border: "1px solid black", borderRadius: "10%",padding: "2px"}}>Audio <br></br>Player</button>
+          <button onClick={callback} style={{border: "1px solid black", borderRadius: "10%", padding: "2px", background: "#222222", marginRight: "10px"}}>
+            <i class="fa-solid fa-volume-high fa-4x" />
+          </button>
         </div>
         
       </div>

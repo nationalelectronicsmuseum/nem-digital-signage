@@ -58,7 +58,7 @@
   .left {
     font-size: 36pt;
     text-align: left;
-    /* line-height: 40pt; */
+    padding-right: 25px;
   }
 
   .left span,
@@ -92,7 +92,7 @@
 
   .description {
     overflow:scroll;
-    height: 550px;
+    height: 700px;
     margin: 0;
   }
 
