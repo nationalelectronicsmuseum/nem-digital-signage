@@ -118,7 +118,7 @@ export function Accessibility() {
   return (
     <div>
       <button onClick={showMenu} className={selected}>
-      <i className="fa-solid fa-universal-access fa-3x"></i>
+      <i className="fa-solid fa-universal-access fa-3x fa-inverse"></i>
       </button>
       
       <div className={state}>

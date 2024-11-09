@@ -81,7 +81,7 @@ export default function voltAndCurr() {
         <div className="accs">
           <Accessibility text={artifact} />
           <button onClick={callback} style={{border: "1px solid black", borderRadius: "10%", padding: "2px", background: "#222222", marginRight: "10px"}}>
-            <i class="fa-solid fa-volume-high fa-4x" />
+            <i class="fa-solid fa-volume-high fa-4x fa-inverse" />
           </button>
         </div>
         
