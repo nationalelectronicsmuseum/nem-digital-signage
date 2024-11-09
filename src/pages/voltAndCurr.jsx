@@ -1,25 +1,13 @@
-import React, { useState, useContext, createContext } from "react";
+import React, { useContext } from "react";
 import Slides from "../components/slides/slides.jsx";
 import MenuStation1 from "../components/menu/menuStation1.jsx";
 import Accessibility from "../components/accessibility/accessibility.jsx";
-import { Context, ContextSpeechPlayer } from "../assets/accessibilityContext.js";
+import { Context } from "../assets/accessibilityContext.js";
 import voltCurrImage from "../assets/img/voltcurr.png";
 import ohmslawGif from "../assets/img/ohmslaw.gif";
 
 export default function voltAndCurr() {
   const [lang, setLang] = useContext(Context);
-  const [speechPlayer, setspeechPlayer] = useContext(ContextSpeechPlayer);
-  const [toggle, setToggle] = useState(false);
-
-  const callback = () => {
-    if (!toggle) {
-      setspeechPlayer("present");
-      setToggle(true);
-    } else {
-      setspeechPlayer("hiddenPlayer");
-      setToggle(false);
-    }
-  };
 
   const artifact = {
     title: "Voltage and Current",
@@ -82,9 +70,6 @@ export default function voltAndCurr() {
         </div> */}
         <div className="accs">
           <Accessibility text={artifact} />
-          <button onClick={callback} style={{border: "1px solid black", borderRadius: "10%", padding: "2px", background: "#222222", marginRight: "10px"}}>
-            <i class="fa-solid fa-volume-high fa-4x fa-inverse" />
-          </button>
         </div>
         
       </div>

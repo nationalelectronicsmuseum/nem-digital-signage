@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import { Context, ContextFontSize, ContextFontFamily, ContextLangSpeech, ContextListPadding } from "../../assets/accessibilityContext";
+import { Context, ContextFontSize, ContextFontFamily, ContextLangSpeech, ContextListPadding, ContextSpeechPlayer } from "../../assets/accessibilityContext.js";
 import "./accessibility.css";
 
 export function Accessibility() {
@@ -27,6 +27,8 @@ export function Accessibility() {
 
   const [audioControlsOn, setAudioControlsOn] = useState("qpBtn")
   const [audioControlsOff, setAudioControlsOff] = useState("qpBtn colorSelected")
+
+  const [, setspeechPlayer] = useContext(ContextSpeechPlayer);
 
   const serifFont = "Times New Roman, Times, serif"
   const sansFont = "Arial, Helvetica, sans-serif"
@@ -107,11 +109,13 @@ export function Accessibility() {
   const audioControlOn = () => {
     setAudioControlsOn("qpBtn colorSelected")
     setAudioControlsOff("qpBtn")
+    setspeechPlayer("present");
   }
 
   const audioControlOff = () => {
     setAudioControlsOn("qpBtn")
     setAudioControlsOff("qpBtn colorSelected")
+    setspeechPlayer("hiddenPlayer");
   }
 
   const showMenu = () => {
