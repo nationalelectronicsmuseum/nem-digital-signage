@@ -5,12 +5,12 @@ import "./accessibility.css";
 export function Accessibility() {
   const [state, setState] = useState("hide");
   const [selected, setSelected] = useState("qdbp notselected");
-  const [selectedSize, setSelectedSize] = useState("#a70e20")
+  const [selectedSize, setSelectedSize] = useState("#a70e20");
 
   const [lang, setLang] = useContext(Context);
   const [fontS, setFontS] = useContext(ContextFontSize);
   const [fontF, setFontF] = useContext(ContextFontFamily);
-  const [langSpeech, setLangSpeech] = useContext(ContextLangSpeech)
+  const [langSpeech, setLangSpeech] = useContext(ContextLangSpeech);
   const [listPadding, setListPadding] = useContext(ContextListPadding);
 
 
@@ -142,9 +142,9 @@ export function Accessibility() {
       <div className={state}>
         <div className="background" onClick={showMenu}></div>
         <div className="qp">
-          <h2>Accessibility Menu</h2>
+          <div class="qpTitle">Accessibility Menu</div>
           <span className="qpChild">
-            <h4>Language</h4>
+            <div className="qpSubtitle">Language</div>
             <span className="btnLng">
               <button className={colorEng} onClick={selectEng}>English</button>
               <button className={colorSpa} onClick={selectSpa}>Spanish</button>
@@ -153,7 +153,7 @@ export function Accessibility() {
             </span>
           </span>
           <span className="qpChild">
-            <h4>Font Change</h4>
+          <div className="qpSubtitle">Font Change</div>
             <span>
               <button className={colorFamilySan} onClick={fontArial}>Arial</button>
               <button className={colorFamilySerif} onClick={fontTimes}>Times New Roman</button>
@@ -162,7 +162,7 @@ export function Accessibility() {
           </span>
           <span className="qpChild">
             <span>
-              <h4>Text Size</h4>
+            <div className="qpSubtitle">Text Size</div>
             </span>
             <span>
               <button className={colorFontSm} onClick={fontSm}>Small</button>
@@ -172,7 +172,7 @@ export function Accessibility() {
           </span>
           <span className="qpChild">
             <span>
-              <h4>Audio Controls</h4>
+            <div className="qpSubtitle">Audio Controls</div>
             </span>
             <span>
               <button className={audioControlsOn} onClick={audioControlOn}>On</button>

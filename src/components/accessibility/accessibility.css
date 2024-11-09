@@ -88,6 +88,16 @@
     background: rgb(0 0 0 / 80%);
   }
 
+.qpTitle {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.qpSubtitle {
+    margin-top: 10px;
+    font-size: 28px;
+}
+
 .qpChild {
     /* border-bottom: 1px solid black; */
     display: flex;
@@ -102,10 +112,12 @@
 }
 
 .qpBtn {
-    border: 1px solid black;
+    border: 3px solid black;
+    border-radius: 5px;
     color: black;
     padding: 5px;
     margin-right: 5px;
+    font-size: 24px;
 }
 
 .audioControl {
@@ -117,5 +129,6 @@
 }
 
 .colorSelected {
-    color: rgb(177, 5, 5);
+    color: white;
+    background-color: black;
 }
