@@ -37,6 +37,13 @@ function Speech({ text, audio }) {
   //     setToggle(false);
   //   }
   // };
+  utter.addEventListener("end", (event) => {
+    synth.cancel()
+    setSpeechText("Play")
+    console.log(
+      `Utterance has finished being spoken after ${event.elapsedTime} seconds.`,
+    );
+  })
 
   const testButton = () => {
     const utter = new SpeechSynthesisUtterance(text);
@@ -44,6 +51,11 @@ function Speech({ text, audio }) {
     utter.pitch = 1;
     utter.rate = 1.2;
     synth.speak(utter)
+    console.log("speech start")
+    synth.cancel()
+    console.log("stopped")
+    synth.speak(utter)
+    console.log("speech start again")
   }
 
   const speakControl = () => {
@@ -61,13 +73,13 @@ function Speech({ text, audio }) {
       }, "10000");
     }
 
-    console.log("timeout", speechDelay)
     //Starts speech
     if (speechText === "Play") {
       synth.cancel()
       setSpeechText("Pause")
       setAudioIcon(pauseIcon)
-      speakStart(speechDelay,speechReset);
+      speakStart();
+      synth.
       console.log("Speech starting");
       //pauses speech
     }
@@ -89,11 +101,11 @@ function Speech({ text, audio }) {
     console.log(pause);
   };
   
-  const speakStart = (x,y) => {
+  const speakStart = () => {
     synth.cancel();
 
-    x()
-    y()
+    // x()
+    // y()
     synth.speak(utter);
     console.log("uttered")
     synth.cancel();
@@ -102,7 +114,7 @@ function Speech({ text, audio }) {
     console.log("uttered again")
   };
 
-  const speakPause = (y) => {
+  const speakPause = () => {
       synth.pause();
   };
 
