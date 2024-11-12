@@ -142,7 +142,7 @@ export function Accessibility() {
       <div className={state}>
         <div className="background" onClick={showMenu}></div>
         <div className="qp">
-          <div class="qpTitle">Accessibility Menu</div>
+          <div className="qpTitle">Accessibility Menu</div>
           <span className="qpChild">
             <div className="qpSubtitle">Language</div>
             <span className="btnLng">

@@ -15,15 +15,16 @@ const Slides = ({ artifact, artifactImg1, artifactImg2 }) => {
   const [fontS, setFontS] = useContext(ContextFontSize);
   const [listPadding, setListPadding] = useContext(ContextListPadding);
 
+  const descriptionText = artifact.description.join(" ");
+  const directionsText = artifact.directions.steps.map((x) => x.step).join(" ");
+
   const synth = window.speechSynthesis;
+  const audioDescription = new SpeechSynthesisUtterance(descriptionText)
+  const audioDirections = new SpeechSynthesisUtterance(directionsText)
   const speakStop = () => {
     console.log("Speech has stopped");
     synth.cancel();
   };
-
-  const descriptionText = artifact.description.join(" ");
-  // console.log("description", descriptionText)
-  const directionsText = artifact.directions.steps.map((x) => x.step).join(" ");
 
   const clicked = () => {
     console.log("clicked");

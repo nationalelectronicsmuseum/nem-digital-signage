@@ -6,7 +6,7 @@ import iconPause from "../../assets/img/icon_pause.svg"
 // import "../../assets/img/icon_play.svg"
 import { Context, ContextLangSpeech, ContextSpeechPlayer } from "../../assets/accessibilityContext";
 
-function Speech({ text, title }) {
+function Speech({ text, audio }) {
   const [pause, setPause] = useState(false);
   const [stop, setStop] = useState(true);
   const [toggle, setToggle] = useState(false);
@@ -24,22 +24,6 @@ function Speech({ text, title }) {
   const synth = window.speechSynthesis;
   const utter = new SpeechSynthesisUtterance(text);
 
-  utter.addEventListener("start", (event) => {
-    console.log(`We have started uttering this speech: ${event.utterance.text}`);
-    console.log(event)
-    utter.onboundary = (e) => {
-      console.log("name",e.name)
-    }
-  });
-  
-  utter.addEventListener("end", (event) => {
-    synth.cancel()
-    setSpeechText("Play")
-    console.log(
-      `Utterance has finished being spoken after ${event.elapsedTime} seconds.`,
-    );
-  })
-
   utter.lang = langSpeech
   utter.pitch = 1;
   utter.rate = 1.2;
@@ -53,6 +37,14 @@ function Speech({ text, title }) {
   //     setToggle(false);
   //   }
   // };
+
+  const testButton = () => {
+    const utter = new SpeechSynthesisUtterance(text);
+    utter.lang = langSpeech
+    utter.pitch = 1;
+    utter.rate = 1.2;
+    synth.speak(utter)
+  }
 
   const speakControl = () => {
     
@@ -145,6 +137,8 @@ function Speech({ text, title }) {
           <i className="fa-solid fa-volume-high"></i>
         </div> */}
         <div className={speechPlayer}>
+
+          <button onClick={testButton}>Test play</button>
 
           <button onClick={speakControl} className="speech">
             <img src={ speechText == "Play" ? iconPlay : speechText == "Resume" ? iconPlay : iconPause} className="iconImg"></img>
