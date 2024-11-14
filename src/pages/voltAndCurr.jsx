@@ -56,8 +56,8 @@ export default function voltAndCurr() {
   //   },
   //   how: "Gire la perilla para cambiar. Al girar el interruptor, se cierra el circuito y se permite que la corriente fluya por el camino del circuito. Sin la fuerza del voltaje y el camino de un circuito, la corriente no fluirá. El voltaje empuja la corriente, lo que la obliga a fluir a través de un circuito cerrado y encender la bombilla.",
   // }
-  const data = artifact.filter(x => x.title === "Voltage and Current")
-  const dataSpanish = artifact.filter(x => x.title === "Voltaje y Corriente")
+  const data = artifact.filter(x => x.title === "Voltage and Current").pop()
+  const dataSpanish = artifact.filter(x => x.title === "Voltaje y Corriente").pop()
 
   return (
     <div>
@@ -81,7 +81,7 @@ export default function voltAndCurr() {
           <h1 className="artifactTitle">Voltage and Current</h1>
         </div>
       </div>
-      <Slides artifact={lang === "default" ? data[0]: lang === "english" ? data[0] : dataSpanish[0]} artifactImg1={ohmslawGif} artifactImg2={voltCurrImage} />
+      <Slides artifact={lang === "default" ? data: lang === "english" ? data : dataSpanish} artifactImg1={ohmslawGif} artifactImg2={voltCurrImage} />
     </div>
   );
 }

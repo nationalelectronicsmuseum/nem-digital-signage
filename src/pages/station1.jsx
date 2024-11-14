@@ -19,7 +19,7 @@ function Station1() {
         <Link to="/human-battery" relative="path">
             <img src={HumanBattImg} className="homeImg"></img>
         </Link>
-        <Link to="/in-progress" relative="path">
+        <Link to="/orsted" relative="path">
             <img src={OrstedImg} className="homeImg"></img>
         </Link>
         <Link to="/faraday" relative="path">

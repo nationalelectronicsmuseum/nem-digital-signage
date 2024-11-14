@@ -5,6 +5,7 @@ import Slides from '../components/slides/slides'
 
 function Orsted() {
   const data = artifact.filter(x => x.title === "Orsted's Experiment")
+
   return (
     <div>
       <MenuStation1 />
