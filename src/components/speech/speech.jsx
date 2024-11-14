@@ -26,17 +26,8 @@ function Speech({ text, audio }) {
 
   utter.lang = langSpeech
   utter.pitch = 1;
-  utter.rate = 1.2;
+  utter.rate = 1.1;
 
-  // const callback = () => {
-  //   if (!toggle) {
-  //     setSpeechBtn("present");
-  //     setToggle(true);
-  //   } else {
-  //     setSpeechBtn("hidden");
-  //     setToggle(false);
-  //   }
-  // };
   utter.addEventListener("end", (event) => {
     synth.cancel()
     setSpeechText("Play")
@@ -45,33 +36,7 @@ function Speech({ text, audio }) {
     );
   })
 
-  const testButton = () => {
-    const utter = new SpeechSynthesisUtterance(text);
-    utter.lang = langSpeech
-    utter.pitch = 1;
-    utter.rate = 1.2;
-    synth.speak(utter)
-    console.log("speech start")
-    synth.cancel()
-    console.log("stopped")
-    synth.speak(utter)
-    console.log("speech start again")
-  }
-
   const speakControl = () => {
-    
-    const speechDelay = () => {
-      setTimeout(() => {
-        synth.speak(utter);
-      }, "1000");
-    }
-    const speechReset = () => {
-      setTimeout(() => {
-        synth.pause();
-        synth.resume();
-      console.log("it hit!")
-      }, "10000");
-    }
 
     //Starts speech
     if (speechText === "Play") {
@@ -84,8 +49,8 @@ function Speech({ text, audio }) {
     }
     if ( speechText === "Pause") {
       setSpeechText("Resume")
-      speakPause(speechReset);
-      // setAudioIcon(playIcon);
+      speakPause();
+      setAudioIcon(playIcon);
       console.log("Speech paused");
     }
 
@@ -102,9 +67,6 @@ function Speech({ text, audio }) {
   
   const speakStart = () => {
     synth.cancel();
-
-    // x()
-    // y()
     synth.speak(utter);
     console.log("uttered")
   };
@@ -135,17 +97,8 @@ function Speech({ text, audio }) {
   return (
     <div>
       <div className="speechPlayer">
-        {/* <div className="speechToggle">
-          <i className="fa-solid fa-font"></i>
-          <label>
-            <input type="checkbox" onClick={callback} />
-            <span />
-          </label>
-          <i className="fa-solid fa-volume-high"></i>
-        </div> */}
-        <div className={speechPlayer}>
 
-          <button onClick={testButton}>Test play</button>
+        <div className={speechPlayer}>
 
           <button onClick={speakControl} className="speech">
             <img src={ speechText == "Play" ? iconPlay : speechText == "Resume" ? iconPlay : iconPause} className="iconImg"></img>
