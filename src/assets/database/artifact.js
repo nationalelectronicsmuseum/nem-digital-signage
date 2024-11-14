@@ -561,7 +561,7 @@ export const artifact = [{
   how: "",
 },
 {
-  title: "",
+  title: "Manual Turbine",
   info: [
     {
       id: 1,
@@ -600,7 +600,7 @@ export const artifact = [{
   how: "",
 },
 {
-  title: "",
+  title: "Theramin",
   info: [
     {
       id: 1,
@@ -639,7 +639,7 @@ export const artifact = [{
   how: "",
 },
 {
-  title: "",
+  title: "Visible Electromagnetic Waves",
   info: [
     {
       id: 1,

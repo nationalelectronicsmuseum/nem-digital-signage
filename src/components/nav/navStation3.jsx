@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import "./nav.css";
 
 const NavStation3 = () => {
+  const cancelSpeech = () => {
+    window.speechSynthesis.cancel()
+  }
   return (
     <>
         <div className="nav menu">
