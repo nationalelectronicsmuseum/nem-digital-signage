@@ -32,8 +32,9 @@ export const artifact = [{
     "Key Feature: Magnetic field sensor ",
     "Impact: Foundation for modern wireless tech",
   ],
-  description:
-    "In the late 19th century, a young inventor named Guglielmo Marconi developed the Marconi Magnetic Detector, a device that could detect magnetic fields in radio waves. These are invisible signals that make wireless communication possible. These signals could be transmitted long distances without wires and received and became the starting point for wireless communication.",
+  description: [
+    "In the late 19th century, a young inventor named Guglielmo Marconi developed the Marconi Magnetic Detector, a device that could detect magnetic fields in radio waves. These are invisible signals that make wireless communication possible. These signals could be transmitted long distances without wires and received and became the starting point for wireless communication."
+  ],
 
   impact:
     "The Marconi Magnetic Detector is a critical building block that started the journey to global connectivity. This invention changed the game of communication, shaping our modern world. This discovery laid the foundation for future wireless innovations like radios, televisions, the internet, smartphones and Wi-Fi.",
@@ -62,10 +63,18 @@ export const artifact = [{
 
     "1.11 2010s - LTE advanced, 5G network",
   ],
-  directions: [
-    "",
-    "",
-  ],
+  directions: {
+    title: "How it Works",
+    steps: [
+      { id: 1, step: "" },
+      {
+        id: 2,
+        step: "",
+      },
+      { id: 3, 
+        step: "" },
+    ],
+  },
 },
 
 {
@@ -678,7 +687,7 @@ export const artifact = [{
   how: "",
 },
 {
-  title: "",
+  title: "Polarization Experiment",
   info: [
     {
       id: 1,
@@ -717,7 +726,7 @@ export const artifact = [{
   how: "",
 },
 {
-  title: "",
+  title: "Vacuum Tube",
   info: [
     {
       id: 1,

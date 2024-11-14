@@ -23,10 +23,6 @@ const Slides = ({ artifact, artifactImg1, artifactImg2 }) => {
     synth.cancel();
   };
 
-  const clicked = () => {
-    console.log("clicked");
-  };
-
   return (
     <div className="swiperMain">
       <Swiper
