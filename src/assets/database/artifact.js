@@ -89,11 +89,11 @@ export const artifact = [{
     },
   ],
   description: [
-    "Step into the world of Michael Faraday, a brilliant scientist from the 19th century whose discoveries changed the way we understand electricity and magnetism.",
+    "Step into the world of Michael Faraday, a brilliant scientist from the 19th century whose discoveries changed the way we understand electricity and magnetism. ",
 
-    "Imagine a time when people were just beginning to unlock the secrets of electricity. Faraday conducted a groundbreaking experiment in 1831 that showed how electricity and magnetism are connected. He discovered that when a magnet moves near a wire, it creates an electric current. This discovery laid the foundation for the modern technology we use today.",
+    "Imagine a time when people were just beginning to unlock the secrets of electricity. Faraday conducted a groundbreaking experiment in 1831 that showed how electricity and magnetism are connected. He discovered that when a magnet moves near a wire, it creates an electric current. This discovery laid the foundation for the modern technology we use today. ",
 
-    "When Michael Faraday made his discovery of electromagnetic induction, he hypothesized that a changing magnetic field is necessary to induce a current in a nearby circuit. To test his hypothesis he made a coil by wrapping a paper cylinder with wire.  Gently tilt the tube so the magnet slides down the tube and see if you can generate a tiny electric current.",
+    "When Michael Faraday made his discovery of electromagnetic induction, he hypothesized that a changing magnetic field is necessary to induce a current in a nearby circuit. To test his hypothesis he made a coil by wrapping a paper cylinder with wire.  Gently tilt the tube so the magnet slides down the tube and see if you can generate a tiny electric current. ",
 
     "The strength of an electromagnet depends on the number of windings in the coil and the strength of the electric current. More windings and stronger current produce more intense magnetic fields.",
   ],

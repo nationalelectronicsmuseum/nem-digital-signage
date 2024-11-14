@@ -148,8 +148,8 @@ export function Accessibility() {
             <span className="btnLng">
               <button className={colorEng} onClick={selectEng}>English</button>
               <button className={colorSpa} onClick={selectSpa}>Spanish</button>
-              <button className="qpBtn" onClick={selectGer}>German</button>
-              <button className="qpBtn" onClick={selectFre}>French</button>
+              {/* <button className="qpBtn" onClick={selectGer}>German</button>
+              <button className="qpBtn" onClick={selectFre}>French</button> */}
             </span>
           </span>
           <span className="qpChild">

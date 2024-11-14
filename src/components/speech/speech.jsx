@@ -79,7 +79,6 @@ function Speech({ text, audio }) {
       setSpeechText("Pause")
       setAudioIcon(pauseIcon)
       speakStart();
-      synth.
       console.log("Speech starting");
       //pauses speech
     }
@@ -108,10 +107,6 @@ function Speech({ text, audio }) {
     // y()
     synth.speak(utter);
     console.log("uttered")
-    synth.cancel();
-    console.log("canceled")
-    synth.speak(utter);
-    console.log("uttered again")
   };
 
   const speakPause = () => {
