@@ -9,12 +9,12 @@ const Audio = () => {
   const artifact = {
     title: "The Audio Translator",
     info: [
-      { id: 1, text: "Key Points:  CHECK STATS FOR ACCURACY" },
-      { id: 2, text: "Impact: Connected 40 million households by 1930 " },
-      { id: 3, text: "Global Reach: 95% mobile network coverage (2023) " },
+      // { id: 1, text: "Key Points:  CHECK STATS FOR ACCURACY" },
+      // { id: 2, text: "Impact: Connected 40 million households by 1930 " },
+      // { id: 3, text: "Global Reach: 95% mobile network coverage (2023) " },
     ],
     description:
-      "The Audio Translator, not to be confused with a language translator, is a device that captures distant sounds, turning them into electrical signals. This breakthrough marked a new era in communication.",
+      ["The Audio Translator, not to be confused with a language translator, is a device that captures distant sounds, turning them into electrical signals. This breakthrough marked a new era in communication."],
     impact: [
       "Audio translators transformed distant whispers into global conversations. They shaped modern communication, uniting people worldwide. Explore the power of innovation and connection in our shared history.",
 
@@ -42,14 +42,15 @@ const Audio = () => {
 
   return (
     <div>
-      <MenuStation6 />
+      <div className="btnNav">
+        <MenuStation6 />
+        <div className="accs">
+          <Accessibility text={artifact} />
+        </div>
+      </div>
       <div className="sectionhead">
         <div className="sectiontitle sectionleft">
           <h1 className="artifactTitle">The Audio Translator</h1>
-        </div>
-
-        <div className="sectiontitle sectionright">
-          <Accessibility text={artifact}/>
         </div>
       </div>
       <Slides artifact={artifact} artifactImg={artifactImg} />

@@ -483,6 +483,279 @@ export const artifact = [{
     "The telegraph's functioning relies on the transmission of electrical signals through wires and the interpretation of these signals into Morse code, enabling rapid long-distance communication in a time before telephones or modern digital communication methods existed.  When the operator presses the key, it completes an electrical circuit by connecting a battery to the telegraph wires.  This completion of the circuit sends an electrical pulse along the wires to the receiving end, where it triggers the sounder.  The operator at the receiving end listens to the clicks or beeps produced by the sounder and interprets the Morse code to understand the message. "],
 },
 {
+  title: "The Evolution of Sound",
+  info: [
+    {
+      id: 1,
+      text: "",
+    },
+    {
+      id: 2,
+      text: "",
+    },
+    {
+      id: 3,
+      text: "",
+    },
+  ],
+  description: [
+    "",
+    "",
+    "",
+    "",
+  ],
+  impact:
+    "",
+  directions: {
+    title: "How Does it Work?",
+    steps: [
+      {
+        id: 1,
+        step: "",
+      },
+      {
+        id: 2,
+        step: "",
+      },
+    ],
+  },
+  how: "",
+},
+{
+  title: "First Broadcast",
+  info: [
+    {
+      id: 1,
+      text: "",
+    },
+    {
+      id: 2,
+      text: "",
+    },
+    {
+      id: 3,
+      text: "",
+    },
+  ],
+  description: [
+    "",
+    "",
+    "",
+    "",
+  ],
+  impact:
+    "",
+  directions: {
+    title: "How Does it Work?",
+    steps: [
+      {
+        id: 1,
+        step: "",
+      },
+      {
+        id: 2,
+        step: "",
+      },
+    ],
+  },
+  how: "",
+},
+{
+  title: "",
+  info: [
+    {
+      id: 1,
+      text: "",
+    },
+    {
+      id: 2,
+      text: "",
+    },
+    {
+      id: 3,
+      text: "",
+    },
+  ],
+  description: [
+    "",
+    "",
+    "",
+    "",
+  ],
+  impact:
+    "",
+  directions: {
+    title: "How Does it Work?",
+    steps: [
+      {
+        id: 1,
+        step: "",
+      },
+      {
+        id: 2,
+        step: "",
+      },
+    ],
+  },
+  how: "",
+},
+{
+  title: "",
+  info: [
+    {
+      id: 1,
+      text: "",
+    },
+    {
+      id: 2,
+      text: "",
+    },
+    {
+      id: 3,
+      text: "",
+    },
+  ],
+  description: [
+    "",
+    "",
+    "",
+    "",
+  ],
+  impact:
+    "",
+  directions: {
+    title: "How Does it Work?",
+    steps: [
+      {
+        id: 1,
+        step: "",
+      },
+      {
+        id: 2,
+        step: "",
+      },
+    ],
+  },
+  how: "",
+},
+{
+  title: "",
+  info: [
+    {
+      id: 1,
+      text: "",
+    },
+    {
+      id: 2,
+      text: "",
+    },
+    {
+      id: 3,
+      text: "",
+    },
+  ],
+  description: [
+    "",
+    "",
+    "",
+    "",
+  ],
+  impact:
+    "",
+  directions: {
+    title: "How Does it Work?",
+    steps: [
+      {
+        id: 1,
+        step: "",
+      },
+      {
+        id: 2,
+        step: "",
+      },
+    ],
+  },
+  how: "",
+},
+{
+  title: "",
+  info: [
+    {
+      id: 1,
+      text: "",
+    },
+    {
+      id: 2,
+      text: "",
+    },
+    {
+      id: 3,
+      text: "",
+    },
+  ],
+  description: [
+    "",
+    "",
+    "",
+    "",
+  ],
+  impact:
+    "",
+  directions: {
+    title: "How Does it Work?",
+    steps: [
+      {
+        id: 1,
+        step: "",
+      },
+      {
+        id: 2,
+        step: "",
+      },
+    ],
+  },
+  how: "",
+},
+{
+  title: "",
+  info: [
+    {
+      id: 1,
+      text: "",
+    },
+    {
+      id: 2,
+      text: "",
+    },
+    {
+      id: 3,
+      text: "",
+    },
+  ],
+  description: [
+    "",
+    "",
+    "",
+    "",
+  ],
+  impact:
+    "",
+  directions: {
+    title: "How Does it Work?",
+    steps: [
+      {
+        id: 1,
+        step: "",
+      },
+      {
+        id: 2,
+        step: "",
+      },
+    ],
+  },
+  how: "",
+},
+{
   title: "",
   info: [
     {

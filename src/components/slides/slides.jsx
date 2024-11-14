@@ -18,9 +18,6 @@ const Slides = ({ artifact, artifactImg1, artifactImg2 }) => {
   const descriptionText = artifact.description.join(" ");
   const directionsText = artifact.directions.steps.map((x) => x.step).join(" ");
 
-  const synth = window.speechSynthesis;
-  const audioDescription = new SpeechSynthesisUtterance(descriptionText)
-  const audioDirections = new SpeechSynthesisUtterance(directionsText)
   const speakStop = () => {
     console.log("Speech has stopped");
     synth.cancel();
