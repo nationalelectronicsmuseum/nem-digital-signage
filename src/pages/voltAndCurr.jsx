@@ -71,9 +71,7 @@ export default function voltAndCurr() {
         </div>
       </div>
       <div className="sectionhead">
-      <audio controls loop>
-        <source src={loop} type="audio/wav"/>
-      </audio>
+      <audio autoPlay loop src={loop} type="audio/wav"></audio>
         <div className="sectiontitle">
           <h1 className="artifactTitle">Voltage and Current</h1>
         </div>
