@@ -7,6 +7,8 @@ import voltCurrImage from "../assets/img/voltcurr.png";
 import { artifact } from "../assets/database/artifact.js";
 import ohmslawGif from "../assets/img/ohmslaw.gif";
 
+import loop from "../assets/sound/loop.wav"
+
 export default function voltAndCurr() {
   const [lang, setLang] = useContext(Context);
 
@@ -61,6 +63,7 @@ export default function voltAndCurr() {
 
   return (
     <div>
+  
       <div className="btnNav">
         <MenuStation1 />
         <div className="accs">
@@ -68,6 +71,9 @@ export default function voltAndCurr() {
         </div>
       </div>
       <div className="sectionhead">
+      <audio controls loop>
+        <source src={loop} type="audio/wav"/>
+      </audio>
         <div className="sectiontitle">
           <h1 className="artifactTitle">Voltage and Current</h1>
         </div>
