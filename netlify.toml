@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/in-progress
-  to = "/in-progress.jsx"
+  from = "https://nem-gallery.netlify.app/in-progress
+  to = "https://nem-gallery.netlify.app/in-progress.jsx"
   status = 301
   force = true
