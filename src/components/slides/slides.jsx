@@ -1,7 +1,6 @@
 import React, { useState, useContext } from "react";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -17,8 +16,6 @@ const Slides = ({ artifact, artifactImg1, artifactImg2 }) => {
 
   const descriptionText = artifact.description.join(" ");
   const directionsText = artifact.directions.steps.map((x) => x.step).join(" ");
-
-  const swiper = useSwiper();
 
   const synth = window.speechSynthesis;
 

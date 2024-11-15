@@ -21,7 +21,7 @@ export function Accessibility() {
   const [colorFontDef, setColorFontDef] = useState("qpBtn colorSelected")
   const [colorFontLg, setColorFontLg] = useState("qpBtn")
 
-  const [colorFamilySan, setColorFamilySan] = useState("qpBtn colorSelected")
+  const [colorFamilySan, setColorFamilySan] = useState("qpBtn")
   const [colorFamilySerif, setColorFamilySerif] = useState("qpBtn")
   const [colorFamilyDyslex, setColorFamilyDyslex] = useState("qpBtn")
 

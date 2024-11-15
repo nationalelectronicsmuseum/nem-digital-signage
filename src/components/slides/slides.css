@@ -2,7 +2,11 @@
   z-index: auto;
 }
 
-
+.placeholder {
+  width: 50%;
+  height: 100%;
+  background:white;
+}
 
 .swiper {
     width: 100%;
@@ -92,7 +96,7 @@
 
   .description {
     overflow:scroll;
-    height: 800px;
+    height: 700px;
     margin: 0;
   }
 
@@ -107,4 +111,41 @@
 
   .watchPara {
     margin: 0;
+  }
+
+  .audioSlides {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 50vw;
+  }
+
+  .audioLeft {
+    width: 50%;
+    height: 100%;
+    background: gray;
+    display: flex;
+  }
+  .audioRight {
+    padding: 20px;
+    width: 50%;
+    height: 100%;
+    background: beige;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .audioRight h3{
+    margin: 0;
+  }
+
+  .audioRight h5 {
+    margin: 0;
+  }
+
+  .audioRight p {
+    font-size: 16pt;
+    margin: 0 0 20px 0;
   }

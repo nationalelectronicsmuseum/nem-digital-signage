@@ -22,6 +22,7 @@ import Station3 from "./pages/station3";
 import Theremin from "./pages/theremin";
 import VisibleElectronicWaves from "./pages/visibleElectronicWaves";
 import Polarization from "./pages/polarization";
+import EvolutionRecordedSound from "./pages/evolutionRecordedSound";
 
 import Station4 from "./pages/station4";
 import MicrowaveTurntable from "./pages/microwaveTurntable";
@@ -104,6 +105,7 @@ function App() {
                       element={<VisibleElectronicWaves />}
                     />
                     <Route path="/polarization" element={<Polarization />} />
+                    <Route path="/evolution-recorded-sound" element={<EvolutionRecordedSound />} />
 
                     {/* Station 4 */}
                     <Route path="/station4" element={<Station4 />} />

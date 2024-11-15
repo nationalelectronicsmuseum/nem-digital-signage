@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import polarizationImg from "../assets/img/polarization.svg"
 import theraminImg from "../assets/img/ph-theramin.svg"
 import electromagneticImg from "../assets/img/ph-electromagnetic.svg"
+import standin from "../assets/img/logo.jpg"
 
 export default function Station3() {
   return (
@@ -20,6 +21,9 @@ export default function Station3() {
         </Link>
         <Link to="/polarization" relative="path">
             <img src={polarizationImg} className="homeImg"></img>
+        </Link>
+        <Link to="/evolution-recorded-sound" relative="path">
+            <img src={standin} className="homeImg"></img>
         </Link>
       </div>
 
