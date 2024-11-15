@@ -26,7 +26,7 @@ function Speech({ text, audio }) {
 
   utter.lang = langSpeech
   utter.pitch = 1;
-  utter.rate = 1.1;
+  utter.rate = 1.15;
 
   utter.addEventListener("end", (event) => {
     synth.cancel()
@@ -40,7 +40,6 @@ function Speech({ text, audio }) {
 
     //Starts speech
     if (speechText === "Play") {
-      synth.cancel()
       setSpeechText("Pause")
       setAudioIcon(pauseIcon)
       speakStart();

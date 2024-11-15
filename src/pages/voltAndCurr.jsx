@@ -3,7 +3,8 @@ import Slides from "../components/slides/slides.jsx";
 import MenuStation1 from "../components/menu/menuStation1.jsx";
 import Accessibility from "../components/accessibility/accessibility.jsx";
 import { Context } from "../assets/accessibilityContext.js";
-import voltCurrImage from "../assets/img/voltcurr.png";
+// import voltCurrImage from "../assets/img/voltcurr.png";
+import voltImpact from "../assets/img/volt_impact.jpg"
 import { artifact } from "../assets/database/artifact.js";
 import ohmslawGif from "../assets/img/ohmslaw.gif";
 
@@ -30,7 +31,7 @@ export default function voltAndCurr() {
           <h1 className="artifactTitle">Voltage and Current</h1>
         </div>
       </div>
-      <Slides artifact={lang === "default" ? data: lang === "english" ? data : dataSpanish} artifactImg1={ohmslawGif} artifactImg2={voltCurrImage} />
+      <Slides artifact={lang === "default" ? data: lang === "english" ? data : dataSpanish} artifactImg1={ohmslawGif} artifactImg2={voltImpact} />
     </div>
   );
 }

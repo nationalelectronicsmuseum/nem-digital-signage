@@ -9,7 +9,7 @@ import Admin from "../src/assets/admin/admin";
 import Station1 from "./pages/station1";
 import VoltAndCurr from "./pages/voltAndCurr";
 import HumanBattery from "./pages/humanBatt";
-import Orsted from "./pages/orsted";
+import Oersted from "./pages/oersted";
 import Faraday from "./pages/faraday";
 
 import Station2 from "./pages/station2";
@@ -83,7 +83,7 @@ function App() {
                       element={<VoltAndCurr />}
                     />
                     <Route path="/human-battery" element={<HumanBattery />} />
-                    <Route path="/orsted" element={<Orsted />} />
+                    <Route path="/oersted" element={<Oersted />} />
                     <Route path="/faraday" element={<Faraday />} />
 
                     {/* Station 2 */}

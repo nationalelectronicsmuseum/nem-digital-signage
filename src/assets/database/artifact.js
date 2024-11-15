@@ -22,6 +22,8 @@ export const artifact = [{
       { id: 3, step: "Rotate the knob to change voltage." },
     ],
   },
+  watch: "Turning the knob allows voltage to change as the voltmeter shows. The meter remains still because no current is being used until you flip the switch. When you flip the switch, the ammeter shows the current being drawn by the bulb as you twist the knob. The amount of current drawn varies, changing the bulb/'s brightness."
+  ,
   how: "By flipping the switch, you close the circuit and allow the current to flow in the circuit`s path. Without the force of the voltage and the path of a circuit, current will not flow. Voltage pushes current, forcing it to flow through a closed circuit and light the bulb.",
 },
 {
@@ -75,6 +77,8 @@ export const artifact = [{
         step: "" },
     ],
   },
+  watch: "",
+  how: ""
 },
 
 {
@@ -129,15 +133,16 @@ export const artifact = [{
       },
     ],
   },
+  watch: "",
   how: "This phenomenon occurs due to electromagnetic induction, a principle discovered by Faraday. It demonstrates that a changing magnetic field induces an electric current in a conductor. The key factor here is the relative motion between the magnet and the wire, causing the magnetic flux through the coil to change.  Magnetic flux is a measure of the magnitude of a magnetic field passing through a given area.",
 },
 
 {
-  title: "Orsted's Experiment",
+  title: "Oersted's Experiment",
   info: [
     {
       id: 1,
-      text: "Discoverer: Hans Christian Orsted",
+      text: "Discoverer: Hans Christian Oersted",
     },
     {
       id: 2,
@@ -153,10 +158,10 @@ export const artifact = [{
     },
   ],
   description: [
-    "In the early 19th century, Orsted embarked on an experiment that would change our understanding of nature.  Orsted's curiosity led him to an extraordinary experiment. With a simple setup, he observed the interaction between electricity and magnetism. He noticed that when an electric current flowed through a wire, a nearby magnetic compass needle moved. This unexpected interaction between electricity and magnetism was the spark that lit up a revolution in science."
+    "In the early 19th century, Oersted embarked on an experiment that would change our understanding of nature.  Oersted's curiosity led him to an extraordinary experiment. With a simple setup, he observed the interaction between electricity and magnetism. He noticed that when an electric current flowed through a wire, a nearby magnetic compass needle moved. This unexpected interaction between electricity and magnetism was the spark that lit up a revolution in science."
   ],
   impact:
-    "Orsted's discovery was the key that unlocked the mysterious relationship between electricity and magnetism. This revelation laid the groundwork for the development of electric motors, generators, and the modern technology we rely on today.",
+    "Oersted's discovery was the key that unlocked the mysterious relationship between electricity and magnetism. This revelation laid the groundwork for the development of electric motors, generators, and the modern technology we rely on today.",
   directions: {
     title: "How it Works",
     steps: [
@@ -178,6 +183,7 @@ export const artifact = [{
       },
     ],
   },
+  watch: "",
   how: "A compass needle points to a magnetic force and typically to the Earth`s north magnetic pole.  When you flip the switch, you allow current to flow in one direction from the battery. The magnetic field created by the electric current through the wrapped wire coil created its own magnetic field.  The compass needles line up with the magnetic field around the wire. When you flip the switch the other way, the compass needles reverse because the direction of the current has been reversed.",
 },
 
@@ -225,6 +231,7 @@ export const artifact = [{
       }
     ],
   },
+  watch: "",
   how: "When you touch the metal plates, the moisture on your hands acts as the battery`s saline conducting electrolyte. The electrolytes react with the copper and aluminum plates. It takes the negatively charged electrons away from the copper plate, leaving the positive charges behind. It then gives electrons to the aluminum plate, causing it to become negatively charged. These electrons pass through the meter as they return to the copper plate. In a simple circuit like this, the direction of current flow is determined by the potential difference between the two plates. When you touch both plates simultaneously, you complete the circuit, allowing the flow of electrons from the higher potential (copper plate) to the lower potential (aluminum plate) through your body."
 },
 
@@ -274,6 +281,7 @@ export const artifact = [{
       },
     ],
   },
+  watch: "",
   how: "Notice that the wire between two magnets jumps. The wire moves because the magnetic field created by electric current interacts with the permanent magnetic field.",
 },
 
@@ -317,6 +325,7 @@ export const artifact = [{
       },
     ],
   },
+  watch: "",
   how: "When a high voltage is applied to the two conductors, electricity flows through the air in the gap between them, ionizing the air and creating a conductive path. The intense heat generated by this electrical discharge causes the air to expand rapidly, pushing the arc upwards. As the arc climbs, it cools down, and the air becomes less ionized, eventually breaking the circuit and extinguishing the arc. The process repeats, creating a mesmerizing display resembling a ladder climbing upwards.  Witnessing the arcing discharge and understanding its underlying principles provides valuable insights into the world of science and engineering.",
 },
 
@@ -359,6 +368,7 @@ export const artifact = [{
       },
     ],
   },
+  watch: "",
   how: "The machine separates positive and negative charges to build up a lot of potential energy. Eventually, a spark is released which uses up almost all of the energy and balances the two sides.",
 },
 
@@ -399,6 +409,7 @@ export const artifact = [{
       },
     ],
   },
+  watch: "",
   how: "Look at the meters to see how much electromagnetic energy is being transmitted and how much is received. Do the amounts change as the screen wheel moves? The open wire screen can reflect or transmit electromagnetic waves which are vertically polarized. Some waves pass through the spaces between the wires, while other waves are reflected back off the wires. For vertically polarized waves, the screen blocks most effectively when its wires are also vertical. ",
 },
 

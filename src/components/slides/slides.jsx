@@ -18,6 +18,9 @@ const Slides = ({ artifact, artifactImg1, artifactImg2 }) => {
   const descriptionText = artifact.description.join(" ");
   const directionsText = artifact.directions.steps.map((x) => x.step).join(" ");
 
+
+  const synth = window.speechSynthesis;
+
   const speakStop = () => {
     console.log("Speech has stopped");
     synth.cancel();
@@ -111,6 +114,8 @@ const Slides = ({ artifact, artifactImg1, artifactImg2 }) => {
                   );
                 })}
               </ol>
+              <h4 className="watchHeader">What to watch:</h4>
+              <p className="watchPara">{artifact.watch}</p>
             </div>
 
             <div className="right">
