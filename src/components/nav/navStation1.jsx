@@ -20,8 +20,8 @@ const NavStation1 = () => {
         <Link to="/human-battery" relative="path" className="nav-links" onClick={cancelSpeech}>
         Do you have the Power?
         </Link>
-        <Link to="/orsted" relative="path" className="nav-links" onClick={cancelSpeech}>
-        Orsted Experiment
+        <Link to="/oersted" relative="path" className="nav-links" onClick={cancelSpeech}>
+        Oersted Experiment
         </Link>
         <Link to="/faraday" relative="path" className="nav-links" onClick={cancelSpeech}>
         Faraday Experiment

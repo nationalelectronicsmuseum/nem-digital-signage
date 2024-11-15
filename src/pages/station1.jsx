@@ -5,6 +5,11 @@ import HumanBattImg from "../assets/img/human-batt.svg"
 import FaradayImg from "../assets/img/faraday.svg"
 import OrstedImg from "../assets/img/orsted.svg"
 
+import homeOersted from "../assets/img/oersted1.jpg"
+import homeBatt from "../assets/img/humanbatt.png"
+import homeFaraday from "../assets/img/faraday.png"
+import homeVolt from "../assets/img/voltcurr.png"
+
 function Station1() {
   return (
     <div>
@@ -14,16 +19,20 @@ function Station1() {
 
         <div className="homeLink">
         <Link to="/voltage-and-current" relative="path">
-            <img src={VoltImg} className="homeImg"></img>
+            <img src={homeVolt} className="homeImg"></img>
+            <h2 className="stationPages">Voltage and Current</h2>
         </Link>
-        <Link to="/human-battery" relative="path">
-            <img src={HumanBattImg} className="homeImg"></img>
+        <Link to="/human-battery" relative="path" className="linkPage">
+            <img src={homeBatt} className="homeImg"></img>
+            <h2 className="stationPages">Human Battery</h2>
         </Link>
-        <Link to="/oersted" relative="path">
-            <img src={OrstedImg} className="homeImg"></img>
+        <Link to="/oersted" relative="path" className="linkPage">
+            <img src={homeOersted} className="homeImg"></img>
+            <h2 className="stationPages">Oersted</h2>
         </Link>
-        <Link to="/faraday" relative="path">
-            <img src={FaradayImg} className="homeImg"></img>
+        <Link to="/faraday" relative="path" className="linkPage">
+            <img src={homeFaraday} className="homeImg"></img>
+            <h2 className="stationPages">The Faraday Project</h2>
         </Link>
         </div>
     </div>

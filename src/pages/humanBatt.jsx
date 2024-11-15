@@ -5,9 +5,12 @@ import MenuStation1 from '../components/menu/menuStation1'
 import Accessibility from '../components/accessibility/accessibility'
 import Loop from '../components/loop'
 
+import image1 from "../assets/img/humanBatt1.png"
+import image2 from "../assets/img/humanBatt2.gif"
+
 
 function HumanBattery() {
-  const data = artifact.filter(x => x.title === "Do You Have The Power-to be an Electrical Conductor?")
+  const data = artifact.filter(x => x.title === "Human Battery")
 
   console.log(data[0].title)
   return (
@@ -21,11 +24,11 @@ function HumanBattery() {
 
       <div className="sectionhead">
         <div className="sectiontitle">
-          <h1 className="artifactTitle">Do You Have The Power-to be an Electrical Conductor?</h1>
+          <h1 className="artifactTitle">Do you have the power to be an electrical conductor?</h1>
         </div>
       </div>
       <Loop />
-      <Slides artifact={data[0]} />
+      <Slides artifact={data[0]} artifactImg1={image2} artifactImg2={image1}/>
     </div>
   )
 }

@@ -5,6 +5,11 @@ import jacobsladderImg from "../assets/img/jacobsladder.svg"
 import staticImg from "../assets/img/static.svg"
 import turbineImg from "../assets/img/turbine.svg"
 
+// import home from "../assets/img/"
+// import home from "../assets/img/"
+// import home from "../assets/img/"
+// import home from "../assets/img/"
+
 export default function Station2() {
   return (
     <div>
