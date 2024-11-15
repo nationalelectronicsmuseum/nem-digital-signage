@@ -125,7 +125,8 @@ const Slides = ({ artifact, artifactImg1, artifactImg2 }) => {
                   );
                 })}
               </ol>
-              <h4 className="watchHeader">What to watch:</h4>
+              {artifact.watch ? <h4 className="watchHeader">What to watch:</h4> : ""}
+              
               <p className="watchPara">{artifact.watch}</p>
             </div>
 

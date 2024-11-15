@@ -5,6 +5,10 @@ import { artifact } from '../assets/database/artifact'
 import Accessibility from '../components/accessibility/accessibility'
 import Loop from '../components/loop'
 
+import image1 from "../assets/img/jacobs1.jpg"
+import image2 from "../assets/img/jacobs3.gif"
+
+
 export default function JacobsLadder() {
   const data = artifact.filter(x => x.title === "Jacob's Ladder Experiment:  Demonstrating Electrical Principles")
   return (
@@ -22,7 +26,7 @@ export default function JacobsLadder() {
         </div>
       </div>
       <Loop />
-      <Slides artifact={data[0]} />
+      <Slides artifact={data[0]} artifactImg1={image2} artifactImg2={image1}/>
     </div>
   )
 }

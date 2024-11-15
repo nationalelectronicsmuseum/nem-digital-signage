@@ -210,6 +210,7 @@ input:checked + span:before {
 }
 
 .stationPages {
+  font-size: 30px;
   color: black;
   font-weight: bold;
 }

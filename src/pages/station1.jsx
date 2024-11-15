@@ -18,7 +18,7 @@ function Station1() {
         </div>
 
         <div className="homeLink">
-        <Link to="/voltage-and-current" relative="path">
+        <Link to="/voltage-and-current" relative="path" className="linkPage">
             <img src={homeVolt} className="homeImg"></img>
             <h2 className="stationPages">Voltage and Current</h2>
         </Link>
