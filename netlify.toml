@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/in-progress
+  to = "/in-progress.jsx"
+  status = 301
+  force = true

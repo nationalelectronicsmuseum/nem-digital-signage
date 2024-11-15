@@ -1,7 +1,5 @@
-import React, { useState, useContext } from "react";
-import MenuStation1 from "../components/menu/menuStation1.jsx";
-import Accessibility from "../components/accessibility/accessibility.jsx";
-import { Context, ContextSpeechPlayer } from "../assets/accessibilityContext.js";
+import React, { useState } from "react";
+import Menu from "../components/menu/menu.jsx";
 
 export default function InProgress() {
   const [toggle, setToggle] = useState(false);
@@ -9,7 +7,7 @@ export default function InProgress() {
   return (
     <div>
       <div className="btnNav">
-        <MenuStation1 />
+        <Menu className="whiteMenu"/>
       </div>
       <div className="border">
                 <h1 className="title">National Electronics Museum</h1>
