@@ -55,7 +55,7 @@
 
   .left, .right {
     width:49.5%;
-    height: 100vh;
+    height: 100%;
     overflow: scroll;
   }
 
