@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -18,6 +18,7 @@ const Slides = ({ artifact, artifactImg1, artifactImg2 }) => {
   const descriptionText = artifact.description.join(" ");
   const directionsText = artifact.directions.steps.map((x) => x.step).join(" ");
 
+  const swiper = useSwiper();
 
   const synth = window.speechSynthesis;
 
@@ -32,7 +33,8 @@ const Slides = ({ artifact, artifactImg1, artifactImg2 }) => {
         pagination={{
           type: "progressbar",
         }}
-        modules={[Pagination]}
+        navigation={true}
+        modules={[Pagination, Navigation]}
         className="mySwiper"
         onSlideChange={speakStop}
       >
@@ -72,17 +74,11 @@ const Slides = ({ artifact, artifactImg1, artifactImg2 }) => {
               </div>
             </div>
           </div>
-          <span style={{ color: "#a70e20" }}>
-            <i className="fa-solid fa-angles-right"></i>
-          </span>
         </SwiperSlide>
 
 
         {/* Slide 2 */}
         <SwiperSlide>
-          <span style={{ color: "#a70e20" }}>
-            <i className="fa-solid fa-angles-left"></i>
-          </span>
           <div className="bg">
             <div className="left">
               <span>
@@ -98,16 +94,10 @@ const Slides = ({ artifact, artifactImg1, artifactImg2 }) => {
               <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg2}></img>
             </div>
           </div>
-          <span style={{ color: "#a70e20" }}>
-            <i className="fa-solid fa-angles-right"></i>
-          </span>
         </SwiperSlide>
 
         {/* Slide 3 */}
         <SwiperSlide>
-          <span style={{ color: "#a70e20" }}>
-            <i className="fa-solid fa-angles-left"></i>
-          </span>
           <div className="bg">
             <div className="left">
 
@@ -127,7 +117,7 @@ const Slides = ({ artifact, artifactImg1, artifactImg2 }) => {
               </ol>
               {artifact.watch ? <h4 className="watchHeader">What to watch:</h4> : ""}
               
-              <p className="watchPara">{artifact.watch}</p>
+              <p className="watchPara" style={{ fontSize: `${fontS}` }}>{artifact.watch}</p>
             </div>
 
             <div className="right">
@@ -139,22 +129,8 @@ const Slides = ({ artifact, artifactImg1, artifactImg2 }) => {
               </p>
             </div>
           </div>
-          <span style={{ color: "#a70e20" }}>
-            <i className="fa-solid fa-angles-right"></i>
-          </span>
+          
         </SwiperSlide>
-
-        {/* <SwiperSlide>
-          <span style={{ color: "#a70e20" }}>
-            <i className="fa-solid fa-angles-left"></i>
-          </span>
-          <div className="bg">
-            <div className="left">
-              <h3>What's Going On</h3>
-              <p className="description" style={{fontSize:`${fontS}`}}>{artifact.how}</p>
-            </div>
-          </div>
-        </SwiperSlide> */}
       </Swiper>
     </div>
   );

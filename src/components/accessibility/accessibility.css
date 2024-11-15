@@ -132,3 +132,7 @@
     color: white;
     background-color: black;
 }
+
+.unavailable {
+    text-decoration:line-through;
+}

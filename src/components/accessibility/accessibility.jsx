@@ -147,9 +147,9 @@ export function Accessibility() {
             <div className="qpSubtitle">Language</div>
             <span className="btnLng">
               <button className={colorEng} onClick={selectEng}>English</button>
-              <button className={colorSpa} onClick={selectSpa}>Spanish</button>
-              {/* <button className="qpBtn" onClick={selectGer}>German</button>
-              <button className="qpBtn" onClick={selectFre}>French</button> */}
+              <button className="qpBtn unavailable" >Spanish</button>
+              <button className="qpBtn unavailable" >German</button>
+              <button className="qpBtn unavailable" >French</button>
             </span>
           </span>
           <span className="qpChild">

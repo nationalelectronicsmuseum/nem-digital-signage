@@ -22,7 +22,7 @@ export const artifact = [{
       { id: 3, step: "Rotate the knob to change voltage." },
     ],
   },
-  watch: "Turning the knob allows voltage to change as the voltmeter shows. The meter remains still because no current is being used until you flip the switch. When you flip the switch, the ammeter shows the current being drawn by the bulb as you twist the knob. The amount of current drawn varies, changing the bulb/'s brightness."
+  watch: "Turning the knob allows voltage to change as the voltmeter shows. The meter remains still because no current is being used until you flip the switch. When you flip the switch, the ammeter shows the current being drawn by the bulb as you twist the knob. The amount of current drawn varies, changing the bulb's brightness."
   ,
   how: "By flipping the switch, you close the circuit and allow the current to flow in the circuit`s path. Without the force of the voltage and the path of a circuit, current will not flow. Voltage pushes current, forcing it to flow through a closed circuit and light the bulb.",
 },

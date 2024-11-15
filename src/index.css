@@ -219,6 +219,13 @@ a {
   text-decoration-line: none;
 }
 
+.inProgressTitle {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
 /* @media stuff */
 
 @media screen and (max-width: 1700px){

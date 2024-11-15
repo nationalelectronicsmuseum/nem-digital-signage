@@ -6,24 +6,18 @@ import { Context, ContextSpeechPlayer } from "../assets/accessibilityContext.js"
 export default function InProgress() {
   const [toggle, setToggle] = useState(false);
 
-  const callback = () => {
-    if (!toggle) {
-      setspeechPlayer("present");
-      setToggle(true);
-    } else {
-      setspeechPlayer("hiddenPlayer");
-      setToggle(false);
-    }
-  };
-
   return (
     <div>
       <div className="btnNav">
         <MenuStation1 />
       </div>
+      <div className="border">
+                <h1 className="title">National Electronics Museum</h1>
+        </div>
       <div className="sectionhead">
-        <div className="sectiontitle">
-          <h1 className="inProgress">Currently In Progress</h1>
+        <div className="inProgressTitle">
+        
+          <h1 className="inProgress">Content Coming Soon</h1>
         </div>
       </div>
     </div>

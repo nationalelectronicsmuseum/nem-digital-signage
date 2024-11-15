@@ -6,8 +6,8 @@ import staticImg from "../assets/img/static.svg"
 import turbineImg from "../assets/img/turbine.svg"
 
 import homeJacobs from "../assets/img/jacobs2.jpg"
-// import home from "../assets/img/"
-// import home from "../assets/img/"
+import homeJumpwire from "../assets/img/jumpwire1.jpg"
+import homeStatic from "../assets/img/static.png"
 // import home from "../assets/img/"
 
 export default function Station2() {
@@ -19,7 +19,7 @@ export default function Station2() {
 
         <div className="homeLink">
         <Link to="/jumping-wires" relative="path" className="linkPage">
-            <img src={jumpingwiresImg} className="homeImg"></img>
+            <img src={homeJumpwire} className="homeImg"></img>
             <h2 className="stationPages">Jumping Wire</h2>
         </Link>
         <Link to="/jacobs-ladder" relative="path" className="linkPage">
@@ -27,7 +27,7 @@ export default function Station2() {
             <h2 className="stationPages">Jacob's Ladder Experiment</h2>
         </Link>
         <Link to="/static-electricity" relative="path" className="linkPage">
-            <img src={staticImg} className="homeImg"></img>
+            <img src={homeStatic} className="homeImg"></img>
             <h2 className="stationPages">Static Electricity</h2>
         </Link>
         {/* <Link to="/manual-turbine" relative="path" className="linkPage">
