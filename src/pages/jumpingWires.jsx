@@ -5,6 +5,9 @@ import { artifact } from '../assets/database/artifact'
 import Accessibility from '../components/accessibility/accessibility'
 import Loop from '../components/loop'
 
+import image1 from "../assets/img/jumpingwire1.jpg"
+import image2 from "../assets/img/jumpingwire2.jpg"
+
 function JumpingWires() {
   const data = artifact.filter(x => x.title === "Jumping Wires")
   return (
@@ -22,7 +25,7 @@ function JumpingWires() {
         </div>
       </div>
       <Loop />
-      <Slides artifact={data[0]} />
+      <Slides artifact={data[0]} artifactImg1={image1} artifactImg2={image2}/>
     </div>
   )
 }

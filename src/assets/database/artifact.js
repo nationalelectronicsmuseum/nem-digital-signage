@@ -232,7 +232,7 @@ export const artifact = [{
     ],
   },
   watch: "Watch the meter. It shows constant current flow in one direction.",
-  how: "When you touch the metal plates, the moisture on your hands acts as the battery`s saline conducting electrolyte. The electrolytes react with the copper and aluminum plates. It takes the negatively charged electrons away from the copper plate, leaving the positive charges behind. It then gives electrons to the aluminum plate, causing it to become negatively charged. These electrons pass through the meter as they return to the copper plate. In a simple circuit like this, the direction of current flow is determined by the potential difference between the two plates. When you touch both plates simultaneously, you complete the circuit, allowing the flow of electrons from the higher potential (copper plate) to the lower potential (aluminum plate) through your body."
+  how: "When you touch the metal plates, the moisture on your hands acts as the battery`s saline conducting electrolytes. The electrolytes react with the copper and aluminum plates. It takes the negatively charged electrons away from the copper plate, leaving the positive charges behind. It then gives electrons to the aluminum plate, causing it to become negatively charged. These electrons pass through the meter as they return to the copper plate. In a simple circuit like this, the direction of current flow is determined by the potential difference between the two plates. When you touch both plates simultaneously, you complete the circuit, allowing the flow of electrons from the higher potential (copper plate) to the lower potential (aluminum plate) through your body."
 },
 
 {

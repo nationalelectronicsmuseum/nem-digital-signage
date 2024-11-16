@@ -88,6 +88,7 @@ function Speech({ text, audio }) {
   };
 
   utter.onerror = (event) => {
+    speakStop()
     console.log(
       `An error has occurred with the speech synthesis: ${event.error}`,
     );
