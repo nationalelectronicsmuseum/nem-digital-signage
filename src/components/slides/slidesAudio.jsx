@@ -30,15 +30,7 @@ const SlidesAudio = ({}) => {
                     <SwiperSlide>
                         <div className="audioSlides">
                             <div className="placeholder">
-                            <img style={{ 
-                                maxWidth: "600px", 
-                                maxHeight: "700px", 
-                                position: "absolute", 
-                                top: "40%", 
-                                left: "75%", 
-                                transform: "translate(-50%) translateY(-50%)" 
-                                }} 
-                                src={audioImg1}></img>
+                            <img src={audioImg1}></img>
                             </div>
                             <div className="audioRight">
                                 <h3>Bunker Hill</h3>
@@ -54,15 +46,7 @@ const SlidesAudio = ({}) => {
                     <SwiperSlide>
                     <div className="audioSlides">
                             <div className="placeholder">
-                            <img style={{ 
-                                maxWidth: "600px", 
-                                maxHeight: "700px", 
-                                position: "absolute", 
-                                top: "40%", 
-                                left: "75%", 
-                                transform: "translate(-50%) translateY(-50%)" 
-                                }} 
-                                src={audioImg2}></img>
+                            <img src={audioImg2}></img>
                             </div>
                             <div className="audioRight">
                                 <h3>Over There</h3>
@@ -76,16 +60,8 @@ const SlidesAudio = ({}) => {
 
                     <SwiperSlide>
                     <div className="audioSlides">
-                            <div className="placeholder">
-                            <img style={{ 
-                                maxWidth: "600px", 
-                                maxHeight: "700px", 
-                                position: "absolute", 
-                                top: "40%", 
-                                left: "75%", 
-                                transform: "translate(-50%) translateY(-50%)" 
-                                }} 
-                                src={audioImg3}></img>
+                            <div className="audioLeft">
+                                <img style={{left: "-20"}}src={audioImg3}></img>
                             </div>
                             <div className="audioRight">
                                 <h3>Johnny B. Goode</h3>
