@@ -7,7 +7,7 @@ import standin from "../assets/img/logo.jpg"
 
 import homeMarconi from "../assets/img/marconi1.jpg"
 import homeAudio from "../assets/img/audiotrans1.jpg"
-import homeRecord from "../assets/img/audioHome.jfif"
+import homeRecord from "../assets/img/AudioHome.jfif"
 import homeEwaves from "../assets/img/ewaves1.webp"
 
 
