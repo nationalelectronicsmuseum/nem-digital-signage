@@ -1,6 +1,6 @@
 import artifactImg from "../assets/img/marconi.svg";
 import Slides from "../components/slides/slides.jsx";
-import MenuStation6 from "../components/menu/menuStation6.jsx";
+import MenuStation3 from "../components/menu/menuStation3.jsx";
 import { artifact } from "../assets/database/artifact";
 import Accessibility from '../components/accessibility/accessibility'
 import Loop from '../components/loop'
@@ -15,7 +15,7 @@ const Marconi = () => {
   return (
     <>
       <div className="btnNav">
-        <MenuStation6 />
+        <MenuStation3 />
         <div className="accs">
           <Accessibility text={artifact} />
         </div>
