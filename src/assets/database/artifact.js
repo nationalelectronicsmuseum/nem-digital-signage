@@ -40,45 +40,62 @@ export const artifact = [{
 
   impact:
     "The Marconi Magnetic Detector is a critical building block that started the journey to global connectivity. This invention changed the game of communication, shaping our modern world. This discovery laid the foundation for future wireless innovations like radios, televisions, the internet, smartphones and Wi-Fi.",
-  timeLine: [
-    "History of Wireless communication ",
+  timeline: {
 
-    "1.1 1890s - First Wireless Communication ",
+    title: "History of Wireless communication ",
 
-    "1.2 1900s - First Radio Broadcast ",
+    dates: [
+      {id: 1,
+      date: "1.1 1890s - First Wireless Communication "},
 
-    "1.3 1920s - First Commercial Radio ",
+      {id: 2,
+      date: "1.2 1900s - First Radio Broadcast "},
 
-    "1.4 1930s - Radar technology, Television Broadcasting ",
+      {id: 3,
+      date: "1.3 1920s - First Commercial Radio "},
 
-    "1.5 1940s - Quality Radio Services ",
+      {id: 4,
+      date: "1.4 1930s - Radar technology, Television Broadcasting"},
 
-    "1.6 1950s - First Satellites, the Space program ",
+      {id: 5,
+      date: "1.5 1940s - Quality Radio Services"},
 
-    "1.7 1970s - Mobile networks, GPS ",
+      {id:6,
+      date:"1.6 1950s - First Satellites, the Space program "},
 
-    "1.8 1980s - First-generation mobile networks ",
+      {id: 7,
+      date: "1.7 1970s - Mobile networks, GPS "},
 
-    "1.9 1990s - Second-generation mobile networks, Wi-Fi ",
+      {id: 8,
+      date: "1.8 1980s - First-generation mobile networks "},
 
-    "1.10 2000s - Satellite internet, 3G Networks ",
+      {id: 9,
+      date: "1.9 1990s - Second-generation mobile networks, Wi-Fi "},
 
-    "1.11 2010s - LTE advanced, 5G network",
+      {id: 10,
+      date: "1.10 2000s - Satellite internet, 3G Networks "},
+
+      {id:11,
+      date: "1.11 2010s - LTE advanced, 5G network"}
   ],
+  
+},
   directions: {
     title: "How it Works",
     steps: [
-      { id: 1, step: "" },
+      { id: 1, step: "Listen on the telephone receiver." },
       {
         id: 2,
-        step: "",
+        step: "Slowly turn the knob on the front clockwise.",
       },
       { id: 3, 
-        step: "" },
+        step: "The radio station is detected only when the wire band is moving. It stops when the wire band stops." },
+      { id: 3, 
+        step: "See how slowly you can turn the knob and still hear the radio." },
     ],
   },
   watch: "",
-  how: ""
+  how: "Maggie” moves the iron wire band through the radio frequency coil as you turn the knob. The detector functions by capturing radio waves, which are invisible signals traveling through the air. This device utilized a magnetic field to intercept these waves. When the radio waves interacted with the magnetic field within the detector, they caused fluctuations, creating tiny electrical currents. These currents were then amplified and converted into audible sounds, allowing people to hear the messages carried by the radio waves. The Marconi Magnetic Detector operates on the principles of electromagnetic induction. It detects radio waves by utilizing a coherer, which is a component sensitive to electromagnetic waves.  It operates by utilizing an antenna to receive radio waves, a coherer to detect and respond to these waves by altering its electrical resistance, and subsequent circuitry that interprets this change to generate a discernible output, usually an audible signal. This pioneering technology laid the foundation for wireless communication systems we use today. "
 },
 
 {
