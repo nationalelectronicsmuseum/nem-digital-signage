@@ -89,12 +89,13 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
             </div>
             <div className="right">
               <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg2}></img>
-              <h3>{artifact.timeline.title}</h3>
+              
+              {/* <h3>{artifact.timeline.title}</h3>
               {artifact.timeline.dates.map((el)=> {
                 return(
                   <p key={el.id}>{el.date}</p>
                 )
-              })}
+              })} */}
             </div>
           </div>
         </SwiperSlide>

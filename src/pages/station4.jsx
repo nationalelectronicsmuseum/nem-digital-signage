@@ -1,10 +1,10 @@
 import React from 'react'
-import Microwave from "./microwaveTurntable"
+import Telegraph from "./telegraph"
 
 export default function Station4() {
   return (
     <div>
-      <Microwave />
+      <Telegraph />
     </div>
   )
 }
