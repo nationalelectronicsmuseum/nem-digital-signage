@@ -1,17 +1,18 @@
 import React from "react";
 import artifactImg from "../assets/img/home-audio.svg";
-import MenuStation6 from "../components/menu/menuStation6";
+import MenuStation3 from "../components/menu/menuStation3";
 import Slides from "../components/slides/slides.jsx";
 import Accessibility from '../components/accessibility/accessibility.jsx';
 
+import image1 from "../assets/img/audiotrans2.jpg"
+import image2 from "../assets/img/audiotrans3.jpg"
 
 const Audio = () => {
   const artifact = {
     title: "The Audio Translator",
     info: [
-      // { id: 1, text: "Key Points:  CHECK STATS FOR ACCURACY" },
-      // { id: 2, text: "Impact: Connected 40 million households by 1930 " },
-      // { id: 3, text: "Global Reach: 95% mobile network coverage (2023) " },
+      { id: 1, text: "Impact: Connected 40 million households by 1930" },
+      { id: 2, text: "Global Reach: 95% mobile network coverage (2023)" },
     ],
     description:
       ["The Audio Translator, not to be confused with a language translator, is a device that captures distant sounds, turning them into electrical signals. This breakthrough marked a new era in communication."],
@@ -43,7 +44,7 @@ const Audio = () => {
   return (
     <div>
       <div className="btnNav">
-        <MenuStation6 />
+        <MenuStation3 />
         <div className="accs">
           <Accessibility text={artifact} />
         </div>
@@ -53,7 +54,7 @@ const Audio = () => {
           <h1 className="artifactTitle">The Audio Translator</h1>
         </div>
       </div>
-      <Slides artifact={artifact} artifactImg={artifactImg} />
+      <Slides artifact={artifact} artifactImg1={image1} artifactImg2={image2}/>
     </div>
   );
 };

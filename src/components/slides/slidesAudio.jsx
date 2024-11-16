@@ -10,6 +10,10 @@ import audio1 from "../../assets/sound/01C.wav"
 import audio2 from "../../assets/sound/02C.wav"
 import audio3 from "../../assets/sound/03C.wav"
 
+import audioImg1 from "../../assets/img/audioPic1.jpg"
+import audioImg2 from "../../assets/img/audioPic2.jfif"
+import audioImg3 from "../../assets/img/audioPic3.jpg"
+
 import "./slides.css";
 
 const SlidesAudio = ({}) => {
@@ -26,7 +30,15 @@ const SlidesAudio = ({}) => {
                     <SwiperSlide>
                         <div className="audioSlides">
                             <div className="placeholder">
-
+                            <img style={{ 
+                                maxWidth: "600px", 
+                                maxHeight: "700px", 
+                                position: "absolute", 
+                                top: "40%", 
+                                left: "75%", 
+                                transform: "translate(-50%) translateY(-50%)" 
+                                }} 
+                                src={audioImg1}></img>
                             </div>
                             <div className="audioRight">
                                 <h3>Bunker Hill</h3>
@@ -42,7 +54,15 @@ const SlidesAudio = ({}) => {
                     <SwiperSlide>
                     <div className="audioSlides">
                             <div className="placeholder">
-
+                            <img style={{ 
+                                maxWidth: "600px", 
+                                maxHeight: "700px", 
+                                position: "absolute", 
+                                top: "40%", 
+                                left: "75%", 
+                                transform: "translate(-50%) translateY(-50%)" 
+                                }} 
+                                src={audioImg2}></img>
                             </div>
                             <div className="audioRight">
                                 <h3>Over There</h3>
@@ -57,7 +77,15 @@ const SlidesAudio = ({}) => {
                     <SwiperSlide>
                     <div className="audioSlides">
                             <div className="placeholder">
-
+                            <img style={{ 
+                                maxWidth: "600px", 
+                                maxHeight: "700px", 
+                                position: "absolute", 
+                                top: "40%", 
+                                left: "75%", 
+                                transform: "translate(-50%) translateY(-50%)" 
+                                }} 
+                                src={audioImg3}></img>
                             </div>
                             <div className="audioRight">
                                 <h3>Johnny B. Goode</h3>

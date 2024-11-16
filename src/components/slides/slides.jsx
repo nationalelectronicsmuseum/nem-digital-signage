@@ -10,7 +10,7 @@ import "./slides.css";
 import Speech from "../speech/speech";
 import { Context, ContextFontSize, ContextListPadding } from "../../assets/accessibilityContext";
 
-const Slides = ({ artifact, artifactImg1, artifactImg2 }) => {
+const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactImg4 }) => {
   const [fontS, setFontS] = useContext(ContextFontSize);
   const [listPadding, setListPadding] = useContext(ContextListPadding);
 
@@ -92,6 +92,31 @@ const Slides = ({ artifact, artifactImg1, artifactImg2 }) => {
             </div>
           </div>
         </SwiperSlide>
+
+        {artifact.howGraff ? 
+        <SwiperSlide>
+          ] <div className="bg">
+            <div className="left">
+              <span>
+                <h3>How it Works</h3> <Speech text={artifact.howGraaff.info} />
+              </span>
+
+              <p className="description" style={{ fontSize: `${fontS}` }}>
+                {artifact.howGraaff.list.map((el) => {
+                  return (
+                    <p key={el.id}> 
+                      <h3>{el.item}:</h3> {el.description}
+                    </p>
+                
+                  )
+                })}
+              </p>
+            </div>
+            <div className="right">
+              <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg3}></img>
+            </div>
+          </div>
+        </SwiperSlide> : "return"}
 
         {/* Slide 3 */}
         <SwiperSlide>

@@ -659,43 +659,59 @@ export const artifact = [{
   how: "",
 },
 {
-  title: "Visible Electromagnetic Waves",
+  title: "Electromagnetic Radio Waves",
   info: [
     {
       id: 1,
-      text: "",
+      text: "Name: Electromagnetic Radio Waves",
     },
     {
       id: 2,
-      text: "",
+      text: "Discovered: In the late 19th century by Heinrich Hertz",
     },
     {
       id: 3,
-      text: "",
+      text: "Key Characteristics: Invisible, travel at the speed of light, used in communication technologies",
+    },
+    {
+      id: 4,
+      text: "Impact: Revolutionized communication, enabled wireless technologies",
     },
   ],
   description: [
-    "",
-    "",
+    "Electromagnetic Radio Waves are the invisible force that connects us across vast distances.  Like a symphony of frequencies, these waves carry information, music and voices through the air, shaping our modern world in ways we often take for granted.",
+    "In the late 19th century, Heinrich Hertz conducted experiments that confirmed the existence of electromagnetic waves predicted by James Clerk Maxwell's equations.  Hertz's work laid the foundation for our understanding of radio waves and their applications.",
     "",
     "",
   ],
   impact:
-    "",
+    "In the early days, radio waves were primarily used for telegraphy, enabling long-distance communication through Morse code.  However, with advancements in technology, radio waves became the backbone of modern communication systems, facilitating radio broadcasting, television transmission, and later, wireless internet and cellular networks. Unlike tangible objects, radio waves are invisible to the human eye. Yet, they permeate our surroundings, carrying information through the air effortlessly. Whether it's the music streaming from your smartphone or the satellite signals guiding airplanes, radio waves silently orchestrate our interconnected world.",
   directions: {
     title: "How Does it Work?",
     steps: [
       {
         id: 1,
-        step: "",
+        step: "Generation: Radio waves are generated when an alternating current flows through an antenna.  This alternating current creates oscillating electric and magnetic fields around the antenna, which together form the radio wave.",
       },
       {
         id: 2,
-        step: "",
+        step: "Propagation: Once generated, radio waves travel through the air (or other mediums) at the speed of light.  They propagate in all directions, much like ripples on the surface of a pond when you drop a stone.",
+      },
+      {
+        id: 3,
+        step: "Transmission: Radio waves carry energy and information as they propagate.  For example, in radio broadcasting, a transmitter converts sound waves into electrical signals, which are then used to modulate the radio waves.  This modulation encodes the sound information onto the radio wave, allowing it to carry music, speech, or data over long distances.",
+      },
+      {
+        id: 4,
+        step: "Reception: When radio waves encounter an antenna tuned to the same frequency, they induce a small alternating current in the antenna.  This current is then amplified and decoded by electronic circuits in a receiver device, such as a radio or a smartphone.  The original information encoded on the radio wave is reconstructed and outputted as sound, data, or images.",
+      },
+      {
+        id: 5,
+        step: "Interference and Regulation: Radio waves can be affected by various factors, such as atmospheric conditions, interference from other electronic devices, or obstacles in their path.  To ensure reliable communication, radio frequencies are carefully regulated by governments and international bodies to minimize interference and allocate specific frequency bands for different uses, such as broadcasting, aviation, or mobile communication.",
       },
     ],
   },
-  how: "",
+  how: "In electronic communication, bandwidth is the amount of information that is transmitted on an electromagnetic wave.  The more information in a transmission, the more frequencies it spreads across.  Since the frequency of a signal is measured in hertz (the number of cycles of change per second), a bandwidth is the difference in hertz between the highest frequency and the lowest frequency it uses.  Bandwidth is intimately linked to the efficiency, capacity, and quality of radio wave-based communication systems.  By managing bandwidth allocation and optimizing transmission parameters, engineers can design communication networks that deliver reliable, high-speed connectivity to users worldwide. Somewhere above you right now, a plane is broadcasting its location, speed and bearing on 1090 MHz.  A geostationary weather satellite 22 thousand miles from Earth is transmitting detailed weather maps on 1694.1 MHz.  A car driving by your home is transmitting a signal with the pressure readout of one of its tires at 315MHz.  A GPS satellite flying overhead at 8,000 miles per hour is pinging a signal to your phone at 1575.42 MHz .  A data buoy bobbing in the Atlantic ocean transmits sea temperature, wave height and wind speed readings to a NOAA satellite at 401 MHz.  On top of all that, every single mobile device and WiFi router near you blasts out everyone’s internet traffic through the air over radio waves.  All of these can occur simultaneously thanks to a very carefully regulated radio spectrum.  Licensed broadcasters may be assigned portions of the regionally available bandwidth so that their signals do not interfere with each other. The Federal Communication Commission (FCC) and the National Telecommunications and Information Administration (NTIA) share the task of managing the allotment of radio frequencies for U.S. airwaves.  The NTIA manages Federal all radio applications (including military uses), while the FCC manages everything else including state and local government, commercial and amateur radio use.",
 },
 {
   title: "Polarization Experiment",
@@ -813,5 +829,162 @@ export const artifact = [{
     ],
   },
   how: "",
+},
+{
+  title: "",
+  info: [
+    {
+      id: 1,
+      text: "",
+    },
+    {
+      id: 2,
+      text: "",
+    },
+    {
+      id: 3,
+      text: "",
+    },
+  ],
+  description: [
+    "",
+    "",
+    "",
+    "",
+  ],
+  impact:
+    "",
+  directions: {
+    title: "How Does it Work?",
+    steps: [
+      {
+        id: 1,
+        step: "",
+      },
+      {
+        id: 2,
+        step: "",
+      },
+    ],
+  },
+  how: "",
+},
+{
+  title: "",
+  info: [
+    {
+      id: 1,
+      text: "",
+    },
+    {
+      id: 2,
+      text: "",
+    },
+    {
+      id: 3,
+      text: "",
+    },
+  ],
+  description: [
+    "",
+    "",
+    "",
+    "",
+  ],
+  impact:
+    "",
+  directions: {
+    title: "How Does it Work?",
+    steps: [
+      {
+        id: 1,
+        step: "",
+      },
+      {
+        id: 2,
+        step: "",
+      },
+    ],
+  },
+  how: "",
+},
+{
+  title: "The Van de Graaff Generator: Harnessing the Power of Static Electricity",
+  info: [
+    {
+      id: 1,
+      text: "Name: Van de Graaff Generator",
+    },
+    {
+      id: 2,
+      text: "Inventor: Robert J. Van de Graaff",
+    },
+    {
+      id: 3,
+      text: "Year: 1929",
+    },
+    {
+      id: 4,
+      text: "Purpose: Demonstrating static electricity",
+    },
+    {
+      id: 5,
+      text: "Fun Fact: The biggest Van de Graaff generator can make lightning-like sparks over 20 feet long",
+    },
+    {
+      id: 6,
+      text: "Impact: Helped in nuclear research and understanding atomic structures.",
+    },
+  ],
+  description: [
+    "The Van de Graaff Generator was invented by Robert J. Van de Graaff in 1929 to show how electric charges work.  By using a moving belt to build up electricity on the big metal dome, it teaches us about static electricity — something that’s all around us, but we usually don’t notice.",
+    "",
+    "",
+    "",
+  ],
+  impact:
+    "This generator helps scientists understand the forces that keep atoms together.  It was once used in laboratories to speed up particles for experiments in nuclear physics, helping us learn more about the universe and the building blocks of matter. Higher energy machines – In 1937, the Westinghouse Electric company built a 65 ft (20 m) machine, the Westinghouse Atom Smasher capable of generating 5 MeV in Forest Hills, Pennsylvania.  It marked the beginning of nuclear research for civilian applications.  It was decommissioned in 1958 and was partially demolished in 2015.",
+  directions: {
+    title: "How Does it Work?",
+    steps: [
+      {
+        id: 1,
+        step: "",
+      },
+      {
+        id: 2,
+        step: "",
+      },
+    ],
+  },
+  how: "",
+  howGraaff: {
+    info: [
+      "Friction on the belt → Charges transfer to the dome → Charges jump to create sparks",
+      "The Van de Graaff generator works by building up and storing static electricity, which it transfers to other objects. Here’s how it does that:"
+    ],
+    list: [
+      {
+        id: 1,
+        item: "The Belt",
+        description: "Inside the machine, there’s a rubber or fabric belt that moves continuously over rollers. As the belt moves, it rubs against the rollers, picking up tiny electric charges through a process called friction."
+      },
+      {
+        id: 2,
+        item: "The Comb",
+        description: "As the belt moves, it passes by a comb (a metal strip with sharp points) near the base of the machine. The comb transfers the electric charges from the belt to the metal dome at the top of the generator."
+      },
+      {
+        id: 3,
+        item: "The Dome",
+        description: "The dome is like a giant container for electric charges. As the charges build up, the dome becomes highly charged. This is static electricity, similar to what happens when you rub a balloon on your hair."
+      },
+      {
+        id: 4,
+        item: "Sparks and Static",
+        description: "When the charges on the dome build up enough, they look for a way to escape.  If you bring a metal object (or even your hand) close to the dome, the charges jump through the air, creating a visible spark.  Sometimes, if you touch the dome, the charges move through you—making your hair stand on end."
+      }
+    ]
+  }
 },
 ];

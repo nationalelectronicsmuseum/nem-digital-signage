@@ -12,11 +12,11 @@ const NavStation3 = () => {
         <Link to="/station3" relative="path" className="nav-links" onClick={cancelSpeech}>
            Home
         </Link>
-        <Link to="/theremin" relative="path" className="nav-links" onClick={cancelSpeech}>
-           Theramin
+        <Link to="/marconi" relative="path" className="nav-links" onClick={cancelSpeech}>
+           The Marconi Magnetic Detector
         </Link>
-        <Link to="/visible-electromagnetic-waves" relative="path" className="nav-links" onClick={cancelSpeech}>
-            Visible Electromagnetic Waves
+        <Link to="/audio" relative="path" className="nav-links" onClick={cancelSpeech}>
+            Audio Translator
         </Link>
         <Link to="/evolution-recorded-sound" relative="path" className="nav-links" onClick={cancelSpeech}>
             The Evolution of Recorded Sound
@@ -25,7 +25,7 @@ const NavStation3 = () => {
             Polarization
         </Link>
         <Link to="/" relative="path" className="nav-links" onClick={cancelSpeech}>
-          <h6>Hub Station</h6>
+          <h6 className="white">Hub Station</h6>
         </Link>
         </div>   
     </>

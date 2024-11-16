@@ -1,14 +1,10 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import jumpingwiresImg from "../assets/img/jumpingwire.svg"
-import jacobsladderImg from "../assets/img/jacobsladder.svg"
-import staticImg from "../assets/img/static.svg"
-import turbineImg from "../assets/img/turbine.svg"
 
 import homeJacobs from "../assets/img/jacobs2.jpg"
 import homeJumpwire from "../assets/img/jumpwire1.jpg"
 import homeStatic from "../assets/img/static.png"
-// import home from "../assets/img/"
+import homeGraaff from "../assets/img/graaff1.jpg"
 
 export default function Station2() {
   return (
@@ -29,6 +25,10 @@ export default function Station2() {
         <Link to="/static-electricity" relative="path" className="linkPage">
             <img src={homeStatic} className="homeImg"></img>
             <h2 className="stationPages">Static Electricity</h2>
+        </Link>
+        <Link to="/vandegraaff" relative="path" className="linkPage">
+            <img src={homeGraaff} className="homeImg"></img>
+            <h2 className="stationPages">Van de Graaff Generator</h2>
         </Link>
         {/* <Link to="/manual-turbine" relative="path" className="linkPage">
             <img src={turbineImg} className="homeImg"></img>

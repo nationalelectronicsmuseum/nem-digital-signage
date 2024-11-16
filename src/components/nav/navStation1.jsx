@@ -27,7 +27,7 @@ const NavStation1 = () => {
         Faraday Experiment
         </Link>
         <Link to="/" relative="path" className="nav-links" onClick={cancelSpeech}>
-          <h6>Hub Station</h6>
+          <h6 className="white">Hub Station</h6>
         </Link>
       </div>
       

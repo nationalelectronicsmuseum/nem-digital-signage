@@ -21,11 +21,11 @@ const NavStation2 = () => {
         <Link to="/static-electricity" relative="path" className="nav-links" onClick={cancelSpeech}>
             Static Electricity
         </Link>
-        <Link to="/manual-turbine" relative="path" className="nav-links" onClick={cancelSpeech}>
+        {/* <Link to="/manual-turbine" relative="path" className="nav-links" onClick={cancelSpeech}>
             Manual Turbine
-        </Link>
+        </Link> */}
         <Link to="/" relative="path" className="nav-links" onClick={cancelSpeech}>
-          <h6>Hub Station</h6>
+          <h6 className="white">Hub Station</h6>
         </Link>
       </div>
     </>

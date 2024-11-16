@@ -21,3 +21,6 @@
     font-size: 24pt;
     line-height: 40pt;
   }
+  .white {
+    opacity: 0;
+  }

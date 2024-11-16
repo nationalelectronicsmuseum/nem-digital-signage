@@ -55,6 +55,7 @@ import {
   ContextListPadding,
 } from "./assets/accessibilityContext";
 import InProgress from "./pages/inProgress";
+import Graaff from "./pages/graaff.jsx";
 
 function App() {
   const [fontS, setFontS] = useState("default");
@@ -96,6 +97,7 @@ function App() {
                       element={<StaticElectricity />}
                     />
                     <Route path="/manual-turbine" element={<Turbine />} />
+                    <Route path="/vandegraaff" element={<Graaff />} />
 
                     {/* Station 3 */}
                     <Route path="/station3" element={<Station3 />} />
