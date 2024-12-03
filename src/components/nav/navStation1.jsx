@@ -18,7 +18,7 @@ const NavStation1 = () => {
         Voltage and Current
         </Link>
         <Link to="/human-battery" relative="path" className="nav-links" onClick={cancelSpeech}>
-        Do you have the Power?
+        Human Battery
         </Link>
         <Link to="/oersted" relative="path" className="nav-links" onClick={cancelSpeech}>
         Oersted Experiment

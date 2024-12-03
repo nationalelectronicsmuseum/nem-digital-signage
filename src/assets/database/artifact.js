@@ -119,11 +119,11 @@ export const artifact = [{
     },
   ],
   description: [
-    "Step into the world of Michael Faraday, a brilliant scientist from the 19th century whose discoveries changed the way we understand electricity and magnetism. ",
+    "Michael Faraday, a scientist from the 19th century, made discoveries changed the way we understand electricity and magnetism. ",
 
-    "Imagine a time when people were just beginning to unlock the secrets of electricity. Faraday conducted a groundbreaking experiment in 1831 that showed how electricity and magnetism are connected. He discovered that when a magnet moves near a wire, it creates an electric current. This discovery laid the foundation for the modern technology we use today. ",
+    "Faraday conducted a groundbreaking experiment in 1831 that showed how electricity and magnetism are connected. He discovered that when a magnet moves near a wire, it creates an electric current. This discovery laid the foundation for the modern technology we use today. ",
 
-    "When Michael Faraday made his discovery of electromagnetic induction, he hypothesized that a changing magnetic field is necessary to induce a current in a nearby circuit. To test his hypothesis he made a coil by wrapping a paper cylinder with wire.  Gently tilt the tube so the magnet slides down the tube and see if you can generate a tiny electric current. ",
+    "When Michael Faraday made his discovery of electromagnetic induction, he hypothesized that a changing magnetic field is necessary to induce a current in a nearby circuit. To test his hypothesis he made a coil by wrapping a paper cylinder with wire. Gently tilt the tube so the magnet slides down the tube and see if you can generate a tiny electric current. ",
 
     "The strength of an electromagnet depends on the number of windings in the coil and the strength of the electric current. More windings and stronger current produce more intense magnetic fields.",
   ],
@@ -134,24 +134,25 @@ export const artifact = [{
     steps: [
       {
         id: 1,
-        step: "Movement of the Magnet: In Faraday's experiment, when a magnet is moved in and out of a coil of wire (or vice versa), it causes the magnetic field around the coil to change. ",
+        step: "Gently tilt the tube so the magnet slides down the tube.  ",
       },
       {
         id: 2,
-        step: "Induced Current: This change in the magnetic field induces a flow of electrons or an electric current in the wire coil. ",
+        step: "Watch the meter show the presence of electric current as the magnet slides past the wire coil.",
       },
       {
         id: 3,
-        step: "Direction of Current: The direction of the induced current depends on the direction of movement of the magnet and the coil. Tilting to the right causes the induced current to flow in one direction. Tilting to the left causes the induced current to flow in the opposite direction.",
+        step: "",
       },
       {
         id: 4,
-        step: "Electricity Generation: The induced current in the wire can be used to power a circuit or generate electricity. ",
+        step: "",
       },
     ],
   },
   watch: "",
   how: "This phenomenon occurs due to electromagnetic induction, a principle discovered by Faraday. It demonstrates that a changing magnetic field induces an electric current in a conductor. The key factor here is the relative motion between the magnet and the wire, causing the magnetic flux through the coil to change.  Magnetic flux is a measure of the magnitude of a magnetic field passing through a given area.",
+
 },
 
 {
@@ -175,7 +176,7 @@ export const artifact = [{
     },
   ],
   description: [
-    "In the early 19th century, Oersted embarked on an experiment that would change our understanding of nature.  Oersted's curiosity led him to an extraordinary experiment. With a simple setup, he observed the interaction between electricity and magnetism. He noticed that when an electric current flowed through a wire, a nearby magnetic compass needle moved. This unexpected interaction between electricity and magnetism was the spark that lit up a revolution in science."
+    "In the early 19th century, Oersted embarked on an experiment that would change our understanding of nature. Oersted's curiosity led him to an extraordinary experiment. With a simple setup, he observed the interaction between electricity and magnetism. He noticed that when an electric current flowed through a wire, a nearby magnetic compass needle moved. This unexpected interaction between electricity and magnetism was the spark that lit up a revolution in science."
   ],
   impact:
     "Oersted's discovery was the key that unlocked the mysterious relationship between electricity and magnetism. This revelation laid the groundwork for the development of electric motors, generators, and the modern technology we rely on today.",
@@ -201,7 +202,7 @@ export const artifact = [{
     ],
   },
   watch: "",
-  how: "A compass needle points to a magnetic force and typically to the Earth`s north magnetic pole.  When you flip the switch, you allow current to flow in one direction from the battery. The magnetic field created by the electric current through the wrapped wire coil created its own magnetic field.  The compass needles line up with the magnetic field around the wire. When you flip the switch the other way, the compass needles reverse because the direction of the current has been reversed.",
+  how: "A compass needle points to a magnetic force and typically to the Earth’s north magnetic pole. When you flip the switch, you allow current to flow in one direction from the battery. The magnetic field created by the electric current through the wrapped wire coil created its own magnetic field. The compass needles line up with the magnetic field around the wire. When you flip the switch the other way, the compass needles reverse because the direction of the current has been reversed.",
 },
 
 {
@@ -300,22 +301,47 @@ export const artifact = [{
   },
   watch: "",
   how: "Notice that the wire between two magnets jumps. The wire moves because the magnetic field created by electric current interacts with the permanent magnetic field.",
+  what: {
+    title: "What's Going On?",
+    list: [
+      {
+        id: 1,
+        info: "Movement of the Magnet: In Faraday's experiment, when a magnet is moved in and out of a coil of wire (or vice versa), it causes the magnetic field around the coil to change."
+      },
+      {
+        id: 2,
+        info: "Induced Current: This change in the magnetic field induces a flow of electrons or an electric current in the wire coil."
+      },
+      {
+        id: 3,
+        info: "Direction of Current: The direction of the induced current depends on the direction of movement of the magnet and the coil.",
+        tilt: [
+          "Tilting to the right causes the induced current to flow in one direction.",
+          "Tilting to the left causes the induced current to flow in the opposite direction.",
+        ]
+      },
+      {
+        id: 4,
+        info: "Electricity Generation: The induced current in the wire can be used to power a circuit or generate electricity."
+      },
+    ]
+  }
 },
 
 {
-  title: "Jacob's Ladder Experiment:  Demonstrating Electrical Principles",
+  title: "Jacob's Ladder Experiment: Demonstrating Electrical Principles",
   info: [
     {
       id: 1,
-      text: "Name: Jacob's Ladder Experiment ",
+      text: "",
     },
     {
       id: 2,
-      text: "Date Invented: Early 20th century",
+      text: "",
     },
     {
       id: 3,
-      text: "Inventors: Unknown",
+      text: "",
     },
   ],
   description: [

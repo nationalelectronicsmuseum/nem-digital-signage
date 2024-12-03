@@ -60,6 +60,7 @@ body {
 .homeImg {
   width: 25rem;
   height: 25rem;
+  object-fit: cover;
 }
 
 .hidden {
