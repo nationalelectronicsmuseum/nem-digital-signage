@@ -90,7 +90,7 @@ export const artifact = [{
       },
       { id: 3, 
         step: "The radio station is detected only when the wire band is moving. It stops when the wire band stops." },
-      { id: 3, 
+      { id: 4, 
         step: "See how slowly you can turn the knob and still hear the radio." },
     ],
   },

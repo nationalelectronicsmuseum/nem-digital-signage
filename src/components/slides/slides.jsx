@@ -17,6 +17,8 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
   const descriptionText = artifact.description.map((x) => x.step).join(" ");
   const directionsText = artifact.directions.steps.map((x) => x.step).join(" ");
 
+  console.log(descriptionText)
+
   const synth = window.speechSynthesis;
 
   const speakStop = () => {
@@ -44,7 +46,8 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
             </h6> */}
             <div className="bg">
               <div className="left description">
-                <Speech text={descriptionText} />
+                <Speech text={artifact.description} />
+                
 
                 <p style={{ fontSize: `${fontS}` }}>{artifact.description}</p>
 
@@ -100,30 +103,6 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
           </div>
         </SwiperSlide>
 
-        {artifact.howGraff ? 
-        <SwiperSlide>
-          ] <div className="bg">
-            <div className="left">
-              <span>
-                <h3>How it Works</h3> <Speech text={artifact.howGraaff.info} />
-              </span>
-
-              <p className="description" style={{ fontSize: `${fontS}` }}>
-                {artifact.howGraaff.list.map((el) => {
-                  return (
-                    <p key={el.id}> 
-                      <h3>{el.item}:</h3> {el.description}
-                    </p>
-                
-                  )
-                })}
-              </p>
-            </div>
-            <div className="right">
-              <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg3}></img>
-            </div>
-          </div>
-        </SwiperSlide> : "return"}
 
         {/* Slide 3 */}
         <SwiperSlide>
@@ -144,7 +123,7 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
                   );
                 })}
               </ol>
-              {artifact.watch ? <h4 className="watchHeader">What to watch:</h4> : ""}
+              {artifact.watch ? <span><h4 className="watchHeader">What to watch:</h4> <Speech text={artifact.watch}/></span> : ""}
               
               <p className="watchPara" style={{ fontSize: `${fontS}` }}>{artifact.watch}</p>
             </div>

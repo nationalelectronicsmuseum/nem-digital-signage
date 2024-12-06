@@ -1,6 +1,7 @@
 import React, { useState, useContext } from "react";
 import { Context, ContextFontSize, ContextFontFamily, ContextLangSpeech, ContextListPadding, ContextSpeechPlayer } from "../../assets/accessibilityContext.js";
 import "./accessibility.css";
+import aIcon from "../../assets/img/accessibleIcon.svg"
 
 export function Accessibility() {
   const [state, setState] = useState("hide");
@@ -136,7 +137,7 @@ export function Accessibility() {
   return (
     <div>
       <button onClick={showMenu} className={selected}>
-      <i className="fa-solid fa-universal-access fa-3x fa-inverse"></i>
+      <img src={aIcon} className="aIcon"></img>
       </button>
       
       <div className={state}>

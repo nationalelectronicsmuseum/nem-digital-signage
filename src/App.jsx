@@ -61,7 +61,7 @@ function App() {
   const [fontS, setFontS] = useState("default");
   const [lang, setLang] = useState("english");
   const [fontF, setFontF] = useState("default");
-  const [langSpeech, setLangSpeech] = useState("en-GB");
+  const [langSpeech, setLangSpeech] = useState("en-US");
   const [speechPlayer, setspeechPlayer] = useState("hiddenPlayer");
   const [listPadding, setListPadding] = useState("50px");
 

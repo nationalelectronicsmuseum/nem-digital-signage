@@ -35,7 +35,7 @@ h1 {
 
 /* NEM styling */
 body {
-  background-image: url('./assets/img/bg-opacity.png');
+  background-image: url('./assets/img/bg-opacity.webp');
   background-size: cover;
   background-repeat: repeat;
   overflow: hidden;
