@@ -21,6 +21,9 @@ const NavStation2 = () => {
         <Link to="/static-electricity" relative="path" className="nav-links" onClick={cancelSpeech}>
             Static Electricity
         </Link>
+        <Link to="/vandegraaff" relative="path" className="nav-links" onClick={cancelSpeech}>
+            Van de Graaff Generator
+        </Link>
         {/* <Link to="/manual-turbine" relative="path" className="nav-links" onClick={cancelSpeech}>
             Manual Turbine
         </Link> */}

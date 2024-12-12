@@ -1002,30 +1002,46 @@ export const artifact = [{
   },
   how: "",
   howGraaff: {
+    title: "How does it Work?",
     info: [
-      "Friction on the belt → Charges transfer to the dome → Charges jump to create sparks",
+      "Friction on the belt → Charges transfer to the dome → Charges jump to create sparks.",
       "The Van de Graaff generator works by building up and storing static electricity, which it transfers to other objects. Here’s how it does that:"
     ],
     list: [
       {
         id: 1,
-        item: "The Belt",
+        item: "The Belt.",
         description: "Inside the machine, there’s a rubber or fabric belt that moves continuously over rollers. As the belt moves, it rubs against the rollers, picking up tiny electric charges through a process called friction."
       },
       {
         id: 2,
-        item: "The Comb",
+        item: "The Comb.",
         description: "As the belt moves, it passes by a comb (a metal strip with sharp points) near the base of the machine. The comb transfers the electric charges from the belt to the metal dome at the top of the generator."
       },
       {
         id: 3,
-        item: "The Dome",
+        item: "The Dome.",
         description: "The dome is like a giant container for electric charges. As the charges build up, the dome becomes highly charged. This is static electricity, similar to what happens when you rub a balloon on your hair."
       },
       {
         id: 4,
-        item: "Sparks and Static",
+        item: "Sparks and Static.",
         description: "When the charges on the dome build up enough, they look for a way to escape.  If you bring a metal object (or even your hand) close to the dome, the charges jump through the air, creating a visible spark.  Sometimes, if you touch the dome, the charges move through you—making your hair stand on end."
+      }
+    ]
+  },
+  try: {
+    title: "Try this and Watch:",
+    steps: [
+      {
+        id:1,
+        name: "Press and hold the button to turn it on.",
+        text: "The Van de Graaff generator and let it build up charge. You will hear a faint humming sound, and after a few moments, the dome will begin to accumulate static electricity.",
+      },
+      {
+        id:2,
+        name: "Witness the charge.",
+        text: "Watch the sparks zap from rod to the metal dome. The hair will start to rise as the static electricity flows. The static electricity is repelling each strand of hair away from the others, creating the “crazy hair” effect. The fluorescent lights flicker, charing the bulbs. ",
       }
     ]
   }

@@ -16,18 +16,19 @@ import audioImg3 from "../../assets/img/audioPic3.jpg"
 
 import "./slides.css";
 
-const SlidesAudio = ({}) => {
-    const sound1 = document.getElementById("sound1")
-    const sound2 = document.getElementById("sound2")
-    const sound3 = document.getElementById("sound3")
+const SlidesAudio = () => {
+    const soundOne = document.getElementById("sound1")
+    const soundTwo = document.getElementById("sound2")
+    const soundThree = document.getElementById("sound3")
 
     const stopSound = () => {
-        sound1.pause()
-        sound2.pause()
-        sound3.pause()
-        sound1.currentTime = 0
-        sound2.currentTime = 0
-        sound3.currentTime = 0
+        console.log("stopsound, it hit!")
+        soundOne.pause()
+        soundOne.currentTime = 0
+        // soundTwo.pause()
+        // soundTwo.currentTime = 0
+        // soundThree.pause()
+        // soundThree.currentTime = 0
     }
     return(
         <div>
@@ -52,7 +53,7 @@ const SlidesAudio = ({}) => {
                                 <span><h5><i>Performed by</i> <b>Harlan and Stanley</b>, Ca. 1905</h5></span>
                                 
                                 <p>Recorded on Edison black wax cylinder #8966</p>
-                                <audio controls id="sound1" src={audio1} type="audio/mp3"></audio>
+                                <audio controls id="sound1" src={audio1}></audio>
                             </div>
                             
                         </div>
