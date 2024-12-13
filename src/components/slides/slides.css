@@ -149,3 +149,16 @@
     font-size: 16pt;
     margin: 0 0 20px 0;
   }
+
+  /* Sound Audio Slides */
+  .audioPlayer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .audioPlayer img {
+    margin-right: 10px;
+    padding-right: 10px;
+  }

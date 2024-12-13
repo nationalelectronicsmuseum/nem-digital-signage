@@ -1,6 +1,7 @@
 import React from 'react'
 import Menu from "../components/menu/menu";
 import Slides from "../components/slides/slides";
+import SlidesTelegraph from '../components/slides/slidesTelegraph';
 import { artifact } from "../assets/database/artifact";
 import Loop from '../components/loop';
 import Accessibility from '../components/accessibility/accessibility';
@@ -25,7 +26,7 @@ const Telegraph = () => {
         </div>
       </div>
       <Loop />
-      <Slides artifact={data[0]} artifactImg1={image1} artifactImg2={image2} />
+      <SlidesTelegraph artifact={data[0]} artifactImg1={image1} artifactImg2={image2} />
     </div>
   );
 };
