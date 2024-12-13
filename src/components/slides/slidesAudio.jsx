@@ -26,7 +26,7 @@ const SlidesAudio = () => {
     const soundThree = document.getElementById("sound3")
 
     const playSoundOne = () => {
-        if(!tune) {
+        if(tune === false) {
             console.log()     
             soundOne.play()
             setTune(true)
@@ -38,7 +38,7 @@ const SlidesAudio = () => {
     }
 
     const playSoundTwo = () => {
-        if(!tune) {
+        if(tune === false) {
             console.log()    
             soundTwo.play()
             setTune(true)
@@ -49,7 +49,7 @@ const SlidesAudio = () => {
         console.log("sound playing")
     }
     const playSoundThree = () => {
-        if(!tune) { 
+        if(tune === false) { 
             soundThree.play() 
             setTune(true)
         } else {

@@ -18,6 +18,9 @@ const NavStation3 = () => {
         <Link to="/audio" relative="path" className="nav-links" onClick={cancelSpeech}>
             Audio Translator
         </Link>
+        <Link to="/visible-electromagnetic-waves" relative="path" className="nav-links" onClick={cancelSpeech}>
+                    Electromagnetic Waves
+                </Link>
         <Link to="/evolution-recorded-sound" relative="path" className="nav-links" onClick={cancelSpeech}>
             The Evolution of Recorded Sound
         </Link>
