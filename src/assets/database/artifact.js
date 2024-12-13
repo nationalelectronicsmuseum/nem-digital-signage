@@ -27,10 +27,26 @@ export const artifact = [
   {
     title: "The Marconi Magnetic Detector",
     info: [
-      "Inventor: Guglielmo Marconi",
-      "Year of Invention: 1896",
-      "Key Feature: Magnetic field sensor ",
-      "Impact: Foundation for modern wireless tech",
+      {
+        id: 1,
+        title: "Inventor",
+        text: "Guglielmo Marconi"
+      },
+      {
+        id: 2,
+        title: "Year of Invention",
+        text: "1896",
+      },
+      {
+        id: 3,
+        title: "Key Feature",
+        text: "Magnetic field sensor"
+      },
+      {
+        id: 4,
+        title: "Impact",
+        text: "Foundation for modern wireless tech"
+      }
     ],
     description: [
       "In the late 19th century, a young inventor named Guglielmo Marconi developed the Marconi Magnetic Detector, a device that could detect magnetic fields in radio waves. These are invisible signals that make wireless communication possible. These signals could be transmitted long distances without wires and received and became the starting point for wireless communication.",
@@ -42,33 +58,33 @@ export const artifact = [
       title: "History of Wireless communication ",
 
       dates: [
-        { id: 1, date: "1.1 1890s - First Wireless Communication " },
+        { id: 1, date: "1890s", text: "First Wireless Communication " },
 
-        { id: 2, date: "1.2 1900s - First Radio Broadcast " },
+        { id: 2, date: "1900s", text: "First Radio Broadcast " },
 
-        { id: 3, date: "1.3 1920s - First Commercial Radio " },
+        { id: 3, date: "1920s", text: "First Commercial Radio " },
 
         {
           id: 4,
-          date: "1.4 1930s - Radar technology, Television Broadcasting",
+          date: "1930s", text: "Radar technology, Television Broadcasting",
         },
 
-        { id: 5, date: "1.5 1940s - Quality Radio Services" },
+        { id: 5, date: "1940s", text: "Quality Radio Services" },
 
-        { id: 6, date: "1.6 1950s - First Satellites, the Space program " },
+        { id: 6, date: "1950s", text: "First Satellites, the Space program " },
 
-        { id: 7, date: "1.7 1970s - Mobile networks, GPS " },
+        { id: 7, date: "1970s", text: "Mobile networks, GPS " },
 
-        { id: 8, date: "1.8 1980s - First-generation mobile networks " },
+        { id: 8, date: "1980s", text: "First-generation mobile networks " },
 
         {
           id: 9,
-          date: "1.9 1990s - Second-generation mobile networks, Wi-Fi ",
+          date: "1990s", text: "Second-generation mobile networks, Wi-Fi ",
         },
 
-        { id: 10, date: "1.10 2000s - Satellite internet, 3G Networks " },
+        { id: 10, date: "2000s", text: "Satellite internet, 3G Networks " },
 
-        { id: 11, date: "1.11 2010s - LTE advanced, 5G network" },
+        { id: 11, date: "2010s", text: "LTE advanced, 5G network" },
       ],
     },
     directions: {
