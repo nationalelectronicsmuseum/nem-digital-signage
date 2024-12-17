@@ -95,7 +95,7 @@ const SlidesAudio = () => {
                                 <p>Recorded on Edison black wax cylinder #8966</p>
                                 <audio id="sound1" src={audio1}></audio>
                                 <div className ="audioPlayer">
-                                    <button onClick={playSoundOne}><img src={tune === false ? iconPlay : iconPause}/></button>
+                                    <button><img src={tune === false ? iconPlay : iconPause} onClick={playSoundOne}/></button>
                                     <button onClick={stopSound}><img src={iconStop}/></button> 
                                 </div>
                                 

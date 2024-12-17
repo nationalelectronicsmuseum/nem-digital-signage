@@ -6,6 +6,7 @@ import { Context } from "../assets/accessibilityContext.js";
 // import voltCurrImage from "../assets/img/voltcurr.png";
 import voltImpact from "../assets/img/volt_impact.jpg"
 import { artifact } from "../assets/database/artifact.js";
+import {artifactSpanish} from "../assets/database/artifacts-spanish.js"
 import ohmslawGif from "../assets/img/ohmslaw.gif";
 
 import loop from "../assets/sound/loop.wav"
@@ -14,7 +15,7 @@ export default function voltAndCurr() {
   const [lang, setLang] = useContext(Context);
 
   const data = artifact.filter(x => x.title === "Voltage and Current").pop()
-  const dataSpanish = artifact.filter(x => x.title === "Voltaje y Corriente").pop()
+  const dataSpanish = artifactSpanish.filter(x => x.title === "Voltaje y Corriente").pop()
 
   return (
     <div>
