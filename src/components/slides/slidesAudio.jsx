@@ -25,7 +25,8 @@ const SlidesAudio = () => {
     const soundTwo = document.getElementById("sound2")
     const soundThree = document.getElementById("sound3")
 
-    const playSoundOne = () => {
+    const playSoundOne = () => {      
+    const soundOne = document.getElementById("sound1")
         if(tune === false) {
             console.log()     
             soundOne.play()
