@@ -115,7 +115,7 @@ const SlidesAudio = () => {
                                 <p>Recorded on Victor Talking Machine disk.</p>
                                 <audio id="sound2" src={audio2}></audio>
                                 <div className ="audioPlayer">
-                                    <button onClick={playSoundTwo}><img src={iconPlay}/></button>
+                                    <button ><img src={tune === false ? iconPlay : iconPause} onClick={playSoundTwo}/></button>
                                     <button onClick={stopSound}><img src={iconStop}/></button> 
                                 </div>
                             </div>
@@ -134,7 +134,7 @@ const SlidesAudio = () => {
                                 <p>Recorded on Sony TC 2850SD portable cassette recorder on Memorex cassettes.</p>
                                 <audio id="sound3" src={audio3}></audio>
                                 <div className ="audioPlayer">
-                                    <button onClick={playSoundThree}><img src={iconPlay}/></button>
+                                    <button><img src={tune === false ? iconPlay : iconPause} onClick={playSoundThree}/></button>
                                     <button onClick={stopSound}><img src={iconStop}/></button> 
                                 </div>
                             </div>
