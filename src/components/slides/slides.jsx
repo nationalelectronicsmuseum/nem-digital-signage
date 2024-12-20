@@ -8,11 +8,12 @@ import "swiper/css/navigation";
 
 import "./slides.css";
 import Speech from "../speech/speech";
-import { Context, ContextFontSize, ContextListPadding } from "../../assets/accessibilityContext";
+import { Context, ContextFontSize, ContextListPadding, ContextImage } from "../../assets/accessibilityContext";
 
 const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactImg4 }) => {
   const [fontS, setFontS] = useContext(ContextFontSize);
   const [listPadding, setListPadding] = useContext(ContextListPadding);
+  const [display, setDisplay] = useContext(ContextImage)
 
   const descriptionText = artifact.description.map((x) => x.step).join(" ");
   const directionsText = artifact.directions.steps.map((x) => x.step).join(" ");
@@ -25,6 +26,25 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
     console.log("Speech has stopped");
     synth.cancel();
   };
+
+  const displayImageOne = () => {
+    if(display === "hideImage"){
+      setDisplay("showImageOne")
+      console.log("image shown", display)
+    } else {
+      setDisplay("hideImage")
+      console.log("image hidden", display)
+    }
+  }
+  const displayImageTwo = () => {
+    if(display === "hideImage"){
+      setDisplay("showImageTwo")
+      console.log("image shown", display)
+    } else {
+      setDisplay("hideImage")
+      console.log("image hidden", display)
+    }
+  }
 
   return (
     <div className="swiperMain">
@@ -45,6 +65,7 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
               <i className="fa-solid fa-angles-right"></i>
             </h6> */}
             <div className="bg">
+            
               <div className="left description">
                 <Speech text={artifact.description} />
                 
@@ -70,7 +91,7 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
                   top: "40%", 
                   left: "75%", 
                   transform: "translate(-50%) translateY(-50%)" }} 
-                  src={artifactImg1}></img>
+                  src={artifactImg1} onClick={displayImageOne}></img>
               </div>
             </div>
           </div>
@@ -91,7 +112,7 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
               </p>
             </div>
             <div className="right">
-              <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg2}></img>
+              <img onClick={displayImageTwo} style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg2}></img>
               
               {/* <h3>{artifact.timeline.title}</h3>
               {artifact.timeline.dates.map((el)=> {

@@ -53,6 +53,7 @@ import {
   ContextLangSpeech,
   ContextSpeechPlayer,
   ContextListPadding,
+  ContextImage,
 } from "./assets/accessibilityContext";
 import InProgress from "./pages/inProgress";
 import Graaff from "./pages/graaff.jsx";
@@ -64,106 +65,115 @@ function App() {
   const [langSpeech, setLangSpeech] = useState("en-US");
   const [speechPlayer, setspeechPlayer] = useState("hiddenPlayer");
   const [listPadding, setListPadding] = useState("50px");
+  const [display, setDisplay] = useState("hideImage")
 
   return (
-    
-    <ContextFontSize.Provider value={[fontS, setFontS]}>
-      <Context.Provider value={[lang, setLang]}>
-        <ContextFontFamily.Provider value={[fontF, setFontF]}>
-          <ContextLangSpeech.Provider value={[langSpeech, setLangSpeech]}>
-            <ContextSpeechPlayer.Provider value={[speechPlayer, setspeechPlayer]}>
-              <ContextListPadding.Provider value={[listPadding, setListPadding]}>
-                <Router>
-                  <Routes>
-                    <Route path="/admin" element={<Admin />} />
-                    <Route path="/in-progress" element={<InProgress />} />
+    <ContextImage.Provider value={[display, setDisplay]}>
+      <ContextFontSize.Provider value={[fontS, setFontS]}>
+        <Context.Provider value={[lang, setLang]}>
+          <ContextFontFamily.Provider value={[fontF, setFontF]}>
+            <ContextLangSpeech.Provider value={[langSpeech, setLangSpeech]}>
+              <ContextSpeechPlayer.Provider
+                value={[speechPlayer, setspeechPlayer]}
+              >
+                <ContextListPadding.Provider
+                  value={[listPadding, setListPadding]}
+                >
+                  <Router>
+                    <Routes>
+                      <Route path="/admin" element={<Admin />} />
+                      <Route path="/in-progress" element={<InProgress />} />
 
-                    {/* Station 1 */}
-                    <Route path="/station1" element={<Station1 />} />
-                    <Route
-                      path="/voltage-and-current"
-                      element={<VoltAndCurr />}
-                    />
-                    <Route path="/human-battery" element={<HumanBattery />} />
-                    <Route path="/oersted" element={<Oersted />} />
-                    <Route path="/faraday" element={<Faraday />} />
+                      {/* Station 1 */}
+                      <Route path="/station1" element={<Station1 />} />
+                      <Route
+                        path="/voltage-and-current"
+                        element={<VoltAndCurr />}
+                      />
+                      <Route path="/human-battery" element={<HumanBattery />} />
+                      <Route path="/oersted" element={<Oersted />} />
+                      <Route path="/faraday" element={<Faraday />} />
 
-                    {/* Station 2 */}
-                    <Route path="/station2" element={<Station2 />} />
-                    <Route path="/jumping-wires" element={<JumpingWires />} />
-                    <Route path="/jacobs-ladder" element={<JacobsLadder />} />
-                    <Route
-                      path="/static-electricity"
-                      element={<StaticElectricity />}
-                    />
-                    <Route path="/manual-turbine" element={<Turbine />} />
-                    <Route path="/vandegraaff" element={<Graaff />} />
+                      {/* Station 2 */}
+                      <Route path="/station2" element={<Station2 />} />
+                      <Route path="/jumping-wires" element={<JumpingWires />} />
+                      <Route path="/jacobs-ladder" element={<JacobsLadder />} />
+                      <Route
+                        path="/static-electricity"
+                        element={<StaticElectricity />}
+                      />
+                      <Route path="/manual-turbine" element={<Turbine />} />
+                      <Route path="/vandegraaff" element={<Graaff />} />
 
-                    {/* Station 3 */}
-                    <Route path="/station3" element={<Station3 />} />
-                    <Route path="/theremin" element={<Theremin />} />
-                    <Route
-                      path="/visible-electromagnetic-waves"
-                      element={<VisibleElectronicWaves />}
-                    />
-                    <Route path="/polarization" element={<Polarization />} />
-                    <Route path="/evolution-recorded-sound" element={<EvolutionRecordedSound />} />
+                      {/* Station 3 */}
+                      <Route path="/station3" element={<Station3 />} />
+                      <Route path="/theremin" element={<Theremin />} />
+                      <Route
+                        path="/visible-electromagnetic-waves"
+                        element={<VisibleElectronicWaves />}
+                      />
+                      <Route path="/polarization" element={<Polarization />} />
+                      <Route
+                        path="/evolution-recorded-sound"
+                        element={<EvolutionRecordedSound />}
+                      />
 
-                    {/* Station 4 */}
-                    <Route path="/station4" element={<Station4 />} />
-                    <Route
-                      path="/microwave-turntable"
-                      element={<MicrowaveTurntable />}
-                    />
+                      {/* Station 4 */}
+                      <Route path="/station4" element={<Station4 />} />
+                      <Route
+                        path="/microwave-turntable"
+                        element={<MicrowaveTurntable />}
+                      />
 
-                    {/* Station 5 */}
-                    <Route path="/station5" element={<Station5 />} />
+                      {/* Station 5 */}
+                      <Route path="/station5" element={<Station5 />} />
 
-                    {/* Station 6 */}
-                    <Route path="/station6" element={<Station6 />} />
-                    <Route path="/marconi" element={<Marconi />} />
-                    <Route path="/audio-translator" element={<Audio />} />
-                    <Route
-                      path="/first-broadcast"
-                      element={<FirstBroadcast />}
-                    />
-                    <Route
-                      path="/evolution-of-sound"
-                      element={<EvolutionSound />}
-                    />
+                      {/* Station 6 */}
+                      <Route path="/station6" element={<Station6 />} />
+                      <Route path="/marconi" element={<Marconi />} />
+                      <Route path="/audio-translator" element={<Audio />} />
+                      <Route
+                        path="/first-broadcast"
+                        element={<FirstBroadcast />}
+                      />
+                      <Route
+                        path="/evolution-of-sound"
+                        element={<EvolutionSound />}
+                      />
 
-                    {/* Station 7 */}
-                    <Route path="/station7" element={<Station7 />} />
-                    <Route path="/telegraph" element={<Telegraph />} />
+                      {/* Station 7 */}
+                      <Route path="/station7" element={<Station7 />} />
+                      <Route path="/telegraph" element={<Telegraph />} />
 
-                    {/* Station 8 */}
-                    <Route path="/station8" element={<Station8 />} />
-                    <Route path="/vacuum-tubes" element={<VacuumTube />} />
+                      {/* Station 8 */}
+                      <Route path="/station8" element={<Station8 />} />
+                      <Route path="/vacuum-tubes" element={<VacuumTube />} />
 
-                    {/* Station 9 */}
-                    <Route path="/station9" element={<Station9 />} />
+                      {/* Station 9 */}
+                      <Route path="/station9" element={<Station9 />} />
 
-                    {/* Station 10 */}
-                    <Route path="/station10" element={<Station10 />} />
+                      {/* Station 10 */}
+                      <Route path="/station10" element={<Station10 />} />
 
-                    {/* Station 11*/}
-                    <Route path="/station11" element={<Station11 />} />
+                      {/* Station 11*/}
+                      <Route path="/station11" element={<Station11 />} />
 
-                    {/* Station 12*/}
-                    <Route path="/station12" element={<Station12 />} />
+                      {/* Station 12*/}
+                      <Route path="/station12" element={<Station12 />} />
 
-                    <Route exact path="/" element={<HomeStation />} />
-                    <Route path="/audio" element={<Audio />} />
-                    <Route path="/marconi" element={<Marconi />} />
-                    <Route path="/telegraph" element={<Telegraph />} />
-                  </Routes>
-                </Router>
-              </ContextListPadding.Provider>
-            </ContextSpeechPlayer.Provider>
-          </ContextLangSpeech.Provider>
-        </ContextFontFamily.Provider>
-      </Context.Provider>
-    </ContextFontSize.Provider>
+                      <Route exact path="/" element={<HomeStation />} />
+                      <Route path="/audio" element={<Audio />} />
+                      <Route path="/marconi" element={<Marconi />} />
+                      <Route path="/telegraph" element={<Telegraph />} />
+                    </Routes>
+                  </Router>
+                </ContextListPadding.Provider>
+              </ContextSpeechPlayer.Provider>
+            </ContextLangSpeech.Provider>
+          </ContextFontFamily.Provider>
+        </Context.Provider>
+      </ContextFontSize.Provider>
+    </ContextImage.Provider>
   );
 }
 
