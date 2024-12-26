@@ -8,11 +8,12 @@ import "swiper/css/navigation";
 
 import "./slides.css";
 import Speech from "../speech/speech";
-import { Context, ContextFontSize, ContextListPadding } from "../../assets/accessibilityContext";
+import { Context, ContextFontSize, ContextListPadding, ContextImage } from "../../assets/accessibilityContext";
 
 const SlidesMarconi = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactImg4 }) => {
   const [fontS, setFontS] = useContext(ContextFontSize);
   const [listPadding, setListPadding] = useContext(ContextListPadding);
+    const [display, setDisplay] = useContext(ContextImage)
 
   const descriptionText = artifact.description.map((x) => x.step).join(" ");
   const directionsText = artifact.directions.steps.map((x) => x.step).join(" ");
@@ -25,6 +26,43 @@ const SlidesMarconi = ({ artifact, artifactImg1, artifactImg2, artifactImg3, art
     console.log("Speech has stopped");
     synth.cancel();
   };
+
+  const displayImageOne = () => {
+    if(display === "hideImage"){
+      setDisplay("showImageOne")
+      console.log("image shown", display)
+    } else {
+      setDisplay("hideImage")
+      console.log("image hidden", display)
+    }
+  }
+  const displayImageTwo = () => {
+    if(display === "hideImage"){
+      setDisplay("showImageTwo")
+      console.log("image shown", display)
+    } else {
+      setDisplay("hideImage")
+      console.log("image hidden", display)
+    }
+  }
+  const displayImageThree = () => {
+    if(display === "hideImage"){
+      setDisplay("showImageThree")
+      console.log("image shown", display)
+    } else {
+      setDisplay("hideImage")
+      console.log("image hidden", display)
+    }
+  }
+  const displayImageFour = () => {
+    if(display === "hideImage"){
+      setDisplay("showImageFour")
+      console.log("image shown", display)
+    } else {
+      setDisplay("hideImage")
+      console.log("image hidden", display)
+    }
+  }
 
   return (
     <div className="swiperMain">
@@ -70,7 +108,8 @@ const SlidesMarconi = ({ artifact, artifactImg1, artifactImg2, artifactImg3, art
                   top: "40%", 
                   left: "75%", 
                   transform: "translate(-50%) translateY(-50%)" }} 
-                  src={artifactImg1}></img>
+                  src={artifactImg1}
+                  onClick={displayImageOne}></img>
               </div>
             </div>
           </div>
@@ -131,7 +170,7 @@ const SlidesMarconi = ({ artifact, artifactImg1, artifactImg2, artifactImg3, art
 
             <div className="right">
             <div className="right">
-                <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg2}></img>
+                <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg2} onClick={displayImageTwo}></img>
             </div>
             </div>
           </div>
@@ -151,7 +190,7 @@ const SlidesMarconi = ({ artifact, artifactImg1, artifactImg2, artifactImg3, art
             </div>
 
             <div className="right">
-                <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg3}></img>
+                <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg3} onClick={displayImageThree}></img>
             </div>
           </div>
           

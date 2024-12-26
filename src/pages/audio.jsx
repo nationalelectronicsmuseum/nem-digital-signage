@@ -1,5 +1,6 @@
-import React from "react";
+import React, {useContext} from "react";
 import artifactImg from "../assets/img/home-audio.svg";
+import { Context, ContextImage } from "../assets/accessibilityContext.js";
 import MenuStation3 from "../components/menu/menuStation3";
 import Slides from "../components/slides/slides.jsx";
 import Accessibility from '../components/accessibility/accessibility.jsx';
@@ -40,9 +41,21 @@ const Audio = () => {
     },
     how: "An audio translator works by capturing sound waves through a sensitive microphone or diaphragm. These sound waves are then converted into electrical signals. This transformation allows the signals to be amplified, transmitted, and reproduced as sound at a receiving end. Essentially, it converts audible information into electrical impulses for efficient transmission across distances, ensuring that the original sounds remain intact when they reach their destination. ",
   };
+    const [display, setDisplay] = useContext(ContextImage)
+    
+    const displayingImage = display.includes("showImageOne") ? display : display.includes("showImageTwo") ? display : "hideImage"
+    const displayingImages = display.includes("showImageOne") ? image1 : display.includes("showImageTwo") ? image2 : null
+  
+    const hideMe = () => {
+      setDisplay("hideImage")
+    }
 
   return (
     <div>
+      <div className={displayingImage} onClick={hideMe}>
+        <div className="backgroundImage"></div>
+          <img src={displayingImages} className="galleryImageOne"/>
+      </div>
       <div className="btnNav">
         <MenuStation3 />
         <div className="accs">

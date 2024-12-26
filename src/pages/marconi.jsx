@@ -1,4 +1,6 @@
 import artifactImg from "../assets/img/marconi.svg";
+import React, {useContext} from "react";
+import { ContextImage } from "../assets/accessibilityContext.js";
 import SlidesMarconi from "../components/slides/slidesMarconi.jsx";
 import MenuStation3 from "../components/menu/menuStation3.jsx";
 import { artifact } from "../assets/database/artifact";
@@ -11,10 +13,23 @@ import image3 from "../assets/img/marconi02.png"
 
 const Marconi = () => {
   const data = artifact.filter(x => x.title === "The Marconi Magnetic Detector")
+          
+  const [display, setDisplay] = useContext(ContextImage)
+            
+  const displayingImage = display.includes("showImageOne") ? display : display.includes("showImageTwo") ? display : display.includes("showImageThree") ? display : display.includes("showImageFour") ? display : "hideImage"
+  const displayingImages = display.includes("showImageOne") ? image1 : display.includes("showImageTwo") ? image2 : display.includes("showImageThree") ? image3 : display.includes("showImageFour") ? image4 : null
+            
+  const hideMe = () => {
+    setDisplay("hideImage")
+  }
   
 
   return (
     <>
+      <div className={displayingImage} onClick={hideMe}>
+        <div className="backgroundImage"></div>
+        <img src={displayingImages} className="galleryImageOne" />
+      </div>
       <div className="btnNav">
         <MenuStation3 />
         <div className="accs">

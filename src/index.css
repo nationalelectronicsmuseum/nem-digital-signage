@@ -97,9 +97,17 @@ body {
   display:block;
   width: 100%;
 }
-
 .showImageTwo {
   display:block;
+  width: 100%;
+}
+.showImageThree {
+  display:block;
+  width: 100%;
+}
+.showImageFour {
+  display:block;
+  width: 100%;
 }
 
 .backgroundImage { 
@@ -121,6 +129,14 @@ body {
   background: rgb(0 0 0 / 80%);
 }
 .showImageTwo .backgroundImage {
+  height: 300vmax;
+  background: rgb(0 0 0 / 80%);
+}
+.showImageThree .backgroundImage {
+  height: 300vmax;
+  background: rgb(0 0 0 / 80%);
+}
+.showImageFour .backgroundImage {
   height: 300vmax;
   background: rgb(0 0 0 / 80%);
 }

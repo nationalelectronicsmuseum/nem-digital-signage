@@ -8,11 +8,12 @@ import "swiper/css/navigation";
 
 import "./slides.css";
 import Speech from "../speech/speech";
-import { Context, ContextFontSize, ContextListPadding } from "../../assets/accessibilityContext";
+import { Context, ContextFontSize, ContextListPadding, ContextImage } from "../../assets/accessibilityContext";
 
 const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactImg4 }) => {
   const [fontS, setFontS] = useContext(ContextFontSize);
   const [listPadding, setListPadding] = useContext(ContextListPadding);
+  const [display, setDisplay] = useContext(ContextImage)
 
   const descriptionText = artifact.description.map((x) => x.step).join(" ");
   const directionsText = artifact.directions.steps.map((x) => x.step).join(" ");
@@ -30,6 +31,43 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
   const speechTry = artifact.try.title + " " + artifact.try.steps.map((x) => x.name + " " + x.text).join(" ")
   console.log("Try", speechTry)
   console.log("How", speechHow)
+
+  const displayImageOne = () => {
+    if(display === "hideImage"){
+      setDisplay("showImageOne")
+      console.log("image shown", display)
+    } else {
+      setDisplay("hideImage")
+      console.log("image hidden", display)
+    }
+  }
+  const displayImageTwo = () => {
+    if(display === "hideImage"){
+      setDisplay("showImageTwo")
+      console.log("image shown", display)
+    } else {
+      setDisplay("hideImage")
+      console.log("image hidden", display)
+    }
+  }
+  const displayImageThree = () => {
+    if(display === "hideImage"){
+      setDisplay("showImageThree")
+      console.log("image shown", display)
+    } else {
+      setDisplay("hideImage")
+      console.log("image hidden", display)
+    }
+  }
+  const displayImageFour = () => {
+    if(display === "hideImage"){
+      setDisplay("showImageFour")
+      console.log("image shown", display)
+    } else {
+      setDisplay("hideImage")
+      console.log("image hidden", display)
+    }
+  }
 
   return (
     <div className="swiperMain">
@@ -75,7 +113,8 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
                   top: "40%", 
                   left: "75%", 
                   transform: "translate(-50%) translateY(-50%)" }} 
-                  src={artifactImg1}></img>
+                  src={artifactImg1}
+                  onClick={displayImageOne}></img>
               </div>
             </div>
           </div>
@@ -96,7 +135,7 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
               </p>
             </div>
             <div className="right">
-              <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg2}></img>
+              <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg2} onClick={displayImageTwo}></img>
               
               {/* <h3>{artifact.timeline.title}</h3>
               {artifact.timeline.dates.map((el)=> {
@@ -133,7 +172,7 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
             </div>
 
             <div className="right">
-              <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg3}></img>
+              <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg3} onClick={displayImageThree}></img>
             </div>
           </div>
           
@@ -165,7 +204,7 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
             </div>
 
             <div className="right">
-            <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg4}></img>
+            <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg4} onClick={displayImageFour}></img>
             </div>
           </div>
           
