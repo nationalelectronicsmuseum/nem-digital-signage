@@ -42,9 +42,13 @@ import Station8 from "./pages/station8";
 import VacuumTube from "./pages/vacuumTube";
 
 import Station11 from "./pages/station11";
+
 import Station12 from "./pages/station12";
+
 import Station10 from "./pages/station10";
+
 import Station9 from "./pages/station9";
+import HAMRadio from "./pages/hamRadio.jsx";
 
 import {
   Context,
@@ -151,6 +155,7 @@ function App() {
 
                       {/* Station 9 */}
                       <Route path="/station9" element={<Station9 />} />
+                      <Route path="/hamradio" element={<HAMRadio />} />
 
                       {/* Station 10 */}
                       <Route path="/station10" element={<Station10 />} />

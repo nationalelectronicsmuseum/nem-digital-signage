@@ -1,5 +1,34 @@
 export const artifact = [
   {
+    title: "HAM Radio",
+    info: [
+      { id: 1,
+        name: "WHAT IS AMATEUR RADIO?",
+        description: "Amateur Radio (Ham Radio) is an international hobby on designated frequencies enabling communication via various methods, e.g. Morse Code, Voice, and Data. Call signs such as K3NEM (our station call sign) are unique to each licensed ham or club. Call sign prefixes vary by country."
+      },
+      { id: 2,
+        name: "WHO CAN BE AN AMATEUR RADIO OPERATOR (Ham)?",
+        description: "Amateur Radio (Ham Radio) is an international hobby on designated frequencies enabling communication via various methods, e.g. Morse Code, Voice, and Data. Call signs such as K3NEM (our station call sign) are unique to each licensed ham or club. Call sign prefixes vary by country."
+      },
+      { id: 3,
+        name: "WHAT MIGHT I DO IN HAM RADIO? ",
+        description: "Amateur Radio (Ham Radio) is an international hobby on designated frequencies enabling communication via various methods, e.g. Morse Code, Voice, and Data. Call signs such as K3NEM (our station call sign) are unique to each licensed ham or club. Call sign prefixes vary by country."
+      },
+      { id: 4,
+        name: "EMERGENCY COMMUNICATIONS",
+        description: "Amateur Radio (Ham Radio) is an international hobby on designated frequencies enabling communication via various methods, e.g. Morse Code, Voice, and Data. Call signs such as K3NEM (our station call sign) are unique to each licensed ham or club. Call sign prefixes vary by country."
+      },
+      { id: 5,
+        name: "AMATEUR RADIO CLUB OF THE NATIONAL ELECTRONICS MUSEUM",
+        description: "Amateur Radio (Ham Radio) is an international hobby on designated frequencies enabling communication via various methods, e.g. Morse Code, Voice, and Data. Call signs such as K3NEM (our station call sign) are unique to each licensed ham or club. Call sign prefixes vary by country.",
+        contact: {
+          email: "contact@k3nem.org",
+          web: "www.k3nem.org/"
+        }
+      },
+    ]
+  },
+  {
     title: "Voltage and Current",
     info: [{ id: 1, text: "" }],
     description: [
