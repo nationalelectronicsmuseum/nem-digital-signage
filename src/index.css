@@ -109,6 +109,10 @@ body {
   display:block;
   width: 100%;
 }
+.showImageFive {
+  display:block;
+  width: 100%;
+}
 
 .backgroundImage { 
   position: fixed;
@@ -123,6 +127,31 @@ body {
   transition: 0.6s;
 }
 
+.hamBox {
+  display: flex;
+  flex-direction: row;
+  z-index: 4;
+  max-width: 1080px; 
+  max-height: 860px; 
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%) translateY(-50%);
+  background-color: aliceblue;
+}
+
+.infoLeft {
+  width: 50%;
+}
+
+.infoRight {
+  width: 50%;
+}
+
+.hamImg {
+  object-fit: contain;
+  width: 100%;
+}
 
 .showImageOne .backgroundImage {
   height: 300vmax;
@@ -137,6 +166,10 @@ body {
   background: rgb(0 0 0 / 80%);
 }
 .showImageFour .backgroundImage {
+  height: 300vmax;
+  background: rgb(0 0 0 / 80%);
+}
+.showImageFive .backgroundImage {
   height: 300vmax;
   background: rgb(0 0 0 / 80%);
 }

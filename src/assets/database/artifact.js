@@ -8,19 +8,19 @@ export const artifact = [
       },
       { id: 2,
         name: "WHO CAN BE AN AMATEUR RADIO OPERATOR (Ham)?",
-        description: "Amateur Radio (Ham Radio) is an international hobby on designated frequencies enabling communication via various methods, e.g. Morse Code, Voice, and Data. Call signs such as K3NEM (our station call sign) are unique to each licensed ham or club. Call sign prefixes vary by country."
+        description: "Folks of any age in the US are eligible to take the exams. Licenses are issued by each country and are granted in degrees of privilege. Morse Code proficiency is no longer required. If you can handle a cell phone, you are well on the way to becoming a ham!"
       },
       { id: 3,
         name: "WHAT MIGHT I DO IN HAM RADIO? ",
-        description: "Amateur Radio (Ham Radio) is an international hobby on designated frequencies enabling communication via various methods, e.g. Morse Code, Voice, and Data. Call signs such as K3NEM (our station call sign) are unique to each licensed ham or club. Call sign prefixes vary by country."
+        description: "Many communicate over the air with local and far-away hams using voice, Morse Code, digital signals or even two-way television. Communication in emergency situations is a popular and important civic activity. One can learn to build, fix, and understand electronic devices (career opportunities)"
       },
       { id: 4,
         name: "EMERGENCY COMMUNICATIONS",
-        description: "Amateur Radio (Ham Radio) is an international hobby on designated frequencies enabling communication via various methods, e.g. Morse Code, Voice, and Data. Call signs such as K3NEM (our station call sign) are unique to each licensed ham or club. Call sign prefixes vary by country."
+        description: "When telephone systems are down, ham radio still gets through. Radio amateurs work with government agencies for communications. We pass traffic datagrams—like Western Union messages via on-air networks of hams. Photo is of ARRL Field Day, an annual emergency preparedness event."
       },
       { id: 5,
         name: "AMATEUR RADIO CLUB OF THE NATIONAL ELECTRONICS MUSEUM",
-        description: "Amateur Radio (Ham Radio) is an international hobby on designated frequencies enabling communication via various methods, e.g. Morse Code, Voice, and Data. Call signs such as K3NEM (our station call sign) are unique to each licensed ham or club. Call sign prefixes vary by country.",
+        description: "This is us! We are here to help get you licensed and on the air. Our Thursday evening classes by Zoom for licenses classes and operating principles are internationally attended. We host interesting weeknight club meetings and weekend on-air events. We support the museum with tour guides and volunteers. Our club ham station is available.",
         contact: {
           email: "contact@k3nem.org",
           web: "www.k3nem.org/"
