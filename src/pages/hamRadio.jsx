@@ -154,12 +154,16 @@ function HAMRadio() {
       </div>
       <Loop />
 
-      <div>
-        <h2 onClick={toggleOne}>{data.info[0].name}</h2>
-        <h2 onClick={toggleTwo}>{data.info[1].name}</h2>
-        <h2 onClick={toggleThree}>{data.info[2].name}</h2>
-        <h2 onClick={toggleFour}>{data.info[3].name}</h2>
-        <h2 onClick={toggleFive}>{data.info[4].name}</h2>
+      <div className="hamTitles">
+        <button><h2 onClick={toggleOne}>{data.info[0].name}</h2></button>
+        <button><h2 onClick={toggleTwo}>{data.info[1].name}</h2></button>
+        <button><h2 onClick={toggleThree}>{data.info[2].name}</h2></button>
+        <button><h2 onClick={toggleFour}>{data.info[3].name}</h2></button>
+        <button><h2 onClick={toggleFive}>{data.info[4].name}</h2></button>
+        
+        
+        
+        
       </div>
 
 
