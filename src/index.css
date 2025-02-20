@@ -131,8 +131,9 @@ body {
   display: flex;
   flex-direction: row;
   z-index: 4;
-  max-width: 1280px; 
-  max-height: 860px; 
+  /* max-width: 1280px; 
+  max-height: 860px;  */
+  width: 1400px;
   position: absolute; 
   top: 50%; 
   left: 50%; 

@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import MenuStation6 from '../components/menu/menuStation6'
 import Accessibility from '../components/accessibility/accessibility'
 import Loop from '../components/loop'
-import Slides from '../components/slides/slides'
 import { artifact } from '../assets/database/artifact'
 
 import ham1 from "../assets/img/ham01.png"
@@ -10,6 +9,8 @@ import ham2 from "../assets/img/ham2.png"
 import ham3 from "../assets/img/ham3.png"
 import ham4 from "../assets/img/ham4.png"
 import ham5 from "../assets/img/ham5.png"
+import ham6 from "../assets/img/ham6.jpg"
+import Speech from '../components/speech/speech'
 
 
 function HAMRadio() {
@@ -18,28 +19,18 @@ function HAMRadio() {
   const [three, setThree] = useState("hide")
   const [four, setFour] = useState("hide")
   const [five, setFive] = useState("hide")
-  const [reveal, setReveal] = useState("hide")
 
 
   const data = artifact.filter(x => x.title === "HAM Radio")[0]
 
-  const revealing = () => {
-    if (reveal === "hide") {
-      setReveal("showImageOne")
-    } else {
-      setReveal("hide")
-    }
-  }
-  const hideBlock = () => {
-    setReveal("hide")
-  }
 
   const toggleOne = () => {
     if (one === "hide") {
       setOne("showImageOne")
-      console.log("toggled")
+      console.log("toggled show")
     } else {
       setOne("hide")
+      console.log("toggled hide")
     }
   }
   const toggleTwo = () => {
@@ -88,6 +79,7 @@ function HAMRadio() {
       <div className={one}>
         <div className="hamBox">
           <div className="infoLeft">
+            <Speech text={data.info[0].description}/>
             <p>{data.info[0].description}</p>
           </div>
           <div className="infoRight">
@@ -100,6 +92,7 @@ function HAMRadio() {
       <div className={two}>
       <div className="hamBox">
           <div className="infoLeft">
+          <Speech text={data.info[1].description}/>
             <p>{data.info[1].description}</p>
           </div>
           <div className="infoRight">
@@ -112,6 +105,7 @@ function HAMRadio() {
       <div className={three}>
       <div className="hamBox">
           <div className="infoLeft">
+          <Speech text={data.info[2].description}/>
             <p>{data.info[2].description}</p>
           </div>
           <div className="infoRight">
@@ -124,6 +118,7 @@ function HAMRadio() {
       <div className={four}>
       <div className="hamBox">
           <div className="infoLeft">
+          <Speech text={data.info[3].description}/>
             <p>{data.info[3].description}</p>
           </div>
           <div className="infoRight">
@@ -137,12 +132,13 @@ function HAMRadio() {
       <div className="backgroundImage" onClick={toggleFive}></div>
       <div className="hamBox">
           <div className="infoLeft">
+          <Speech text={data.info[4].description}/>
             <p>{data.info[4].description}</p>
-            <p>{data.info[4].contact.email}</p>
-            <p>{data.info[4].contact.web}</p>
+            <h2>{data.info[4].contact.email}</h2>
+            <h2>{data.info[4].contact.web}</h2>
           </div>
           <div className="infoRight">
-          <img src={ham5} className="hamImg"></img>
+          <img src={ham6} className="hamImg"></img>
           </div>
         </div>
       </div>
@@ -155,11 +151,11 @@ function HAMRadio() {
       <Loop />
 
       <div className="hamTitles">
-        <button className="hamBtn"><h2 onClick={toggleOne}>{data.info[0].name}</h2></button>
-        <button className="hamBtn"><h2 onClick={toggleThree}>{data.info[2].name}</h2></button>
-        <button className="hamBtn"><h2 onClick={toggleTwo}>{data.info[1].name}</h2></button>
-        <button className="hamBtn"><h2 onClick={toggleFour}>{data.info[3].name}</h2></button>
-        <button className="hamBtn"><h2 onClick={toggleFive}>{data.info[4].name}</h2></button>
+        <button className="hamBtn" onClick={toggleOne}><h2>{data.info[0].name}</h2></button>
+        <button className="hamBtn" onClick={toggleThree}><h2>{data.info[1].name}</h2></button>
+        <button className="hamBtn" onClick={toggleTwo}><h2 >{data.info[2].name}</h2></button>
+        <button className="hamBtn" onClick={toggleFour}><h2 >{data.info[3].name}</h2></button>
+        <button className="hamBtn" onClick={toggleFive}><h2 >{data.info[4].name}</h2></button>
         
         
         

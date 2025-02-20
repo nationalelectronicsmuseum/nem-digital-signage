@@ -7,7 +7,7 @@ export const artifact = [
         description: "Amateur Radio (Ham Radio) is an international hobby on designated frequencies enabling communication via various methods, e.g. Morse Code, Voice, and Data. Call signs such as K3NEM (our station call sign) are unique to each licensed ham or club. Call sign prefixes vary by country."
       },
       { id: 2,
-        name: "WHO CAN BE AN AMATEUR RADIO OPERATOR (Ham)?",
+        name: "WHO CAN BE AN AMATEUR RADIO OPERATOR (HAM)?",
         description: "Folks of any age in the US are eligible to take the exams. Licenses are issued by each country and are granted in degrees of privilege. Morse Code proficiency is no longer required. If you can handle a cell phone, you are well on the way to becoming a ham!"
       },
       { id: 3,
