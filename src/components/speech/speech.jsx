@@ -3,7 +3,6 @@ import "../speech/speech.css";
 import iconPlay from "../../assets/img/icon_play.svg"
 import iconStop from "../../assets/img/icon_stop.svg"
 import iconPause from "../../assets/img/icon_pause.svg"
-// import "../../assets/img/icon_play.svg"
 import { Context, ContextLangSpeech, ContextSpeechPlayer } from "../../assets/accessibilityContext";
 
 function Speech({ text, audio }) {

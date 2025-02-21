@@ -158,6 +158,19 @@ body {
   background: rgba(255, 255, 255, 0.3);
 }
 
+.audioSnipBox {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.audioSnip {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
 /* From Uiverse.io by Voxybuns */ 
 .hamTitles button {
   /* Variables */
