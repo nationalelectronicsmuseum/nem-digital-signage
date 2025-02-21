@@ -10,6 +10,7 @@ import ham3 from "../assets/img/ham3.png"
 import ham4 from "../assets/img/ham4.png"
 import ham5 from "../assets/img/ham5.png"
 import ham6 from "../assets/img/ham6.jpg"
+import ham7 from "../assets/img/ham7.png"
 import Speech from '../components/speech/speech'
 
 
@@ -81,6 +82,7 @@ function HAMRadio() {
           <div className="infoLeft">
             <Speech text={data.info[0].description}/>
             <p>{data.info[0].description}</p>
+            <h5>Image: "A desk with computers, mouse, keyboard, HAM radio, and a map."</h5>
           </div>
           <div className="infoRight">
             <img src={ham1} className="hamImg"></img>
@@ -94,6 +96,7 @@ function HAMRadio() {
           <div className="infoLeft">
           <Speech text={data.info[1].description}/>
             <p>{data.info[1].description}</p>
+            <h5>Image: "A child operating the HAM radio."</h5>
           </div>
           <div className="infoRight">
           <img src={ham2} className="hamImg"></img>
@@ -107,6 +110,7 @@ function HAMRadio() {
           <div className="infoLeft">
           <Speech text={data.info[2].description}/>
             <p>{data.info[2].description}</p>
+            <h5>Image: "Showing an example of the End Fed."</h5>
           </div>
           <div className="infoRight">
           <img src={ham3} className="hamImg"></img>
@@ -120,9 +124,10 @@ function HAMRadio() {
           <div className="infoLeft">
           <Speech text={data.info[3].description}/>
             <p>{data.info[3].description}</p>
+            <h5>Image: "ARRL Field Day, an annual emergency preparedness event."</h5>
           </div>
           <div className="infoRight">
-          <img src={ham4} className="hamImg"></img>
+          <img src={ham7} className="hamImg"></img>
           </div>
         </div>
         <div className="backgroundImage" onClick={toggleFour}></div>
@@ -152,8 +157,8 @@ function HAMRadio() {
 
       <div className="hamTitles">
         <button className="hamBtn" onClick={toggleOne}><h2>{data.info[0].name}</h2></button>
-        <button className="hamBtn" onClick={toggleThree}><h2>{data.info[1].name}</h2></button>
-        <button className="hamBtn" onClick={toggleTwo}><h2 >{data.info[2].name}</h2></button>
+        <button className="hamBtn" onClick={toggleTwo}><h2>{data.info[1].name}</h2></button>
+        <button className="hamBtn" onClick={toggleThree}><h2 >{data.info[2].name}</h2></button>
         <button className="hamBtn" onClick={toggleFour}><h2 >{data.info[3].name}</h2></button>
         <button className="hamBtn" onClick={toggleFive}><h2 >{data.info[4].name}</h2></button>
         
