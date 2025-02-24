@@ -25,6 +25,8 @@ function HAMRadio() {
 
   const data = artifact.filter(x => x.title === "HAM Radio")[0]
 
+  
+  const synth = window.speechSynthesis;
 
   const toggleOne = () => {
     if (one === "hide") {
@@ -32,6 +34,7 @@ function HAMRadio() {
       console.log("toggled show")
     } else {
       setOne("hide")
+      synth.cancel()
       console.log("toggled hide")
     }
   }
@@ -41,6 +44,7 @@ function HAMRadio() {
       console.log("toggled")
     } else {
       setTwo("hide")
+      synth.cancel()
     }
   }
   const toggleThree = () => {
@@ -49,6 +53,7 @@ function HAMRadio() {
       console.log("toggled")
     } else {
       setThree("hide")
+      synth.cancel()
     }
   }
   const toggleFour = () => {
@@ -57,6 +62,7 @@ function HAMRadio() {
       console.log("toggled")
     } else {
       setFour("hide")
+      synth.cancel()
     }
   }
   const toggleFive = () => {
@@ -65,6 +71,7 @@ function HAMRadio() {
       console.log("toggled")
     } else {
       setFive("hide")
+      synth.cancel()
     }
   }
 
@@ -81,9 +88,12 @@ function HAMRadio() {
       <div className={one}>
         <div className="hamBox">
           <div className="infoLeft">
-            <Speech text={data.info[0].description}/>
+            <AudioSnip text={data.info[0].description}/>
             <p>{data.info[0].description}</p>
-            <AudioSnip text={"Image: A desk with computers, mouse, keyboard, HAM radio, and a map."} />
+            <div className="audioSnipBox">
+              <AudioSnip text={"Image: A desk with computers, mouse, keyboard, HAM radio, and a map."} />
+              <h5>Image: A desk with computers, mouse, keyboard, HAM radio, and a map.</h5>
+            </div>
           </div>
           <div className="infoRight">
             <img src={ham1} className="hamImg"></img>
@@ -95,9 +105,14 @@ function HAMRadio() {
       <div className={two}>
       <div className="hamBox">
           <div className="infoLeft">
-            <Speech text={data.info[1].description}/>
+            <AudioSnip text={data.info[1].description}/>
             <p>{data.info[1].description}</p>
-            <AudioSnip text={"Image: A child operating the HAM radio."} />
+            
+            <div className="audioSnipBox">
+              <AudioSnip text={"Image: A child operating the HAM radio."} />
+              <h5>Image: A child operating the HAM radio.</h5>
+            </div>
+
           </div>
           <div className="infoRight">
           <img src={ham2} className="hamImg"></img>
@@ -109,9 +124,12 @@ function HAMRadio() {
       <div className={three}>
       <div className="hamBox">
           <div className="infoLeft">
-          <Speech text={data.info[2].description}/>
+          <AudioSnip text={data.info[2].description}/>
             <p>{data.info[2].description}</p>
-            <AudioSnip text={"Image: Showing an example of the End Fed."} />
+            <div className="audioSnipBox">
+              <AudioSnip text={"Image: Showing an example of the End Fed."} />
+              <h5>Image: Showing an example of the End Fed.</h5>
+            </div>
           </div>
           <div className="infoRight">
           <img src={ham3} className="hamImg"></img>
@@ -123,9 +141,13 @@ function HAMRadio() {
       <div className={four}>
       <div className="hamBox">
           <div className="infoLeft">
-            <Speech text={data.info[3].description}/>
+            <AudioSnip text={data.info[3].description}/>
             <p>{data.info[3].description}</p>
-            <AudioSnip text={"Image: ARRL Field Day, an annual emergency preparedness event."} />
+            
+            <div className="audioSnipBox">
+              <AudioSnip text={"Image: ARRL Field Day, an annual emergency preparedness event."} /> 
+              <h5>Image: ARRL Field Day, an annual emergency preparedness event.</h5>
+            </div>
           </div>
           <div className="infoRight">
           <img src={ham7} className="hamImg"></img>
@@ -138,9 +160,13 @@ function HAMRadio() {
       <div className="backgroundImage" onClick={toggleFive}></div>
       <div className="hamBox">
           <div className="infoLeft">
-            <Speech text={data.info[4].description}/>
+            <AudioSnip text={data.info[4].description}/>
             <p>{data.info[4].description}</p>
-            <AudioSnip text={"Scan QR Code to join FB group or explore the website."} />
+            
+            <div className="audioSnipBox">
+            <AudioSnip text={"Scan QR Code to join FB group or explore the website."} /> 
+              <h5>Scan QR Code to join FB group or explore the website.</h5>
+            </div>
           </div>
           <div className="infoRight">
           <img src={ham6} className="hamImg"></img>

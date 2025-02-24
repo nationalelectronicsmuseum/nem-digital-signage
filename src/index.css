@@ -133,7 +133,7 @@ body {
   z-index: 4;
   /* max-width: 1280px; 
   max-height: 860px;  */
-  width: 1400px;
+  width: 1600px;
   height: auto;
   position: absolute; 
   top: 50%; 
@@ -166,9 +166,12 @@ body {
 }
 
 .audioSnip {
-  width: 25px;
-  height: 25px;
-  margin-right: 10px;
+  width: 1vw;
+  height: 1vh;
+}
+
+.audioSnipBox  h5 {
+  margin-left: 10px;
 }
 
 /* From Uiverse.io by Voxybuns */ 

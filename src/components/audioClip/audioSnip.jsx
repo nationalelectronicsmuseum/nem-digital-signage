@@ -1,12 +1,18 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import audioSnippet from "../../assets/img/audioSnip.svg"
+import { ContextLangSpeech } from "../../assets/accessibilityContext";
 
 export default function audioSnip({text}) {
+  
+    const [langSpeech, setLangSpeech] = useContext(ContextLangSpeech);
+
     const synth = window.speechSynthesis;
     const utter = new SpeechSynthesisUtterance(text);
   
+    
+    utter.lang = langSpeech
     utter.pitch = 1.1;
-    utter.rate = 1.3;
+    utter.rate = 1.5;
 
     const speakStart = () => {
         synth.cancel();
@@ -15,12 +21,10 @@ export default function audioSnip({text}) {
     };
 
   return (
-    <div className="audioSnipBox">
-    
+    <div>
       <button className="audioSnip" onClick={speakStart} >
           <img src={audioSnippet}></img>
       </button>
-        <h5>{text}</h5>
     </div>
   )
 }
