@@ -1,14 +1,12 @@
 import React from 'react'
-import Menu from "../components/menu/menu";
-import Slides from "../components/slides/slides";
+import { artifact } from '../assets/database/artifact'
+import Slides from '../components/slides/slides'
+import Menu from '../components/menu/menu'
 import Accessibility from '../components/accessibility/accessibility'
 import Loop from '../components/loop'
-import { artifact } from "../assets/database/artifact";
 
-function Theremin() {
-  const data = artifact.filter((x) => x.title === "Harrison Instruments 302 Theremin");
-
-
+function MicrowaveTurntable() {
+  const data = artifact.filter(x => x.title === "Why do Microwaves Have Turntables?")
   return (
     <div>
       <div className="btnNav">
@@ -20,7 +18,7 @@ function Theremin() {
 
       <div className="sectionhead">
         <div className="sectiontitle">
-          <h1 className="artifactTitle">Theramin</h1>
+          <h1 className="artifactTitle">Why do Microwaves Have Turntables?</h1>
         </div>
       </div>
       <Loop />
@@ -29,4 +27,4 @@ function Theremin() {
   )
 }
 
-export default Theremin
+export default MicrowaveTurntable

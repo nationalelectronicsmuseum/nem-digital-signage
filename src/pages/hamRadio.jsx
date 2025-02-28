@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import MenuStation6 from '../components/menu/menuStation6'
+import Menu from '../components/menu/menu'
 import Accessibility from '../components/accessibility/accessibility'
 import Loop from '../components/loop'
 import { artifact } from '../assets/database/artifact'
@@ -79,7 +79,7 @@ function HAMRadio() {
     <div>
 
       <div className="btnNav">
-        <MenuStation6 />
+        <Menu />
         <div className="accs">
           <Accessibility text={artifact} />
         </div>

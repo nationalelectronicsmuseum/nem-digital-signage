@@ -1,12 +1,12 @@
 import React from "react";
-import Slides from "../components/slides/slides";
+import SlidesElectromagnetic from "../components/slides/slidesElectromagnetic.jsx"
 import MenuStation7 from "../components/menu/menuStation7";
 import { artifact } from "../assets/database/artifact";
 import Accessibility from '../components/accessibility/accessibility'
 import Loop from '../components/loop'
 
 function Polarization() {
-  const data = artifact.filter((x) => x.title === "Polarization Experiment");
+  const data = artifact.filter((x) => x.title === "Introduction to Electromagnetic Waves");
 
   return (
     <>
@@ -17,13 +17,13 @@ function Polarization() {
         </div>
       </div>
 
-      <div className="sectionhead">
+      <div className="emhead">
         <div className="sectiontitle">
-          <h1 className="artifactTitle">Polarization Experiment</h1>
+          <h1 className="artifactTitle" >Introduction to Electromagnetic Waves</h1>
         </div>
       </div>
       <Loop />
-      <Slides artifact={data[0]} />
+      <SlidesElectromagnetic artifact={data[0]} />
     </>
   );
 }

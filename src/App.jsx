@@ -37,6 +37,7 @@ import EvolutionSound from "./pages/evolutionSound";
 
 import Station7 from "./pages/station7";
 import Telegraph from "./pages/telegraph";
+import Electromagnetic from "./pages/electromagnetic.jsx"
 
 import Station8 from "./pages/station8";
 import VacuumTube from "./pages/vacuumTube";
@@ -148,6 +149,7 @@ function App() {
                       {/* Station 7 */}
                       <Route path="/station7" element={<Station7 />} />
                       <Route path="/telegraph" element={<Telegraph />} />
+                      <Route path="/electromagnetic" element={<Electromagnetic />} />
 
                       {/* Station 8 */}
                       <Route path="/station8" element={<Station8 />} />

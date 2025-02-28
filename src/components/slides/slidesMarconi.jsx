@@ -93,7 +93,7 @@ const SlidesMarconi = ({ artifact, artifactImg1, artifactImg2, artifactImg3, art
                   {artifact.info.map((el) => {
                     return (
                       <li key={el.id} className="info" style={{ fontSize: `${fontS}`, fontStyle: "italic", fontWeight: "300" }}>
-                        <span style={{fontWeight: "400"}}>{el.title}:</span> {el.text}
+                        <span style={{fontWeight: "600"}}>{el.title}:</span> {el.text}
                       </li>
                     );
                   })}

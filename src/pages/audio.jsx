@@ -12,8 +12,14 @@ const Audio = () => {
   const artifact = {
     title: "The Audio Translator",
     info: [
-      { id: 1, text: "Impact: Connected 40 million households by 1930" },
-      { id: 2, text: "Global Reach: 95% mobile network coverage (2023)" },
+      { 
+        id: 1,
+        title: "Impact: ", 
+        text: "Connected 40 million households by 1930" 
+      },
+      { id: 2,
+        title: "Global Reach: ", 
+        text: "95% mobile network coverage (2023)" },
     ],
     description:
       ["The Audio Translator, not to be confused with a language translator, is a device that captures distant sounds, turning them into electrical signals. This breakthrough marked a new era in communication."],

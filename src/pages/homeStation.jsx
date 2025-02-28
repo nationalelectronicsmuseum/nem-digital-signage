@@ -17,7 +17,7 @@ function HomeStation() {
         <li><Link to="/station3" relative="path" className="homeImg">Station 3</Link></li>
         <li><Link to="/station4" relative="path" className="homeImg">Station 4</Link></li>
         <li><Link to="/station5" relative="path" className="homeImg">Station 5</Link></li>
-        <li><Link to="/station6" relative="path" className="homeImg">Station 6</Link></li>
+        <li><Link to="/theremin" relative="path" className="homeImg">Station 6</Link></li>
         <li><Link to="/station7" relative="path" className="homeImg">Station 7</Link></li>
         <li><Link to="/station8" relative="path" className="homeImg">Station 8</Link></li>
         <li><Link to="/hamradio" relative="path" className="homeImg">Station 9</Link></li>

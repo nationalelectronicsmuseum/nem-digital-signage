@@ -75,8 +75,9 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
                 <ul>
                   {artifact.info.map((el) => {
                     return (
-                      <li key={el.id} className="info" style={{ fontSize: `${fontS}`, fontStyle: "italic", fontWeight: "300" }}>
-                        {el.text}
+                      <li key={el.id} className="info">
+                        <span style={{ fontSize: `${fontS}`, fontStyle: "italic", fontWeight: "600" }}>{el.title}</span>
+                        <span style={{ fontSize: `${fontS}`, fontStyle: "italic", fontWeight: "300" }}>{el.text}</span>
                       </li>
                     );
                   })}
@@ -128,8 +129,8 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
         {/* Slide 3 */}
         <SwiperSlide>
           <div className="bg">
+            {!artifact.directions.description ?
             <div className="left">
-
               <span><h3>{artifact.directions.title}</h3> <Speech text={directionsText} /></span>
 
               <ol className="swipe-directions" style={{ paddingLeft: `${listPadding}` }}>
@@ -147,7 +148,13 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
               {artifact.watch ? <span><h4 className="watchHeader">What to watch:</h4> <Speech text={artifact.watch}/></span> : ""}
               
               <p className="watchPara" style={{ fontSize: `${fontS}` }}>{artifact.watch}</p>
-            </div>
+            </div> : 
+            <div className="left">
+            <span><h3>{artifact.directions.title}</h3> <Speech text={directionsText} /></span>
+            {artifact.watch ? <span><h4 className="watchHeader">What to watch:</h4> <Speech text={artifact.watch}/></span> : ""}
+            
+            <p className="watchPara" style={{ fontSize: `${fontS}` }}>{artifact.directions.description}</p>
+          </div>}
 
             <div className="right">
               <span>

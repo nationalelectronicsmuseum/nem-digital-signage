@@ -75,8 +75,9 @@ const SlidesTelegraph = ({ artifact, artifactImg1, artifactImg2, artifactImg3, a
                 <ul>
                   {artifact.info.map((el) => {
                     return (
-                      <li key={el.id} className="info" style={{ fontSize: `${fontS}`, fontStyle: "italic", fontWeight: "300" }}>
-                        {el.text}
+                      <li key={el.id} className="info">
+                        <span style={{ fontSize: `${fontS}`, fontStyle: "italic", fontWeight: "600" }}>{el.title}</span>
+                        <span style={{ fontSize: `${fontS}`, fontStyle: "italic", fontWeight: "300" }}>{el.text}</span>
                       </li>
                     );
                   })}

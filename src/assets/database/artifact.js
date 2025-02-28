@@ -199,19 +199,23 @@ export const artifact = [
     info: [
       {
         id: 1,
-        text: "Discoverer: Hans Christian Oersted",
+        title: "Discoverer:",
+        text: "Hans Christian Oersted",
       },
       {
         id: 2,
-        text: "Date of Discovery: 1820",
+        title: "Date of Discovery: ",
+        text: "1820",
       },
       {
         id: 3,
-        text: "Experiment Type: Observing the interaction between electricity and magnetism.",
+        title: "Experiment Type: ",
+        text: "Observing the interaction between electricity and magnetism.",
       },
       {
         id: 4,
-        text: "Key Discovery: Flowing electricity through a wire caused a nearby magnetic compass needle to move.",
+        title: "Key Discovery: ",
+        text: "Flowing electricity through a wire caused a nearby magnetic compass needle to move.",
       },
     ],
     description: [
@@ -527,7 +531,7 @@ export const artifact = [
         },
       ],
     },
-    how: "Watch the neon lights on the turntable inside the microwave. They turn on and off and change in brightness as their position in the oven changes.  This is a visual demonstration of the inconsistency of the microwave energy. The distribution of microwave energy is inconsistent. This causes varying field intensities, or hot and cold spots in the oven.  A turntable is employed to reduce the likelihood of hot spots or cold spots in your food. ",
+    how: "Watch the neon lights on the turntable inside the microwave. They turn on and off and change in brightness as their position in the oven changes.  This is a visual demonstration of the inconsistency of the microwave energy. The distribution of microwave energy is inconsistent. This causes varying field intensities, or hot and cold spots in the oven.  A turntable is employed to reduce the likelihood of hot spots or cold spots in your food.",
   },
 
   {
@@ -535,33 +539,33 @@ export const artifact = [
     info: [
       {
         id: 1,
-        title: "Name",
-        text: "Name: Telegraph Machine",
+        title: "Name: ",
+        text: "Telegraph Machine",
       },
       {
         id: 2,
-        title: "Inventor",
-        text: "Inventor: Samuel Morse and Alfred Vail ",
+        title: "Inventor: ",
+        text: "Samuel Morse and Alfred Vail ",
       },
       {
         id: 3,
-        title: "Year of Invention",
-        text: "Year of Invention: 1837 ",
+        title: "Year of Invention: ",
+        text: "1837 ",
       },
       {
         id: 4,
-        title: "Speed",
-        text: "Speed: Messages transmitted in seconds ",
+        title: "Speed: ",
+        text: "Messages transmitted in seconds ",
       },
       {
         id: 5,
-        title: "Language",
-        text: "Language: Morse Code (Dots and Dashes)",
+        title: "Language: ",
+        text: "Morse Code (Dots and Dashes)",
       },
       {
         id: 6,
-        title: "Global Connection",
-        text: "Global Connections: Linked continents, changing the way we share information worldwide ",
+        title: "Global Connection: ",
+        text: "Linked continents, changing the way we share information worldwide ",
       },
     ],
     description: [
@@ -613,25 +617,39 @@ export const artifact = [
     ],
   },
   {
-    title: "The Evolution of Sound",
+    title: "Harrison Instruments 302 Theremin",
     info: [
       {
         id: 1,
-        text: "",
+        title: "Name: ",
+        text: "Theremin",
       },
       {
         id: 2,
-        text: "",
+        title: "Invented by: ",
+        text: "Leon Theremin",
       },
       {
         id: 3,
-        text: "",
+        title: "Year of Invention: ",
+        text: "1920",
+      },
+      {
+        id: 4,
+        title: "Type: ",
+        text: "Electronic musical instrument",
+      },
+      {
+        id: 5,
+        title: "Notable Feature: ",
+        text: " Played without physical contact",
       },
     ],
-    description: ["", "", "", ""],
-    impact: "",
+    description: ["The Theremin is a unique musical instrument, in that it is played without physical contact.  The player stands in front of the instrument and moves their hands near its two metal antennas.  The volume and pitch are controlled by the distance from the player’s hands from the antennas.  Moving a hand closer to the left plate increases the volume.  Moving the hand closer to the right plate increases the pitch.  The player’s hands act as the grounded plate of a variable capacitor.", "", "", ""],
+    impact: "The Theremin is a testament to the fusion of art and science, offering a unique interface where sound is produced without any physical contact. Its invention marked a significant leap in the evolution of electronic music, captivating audiences with its eerie and otherworldly tones. From its early use in classical compositions to its iconic presence in science fiction soundtracks, the Theremin has left an indelible mark on music history. Its eerie, sci-fi sound has graced countless films, adding an unmistakable atmosphere to scenes of suspense and wonder.",
     directions: {
       title: "How Does it Work?",
+      description: "Step up to our interactive display.  Feel the invisible force of the electromagnetic field as you manipulate the pitch and volume antennas, creating your own melodies in the air.  To play a note, position your hand near the pitch antenna (right), adjusting the distance to control the pitch's frequency.  As your hand moves closer to the antenna, the pitch rises; conversely, moving the hand away lowers the pitch.  The volume (left) is controlled similarly, with proximity to the volume antenna determining the loudness of the sound.",
       steps: [
         {
           id: 1,
@@ -642,8 +660,9 @@ export const artifact = [
           step: "",
         },
       ],
+
     },
-    how: "",
+    how: "The Theremin operates on the principle of capacitance and the manipulation of electromagnetic fields. The Theremin consists of two antennas – one for pitch and the other for volume. As the player moves their hands near these antennas, the electromagnetic field is disturbed, producing haunting melodies and harmonies. Its intuitive yet perplexing operation continues to intrigue musicians and enthusiasts alike.",
   },
   {
     title: "First Broadcast",
@@ -749,19 +768,23 @@ export const artifact = [
     info: [
       {
         id: 1,
-        text: "Name: Electromagnetic Radio Waves",
+        title: "Name: ",
+        text: "Electromagnetic Radio Waves",
       },
       {
         id: 2,
-        text: "Discovered: In the late 19th century by Heinrich Hertz",
+        title: "Discovered: ",
+        text: "In the late 19th century by Heinrich Hertz",
       },
       {
         id: 3,
-        text: "Key Characteristics: Invisible, travel at the speed of light, used in communication technologies",
+        title: "Key Characteristics: ",
+        text: "Invisible, travel at the speed of light, used in communication technologies",
       },
       {
         id: 4,
-        text: "Impact: Revolutionized communication, enabled wireless technologies",
+        title: "Impact: ",
+        text: "Revolutionized communication, enabled wireless technologies",
       },
     ],
     description: [
@@ -815,22 +838,23 @@ export const artifact = [
         text: "",
       },
     ],
-    description: ["", "", "", ""],
-    impact: "",
+    description: ["This experiment demonstrates how filters allow electromagnetic waves oscillating in a certain direction to pass through while blocking others, showcasing the effects of polarization on electromagnetic waves.  With polarized sunglasses, the filter creates vertical openings for light. Only light rays that approach your eyes vertically can fit through those openings. The lenses block all the horizontal light waves bouncing off a smooth pond or a shiny car hood, for instance.  This is a similar concept to polarization on electromagnetic waves.", "", "", ""],
+    impact: "Polarization is what lets the mesh screen in your microwave oven door block hazardous energy from escaping. The wires of the mesh are vertical and horizontal blocking waves moving in either direction.",
     directions: {
       title: "How Does it Work?",
       steps: [
         {
           id: 1,
-          step: "",
+          step: "Press the red button",
         },
         {
           id: 2,
-          step: "",
+          step: "Slowly rotate the screen wheel while watching the two meters. The left horn is transmitting, and the right horn is receiving.",
         },
       ],
     },
-    how: "",
+    watch: "Look at the meters to see how much electromagnetic energy is being transmitted and how much is received. Do the amounts change as the screen wheel moves?",
+    how: "The open wire screen can reflect or transmit electromagnetic waves which are vertically polarized. Some waves pass through the spaces between the wires, while other waves are reflected back off the wires. For vertically polarized waves, the screen blocks most effectively when its wires are also vertical.",
   },
   {
     title: "Vacuum Tube",
@@ -863,7 +887,7 @@ export const artifact = [
         },
       ],
     },
-    how: "",
+    how: "The open wire screen can reflect or transmit electromagnetic waves which are vertically polarized. Some waves pass through the spaces between the wires, while other waves are reflected back off the wires. For vertically polarized waves, the screen blocks most effectively when its wires are also vertical.",
   },
   {
     title: "",
@@ -1064,4 +1088,71 @@ export const artifact = [
       ],
     },
   },
+  {
+    title: "Introduction to Electromagnetic Waves",
+    description: "Welcome, as we journey through the invisible forces that shape our universe. From radio waves to gamma rays, electromagnetic waves encompass a vast spectrum of energy that permeates every aspect of our daily lives.  Follow along as we explore their profound impact on technology, communication, and our understanding of the cosmos.",
+    categories: {
+      title: "Categories of Electromagnetic Waves",
+      waves: [
+        {
+          id: 1,
+          title: "Radios Waves",
+          description: [
+            "These waves have the longest wavelengths and lowest frequencies in the electromagnetic spectrum.",
+            "Widely used in communication, including radio broadcasting, Wi-Fi, and cellular networks."
+          ]
+        },
+        {
+          id: 2,
+          title: "Microwaves",
+          description: [
+            "With slightly shorter wavelengths than radio waves, microwaves are utilized in various applications such as cooking, radar, and satellite communication."
+          ]
+        },
+        {
+          id: 3,
+          title: "Infrared Light",
+          description: [
+            "Beyond visible light but shorter than microwaves, infrared waves are associated with heat and are utilized in night vision technology, remote controls, and thermal imaging."
+          ]
+        },
+        {
+          id: 4,
+          title: "Visible Light",
+          description: [
+            "The only segment of the electromagnetic spectrum visible to the human eye, visible light encompasses a range of colors from red to violet.",
+            "Essential for vision and utilized in optical technologies such as cameras, telescopes, and lasers."
+          ]
+        },
+        {
+          id: 5,
+          title: "Ultraviolet (UV) Waves",
+          description: [
+            "Beyond violet light on the electromagnetic spectrum, UV waves have shorter wavelengths and higher energy.",
+            "Used in sterilization, tanning beds, and medical treatments but can also cause damage to living tissues."
+          ]
+        },
+        {
+          id: 6,
+          title: "X-Rays",
+          description: [
+            "These waves have even shorter wavelengths and higher energy than UV waves.",
+            "Valuable in medical imaging, airport security scanning, and material analysis due to their ability to penetrate solid objects."
+          ]
+        },
+        {
+          id: 7,
+          title: "Gamma Rays",
+          description: [
+            "With the shortest wavelengths and highest energy in the electromagnetic spectrum, gamma rays are emitted by radioactive materials and cosmic events.",
+            "Utilized in cancer treatment, sterilization, and studying high-energy astrophysical phenomena."
+          ]
+        },
+      ]
+    },
+    ending: [
+      "As you explore the categories of electromagnetic waves, you'll gain a deeper appreciation for the diversity and significance of these phenomena.  From the practical applications in everyday technology to the profound insights they provide into the nature of the universe, electromagnetic waves continue to shape our world in ways both seen and unseen.",
+      "Pay particular attention to our exhibits on “Visual Electromagnetic Waves” and “Electromagnetic Radio Waves” for further insight into these examples of electromagnetic waves."
+    ]
+  }
 ];

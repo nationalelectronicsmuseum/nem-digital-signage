@@ -87,6 +87,7 @@
   .info {
     text-decoration: none;
     list-style: none;
+    margin-bottom: 20px;
   }
 
   .swipe-mention {
@@ -166,3 +167,12 @@
 
   /* Image Displayer */
   
+  /* EMW */
+  .emTitle {
+    margin: 0;
+  }
+
+  .emFB {
+    display: flex;
+    padding: 0 100px;
+  }
