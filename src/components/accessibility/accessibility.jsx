@@ -41,14 +41,14 @@ export function Accessibility() {
 
   const selectEng = () => {
     setLang("english")
-    setLangSpeech("en-GB")
+    setLangSpeech("en-US")
     setColorEng("qpBtn colorSelected")
     setColorSpa("qpBtn")
     synth.cancel();
   }
   const selectSpa = () => {
     setLang("spanish")
-    setLangSpeech("es-MX")
+    setLangSpeech("es-US")
     setColorEng("qpBtn")
     setColorSpa("qpBtn colorSelected")
     synth.cancel();
