@@ -15,10 +15,10 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
   const [listPadding, setListPadding] = useContext(ContextListPadding);
   const [display, setDisplay] = useContext(ContextImage)
 
-  const descriptionText = artifact.description.map((x) => x.step).join(" ");
+  // const descriptionText = artifact.description.map((x) => x.step).join(" ");
   const directionsText = artifact.directions.steps.map((x) => x.step).join(" ");
 
-  console.log(descriptionText)
+  console.log(artifact.directions.steps)
 
   const synth = window.speechSynthesis;
 

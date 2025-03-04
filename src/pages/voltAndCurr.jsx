@@ -44,7 +44,7 @@ export default function VoltAndCurr() {
       <div className="sectionhead">
       <audio autoPlay loop src={loop} type="audio/wav"></audio>
         <div className="sectiontitle">
-          <h1 className="artifactTitle">Voltage and Current</h1>
+          <h1 className="artifactTitle">{lang === "default" ? data.title: lang === "english" ? data.title : dataSpanish.title}</h1>
         </div>
       </div>
 

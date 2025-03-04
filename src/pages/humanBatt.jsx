@@ -1,19 +1,32 @@
 import React, {useContext} from 'react'
 import Slides from '../components/slides/slides'
 import { artifact } from '../assets/database/artifact'
+import { artifactSpanish } from '../assets/database/artifacts-spanish.js'
 import MenuStation1 from '../components/menu/menuStation1'
 import Accessibility from '../components/accessibility/accessibility'
 import Loop from '../components/loop'
-import { ContextImage } from "../assets/accessibilityContext.js";
+import { Context, ContextImage } from "../assets/accessibilityContext.js";
 
 import image1 from "../assets/img/humanBatt1.png"
 import image2 from "../assets/img/humanBatt2.gif"
 
 
 function HumanBattery() {
+  const [lang, setLang] = useContext(Context);
   const [display, setDisplay] = useContext(ContextImage)
   
-  const data = artifact.filter(x => x.title === "Human Battery")
+  const data = artifact.filter(x => x.title === "Do you have the power to be an electrical conductor?").pop()
+  const dataSpanish = artifactSpanish.filter(x => x.title === "¿Tienes el poder de ser conductor eléctrico?").pop()
+
+  const dataLang = () => {
+    if(lang === "default"){
+      return data
+    } else if (lang === "english") {
+      return data
+    } else if ( lang === "spanish") {
+      return dataSpanish
+    }
+  }
 
   
   const displayingImage = display.includes("showImageOne") ? display : display.includes("showImageTwo") ? display : "hideImage"
@@ -22,8 +35,7 @@ function HumanBattery() {
   const hideMe = () => {
     setDisplay("hideImage")
   }
-
-  console.log(data[0].title)
+console.log(dataLang())
   return (
     <div>
       <div className={displayingImage} onClick={hideMe}>
@@ -40,11 +52,11 @@ function HumanBattery() {
 
       <div className="sectionhead">
         <div className="sectiontitle">
-          <h1 className="artifactTitle">Do you have the power to be an electrical conductor?</h1>
+          <h1 className="artifactTitle">{lang === "default" ? data.title: lang === "english" ? data.title : dataSpanish.title}</h1>
         </div>
       </div>
       <Loop />
-      <Slides artifact={data[0]} artifactImg1={image2} artifactImg2={image1}/>
+      <Slides artifact={lang === "default" ? data: lang === "english" ? data : dataSpanish} artifactImg1={image2} artifactImg2={image1}/>
     </div>
   )
 }

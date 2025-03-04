@@ -143,19 +143,23 @@ export const artifact = [
     info: [
       {
         id: 1,
-        text: "Inventor: Michael Faraday ",
+        title: "Inventor: ",
+        text: "Michael Faraday ",
       },
       {
         id: 2,
-        text: "Year of Invention: 1831 ",
+        title: "Year of Invention: ",
+        text: "1831 ",
       },
       {
         id: 3,
-        text: "Key Feature: Relationship between electricity and magnetism",
+        title: "Key Feature: ",
+        text: "Relationship between electricity and magnetism",
       },
       {
         id: 4,
-        text: "Impact: Foundation for modern electric power sources",
+        title: "Impact: ",
+        text: "Foundation for modern electric power sources",
       },
     ],
     description: [
@@ -249,7 +253,7 @@ export const artifact = [
   },
 
   {
-    title: "Human Battery",
+    title: "Do you have the power to be an electrical conductor?",
     info: [
       {
         id: 1,
@@ -270,12 +274,9 @@ export const artifact = [
     ],
     description: [
       "When you place one hand on the copper plate and the other hand on the aluminum plate, the current would flow through your body from one plate to the other.",
-
-      "",
-
-      "",
-
-      "",
+      " ",
+      " ",
+      " ",
     ],
     impact:
       "We can create electricity by chemical action. By closing circuits, we allow that energy to flow. You have provided the conducting fluid for this battery, so the electricity is flowing through you!",
