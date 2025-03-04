@@ -25,7 +25,7 @@ function Speech({ text, audio }) {
 
   utter.lang = langSpeech
   utter.pitch = 1.1;
-  utter.rate = 1.1;
+  utter.rate = 1.5;
 
   utter.addEventListener("end", (event) => {
     synth.cancel()
