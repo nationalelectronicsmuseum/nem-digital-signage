@@ -288,14 +288,6 @@ export const artifactSpanish = [
           id: 2,
           step: "Mire los dos cables altos.",
         },
-        {
-          id: 3,
-          step: "",
-        },
-        {
-          id: 4,
-          step: "",
-        },
       ],
     },
     watch: "",
@@ -348,14 +340,6 @@ export const artifactSpanish = [
         {
           id: 2,
           step: "Mira las chispas eléctricas en la cima.",
-        },
-        {
-          id: 3,
-          step: "",
-        },
-        {
-          id: 4,
-          step: "",
         },
       ],
     },
@@ -456,7 +440,22 @@ export const artifactSpanish = [
             "Cuando las cargas en la cúpula se acumulan lo suficiente, buscan una manera de escapar. Si acercas un objeto metálico (o incluso tu mano) a la cúpula, las cargas saltan por el aire, creando una chispa visible. A veces, si tocas la cúpula, las cargas se mueven a través de ti, poniéndote los pelos de punta.",
         },
       ],
-    }
+    },
+    try: {
+      title: "Prueba esto y mira:",
+      steps: [
+        {
+          id: 1,
+          name: "Mantenga presionado el botón para encenderlo.",
+          text: "El generador Van de Graaff y dejar que se cargue. Escuchará un leve zumbido y, después de unos momentos, el domo comenzará a acumular electricidad estática.",
+        },
+        {
+          id: 2,
+          name: "Sea testigo de la acusación.",
+          text: "Observa las chispas que saltan desde la varilla hasta la cúpula de metal. El cabello comenzará a crecer a medida que fluya la electricidad estática. La electricidad estática repele cada mechón de cabello de los demás, creando el efecto de “cabello loco”. Las luces fluorescentes parpadean, carbonizando las bombillas.",
+        },
+      ],
+    },
   },
   {
     title: "El Detector Magnético Marconi",
@@ -805,7 +804,7 @@ export const artifactSpanish = [
     how: "El Theremin funciona según el principio de capacitancia y la manipulación de campos electromagnéticos. El Theremin consta de dos antenas: una para el tono y otra para el volumen. Cuando el jugador mueve sus manos cerca de estas antenas, el campo electromagnético se altera, produciendo melodías y armonías inquietantes. Su funcionamiento intuitivo pero desconcertante sigue intrigando a músicos y entusiastas por igual.ssss",
   },
   {
-    title: "",
+    title: "¿Por qué los Microondas tienen Platos Giratorios?",
     info: [
       {
         id: 1,
@@ -828,34 +827,22 @@ export const artifactSpanish = [
       },
     ],
     description: [
-      "",
+      "Los hornos microondas generan ondas electromagnéticas (microondas) que calientan los alimentos excitando las moléculas de agua dentro de los alimentos. Las microondas son invisibles, por lo que no se pueden ver dentro de un horno microondas, pero su presencia se puede detectar con lámparas de neón. El campo electromagnético cambiante de las microondas hará que las partículas cargadas se muevan, por lo que los electrones en las patas metálicas se moverán creando corriente. Esta corriente hace que las lámparas brillen.  La distribución de estas ondas dentro del microondas tiende a ser desigual, por lo que un plato giratorio ayuda a rotar la comida, asegurando que todas las partes del plato reciban una exposición relativamente igual a las microondas. Esto da como resultado una cocción más consistente y uniforme.",
     ],
     impact:
-      ""
+      "Los alimentos en el horno absorben la energía de las microondas. La plataforma giratoria hace girar los alimentos a través de intensidades de campo altas y bajas. El resultado es una cocción minuciosa."
       ,
     directions: {
-      title: "",
+      title: "¿Cómo funciona?",
       steps: [
         {
           id: 1,
-          step: "",
-        },
-        {
-          id: 2,
-          step: "",
-        },
-        {
-          id: 3,
-          step: "",
-        },
-        {
-          id: 4,
-          step: "",
+          step: "Press the red button to the left of the microwave oven.",
         },
       ],
     },
     watch: "",
-    how: "",
+    how: "Mira las luces de neón en el plato giratorio dentro del microondas. Se encienden y apagan y cambian de brillo a medida que cambia su posición en el horno.  Esta es una demostración visual de la inconsistencia de la energía de microondas. La distribución de la energía de las microondas es inconsistente. Esto provoca intensidades de campo variables o puntos fríos y calientes en el horno. Se emplea un plato giratorio para reducir la probabilidad de que aparezcan puntos calientes o fríos en los alimentos.",
   },
   {
     title: "",

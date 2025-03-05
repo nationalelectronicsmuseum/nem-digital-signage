@@ -9,7 +9,7 @@ const NavStation5 = () => {
   return (
     <>
         <div className="nav menu">
-        <Link to="/station3" relative="path" className="nav-links" onClick={cancelSpeech}>
+        <Link to="/station5" relative="path" className="nav-links" onClick={cancelSpeech}>
            Home
         </Link>
         <Link to="/microwave-turntable" relative="path" className="nav-links" onClick={cancelSpeech}>
