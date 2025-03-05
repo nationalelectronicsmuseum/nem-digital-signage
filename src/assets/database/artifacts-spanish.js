@@ -845,7 +845,7 @@ export const artifactSpanish = [
     how: "Mira las luces de neón en el plato giratorio dentro del microondas. Se encienden y apagan y cambian de brillo a medida que cambia su posición en el horno.  Esta es una demostración visual de la inconsistencia de la energía de microondas. La distribución de la energía de las microondas es inconsistente. Esto provoca intensidades de campo variables o puntos fríos y calientes en el horno. Se emplea un plato giratorio para reducir la probabilidad de que aparezcan puntos calientes o fríos en los alimentos.",
   },
   {
-    title: "",
+    title: "Experimento de polarización",
     info: [
       {
         id: 1,
@@ -868,37 +868,29 @@ export const artifactSpanish = [
       },
     ],
     description: [
-      "",
+      "Este experimento demuestra cómo los filtros permiten el paso de ondas electromagnéticas que oscilan en una determinada dirección mientras bloquean otras, mostrando los efectos de la polarización en las ondas electromagnéticas.  En las gafas de sol polarizadas, el filtro crea aberturas verticales para la luz. Sólo los rayos de luz que se acercan verticalmente a tus ojos pueden pasar por esas aberturas. Las lentes bloquean todas las ondas de luz horizontales que rebotan, por ejemplo, en un estanque liso o en el capó brillante de un coche.  Este es un concepto similar a la polarización de ondas electromagnéticas.",
     ],
     impact:
-      ""
+      "La polarización es lo que permite que la malla de la puerta de su horno microondas bloquee el escape de energía peligrosa. Los alambres de la malla son ondas de bloqueo verticales y horizontales que se mueven en cualquier dirección."
       ,
     directions: {
       title: "",
       steps: [
         {
           id: 1,
-          step: "",
+          step: "Presione el botón rojo.",
         },
         {
           id: 2,
-          step: "",
-        },
-        {
-          id: 3,
-          step: "",
-        },
-        {
-          id: 4,
-          step: "",
-        },
+          step: "Gire lentamente la rueda de la pantalla mientras observa los dos metros. La bocina izquierda transmite y la bocina derecha recibe.",
+        }
       ],
     },
     watch: "",
-    how: "",
+    how: "Mire los medidores para ver cuánta energía electromagnética se transmite y cuánta se recibe. ¿Cambian las cantidades a medida que se mueve la rueda de la pantalla? La pantalla de alambre abierto puede reflejar o transmitir ondas electromagnéticas polarizadas verticalmente. Algunas ondas pasan a través de los espacios entre los cables, mientras que otras ondas se reflejan en los cables. Para ondas polarizadas verticalmente, la pantalla se bloquea más eficazmente cuando sus cables también están verticales.",
   },
   {
-    title: "",
+    title: "Introducción a las ondas electromagnéticas",
     info: [
       {
         id: 1,
@@ -921,34 +913,70 @@ export const artifactSpanish = [
       },
     ],
     description: [
-      "",
-    ],
-    impact:
-      ""
-      ,
-    directions: {
-      title: "",
-      steps: [
+      "Bienvenido, mientras viajamos a través de las fuerzas invisibles que dan forma a nuestro universo. Desde ondas de radio hasta rayos gamma, las ondas electromagnéticas abarcan un amplio espectro de energía que impregna todos los aspectos de nuestra vida diaria.  Siga mientras exploramos su profundo impacto en la tecnología, la comunicación y nuestra comprensión del cosmos.",
+    ],categories: {
+      title: "Categories of Electromagnetic Waves",
+      waves: [
         {
           id: 1,
-          step: "",
+          title: "Ondas de radio",
+          description: [
+            "Estas ondas tienen las longitudes de onda más largas y las frecuencias más bajas del espectro electromagnético.",
+            "Ampliamente utilizado en comunicaciones, incluidas transmisiones de radio, Wi-Fi y redes celulares."
+          ]
         },
         {
           id: 2,
-          step: "",
+          title: "Microondas",
+          description: [
+            "Con longitudes de onda ligeramente más cortas que las ondas de radio, las microondas se utilizan en diversas aplicaciones, como la cocina, el radar y las comunicaciones por satélite."
+          ]
         },
         {
           id: 3,
-          step: "",
+          title: "Luz infrarroja",
+          description: [
+            "Más allá de la luz visible, pero más cortas que las microondas, las ondas infrarrojas están asociadas con el calor y se utilizan en tecnología de visión nocturna, controles remotos e imágenes térmicas."
+          ]
         },
         {
           id: 4,
-          step: "",
+          title: "Luz visible",
+          description: [
+            "La luz visible, el único segmento del espectro electromagnético visible para el ojo humano, abarca una gama de colores que van del rojo al violeta.",
+            "Esencial para la visión y utilizado en tecnologías ópticas como cámaras, telescopios y láseres."
+          ]
         },
-      ],
+        {
+          id: 5,
+          title: "Ondas ultravioleta (UV)",
+          description: [
+            "Más allá de la luz violeta en el espectro electromagnético, las ondas ultravioleta tienen longitudes de onda más cortas y mayor energía.",
+            "Se utiliza en esterilización, camas solares y tratamientos médicos, pero también puede causar daños a los tejidos vivos."
+          ]
+        },
+        {
+          id: 6,
+          title: "Rayos X",
+          description: [
+            "Estas ondas tienen longitudes de onda aún más cortas y mayor energía que las ondas ultravioleta.",
+            "Valiosos en imágenes médicas, escaneos de seguridad de aeropuertos y análisis de materiales debido a su capacidad para penetrar objetos sólidos."
+          ]
+        },
+        {
+          id: 7,
+          title: "Rayos gamma",
+          description: [
+            "Con las longitudes de onda más cortas y la energía más alta del espectro electromagnético, los rayos gamma son emitidos por materiales radiactivos y eventos cósmicos.",
+            "Utilizado en el tratamiento del cáncer, esterilización y estudio de fenómenos astrofísicos de alta energía."
+          ]
+        },
+      ]
     },
-    watch: "",
-    how: "",
+    ending: [
+      "A medida que explore las categorías de ondas electromagnéticas, obtendrá una apreciación más profunda de la diversidad y la importancia de estos fenómenos.  Desde las aplicaciones prácticas en la tecnología cotidiana hasta los profundos conocimientos que proporcionan sobre la naturaleza del universo, las ondas electromagnéticas continúan dando forma a nuestro mundo de formas tanto visibles como invisibles.",
+      "Preste especial atención a nuestras exhibiciones sobre “Ondas electromagnéticas visuales” y “Ondas de radio electromagnéticas” para obtener más información sobre estos ejemplos de ondas electromagnéticas."
+    ]
   },
   {
     title: "",
