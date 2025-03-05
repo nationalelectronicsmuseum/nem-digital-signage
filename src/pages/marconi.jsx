@@ -1,9 +1,10 @@
 import artifactImg from "../assets/img/marconi.svg";
 import React, {useContext} from "react";
-import { ContextImage } from "../assets/accessibilityContext.js";
+import { Context,ContextImage } from "../assets/accessibilityContext.js";
 import SlidesMarconi from "../components/slides/slidesMarconi.jsx";
 import MenuStation3 from "../components/menu/menuStation3.jsx";
 import { artifact } from "../assets/database/artifact";
+import { artifactSpanish } from '../assets/database/artifacts-spanish.js'
 import Accessibility from '../components/accessibility/accessibility'
 import Loop from '../components/loop'
 
@@ -12,9 +13,14 @@ import image2 from "../assets/img/marconi3.jpg"
 import image3 from "../assets/img/marconi02.png"
 
 const Marconi = () => {
-  const data = artifact.filter(x => x.title === "The Marconi Magnetic Detector")
-          
+  const [lang, setLang] = useContext(Context);
   const [display, setDisplay] = useContext(ContextImage)
+
+  const data = artifact.filter(x => x.title === "The Marconi Magnetic Detector").pop()
+  const dataSpanish = artifactSpanish.filter(x => x.title === "El Detector Magnético Marconi").pop()
+          
+  const dataArtifact = lang === "default" ? data: lang === "english" ? data : dataSpanish
+  const dataTitle = lang === "default" ? data.title: lang === "english" ? data.title : dataSpanish.title
             
   const displayingImage = display.includes("showImageOne") ? display : display.includes("showImageTwo") ? display : display.includes("showImageThree") ? display : display.includes("showImageFour") ? display : "hideImage"
   const displayingImages = display.includes("showImageOne") ? image1 : display.includes("showImageTwo") ? image2 : display.includes("showImageThree") ? image3 : display.includes("showImageFour") ? image4 : null
@@ -39,11 +45,11 @@ const Marconi = () => {
 
       <div className="sectionhead">
         <div className="sectiontitle">
-          <h1 className="artifactTitle">The Marconi Magnetic Detector</h1>
+          <h1 className="artifactTitle">{dataTitle}</h1>
         </div>
       </div>
       <Loop />
-      <SlidesMarconi artifact={data[0]} artifactImg1={image1} artifactImg2={image2} artifactImg3={image3}/>
+      <SlidesMarconi artifact={dataArtifact} artifactImg1={image1} artifactImg2={image2} artifactImg3={image3}/>
     </>
   );
 };

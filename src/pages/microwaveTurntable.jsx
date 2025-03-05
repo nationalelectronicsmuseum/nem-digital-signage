@@ -1,7 +1,7 @@
 import React from 'react'
 import { artifact } from '../assets/database/artifact'
 import Slides from '../components/slides/slides'
-import Menu from '../components/menu/menu'
+import MenuStation5 from '../components/menu/menuStation5'
 import Accessibility from '../components/accessibility/accessibility'
 import Loop from '../components/loop'
 
@@ -10,7 +10,7 @@ function MicrowaveTurntable() {
   return (
     <div>
       <div className="btnNav">
-        <Menu />
+        <MenuStation5 />
         <div className="accs">
           <Accessibility text={artifact} />
         </div>

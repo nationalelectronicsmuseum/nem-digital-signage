@@ -18,15 +18,8 @@ function HumanBattery() {
   const data = artifact.filter(x => x.title === "Do you have the power to be an electrical conductor?").pop()
   const dataSpanish = artifactSpanish.filter(x => x.title === "¿Tienes el poder de ser conductor eléctrico?").pop()
 
-  const dataLang = () => {
-    if(lang === "default"){
-      return data
-    } else if (lang === "english") {
-      return data
-    } else if ( lang === "spanish") {
-      return dataSpanish
-    }
-  }
+  const dataArtifact = lang === "default" ? data: lang === "english" ? data : dataSpanish
+  const dataTitle = lang === "default" ? data.title: lang === "english" ? data.title : dataSpanish.title
 
   
   const displayingImage = display.includes("showImageOne") ? display : display.includes("showImageTwo") ? display : "hideImage"
@@ -35,7 +28,7 @@ function HumanBattery() {
   const hideMe = () => {
     setDisplay("hideImage")
   }
-console.log(dataLang())
+  
   return (
     <div>
       <div className={displayingImage} onClick={hideMe}>
@@ -52,11 +45,11 @@ console.log(dataLang())
 
       <div className="sectionhead">
         <div className="sectiontitle">
-          <h1 className="artifactTitle">{lang === "default" ? data.title: lang === "english" ? data.title : dataSpanish.title}</h1>
+          <h1 className="artifactTitle">{dataTitle}</h1>
         </div>
       </div>
       <Loop />
-      <Slides artifact={lang === "default" ? data: lang === "english" ? data : dataSpanish} artifactImg1={image2} artifactImg2={image1}/>
+      <Slides artifact={dataArtifact} artifactImg1={image2} artifactImg2={image1}/>
     </div>
   )
 }

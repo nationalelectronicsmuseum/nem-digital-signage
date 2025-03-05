@@ -58,22 +58,22 @@ export const artifact = [
     info: [
       {
         id: 1,
-        title: "Inventor",
+        title: "Inventor: ",
         text: "Guglielmo Marconi"
       },
       {
         id: 2,
-        title: "Year of Invention",
+        title: "Year of Invention: ",
         text: "1896",
       },
       {
         id: 3,
-        title: "Key Feature",
+        title: "Key Feature: ",
         text: "Magnetic field sensor"
       },
       {
         id: 4,
-        title: "Impact",
+        title: "Impact: ",
         text: "Foundation for modern wireless tech"
       }
     ],
@@ -174,7 +174,7 @@ export const artifact = [
     impact:
       "Faraday's experiment was a crucial step in understanding the relationship between electricity and magnetism. This breakthrough led to the development of generators, which produce the electricity that powers our homes, schools, and gadgets. Without Faraday's discoveries, many of the electronic devices we rely on today might not exist.",
     directions: {
-      title: "",
+      title: "Try this: ",
       steps: [
         {
           id: 1,
@@ -183,14 +183,6 @@ export const artifact = [
         {
           id: 2,
           step: "Watch the meter show the presence of electric current as the magnet slides past the wire coil.",
-        },
-        {
-          id: 3,
-          step: "",
-        },
-        {
-          id: 4,
-          step: "",
         },
       ],
     },
@@ -643,7 +635,7 @@ export const artifact = [
       {
         id: 5,
         title: "Notable Feature: ",
-        text: " Played without physical contact",
+        text: "Played without physical contact",
       },
     ],
     description: ["The Theremin is a unique musical instrument, in that it is played without physical contact.  The player stands in front of the instrument and moves their hands near its two metal antennas.  The volume and pitch are controlled by the distance from the player’s hands from the antennas.  Moving a hand closer to the left plate increases the volume.  Moving the hand closer to the right plate increases the pitch.  The player’s hands act as the grounded plate of a variable capacitor.", "", "", ""],
@@ -995,27 +987,33 @@ export const artifact = [
     info: [
       {
         id: 1,
-        text: "Name: Van de Graaff Generator",
+        title: "Name: ",
+        text: "Van de Graaff Generator",
       },
       {
         id: 2,
-        text: "Inventor: Robert J. Van de Graaff",
+        title: "Inventor: ",
+        text: "Robert J. Van de Graaff",
       },
       {
         id: 3,
-        text: "Year: 1929",
+        title: "Year: ",
+        text: "1929",
       },
       {
         id: 4,
-        text: "Purpose: Demonstrating static electricity",
+        title: "Purpose: ",
+        text: "Demonstrating static electricity",
       },
       {
         id: 5,
-        text: "Fun Fact: The biggest Van de Graaff generator can make lightning-like sparks over 20 feet long",
+        title: "Fun Fact: ",
+        text: "The biggest Van de Graaff generator can make lightning-like sparks over 20 feet long",
       },
       {
         id: 6,
-        text: "Impact: Helped in nuclear research and understanding atomic structures.",
+        title: "Impact: ",
+        text: "Helped in nuclear research and understanding atomic structures.",
       },
     ],
     description: [

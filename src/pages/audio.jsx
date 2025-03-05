@@ -4,6 +4,7 @@ import { Context, ContextImage } from "../assets/accessibilityContext.js";
 import MenuStation3 from "../components/menu/menuStation3";
 import Slides from "../components/slides/slides.jsx";
 import Accessibility from '../components/accessibility/accessibility.jsx';
+import { artifactSpanish } from '../assets/database/artifacts-spanish.js'
 
 import image1 from "../assets/img/audiotrans2.jpg"
 import image2 from "../assets/img/audiotrans3.jpg"
@@ -47,11 +48,17 @@ const Audio = () => {
     },
     how: "An audio translator works by capturing sound waves through a sensitive microphone or diaphragm. These sound waves are then converted into electrical signals. This transformation allows the signals to be amplified, transmitted, and reproduced as sound at a receiving end. Essentially, it converts audible information into electrical impulses for efficient transmission across distances, ensuring that the original sounds remain intact when they reach their destination. ",
   };
+    const dataSpanish = artifactSpanish.filter(x => x.title === "El Traductor de Audi").pop()
+
+    const [lang, setLang] = useContext(Context);
     const [display, setDisplay] = useContext(ContextImage)
     
     const displayingImage = display.includes("showImageOne") ? display : display.includes("showImageTwo") ? display : "hideImage"
     const displayingImages = display.includes("showImageOne") ? image1 : display.includes("showImageTwo") ? image2 : null
   
+    const dataArtifact = lang === "default" ? data: lang === "english" ? data : dataSpanish
+    const dataTitle = lang === "default" ? data.title: lang === "english" ? data.title : dataSpanish.title
+
     const hideMe = () => {
       setDisplay("hideImage")
     }
@@ -70,10 +77,10 @@ const Audio = () => {
       </div>
       <div className="sectionhead">
         <div className="sectiontitle sectionleft">
-          <h1 className="artifactTitle">The Audio Translator</h1>
+          <h1 className="artifactTitle">{dataTitle}</h1>
         </div>
       </div>
-      <Slides artifact={artifact} artifactImg1={image1} artifactImg2={image2}/>
+      <Slides artifact={dataArtifact} artifactImg1={image1} artifactImg2={image2}/>
     </div>
   );
 };
