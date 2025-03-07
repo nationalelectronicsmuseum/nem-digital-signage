@@ -18,11 +18,11 @@ module.exports = {
       { allowConstantExport: true },
     ],
     "react/prop-types": [
-    <enabled>, 
+    <enabled/>, 
       { 
-      ignore: <ignore>, 
-      customValidators: <customValidator>, 
-      skipUndeclared: <skipUndeclared> 
+      ignore: <ignore/>, 
+      customValidators: <customValidator/>, 
+      skipUndeclared: <skipUndeclared/> 
       }]
   },
 }
