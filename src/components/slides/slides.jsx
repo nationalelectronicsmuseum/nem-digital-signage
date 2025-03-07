@@ -8,6 +8,7 @@ import "swiper/css/navigation";
 
 import "./slides.css";
 import Speech from "../speech/speech";
+// import TextToSpeech from "../speech/textToSpeech"
 import { Context, ContextFontSize, ContextListPadding, ContextImage } from "../../assets/accessibilityContext";
 
 const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactImg4 }) => {
@@ -17,8 +18,6 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
 
   // const descriptionText = artifact.description.map((x) => x.step).join(" ");
   const directionsText = artifact.directions.steps.map((x) => x.step).join(" ");
-
-  console.log(artifact.directions.steps)
 
   const synth = window.speechSynthesis;
 
@@ -68,6 +67,7 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
             
               <div className="left description">
                 <Speech text={artifact.description} />
+                {/* <TextToSpeech text={artifact.description} /> */}
                 
 
                 <p style={{ fontSize: `${fontS}` }}>{artifact.description}</p>

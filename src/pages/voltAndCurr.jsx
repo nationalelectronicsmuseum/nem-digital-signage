@@ -42,7 +42,7 @@ export default function VoltAndCurr() {
       </div>
 
       <div className="sectionhead">
-      <audio autoPlay loop src={loop} type="audio/wav"></audio>
+        <audio autoPlay loop src={loop} type="audio/wav"></audio>
         <div className="sectiontitle">
           <h1 className="artifactTitle">{lang === "default" ? data.title: lang === "english" ? data.title : dataSpanish.title}</h1>
         </div>
