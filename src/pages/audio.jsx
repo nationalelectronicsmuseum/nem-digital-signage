@@ -48,6 +48,7 @@ const Audio = () => {
     },
     how: "An audio translator works by capturing sound waves through a sensitive microphone or diaphragm. These sound waves are then converted into electrical signals. This transformation allows the signals to be amplified, transmitted, and reproduced as sound at a receiving end. Essentially, it converts audible information into electrical impulses for efficient transmission across distances, ensuring that the original sounds remain intact when they reach their destination. ",
   };
+
     const dataSpanish = artifactSpanish.filter(x => x.title === "El Traductor de Audi").pop()
 
     const [lang, setLang] = useContext(Context);
@@ -56,8 +57,8 @@ const Audio = () => {
     const displayingImage = display.includes("showImageOne") ? display : display.includes("showImageTwo") ? display : "hideImage"
     const displayingImages = display.includes("showImageOne") ? image1 : display.includes("showImageTwo") ? image2 : null
   
-    const dataArtifact = lang === "default" ? data: lang === "english" ? data : dataSpanish
-    const dataTitle = lang === "default" ? data.title: lang === "english" ? data.title : dataSpanish.title
+    const dataArtifact = lang === "default" ? artifact : lang === "english" ? artifact : dataSpanish
+    const dataTitle = lang === "default" ? artifact.title: lang === "english" ? artifact.title : dataSpanish.title
 
     const hideMe = () => {
       setDisplay("hideImage")
