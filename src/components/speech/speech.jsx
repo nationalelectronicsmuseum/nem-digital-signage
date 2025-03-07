@@ -23,6 +23,8 @@ function Speech({ text, audio }) {
   utter.rate = 1.2;
   utter.volume = 1;
 
+  console.log(utter.lang)
+
   utter.addEventListener("end", (event) => {
     synth.cancel()
     setSpeechText("Play")
