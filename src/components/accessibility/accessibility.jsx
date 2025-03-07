@@ -138,6 +138,7 @@ export function Accessibility() {
     <div>
       <button onClick={showMenu} className={selected}>
       <img src={aIcon} className="aIcon"></img>
+      Accessibility
       </button>
       
       <div className={state}>
