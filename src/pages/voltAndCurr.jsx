@@ -8,8 +8,8 @@ import voltImpact from "../assets/img/volt_impact.jpg"
 import { artifact } from "../assets/database/artifact.js";
 import {artifactSpanish} from "../assets/database/artifacts-spanish.js"
 import ohmslawGif from "../assets/img/ohmslaw.gif";
+import Loop from '../components/loop'
 
-import loop from "../assets/sound/loop.wav"
 
 export default function VoltAndCurr() {
   const [lang, setLang] = useContext(Context);
@@ -48,7 +48,7 @@ export default function VoltAndCurr() {
         </div>
       </div>
 
-      
+      <Loop />
       <Slides artifact={lang === "default" ? data: lang === "english" ? data : dataSpanish} artifactImg1={ohmslawGif} artifactImg2={voltImpact} />
     </div>
   );

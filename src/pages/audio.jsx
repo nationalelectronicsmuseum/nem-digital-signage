@@ -6,6 +6,7 @@ import Slides from "../components/slides/slides.jsx";
 import Accessibility from '../components/accessibility/accessibility.jsx';
 import { artifactSpanish } from '../assets/database/artifacts-spanish.js'
 
+import Loop from '../components/loop'
 import image1 from "../assets/img/audiotrans2.jpg"
 import image2 from "../assets/img/audiotrans3.jpg"
 
@@ -81,6 +82,7 @@ const Audio = () => {
           <h1 className="artifactTitle">{dataTitle}</h1>
         </div>
       </div>
+      <Loop />
       <Slides artifact={dataArtifact} artifactImg1={image1} artifactImg2={image2}/>
     </div>
   );
