@@ -48,7 +48,7 @@ export function Accessibility() {
   }
   const selectSpa = () => {
     setLang("spanish")
-    setLangSpeech("es-US")
+    setLangSpeech("es-MX")
     setColorEng("qpBtn")
     setColorSpa("qpBtn colorSelected")
     synth.cancel();
