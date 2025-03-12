@@ -9,14 +9,32 @@ export default function InProgress() {
   const textDE = "Hallo Welt, ich bin Maria"
 
 
+  const voiceBox = []
+
   const synth = window.speechSynthesis;
+  const obtainVoice = () => { 
+    synth.getVoices().map(x => {
+      if(x.lang === "es-US" | x.lang === "es-US" || x.lang === "de-DE" || x.lang === "fr-FR"){
+        voiceBox.push(x)
+      }
+  })}
+
+  obtainVoice()
+  
   const utterFrench = new SpeechSynthesisUtterance(textFR);
   const utterGerman = new SpeechSynthesisUtterance(textDE);
   const utterSpanish = new SpeechSynthesisUtterance(textES);
 
-  utterSpanish.lang = "es-US"
-  utterGerman.lang = "de-DE"
-  utterFrench.lang = "fr-FR"
+  console.log("obtaining voice", obtainVoice)
+  console.log("voice box", voiceBox)
+
+  utterSpanish.voice = voiceBox[1] 
+  utterGerman.voice = voiceBox[0]
+  utterFrench.voice = voiceBox[2]
+
+  // utterSpanish.lang = "es-US"
+  // utterGerman.lang = "de-DE"
+  // utterFrench.lang = "fr-FR"
 
   const speakFrench = () => {
     synth.speak(utterFrench)
