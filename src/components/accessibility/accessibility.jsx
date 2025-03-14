@@ -29,7 +29,7 @@ export function Accessibility() {
   const [audioControlsOn, setAudioControlsOn] = useState("qpBtn")
   const [audioControlsOff, setAudioControlsOff] = useState("qpBtn colorSelected")
 
-  const [, setspeechPlayer] = useContext(ContextSpeechPlayer);
+  const [speechPlayer, setspeechPlayer] = useContext(ContextSpeechPlayer);
 
   const serifFont = "Times New Roman, Times, serif"
   const sansFont = "Arial, Helvetica, sans-serif"
@@ -42,15 +42,15 @@ export function Accessibility() {
   const selectEng = () => {
     setLang("english")
     setLangSpeech("en-US")
-    setColorEng("qpBtn colorSelected")
-    setColorSpa("qpBtn")
+    // setColorEng("qpBtn colorSelected")
+    // setColorSpa("qpBtn")
     synth.cancel();
   }
   const selectSpa = () => {
     setLang("spanish")
     setLangSpeech("es-MX")
-    setColorEng("qpBtn")
-    setColorSpa("qpBtn colorSelected")
+    // setColorEng("qpBtn")
+    // setColorSpa("qpBtn colorSelected")
     synth.cancel();
   }
   const selectGer = () => {
@@ -108,14 +108,14 @@ export function Accessibility() {
 
   // Setting the audio controls
   const audioControlOn = () => {
-    setAudioControlsOn("qpBtn colorSelected")
-    setAudioControlsOff("qpBtn")
+    // setAudioControlsOn("qpBtn colorSelected")
+    // setAudioControlsOff("qpBtn")
     setspeechPlayer("present");
   }
 
   const audioControlOff = () => {
-    setAudioControlsOn("qpBtn")
-    setAudioControlsOff("qpBtn colorSelected")
+    // setAudioControlsOn("qpBtn")
+    // setAudioControlsOff("qpBtn colorSelected")
     setspeechPlayer("hiddenPlayer");
   }
 
@@ -130,7 +130,9 @@ export function Accessibility() {
     }
   };
   
+  const accLang = () => {
 
+  }
   
   
 
@@ -148,8 +150,8 @@ export function Accessibility() {
           <span className="qpChild">
             <div className="qpSubtitle">Language</div>
             <span className="btnLng">
-              <button className={colorEng} onClick={selectEng}>English</button>
-              <button className={colorSpa} onClick={selectSpa}>Spanish</button>
+              <button className={ lang === "english" ? "qpBtn colorSelected" : "qpBtn"} onClick={selectEng}>English</button>
+              <button className={lang === "spanish" ? "qpBtn colorSelected" : "qpBtn"} onClick={selectSpa}>Spanish</button>
               <button className="qpBtn unavailable" >German</button>
               <button className="qpBtn unavailable" >French</button>
             </span>
@@ -177,8 +179,8 @@ export function Accessibility() {
             <div className="qpSubtitle">Audio Controls</div>
             </span>
             <span>
-              <button className={audioControlsOn} onClick={audioControlOn}>On</button>
-              <button className={audioControlsOff} onClick={audioControlOff}>Off</button>
+              <button className={speechPlayer === "present" ? "qpBtn colorSelected" : "qpBtn"} onClick={audioControlOn}>On</button>
+              <button className={speechPlayer === "hiddenPlayer" ? "qpBtn colorSelected" : "qpBtn"} onClick={audioControlOff}>Off</button>
             </span>
           </span>
         </div>

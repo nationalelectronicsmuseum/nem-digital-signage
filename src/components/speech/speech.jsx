@@ -16,7 +16,7 @@ function Speech({ text, audio }) {
   const [speechPlayer, setspeechPlayer] = useContext(ContextSpeechPlayer);
 
   const synth = window.speechSynthesis;
-  const obtainLang = synth.getVoices()
+  // const obtainLang = synth.getVoices()
   const utter = new SpeechSynthesisUtterance(text);
 
   utter.lang = langSpeech
@@ -24,7 +24,7 @@ function Speech({ text, audio }) {
   utter.rate = 1.2;
   utter.volume = 1;
 
-  console.log("voices", obtainLang)
+  // console.log("voices", obtainLang)
 
   utter.addEventListener("end", (event) => {
     synth.cancel()
