@@ -1,54 +1,50 @@
+.wrapper{
+    display:flex;
+    justify-content: left;
+    align-items: left;
+}
+    
+.button {
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+}
+    
+.menu{
+    cursor: pointer;
+}
+    
+.line {
+    stroke:  black;
+    stroke-linecap: round;
+    stroke-width: 10;
+    transition: all .3s ease;
+}
+.menu.on .line {
+    stroke: orangered;
+}
 
-    
-    .wrapper{
-      /* width: 100vw;
-      height: 100vh; */
-      display:flex;
-      justify-content: left;
-      align-items: left;
-    }
-    
-    .button {
-      background: transparent;
-      border: none;
-      outline: none;
-      padding: 0;
-    }
-    
-    .menu{
-        cursor: pointer;
-    }
-    
-    .line {
-      stroke:  black;
-      stroke-linecap: round;
-      stroke-width: 10;
-      transition: all .3s ease;
-    }
-    .menu.on .line {
-      stroke: orangered;
-    }
-    
-    .menu:hover .line.one{
-      transform: translateY(10px);
-    }
-    
-    .menu:hover .line.three{
-      transform: translateY(-10px);
-    }
-    
-    .menu.on .line.one{
-        transform-origin: 50% 25%;
-      transform: translateY(25px)  rotate(-45deg);
-    }
-    
-    .menu.on .line.two{
-      transform-origin: 50% 50%;
-      transform:  rotate(45deg);
-    }
-    
-    .menu.on .line.three{
-      transform-origin: 50% 75%;
-      transform: translateY(-25px)  rotate(45deg);
-    }
+.menu:hover .line.one{
+    transform: translateY(10px);
+}
+
+.menu:hover .line.three{
+    transform: translateY(-10px);
+}
+
+.menu.on .line.one{
+    transform-origin: 50% 25%;
+    transform: translateY(25px)  rotate(-45deg);
+}
+
+.menu.on .line.two{
+    transform-origin: 50% 50%;
+    transform:  rotate(45deg);
+}
+
+.menu.on .line.three{
+    transform-origin: 50% 75%;
+    transform: translateY(-25px)  rotate(45deg);
+}
     

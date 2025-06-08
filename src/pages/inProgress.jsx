@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Menu from "../components/menu/menu.jsx";
 
 export default function InProgress() {

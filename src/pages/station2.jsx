@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from "react-router-dom";
 
 import homeJacobs from "../assets/img/jacobs2.jpg"

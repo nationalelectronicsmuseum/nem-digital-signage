@@ -1,9 +1,9 @@
-import React, {useContext} from 'react'
+import { useContext } from 'react'
 import { artifact } from '../assets/database/artifact'
 import { artifactSpanish } from '../assets/database/artifacts-spanish.js'
 import Slides from '../components/slides/slides'
-import MenuStation5 from '../components/menu/menuStation5'
-import Accessibility from '../components/accessibility/accessibility'
+import NavStation5 from '../components/nav/navStation5.jsx'
+import StationHeader from "../components/StationHeader/StationHeader.jsx"
 import Loop from '../components/loop'
 import { Context, ContextImage } from "../assets/accessibilityContext.js";
 
@@ -35,12 +35,7 @@ function MicrowaveTurntable() {
         <img src={displayingImages} className="galleryImageOne"/>
       </div>
 
-      <div className="btnNav">
-        <MenuStation5 />
-        <div className="accs">
-          <Accessibility text={artifact} />
-        </div>
-      </div>
+      <StationHeader nav={<NavStation5 />} artifact={artifact} />
 
       <div className="sectionhead">
         <div className="sectiontitle">

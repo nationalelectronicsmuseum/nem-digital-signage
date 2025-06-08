@@ -1,9 +1,9 @@
-import React, { useState, useContext } from "react";
+import { useState, useContext } from "react";
 import "../speech/speech.css";
 import iconPlay from "../../assets/img/icon_play.svg"
 import iconStop from "../../assets/img/icon_stop.svg"
 import iconPause from "../../assets/img/icon_pause.svg"
-import { Context, ContextLangSpeech, ContextSpeechPlayer } from "../../assets/accessibilityContext";
+import { ContextLangSpeech, ContextSpeechPlayer } from "../../assets/accessibilityContext";
 
 function Speech({ text, audio }) {
   const [pause, setPause] = useState(false);
@@ -78,18 +78,6 @@ function Speech({ text, audio }) {
     synth.cancel();
     console.log("Speech stopped");
   };
-
-  // utter.onerror = (event) => {
-  //   speakStop()
-  //   console.log(
-  //     `An error has occurred with the speech synthesis of speakStop: ${event.error}`,
-  //   );
-  // };
-  // utter.onerror = (event) => {
-  //   console.log(
-  //     `An error has occurred with the speech synthesis of speakStart: ${event.error}`,
-  //   );
-  // };
 
   return (
     <div>

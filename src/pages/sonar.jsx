@@ -1,4 +1,3 @@
-import React from 'react'
 import MenuStation6 from '../components/menu/menuStation6'
 import Accessibility from '../components/accessibility/accessibility'
 import Loop from '../components/loop'

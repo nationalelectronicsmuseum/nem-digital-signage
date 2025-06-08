@@ -1,5 +1,5 @@
-import React, { useState, useContext } from "react";
-import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import { useState, useContext } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
 
 import { ContextImage } from "../../assets/accessibilityContext";
@@ -22,10 +22,6 @@ import audio3 from "../../assets/sound/03C.mp3"
 import audioImg1 from "../../assets/img/audioPic1.jpg"
 import audioImg2 from "../../assets/img/audioPic2.jfif"
 import audioImg3 from "../../assets/img/audioPic3.jpg"
-
-// import iconPlay from "../../assets/img/icon_play.svg"
-// import iconStop from "../../assets/img/icon_stop.svg"
-// import iconPause from "../../assets/img/icon_pause.svg"
 
 import "./slides.css";
 

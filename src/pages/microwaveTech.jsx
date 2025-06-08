@@ -1,4 +1,3 @@
-import React from 'react'
 import { artifact } from '../assets/database/artifact'
 import Slides from '../components/slides/slides'
 import Menu from '../components/menu/menu'

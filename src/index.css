@@ -17,11 +17,6 @@
   box-sizing: border-box;
 }
 
-/* * {
-  box-sizing: border-box;
-  border: 1px solid black;
-} */
-
 body {
   margin: 0;
   display: flex;
@@ -131,8 +126,6 @@ body {
   display: flex;
   flex-direction: row;
   z-index: 4;
-  /* max-width: 1280px; 
-  max-height: 860px;  */
   width: 1600px;
   height: auto;
   position: absolute; 
@@ -176,7 +169,6 @@ body {
 
 /* From Uiverse.io by Voxybuns */ 
 .hamTitles button {
-  /* Variables */
   --button_radius: 0.75em;
   --button_color: #e8e8e8;
   --button_outline_color: #000000;
@@ -281,7 +273,6 @@ body {
 }
 
 .sectionhead {
-  /* border:1px solid black; */
   width: 100%;
   height: auto;
   display:flex;
@@ -289,7 +280,6 @@ body {
   z-index: 7;
 }
 .emhead {
-  /* border:1px solid black; */
   width: 100%;
   height: auto;
   display:flex;
@@ -321,7 +311,6 @@ body {
   align-items: center;
   height: 8vh;
   width: 100%;
-  /* border: solid black 1px; */
 }
 
 .speechToggle {
@@ -394,7 +383,6 @@ input:checked + span:before {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* overflow: hidden; */
 }
 
 .stationPages {

@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import { useContext } from 'react'
 import audioSnippet from "../../assets/img/audioSnip.svg"
 import { ContextLangSpeech } from "../../assets/accessibilityContext";
 

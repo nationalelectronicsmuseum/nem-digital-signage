@@ -1,9 +1,8 @@
-import React, { useState, useContext } from "react";
+import { useState, useContext } from "react";
 import "../speech/speech.css";
 import iconPlay from "../../assets/img/icon_play.svg"
 import iconStop from "../../assets/img/icon_stop.svg"
-import iconPause from "../../assets/img/icon_pause.svg"
-import { Context, ContextLangSpeech, ContextSpeechPlayer } from "../../assets/accessibilityContext";
+import { ContextLangSpeech, ContextSpeechPlayer } from "../../assets/accessibilityContext";
 
 function textToSpeech({ text, audio }) {
   const [pause, setPause] = useState(false);
@@ -23,29 +22,6 @@ function textToSpeech({ text, audio }) {
   utter.pitch = 1.1;
   utter.rate = 1.5;
   utter.volume = 1;
-
-//   const speakControl = () => {
-
-//     //Starts speech
-//     if (speechText === "Play") {
-//       setSpeechText("Pause")
-//       speakStart();
-//       console.log("Speech starting");
-//       //pauses speech
-//     }
-//     if ( speechText === "Pause") {
-//       setSpeechText("Resume")
-//       speakPause();
-//       console.log("Speech paused");
-//     }
-
-//       //resumes speech
-//     if (speechText === "Resume") {
-//       setSpeechText("Pause")
-//       speakResume();
-//       console.log("Speech resuming");
-//     }
-//   };
   
   const speakStart = () => {
     synth.cancel();

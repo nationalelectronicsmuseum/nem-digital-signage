@@ -1,11 +1,11 @@
-import React, {useContext} from 'react'
+import {useContext} from 'react'
 import Slides from '../components/slides/slides'
 import { artifact } from '../assets/database/artifact'
 import { artifactSpanish } from '../assets/database/artifacts-spanish.js'
-import MenuStation1 from '../components/menu/menuStation1'
-import Accessibility from '../components/accessibility/accessibility'
+import NavStation1 from '../components/nav/navStation1.jsx'
 import Loop from '../components/loop'
 import { Context, ContextImage } from "../assets/accessibilityContext.js";
+import StationHeader from "../components/StationHeader/StationHeader.jsx";
 
 import image1 from "../assets/img/humanBatt1.png"
 import image2 from "../assets/img/humanBatt2.gif"
@@ -36,12 +36,7 @@ function HumanBattery() {
         <img src={displayingImages} className="galleryImageOne"/>
       </div>
 
-      <div className="btnNav">
-        <MenuStation1 />
-        <div className="accs">
-          <Accessibility text={artifact} />
-        </div>
-      </div>
+      <StationHeader nav={<NavStation1 />} artifact={artifact} />
 
       <div className="sectionhead">
         <div className="sectiontitle">

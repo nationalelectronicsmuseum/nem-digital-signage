@@ -1,8 +1,7 @@
-import React from "react";
 import Slides from "../components/slides/slides";
-import MenuStation7 from "../components/menu/menuStation7";
+import NavStation7 from "../components/nav/navStation7";
 import { artifact } from "../assets/database/artifact";
-import Accessibility from '../components/accessibility/accessibility'
+import StationHeader from "../components/StationHeader/StationHeader"
 import Loop from '../components/loop'
 
 function Polarization() {
@@ -10,12 +9,7 @@ function Polarization() {
 
   return (
     <>
-      <div className="btnNav">
-        <MenuStation7 />
-        <div className="accs">
-          <Accessibility text={artifact} />
-        </div>
-      </div>
+      <StationHeader nav={<NavStation7 />} artifact={artifact} />
 
       <div className="sectionhead">
         <div className="sectiontitle">

@@ -1,9 +1,8 @@
-import React from 'react'
 import Slides from '../components/slides/slides'
-import MenuStation2 from '../components/menu/menuStation2'
-import Accessibility from '../components/accessibility/accessibility'
+import NavStation2 from '../components/nav/navStation2.jsx'
 import Loop from '../components/loop'
 import { artifact } from '../assets/database/artifact'
+import StationHeader from '../components/StationHeader/StationHeader.jsx'
 
 export default function Turbine() {
 
@@ -11,12 +10,7 @@ export default function Turbine() {
 
   return (
     <div>
-      <div className="btnNav">
-        <MenuStation2 />
-        <div className="accs">
-          <Accessibility text={artifact} />
-        </div>
-      </div>
+      <StationHeader nav={<NavStation2 />} artifact={artifact} />
 
       <div className="sectionhead">
         <div className="sectiontitle">

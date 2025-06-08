@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import "./nav.css";
 
@@ -24,9 +23,6 @@ const NavStation2 = () => {
         <Link to="/vandegraaff" relative="path" className="nav-links" onClick={cancelSpeech}>
             Van de Graaff Generator
         </Link>
-        {/* <Link to="/manual-turbine" relative="path" className="nav-links" onClick={cancelSpeech}>
-            Manual Turbine
-        </Link> */}
         <Link to="/" relative="path" className="nav-links" onClick={cancelSpeech}>
           <h6 className="white">Hub Station</h6>
         </Link>

@@ -1,14 +1,13 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import Slides from "../components/slides/slides.jsx";
-import MenuStation1 from "../components/menu/menuStation1.jsx";
-import Accessibility from "../components/accessibility/accessibility.jsx";
+import NavStation1 from "../components/nav/navStation1.jsx";
 import { Context, ContextImage } from "../assets/accessibilityContext.js";
-// import voltCurrImage from "../assets/img/voltcurr.png";
 import voltImpact from "../assets/img/volt_impact.jpg"
 import { artifact } from "../assets/database/artifact.js";
 import {artifactSpanish} from "../assets/database/artifacts-spanish.js"
 import ohmslawGif from "../assets/img/ohmslaw.gif";
 import Loop from '../components/loop'
+import StationHeader from "../components/StationHeader/StationHeader.jsx";
 
 
 export default function VoltAndCurr() {
@@ -34,12 +33,7 @@ export default function VoltAndCurr() {
         <img src={displayingImages} className="galleryImageOne"/>
       </div>
       
-      <div className="btnNav">
-        <MenuStation1 />
-        <div className="accs">
-          <Accessibility text={artifact} />
-        </div>
-      </div>
+      <StationHeader nav={<NavStation1 />} artifact={artifact} />
 
       <div className="sectionhead">
         <div className="sectiontitle">

@@ -1,4 +1,3 @@
-import React from 'react'
 import Slides from '../components/slides/slides'
 import Menu from '../components/menu/menu'
 import Accessibility from '../components/accessibility/accessibility'

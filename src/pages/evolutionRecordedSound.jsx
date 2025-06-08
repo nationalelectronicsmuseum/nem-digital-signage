@@ -1,10 +1,10 @@
-import React, {useContext} from 'react'
-import MenuStation3 from '../components/menu/menuStation3'
+import {useContext} from 'react'
+import NavStation3 from '../components/nav/navStation3.jsx'
 import { ContextImage } from "../assets/accessibilityContext.js";
 import Loop from '../components/loop'
-import Accessibility from '../components/accessibility/accessibility'
 import SlidesAudio from '../components/slides/slidesAudio'
-
+import StationHeader from '../components/StationHeader/StationHeader.jsx';
+import { artifact } from "../assets/database/artifact.js";
 
 function EvolutionRecordedSound() {
 //   const data = artifact.filter(x => x.title === "Faraday's Experiment: Electricity and Magnetism")
@@ -26,11 +26,7 @@ function EvolutionRecordedSound() {
         <div className="backgroundImage"></div>
         <img src={displayingImages} className="galleryImageOne" />
       </div>
-      <div className="btnNav">
-        <MenuStation3 />
-        <div className="accs">
-        </div>
-      </div>
+      <StationHeader nav={<NavStation3 />} artifact={artifact} />
 
       <div className="sectionhead">
         <div className="sectiontitle">

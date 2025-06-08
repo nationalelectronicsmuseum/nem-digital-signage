@@ -1,5 +1,5 @@
-import React, { useState, useContext } from "react";
-import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import { useContext } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
 
 import "swiper/css";
@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 
 import "./slides.css";
 import Speech from "../speech/speech";
-import { Context, ContextFontSize, ContextListPadding, ContextImage } from "../../assets/accessibilityContext";
+import { ContextFontSize, ContextListPadding, ContextImage } from "../../assets/accessibilityContext";
 
 const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactImg4 }) => {
   const [fontS, setFontS] = useContext(ContextFontSize);

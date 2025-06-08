@@ -1,11 +1,11 @@
-import React, {useContext} from 'react'
-import Accessibility from "../components/accessibility/accessibility.jsx";
+import { useContext } from 'react'
 import { Context, ContextImage } from "../assets/accessibilityContext.js";
 import { artifact } from '../assets/database/artifact'
 import { artifactSpanish } from "../assets/database/artifacts-spanish.js"
-import MenuStation1 from '../components/menu/menuStation1'
+import NavStation1 from '../components/nav/navStation1.jsx';
 import Slides from '../components/slides/slides'
 import Loop from '../components/loop.jsx';
+import StationHeader from "../components/StationHeader/StationHeader.jsx";
 
 import image1 from "../assets/img/oersted1.jpg"
 import image2 from "../assets/img/oersted2.jpg"
@@ -33,12 +33,7 @@ function Oersted() {
         <img src={displayingImages} className="galleryImageOne"/>
       </div>
 
-      <div className="btnNav">
-        <MenuStation1 />
-        <div className="accs">
-          <Accessibility text={artifact} />
-        </div>
-      </div>
+      <StationHeader nav={<NavStation1 />} artifact={artifact} />
 
       <div className="sectionhead">
         <div className="sectiontitle">

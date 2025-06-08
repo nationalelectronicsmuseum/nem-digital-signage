@@ -1,10 +1,9 @@
-import React, {useContext} from "react";
-import artifactImg from "../assets/img/home-audio.svg";
+import {useContext} from "react";
 import { Context, ContextImage } from "../assets/accessibilityContext.js";
-import MenuStation3 from "../components/menu/menuStation3";
+import NavStation3 from "../components/nav/navStation3.jsx";
 import Slides from "../components/slides/slides.jsx";
-import Accessibility from '../components/accessibility/accessibility.jsx';
 import { artifactSpanish } from '../assets/database/artifacts-spanish.js'
+import StationHeader from "../components/StationHeader/StationHeader.jsx"
 
 import Loop from '../components/loop'
 import image1 from "../assets/img/audiotrans2.jpg"
@@ -71,12 +70,7 @@ const Audio = () => {
         <div className="backgroundImage"></div>
           <img src={displayingImages} className="galleryImageOne"/>
       </div>
-      <div className="btnNav">
-        <MenuStation3 />
-        <div className="accs">
-          <Accessibility text={artifact} />
-        </div>
-      </div>
+      <StationHeader nav={<NavStation3 />} artifact={artifact} />
       <div className="sectionhead">
         <div className="sectiontitle sectionleft">
           <h1 className="artifactTitle">{dataTitle}</h1>

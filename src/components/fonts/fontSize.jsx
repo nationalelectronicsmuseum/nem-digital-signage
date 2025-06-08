@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './fontSize.css'
 import Speech from '../speech/speech'
 

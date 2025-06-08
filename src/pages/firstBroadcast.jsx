@@ -1,9 +1,8 @@
-import React from 'react'
-import MenuStation6 from '../components/menu/menuStation6'
-import Accessibility from '../components/accessibility/accessibility'
+import NavStation6 from '../components/nav/navStation6.jsx'
 import Loop from '../components/loop'
 import Slides from '../components/slides/slides'
 import { artifact } from '../assets/database/artifact'
+import StationHeader from '../components/StationHeader/StationHeader.jsx'
 
 
 function FirstBroadcast() {
@@ -11,12 +10,7 @@ function FirstBroadcast() {
 
   return (
     <div>
-      <div className="btnNav">
-        <MenuStation6 />
-        <div className="accs">
-          <Accessibility text={artifact} />
-        </div>
-      </div>
+      <StationHeader nav={<NavStation6 />} artifact={artifact} />
 
       <div className="sectionhead">
         <div className="sectiontitle">

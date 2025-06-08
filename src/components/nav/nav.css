@@ -3,7 +3,6 @@
     position: absolute;
 }
 .nav {
-    /* background: rgb(255,255,255, 0.7); */
     font-size: 48pt;
     font: black;
 }
@@ -12,15 +11,16 @@
     display: flex;
     flex-direction: column;
     
-  }
+}
 
-  .nav-links {
+.nav-links {
     text-decoration: none;
     font: black;
     font-weight: 600;
     font-size: 24pt;
     line-height: 40pt;
-  }
-  .white {
+}
+
+.white {
     opacity: 0;
-  }
+}

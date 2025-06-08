@@ -1,9 +1,4 @@
-import React from 'react'
 import { Link } from "react-router-dom";
-import polarizationImg from "../assets/img/polarization.svg"
-import theraminImg from "../assets/img/ph-theramin.svg"
-import electromagneticImg from "../assets/img/ph-electromagnetic.svg"
-import standin from "../assets/img/logo.jpg"
 
 import homeMarconi from "../assets/img/marconi1.jpg"
 import homeAudio from "../assets/img/audiotrans1.jpg"

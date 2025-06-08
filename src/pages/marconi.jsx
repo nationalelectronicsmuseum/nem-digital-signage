@@ -1,12 +1,12 @@
-import artifactImg from "../assets/img/marconi.svg";
-import React, {useContext} from "react";
+import {useContext} from "react";
 import { Context,ContextImage } from "../assets/accessibilityContext.js";
 import SlidesMarconi from "../components/slides/slidesMarconi.jsx";
-import MenuStation3 from "../components/menu/menuStation3.jsx";
+import NavStation3 from "../components/nav/navStation3.jsx";
 import { artifact } from "../assets/database/artifact";
 import { artifactSpanish } from '../assets/database/artifacts-spanish.js'
 import Accessibility from '../components/accessibility/accessibility'
 import Loop from '../components/loop'
+import StationHeader from "../components/StationHeader/StationHeader.jsx";
 
 import image1 from "../assets/img/marconi2.jpg"
 import image2 from "../assets/img/marconi3.jpg"
@@ -36,12 +36,7 @@ const Marconi = () => {
         <div className="backgroundImage"></div>
         <img src={displayingImages} className="galleryImageOne" />
       </div>
-      <div className="btnNav">
-        <MenuStation3 />
-        <div className="accs">
-          <Accessibility text={artifact} />
-        </div>
-      </div>
+      <StationHeader nav={<NavStation3 />} artifact={artifact} />
 
       <div className="sectionhead">
         <div className="sectiontitle">

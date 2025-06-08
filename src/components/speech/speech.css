@@ -1,6 +1,4 @@
 .speech {
-    /* width: 8vh;
-    height: 8vh; */
     margin-right: 1vh;
     cursor: pointer;
 }
@@ -16,7 +14,6 @@
     align-items: center;
     height: 8vh;
     width: 100%;
-    /* border: solid black 1px; */
 }
 
 .speechToggle {

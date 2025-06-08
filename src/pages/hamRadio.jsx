@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Menu from '../components/menu/menu'
 import Accessibility from '../components/accessibility/accessibility'
 import Loop from '../components/loop'
@@ -12,7 +12,6 @@ import ham3 from "../assets/img/ham3.png"
 // import ham5 from "../assets/img/ham5.png"
 import ham6 from "../assets/img/ham6.jpg"
 import ham7 from "../assets/img/ham7.png"
-import Speech from '../components/speech/speech'
 
 
 function HAMRadio() {

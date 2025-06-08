@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import {useContext} from "react";
 import { Context,ContextImage } from "../assets/accessibilityContext.js";
 import Menu from "../components/menu/menu";
 import SlidesTelegraph from '../components/slides/slidesTelegraph';

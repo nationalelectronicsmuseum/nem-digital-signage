@@ -16,8 +16,6 @@
   .swiper-slide {
     text-align: center;
     font-size: 30px;
-    /* background: #fff; */
-    /* Center slide text vertically */
     display: flex;
     justify-content: left;
     align-items: center;
@@ -26,7 +24,6 @@
   .swiper-slide img {
     display: block;
     width: 100%;
-    /* height: 100%; */
     object-fit: contain;
   }
 
@@ -39,12 +36,10 @@
     flex-direction: column;
   }
   .bg {
-    /* background: coral; */
     width: 100%;
     height: 100vh;
     display:flex;
     flex-direction: row;
-    /* overflow: scroll; */
   }
   
   .bg3 {

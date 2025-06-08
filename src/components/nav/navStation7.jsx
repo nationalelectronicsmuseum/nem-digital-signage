@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import "./nav.css"
 
@@ -20,7 +19,6 @@ const NavStation7 = () => {
         <Link to="/polarization" relative="path" className="nav-links" onClick={cancelSpeech}>
         Polarization Experiment
         </Link>
-        
         <Link to="/" relative="path" className="nav-links" onClick={cancelSpeech}>
           <h6 className="white">Hub Station</h6>
         </Link>

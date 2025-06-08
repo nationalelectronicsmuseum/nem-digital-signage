@@ -1,4 +1,3 @@
-import React from 'react'
 import Telegraph from "./telegraph"
 
 export default function Station4() {

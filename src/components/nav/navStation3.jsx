@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from "react-router-dom";
 import "./nav.css";
 
@@ -24,11 +23,6 @@ const NavStation3 = () => {
         <Link to="/evolution-recorded-sound" relative="path" className="nav-links" onClick={cancelSpeech}>
             The Evolution of Recorded Sound
         </Link>
-
-        {/* <Link to="/polarization" relative="path" className="nav-links" onClick={cancelSpeech}>
-            Polarization
-        </Link> */}
-        
         <Link to="/" relative="path" className="nav-links" onClick={cancelSpeech}>
           <h6 className="white">Hub Station</h6>
         </Link>

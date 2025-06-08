@@ -1,9 +1,4 @@
-import React from 'react'
 import { Link } from "react-router-dom";
-import VoltImg from "../assets/img/volt.svg"
-import HumanBattImg from "../assets/img/human-batt.svg"
-import FaradayImg from "../assets/img/faraday.svg"
-import OrstedImg from "../assets/img/orsted.svg"
 
 import homeOersted from "../assets/img/oersted1.jpg"
 import homeBatt from "../assets/img/humanbatt.png"

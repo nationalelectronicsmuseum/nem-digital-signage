@@ -1,11 +1,11 @@
-import React, {useContext} from "react";
+import {useContext} from "react";
 import Slides from "../components/slides/slides";
 import { Context,ContextImage } from "../assets/accessibilityContext.js";
-import MenuStation2 from "../components/menu/menuStation2";
+import NavStation2 from "../components/nav/navStation2.jsx";
 import { artifact } from "../assets/database/artifact";
 import { artifactSpanish } from '../assets/database/artifacts-spanish.js'
-import Accessibility from "../components/accessibility/accessibility";
 import Loop from "../components/loop";
+import StationHeader from "../components/StationHeader/StationHeader.jsx";
 
 import image1 from "../assets/img/jumpingwire1.jpg";
 import image2 from "../assets/img/jumpingwire2.jpg";
@@ -33,12 +33,7 @@ function JumpingWires() {
         <div className="backgroundImage"></div>
         <img src={displayingImages} className="galleryImageOne" />
       </div>
-      <div className="btnNav">
-        <MenuStation2 />
-        <div className="accs">
-          <Accessibility text={artifact} />
-        </div>
-      </div>
+      <StationHeader nav={<NavStation2 />} artifact={artifact} />
 
       <div className="sectionhead">
         <div className="sectiontitle">
