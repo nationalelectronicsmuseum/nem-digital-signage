@@ -30,17 +30,14 @@ function HAMRadio() {
   const toggleOne = () => {
     if (one === "hide") {
       setOne("showImageOne")
-      console.log("toggled show")
     } else {
       setOne("hide")
       synth.cancel()
-      console.log("toggled hide")
     }
   }
   const toggleTwo = () => {
     if (two === "hide") {
       setTwo("showImageTwo")
-      console.log("toggled")
     } else {
       setTwo("hide")
       synth.cancel()
@@ -49,7 +46,6 @@ function HAMRadio() {
   const toggleThree = () => {
     if (three === "hide") {
       setThree("showImageThree")
-      console.log("toggled")
     } else {
       setThree("hide")
       synth.cancel()
@@ -58,7 +54,6 @@ function HAMRadio() {
   const toggleFour = () => {
     if (four === "hide") {
       setFour("showImageFour")
-      console.log("toggled")
     } else {
       setFour("hide")
       synth.cancel()
@@ -67,7 +62,6 @@ function HAMRadio() {
   const toggleFive = () => {
     if (five === "hide") {
       setFive("showImageFive")
-      console.log("toggled")
     } else {
       setFive("hide")
       synth.cancel()
@@ -186,14 +180,7 @@ function HAMRadio() {
         <button className="hamBtn" onClick={toggleThree}><h2 >{data.info[2].name}</h2></button>
         <button className="hamBtn" onClick={toggleFour}><h2 >{data.info[3].name}</h2></button>
         <button className="hamBtn" onClick={toggleFive}><h2 >{data.info[4].name}</h2></button>
-        
-        
-        
-        
       </div>
-
-
-
     </div>
   )
 }

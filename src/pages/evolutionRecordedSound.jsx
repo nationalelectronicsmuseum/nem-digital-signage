@@ -1,4 +1,4 @@
-import {useContext} from 'react'
+import { useContext } from 'react'
 import NavStation3 from '../components/nav/navStation3.jsx'
 import { ContextImage } from "../assets/accessibilityContext.js";
 import Loop from '../components/loop'
@@ -7,8 +7,6 @@ import StationHeader from '../components/StationHeader/StationHeader.jsx';
 import { artifact } from "../assets/database/artifact.js";
 
 function EvolutionRecordedSound() {
-//   const data = artifact.filter(x => x.title === "Faraday's Experiment: Electricity and Magnetism")
-  
   const [display, setDisplay] = useContext(ContextImage)
     
   const displayingImage = display.includes("showImageOne") ? display : display.includes("showImageTwo") ? display : "hideImage"

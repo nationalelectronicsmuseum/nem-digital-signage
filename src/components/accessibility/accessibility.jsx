@@ -6,17 +6,11 @@ import aIcon from "../../assets/img/accessibleIcon.svg"
 export function Accessibility() {
   const [state, setState] = useState("hide");
   const [selected, setSelected] = useState("qdbp notselected");
-  const [selectedSize, setSelectedSize] = useState("#a70e20");
 
   const [lang, setLang] = useContext(Context);
   const [fontS, setFontS] = useContext(ContextFontSize);
-  const [fontF, setFontF] = useContext(ContextFontFamily);
   const [langSpeech, setLangSpeech] = useContext(ContextLangSpeech);
   const [listPadding, setListPadding] = useContext(ContextListPadding);
-
-
-  const [colorSpa, setColorSpa] = useState("qpBtn")
-  const [colorEng, setColorEng] = useState("qpBtn colorSelected")
 
   const [colorFontSm, setColorFontSm] = useState("qpBtn")
   const [colorFontDef, setColorFontDef] = useState("qpBtn colorSelected")
@@ -25,9 +19,6 @@ export function Accessibility() {
   const [colorFamilySan, setColorFamilySan] = useState("qpBtn")
   const [colorFamilySerif, setColorFamilySerif] = useState("qpBtn")
   const [colorFamilyDyslex, setColorFamilyDyslex] = useState("qpBtn")
-
-  const [audioControlsOn, setAudioControlsOn] = useState("qpBtn")
-  const [audioControlsOff, setAudioControlsOff] = useState("qpBtn colorSelected")
 
   const [speechPlayer, setspeechPlayer] = useContext(ContextSpeechPlayer);
 
@@ -42,15 +33,11 @@ export function Accessibility() {
   const selectEng = () => {
     setLang("english")
     setLangSpeech("en-US")
-    // setColorEng("qpBtn colorSelected")
-    // setColorSpa("qpBtn")
     synth.cancel();
   }
   const selectSpa = () => {
     setLang("spanish")
     setLangSpeech("es-MX")
-    // setColorEng("qpBtn")
-    // setColorSpa("qpBtn colorSelected")
     synth.cancel();
   }
   const selectGer = () => {
@@ -67,7 +54,6 @@ export function Accessibility() {
     setColorFontSm("qpBtn")
     setColorFontDef("qpBtn colorSelected")
     setColorFontLg("qpBtn")
-    console.log("default font")
   }
   const fontSm = () => {
     setFontS("24pt")
@@ -75,7 +61,6 @@ export function Accessibility() {
     setColorFontSm("qpBtn colorSelected")
     setColorFontDef("qpBtn")
     setColorFontLg("qpBtn")
-    console.log("small font")
   }
   const fontLg = () => {
     setFontS("45pt")
@@ -83,7 +68,6 @@ export function Accessibility() {
     setColorFontSm("qpBtn")
     setColorFontDef("qpBtn")
     setColorFontLg("qpBtn colorSelected")
-    console.log("large font")
   }
 
   // Setting the Font family
@@ -108,19 +92,14 @@ export function Accessibility() {
 
   // Setting the audio controls
   const audioControlOn = () => {
-    // setAudioControlsOn("qpBtn colorSelected")
-    // setAudioControlsOff("qpBtn")
     setspeechPlayer("present");
   }
 
   const audioControlOff = () => {
-    // setAudioControlsOn("qpBtn")
-    // setAudioControlsOff("qpBtn colorSelected")
     setspeechPlayer("hiddenPlayer");
   }
 
   const showMenu = () => {
-    console.log("im clicked");
     if (state === "hide") {
       setState("show");
       setSelected("qdbp selected");
@@ -129,12 +108,6 @@ export function Accessibility() {
       setSelected("qdbp notselected");
     }
   };
-  
-  const accLang = () => {
-
-  }
-  
-  
 
   return (
     <div>

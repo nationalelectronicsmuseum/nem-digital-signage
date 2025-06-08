@@ -20,26 +20,21 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
   const synth = window.speechSynthesis;
 
   const speakStop = () => {
-    console.log("Speech has stopped");
     synth.cancel();
   };
 
   const displayImageOne = () => {
     if(display === "hideImage"){
       setDisplay("showImageOne")
-      console.log("image shown", display)
     } else {
       setDisplay("hideImage")
-      console.log("image hidden", display)
     }
   }
   const displayImageTwo = () => {
     if(display === "hideImage"){
       setDisplay("showImageTwo")
-      console.log("image shown", display)
     } else {
       setDisplay("hideImage")
-      console.log("image hidden", display)
     }
   }
 
@@ -57,19 +52,11 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
         {/* Slide 1 */}
         <SwiperSlide>
           <div className="fg">
-            {/* <h6 className="swipe-mention">
-              <i className="fa-solid fa-angles-left"></i>Swipe
-              <i className="fa-solid fa-angles-right"></i>
-            </h6> */}
             <div className="bg">
             
               <div className="left description">
                 <Speech text={artifact.description} />
-                {/* <TextToSpeech text={artifact.description} /> */}
-                
-
                 <p style={{ fontSize: `${fontS}` }}>{artifact.description}</p>
-
                 <ul>
                   {artifact.info.map((el) => {
                     return (
@@ -104,21 +91,12 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
               <span>
                 <h3>The Impact</h3> <Speech text={artifact.impact} />
               </span>
-              {/* <FontSize text={artifact.impact} /> */}
-
               <p className="description" style={{ fontSize: `${fontS}` }}>
                 {artifact.impact}
               </p>
             </div>
             <div className="right">
               <img onClick={displayImageTwo} style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg2}></img>
-              
-              {/* <h3>{artifact.timeline.title}</h3>
-              {artifact.timeline.dates.map((el)=> {
-                return(
-                  <p key={el.id}>{el.date}</p>
-                )
-              })} */}
             </div>
           </div>
         </SwiperSlide>

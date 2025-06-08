@@ -15,52 +15,40 @@ const SlidesMarconi = ({ artifact, artifactImg1, artifactImg2, artifactImg3, art
   const [listPadding, setListPadding] = useContext(ContextListPadding);
     const [display, setDisplay] = useContext(ContextImage)
 
-  const descriptionText = artifact.description.map((x) => x.step).join(" ");
   const directionsText = artifact.directions.steps.map((x) => x.step).join(" ");
-
-  console.log(descriptionText)
 
   const synth = window.speechSynthesis;
 
   const speakStop = () => {
-    console.log("Speech has stopped");
     synth.cancel();
   };
 
   const displayImageOne = () => {
     if(display === "hideImage"){
       setDisplay("showImageOne")
-      console.log("image shown", display)
     } else {
       setDisplay("hideImage")
-      console.log("image hidden", display)
     }
   }
   const displayImageTwo = () => {
     if(display === "hideImage"){
       setDisplay("showImageTwo")
-      console.log("image shown", display)
     } else {
       setDisplay("hideImage")
-      console.log("image hidden", display)
     }
   }
   const displayImageThree = () => {
     if(display === "hideImage"){
       setDisplay("showImageThree")
-      console.log("image shown", display)
     } else {
       setDisplay("hideImage")
-      console.log("image hidden", display)
     }
   }
   const displayImageFour = () => {
     if(display === "hideImage"){
       setDisplay("showImageFour")
-      console.log("image shown", display)
     } else {
       setDisplay("hideImage")
-      console.log("image hidden", display)
     }
   }
 
@@ -78,10 +66,6 @@ const SlidesMarconi = ({ artifact, artifactImg1, artifactImg2, artifactImg3, art
         {/* Slide 1 */}
         <SwiperSlide>
           <div className="fg">
-            {/* <h6 className="swipe-mention">
-              <i className="fa-solid fa-angles-left"></i>Swipe
-              <i className="fa-solid fa-angles-right"></i>
-            </h6> */}
             <div className="bg">
               <div className="left description">
                 <Speech text={artifact.description} />
@@ -123,7 +107,6 @@ const SlidesMarconi = ({ artifact, artifactImg1, artifactImg2, artifactImg3, art
               <span>
                 <h3>The Impact</h3> <Speech text={artifact.impact} />
               </span>
-              {/* <FontSize text={artifact.impact} /> */}
 
               <p className="description" style={{ fontSize: `${fontS}` }}>
                 {artifact.impact}

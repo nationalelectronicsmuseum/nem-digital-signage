@@ -15,57 +15,41 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
   const [listPadding, setListPadding] = useContext(ContextListPadding);
   const [display, setDisplay] = useContext(ContextImage)
 
-  const descriptionText = artifact.description.map((x) => x.step).join(" ");
-  const directionsText = artifact.directions.steps.map((x) => x.step).join(" ");
-
-  console.log(descriptionText)
-
   const synth = window.speechSynthesis;
 
   const speakStop = () => {
-    console.log("Speech has stopped");
     synth.cancel();
   };
 
   const speechHow = artifact.howGraaff.info.join(" ") + " " + artifact.howGraaff.list.map((x) => x.item + " " + x.description).join(" ")
   const speechTry = artifact.try.title + " " + artifact.try.steps.map((x) => x.name + " " + x.text).join(" ")
-  console.log("Try", speechTry)
-  console.log("How", speechHow)
 
   const displayImageOne = () => {
     if(display === "hideImage"){
       setDisplay("showImageOne")
-      console.log("image shown", display)
     } else {
       setDisplay("hideImage")
-      console.log("image hidden", display)
     }
   }
   const displayImageTwo = () => {
     if(display === "hideImage"){
       setDisplay("showImageTwo")
-      console.log("image shown", display)
     } else {
       setDisplay("hideImage")
-      console.log("image hidden", display)
     }
   }
   const displayImageThree = () => {
     if(display === "hideImage"){
       setDisplay("showImageThree")
-      console.log("image shown", display)
     } else {
       setDisplay("hideImage")
-      console.log("image hidden", display)
     }
   }
   const displayImageFour = () => {
     if(display === "hideImage"){
       setDisplay("showImageFour")
-      console.log("image shown", display)
     } else {
       setDisplay("hideImage")
-      console.log("image hidden", display)
     }
   }
 
@@ -83,10 +67,6 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
         {/* Slide 1 */}
         <SwiperSlide>
           <div className="fg">
-            {/* <h6 className="swipe-mention">
-              <i className="fa-solid fa-angles-left"></i>Swipe
-              <i className="fa-solid fa-angles-right"></i>
-            </h6> */}
             <div className="bg">
               <div className="left description">
                 <Speech text={artifact.description} />
@@ -128,7 +108,6 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
               <span>
                 <h3>The Impact</h3> <Speech text={artifact.impact} />
               </span>
-              {/* <FontSize text={artifact.impact} /> */}
 
               <p className="description" style={{ fontSize: `${fontS}` }}>
                 {artifact.impact}
@@ -136,13 +115,6 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
             </div>
             <div className="right">
               <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg2} onClick={displayImageTwo}></img>
-              
-              {/* <h3>{artifact.timeline.title}</h3>
-              {artifact.timeline.dates.map((el)=> {
-                return(
-                  <p key={el.id}>{el.date}</p>
-                )
-              })} */}
             </div>
           </div>
         </SwiperSlide>
@@ -179,7 +151,6 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
         </SwiperSlide>
 
         {/* Slide 4 */}
-        {/* Try this and watch section */}
         <SwiperSlide>
           <div className="bg">
             <div className="left">

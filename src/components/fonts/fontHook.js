@@ -6,10 +6,7 @@ export function fontHook() {
     const increaseSize = () => {
         if(fontPt !== 20) {
             setFontPt(fontPt + 2)
-        } else {
-            
         }
-        console.log(fontPt)
     }
 
     const decreaseSize = () => {
@@ -18,7 +15,6 @@ export function fontHook() {
         } else {
             setFontPt(fontPt - 2)
         }
-        console.log(fontPt)
     }
 
     const font = {

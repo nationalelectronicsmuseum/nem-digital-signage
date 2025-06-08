@@ -36,26 +36,22 @@ const SlidesAudio = () => {
     const playSoundOne = () => {      
     const soundOne = document.getElementById("sound1")
         if(tune === false) {
-            console.log()     
             soundOne.play()
             setTune(true)
         } else {
             soundOne.pause()
             setTune(false)
         }
-        console.log("sound playing")
     }
 
     const playSoundTwo = () => {
         if(tune === false) {
-            console.log()    
             soundTwo.play()
             setTune(true)
         } else {
             soundTwo.pause()
             setTune(false)
         }
-        console.log("sound playing")
     }
     const playSoundThree = () => {
         if(tune === false) { 
@@ -65,11 +61,9 @@ const SlidesAudio = () => {
             soundThree.pause()
             setTune(false)
         }
-        console.log("sound playing")
     }
 
     const stopSound = () => {
-        console.log("stopsound, it hit!")
         soundOne.pause()
         soundOne.currentTime = 0
         soundTwo.pause()
@@ -81,28 +75,22 @@ const SlidesAudio = () => {
     const displayImageOne = () => {
         if(display === "hideImage"){
           setDisplay("showImageOne")
-          console.log("image shown", display)
         } else {
           setDisplay("hideImage")
-          console.log("image hidden", display)
         }
       }
       const displayImageTwo = () => {
         if(display === "hideImage"){
           setDisplay("showImageTwo")
-          console.log("image shown", display)
         } else {
           setDisplay("hideImage")
-          console.log("image hidden", display)
         }
       }
       const displayImageThree = () => {
         if(display === "hideImage"){
           setDisplay("showImageThree")
-          console.log("image shown", display)
         } else {
           setDisplay("hideImage")
-          console.log("image hidden", display)
         }
       }
     return(
@@ -116,8 +104,6 @@ const SlidesAudio = () => {
                 className = "mySwiper"
                 onSlideChange={stopSound}
                 >
-                    
-
                     <SwiperSlide>
                         <div className="audioSlides">
                             <div className="placeholder">

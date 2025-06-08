@@ -7,8 +7,6 @@ import { ContextLangSpeech, ContextSpeechPlayer } from "../../assets/accessibili
 function textToSpeech({ text, audio }) {
   const [pause, setPause] = useState(false);
   const [stop, setStop] = useState(true);
-  const [toggle, setToggle] = useState(false);
-  const [speechBtn, setSpeechBtn] = useState("hidden");
   const [speechText, setSpeechText] = useState("Play")
 
   const [langSpeech, setLangSpeech] = useContext(ContextLangSpeech);
@@ -16,7 +14,6 @@ function textToSpeech({ text, audio }) {
 
   const synth = window.speechSynthesis;
   const utter = new SpeechSynthesisUtterance(text);
-  console.log(synth)
 
   utter.lang = langSpeech
   utter.pitch = 1.1;
@@ -26,8 +23,6 @@ function textToSpeech({ text, audio }) {
   const speakStart = () => {
     synth.cancel();
     synth.speak(utter);
-    console.log("uttered", utter)
-    console.log(synth)
   };
 
   const speakPause = () => {
@@ -43,7 +38,6 @@ function textToSpeech({ text, audio }) {
     setPause(false);
     setSpeechText("Play")
     synth.cancel();
-    console.log("Speech stopped");
   };
 
   return (

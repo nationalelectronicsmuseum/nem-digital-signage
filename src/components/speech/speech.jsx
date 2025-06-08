@@ -8,15 +8,12 @@ import { ContextLangSpeech, ContextSpeechPlayer } from "../../assets/accessibili
 function Speech({ text, audio }) {
   const [pause, setPause] = useState(false);
   const [stop, setStop] = useState(true);
-  const [toggle, setToggle] = useState(false);
-  const [speechBtn, setSpeechBtn] = useState("hidden");
   const [speechText, setSpeechText] = useState("Play")
 
   const [langSpeech, setLangSpeech] = useContext(ContextLangSpeech);
   const [speechPlayer, setspeechPlayer] = useContext(ContextSpeechPlayer);
 
   const synth = window.speechSynthesis;
-  // const obtainLang = synth.getVoices()
   const utter = new SpeechSynthesisUtterance(text);
 
   utter.lang = langSpeech
@@ -24,14 +21,9 @@ function Speech({ text, audio }) {
   utter.rate = 1.2;
   utter.volume = 1;
 
-  // console.log("voices", obtainLang)
-
   utter.addEventListener("end", (event) => {
     synth.cancel()
     setSpeechText("Play")
-    console.log(
-      `Utterance has finished being spoken after ${event.elapsedTime} seconds.`,
-    );
   })
 
   const speakControl = () => {
@@ -40,27 +32,23 @@ function Speech({ text, audio }) {
     if (speechText === "Play") {
       setSpeechText("Pause")
       speakStart();
-      console.log("Speech starting");
       //pauses speech
     }
     if ( speechText === "Pause") {
       setSpeechText("Resume")
       speakPause();
-      console.log("Speech paused");
     }
 
       //resumes speech
     if (speechText === "Resume") {
       setSpeechText("Pause")
       speakResume();
-      console.log("Speech resuming");
     }
   };
   
   const speakStart = () => {
     synth.cancel();
     synth.speak(utter);
-    console.log("uttered")
   };
 
   const speakPause = () => {
@@ -76,7 +64,6 @@ function Speech({ text, audio }) {
     setPause(false);
     setSpeechText("Play")
     synth.cancel();
-    console.log("Speech stopped");
   };
 
   return (

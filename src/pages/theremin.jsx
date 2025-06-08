@@ -1,7 +1,6 @@
 import { useContext } from 'react'
 import NavStation5 from "../components/nav/navStation5.jsx";
 import Slides from "../components/slides/slides";
-import Accessibility from '../components/accessibility/accessibility'
 import Loop from '../components/loop'
 import { artifact } from "../assets/database/artifact";
 import { artifactSpanish } from '../assets/database/artifacts-spanish.js'

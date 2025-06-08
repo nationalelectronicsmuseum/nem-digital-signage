@@ -4,12 +4,11 @@ import NavStation7 from "../components/nav/navStation7.jsx";
 import { artifact } from "../assets/database/artifact";
 import { artifactSpanish } from '../assets/database/artifacts-spanish.js'
 import Loop from '../components/loop'
-import { Context,ContextImage } from "../assets/accessibilityContext.js";
+import { Context } from "../assets/accessibilityContext.js";
 import StationHeader from "../components/StationHeader/StationHeader.jsx";
 
 function Polarization() {
   const [lang, setLang] = useContext(Context);
-  const [display, setDisplay] = useContext(ContextImage)
 
   const data = artifact.filter((x) => x.title === "Introduction to Electromagnetic Waves").pop();
   const dataSpanish = artifactSpanish.filter(x => x.title === "Introducción a las ondas electromagnéticas").pop()

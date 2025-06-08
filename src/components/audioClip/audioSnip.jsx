@@ -17,7 +17,6 @@ export default function audioSnip({text}) {
     const speakStart = () => {
         synth.cancel();
         synth.speak(utter);
-        console.log("uttered")
     };
 
   return (

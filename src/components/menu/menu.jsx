@@ -8,10 +8,8 @@ function Menu() {
 
   const toggleMenu = () => {
     if (open === "") {
-        console.log('before', open)
       setOpen("open");
       setMenuButton("menuBtn on")
-        console.log('after', open)
     } else {
         setOpen("");
         setMenuButton("menuBtn")

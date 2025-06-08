@@ -19,8 +19,6 @@ export default function VoltAndCurr() {
 
   const displayingImage = display.includes("showImageOne") ? display : display.includes("showImageTwo") ? display : "hideImage"
   const displayingImages = display.includes("showImageOne") ? ohmslawGif : display.includes("showImageTwo") ? voltImpact : null
-  // const displayingImageTwo = display.includes("showImageTwo") ? display : "hideImage"
-  console.log(display)
 
   const hideMe = () => {
     setDisplay("hideImage")

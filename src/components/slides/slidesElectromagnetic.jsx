@@ -8,36 +8,30 @@ import "swiper/css/navigation";
 
 import "./slides.css";
 import Speech from "../speech/speech";
-import { ContextFontSize, ContextListPadding, ContextImage } from "../../assets/accessibilityContext";
+import { ContextFontSize, ContextImage } from "../../assets/accessibilityContext";
 
 const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactImg4 }) => {
   const [fontS, setFontS] = useContext(ContextFontSize);
-  const [listPadding, setListPadding] = useContext(ContextListPadding);
   const [display, setDisplay] = useContext(ContextImage)
 
   const synth = window.speechSynthesis;
 
   const speakStop = () => {
-    console.log("Speech has stopped");
     synth.cancel();
   };
 
   const displayImageOne = () => {
     if(display === "hideImage"){
       setDisplay("showImageOne")
-      console.log("image shown", display)
     } else {
       setDisplay("hideImage")
-      console.log("image hidden", display)
     }
   }
   const displayImageTwo = () => {
     if(display === "hideImage"){
       setDisplay("showImageTwo")
-      console.log("image shown", display)
     } else {
       setDisplay("hideImage")
-      console.log("image hidden", display)
     }
   }
 

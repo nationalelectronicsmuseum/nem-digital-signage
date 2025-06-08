@@ -4,7 +4,6 @@ import SlidesMarconi from "../components/slides/slidesMarconi.jsx";
 import NavStation3 from "../components/nav/navStation3.jsx";
 import { artifact } from "../assets/database/artifact";
 import { artifactSpanish } from '../assets/database/artifacts-spanish.js'
-import Accessibility from '../components/accessibility/accessibility'
 import Loop from '../components/loop'
 import StationHeader from "../components/StationHeader/StationHeader.jsx";
 
