@@ -1,11 +1,11 @@
 import {useContext} from "react";
 import { Context,ContextImage } from "../assets/accessibilityContext.js";
-import Menu from "../components/menu/menu";
 import SlidesTelegraph from '../components/slides/slidesTelegraph';
 import { artifact } from "../assets/database/artifact";
 import { artifactSpanish } from '../assets/database/artifacts-spanish.js'
 import Loop from '../components/loop';
-import Accessibility from '../components/accessibility/accessibility';
+import NavStation4 from "../components/nav/navStation4.jsx"
+import StationHeader from "../components/StationHeader/StationHeader.jsx";
 
 import image1 from "../assets/img/telegraph1.jpg"
 import image2 from "../assets/img/telegraph2.png"
@@ -32,12 +32,7 @@ const Telegraph = () => {
         <div className="backgroundImage"></div>
         <img src={displayingImages} className="galleryImageOne" />
       </div>
-      <div className="btnNav">
-        <Menu />
-        <div className="accs">
-          <Accessibility text={artifact} />
-        </div>
-      </div>
+      <StationHeader nav={<NavStation4 />} artifact={dataArtifact} />
 
       <div className="sectionhead">
         <div className="sectiontitle">
