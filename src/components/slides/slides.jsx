@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
+import { useSpeechSynthesis } from '../speech/useSpeechSynthesis';
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -14,14 +15,9 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
   const [fontS, setFontS] = useContext(ContextFontSize);
   const [listPadding, setListPadding] = useContext(ContextListPadding);
   const [display, setDisplay] = useContext(ContextImage)
+  const { voices, status, toggle, stop } = useSpeechSynthesis();
 
   const directionsText = artifact.directions.steps.map((x) => x.step).join(" ");
-
-  const synth = window.speechSynthesis;
-
-  const speakStop = () => {
-    synth.cancel();
-  };
 
   const displayImageOne = () => {
     if(display === "hideImage"){
@@ -47,7 +43,7 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
         navigation={true}
         modules={[Pagination, Navigation]}
         className="mySwiper"
-        onSlideChange={speakStop}
+        onSlideChange={stop}
       >
         {/* Slide 1 */}
         <SwiperSlide>
