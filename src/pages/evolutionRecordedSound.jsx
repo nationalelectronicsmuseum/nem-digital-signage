@@ -8,15 +8,12 @@ import artifact from "../assets/database/artifact.js";
 
 function EvolutionRecordedSound() {
   const [display, setDisplay] = useContext(ContextImage)
-    
   const displayingImage = display.includes("showImageOne") ? display : display.includes("showImageTwo") ? display : "hideImage"
   const displayingImages = display.includes("showImageOne") ? image1 : display.includes("showImageTwo") ? image2 : null
   
   const hideMe = () => {
     setDisplay("hideImage")
   }
-
-  
 
   return (
     <div>
@@ -25,7 +22,6 @@ function EvolutionRecordedSound() {
         <img src={displayingImages} className="galleryImageOne" />
       </div>
       <StationHeader nav={<NavStation3 />} artifact={artifact} />
-
       <div className="sectionhead">
         <div className="sectiontitle">
           <h1 className="artifactTitle">The Evolution of Recorded Sound</h1>

@@ -9,7 +9,6 @@ function EvolutionSound() {
   return (
     <div>
       <StationHeader nav={<NavStation6 />} artifact={artifact} />
-
       <div className="sectionhead">
         <div className="sectiontitle">
           <h1 className="artifactTitle">The Evolution of Sound</h1>
@@ -17,7 +16,6 @@ function EvolutionSound() {
       </div>
       <Loop />
       <Slides artifact={data[0]} />
-    
     </div>
   )
 }

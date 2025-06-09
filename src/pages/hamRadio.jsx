@@ -2,8 +2,9 @@ import { useState } from 'react'
 import Menu from '../components/menu/menu'
 import Accessibility from '../components/accessibility/accessibility'
 import Loop from '../components/loop'
-import artifact from '../assets/database/artifact'
 import AudioSnip from '../components/audioClip/audioSnip'
+import { getLocalizedArtifact } from "../assets/Localization.js";
+import { HAM_RADIO } from "../assets/ArtifactTags.js";
 
 import ham1 from "../assets/img/ham01.png"
 import ham2 from "../assets/img/ham2.png"
@@ -21,9 +22,7 @@ function HAMRadio() {
   const [four, setFour] = useState("hide")
   const [five, setFive] = useState("hide")
 
-
-  const data = artifact.filter(x => x.title === "HAM Radio")[0]
-
+  const artifact = getLocalizedArtifact(HAM_RADIO);
   
   const synth = window.speechSynthesis;
 
@@ -81,8 +80,8 @@ function HAMRadio() {
       <div className={one}>
         <div className="hamBox">
           <div className="infoLeft">
-            <AudioSnip text={data.info[0].description}/>
-            <p>{data.info[0].description}</p>
+            <AudioSnip text={artifact.info[0].description}/>
+            <p>{artifact.info[0].description}</p>
             <div className="audioSnipBox">
               <AudioSnip text={"Image: A desk with computers, mouse, keyboard, HAM radio, and a map."} />
               <h5>Image: A desk with computers, mouse, keyboard, HAM radio, and a map.</h5>
@@ -98,8 +97,8 @@ function HAMRadio() {
       <div className={two}>
       <div className="hamBox">
           <div className="infoLeft">
-            <AudioSnip text={data.info[1].description}/>
-            <p>{data.info[1].description}</p>
+            <AudioSnip text={artifact.info[1].description}/>
+            <p>{artifact.info[1].description}</p>
             
             <div className="audioSnipBox">
               <AudioSnip text={"Image: A child operating the HAM radio."} />
@@ -117,8 +116,8 @@ function HAMRadio() {
       <div className={three}>
       <div className="hamBox">
           <div className="infoLeft">
-          <AudioSnip text={data.info[2].description}/>
-            <p>{data.info[2].description}</p>
+          <AudioSnip text={artifact.info[2].description}/>
+            <p>{artifact.info[2].description}</p>
             <div className="audioSnipBox">
               <AudioSnip text={"Image: Showing an example of the End Fed."} />
               <h5>Image: Showing an example of the End Fed.</h5>
@@ -134,8 +133,8 @@ function HAMRadio() {
       <div className={four}>
       <div className="hamBox">
           <div className="infoLeft">
-            <AudioSnip text={data.info[3].description}/>
-            <p>{data.info[3].description}</p>
+            <AudioSnip text={artifact.info[3].description}/>
+            <p>{artifact.info[3].description}</p>
             
             <div className="audioSnipBox">
               <AudioSnip text={"Image: ARRL Field Day, an annual emergency preparedness event."} /> 
@@ -153,8 +152,8 @@ function HAMRadio() {
       <div className="backgroundImage" onClick={toggleFive}></div>
       <div className="hamBox">
           <div className="infoLeft">
-            <AudioSnip text={data.info[4].description}/>
-            <p>{data.info[4].description}</p>
+            <AudioSnip text={artifact.info[4].description}/>
+            <p>{artifact.info[4].description}</p>
             
             <div className="audioSnipBox">
             <AudioSnip text={"Scan QR Code to join FB group or explore the website."} /> 
@@ -175,11 +174,11 @@ function HAMRadio() {
       <Loop />
 
       <div className="hamTitles">
-        <button className="hamBtn" onClick={toggleOne}><h2>{data.info[0].name}</h2></button>
-        <button className="hamBtn" onClick={toggleTwo}><h2>{data.info[1].name}</h2></button>
-        <button className="hamBtn" onClick={toggleThree}><h2 >{data.info[2].name}</h2></button>
-        <button className="hamBtn" onClick={toggleFour}><h2 >{data.info[3].name}</h2></button>
-        <button className="hamBtn" onClick={toggleFive}><h2 >{data.info[4].name}</h2></button>
+        <button className="hamBtn" onClick={toggleOne}><h2>{artifact.info[0].name}</h2></button>
+        <button className="hamBtn" onClick={toggleTwo}><h2>{artifact.info[1].name}</h2></button>
+        <button className="hamBtn" onClick={toggleThree}><h2 >{artifact.info[2].name}</h2></button>
+        <button className="hamBtn" onClick={toggleFour}><h2 >{artifact.info[3].name}</h2></button>
+        <button className="hamBtn" onClick={toggleFive}><h2 >{artifact.info[4].name}</h2></button>
       </div>
     </div>
   )

@@ -1,26 +1,18 @@
 import { useContext } from 'react'
-import artifact from '../assets/database/artifact'
-import artifactSpanish from '../assets/database/artifact-spanish.js'
 import Slides from '../components/slides/slides'
 import NavStation5 from '../components/nav/navStation5.jsx'
 import StationHeader from "../components/StationHeader/StationHeader.jsx"
 import Loop from '../components/loop'
-import { Context, ContextImage } from "../assets/accessibilityContext.js";
+import { ContextImage } from "../assets/accessibilityContext.js";
+import { getLocalizedArtifact } from "../assets/Localization.js";
+import { WHY_DO_MICROWAVES_HAVE_TURNTABLES } from "../assets/ArtifactTags.js";
 
 import image1 from "../assets/img/microwave1.svg"
 import image2 from "../assets/img/microwave2.svg"
 
 function MicrowaveTurntable() {
-  const [lang, setLang] = useContext(Context);
   const [display, setDisplay] = useContext(ContextImage)
-
-    
-  const data = artifact.filter(x => x.title === "Why do Microwaves Have Turntables?").pop()
-  const dataSpanish = artifactSpanish.filter(x => x.title === "¿Por qué las microondas tienen plataformas giratorias?").pop()
-
-  const dataArtifact = lang === "default" ? data: lang === "english" ? data : dataSpanish
-  const dataTitle = lang === "default" ? data.title: lang === "english" ? data.title : dataSpanish.title
-
+  const artifact = getLocalizedArtifact(WHY_DO_MICROWAVES_HAVE_TURNTABLES);
   const displayingImage = display.includes("showImageOne") ? display : display.includes("showImageTwo") ? display : "hideImage"
   const displayingImages = display.includes("showImageOne") ? image1 : display.includes("showImageTwo") ? image2 : null
 
@@ -34,16 +26,14 @@ function MicrowaveTurntable() {
       <div className="backgroundImage"></div>
         <img src={displayingImages} className="galleryImageOne"/>
       </div>
-
       <StationHeader nav={<NavStation5 />} artifact={artifact} />
-
       <div className="sectionhead">
         <div className="sectiontitle">
-          <h1 className="artifactTitle">{dataTitle}</h1>
+          <h1 className="artifactTitle">{artifact.title}</h1>
         </div>
       </div>
       <Loop />
-      <Slides artifact={dataArtifact} artifactImg1={image1} artifactImg2={image2} />
+      <Slides artifact={artifact} artifactImg1={image1} artifactImg2={image2} />
     </div>
   )
 }

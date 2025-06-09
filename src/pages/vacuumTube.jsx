@@ -2,11 +2,11 @@ import Slides from '../components/slides/slides'
 import Menu from '../components/menu/menu'
 import Accessibility from '../components/accessibility/accessibility'
 import Loop from '../components/loop'
-import artifact from '../assets/database/artifact'
+import { getLocalizedArtifact } from "../assets/Localization.js";
+import { VACUUM_TUBE } from "../assets/ArtifactTags.js";
 
 function VacuumTube() {
-
-  const data = artifact.filter((x) => x.title === "Vacuum Tube");
+  const artifact = getLocalizedArtifact(VACUUM_TUBE);
 
   return (
     <div>
@@ -16,14 +16,13 @@ function VacuumTube() {
           <Accessibility text={artifact} />
         </div>
       </div>
-
       <div className="sectionhead">
         <div className="sectiontitle">
-          <h1 className="artifactTitle">Vacuum Tube</h1>
+          <h1 className="artifactTitle">{artifact.title}</h1>
         </div>
       </div>
       <Loop />
-      <Slides artifact={data[0]} />
+      <Slides artifact={artifact} />
     </div>
   )
 }

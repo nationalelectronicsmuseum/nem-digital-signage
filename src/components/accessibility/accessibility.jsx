@@ -1,16 +1,17 @@
 import { useState, useContext } from "react";
-import { Context, ContextFontSize, ContextFontFamily, ContextLangSpeech, ContextListPadding, ContextSpeechPlayer } from "../../assets/accessibilityContext.js";
+import { Context, ContextFontSize, ContextLangSpeech, ContextListPadding, ContextSpeechPlayer } from "../../assets/accessibilityContext.js";
 import "./accessibility.css";
 import aIcon from "../../assets/img/accessibleIcon.svg"
+import { LANGUAGE_ENGLISH, LANGUAGE_SPANISH, LANGUAGE_GERMAN, LANGUAGE_FRENCH } from "../../assets/Constants.js";
 
 export function Accessibility() {
   const [state, setState] = useState("hide");
   const [selected, setSelected] = useState("qdbp notselected");
 
   const [lang, setLang] = useContext(Context);
-  const [fontS, setFontS] = useContext(ContextFontSize);
-  const [langSpeech, setLangSpeech] = useContext(ContextLangSpeech);
-  const [listPadding, setListPadding] = useContext(ContextListPadding);
+  const [, setFontS] = useContext(ContextFontSize);
+  const [, setLangSpeech] = useContext(ContextLangSpeech);
+  const [, setListPadding] = useContext(ContextListPadding);
 
   const [colorFontSm, setColorFontSm] = useState("qpBtn")
   const [colorFontDef, setColorFontDef] = useState("qpBtn colorSelected")
@@ -31,20 +32,24 @@ export function Accessibility() {
   const synth = window.speechSynthesis;
 
   const selectEng = () => {
-    setLang("english")
+    setLang(LANGUAGE_ENGLISH)
     setLangSpeech("en-US")
     synth.cancel();
   }
   const selectSpa = () => {
-    setLang("spanish")
+    setLang(LANGUAGE_SPANISH)
     setLangSpeech("es-MX")
     synth.cancel();
   }
   const selectGer = () => {
-    setLang("german")
+    setLang(LANGUAGE_GERMAN)
+    setLangSpeech("de-DE")
+    synth.cancel();
   }
   const selectFre = () => {
-    setLang("french")
+    setLang(LANGUAGE_FRENCH)
+    setLangSpeech("fr-FR")
+    synth.cancel();
   }
 
   // Setting the Font Size
@@ -123,10 +128,10 @@ export function Accessibility() {
           <span className="qpChild">
             <div className="qpSubtitle">Language</div>
             <span className="btnLng">
-              <button className={ lang === "english" ? "qpBtn colorSelected" : "qpBtn"} onClick={selectEng}>English</button>
-              <button className={lang === "spanish" ? "qpBtn colorSelected" : "qpBtn"} onClick={selectSpa}>Spanish</button>
-              <button className="qpBtn unavailable" >German</button>
-              <button className="qpBtn unavailable" >French</button>
+              <button className={ lang === LANGUAGE_ENGLISH ? "qpBtn colorSelected" : "qpBtn" } onClick={selectEng}>English</button>
+              <button className={ lang === LANGUAGE_SPANISH ? "qpBtn colorSelected" : "qpBtn" } onClick={selectSpa}>Spanish</button>
+              <button className={ lang === LANGUAGE_GERMAN ? "qpBtn colorSelected" : "qpBtn" } onClick={selectGer}>German</button>
+              <button className={ lang === LANGUAGE_FRENCH ? "qpBtn colorSelected" : "qpBtn" } onClick={selectFre}>French</button>
             </span>
           </span>
           <span className="qpChild">
@@ -162,4 +167,4 @@ export function Accessibility() {
   );
 }
 
-export default Accessibility ;
+export default Accessibility;

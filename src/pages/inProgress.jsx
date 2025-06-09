@@ -5,7 +5,6 @@ export default function InProgress() {
   const textFR = "Bonjour le monde, je m'appelle Maria"
   const textDE = "Hallo Welt, ich bin Maria"
 
-
   const voiceBox = []
 
   const synth = window.speechSynthesis;

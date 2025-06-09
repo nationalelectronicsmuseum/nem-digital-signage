@@ -61,16 +61,19 @@ async def translate_file_for_language(lang_code, output_file, content, cache, st
 
     def replacer(match):
         quote, text = match.groups()
+        after = content[match.end():match.end() + 1]
+        if after == ":":
+            return f"{quote}{text}{quote}"
         if is_email(text) or not text.strip():
             return f"{quote}{text}{quote}"
         h = string_to_hash[text]
         translated = cache.get(h, {}).get("translations", {}).get(lang_code, text)
         escaped = escape_quotes(translated) if quote == '"' else translated
-        # Smart title-case if the key is `title`
         prefix = content[:match.start()]
-        if re.search(r'title"\s*:\s*$', prefix[-20:], re.IGNORECASE):  # look back a few chars
+        if re.search(r'title"\s*:\s*$', prefix[-30:], re.IGNORECASE):
             escaped = titlecase(escaped)
         return f"{quote}{escaped}{quote}"
+
 
 
     translated_content = string_literal_pattern.sub(replacer, content)

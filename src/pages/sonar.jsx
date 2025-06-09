@@ -2,10 +2,11 @@ import MenuStation6 from '../components/menu/menuStation6'
 import Accessibility from '../components/accessibility/accessibility'
 import Loop from '../components/loop'
 import Slides from '../components/slides/slides'
-import artifact from '../assets/database/artifact'
+import { getLocalizedArtifact } from "../assets/Localization.js";
+import { FIRST_BROADCAST } from "../assets/ArtifactTags.js";
 
 function Sonar() {
-    const data = artifact.filter(x => x.title === "First Broadcast")
+    const artifact = getLocalizedArtifact(FIRST_BROADCAST);
 
   return (
     <div>
@@ -34,7 +35,7 @@ function Sonar() {
         </div>
       </div>
       <Loop />
-      <Slides artifact={data[0]} />
+      <Slides artifact={artifact} />
     </div>
   )
 }
