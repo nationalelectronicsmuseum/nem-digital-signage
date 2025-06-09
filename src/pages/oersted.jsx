@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 import { Context, ContextImage } from "../assets/accessibilityContext.js";
-import { artifact } from '../assets/database/artifact'
-import { artifactSpanish } from "../assets/database/artifacts-spanish.js"
+import artifact from '../assets/database/artifact'
+import artifactSpanish from "../assets/database/artifact-spanish.js"
 import NavStation1 from '../components/nav/navStation1.jsx';
 import Slides from '../components/slides/slides'
 import Loop from '../components/loop.jsx';
@@ -16,7 +16,7 @@ function Oersted() {
   const [display, setDisplay] = useContext(ContextImage)
 
   const data = artifact.filter(x => x.title === "Oersted's Experiment").pop()
-  const dataSpanish = artifactSpanish.filter(x => x.title === "El experimento de Oersted").pop()
+  const dataSpanish = artifactSpanish.filter(x => x.title === "Experimento de Oersted").pop()
 
 
   const displayingImage = display.includes("showImageOne") ? display : display.includes("showImageTwo") ? display : "hideImage"

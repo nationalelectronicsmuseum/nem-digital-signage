@@ -2,7 +2,7 @@ import Slides from '../components/slides/slides'
 import Menu from '../components/menu/menu'
 import Accessibility from '../components/accessibility/accessibility'
 import Loop from '../components/loop'
-import { artifact } from '../assets/database/artifact'
+import artifact from '../assets/database/artifact'
 
 function VacuumTube() {
 

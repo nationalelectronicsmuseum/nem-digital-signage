@@ -1,7 +1,7 @@
 import NavStation6 from '../components/nav/navStation6.jsx'
 import Loop from '../components/loop'
 import Slides from '../components/slides/slides'
-import { artifact } from '../assets/database/artifact'
+import artifact from '../assets/database/artifact'
 import StationHeader from '../components/StationHeader/StationHeader.jsx'
 
 

@@ -3,8 +3,8 @@ import Slides from "../components/slides/slides.jsx";
 import NavStation1 from "../components/nav/navStation1.jsx";
 import { Context, ContextImage } from "../assets/accessibilityContext.js";
 import voltImpact from "../assets/img/volt_impact.jpg"
-import { artifact } from "../assets/database/artifact.js";
-import {artifactSpanish} from "../assets/database/artifacts-spanish.js"
+import artifact from "../assets/database/artifact.js";
+import artifactSpanish from "../assets/database/artifact-spanish.js"
 import ohmslawGif from "../assets/img/ohmslaw.gif";
 import Loop from '../components/loop'
 import StationHeader from "../components/StationHeader/StationHeader.jsx";
@@ -15,7 +15,7 @@ export default function VoltAndCurr() {
   const [display, setDisplay] = useContext(ContextImage)
 
   const data = artifact.filter(x => x.title === "Voltage and Current").pop()
-  const dataSpanish = artifactSpanish.filter(x => x.title === "Voltaje y Corriente").pop()
+  const dataSpanish = artifactSpanish.filter(x => x.title === "Voltaje y corriente").pop()
 
   const displayingImage = display.includes("showImageOne") ? display : display.includes("showImageTwo") ? display : "hideImage"
   const displayingImages = display.includes("showImageOne") ? ohmslawGif : display.includes("showImageTwo") ? voltImpact : null

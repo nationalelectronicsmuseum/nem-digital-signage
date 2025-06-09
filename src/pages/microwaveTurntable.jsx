@@ -1,6 +1,6 @@
 import { useContext } from 'react'
-import { artifact } from '../assets/database/artifact'
-import { artifactSpanish } from '../assets/database/artifacts-spanish.js'
+import artifact from '../assets/database/artifact'
+import artifactSpanish from '../assets/database/artifact-spanish.js'
 import Slides from '../components/slides/slides'
 import NavStation5 from '../components/nav/navStation5.jsx'
 import StationHeader from "../components/StationHeader/StationHeader.jsx"
@@ -16,7 +16,7 @@ function MicrowaveTurntable() {
 
     
   const data = artifact.filter(x => x.title === "Why do Microwaves Have Turntables?").pop()
-  const dataSpanish = artifactSpanish.filter(x => x.title === "¿Por qué los Microondas tienen Platos Giratorios?").pop()
+  const dataSpanish = artifactSpanish.filter(x => x.title === "¿Por qué las microondas tienen plataformas giratorias?").pop()
 
   const dataArtifact = lang === "default" ? data: lang === "english" ? data : dataSpanish
   const dataTitle = lang === "default" ? data.title: lang === "english" ? data.title : dataSpanish.title

@@ -1,4 +1,4 @@
-import { artifact } from '../assets/database/artifact'
+import artifact from '../assets/database/artifact'
 import Slides from '../components/slides/slides'
 import Menu from '../components/menu/menu'
 import Accessibility from '../components/accessibility/accessibility'

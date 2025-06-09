@@ -1,8 +1,8 @@
 import {useContext} from 'react'
 import Slides from '../components/slides/slides'
 import { Context,ContextImage } from "../assets/accessibilityContext.js";
-import { artifact } from '../assets/database/artifact'
-import { artifactSpanish } from '../assets/database/artifacts-spanish.js'
+import artifact from '../assets/database/artifact'
+import artifactSpanish from '../assets/database/artifact-spanish.js'
 import NavStation1 from '../components/nav/navStation1.jsx';
 import Loop from '../components/loop'
 import StationHeader from "../components/StationHeader/StationHeader.jsx";
@@ -16,7 +16,7 @@ function Faraday() {
   const [display, setDisplay] = useContext(ContextImage)
 
   const data = artifact.filter(x => x.title === "Faraday's Experiment: Electricity and Magnetism").pop()
-  const dataSpanish = artifactSpanish.filter(x => x.title === "El experimento de Faraday: Electricidad y Magnetis").pop()
+  const dataSpanish = artifactSpanish.filter(x => x.title === "Experimento de Faraday: electricidad y magnetismo").pop()
 
   const dataArtifact = lang === "default" ? data: lang === "english" ? data : dataSpanish
   const dataTitle = lang === "default" ? data.title: lang === "english" ? data.title : dataSpanish.title

@@ -4,7 +4,7 @@ import { ContextImage } from "../assets/accessibilityContext.js";
 import Loop from '../components/loop'
 import SlidesAudio from '../components/slides/slidesAudio'
 import StationHeader from '../components/StationHeader/StationHeader.jsx';
-import { artifact } from "../assets/database/artifact.js";
+import artifact from "../assets/database/artifact.js";
 
 function EvolutionRecordedSound() {
   const [display, setDisplay] = useContext(ContextImage)

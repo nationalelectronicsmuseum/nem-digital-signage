@@ -1,7 +1,7 @@
 import Slides from '../components/slides/slides'
 import NavStation2 from '../components/nav/navStation2.jsx'
 import Loop from '../components/loop'
-import { artifact } from '../assets/database/artifact'
+import artifact from '../assets/database/artifact'
 import StationHeader from '../components/StationHeader/StationHeader.jsx'
 
 export default function Turbine() {

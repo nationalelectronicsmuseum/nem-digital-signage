@@ -1,7 +1,7 @@
 import {useContext} from 'react'
 import Slides from '../components/slides/slides'
-import { artifact } from '../assets/database/artifact'
-import { artifactSpanish } from '../assets/database/artifacts-spanish.js'
+import artifact from '../assets/database/artifact'
+import artifactSpanish from '../assets/database/artifact-spanish.js'
 import NavStation1 from '../components/nav/navStation1.jsx'
 import Loop from '../components/loop'
 import { Context, ContextImage } from "../assets/accessibilityContext.js";
@@ -16,7 +16,7 @@ function HumanBattery() {
   const [display, setDisplay] = useContext(ContextImage)
   
   const data = artifact.filter(x => x.title === "Do you have the power to be an electrical conductor?").pop()
-  const dataSpanish = artifactSpanish.filter(x => x.title === "¿Tienes el poder de ser conductor eléctrico?").pop()
+  const dataSpanish = artifactSpanish.filter(x => x.title === "¿Tienes el poder de ser un conductor eléctrico?").pop()
 
   const dataArtifact = lang === "default" ? data: lang === "english" ? data : dataSpanish
   const dataTitle = lang === "default" ? data.title: lang === "english" ? data.title : dataSpanish.title

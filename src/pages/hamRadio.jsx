@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Menu from '../components/menu/menu'
 import Accessibility from '../components/accessibility/accessibility'
 import Loop from '../components/loop'
-import { artifact } from '../assets/database/artifact'
+import artifact from '../assets/database/artifact'
 import AudioSnip from '../components/audioClip/audioSnip'
 
 import ham1 from "../assets/img/ham01.png"

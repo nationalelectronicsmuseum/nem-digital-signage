@@ -2,8 +2,8 @@ import {useContext} from "react";
 import Slides from "../components/slides/slides";
 import { Context,ContextImage } from "../assets/accessibilityContext.js";
 import NavStation2 from '../components/nav/navStation2.jsx'
-import { artifact } from '../assets/database/artifact'
-import { artifactSpanish } from '../assets/database/artifacts-spanish.js'
+import artifact from '../assets/database/artifact'
+import artifactSpanish from '../assets/database/artifact-spanish.js'
 import Loop from '../components/loop'
 import StationHeader from "../components/StationHeader/StationHeader.jsx";
 
@@ -16,7 +16,7 @@ export default function JacobsLadder() {
   const [display, setDisplay] = useContext(ContextImage)
 
   const data = artifact.filter(x => x.title === "Jacob's Ladder Experiment: Demonstrating Electrical Principles").pop()
-  const dataSpanish = artifactSpanish.filter(x => x.title === "Experimento de la Escalera de Jacob: Demostración de Principios Eléctricos").pop()  
+  const dataSpanish = artifactSpanish.filter(x => x.title === "Experimento de escalera de Jacob: demostrando principios eléctricos").pop()  
   
   const dataArtifact = lang === "default" ? data: lang === "english" ? data : dataSpanish
   const dataTitle = lang === "default" ? data.title: lang === "english" ? data.title : dataSpanish.title

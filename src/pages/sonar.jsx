@@ -2,7 +2,7 @@ import MenuStation6 from '../components/menu/menuStation6'
 import Accessibility from '../components/accessibility/accessibility'
 import Loop from '../components/loop'
 import Slides from '../components/slides/slides'
-import { artifact } from '../assets/database/artifact'
+import artifact from '../assets/database/artifact'
 
 function Sonar() {
     const data = artifact.filter(x => x.title === "First Broadcast")

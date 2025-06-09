@@ -1,8 +1,8 @@
 import {useContext} from "react";
 import { Context,ContextImage } from "../assets/accessibilityContext.js";
 import SlidesTelegraph from '../components/slides/slidesTelegraph';
-import { artifact } from "../assets/database/artifact";
-import { artifactSpanish } from '../assets/database/artifacts-spanish.js'
+import artifact from "../assets/database/artifact";
+import artifactSpanish from '../assets/database/artifact-spanish.js'
 import Loop from '../components/loop';
 import NavStation4 from "../components/nav/navStation4.jsx"
 import StationHeader from "../components/StationHeader/StationHeader.jsx";
@@ -15,7 +15,7 @@ const Telegraph = () => {
   const [display, setDisplay] = useContext(ContextImage)
 
   const data = artifact.filter((x) => x.title === "Telegraph Machine - Connecting the World").pop();
-  const dataSpanish = artifactSpanish.filter(x => x.title === "La Máquina Telegráfica: Conectando el Mundo").pop()
+  const dataSpanish = artifactSpanish.filter(x => x.title === "Telegraph Machine: conectando el mundo").pop()
   
   const dataArtifact = lang === "default" ? data: lang === "english" ? data : dataSpanish
   const dataTitle = lang === "default" ? data.title: lang === "english" ? data.title : dataSpanish.title

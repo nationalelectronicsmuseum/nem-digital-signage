@@ -1,8 +1,8 @@
 import SlidesGraaff from "../components/slides/slidesVanderGraaff"
 import {useContext} from "react";
 import { Context,ContextImage } from "../assets/accessibilityContext.js";
-import { artifact } from '../assets/database/artifact'
-import { artifactSpanish } from '../assets/database/artifacts-spanish.js'
+import artifact from '../assets/database/artifact'
+import artifactSpanish from '../assets/database/artifact-spanish.js'
 import Loop from '../components/loop'
 import StationHeader from "../components/StationHeader/StationHeader.jsx";
 import NavStation2 from "../components/nav/navStation2.jsx";
@@ -17,7 +17,7 @@ function Graaff() {
   const [display, setDisplay] = useContext(ContextImage)
 
   const data = artifact.filter(x => x.title === "The Van de Graaff Generator: Harnessing the Power of Static Electricity").pop()
-  const dataSpanish = artifactSpanish.filter(x => x.title === "El generador Van de Graaff: Aprovechando el Poder de la Electricidad Estática").pop()      
+  const dataSpanish = artifactSpanish.filter(x => x.title === "El generador Van de Graaff: aprovechando la potencia de la electricidad estática").pop()      
   
   const dataArtifact = lang === "default" ? data: lang === "english" ? data : dataSpanish
   const dataTitle = lang === "default" ? data.title: lang === "english" ? data.title : dataSpanish.title

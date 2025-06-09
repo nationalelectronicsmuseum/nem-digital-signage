@@ -2,8 +2,8 @@ import { useContext } from 'react'
 import NavStation5 from "../components/nav/navStation5.jsx";
 import Slides from "../components/slides/slides";
 import Loop from '../components/loop'
-import { artifact } from "../assets/database/artifact";
-import { artifactSpanish } from '../assets/database/artifacts-spanish.js'
+import artifact from "../assets/database/artifact";
+import artifactSpanish from '../assets/database/artifact-spanish.js'
 import { Context, ContextImage } from "../assets/accessibilityContext.js";
 import StationHeader from "../components/StationHeader/StationHeader.jsx"
 
@@ -16,7 +16,7 @@ function Theremin() {
 
 
   const data = artifact.filter((x) => x.title === "Harrison Instruments 302 Theremin").pop();
-  const dataSpanish = artifactSpanish.filter(x => x.title === "Harrison Instruments 302 Theremín").pop()
+  const dataSpanish = artifactSpanish.filter(x => x.title === "Harrison Instruments 302 Theremin").pop()
 
   const dataArtifact = lang === "default" ? data: lang === "english" ? data : dataSpanish
   const dataTitle = lang === "default" ? data.title: lang === "english" ? data.title : dataSpanish.title
