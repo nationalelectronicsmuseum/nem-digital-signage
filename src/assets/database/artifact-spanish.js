@@ -283,7 +283,7 @@ const data = [
     "tag": 4
   },
   {
-    "title": "¿Tienes El Poder De Ser Un Conductor Eléctrico?",
+    "title": "¿Tiene La Potencia De Ser Un Conductor Eléctrico?",
     "info": [
       {
         "id": 1,
@@ -1229,6 +1229,142 @@ const data = [
       "Preste especial atención a nuestras exhibiciones sobre \"ondas electromagnéticas visuales\" y \"ondas de radio electromagnéticas\" para obtener más información sobre estos ejemplos de ondas electromagnéticas."
     ],
     "tag": 23
+  },
+  {
+    "tag": 24,
+    "title": "Sección 1",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Este es un texto de muestra.",
+      "Este es un texto de muestra también."
+    ],
+    "impact": "Texto de muestra de impacto",
+    "directions": {
+      "title": "Cómo Funciona",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Paso 1"
+        },
+        {
+          "id": 2,
+          "step": "Paso 2"
+        },
+        {
+          "id": 3,
+          "step": "Ganancia"
+        }
+      ]
+    },
+    "watch": "Ver texto de muestra",
+    "how": "Cómo muestra el texto"
+  },
+  {
+    "tag": 25,
+    "title": "Sección 2",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Este es un texto de muestra.",
+      "Este es un texto de muestra también."
+    ],
+    "impact": "Texto de muestra de impacto",
+    "directions": {
+      "title": "Cómo Funciona",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Paso 1"
+        },
+        {
+          "id": 2,
+          "step": "Paso 2"
+        },
+        {
+          "id": 3,
+          "step": "Ganancia"
+        }
+      ]
+    },
+    "watch": "Ver texto de muestra",
+    "how": "Cómo muestra el texto"
+  },
+  {
+    "tag": 26,
+    "title": "Sección 3",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Este es un texto de muestra.",
+      "Este es un texto de muestra también."
+    ],
+    "impact": "Texto de muestra de impacto",
+    "directions": {
+      "title": "Cómo Funciona",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Paso 1"
+        },
+        {
+          "id": 2,
+          "step": "Paso 2"
+        },
+        {
+          "id": 3,
+          "step": "Ganancia"
+        }
+      ]
+    },
+    "watch": "Ver texto de muestra",
+    "how": "Cómo muestra el texto"
+  },
+  {
+    "tag": 27,
+    "title": "Sección 4",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Este es un texto de muestra.",
+      "Este es un texto de muestra también."
+    ],
+    "impact": "Texto de muestra de impacto",
+    "directions": {
+      "title": "Cómo Funciona",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Paso 1"
+        },
+        {
+          "id": 2,
+          "step": "Paso 2"
+        },
+        {
+          "id": 3,
+          "step": "Ganancia"
+        }
+      ]
+    },
+    "watch": "Ver texto de muestra",
+    "how": "Cómo muestra el texto"
   }
 ];
 

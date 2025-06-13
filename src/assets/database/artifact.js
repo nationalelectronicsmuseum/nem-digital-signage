@@ -1229,6 +1229,142 @@ const data = [
       "Pay particular attention to our exhibits on “Visual Electromagnetic Waves” and “Electromagnetic Radio Waves” for further insight into these examples of electromagnetic waves."
     ],
     "tag": 23
+  },
+  {
+    "tag": 24,
+    "title": "Section 1",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "This is sample text. ",
+      "This is sample text too."
+    ],
+    "impact": "Impact sample text",
+    "directions": {
+      "title": "How it Works",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Step 1"
+        },
+        {
+          "id": 2,
+          "step": "Step 2"
+        },
+        {
+          "id": 3,
+          "step": "Profit"
+        }
+      ]
+    },
+    "watch": "Watch sample text",
+    "how": "How sample text"
+  },
+  {
+    "tag": 25,
+    "title": "Section 2",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "This is sample text. ",
+      "This is sample text too."
+    ],
+    "impact": "Impact sample text",
+    "directions": {
+      "title": "How it Works",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Step 1"
+        },
+        {
+          "id": 2,
+          "step": "Step 2"
+        },
+        {
+          "id": 3,
+          "step": "Profit"
+        }
+      ]
+    },
+    "watch": "Watch sample text",
+    "how": "How sample text"
+  },
+  {
+    "tag": 26,
+    "title": "Section 3",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "This is sample text. ",
+      "This is sample text too."
+    ],
+    "impact": "Impact sample text",
+    "directions": {
+      "title": "How it Works",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Step 1"
+        },
+        {
+          "id": 2,
+          "step": "Step 2"
+        },
+        {
+          "id": 3,
+          "step": "Profit"
+        }
+      ]
+    },
+    "watch": "Watch sample text",
+    "how": "How sample text"
+  },
+  {
+    "tag": 27,
+    "title": "Section 4",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "This is sample text. ",
+      "This is sample text too."
+    ],
+    "impact": "Impact sample text",
+    "directions": {
+      "title": "How it Works",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Step 1"
+        },
+        {
+          "id": 2,
+          "step": "Step 2"
+        },
+        {
+          "id": 3,
+          "step": "Profit"
+        }
+      ]
+    },
+    "watch": "Watch sample text",
+    "how": "How sample text"
   }
 ];
 

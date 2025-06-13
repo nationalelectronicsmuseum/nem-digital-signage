@@ -44,7 +44,7 @@ const data = [
       }
     ],
     "description": [
-      "Spannung ist wie der elektrische Druck. Ein Strom ist ein Strom der elektrischen Ladung. Es ist am besten, sich so so vorzustellen: Spannung verursacht einen elektrischen Strom, genau wie der Wasserdruck führt zu Fluss Wasser.",
+      "Spannung ist wie der elektrische Druck. Ein Strom ist ein Strom der elektrischen Ladung. Es ist am besten, sich so so vorzustellen: Die Spannung verursacht einen elektrischen Strom, genau wie der Wasserdruck führt dazu, dass Wasser fließt.",
       "Spannung ist die unsichtbare Energie, die den Strom drängt, sich von einem Ort zum anderen zu bewegen. Spannung und Strom in Hand in Hand. Die Spannung liefert den Druck, während der Strom den Strom fließt. Zusammen schaffen sie die Energie, die unsere Geräte versorgt und unsere Welt beleuchtet."
     ],
     "impact": "Das Verständnis von Spannung und Strom hilft Ingenieuren und Wissenschaftlern, sicherere und effizientere elektrische Systeme zu entwerfen. Von den kleinsten Schaltungen bis zu den größten Stromnetzern sind diese Konzepte entscheidend für die Erstellung von Technologien, die zuverlässig und sicher funktionieren.",
@@ -354,7 +354,7 @@ const data = [
     ],
     "impact": [
       "Michael Faradays Experimente mit Elektromagnetismus veranlassten ihn, den ersten elektrischen Generator im Jahr 1831 zu erfinden. Unter Verwendung der hier gezeigten Prinzipien wandelte der Generator die mechanische Energie der Rotation in elektrische Energie um. Die Leistung des Motors hängt von der Festigkeit des Magnetfeldes, der Anzahl der Drähte und der Menge des Stroms ab, die durch die Drähte verläuft.",
-      "Das Verständnis der Elektromagnetismus führte zur Erzeugung von Kraftwerken. Diese Pflanzen erzeugen Strom für unsere Häuser, Schulen und Städte. Dank dieser Erfindung können wir unsere Häuser aufleuchten, unsere Geräte mit Strom versorgen und erstaunliche Dinge mit Elektrizität erkunden."
+      "Das Verständnis der Elektromagnetismus führte zur Erstellung von Kraftwerken. Diese Pflanzen erzeugen Strom für unsere Häuser, Schulen und Städte. Dank dieser Erfindung können wir unsere Häuser aufleuchten, unsere Geräte mit Strom versorgen und erstaunliche Dinge mit Elektrizität erkunden."
     ],
     "directions": {
       "title": "Wie Es Funktioniert",
@@ -462,7 +462,7 @@ const data = [
     ],
     "impact": [
       "Die Entdeckung statischer Elektrizität hat einen tiefgreifenden Einfluss auf Technologie und Alltag. Von der Erfindung des Telegraphen bis zur Entwicklung der modernen Elektronik spielt statische Elektrizität eine entscheidende Rolle bei der Leistung unserer Geräte und zur Erleichterung der Kommunikation.",
-      "Im 18. Jahrhundert führte Benjamin Franklin sein Kite -Experiment bekannt und beweist, dass Blitz eine Form von Elektrizität ist. Diese bahnbrechende Entdeckung führte zur Erfindung der Blitzabte - ein Gerät zum Schutz von Gebäuden und Schiffen vor Blitzschlägen, indem die elektrische Ladung auf den Boden sicher umgeleitet wurde. Franklins Erfindung revolutionierte unser Verständnis von Blitz und ebnete den Weg für moderne Blitzschutzsysteme."
+      "Im 18. Jahrhundert führte Benjamin Franklin sein Kite -Experiment bekannt und beweist, dass Blitz eine Form von Elektrizität ist. Diese bahnbrechende Entdeckung führte zur Erfindung der Blitzabte - ein Gerät zum Schutz von Gebäuden und Schiffen vor Blitzschlägen, indem die elektrische Ladung auf den Boden sicher umleitet. Franklins Erfindung revolutionierte unser Verständnis von Blitz und ebnete den Weg für moderne Blitzschutzsysteme."
     ],
     "directions": {
       "title": "Wie Funktioniert Es?",
@@ -538,7 +538,7 @@ const data = [
       }
     ],
     "description": [
-      "Mikrowellenöfen erzeugen elektromagnetische Wellen (Mikrowellen), die Lebensmittel durch aufregende Wassermoleküle im Lebensmittel erhitzen. Mikrowellen sind unsichtbar, sodass Sie sie nicht in einem Mikrowellenofen sehen können, aber ihre Anwesenheit kann mit Neonlampen erkannt werden. Das sich ändernde elektromagnetische Feld aus den Mikrowellen bewegt sich geladene Partikel, sodass sich die Elektronen in den Metallbeinen Strom bewegen. Dieser Strom lässt die Lampen leuchten.  Die Verteilung dieser Wellen in der Mikrowelle ist tendenziell ungleichmäßig, sodass ein Plattenteller die Nahrung dreht und sicherstellt, dass alle Teile der Schüssel relativ gleichermaßen die Mikrowellen ausgesetzt sind. Dies führt zu konsistenterem und sogar Kochen."
+      "Mikrowellenöfen erzeugen elektromagnetische Wellen (Mikrowellen), die Lebensmittel durch aufregende Wassermoleküle im Lebensmittel erhitzen. Mikrowellen sind unsichtbar, sodass Sie sie nicht in einem Mikrowellenofen sehen können, aber ihre Anwesenheit kann mit Neonlampen erkannt werden. Das sich ändernde elektromagnetische Feld aus den Mikrowellen bewegt sich geladene Partikel, sodass sich die Elektronen in den Metallbeinen Strom bewegen. Dieser Strom lässt die Lampen leuchten.  Die Verteilung dieser Wellen in der Mikrowelle ist in der Regel ungleichmäßig, so dass ein Plattenteller die Nahrung dreht und sicherstellt, dass alle Teile des Gerichts relativ gleichermaßen die Mikrowellen ausgesetzt sind. Dies führt zu konsistenterem und sogar Kochen."
     ],
     "impact": "Die Nahrung im Ofen absorbiert Mikrowellenenergie. Der Plattenspieler dreht die Nahrung durch die hohen und niedrigen Feldintensitäten. Gründliches Kochen ist das Ergebnis.",
     "directions": {
@@ -588,7 +588,7 @@ const data = [
       }
     ],
     "description": [
-      "Der Telegraph transformierte die Kommunikation, indem er Nachrichten über Drähte sendet und Lücken zwischen Menschen und Orten überbrückte. Mit Morse Code, einer Reihe von Punkten und Strichen, verband der Telegraph die Welt schneller als je zuvor.",
+      "Der Telegraph transformierte die Kommunikation, indem er Nachrichten über Drähte sendete und Lücken zwischen Menschen und Orten überbrückte. Mit Morse Code, einer Reihe von Punkten und Strichen, verband der Telegraph die Welt schneller als je zuvor.",
       "",
       "",
       ""
@@ -831,7 +831,7 @@ const data = [
     ],
     "description": [
       "Elektromagnetische Funkwellen sind die unsichtbare Kraft, die uns über große Entfernungen hinweg verbindet.  Wie eine Sinfonie von Frequenzen tragen diese Wellen Informationen, Musik und Stimmen durch die Luft und prägen unsere moderne Welt auf eine Weise, die wir oft für selbstverständlich halten.",
-      "Im späten 19. Jahrhundert führte Heinrich Hertz Experimente durch, die die Existenz von elektromagnetischen Wellen bestätigten, die von James Clerk Maxwells Gleichungen vorhergesagt wurden.  Hertz 'Arbeit legte den Grundstein für unser Verständnis von Funkwellen und ihrer Anwendungen.",
+      "Im späten 19. Jahrhundert führte Heinrich Hertz Experimente durch, die die Existenz elektromagnetischer Wellen bestätigten, die von den Gleichungen von James Clerk Maxwell vorhergesagt wurden.  Hertz 'Arbeit legte den Grundstein für unser Verständnis von Funkwellen und ihrer Anwendungen.",
       "",
       ""
     ],
@@ -1055,7 +1055,7 @@ const data = [
       }
     ],
     "description": [
-      "Der Van de Graaff Generator wurde 1929 von Robert J. van de Graaff erfunden, um zu zeigen, wie elektrische Gebühren funktionieren.  Durch die Verwendung eines sich bewegenden Gürtels, um Strom auf dem großen Metallkuppel aufzubauen, lehrt es uns über statische Elektrizität - etwas, das überall um uns herum ist, aber wir bemerken es normalerweise nicht.",
+      "Der Van de Graaff Generator wurde 1929 von Robert J. Van de Graaff erfunden, um zu zeigen, wie elektrische Gebühren funktionieren.  Durch die Verwendung eines sich bewegenden Gürtels, um Strom auf dem großen Metallkuppel aufzubauen, lehrt es uns über statische Elektrizität - etwas, das überall um uns herum ist, aber wir bemerken es normalerweise nicht.",
       "",
       "",
       ""
@@ -1159,7 +1159,7 @@ const data = [
         }
       ]
     },
-    "how": "Ein Audio -Übersetzer erfasst Schallwellen durch ein empfindliches Mikrofon oder Membran. Diese Schallwellen werden dann in elektrische Signale umgewandelt. Mit dieser Transformation können die Signale am Empfangsende verstärkt, übertragen und als Klang reproduziert werden. Im Wesentlichen wandelt es hörbare Informationen in elektrische Impulse für eine effiziente Übertragung über Entfernungen um und stellt sicher, dass die ursprünglichen Geräusche intakt bleiben, wenn sie ihr Ziel erreichen.",
+    "how": "Ein Audio -Übersetzer erfasst Schallwellen durch ein empfindliches Mikrofon oder Membran. Diese Schallwellen werden dann in elektrische Signale umgewandelt. Mit dieser Transformation können die Signale am Empfangsende verstärkt, übertragen und als Klang reproduziert werden. Im Wesentlichen wandelt es hörbare Informationen in elektrische Impulse für eine effiziente Übertragung über Entfernungen um und sorgt dafür, dass die ursprünglichen Geräusche intakt bleiben, wenn sie ihr Ziel erreichen.",
     "tag": 22
   },
   {
@@ -1229,6 +1229,142 @@ const data = [
       "Achten Sie besonders auf unsere Exponate über „visuelle elektromagnetische Wellen“ und „elektromagnetische Funkwellen“, um weitere Einblicke in diese Beispiele für elektromagnetische Wellen zu erhalten."
     ],
     "tag": 23
+  },
+  {
+    "tag": 24,
+    "title": "Abschnitt 1",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Dies ist Beispieltext.",
+      "Dies ist auch Beispieltext."
+    ],
+    "impact": "Aufprallprobentext",
+    "directions": {
+      "title": "Wie Es Funktioniert",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Profitieren"
+        }
+      ]
+    },
+    "watch": "Sehen Sie sich Beispieltext an",
+    "how": "Wie Beispieltext"
+  },
+  {
+    "tag": 25,
+    "title": "Abschnitt 2",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Dies ist Beispieltext.",
+      "Dies ist auch Beispieltext."
+    ],
+    "impact": "Aufprallprobentext",
+    "directions": {
+      "title": "Wie Es Funktioniert",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Profitieren"
+        }
+      ]
+    },
+    "watch": "Sehen Sie sich Beispieltext an",
+    "how": "Wie Beispieltext"
+  },
+  {
+    "tag": 26,
+    "title": "Abschnitt 3",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Dies ist Beispieltext.",
+      "Dies ist auch Beispieltext."
+    ],
+    "impact": "Aufprallprobentext",
+    "directions": {
+      "title": "Wie Es Funktioniert",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Profitieren"
+        }
+      ]
+    },
+    "watch": "Sehen Sie sich Beispieltext an",
+    "how": "Wie Beispieltext"
+  },
+  {
+    "tag": 27,
+    "title": "Abschnitt 4",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Dies ist Beispieltext.",
+      "Dies ist auch Beispieltext."
+    ],
+    "impact": "Aufprallprobentext",
+    "directions": {
+      "title": "Wie Es Funktioniert",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Profitieren"
+        }
+      ]
+    },
+    "watch": "Sehen Sie sich Beispieltext an",
+    "how": "Wie Beispieltext"
   }
 ];
 

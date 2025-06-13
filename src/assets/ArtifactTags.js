@@ -22,3 +22,7 @@ export const TAG_20 = 20;
 export const THE_VAN_DE_GRAAFF_GENERATOR_HARNESSING_THE_POWER_OF_STATIC_ELECTRICITY = 21;
 export const THE_AUDIO_TRANSLATOR = 22;
 export const INTRODUCTION_TO_ELECTROMAGNETIC_WAVES = 23;
+export const SECTION_1 = 24;
+export const SECTION_2 = 25;
+export const SECTION_3 = 26;
+export const SECTION_4 = 27;

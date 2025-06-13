@@ -1229,6 +1229,142 @@ const data = [
       "Portez une attention particulière à nos expositions sur les «ondes électromagnétiques visuelles» et les «ondes radio électromagnétiques» pour un aperçu supplémentaire de ces exemples d'ondes électromagnétiques."
     ],
     "tag": 23
+  },
+  {
+    "tag": 24,
+    "title": "Section 1",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Il s'agit d'un exemple de texte.",
+      "Il s'agit également d'un exemple de texte."
+    ],
+    "impact": "Impact Exemple de texte",
+    "directions": {
+      "title": "Comment Ça Marche",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Étape 1"
+        },
+        {
+          "id": 2,
+          "step": "Étape 2"
+        },
+        {
+          "id": 3,
+          "step": "Profit"
+        }
+      ]
+    },
+    "watch": "Regarder un exemple de texte",
+    "how": "Comment exemple de texte"
+  },
+  {
+    "tag": 25,
+    "title": "Section 2",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Il s'agit d'un exemple de texte.",
+      "Il s'agit également d'un exemple de texte."
+    ],
+    "impact": "Impact Exemple de texte",
+    "directions": {
+      "title": "Comment Ça Marche",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Étape 1"
+        },
+        {
+          "id": 2,
+          "step": "Étape 2"
+        },
+        {
+          "id": 3,
+          "step": "Profit"
+        }
+      ]
+    },
+    "watch": "Regarder un exemple de texte",
+    "how": "Comment exemple de texte"
+  },
+  {
+    "tag": 26,
+    "title": "Section 3",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Il s'agit d'un exemple de texte.",
+      "Il s'agit également d'un exemple de texte."
+    ],
+    "impact": "Impact Exemple de texte",
+    "directions": {
+      "title": "Comment Ça Marche",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Étape 1"
+        },
+        {
+          "id": 2,
+          "step": "Étape 2"
+        },
+        {
+          "id": 3,
+          "step": "Profit"
+        }
+      ]
+    },
+    "watch": "Regarder un exemple de texte",
+    "how": "Comment exemple de texte"
+  },
+  {
+    "tag": 27,
+    "title": "Section 4",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Il s'agit d'un exemple de texte.",
+      "Il s'agit également d'un exemple de texte."
+    ],
+    "impact": "Impact Exemple de texte",
+    "directions": {
+      "title": "Comment Ça Marche",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Étape 1"
+        },
+        {
+          "id": 2,
+          "step": "Étape 2"
+        },
+        {
+          "id": 3,
+          "step": "Profit"
+        }
+      ]
+    },
+    "watch": "Regarder un exemple de texte",
+    "how": "Comment exemple de texte"
   }
 ];
 
