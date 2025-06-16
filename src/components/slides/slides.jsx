@@ -1,7 +1,8 @@
-import { useContext } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
 import { useSpeechSynthesis } from '../speech/useSpeechSynthesis';
+import { useSettings } from "../../components/AccessibilitySettings/AccessibilitySettings.jsx";
+import { useImageOverlay } from "../OverlayImage/OverlayImageContext.jsx";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -9,30 +10,13 @@ import "swiper/css/navigation";
 
 import "./slides.css";
 import Speech from "../speech/speech";
-import { ContextFontSize, ContextListPadding, ContextImage } from "../../assets/accessibilityContext";
 
 const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactImg4 }) => {
-  const [fontS, setFontS] = useContext(ContextFontSize);
-  const [listPadding, setListPadding] = useContext(ContextListPadding);
-  const [display, setDisplay] = useContext(ContextImage)
+  const { settings, setSettings } = useSettings();
   const { voices, status, toggle, stop } = useSpeechSynthesis();
+  const { openOverlay } = useImageOverlay();
 
   const directionsText = artifact.directions.steps.map((x) => x.step).join(" ");
-
-  const displayImageOne = () => {
-    if(display === "hideImage"){
-      setDisplay("showImageOne")
-    } else {
-      setDisplay("hideImage")
-    }
-  }
-  const displayImageTwo = () => {
-    if(display === "hideImage"){
-      setDisplay("showImageTwo")
-    } else {
-      setDisplay("hideImage")
-    }
-  }
 
   return (
     <div className="swiperMain">
@@ -52,13 +36,13 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
             
               <div className="left description">
                 <Speech text={artifact.description} />
-                <p style={{ fontSize: `${fontS}` }}>{artifact.description}</p>
+                <p style={{ fontSize: `${settings.fontSize}` }}>{artifact.description}</p>
                 <ul>
                   {artifact.info.map((el) => {
                     return (
                       <li key={el.id} className="info">
-                        <span style={{ fontSize: `${fontS}`, fontStyle: "italic", fontWeight: "600" }}>{el.title}</span>
-                        <span style={{ fontSize: `${fontS}`, fontStyle: "italic", fontWeight: "300" }}>{el.text}</span>
+                        <span style={{ fontSize: `${settings.fontSize}`, fontStyle: "italic", fontWeight: "600" }}>{el.title}</span>
+                        <span style={{ fontSize: `${settings.fontSize}`, fontStyle: "italic", fontWeight: "300" }}>{el.text}</span>
                       </li>
                     );
                   })}
@@ -73,7 +57,7 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
                   top: "40%", 
                   left: "75%", 
                   transform: "translate(-50%) translateY(-50%)" }} 
-                  src={artifactImg1} onClick={displayImageOne}></img>
+                  src={artifactImg1} onClick={() => openOverlay(artifactImg1)}></img>
               </div>
             </div>
           </div>
@@ -87,12 +71,12 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
               <span>
                 <h3>The Impact</h3> <Speech text={artifact.impact} />
               </span>
-              <p className="description" style={{ fontSize: `${fontS}` }}>
+              <p className="description" style={{ fontSize: `${settings.fontSize}` }}>
                 {artifact.impact}
               </p>
             </div>
             <div className="right">
-              <img onClick={displayImageTwo} style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg2}></img>
+              <img onClick={() => openOverlay(artifactImg2)} style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg2}></img>
             </div>
           </div>
         </SwiperSlide>
@@ -105,13 +89,13 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
             <div className="left">
               <span><h3>{artifact.directions.title}</h3> <Speech text={directionsText} /></span>
 
-              <ol className="swipe-directions" style={{ paddingLeft: `${listPadding}` }}>
+              <ol className="swipe-directions" style={{ paddingLeft: `${settings.listPadding}` }}>
                 {artifact.directions.steps.map((el) => {
                   return (
                     <li
                       key={el.id}
                       className="swipe-directions"
-                      style={{ fontSize: `${fontS}` }}>
+                      style={{ fontSize: `${settings.fontSize}` }}>
                       {el.step}
                     </li>
                   );
@@ -119,20 +103,20 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
               </ol>
               {artifact.watch ? <span><h4 className="watchHeader">What to watch:</h4> <Speech text={artifact.watch}/></span> : ""}
               
-              <p className="watchPara" style={{ fontSize: `${fontS}` }}>{artifact.watch}</p>
+              <p className="watchPara" style={{ fontSize: `${settings.fontSize}` }}>{artifact.watch}</p>
             </div> : 
             <div className="left">
             <span><h3>{artifact.directions.title}</h3> <Speech text={directionsText} /></span>
             {artifact.watch ? <span><h4 className="watchHeader">What to watch:</h4> <Speech text={artifact.watch}/></span> : ""}
             
-            <p className="watchPara" style={{ fontSize: `${fontS}` }}>{artifact.directions.description}</p>
+            <p className="watchPara" style={{ fontSize: `${settings.fontSize}` }}>{artifact.directions.description}</p>
           </div>}
 
             <div className="right">
               <span>
                 <h3>What's Going On</h3> <Speech text={artifact.how} />
               </span>
-              <p className="description" style={{ fontSize: `${fontS}` }}>
+              <p className="description" style={{ fontSize: `${settings.fontSize}` }}>
                 {artifact.how}
               </p>
             </div>

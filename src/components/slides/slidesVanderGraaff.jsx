@@ -8,18 +8,15 @@ import "swiper/css/navigation";
 
 import "./slides.css";
 import Speech from "../speech/speech";
-import { ContextFontSize, ContextListPadding, ContextImage } from "../../assets/accessibilityContext";
+import { useSettings } from "../../components/AccessibilitySettings/AccessibilitySettings.jsx";
+import { useSpeechSynthesis } from '../speech/useSpeechSynthesis.jsx';
+import { useImageOverlay } from "../OverlayImage/OverlayImageContext.jsx";
 
 const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactImg4 }) => {
-  const [fontS, setFontS] = useContext(ContextFontSize);
-  const [listPadding, setListPadding] = useContext(ContextListPadding);
   const [display, setDisplay] = useContext(ContextImage)
-
-  const synth = window.speechSynthesis;
-
-  const speakStop = () => {
-    synth.cancel();
-  };
+  const { settings, setSettings } = useSettings();
+  const { voices, speechStatus, toggle, stop: stopSpeech } = useSpeechSynthesis();
+  const { openOverlay } = useImageOverlay();
 
   const speechHow = artifact.howGraaff.info.join(" ") + " " + artifact.howGraaff.list.map((x) => x.item + " " + x.description).join(" ")
   const speechTry = artifact.try.title + " " + artifact.try.steps.map((x) => x.name + " " + x.text).join(" ")
@@ -62,7 +59,7 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
         navigation={true}
         modules={[Pagination, Navigation]}
         className="mySwiper"
-        onSlideChange={speakStop}
+        onSlideChange={stopSpeech}
       >
         {/* Slide 1 */}
         <SwiperSlide>
@@ -72,12 +69,12 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
                 <Speech text={artifact.description} />
                 
 
-                <p style={{ fontSize: `${fontS}` }}>{artifact.description}</p>
+                <p style={{ fontSize: `${settings.fontSize}` }}>{artifact.description}</p>
 
                 <ul>
                   {artifact.info.map((el) => {
                     return (
-                      <li key={el.id} className="info" style={{ fontSize: `${fontS}`, fontStyle: "italic", fontWeight: "300" }}>
+                      <li key={el.id} className="info" style={{ fontSize: `${settings.fontSize}`, fontStyle: "italic", fontWeight: "300" }}>
                         {el.text}
                       </li>
                     );
@@ -94,7 +91,7 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
                   left: "75%", 
                   transform: "translate(-50%) translateY(-50%)" }} 
                   src={artifactImg1}
-                  onClick={displayImageOne}></img>
+                  onClick={openOverlay(artifactImg1)}></img>
               </div>
             </div>
           </div>
@@ -109,12 +106,12 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
                 <h3>The Impact</h3> <Speech text={artifact.impact} />
               </span>
 
-              <p className="description" style={{ fontSize: `${fontS}` }}>
+              <p className="description" style={{ fontSize: `${settings.fontSize}` }}>
                 {artifact.impact}
               </p>
             </div>
             <div className="right">
-              <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg2} onClick={displayImageTwo}></img>
+              <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg2} onClick={openOverlay(artifactImg2)}></img>
             </div>
           </div>
         </SwiperSlide>
@@ -126,16 +123,16 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
             <div className="left">
 
               <span><h3>{artifact.howGraaff.title}</h3> <Speech text={speechHow} /></span>
-              <span style={{fontSize: `${fontS}`}}>{artifact.howGraaff.info[0]}</span>
-              <span style={{fontSize: `${fontS}`}}>{artifact.howGraaff.info[1]}</span>
+              <span style={{fontSize: `${settings.fontSize}`}}>{artifact.howGraaff.info[0]}</span>
+              <span style={{fontSize: `${settings.fontSize}`}}>{artifact.howGraaff.info[1]}</span>
 
-              <ol className="swipe-directions" style={{ paddingLeft: `${listPadding}` }}>
+              <ol className="swipe-directions" style={{ paddingLeft: `${settings.listPadding}` }}>
                 {artifact.howGraaff.list.map((el) => {
                   return (
                     <li
                       key={el.id}
                       className="swipe-directions"
-                      style={{ fontSize: `${fontS}` }}>
+                      style={{ fontSize: `${settings.fontSize}` }}>
                      <span style={{fontWeight : "bold"}}>{el.item}</span> <br style={{display: "none"}}/>{el.description}
                     </li>
                   );
@@ -144,7 +141,7 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
             </div>
 
             <div className="right">
-              <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg3} onClick={displayImageThree}></img>
+              <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg3} onClick={openOverlay(artifactImg3)}></img>
             </div>
           </div>
           
@@ -157,13 +154,13 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
 
               <span><h3>{artifact.try.title}</h3> <Speech text={speechTry} /></span>
 
-              <ol className="swipe-directions" style={{ paddingLeft: `${listPadding}` }}>
+              <ol className="swipe-directions" style={{ paddingLeft: `${settings.listPadding}` }}>
                 {artifact.try.steps.map((el) => {
                   return (
                     <li
                       key={el.id}
                       className="swipe-directions"
-                      style={{ fontSize: `${fontS}` }}>
+                      style={{ fontSize: `${settings.fontSize}` }}>
                      <span style={{ fontWeight: "bold"}}>{el.name}</span> <br style={{ display: "none"}}/> {el.text}
                     </li>
                   );
@@ -171,11 +168,11 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
               </ol>
               {artifact.watch ? <span><h4 className="watchHeader">What to watch:</h4> <Speech text={artifact.watch}/></span> : ""}
               
-              <p className="watchPara" style={{ fontSize: `${fontS}` }}>{artifact.watch}</p>
+              <p className="watchPara" style={{ fontSize: `${settings.fontSize}` }}>{artifact.watch}</p>
             </div>
 
             <div className="right">
-            <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg4} onClick={displayImageFour}></img>
+            <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg4} onClick={openOverlay(artifactImg4)}></img>
             </div>
           </div>
           

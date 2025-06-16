@@ -1,22 +1,13 @@
-import { useContext } from 'react'
 import audioSnippet from "../../assets/img/audioSnip.svg"
-import { ContextLangSpeech } from "../../assets/accessibilityContext";
+import { useSpeechSynthesis } from '../speech/useSpeechSynthesis.jsx';
 
 export default function audioSnip({text}) {
   
-    const [langSpeech, setLangSpeech] = useContext(ContextLangSpeech);
-
-    const synth = window.speechSynthesis;
-    const utter = new SpeechSynthesisUtterance(text);
-  
-    
-    utter.lang = langSpeech
-    utter.pitch = 1.1;
-    utter.rate = 1.5;
+    const { voices, speechStatus, toggle, stop: stopSpeech } = useSpeechSynthesis();
 
     const speakStart = () => {
-        synth.cancel();
-        synth.speak(utter);
+        stopSpeech();
+        toggle(text);
     };
 
   return (

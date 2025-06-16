@@ -1,8 +1,7 @@
-import { useState, useContext } from "react";
+import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
-
-import { ContextImage } from "../../assets/accessibilityContext";
+import { useImageOverlay } from "../OverlayImage/OverlayImageContext.jsx";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -26,8 +25,8 @@ import audioImg3 from "../../assets/img/audioPic3.jpg"
 import "./slides.css";
 
 const SlidesAudio = () => {
-    const [tune, setTune] = useState(false)
-    const [display, setDisplay] = useContext(ContextImage)
+    const [tune, setTune] = useState(false);
+    const { openOverlay } = useImageOverlay();
 
     const soundOne = document.getElementById("sound1")
     const soundTwo = document.getElementById("sound2")
@@ -72,27 +71,6 @@ const SlidesAudio = () => {
         soundThree.currentTime = 0
         setTune(false)
     }
-    const displayImageOne = () => {
-        if(display === "hideImage"){
-          setDisplay("showImageOne")
-        } else {
-          setDisplay("hideImage")
-        }
-      }
-      const displayImageTwo = () => {
-        if(display === "hideImage"){
-          setDisplay("showImageTwo")
-        } else {
-          setDisplay("hideImage")
-        }
-      }
-      const displayImageThree = () => {
-        if(display === "hideImage"){
-          setDisplay("showImageThree")
-        } else {
-          setDisplay("hideImage")
-        }
-      }
     return(
         <div>
             <Swiper
@@ -107,7 +85,7 @@ const SlidesAudio = () => {
                     <SwiperSlide>
                         <div className="audioSlides">
                             <div className="placeholder">
-                            <img src={audioImg1} onClick={displayImageOne}></img>
+                            <img src={audioImg1} onClick={openOverlay(audioImg1)}></img>
                             </div>
                             <div className="audioRight">
                                 <h3>Bunker Hill</h3>
@@ -128,7 +106,7 @@ const SlidesAudio = () => {
                     <SwiperSlide>
                     <div className="audioSlides">
                             <div className="placeholder">
-                            <img src={audioImg2} onClick={displayImageTwo}></img>
+                            <img src={audioImg2} onClick={openOverlay(audioImg2)}></img>
                             </div>
                             <div className="audioRight">
                                 <h3>Over There</h3>
@@ -147,7 +125,7 @@ const SlidesAudio = () => {
                     <SwiperSlide>
                     <div className="audioSlides">
                             <div className="audioLeft">
-                                <img style={{left: "-20"}}src={audioImg3} onClick={displayImageThree}></img>
+                                <img style={{left: "-20"}}src={audioImg3} onClick={openOverlay(audioImg3)}></img>
                             </div>
                             <div className="audioRight">
                                 <h3>Johnny B. Goode</h3>

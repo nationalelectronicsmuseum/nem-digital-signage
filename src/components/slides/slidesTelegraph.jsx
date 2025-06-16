@@ -8,36 +8,18 @@ import "swiper/css/navigation";
 
 import "./slides.css";
 import Speech from "../speech/speech";
-import { ContextFontSize, ContextListPadding, ContextImage } from "../../assets/accessibilityContext";
+import { useSettings } from "../../components/AccessibilitySettings/AccessibilitySettings.jsx";
+import { useSpeechSynthesis } from '../speech/useSpeechSynthesis.jsx';
+import { useImageOverlay } from "../OverlayImage/OverlayImageContext.jsx";
 
 const SlidesTelegraph = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactImg4 }) => {
-  const [fontS, setFontS] = useContext(ContextFontSize);
-  const [listPadding, setListPadding] = useContext(ContextListPadding);
   const [display, setDisplay] = useContext(ContextImage)
+  const { settings, setSettings } = useSettings();
+  const { voices, speechStatus, toggle, stop: stopSpeech } = useSpeechSynthesis();
+  const { openOverlay } = useImageOverlay();
 
   const directionsText = artifact.directions.steps.map((x) => x.step).join(" ");
   const instructionText = artifact.telegraphStation.instructions.map((x) => x.step).join(" ");
-
-  const synth = window.speechSynthesis;
-
-  const speakStop = () => {
-    synth.cancel();
-  };
-
-  const displayImageOne = () => {
-    if(display === "hideImage"){
-      setDisplay("showImageOne")
-    } else {
-      setDisplay("hideImage")
-    }
-  }
-  const displayImageTwo = () => {
-    if(display === "hideImage"){
-      setDisplay("showImageTwo")
-    } else {
-      setDisplay("hideImage")
-    }
-  }
 
   return (
     <div className="swiperMain">
@@ -48,7 +30,7 @@ const SlidesTelegraph = ({ artifact, artifactImg1, artifactImg2, artifactImg3, a
         navigation={true}
         modules={[Pagination, Navigation]}
         className="mySwiper"
-        onSlideChange={speakStop}
+        onSlideChange={stopSpeech}
       >
         {/* Slide 1 */}
         <SwiperSlide>
@@ -58,14 +40,14 @@ const SlidesTelegraph = ({ artifact, artifactImg1, artifactImg2, artifactImg3, a
                 <Speech text={artifact.description} />
                 
 
-                <p style={{ fontSize: `${fontS}` }}>{artifact.description}</p>
+                <p style={{ fontSize: `${settings.fontSize}` }}>{artifact.description}</p>
 
                 <ul>
                   {artifact.info.map((el) => {
                     return (
                       <li key={el.id} className="info">
-                        <span style={{ fontSize: `${fontS}`, fontStyle: "italic", fontWeight: "600" }}>{el.title}</span>
-                        <span style={{ fontSize: `${fontS}`, fontStyle: "italic", fontWeight: "300" }}>{el.text}</span>
+                        <span style={{ fontSize: `${settings.fontSize}`, fontStyle: "italic", fontWeight: "600" }}>{el.title}</span>
+                        <span style={{ fontSize: `${settings.fontSize}`, fontStyle: "italic", fontWeight: "300" }}>{el.text}</span>
                       </li>
                     );
                   })}
@@ -81,7 +63,7 @@ const SlidesTelegraph = ({ artifact, artifactImg1, artifactImg2, artifactImg3, a
                   left: "75%", 
                   transform: "translate(-50%) translateY(-50%)" }} 
                   src={artifactImg1}
-                  onClick={displayImageOne}></img>
+                  onClick={openOverlay(artifactImg1)}></img>
               </div>
             </div>
           </div>
@@ -96,12 +78,12 @@ const SlidesTelegraph = ({ artifact, artifactImg1, artifactImg2, artifactImg3, a
                 <h3>The Impact</h3> <Speech text={artifact.impact} />
               </span>
 
-              <p className="description" style={{ fontSize: `${fontS}` }}>
+              <p className="description" style={{ fontSize: `${settings.fontSize}` }}>
                 {artifact.impact}
               </p>
             </div>
             <div className="right">
-              <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg2} onClick={displayImageTwo}></img>
+              <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg2} onClick={openOverlay(artifactImg2)}></img>
             </div>
           </div>
         </SwiperSlide>
@@ -114,13 +96,13 @@ const SlidesTelegraph = ({ artifact, artifactImg1, artifactImg2, artifactImg3, a
 
               <span><h3>{artifact.directions.title}</h3> <Speech text={directionsText} /></span>
 
-              <ol className="swipe-directions" style={{ paddingLeft: `${listPadding}` }}>
+              <ol className="swipe-directions" style={{ paddingLeft: `${settings.listPadding}` }}>
                 {artifact.directions.steps.map((el) => {
                   return (
                     <li
                       key={el.id}
                       className="swipe-directions"
-                      style={{ fontSize: `${fontS}` }}>
+                      style={{ fontSize: `${settings.fontSize}` }}>
                       {el.step}
                     </li>
                   );
@@ -128,14 +110,14 @@ const SlidesTelegraph = ({ artifact, artifactImg1, artifactImg2, artifactImg3, a
               </ol>
               {artifact.watch ? <span><h4 className="watchHeader">What to watch:</h4> <Speech text={artifact.watch}/></span> : ""}
               
-              <p className="watchPara" style={{ fontSize: `${fontS}` }}>{artifact.watch}</p>
+              <p className="watchPara" style={{ fontSize: `${settings.fontSize}` }}>{artifact.watch}</p>
             </div>
 
             <div className="right">
               <span>
                 <h3>What's Going On</h3> <Speech text={artifact.how} />
               </span>
-              <p className="description" style={{ fontSize: `${fontS}` }}>
+              <p className="description" style={{ fontSize: `${settings.fontSize}` }}>
                 {artifact.how}
               </p>
             </div>
@@ -150,13 +132,13 @@ const SlidesTelegraph = ({ artifact, artifactImg1, artifactImg2, artifactImg3, a
 
               <span><h3>{artifact.telegraphStation.title}</h3> <Speech text={instructionText} /></span>
 
-              <ol className="swipe-directions" style={{ paddingLeft: `${listPadding}` }}>
+              <ol className="swipe-directions" style={{ paddingLeft: `${settings.listPadding}` }}>
                 {artifact.telegraphStation.instructions.map((el) => {
                   return (
                     <li
                       key={el.id}
                       className="swipe-directions"
-                      style={{ fontSize: `${fontS}` }}>
+                      style={{ fontSize: `${settings.fontSize}` }}>
                      {el.steps}
                     </li>
                   );
@@ -164,11 +146,11 @@ const SlidesTelegraph = ({ artifact, artifactImg1, artifactImg2, artifactImg3, a
               </ol>
               {artifact.watch ? <span><h4 className="watchHeader">What to watch:</h4> <Speech text={artifact.watch}/></span> : ""}
               
-              <p className="watchPara" style={{ fontSize: `${fontS}` }}>{artifact.watch}</p>
+              <p className="watchPara" style={{ fontSize: `${settings.fontSize}` }}>{artifact.watch}</p>
             </div>
 
             <div className="right">
-            <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg4}></img>
+            <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={openOverlay(artifactImg4)}></img>
             </div>
           </div>
           

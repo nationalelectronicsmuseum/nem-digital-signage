@@ -1,4 +1,3 @@
-import { useContext } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
 
@@ -8,32 +7,14 @@ import "swiper/css/navigation";
 
 import "./slides.css";
 import Speech from "../speech/speech";
-import { ContextFontSize, ContextImage } from "../../assets/accessibilityContext";
+import { useSettings } from "../../components/AccessibilitySettings/AccessibilitySettings.jsx";
+import { useSpeechSynthesis } from '../speech/useSpeechSynthesis.jsx';
+import { useImageOverlay } from "../OverlayImage/OverlayImageContext.jsx";
 
 const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactImg4 }) => {
-  const [fontS, setFontS] = useContext(ContextFontSize);
-  const [display, setDisplay] = useContext(ContextImage)
-
-  const synth = window.speechSynthesis;
-
-  const speakStop = () => {
-    synth.cancel();
-  };
-
-  const displayImageOne = () => {
-    if(display === "hideImage"){
-      setDisplay("showImageOne")
-    } else {
-      setDisplay("hideImage")
-    }
-  }
-  const displayImageTwo = () => {
-    if(display === "hideImage"){
-      setDisplay("showImageTwo")
-    } else {
-      setDisplay("hideImage")
-    }
-  }
+  const { settings, setSettings } = useSettings();
+  const { voices, speechStatus, toggle, stop: stopSpeech } = useSpeechSynthesis();
+  const { openOverlay } = useImageOverlay();
 
   return (
     <div className="swiperMain">
@@ -44,7 +25,7 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
         navigation={true}
         modules={[Pagination, Navigation]}
         className="mySwiper"
-        onSlideChange={speakStop}
+        onSlideChange={stopSpeech}
       >
         <SwiperSlide >
           <div className="fg">
@@ -62,7 +43,7 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
               <div className="left description">
                 <h4 className="emTitle" >{el.title}</h4>
                 <Speech text={el.description} />
-                <p style={{ fontSize: `${fontS}` }}>{el.description}</p>
+                <p style={{ fontSize: `${settings.fontSize}` }}>{el.description}</p>
               </div>
 
               <div className="right">
@@ -73,7 +54,7 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
                   top: "40%", 
                   left: "75%", 
                   transform: "translate(-50%) translateY(-50%)" }} 
-                  src={artifactImg1} onClick={displayImageOne}></img>
+                  src={artifactImg1} onClick={openOverlay(artifactImg1)}></img>
               </div>
             </div>
           </div>

@@ -1,107 +1,79 @@
-import { useState, useContext } from "react";
-import { Context, ContextFontSize, ContextLangSpeech, ContextListPadding, ContextSpeechPlayer } from "../../assets/accessibilityContext.js";
+import { useState } from "react";
 import "./accessibility.css";
 import aIcon from "../../assets/img/accessibleIcon.svg"
-import { LANGUAGE_ENGLISH, LANGUAGE_SPANISH, LANGUAGE_GERMAN, LANGUAGE_FRENCH } from "../../assets/Constants.js";
+import { useSettings } from "../../components/AccessibilitySettings/AccessibilitySettings.jsx";
+import { useSpeechSynthesis } from '../speech/useSpeechSynthesis.jsx';
+import * as Constant from "../../assets/Constants.js";
 
 export function Accessibility() {
   const [state, setState] = useState("hide");
   const [selected, setSelected] = useState("qdbp notselected");
 
-  const [lang, setLang] = useContext(Context);
-  const [, setFontS] = useContext(ContextFontSize);
-  const [, setLangSpeech] = useContext(ContextLangSpeech);
-  const [, setListPadding] = useContext(ContextListPadding);
+  const { settings, setSettings } = useSettings();
+  const updateSetting = (key, value) => {
+    setSettings(prev => ({ ...prev, [key]: value }));
+  };
 
-  const [colorFontSm, setColorFontSm] = useState("qpBtn")
-  const [colorFontDef, setColorFontDef] = useState("qpBtn colorSelected")
-  const [colorFontLg, setColorFontLg] = useState("qpBtn")
+  const { voices, speechStatus, toggle, stop: stopSpeech } = useSpeechSynthesis();
 
-  const [colorFamilySan, setColorFamilySan] = useState("qpBtn")
-  const [colorFamilySerif, setColorFamilySerif] = useState("qpBtn")
-  const [colorFamilyDyslex, setColorFamilyDyslex] = useState("qpBtn")
-
-  const [speechPlayer, setspeechPlayer] = useContext(ContextSpeechPlayer);
-
-  const serifFont = "Times New Roman, Times, serif"
-  const sansFont = "Arial, Helvetica, sans-serif"
-  const sansDyslex = "OpenDyslexicMono"
-
-  const test = document.querySelector(".fontSelect")
-  
-  const synth = window.speechSynthesis;
+  const fontInfo = document.querySelector(".fontSelect")
 
   const selectEng = () => {
-    setLang(LANGUAGE_ENGLISH)
-    setLangSpeech("en-US")
-    synth.cancel();
+    stopSpeech();
+    updateSetting("language", Constant.LANGUAGE_ENGLISH);
+    updateSetting("speech", Constant.SPEECH_ENGLISH);
   }
   const selectSpa = () => {
-    setLang(LANGUAGE_SPANISH)
-    setLangSpeech("es-MX")
-    synth.cancel();
+    stopSpeech();
+    updateSetting("language", Constant.LANGUAGE_SPANISH);
+    updateSetting("speech", Constant.SPEECH_SPANISH);
   }
   const selectGer = () => {
-    setLang(LANGUAGE_GERMAN)
-    setLangSpeech("de-DE")
-    synth.cancel();
+    stopSpeech();
+    updateSetting("language", Constant.LANGUAGE_GERMAN);
+    updateSetting("speech", Constant.SPEECH_GERMAN);
   }
   const selectFre = () => {
-    setLang(LANGUAGE_FRENCH)
-    setLangSpeech("fr-FR")
-    synth.cancel();
+    stopSpeech();
+    updateSetting("language", Constant.LANGUAGE_FRENCH);
+    updateSetting("speech", Constant.SPEECH_FRENCH);
   }
 
   // Setting the Font Size
   const fontDef = () => {
-    setFontS("35pt")
-    setListPadding("50px")
-    setColorFontSm("qpBtn")
-    setColorFontDef("qpBtn colorSelected")
-    setColorFontLg("qpBtn")
+    updateSetting("fontSize", Constant.FONT_SIZE_MEDIUM)
+    updateSetting("listPadding", Constant.LIST_PADDING_MEDIUM)
   }
   const fontSm = () => {
-    setFontS("24pt")
-    setListPadding("36px")
-    setColorFontSm("qpBtn colorSelected")
-    setColorFontDef("qpBtn")
-    setColorFontLg("qpBtn")
+    updateSetting("fontSize", Constant.FONT_SIZE_SMALL)
+    updateSetting("listPadding", Constant.LIST_PADDING_SMALL)
   }
   const fontLg = () => {
-    setFontS("45pt")
-    setListPadding("65px")
-    setColorFontSm("qpBtn")
-    setColorFontDef("qpBtn")
-    setColorFontLg("qpBtn colorSelected")
+    updateSetting("fontSize", Constant.FONT_SIZE_LARGE)
+    updateSetting("listPadding", Constant.LIST_PADDING_LARGE)
   }
 
   // Setting the Font family
   const fontArial = () => {
-    test.style.fontFamily = sansFont
-    setColorFamilySan("qpBtn colorSelected")
-    setColorFamilySerif("qpBtn")
-    setColorFamilyDyslex("qpBtn")
+    fontInfo.style.fontFamily = Constant.FONT_SANS;
+    updateSetting("font", Constant.FONT_SANS);
   }
   const fontTimes = () => {
-    test.style.fontFamily = serifFont
-    setColorFamilySan("qpBtn")
-    setColorFamilySerif("qpBtn colorSelected")
-    setColorFamilyDyslex("qpBtn")
+    fontInfo.style.fontFamily = Constant.FONT_SERIF;
+    updateSetting("font", Constant.FONT_SERIF);
   }
   const fontDyslex = () => {
-    test.style.fontFamily = sansDyslex
-    setColorFamilySan("qpBtn")
-    setColorFamilySerif("qpBtn")
-    setColorFamilyDyslex("qpBtn colorSelected")
+    fontInfo.style.fontFamily = Constant.FONT_SANS_DYSLEX;
+    updateSetting("font", Constant.FONT_SANS_DYSLEX);
   }
 
   // Setting the audio controls
   const audioControlOn = () => {
-    setspeechPlayer("present");
+    updateSetting("speechEnabled", true);
   }
 
   const audioControlOff = () => {
-    setspeechPlayer("hiddenPlayer");
+    updateSetting("speechEnabled", false);
   }
 
   const showMenu = () => {
@@ -128,18 +100,18 @@ export function Accessibility() {
           <span className="qpChild">
             <div className="qpSubtitle">Language</div>
             <span className="btnLng">
-              <button className={ lang === LANGUAGE_ENGLISH ? "qpBtn colorSelected" : "qpBtn" } onClick={selectEng}>English</button>
-              <button className={ lang === LANGUAGE_SPANISH ? "qpBtn colorSelected" : "qpBtn" } onClick={selectSpa}>Spanish</button>
-              <button className={ lang === LANGUAGE_GERMAN ? "qpBtn colorSelected" : "qpBtn" } onClick={selectGer}>German</button>
-              <button className={ lang === LANGUAGE_FRENCH ? "qpBtn colorSelected" : "qpBtn" } onClick={selectFre}>French</button>
+              <button className={ settings.language === Constant.LANGUAGE_ENGLISH ? "qpBtn colorSelected" : "qpBtn" } onClick={selectEng}>English</button>
+              <button className={ settings.language === Constant.LANGUAGE_SPANISH ? "qpBtn colorSelected" : "qpBtn" } onClick={selectSpa}>Spanish</button>
+              <button className={ settings.language === Constant.LANGUAGE_GERMAN ? "qpBtn colorSelected" : "qpBtn" } onClick={selectGer}>German</button>
+              <button className={ settings.language === Constant.LANGUAGE_FRENCH ? "qpBtn colorSelected" : "qpBtn" } onClick={selectFre}>French</button>
             </span>
           </span>
           <span className="qpChild">
           <div className="qpSubtitle">Font Change</div>
             <span>
-              <button className={colorFamilySan} onClick={fontArial}>Arial</button>
-              <button className={colorFamilySerif} onClick={fontTimes}>Times New Roman</button>
-              <button className={colorFamilyDyslex} onClick={fontDyslex}>Dyslex</button>
+              <button className={settings.font === Constant.FONT_SANS ? "qpBtn colorSelected" : "qpBtn"} onClick={fontArial}>Arial</button>
+              <button className={settings.font === Constant.FONT_SERIF ? "qpBtn colorSelected" : "qpBtn"} onClick={fontTimes}>Times New Roman</button>
+              <button className={settings.font === Constant.FONT_SANS_DYSLEX ? "qpBtn colorSelected" : "qpBtn"} onClick={fontDyslex}>Dyslex</button>
             </span>
           </span>
           <span className="qpChild">
@@ -147,9 +119,9 @@ export function Accessibility() {
             <div className="qpSubtitle">Text Size</div>
             </span>
             <span>
-              <button className={colorFontSm} onClick={fontSm}>Small</button>
-              <button className={colorFontDef} onClick={fontDef}>Default</button>
-              <button className={colorFontLg} onClick={fontLg}>Large</button>
+              <button className={settings.fontSize === Constant.FONT_SIZE_SMALL ? "qpBtn colorSelected" : "qpBtn"} onClick={fontSm}>Small</button>
+              <button className={settings.fontSize === Constant.FONT_SIZE_MEDIUM ? "qpBtn colorSelected" : "qpBtn"} onClick={fontDef}>Medium</button>
+              <button className={settings.fontSize === Constant.FONT_SIZE_LARGE ? "qpBtn colorSelected" : "qpBtn"} onClick={fontLg}>Large</button>
             </span>
           </span>
           <span className="qpChild">
@@ -157,8 +129,8 @@ export function Accessibility() {
             <div className="qpSubtitle">Audio Controls</div>
             </span>
             <span>
-              <button className={speechPlayer === "present" ? "qpBtn colorSelected" : "qpBtn"} onClick={audioControlOn}>On</button>
-              <button className={speechPlayer === "hiddenPlayer" ? "qpBtn colorSelected" : "qpBtn"} onClick={audioControlOff}>Off</button>
+              <button className={settings.speechEnabled ? "qpBtn colorSelected" : "qpBtn"} onClick={audioControlOn}>On</button>
+              <button className={!settings.speechEnabled ? "qpBtn colorSelected" : "qpBtn"} onClick={audioControlOff}>Off</button>
             </span>
           </span>
         </div>

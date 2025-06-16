@@ -3,12 +3,12 @@ import "../speech/speech.css";
 import iconPlay from "../../assets/img/icon_play.svg"
 import iconStop from "../../assets/img/icon_stop.svg"
 import iconPause from "../../assets/img/icon_pause.svg"
-import { ContextSpeechPlayer } from "../../assets/accessibilityContext";
+import { useSettings } from "../../components/AccessibilitySettings/AccessibilitySettings.jsx";
 import { useSpeechSynthesis } from '../speech/useSpeechSynthesis';
 
 function Speech({ text }) {
+  const { settings, setSettings } = useSettings();
   const { voices, status, toggle, stop } = useSpeechSynthesis();
-  const [speechPlayer,] = useContext(ContextSpeechPlayer);
 
   const playButtonLabel = {
     idle: iconPlay,
@@ -19,7 +19,7 @@ function Speech({ text }) {
   return (
     <div>
       <div className="speechPlayer">
-        <div className={speechPlayer}>
+        <div className={settings.speechEnabled ? "present" : "hiddenPlayer"}>
           <button onClick={() => toggle(text, null)} className="speech">
             <img src={playButtonLabel} className="iconImg"></img>
           </button>
