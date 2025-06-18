@@ -59,7 +59,7 @@ const SlidesMarconi = ({ artifact, artifactImg1, artifactImg2, artifactImg3, art
                   left: "75%", 
                   transform: "translate(-50%) translateY(-50%)" }} 
                   src={artifactImg1}
-                  onClick={openOverlay(artifactImg1)}></img>
+                  onClick={() => openOverlay(artifactImg1)}></img>
               </div>
             </div>
           </div>
@@ -119,7 +119,7 @@ const SlidesMarconi = ({ artifact, artifactImg1, artifactImg2, artifactImg3, art
 
             <div className="right">
             <div className="right">
-                <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg2} onClick={openOverlay(artifactImg2)}></img>
+                <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg2} onClick={() => openOverlay(artifactImg2)}></img>
             </div>
             </div>
           </div>
@@ -139,7 +139,7 @@ const SlidesMarconi = ({ artifact, artifactImg1, artifactImg2, artifactImg3, art
             </div>
 
             <div className="right">
-                <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg3} onClick={openOverlay(artifactImg3)}></img>
+                <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg3} onClick={() => openOverlay(artifactImg3)}></img>
             </div>
           </div>
           

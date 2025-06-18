@@ -13,42 +13,12 @@ import { useSpeechSynthesis } from '../speech/useSpeechSynthesis.jsx';
 import { useImageOverlay } from "../OverlayImage/OverlayImageContext.jsx";
 
 const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactImg4 }) => {
-  const [display, setDisplay] = useContext(ContextImage)
   const { settings, setSettings } = useSettings();
   const { voices, speechStatus, toggle, stop: stopSpeech } = useSpeechSynthesis();
   const { openOverlay } = useImageOverlay();
 
   const speechHow = artifact.howGraaff.info.join(" ") + " " + artifact.howGraaff.list.map((x) => x.item + " " + x.description).join(" ")
   const speechTry = artifact.try.title + " " + artifact.try.steps.map((x) => x.name + " " + x.text).join(" ")
-
-  const displayImageOne = () => {
-    if(display === "hideImage"){
-      setDisplay("showImageOne")
-    } else {
-      setDisplay("hideImage")
-    }
-  }
-  const displayImageTwo = () => {
-    if(display === "hideImage"){
-      setDisplay("showImageTwo")
-    } else {
-      setDisplay("hideImage")
-    }
-  }
-  const displayImageThree = () => {
-    if(display === "hideImage"){
-      setDisplay("showImageThree")
-    } else {
-      setDisplay("hideImage")
-    }
-  }
-  const displayImageFour = () => {
-    if(display === "hideImage"){
-      setDisplay("showImageFour")
-    } else {
-      setDisplay("hideImage")
-    }
-  }
 
   return (
     <div className="swiperMain">
@@ -91,7 +61,7 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
                   left: "75%", 
                   transform: "translate(-50%) translateY(-50%)" }} 
                   src={artifactImg1}
-                  onClick={openOverlay(artifactImg1)}></img>
+                  onClick={() => openOverlay(artifactImg1)}></img>
               </div>
             </div>
           </div>
@@ -111,7 +81,7 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
               </p>
             </div>
             <div className="right">
-              <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg2} onClick={openOverlay(artifactImg2)}></img>
+              <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg2} onClick={() => openOverlay(artifactImg2)}></img>
             </div>
           </div>
         </SwiperSlide>
@@ -141,7 +111,7 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
             </div>
 
             <div className="right">
-              <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg3} onClick={openOverlay(artifactImg3)}></img>
+              <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg3} onClick={() => openOverlay(artifactImg3)}></img>
             </div>
           </div>
           
@@ -172,7 +142,7 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
             </div>
 
             <div className="right">
-            <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg4} onClick={openOverlay(artifactImg4)}></img>
+            <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg4} onClick={() => openOverlay(artifactImg4)}></img>
             </div>
           </div>
           

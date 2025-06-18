@@ -54,7 +54,7 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
                   top: "40%", 
                   left: "75%", 
                   transform: "translate(-50%) translateY(-50%)" }} 
-                  src={artifactImg1} onClick={openOverlay(artifactImg1)}></img>
+                  src={artifactImg1} onClick={ () => openOverlay(artifactImg1)}></img>
               </div>
             </div>
           </div>

@@ -85,7 +85,7 @@ const SlidesAudio = () => {
                     <SwiperSlide>
                         <div className="audioSlides">
                             <div className="placeholder">
-                            <img src={audioImg1} onClick={openOverlay(audioImg1)}></img>
+                            <img src={audioImg1} onClick={ () => openOverlay(audioImg1)}></img>
                             </div>
                             <div className="audioRight">
                                 <h3>Bunker Hill</h3>
@@ -106,7 +106,7 @@ const SlidesAudio = () => {
                     <SwiperSlide>
                     <div className="audioSlides">
                             <div className="placeholder">
-                            <img src={audioImg2} onClick={openOverlay(audioImg2)}></img>
+                            <img src={audioImg2} onClick={ () => openOverlay(audioImg2)}></img>
                             </div>
                             <div className="audioRight">
                                 <h3>Over There</h3>
@@ -125,7 +125,7 @@ const SlidesAudio = () => {
                     <SwiperSlide>
                     <div className="audioSlides">
                             <div className="audioLeft">
-                                <img style={{left: "-20"}}src={audioImg3} onClick={openOverlay(audioImg3)}></img>
+                                <img style={{left: "-20"}}src={audioImg3} onClick={ () => openOverlay(audioImg3)}></img>
                             </div>
                             <div className="audioRight">
                                 <h3>Johnny B. Goode</h3>

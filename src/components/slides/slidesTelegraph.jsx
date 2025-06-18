@@ -13,7 +13,6 @@ import { useSpeechSynthesis } from '../speech/useSpeechSynthesis.jsx';
 import { useImageOverlay } from "../OverlayImage/OverlayImageContext.jsx";
 
 const SlidesTelegraph = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactImg4 }) => {
-  const [display, setDisplay] = useContext(ContextImage)
   const { settings, setSettings } = useSettings();
   const { voices, speechStatus, toggle, stop: stopSpeech } = useSpeechSynthesis();
   const { openOverlay } = useImageOverlay();
@@ -63,7 +62,7 @@ const SlidesTelegraph = ({ artifact, artifactImg1, artifactImg2, artifactImg3, a
                   left: "75%", 
                   transform: "translate(-50%) translateY(-50%)" }} 
                   src={artifactImg1}
-                  onClick={openOverlay(artifactImg1)}></img>
+                  onClick={ () => openOverlay(artifactImg1)}></img>
               </div>
             </div>
           </div>
@@ -83,7 +82,7 @@ const SlidesTelegraph = ({ artifact, artifactImg1, artifactImg2, artifactImg3, a
               </p>
             </div>
             <div className="right">
-              <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg2} onClick={openOverlay(artifactImg2)}></img>
+              <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg2} onClick={ () => openOverlay(artifactImg2)}></img>
             </div>
           </div>
         </SwiperSlide>
@@ -150,7 +149,7 @@ const SlidesTelegraph = ({ artifact, artifactImg1, artifactImg2, artifactImg3, a
             </div>
 
             <div className="right">
-            <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={openOverlay(artifactImg4)}></img>
+            <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg4} onClick={ () => openOverlay(artifactImg4)}></img>
             </div>
           </div>
           
