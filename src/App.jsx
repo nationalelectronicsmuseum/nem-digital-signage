@@ -26,6 +26,26 @@ import EvolutionSound from "./pages/evolutionSound";
 import Telegraph from "./pages/telegraph";
 import Electromagnetic from "./pages/electromagnetic.jsx"
 import VacuumTube from "./pages/vacuumTube";
+import Station8Section1 from "./pages/station8section1.jsx";
+import Station8Section2 from "./pages/station8section2.jsx";
+import Station8Section3 from "./pages/station8section3.jsx";
+import Station8Section4 from "./pages/station8section4.jsx";
+import Station9Section1 from "./pages/station9section1.jsx";
+import Station9Section2 from "./pages/station9section2.jsx";
+import Station9Section3 from "./pages/station9section3.jsx";
+import Station9Section4 from "./pages/station9section4.jsx";
+import Station10Section1 from "./pages/station10section1.jsx";
+import Station10Section2 from "./pages/station10section2.jsx";
+import Station10Section3 from "./pages/station10section3.jsx";
+import Station10Section4 from "./pages/station10section4.jsx";
+import Station11Section1 from "./pages/station11section1.jsx";
+import Station11Section2 from "./pages/station11section2.jsx";
+import Station11Section3 from "./pages/station11section3.jsx";
+import Station11Section4 from "./pages/station11section4.jsx";
+import Station12Section1 from "./pages/station12section1.jsx";
+import Station12Section2 from "./pages/station12section2.jsx";
+import Station12Section3 from "./pages/station12section3.jsx";
+import Station12Section4 from "./pages/station12section4.jsx";
 import Station13Section1 from "./pages/station13section1.jsx";
 import Station13Section2 from "./pages/station13section2.jsx";
 import Station13Section3 from "./pages/station13section3.jsx";
@@ -104,17 +124,39 @@ function App() {
             <Route path="/telegraph" element={<Telegraph />} />
             <Route path="/electromagnetic" element={<Electromagnetic />} />
 
-            <Route path="/station8" element={<Station8 />} />
             <Route path="/vacuum-tubes" element={<VacuumTube />} />
 
-            <Route path="/station9" element={<Station9 />} />
             <Route path="/hamradio" element={<HAMRadio />} />
 
+            <Route path="/station8" element={<Station8 />} />
+            <Route path="/station8section1" element={<Station8Section1 />} />
+            <Route path="/station8section2" element={<Station8Section2 />} />
+            <Route path="/station8section3" element={<Station8Section3 />} />
+            <Route path="/station8section4" element={<Station8Section4 />} />
+
+            <Route path="/station9" element={<Station9 />} />
+            <Route path="/station9section1" element={<Station9Section1 />} />
+            <Route path="/station9section2" element={<Station9Section2 />} />
+            <Route path="/station9section3" element={<Station9Section3 />} />
+            <Route path="/station9section4" element={<Station9Section4 />} />
+
             <Route path="/station10" element={<Station10 />} />
+            <Route path="/station10section1" element={<Station10Section1 />} />
+            <Route path="/station10section2" element={<Station10Section2 />} />
+            <Route path="/station10section3" element={<Station10Section3 />} />
+            <Route path="/station10section4" element={<Station10Section4 />} />
 
             <Route path="/station11" element={<Station11 />} />
+            <Route path="/station11section1" element={<Station11Section1 />} />
+            <Route path="/station11section2" element={<Station11Section2 />} />
+            <Route path="/station11section3" element={<Station11Section3 />} />
+            <Route path="/station11section4" element={<Station11Section4 />} />
 
             <Route path="/station12" element={<Station12 />} />
+            <Route path="/station12section1" element={<Station12Section1 />} />
+            <Route path="/station12section2" element={<Station12Section2 />} />
+            <Route path="/station12section3" element={<Station12Section3 />} />
+            <Route path="/station12section4" element={<Station12Section4 />} />
 
             <Route path="/station13" element={<Station13 />} />
             <Route path="/station13section1" element={<Station13Section1 />} />
