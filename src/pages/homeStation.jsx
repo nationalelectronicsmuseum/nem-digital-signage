@@ -25,7 +25,6 @@ function HomeStation() {
         <li><Link to="/station13" relative="path" className="homeImg">Station 13</Link></li>
         <li><Link to="/station14" relative="path" className="homeImg">Station 14</Link></li>
         <li><Link to="/station15" relative="path" className="homeImg">Station 15</Link></li>
-        <li><Link to="/in-progress" relative="path" className="homeImg">In Progress</Link></li>
         <li><Link to="/hamradio" relative="path" className="homeImg">HAM Radio</Link></li>
       </ul>
     </>
