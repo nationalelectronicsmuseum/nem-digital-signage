@@ -77,7 +77,6 @@ import Station14 from "./pages/station14";
 import Station15 from "./pages/station15";
 
 import HAMRadio from "./pages/hamRadio.jsx";
-import InProgress from "./pages/inProgress";
 import { ImageOverlayProvider } from "./components/OverlayImage/OverlayImageContext.jsx";
 
 function App() {
@@ -88,7 +87,6 @@ function App() {
           <Routes>
             <Route exact path="/" element={<HomeStation />} />
             <Route path="/admin" element={<Admin />} />
-            <Route path="/in-progress" element={<InProgress />} />
 
             <Route path="/station1" element={<Station1 />} />
             <Route path="/voltage-and-current" element={<VoltAndCurr />} />
