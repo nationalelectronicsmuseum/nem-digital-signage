@@ -7,7 +7,7 @@ const defaultSettings = {
   language: Constant.LANGUAGE_ENGLISH,
   speech: Constant.SPEECH_ENGLISH,
   listPadding: Constant.LIST_PADDING_MEDIUM,
-  speechEnabled: false
+  speechEnabled: true
 };
 
 const SettingsContext = createContext();
