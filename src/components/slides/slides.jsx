@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
 import { useSpeechSynthesis } from '../speech/useSpeechSynthesis';
 import { useSettings } from "../../components/AccessibilitySettings/AccessibilitySettings.jsx";
-import { useImageOverlay } from "../OverlayImage/OverlayImageContext.jsx";
+import SlideImage from "../slideImage/SlideImage.jsx";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -14,7 +14,6 @@ import Speech from "../speech/speech";
 const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactImg4 }) => {
   const { settings, setSettings } = useSettings();
   const { voices, status, toggle, stop } = useSpeechSynthesis();
-  const { openOverlay } = useImageOverlay();
 
   const directionsText = artifact.directions.steps.map((x) => x.step).join(" ");
 
@@ -50,14 +49,7 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
               </div>
 
               <div className="right">
-                <img style={{ 
-                  maxWidth: "600px", 
-                  maxHeight: "700px", 
-                  position: "absolute", 
-                  top: "40%", 
-                  left: "75%", 
-                  transform: "translate(-50%) translateY(-50%)" }} 
-                  src={artifactImg1} onClick={() => openOverlay(artifactImg1)}></img>
+                <SlideImage img={artifactImg1} />
               </div>
             </div>
           </div>
@@ -76,7 +68,7 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
               </p>
             </div>
             <div className="right">
-              <img onClick={() => openOverlay(artifactImg2)} style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg2}></img>
+              <SlideImage img={artifactImg2} />
             </div>
           </div>
         </SwiperSlide>

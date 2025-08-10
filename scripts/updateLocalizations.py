@@ -6,13 +6,19 @@ import hashlib
 from googletrans import Translator
 from titlecase import titlecase
 
-input_file = "./src/assets/database/artifact.js"
+language_codes = ["es", "fr", "de"]
+
 cache_file = "./translation_cache.json"
 
-language_codes = ["es", "fr", "de"]
+input_file = "./src/assets/database/artifact.js"
 output_files = ["./src/assets/database/artifact-spanish.js",
                 "./src/assets/database/artifact-french.js",
                 "./src/assets/database/artifact-german.js"]
+
+input_file_constants = "./src/assets/database/constant.js"
+output_files_constants = ["./src/assets/database/constant-spanish.js",
+                          "./src/assets/database/constant-french.js",
+                          "./src/assets/database/constant-german.js"]
 
 translator = Translator()
 
@@ -82,11 +88,11 @@ async def translate_file_for_language(lang_code, output_file, content, cache, st
         f.write(translated_content)
     print(f"[{lang_code}] Translation written to {output_file}")
 
-async def main():
-    if len(language_codes) != len(output_files):
+async def runLocalizer(inputFile, outputFiles):
+    if len(language_codes) != len(outputFiles):
         raise ValueError("Language codes and output file paths must have the same length.")
 
-    with open(input_file, 'r', encoding='utf-8') as f:
+    with open(inputFile, 'r', encoding='utf-8') as f:
         content = f.read()
 
     matches = string_literal_pattern.findall(content)
@@ -95,10 +101,14 @@ async def main():
 
     cache = load_cache()
 
-    for lang_code, output_file in zip(language_codes, output_files):
+    for lang_code, output_file in zip(language_codes, outputFiles):
         await translate_file_for_language(lang_code, output_file, content, cache, string_to_hash)
 
     save_cache(cache)
+
+async def main():
+    await runLocalizer(input_file, output_files)
+    await runLocalizer(input_file_constants, output_files_constants)
 
 if __name__ == "__main__":
     asyncio.run(main())

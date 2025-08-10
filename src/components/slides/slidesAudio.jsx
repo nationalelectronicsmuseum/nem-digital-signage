@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
+import SlideImage from "../slideImage/SlideImage.jsx";
 import { useImageOverlay } from "../OverlayImage/OverlayImageContext.jsx";
 
 import "swiper/css";
@@ -85,7 +86,7 @@ const SlidesAudio = () => {
                     <SwiperSlide>
                         <div className="audioSlides">
                             <div className="placeholder">
-                            <img src={audioImg1} onClick={ () => openOverlay(audioImg1)}></img>
+                            <SlideImage img={audioImg1} />
                             </div>
                             <div className="audioRight">
                                 <h3>Bunker Hill</h3>
@@ -106,7 +107,7 @@ const SlidesAudio = () => {
                     <SwiperSlide>
                     <div className="audioSlides">
                             <div className="placeholder">
-                            <img src={audioImg2} onClick={ () => openOverlay(audioImg2)}></img>
+                            <SlideImage img={audioImg2} />
                             </div>
                             <div className="audioRight">
                                 <h3>Over There</h3>
@@ -125,7 +126,7 @@ const SlidesAudio = () => {
                     <SwiperSlide>
                     <div className="audioSlides">
                             <div className="audioLeft">
-                                <img style={{left: "-20"}}src={audioImg3} onClick={ () => openOverlay(audioImg3)}></img>
+                                <SlideImage img={audioImg3} />
                             </div>
                             <div className="audioRight">
                                 <h3>Johnny B. Goode</h3>

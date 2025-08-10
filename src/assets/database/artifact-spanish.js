@@ -283,7 +283,7 @@ const data = [
     "tag": 4
   },
   {
-    "title": "¿Tiene La Potencia De Ser Un Conductor Eléctrico?",
+    "title": "¿Tienes El Poder De Ser Un Conductor Eléctrico?",
     "info": [
       {
         "id": 1,

@@ -9,6 +9,7 @@ import "./slides.css";
 import Speech from "../speech/speech";
 import { useSettings } from "../../components/AccessibilitySettings/AccessibilitySettings.jsx";
 import { useSpeechSynthesis } from '../speech/useSpeechSynthesis.jsx';
+import SlideImage from "../slideImage/SlideImage.jsx";
 import { useImageOverlay } from "../OverlayImage/OverlayImageContext.jsx";
 
 const SlidesMarconi = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactImg4 }) => {
@@ -51,15 +52,7 @@ const SlidesMarconi = ({ artifact, artifactImg1, artifactImg2, artifactImg3, art
               </div>
 
               <div className="right">
-                <img style={{ 
-                  maxWidth: "600px", 
-                  maxHeight: "700px", 
-                  position: "absolute", 
-                  top: "40%", 
-                  left: "75%", 
-                  transform: "translate(-50%) translateY(-50%)" }} 
-                  src={artifactImg1}
-                  onClick={() => openOverlay(artifactImg1)}></img>
+                <SlideImage img={artifactImg1} />
               </div>
             </div>
           </div>
@@ -118,9 +111,7 @@ const SlidesMarconi = ({ artifact, artifactImg1, artifactImg2, artifactImg3, art
             </div>
 
             <div className="right">
-            <div className="right">
-                <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg2} onClick={() => openOverlay(artifactImg2)}></img>
-            </div>
+                <SlideImage img={artifactImg2} />
             </div>
           </div>
           
@@ -139,7 +130,7 @@ const SlidesMarconi = ({ artifact, artifactImg1, artifactImg2, artifactImg3, art
             </div>
 
             <div className="right">
-                <img style={{ maxWidth: "600px", maxHeight: "700px", position: "absolute", top: "40%", left: "75%", transform: "translate(-50%) translateY(-50%)" }} src={artifactImg3} onClick={() => openOverlay(artifactImg3)}></img>
+                <SlideImage img={artifactImg3} />
             </div>
           </div>
           
