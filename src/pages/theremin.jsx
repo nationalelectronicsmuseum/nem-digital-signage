@@ -3,20 +3,20 @@ import Slides from "../components/slides/slides";
 import Loop from '../components/loop'
 import StationHeader from "../components/StationHeader/StationHeader.jsx"
 import { getLocalizedArtifact } from "../assets/Localization.js";
-import { HARRISON_INSTRUMENTS_302_THEREMIN } from "../assets/ArtifactTags.js";
+import { THEREMIN } from "../assets/ArtifactTags.js";
 
 import image1 from "../assets/img/theremin1.svg"
 import image2 from "../assets/img/theremin2.webp"
 
 function Theremin() {
-  const artifact = getLocalizedArtifact(HARRISON_INSTRUMENTS_302_THEREMIN);
+  const artifact = getLocalizedArtifact(THEREMIN);
 
   return (
     <div>
       <StationHeader nav={<NavStation5 />} artifact={artifact} />
       <div className="sectionhead">
         <div className="sectiontitle">
-          <h1 className="artifactTitle">{artifact.title}</h1>
+          <h1 className="artifactTitle">{artifact.slideTitle}</h1>
         </div>
       </div>
       <Loop />

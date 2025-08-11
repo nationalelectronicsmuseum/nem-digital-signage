@@ -1,6 +1,7 @@
 const data = [
   {
-    "title": "Lui Radio",
+    "stationTitle": "Lui Radio",
+    "slideTitle": "Lui Radio",
     "info": [
       {
         "id": 1,
@@ -36,7 +37,8 @@ const data = [
   },
   {
     "tag": 1,
-    "title": "Tension Et Courant",
+    "stationTitle": "Tension Et Courant",
+    "slideTitle": "Tension Et Courant",
     "info": [
       {
         "id": 1,
@@ -69,7 +71,8 @@ const data = [
     "how": "En retournant l'interrupteur, vous fermez le circuit et laissez le courant s'écouler dans le chemin du circuit. Sans la force de la tension et le chemin d'un circuit, le courant ne coule pas. La tension pousse le courant, le forçant à circuler à travers un circuit fermé et allumer l'ampoule."
   },
   {
-    "title": "Le Détecteur Magnétique Marconi",
+    "stationTitle": "Le Détecteur Magnétique Marconi",
+    "slideTitle": "Le Détecteur Magnétique Marconi",
     "info": [
       {
         "id": 1,
@@ -182,7 +185,8 @@ const data = [
     "tag": 2
   },
   {
-    "title": "l'Expérience De Faraday: Électricité Et Magnétisme",
+    "stationTitle": "Le Projet Faraday",
+    "slideTitle": "l'Expérience De Faraday: Électricité Et Magnétisme",
     "info": [
       {
         "id": 1,
@@ -230,7 +234,8 @@ const data = [
     "tag": 3
   },
   {
-    "title": "Expérience De Oersted",
+    "stationTitle": "Foulé",
+    "slideTitle": "Expérience De Oersted",
     "info": [
       {
         "id": 1,
@@ -283,7 +288,8 @@ const data = [
     "tag": 4
   },
   {
-    "title": "Avez-Vous Le Pouvoir d'Être Un Conducteur Électrique?",
+    "stationTitle": "Batterie Humaine",
+    "slideTitle": "Avez-Vous Le Pouvoir d'Être Un Conducteur Électrique?",
     "info": [
       {
         "id": 1,
@@ -327,7 +333,8 @@ const data = [
     "tag": 5
   },
   {
-    "title": "Fils De Saut",
+    "stationTitle": "Fil De Saute",
+    "slideTitle": "Fils De Saut",
     "info": [
       {
         "id": 1,
@@ -399,7 +406,8 @@ const data = [
     "tag": 6
   },
   {
-    "title": "Expérience d'Échelle De Jacob: Démontrer Les Principes Électriques",
+    "stationTitle": "Expérience d'Échelle De Jacob",
+    "slideTitle": "Expérience d'Échelle De Jacob: Démontrer Les Principes Électriques",
     "info": [
       {
         "id": 1,
@@ -439,7 +447,8 @@ const data = [
     "tag": 7
   },
   {
-    "title": "Électricité Statique: Une Découverte Choquante",
+    "stationTitle": "Électricité Statique",
+    "slideTitle": "Électricité Statique: Une Découverte Choquante",
     "info": [
       {
         "id": 1,
@@ -482,7 +491,8 @@ const data = [
     "tag": 8
   },
   {
-    "title": "Expérience De Polarisation",
+    "stationTitle": "Expérience De Polarisation",
+    "slideTitle": "Expérience De Polarisation",
     "info": [
       {
         "id": 1,
@@ -522,7 +532,8 @@ const data = [
     "tag": 9
   },
   {
-    "title": "Pourquoi Les Micro-Ondes Ont-Ils Des Platines?",
+    "stationTitle": "Pourquoi Les Micro-Ondes Ont-Ils Des Platines?",
+    "slideTitle": "Pourquoi Les Micro-Ondes Ont-Ils Des Platines?",
     "info": [
       {
         "id": 1,
@@ -554,7 +565,8 @@ const data = [
     "tag": 10
   },
   {
-    "title": "Machine Télégraphique - Connexion Du Monde",
+    "stationTitle": "Machine Télégraphique",
+    "slideTitle": "Machine Télégraphique - Connexion Du Monde",
     "info": [
       {
         "id": 1,
@@ -636,7 +648,8 @@ const data = [
     "tag": 11
   },
   {
-    "title": "Harrison Instruments 302 Theremin",
+    "stationTitle": "Theremin",
+    "slideTitle": "Harrison Instruments 302 Theremin",
     "info": [
       {
         "id": 1,
@@ -689,7 +702,8 @@ const data = [
     "tag": 12
   },
   {
-    "title": "Première Diffusion",
+    "stationTitle": "Première Diffusion",
+    "slideTitle": "Première Diffusion",
     "info": [
       {
         "id": 1,
@@ -728,7 +742,8 @@ const data = [
     "tag": 13
   },
   {
-    "title": "Turbine Manuelle",
+    "stationTitle": "Turbine Manuelle",
+    "slideTitle": "Turbine Manuelle",
     "info": [
       {
         "id": 1,
@@ -767,46 +782,8 @@ const data = [
     "tag": 14
   },
   {
-    "title": "Theremin",
-    "info": [
-      {
-        "id": 1,
-        "text": ""
-      },
-      {
-        "id": 2,
-        "text": ""
-      },
-      {
-        "id": 3,
-        "text": ""
-      }
-    ],
-    "description": [
-      "",
-      "",
-      "",
-      ""
-    ],
-    "impact": "",
-    "directions": {
-      "title": "Comment Ça Marche?",
-      "steps": [
-        {
-          "id": 1,
-          "step": ""
-        },
-        {
-          "id": 2,
-          "step": ""
-        }
-      ]
-    },
-    "how": "",
-    "tag": 15
-  },
-  {
-    "title": "Ondes Radio Électromagnétiques",
+    "stationTitle": "Ondes Radio Électromagnétiques",
+    "slideTitle": "Ondes Radio Électromagnétiques",
     "info": [
       {
         "id": 1,
@@ -862,10 +839,11 @@ const data = [
       ]
     },
     "how": "Dans la communication électronique, la bande passante est la quantité d'informations transmises sur une onde électromagnétique.  Plus il y a d'informations dans une transmission, plus elle se propage de fréquences.  Étant donné que la fréquence d'un signal est mesurée dans Hertz (le nombre de cycles de changement par seconde), une bande passante est la différence de Hertz entre la fréquence la plus élevée et la fréquence la plus basse qu'il utilise.  La bande passante est intimement liée à l'efficacité, à la capacité et à la qualité des systèmes de communication à base d'ondes radio.  En gérant l'allocation de la bande passante et l'optimisation des paramètres de transmission, les ingénieurs peuvent concevoir des réseaux de communication qui offrent une connectivité fiable et à grande vitesse aux utilisateurs du monde entier. Quelque part au-dessus de vous en ce moment, un avion diffuse son emplacement, sa vitesse et sa roulement sur 1090 MHz.  Un satellite météorologique géostationnaire à 22 000 kilomètres de la Terre transmet des cartes météorologiques détaillées sur 1694,1 MHz.  Une voiture conduisant près de votre maison transmet un signal avec la lecture de la pression de l'un de ses pneus à 315 MHz.  Un satellite GPS volant au-dessus de 8 000 miles par heure fait un signal à votre téléphone à 1575,42 MHz.  Une bouée de données dans l'océan Atlantique transmet la température de la mer, la hauteur des vagues et les lectures de vitesse du vent dans un satellite NOAA à 401 MHz.  En plus de tout cela, chaque appareil mobile et routeur WiFi près de chez vous saute le trafic Internet de tout le monde dans les airs au-dessus des ondes radio.  Tous ces éléments peuvent se produire simultanément grâce à un spectre radio très soigneusement réglementé.  Les radiodiffuseurs agréés peuvent se voir attribuer des parties de la bande passante accessible au niveau régional afin que leurs signaux n'interfèrent pas les uns avec les autres. La Federal Communication Commission (FCC) et la National Telecommunications and Information Administration (NTIA) partagent la tâche de gérer l'attribution des fréquences radio pour les ondes américaines.  La NTIA gère les applications fédérales sur toutes les applications radio (y compris les utilisations militaires), tandis que la FCC gère tout le reste, y compris l'utilisation de la radio commerciale et locale, commerciale et amateur.",
-    "tag": 16
+    "tag": 15
   },
   {
-    "title": "Tube À Vide",
+    "stationTitle": "Tube À Vide",
+    "slideTitle": "Tube À Vide",
     "info": [
       {
         "id": 1,
@@ -901,127 +879,11 @@ const data = [
       ]
     },
     "how": "L'écran de fil ouvert peut refléter ou transmettre des ondes électromagnétiques qui sont polarisées verticalement. Certaines vagues traversent les espaces entre les fils, tandis que d'autres vagues sont reflétées des fils. Pour les ondes polarisées verticalement, l'écran bloque le plus efficacement lorsque ses fils sont également verticaux.",
-    "tag": 17
+    "tag": 16
   },
   {
-    "title": "",
-    "info": [
-      {
-        "id": 1,
-        "text": ""
-      },
-      {
-        "id": 2,
-        "text": ""
-      },
-      {
-        "id": 3,
-        "text": ""
-      }
-    ],
-    "description": [
-      "",
-      "",
-      "",
-      ""
-    ],
-    "impact": "",
-    "directions": {
-      "title": "Comment Ça Marche?",
-      "steps": [
-        {
-          "id": 1,
-          "step": ""
-        },
-        {
-          "id": 2,
-          "step": ""
-        }
-      ]
-    },
-    "how": "",
-    "tag": 18
-  },
-  {
-    "title": "",
-    "info": [
-      {
-        "id": 1,
-        "text": ""
-      },
-      {
-        "id": 2,
-        "text": ""
-      },
-      {
-        "id": 3,
-        "text": ""
-      }
-    ],
-    "description": [
-      "",
-      "",
-      "",
-      ""
-    ],
-    "impact": "",
-    "directions": {
-      "title": "Comment Ça Marche?",
-      "steps": [
-        {
-          "id": 1,
-          "step": ""
-        },
-        {
-          "id": 2,
-          "step": ""
-        }
-      ]
-    },
-    "how": "",
-    "tag": 19
-  },
-  {
-    "title": "",
-    "info": [
-      {
-        "id": 1,
-        "text": ""
-      },
-      {
-        "id": 2,
-        "text": ""
-      },
-      {
-        "id": 3,
-        "text": ""
-      }
-    ],
-    "description": [
-      "",
-      "",
-      "",
-      ""
-    ],
-    "impact": "",
-    "directions": {
-      "title": "Comment Ça Marche?",
-      "steps": [
-        {
-          "id": 1,
-          "step": ""
-        },
-        {
-          "id": 2,
-          "step": ""
-        }
-      ]
-    },
-    "how": "",
-    "tag": 20
-  },
-  {
-    "title": "Le Générateur Van De Graaff: Exploitant La Puissance De l'Électricité Statique",
+    "stationTitle": "Du Générateur Graaff",
+    "slideTitle": "Le Générateur Van De Graaff: Exploitant La Puissance De l'Électricité Statique",
     "info": [
       {
         "id": 1,
@@ -1119,10 +981,11 @@ const data = [
         }
       ]
     },
-    "tag": 21
+    "tag": 17
   },
   {
-    "title": "Le Traducteur Audio",
+    "stationTitle": "Traducteur Audio",
+    "slideTitle": "Le Traducteur Audio",
     "info": [
       {
         "id": 1,
@@ -1160,10 +1023,11 @@ const data = [
       ]
     },
     "how": "Un traducteur audio fonctionne en capturant des ondes sonores à travers un microphone ou un diaphragme sensible. Ces ondes sonores sont ensuite converties en signaux électriques. Cette transformation permet aux signaux d'être amplifiés, transmis et reproduits comme son à une fin de réception. Essentiellement, il convertit les informations audibles en impulsions électriques pour une transmission efficace sur les distances, garantissant que les sons d'origine restent intacts lorsqu'ils atteignent leur destination.",
-    "tag": 22
+    "tag": 18
   },
   {
-    "title": "Introduction Aux Ondes Électromagnétiques",
+    "stationTitle": "Ondes Électromagnétiques",
+    "slideTitle": "Introduction Aux Ondes Électromagnétiques",
     "description": "Bienvenue, alors que nous voyageons à travers les forces invisibles qui façonnent notre univers. Des ondes radio aux rayons gamma, les ondes électromagnétiques englobent un vaste spectre d'énergie qui imprègne tous les aspects de notre vie quotidienne.  Suivez alors que nous explorons leur impact profond sur la technologie, la communication et notre compréhension du cosmos.",
     "categories": {
       "title": "Catégories d'Ondes Électromagnétiques",
@@ -1228,143 +1092,152 @@ const data = [
       "Lorsque vous explorez les catégories des ondes électromagnétiques, vous gagnerez une appréciation plus profonde pour la diversité et la signification de ces phénomènes.  Des applications pratiques de la technologie quotidienne aux idées profondes qu'elles fournissent sur la nature de l'univers, les ondes électromagnétiques continuent de façonner notre monde d'une manière à la fois vue et invisible.",
       "Portez une attention particulière à nos expositions sur les «ondes électromagnétiques visuelles» et les «ondes radio électromagnétiques» pour un aperçu supplémentaire de ces exemples d'ondes électromagnétiques."
     ],
-    "tag": 23
+    "tag": 19
+  },
+  {
+    "tag": 20,
+    "stationTitle": "Section 1",
+    "slideTitle": "Section 1",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Il s'agit d'un exemple de texte.",
+      "Il s'agit également d'un exemple de texte."
+    ],
+    "impact": "Impact Exemple de texte",
+    "directions": {
+      "title": "Comment Ça Marche",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Étape 1"
+        },
+        {
+          "id": 2,
+          "step": "Étape 2"
+        },
+        {
+          "id": 3,
+          "step": "Profit"
+        }
+      ]
+    },
+    "watch": "Regarder un exemple de texte",
+    "how": "Comment exemple de texte"
+  },
+  {
+    "tag": 21,
+    "stationTitle": "Section 2",
+    "slideTitle": "Section 2",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Il s'agit d'un exemple de texte.",
+      "Il s'agit également d'un exemple de texte."
+    ],
+    "impact": "Impact Exemple de texte",
+    "directions": {
+      "title": "Comment Ça Marche",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Étape 1"
+        },
+        {
+          "id": 2,
+          "step": "Étape 2"
+        },
+        {
+          "id": 3,
+          "step": "Profit"
+        }
+      ]
+    },
+    "watch": "Regarder un exemple de texte",
+    "how": "Comment exemple de texte"
+  },
+  {
+    "tag": 22,
+    "stationTitle": "Section 3",
+    "slideTitle": "Section 3",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Il s'agit d'un exemple de texte.",
+      "Il s'agit également d'un exemple de texte."
+    ],
+    "impact": "Impact Exemple de texte",
+    "directions": {
+      "title": "Comment Ça Marche",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Étape 1"
+        },
+        {
+          "id": 2,
+          "step": "Étape 2"
+        },
+        {
+          "id": 3,
+          "step": "Profit"
+        }
+      ]
+    },
+    "watch": "Regarder un exemple de texte",
+    "how": "Comment exemple de texte"
+  },
+  {
+    "tag": 23,
+    "stationTitle": "Section 4",
+    "slideTitle": "Section 4",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Il s'agit d'un exemple de texte.",
+      "Il s'agit également d'un exemple de texte."
+    ],
+    "impact": "Impact Exemple de texte",
+    "directions": {
+      "title": "Comment Ça Marche",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Étape 1"
+        },
+        {
+          "id": 2,
+          "step": "Étape 2"
+        },
+        {
+          "id": 3,
+          "step": "Profit"
+        }
+      ]
+    },
+    "watch": "Regarder un exemple de texte",
+    "how": "Comment exemple de texte"
   },
   {
     "tag": 24,
-    "title": "Section 1",
-    "info": [
-      {
-        "id": 1,
-        "text": ""
-      }
-    ],
-    "description": [
-      "Il s'agit d'un exemple de texte.",
-      "Il s'agit également d'un exemple de texte."
-    ],
-    "impact": "Impact Exemple de texte",
-    "directions": {
-      "title": "Comment Ça Marche",
-      "steps": [
-        {
-          "id": 1,
-          "step": "Étape 1"
-        },
-        {
-          "id": 2,
-          "step": "Étape 2"
-        },
-        {
-          "id": 3,
-          "step": "Profit"
-        }
-      ]
-    },
-    "watch": "Regarder un exemple de texte",
-    "how": "Comment exemple de texte"
-  },
-  {
-    "tag": 25,
-    "title": "Section 2",
-    "info": [
-      {
-        "id": 1,
-        "text": ""
-      }
-    ],
-    "description": [
-      "Il s'agit d'un exemple de texte.",
-      "Il s'agit également d'un exemple de texte."
-    ],
-    "impact": "Impact Exemple de texte",
-    "directions": {
-      "title": "Comment Ça Marche",
-      "steps": [
-        {
-          "id": 1,
-          "step": "Étape 1"
-        },
-        {
-          "id": 2,
-          "step": "Étape 2"
-        },
-        {
-          "id": 3,
-          "step": "Profit"
-        }
-      ]
-    },
-    "watch": "Regarder un exemple de texte",
-    "how": "Comment exemple de texte"
-  },
-  {
-    "tag": 26,
-    "title": "Section 3",
-    "info": [
-      {
-        "id": 1,
-        "text": ""
-      }
-    ],
-    "description": [
-      "Il s'agit d'un exemple de texte.",
-      "Il s'agit également d'un exemple de texte."
-    ],
-    "impact": "Impact Exemple de texte",
-    "directions": {
-      "title": "Comment Ça Marche",
-      "steps": [
-        {
-          "id": 1,
-          "step": "Étape 1"
-        },
-        {
-          "id": 2,
-          "step": "Étape 2"
-        },
-        {
-          "id": 3,
-          "step": "Profit"
-        }
-      ]
-    },
-    "watch": "Regarder un exemple de texte",
-    "how": "Comment exemple de texte"
-  },
-  {
-    "tag": 27,
-    "title": "Section 4",
-    "info": [
-      {
-        "id": 1,
-        "text": ""
-      }
-    ],
-    "description": [
-      "Il s'agit d'un exemple de texte.",
-      "Il s'agit également d'un exemple de texte."
-    ],
-    "impact": "Impact Exemple de texte",
-    "directions": {
-      "title": "Comment Ça Marche",
-      "steps": [
-        {
-          "id": 1,
-          "step": "Étape 1"
-        },
-        {
-          "id": 2,
-          "step": "Étape 2"
-        },
-        {
-          "id": 3,
-          "step": "Profit"
-        }
-      ]
-    },
-    "watch": "Regarder un exemple de texte",
-    "how": "Comment exemple de texte"
+    "stationTitle": "Évolution Du Son Enregistré",
+    "slideTitle": "l'Évolution Du Son Enregistré",
   }
 ];
 

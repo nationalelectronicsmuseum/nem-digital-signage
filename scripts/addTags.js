@@ -20,7 +20,7 @@ console.log('Tags added and file saved.');
 
 // Generate constants file
 const constants = artifact.map(item => {
-  let constName = item.title || item.name || `TAG_${item.tag}`;
+  let constName = item.stationTitle || item.name || `TAG_${item.tag}`;
   constName = constName
     .toUpperCase()
     .replace('\'', '')

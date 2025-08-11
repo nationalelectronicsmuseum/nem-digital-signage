@@ -3,20 +3,20 @@ import NavStation2 from "../components/nav/navStation2.jsx";
 import Loop from "../components/loop";
 import StationHeader from "../components/StationHeader/StationHeader.jsx";
 import { getLocalizedArtifact } from "../assets/Localization.js";
-import { JUMPING_WIRES } from "../assets/ArtifactTags.js";
+import { JUMPING_WIRE } from "../assets/ArtifactTags.js";
 
 import image1 from "../assets/img/jumpingwire1.jpg";
 import image2 from "../assets/img/jumpingwire2.jpg";
 
 function JumpingWires() {
-  const artifact = getLocalizedArtifact(JUMPING_WIRES);
+  const artifact = getLocalizedArtifact(JUMPING_WIRE);
 
   return (
     <div>
       <StationHeader nav={<NavStation2 />} artifact={artifact} />
       <div className="sectionhead">
         <div className="sectiontitle">
-          <h1 className="artifactTitle">{artifact.title}</h1>
+          <h1 className="artifactTitle">{artifact.slideTitle}</h1>
         </div>
       </div>
       <Loop />

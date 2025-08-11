@@ -16,7 +16,7 @@ function VisibleElectronicWaves() {
       <StationHeader nav={<NavStation3 />} artifact={artifact} />
       <div className="sectionhead">
         <div className="sectiontitle">
-          <h1 className="artifactTitle">{artifact.title}</h1>
+          <h1 className="artifactTitle">{artifact.slideTitle}</h1>
         </div>
       </div>
       <Loop />

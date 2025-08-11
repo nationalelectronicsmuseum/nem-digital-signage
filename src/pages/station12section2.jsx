@@ -14,7 +14,7 @@ export default function Station12Section2() {
       <StationHeader nav={<NavStation12 />} artifact={artifact} />
       <div className="sectionhead">
         <div className="sectiontitle">
-          <h1 className="artifactTitle">{artifact.title}</h1>
+          <h1 className="artifactTitle">{artifact.slideTitle}</h1>
         </div>
       </div>
       <Loop />

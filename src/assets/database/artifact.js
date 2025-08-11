@@ -1,6 +1,7 @@
 const data = [
   {
-    "title": "HAM Radio",
+    "stationTitle": "HAM Radio",
+    "slideTitle": "HAM Radio",
     "info": [
       {
         "id": 1,
@@ -36,7 +37,8 @@ const data = [
   },
   {
     "tag": 1,
-    "title": "Voltage and Current",
+    "stationTitle": "Voltage and Current",
+    "slideTitle": "Voltage and Current",
     "info": [
       {
         "id": 1,
@@ -69,7 +71,8 @@ const data = [
     "how": "By flipping the switch, you close the circuit and allow the current to flow in the circuit`s path. Without the force of the voltage and the path of a circuit, current will not flow. Voltage pushes current, forcing it to flow through a closed circuit and light the bulb."
   },
   {
-    "title": "The Marconi Magnetic Detector",
+    "stationTitle": "The Marconi Magnetic Detector",
+    "slideTitle": "The Marconi Magnetic Detector",
     "info": [
       {
         "id": 1,
@@ -182,7 +185,8 @@ const data = [
     "tag": 2
   },
   {
-    "title": "Faraday's Experiment: Electricity and Magnetism",
+    "stationTitle": "The Faraday Project",
+    "slideTitle": "Faraday's Experiment: Electricity and Magnetism",
     "info": [
       {
         "id": 1,
@@ -230,7 +234,8 @@ const data = [
     "tag": 3
   },
   {
-    "title": "Oersted's Experiment",
+    "stationTitle": "Oersted",
+    "slideTitle": "Oersted's Experiment",
     "info": [
       {
         "id": 1,
@@ -283,7 +288,8 @@ const data = [
     "tag": 4
   },
   {
-    "title": "Do you have the power to be an electrical conductor?",
+    "stationTitle": "Human Battery",
+    "slideTitle": "Do you have the power to be an electrical conductor?",
     "info": [
       {
         "id": 1,
@@ -327,7 +333,8 @@ const data = [
     "tag": 5
   },
   {
-    "title": "Jumping Wires",
+    "stationTitle": "Jumping Wire",
+    "slideTitle": "Jumping Wires",
     "info": [
       {
         "id": 1,
@@ -399,7 +406,8 @@ const data = [
     "tag": 6
   },
   {
-    "title": "Jacob's Ladder Experiment: Demonstrating Electrical Principles",
+    "stationTitle": "Jacob's Ladder Experiment",
+    "slideTitle": "Jacob's Ladder Experiment: Demonstrating Electrical Principles",
     "info": [
       {
         "id": 1,
@@ -439,7 +447,8 @@ const data = [
     "tag": 7
   },
   {
-    "title": "Static Electricity: A Shocking Discovery",
+    "stationTitle": "Static Electricity",
+    "slideTitle": "Static Electricity: A Shocking Discovery",
     "info": [
       {
         "id": 1,
@@ -482,7 +491,8 @@ const data = [
     "tag": 8
   },
   {
-    "title": "Polarization Experiment",
+    "stationTitle": "Polarization Experiment",
+    "slideTitle": "Polarization Experiment",
     "info": [
       {
         "id": 1,
@@ -522,7 +532,8 @@ const data = [
     "tag": 9
   },
   {
-    "title": "Why do Microwaves Have Turntables?",
+    "stationTitle": "Why do Microwaves Have Turntables?",
+    "slideTitle": "Why do Microwaves Have Turntables?",
     "info": [
       {
         "id": 1,
@@ -554,7 +565,8 @@ const data = [
     "tag": 10
   },
   {
-    "title": "Telegraph Machine - Connecting the World",
+    "stationTitle": "Telegraph Machine",
+    "slideTitle": "Telegraph Machine - Connecting the World",
     "info": [
       {
         "id": 1,
@@ -636,7 +648,8 @@ const data = [
     "tag": 11
   },
   {
-    "title": "Harrison Instruments 302 Theremin",
+    "stationTitle": "Theremin",
+    "slideTitle": "Harrison Instruments 302 Theremin",
     "info": [
       {
         "id": 1,
@@ -689,7 +702,8 @@ const data = [
     "tag": 12
   },
   {
-    "title": "First Broadcast",
+    "stationTitle": "First Broadcast",
+    "slideTitle": "First Broadcast",
     "info": [
       {
         "id": 1,
@@ -728,7 +742,8 @@ const data = [
     "tag": 13
   },
   {
-    "title": "Manual Turbine",
+    "stationTitle": "Manual Turbine",
+    "slideTitle": "Manual Turbine",
     "info": [
       {
         "id": 1,
@@ -767,46 +782,8 @@ const data = [
     "tag": 14
   },
   {
-    "title": "Theramin",
-    "info": [
-      {
-        "id": 1,
-        "text": ""
-      },
-      {
-        "id": 2,
-        "text": ""
-      },
-      {
-        "id": 3,
-        "text": ""
-      }
-    ],
-    "description": [
-      "",
-      "",
-      "",
-      ""
-    ],
-    "impact": "",
-    "directions": {
-      "title": "How Does it Work?",
-      "steps": [
-        {
-          "id": 1,
-          "step": ""
-        },
-        {
-          "id": 2,
-          "step": ""
-        }
-      ]
-    },
-    "how": "",
-    "tag": 15
-  },
-  {
-    "title": "Electromagnetic Radio Waves",
+    "stationTitle": "Electromagnetic Radio Waves",
+    "slideTitle": "Electromagnetic Radio Waves",
     "info": [
       {
         "id": 1,
@@ -862,10 +839,11 @@ const data = [
       ]
     },
     "how": "In electronic communication, bandwidth is the amount of information that is transmitted on an electromagnetic wave.  The more information in a transmission, the more frequencies it spreads across.  Since the frequency of a signal is measured in hertz (the number of cycles of change per second), a bandwidth is the difference in hertz between the highest frequency and the lowest frequency it uses.  Bandwidth is intimately linked to the efficiency, capacity, and quality of radio wave-based communication systems.  By managing bandwidth allocation and optimizing transmission parameters, engineers can design communication networks that deliver reliable, high-speed connectivity to users worldwide. Somewhere above you right now, a plane is broadcasting its location, speed and bearing on 1090 MHz.  A geostationary weather satellite 22 thousand miles from Earth is transmitting detailed weather maps on 1694.1 MHz.  A car driving by your home is transmitting a signal with the pressure readout of one of its tires at 315MHz.  A GPS satellite flying overhead at 8,000 miles per hour is pinging a signal to your phone at 1575.42 MHz .  A data buoy bobbing in the Atlantic ocean transmits sea temperature, wave height and wind speed readings to a NOAA satellite at 401 MHz.  On top of all that, every single mobile device and WiFi router near you blasts out everyone’s internet traffic through the air over radio waves.  All of these can occur simultaneously thanks to a very carefully regulated radio spectrum.  Licensed broadcasters may be assigned portions of the regionally available bandwidth so that their signals do not interfere with each other. The Federal Communication Commission (FCC) and the National Telecommunications and Information Administration (NTIA) share the task of managing the allotment of radio frequencies for U.S. airwaves.  The NTIA manages Federal all radio applications (including military uses), while the FCC manages everything else including state and local government, commercial and amateur radio use.",
-    "tag": 16
+    "tag": 15
   },
   {
-    "title": "Vacuum Tube",
+    "stationTitle": "Vacuum Tube",
+    "slideTitle": "Vacuum Tube",
     "info": [
       {
         "id": 1,
@@ -901,127 +879,11 @@ const data = [
       ]
     },
     "how": "The open wire screen can reflect or transmit electromagnetic waves which are vertically polarized. Some waves pass through the spaces between the wires, while other waves are reflected back off the wires. For vertically polarized waves, the screen blocks most effectively when its wires are also vertical.",
-    "tag": 17
+    "tag": 16
   },
   {
-    "title": "",
-    "info": [
-      {
-        "id": 1,
-        "text": ""
-      },
-      {
-        "id": 2,
-        "text": ""
-      },
-      {
-        "id": 3,
-        "text": ""
-      }
-    ],
-    "description": [
-      "",
-      "",
-      "",
-      ""
-    ],
-    "impact": "",
-    "directions": {
-      "title": "How Does it Work?",
-      "steps": [
-        {
-          "id": 1,
-          "step": ""
-        },
-        {
-          "id": 2,
-          "step": ""
-        }
-      ]
-    },
-    "how": "",
-    "tag": 18
-  },
-  {
-    "title": "",
-    "info": [
-      {
-        "id": 1,
-        "text": ""
-      },
-      {
-        "id": 2,
-        "text": ""
-      },
-      {
-        "id": 3,
-        "text": ""
-      }
-    ],
-    "description": [
-      "",
-      "",
-      "",
-      ""
-    ],
-    "impact": "",
-    "directions": {
-      "title": "How Does it Work?",
-      "steps": [
-        {
-          "id": 1,
-          "step": ""
-        },
-        {
-          "id": 2,
-          "step": ""
-        }
-      ]
-    },
-    "how": "",
-    "tag": 19
-  },
-  {
-    "title": "",
-    "info": [
-      {
-        "id": 1,
-        "text": ""
-      },
-      {
-        "id": 2,
-        "text": ""
-      },
-      {
-        "id": 3,
-        "text": ""
-      }
-    ],
-    "description": [
-      "",
-      "",
-      "",
-      ""
-    ],
-    "impact": "",
-    "directions": {
-      "title": "How Does it Work?",
-      "steps": [
-        {
-          "id": 1,
-          "step": ""
-        },
-        {
-          "id": 2,
-          "step": ""
-        }
-      ]
-    },
-    "how": "",
-    "tag": 20
-  },
-  {
-    "title": "The Van de Graaff Generator: Harnessing the Power of Static Electricity",
+    "stationTitle": "Van de Graaff Generator",
+    "slideTitle": "The Van de Graaff Generator: Harnessing the Power of Static Electricity",
     "info": [
       {
         "id": 1,
@@ -1119,10 +981,11 @@ const data = [
         }
       ]
     },
-    "tag": 21
+    "tag": 17
   },
   {
-    "title": "The Audio Translator",
+    "stationTitle": "Audio Translator",
+    "slideTitle": "The Audio Translator",
     "info": [
       {
         "id": 1,
@@ -1160,10 +1023,11 @@ const data = [
       ]
     },
     "how": "An audio translator works by capturing sound waves through a sensitive microphone or diaphragm. These sound waves are then converted into electrical signals. This transformation allows the signals to be amplified, transmitted, and reproduced as sound at a receiving end. Essentially, it converts audible information into electrical impulses for efficient transmission across distances, ensuring that the original sounds remain intact when they reach their destination. ",
-    "tag": 22
+    "tag": 18
   },
   {
-    "title": "Introduction to Electromagnetic Waves",
+    "stationTitle": "Electromagnetic Waves",
+    "slideTitle": "Introduction to Electromagnetic Waves",
     "description": "Welcome, as we journey through the invisible forces that shape our universe. From radio waves to gamma rays, electromagnetic waves encompass a vast spectrum of energy that permeates every aspect of our daily lives.  Follow along as we explore their profound impact on technology, communication, and our understanding of the cosmos.",
     "categories": {
       "title": "Categories of Electromagnetic Waves",
@@ -1228,143 +1092,152 @@ const data = [
       "As you explore the categories of electromagnetic waves, you'll gain a deeper appreciation for the diversity and significance of these phenomena.  From the practical applications in everyday technology to the profound insights they provide into the nature of the universe, electromagnetic waves continue to shape our world in ways both seen and unseen.",
       "Pay particular attention to our exhibits on “Visual Electromagnetic Waves” and “Electromagnetic Radio Waves” for further insight into these examples of electromagnetic waves."
     ],
-    "tag": 23
+    "tag": 19
+  },
+  {
+    "tag": 20,
+    "stationTitle": "Section 1",
+    "slideTitle": "Section 1",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "This is sample text. ",
+      "This is sample text too."
+    ],
+    "impact": "Impact sample text",
+    "directions": {
+      "title": "How it Works",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Step 1"
+        },
+        {
+          "id": 2,
+          "step": "Step 2"
+        },
+        {
+          "id": 3,
+          "step": "Profit"
+        }
+      ]
+    },
+    "watch": "Watch sample text",
+    "how": "How sample text"
+  },
+  {
+    "tag": 21,
+    "stationTitle": "Section 2",
+    "slideTitle": "Section 2",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "This is sample text. ",
+      "This is sample text too."
+    ],
+    "impact": "Impact sample text",
+    "directions": {
+      "title": "How it Works",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Step 1"
+        },
+        {
+          "id": 2,
+          "step": "Step 2"
+        },
+        {
+          "id": 3,
+          "step": "Profit"
+        }
+      ]
+    },
+    "watch": "Watch sample text",
+    "how": "How sample text"
+  },
+  {
+    "tag": 22,
+    "stationTitle": "Section 3",
+    "slideTitle": "Section 3",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "This is sample text. ",
+      "This is sample text too."
+    ],
+    "impact": "Impact sample text",
+    "directions": {
+      "title": "How it Works",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Step 1"
+        },
+        {
+          "id": 2,
+          "step": "Step 2"
+        },
+        {
+          "id": 3,
+          "step": "Profit"
+        }
+      ]
+    },
+    "watch": "Watch sample text",
+    "how": "How sample text"
+  },
+  {
+    "tag": 23,
+    "stationTitle": "Section 4",
+    "slideTitle": "Section 4",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "This is sample text. ",
+      "This is sample text too."
+    ],
+    "impact": "Impact sample text",
+    "directions": {
+      "title": "How it Works",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Step 1"
+        },
+        {
+          "id": 2,
+          "step": "Step 2"
+        },
+        {
+          "id": 3,
+          "step": "Profit"
+        }
+      ]
+    },
+    "watch": "Watch sample text",
+    "how": "How sample text"
   },
   {
     "tag": 24,
-    "title": "Section 1",
-    "info": [
-      {
-        "id": 1,
-        "text": ""
-      }
-    ],
-    "description": [
-      "This is sample text. ",
-      "This is sample text too."
-    ],
-    "impact": "Impact sample text",
-    "directions": {
-      "title": "How it Works",
-      "steps": [
-        {
-          "id": 1,
-          "step": "Step 1"
-        },
-        {
-          "id": 2,
-          "step": "Step 2"
-        },
-        {
-          "id": 3,
-          "step": "Profit"
-        }
-      ]
-    },
-    "watch": "Watch sample text",
-    "how": "How sample text"
-  },
-  {
-    "tag": 25,
-    "title": "Section 2",
-    "info": [
-      {
-        "id": 1,
-        "text": ""
-      }
-    ],
-    "description": [
-      "This is sample text. ",
-      "This is sample text too."
-    ],
-    "impact": "Impact sample text",
-    "directions": {
-      "title": "How it Works",
-      "steps": [
-        {
-          "id": 1,
-          "step": "Step 1"
-        },
-        {
-          "id": 2,
-          "step": "Step 2"
-        },
-        {
-          "id": 3,
-          "step": "Profit"
-        }
-      ]
-    },
-    "watch": "Watch sample text",
-    "how": "How sample text"
-  },
-  {
-    "tag": 26,
-    "title": "Section 3",
-    "info": [
-      {
-        "id": 1,
-        "text": ""
-      }
-    ],
-    "description": [
-      "This is sample text. ",
-      "This is sample text too."
-    ],
-    "impact": "Impact sample text",
-    "directions": {
-      "title": "How it Works",
-      "steps": [
-        {
-          "id": 1,
-          "step": "Step 1"
-        },
-        {
-          "id": 2,
-          "step": "Step 2"
-        },
-        {
-          "id": 3,
-          "step": "Profit"
-        }
-      ]
-    },
-    "watch": "Watch sample text",
-    "how": "How sample text"
-  },
-  {
-    "tag": 27,
-    "title": "Section 4",
-    "info": [
-      {
-        "id": 1,
-        "text": ""
-      }
-    ],
-    "description": [
-      "This is sample text. ",
-      "This is sample text too."
-    ],
-    "impact": "Impact sample text",
-    "directions": {
-      "title": "How it Works",
-      "steps": [
-        {
-          "id": 1,
-          "step": "Step 1"
-        },
-        {
-          "id": 2,
-          "step": "Step 2"
-        },
-        {
-          "id": 3,
-          "step": "Profit"
-        }
-      ]
-    },
-    "watch": "Watch sample text",
-    "how": "How sample text"
+    "stationTitle": "Evolution of Recorded Sound",
+    "slideTitle": "The Evolution of Recorded Sound"
   }
 ];
 

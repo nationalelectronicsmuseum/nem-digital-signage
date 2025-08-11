@@ -1,6 +1,7 @@
 const data = [
   {
-    "title": "Er Radio",
+    "stationTitle": "Er Radio",
+    "slideTitle": "Er Radio",
     "info": [
       {
         "id": 1,
@@ -36,7 +37,8 @@ const data = [
   },
   {
     "tag": 1,
-    "title": "Spannung Und Strom",
+    "stationTitle": "Spannung Und Strom",
+    "slideTitle": "Spannung Und Strom",
     "info": [
       {
         "id": 1,
@@ -69,7 +71,8 @@ const data = [
     "how": "Durch Umdrehen des Schalters schließen Sie den Stromkreis und lassen den Strom im Schaltungsweg fließen. Ohne die Spannungskraft und der Pfad eines Stromkreises fließen nicht der Strom. Die Spannung drückt den Strom und zwingt ihn, durch einen geschlossenen Stromkreis zu fließen und die Glühbirne zu beleuchten."
   },
   {
-    "title": "Der Marconi Magnetic Detektor",
+    "stationTitle": "Der Marconi Magnetic Detektor",
+    "slideTitle": "Der Marconi Magnetic Detektor",
     "info": [
       {
         "id": 1,
@@ -182,7 +185,8 @@ const data = [
     "tag": 2
   },
   {
-    "title": "Faradays Experiment: Elektrizität Und Magnetismus",
+    "stationTitle": "Das Faraday -Projekt",
+    "slideTitle": "Faradays Experiment: Elektrizität Und Magnetismus",
     "info": [
       {
         "id": 1,
@@ -230,7 +234,8 @@ const data = [
     "tag": 3
   },
   {
-    "title": "Oersteds Experiment",
+    "stationTitle": "Verstopft",
+    "slideTitle": "Oersteds Experiment",
     "info": [
       {
         "id": 1,
@@ -283,7 +288,8 @@ const data = [
     "tag": 4
   },
   {
-    "title": "Haben Sie Die Stromversorgung, Ein Elektrischer Leiter Zu Sein?",
+    "stationTitle": "Menschliche Batterie",
+    "slideTitle": "Haben Sie Die Stromversorgung, Ein Elektrischer Leiter Zu Sein?",
     "info": [
       {
         "id": 1,
@@ -327,7 +333,8 @@ const data = [
     "tag": 5
   },
   {
-    "title": "Jumping Drähte",
+    "stationTitle": "Sprungdraht",
+    "slideTitle": "Jumping Drähte",
     "info": [
       {
         "id": 1,
@@ -399,7 +406,8 @@ const data = [
     "tag": 6
   },
   {
-    "title": "Jacobs Leiter -Experiment: Demonstration Von Elektrischen Prinzipien",
+    "stationTitle": "Jacobs Ladder -Experiment",
+    "slideTitle": "Jacobs Leiter -Experiment: Demonstration Von Elektrischen Prinzipien",
     "info": [
       {
         "id": 1,
@@ -439,7 +447,8 @@ const data = [
     "tag": 7
   },
   {
-    "title": "Statischer Strom: Eine Schockierende Entdeckung",
+    "stationTitle": "Statischer Strom",
+    "slideTitle": "Statischer Strom: Eine Schockierende Entdeckung",
     "info": [
       {
         "id": 1,
@@ -482,7 +491,8 @@ const data = [
     "tag": 8
   },
   {
-    "title": "Polarisationsexperiment",
+    "stationTitle": "Polarisationsexperiment",
+    "slideTitle": "Polarisationsexperiment",
     "info": [
       {
         "id": 1,
@@ -522,7 +532,8 @@ const data = [
     "tag": 9
   },
   {
-    "title": "Warum Haben Mikrowellen Plattenspieler?",
+    "stationTitle": "Warum Haben Mikrowellen Plattenspieler?",
+    "slideTitle": "Warum Haben Mikrowellen Plattenspieler?",
     "info": [
       {
         "id": 1,
@@ -554,7 +565,8 @@ const data = [
     "tag": 10
   },
   {
-    "title": "Telegraphenmaschine - Verbinden Der Welt",
+    "stationTitle": "Telegraphenmaschine",
+    "slideTitle": "Telegraphenmaschine - Verbinden Der Welt",
     "info": [
       {
         "id": 1,
@@ -636,7 +648,8 @@ const data = [
     "tag": 11
   },
   {
-    "title": "Harrison Instrumente 302 Theremin",
+    "stationTitle": "Theremin",
+    "slideTitle": "Harrison Instrumente 302 Theremin",
     "info": [
       {
         "id": 1,
@@ -689,7 +702,8 @@ const data = [
     "tag": 12
   },
   {
-    "title": "Erste Ausstrahlung",
+    "stationTitle": "Erste Ausstrahlung",
+    "slideTitle": "Erste Ausstrahlung",
     "info": [
       {
         "id": 1,
@@ -728,7 +742,8 @@ const data = [
     "tag": 13
   },
   {
-    "title": "Manuelle Turbine",
+    "stationTitle": "Manuelle Turbine",
+    "slideTitle": "Manuelle Turbine",
     "info": [
       {
         "id": 1,
@@ -767,46 +782,8 @@ const data = [
     "tag": 14
   },
   {
-    "title": "Theremin",
-    "info": [
-      {
-        "id": 1,
-        "text": ""
-      },
-      {
-        "id": 2,
-        "text": ""
-      },
-      {
-        "id": 3,
-        "text": ""
-      }
-    ],
-    "description": [
-      "",
-      "",
-      "",
-      ""
-    ],
-    "impact": "",
-    "directions": {
-      "title": "Wie Funktioniert Es?",
-      "steps": [
-        {
-          "id": 1,
-          "step": ""
-        },
-        {
-          "id": 2,
-          "step": ""
-        }
-      ]
-    },
-    "how": "",
-    "tag": 15
-  },
-  {
-    "title": "Elektromagnetische Funkwellen",
+    "stationTitle": "Elektromagnetische Funkwellen",
+    "slideTitle": "Elektromagnetische Funkwellen",
     "info": [
       {
         "id": 1,
@@ -862,10 +839,11 @@ const data = [
       ]
     },
     "how": "In der elektronischen Kommunikation ist die Bandbreite die Menge an Informationen, die auf einer elektromagnetischen Welle übertragen wird.  Je mehr Informationen in einer Übertragung, desto mehr Frequenzen verbreiten sie sich aus.  Da die Frequenz eines Signals in Hertz gemessen wird (die Anzahl der Änderungenzyklen pro Sekunde), ist eine Bandbreite der Unterschied in Hertz zwischen der höchsten Frequenz und der niedrigsten Frequenz, die sie verwendet.  Die Bandbreite ist eng mit der Effizienz, Kapazität und der Qualität von Kommunikationssystemen auf Funkwellen verbunden.  Durch die Verwaltung der Bandbreitenzuweisung und Optimierung von Übertragungsparametern können Ingenieure Kommunikationsnetzwerke entwerfen, die den Benutzern weltweit zuverlässige Hochgeschwindigkeitsverbindungen bieten. Irgendwo über dir senkte ein Flugzeug seinen Standort, seine Geschwindigkeit und das Lager von 1090 MHz.  Ein geostationärer Wettersatelliten 22.000 Meilen von der Erde überträgt detaillierte Wetterkarten auf 1694,1 MHz.  Ein Auto, das von Ihrem Haus fährt, überträgt ein Signal mit der Druckbelebung eines seiner Reifen bei 315 MHz.  Ein GPS -Satelliten, der mit 8.000 Meilen pro Stunde über Kopf fliegt, pingt ein Signal an Ihr Telefon bei 1575,42 MHz.  Eine im Atlantischen Ozean bewegte Datenbühne überträgt die Seemesswerte der Meerestemperatur, der Wellenhöhe und der Windgeschwindigkeit auf einen NOAA -Satellit bei 401 MHz.  Darüber hinaus sprengt jedes einzelne mobile Gerät und jeder WLAN -Router in Ihrer Nähe in Ihrer Nähe den Internetverkehr aller über die Luft über Radiowellen.  All dies kann gleichzeitig dank eines sehr sorgfältig regulierten Funkspektrums auftreten.  Lizenzierte Sender können Teile der regional verfügbaren Bandbreite zugewiesen werden, sodass ihre Signale nicht miteinander stören. Die Federal Communication Commission (FCC) und die National Telecommunications and Information Administration (NTIA) teilen die Aufgabe, die Zuteilung von Funkfrequenzen für US -amerikanische Luftwellen zu verwalten.  Die NTIA verwaltet Federal All Radio Applications (einschließlich militärischer Anwendungen), während die FCC alles andere verwaltet, einschließlich staatlicher und lokaler Regierungs-, Handels- und Amateur -Radio -Nutzung.",
-    "tag": 16
+    "tag": 15
   },
   {
-    "title": "Vakuumröhre",
+    "stationTitle": "Vakuumröhre",
+    "slideTitle": "Vakuumröhre",
     "info": [
       {
         "id": 1,
@@ -901,127 +879,11 @@ const data = [
       ]
     },
     "how": "Der offene Drahtbildschirm kann elektromagnetische Wellen reflektieren oder übertragen, die vertikal polarisiert sind. Einige Wellen gehen durch die Räume zwischen den Drähten, während andere Wellen von den Drähten wieder reflektiert werden. Bei vertikal polarisierten Wellen blockiert der Bildschirm am effektivsten, wenn seine Drähte auch vertikal sind.",
-    "tag": 17
+    "tag": 16
   },
   {
-    "title": "",
-    "info": [
-      {
-        "id": 1,
-        "text": ""
-      },
-      {
-        "id": 2,
-        "text": ""
-      },
-      {
-        "id": 3,
-        "text": ""
-      }
-    ],
-    "description": [
-      "",
-      "",
-      "",
-      ""
-    ],
-    "impact": "",
-    "directions": {
-      "title": "Wie Funktioniert Es?",
-      "steps": [
-        {
-          "id": 1,
-          "step": ""
-        },
-        {
-          "id": 2,
-          "step": ""
-        }
-      ]
-    },
-    "how": "",
-    "tag": 18
-  },
-  {
-    "title": "",
-    "info": [
-      {
-        "id": 1,
-        "text": ""
-      },
-      {
-        "id": 2,
-        "text": ""
-      },
-      {
-        "id": 3,
-        "text": ""
-      }
-    ],
-    "description": [
-      "",
-      "",
-      "",
-      ""
-    ],
-    "impact": "",
-    "directions": {
-      "title": "Wie Funktioniert Es?",
-      "steps": [
-        {
-          "id": 1,
-          "step": ""
-        },
-        {
-          "id": 2,
-          "step": ""
-        }
-      ]
-    },
-    "how": "",
-    "tag": 19
-  },
-  {
-    "title": "",
-    "info": [
-      {
-        "id": 1,
-        "text": ""
-      },
-      {
-        "id": 2,
-        "text": ""
-      },
-      {
-        "id": 3,
-        "text": ""
-      }
-    ],
-    "description": [
-      "",
-      "",
-      "",
-      ""
-    ],
-    "impact": "",
-    "directions": {
-      "title": "Wie Funktioniert Es?",
-      "steps": [
-        {
-          "id": 1,
-          "step": ""
-        },
-        {
-          "id": 2,
-          "step": ""
-        }
-      ]
-    },
-    "how": "",
-    "tag": 20
-  },
-  {
-    "title": "Der Van De Graaff Generator: Nutzung Der Leistung Von Statischer Elektrizität",
+    "stationTitle": "Vom Graaff -Generator",
+    "slideTitle": "Der Van De Graaff Generator: Nutzung Der Leistung Von Statischer Elektrizität",
     "info": [
       {
         "id": 1,
@@ -1119,10 +981,11 @@ const data = [
         }
       ]
     },
-    "tag": 21
+    "tag": 17
   },
   {
-    "title": "Der Audioübersetzer",
+    "stationTitle": "Audioübersetzer",
+    "slideTitle": "Der Audioübersetzer",
     "info": [
       {
         "id": 1,
@@ -1160,10 +1023,11 @@ const data = [
       ]
     },
     "how": "Ein Audio -Übersetzer erfasst Schallwellen durch ein empfindliches Mikrofon oder Membran. Diese Schallwellen werden dann in elektrische Signale umgewandelt. Mit dieser Transformation können die Signale am Empfangsende verstärkt, übertragen und als Klang reproduziert werden. Im Wesentlichen wandelt es hörbare Informationen in elektrische Impulse für eine effiziente Übertragung über Entfernungen um und stellt sicher, dass die ursprünglichen Geräusche intakt bleiben, wenn sie ihr Ziel erreichen.",
-    "tag": 22
+    "tag": 18
   },
   {
-    "title": "Einführung in Elektromagnetische Wellen",
+    "stationTitle": "Elektromagnetische Wellen",
+    "slideTitle": "Einführung in Elektromagnetische Wellen",
     "description": "Willkommen, wenn wir durch die unsichtbaren Kräfte reisen, die unser Universum prägen. Von Funkwellen bis hin zu Gammastrahlen umfassen elektromagnetische Wellen ein riesiges Energiespektrum, das jeden Aspekt unseres täglichen Lebens durchdringt.  Folgen Sie mit, während wir ihre tiefgreifenden Auswirkungen auf Technologie, Kommunikation und unser Verständnis des Kosmos untersuchen.",
     "categories": {
       "title": "Kategorien Elektromagnetischer Wellen",
@@ -1228,143 +1092,152 @@ const data = [
       "Wenn Sie die Kategorien elektromagnetischer Wellen untersuchen, werden Sie eine tiefere Wertschätzung für die Vielfalt und Bedeutung dieser Phänomene erhalten.  Von den praktischen Anwendungen in der täglichen Technologie bis hin zu den tiefgreifenden Einsichten, die sie in die Natur des Universums geben, formen elektromagnetische Wellen unsere Welt weiterhin auf eine Weise und unsichtbar.",
       "Achten Sie besonders auf unsere Exponate über „visuelle elektromagnetische Wellen“ und „elektromagnetische Funkwellen“, um weitere Einblicke in diese Beispiele für elektromagnetische Wellen zu erhalten."
     ],
-    "tag": 23
+    "tag": 19
+  },
+  {
+    "tag": 20,
+    "stationTitle": "Abschnitt 1",
+    "slideTitle": "Abschnitt 1",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Dies ist Beispieltext.",
+      "Dies ist auch Beispieltext."
+    ],
+    "impact": "Aufprallprobentext",
+    "directions": {
+      "title": "Wie Es Funktioniert",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Profitieren"
+        }
+      ]
+    },
+    "watch": "Sehen Sie sich Beispieltext an",
+    "how": "Wie Beispieltext"
+  },
+  {
+    "tag": 21,
+    "stationTitle": "Abschnitt 2",
+    "slideTitle": "Abschnitt 2",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Dies ist Beispieltext.",
+      "Dies ist auch Beispieltext."
+    ],
+    "impact": "Aufprallprobentext",
+    "directions": {
+      "title": "Wie Es Funktioniert",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Profitieren"
+        }
+      ]
+    },
+    "watch": "Sehen Sie sich Beispieltext an",
+    "how": "Wie Beispieltext"
+  },
+  {
+    "tag": 22,
+    "stationTitle": "Abschnitt 3",
+    "slideTitle": "Abschnitt 3",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Dies ist Beispieltext.",
+      "Dies ist auch Beispieltext."
+    ],
+    "impact": "Aufprallprobentext",
+    "directions": {
+      "title": "Wie Es Funktioniert",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Profitieren"
+        }
+      ]
+    },
+    "watch": "Sehen Sie sich Beispieltext an",
+    "how": "Wie Beispieltext"
+  },
+  {
+    "tag": 23,
+    "stationTitle": "Abschnitt 4",
+    "slideTitle": "Abschnitt 4",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Dies ist Beispieltext.",
+      "Dies ist auch Beispieltext."
+    ],
+    "impact": "Aufprallprobentext",
+    "directions": {
+      "title": "Wie Es Funktioniert",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Profitieren"
+        }
+      ]
+    },
+    "watch": "Sehen Sie sich Beispieltext an",
+    "how": "Wie Beispieltext"
   },
   {
     "tag": 24,
-    "title": "Abschnitt 1",
-    "info": [
-      {
-        "id": 1,
-        "text": ""
-      }
-    ],
-    "description": [
-      "Dies ist Beispieltext.",
-      "Dies ist auch Beispieltext."
-    ],
-    "impact": "Aufprallprobentext",
-    "directions": {
-      "title": "Wie Es Funktioniert",
-      "steps": [
-        {
-          "id": 1,
-          "step": "Schritt 1"
-        },
-        {
-          "id": 2,
-          "step": "Schritt 2"
-        },
-        {
-          "id": 3,
-          "step": "Profitieren"
-        }
-      ]
-    },
-    "watch": "Sehen Sie sich Beispieltext an",
-    "how": "Wie Beispieltext"
-  },
-  {
-    "tag": 25,
-    "title": "Abschnitt 2",
-    "info": [
-      {
-        "id": 1,
-        "text": ""
-      }
-    ],
-    "description": [
-      "Dies ist Beispieltext.",
-      "Dies ist auch Beispieltext."
-    ],
-    "impact": "Aufprallprobentext",
-    "directions": {
-      "title": "Wie Es Funktioniert",
-      "steps": [
-        {
-          "id": 1,
-          "step": "Schritt 1"
-        },
-        {
-          "id": 2,
-          "step": "Schritt 2"
-        },
-        {
-          "id": 3,
-          "step": "Profitieren"
-        }
-      ]
-    },
-    "watch": "Sehen Sie sich Beispieltext an",
-    "how": "Wie Beispieltext"
-  },
-  {
-    "tag": 26,
-    "title": "Abschnitt 3",
-    "info": [
-      {
-        "id": 1,
-        "text": ""
-      }
-    ],
-    "description": [
-      "Dies ist Beispieltext.",
-      "Dies ist auch Beispieltext."
-    ],
-    "impact": "Aufprallprobentext",
-    "directions": {
-      "title": "Wie Es Funktioniert",
-      "steps": [
-        {
-          "id": 1,
-          "step": "Schritt 1"
-        },
-        {
-          "id": 2,
-          "step": "Schritt 2"
-        },
-        {
-          "id": 3,
-          "step": "Profitieren"
-        }
-      ]
-    },
-    "watch": "Sehen Sie sich Beispieltext an",
-    "how": "Wie Beispieltext"
-  },
-  {
-    "tag": 27,
-    "title": "Abschnitt 4",
-    "info": [
-      {
-        "id": 1,
-        "text": ""
-      }
-    ],
-    "description": [
-      "Dies ist Beispieltext.",
-      "Dies ist auch Beispieltext."
-    ],
-    "impact": "Aufprallprobentext",
-    "directions": {
-      "title": "Wie Es Funktioniert",
-      "steps": [
-        {
-          "id": 1,
-          "step": "Schritt 1"
-        },
-        {
-          "id": 2,
-          "step": "Schritt 2"
-        },
-        {
-          "id": 3,
-          "step": "Profitieren"
-        }
-      ]
-    },
-    "watch": "Sehen Sie sich Beispieltext an",
-    "how": "Wie Beispieltext"
+    "stationTitle": "Entwicklung Des Aufgenommenen Klangs",
+    "slideTitle": "Die Entwicklung Des Aufgenommenen Klangs",
   }
 ];
 
