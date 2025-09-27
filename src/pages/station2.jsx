@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import homeJacobs from "../assets/img/jacobs2.jpg"
 import homeJumpwire from "../assets/img/jumpwire1.jpg"
-import homeStatic from "../assets/img/static.png"
+import staticElectricityThumbnail from "../assets/img/static-electricity-section-thumbnail.jpg"
 import homeGraaff from "../assets/img/graaff1.jpg"
 import Accessibility from "../components/accessibility/accessibility.jsx";
 import { getLocalizedArtifact } from "../assets/Localization.js";
@@ -31,7 +31,7 @@ export default function Station2() {
                     <h2 className="stationPages">{jacobsLadderExperiment.stationTitle}</h2>
                 </Link>
                 <Link to="/static-electricity" relative="path" className="linkPage">
-                    <img src={homeStatic} className="homeImg"></img>
+                    <img src={staticElectricityThumbnail} className="homeImg"></img>
                     <h2 className="stationPages">{staticElectricity.stationTitle}</h2>
                 </Link>
                 <Link to="/vandegraaff" relative="path" className="linkPage">
