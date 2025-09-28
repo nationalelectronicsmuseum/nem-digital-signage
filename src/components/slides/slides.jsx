@@ -15,7 +15,7 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
   const { settings, setSettings } = useSettings();
   const { voices, status, toggle, stop } = useSpeechSynthesis();
 
-  const directionsText = artifact.directions ?  artifact.directions.steps.map((x) => x.step).join(" ") : "";
+  const directionsText = artifact.directions.steps.map((x) => x.step).join(" ");
 
   return (
     <div className="swiperMain">
@@ -75,7 +75,6 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
 
 
         {/* Slide 3 */}
-        {artifact.directions ?
         <SwiperSlide>
           <div className="bg">
             {!artifact.directions.description ?
@@ -116,7 +115,6 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
           </div>
           
         </SwiperSlide>
-        : ""}
       </Swiper>
     </div>
   );

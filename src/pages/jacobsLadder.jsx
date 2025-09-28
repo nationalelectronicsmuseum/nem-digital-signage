@@ -1,4 +1,4 @@
-import SlidesJacobsLadder from '../components/slides/slidesJacobsLadder.jsx';
+import Slides from "../components/slides/slides";
 import NavStation2 from '../components/nav/navStation2.jsx'
 import Loop from '../components/loop'
 import StationHeader from "../components/StationHeader/StationHeader.jsx";
@@ -20,7 +20,7 @@ export default function JacobsLadder() {
         </div>
       </div>
       <Loop />
-      <SlidesJacobsLadder artifact={artifact} artifactImg1={image2} artifactImg2={image1}/>
+      <Slides artifact={artifact} artifactImg1={image2} artifactImg2={image1}/>
     </div>
   )
 }

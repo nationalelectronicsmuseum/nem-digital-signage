@@ -473,6 +473,21 @@ const data = [
       "The discovery of static electricity has had a profound impact on technology and everyday life. From the invention of the telegraph to the development of modern electronics, static electricity plays a crucial role in powering our devices and facilitating communication.",
       "In the 18th century, Benjamin Franklin famously conducted his kite experiment, proving that lightning is a form of electricity. This groundbreaking discovery led to the invention of the lightning rod—a device designed to protect buildings and ships from lightning strikes by safely redirecting the electrical charge to the ground. Franklin's invention revolutionized our understanding of lightning and paved the way for modern lightning protection systems."
     ],
+    "directions": {
+      "title": "How Does it Work?",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Push and hold the button"
+        },
+        {
+          "id": 2,
+          "step": "Watch the electric sparks at the top"
+        }
+      ]
+    },
+    "watch": "",
+    "how": "The machine separates positive and negative charges to build up a lot of potential energy. Eventually, a spark is released which uses up almost all of the energy and balances the two sides.",
     "tag": 8
   },
   {
