@@ -1,4 +1,3 @@
-import Slides from "../components/slides/slides";
 import NavStation2 from "../components/nav/navStation2.jsx";
 import Loop from "../components/loop";
 import StationHeader from "../components/StationHeader/StationHeader.jsx";
@@ -7,6 +6,7 @@ import { JUMPING_WIRE } from "../assets/ArtifactTags.js";
 
 import image1 from "../assets/img/jumpingwire1.jpg";
 import image2 from "../assets/img/jumpingwire2.jpg";
+import SlidesJumpingWires from "../components/slides/slidesJumpingWires.jsx";
 
 function JumpingWires() {
   const artifact = getLocalizedArtifact(JUMPING_WIRE);
@@ -20,7 +20,7 @@ function JumpingWires() {
         </div>
       </div>
       <Loop />
-      <Slides artifact={artifact} artifactImg1={image1} artifactImg2={image2} />
+      <SlidesJumpingWires artifact={artifact} artifactImg1={image1} artifactImg2={image2} />
     </div>
   );
 }

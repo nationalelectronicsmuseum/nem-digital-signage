@@ -11,7 +11,7 @@ import "swiper/css/navigation";
 import "./slides.css";
 import Speech from "../speech/speech";
 
-const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactImg4 }) => {
+const SlidesJumpingWires = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactImg4 }) => {
   const { settings, setSettings } = useSettings();
   const { voices, status, toggle, stop } = useSpeechSynthesis();
 
@@ -97,6 +97,14 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
               {artifact.watch ? <span><h4 className="watchHeader">What to watch:</h4> <Speech text={artifact.watch}/></span> : ""}
               
               <p className="watchPara" style={{ fontSize: `${settings.fontSize}` }}>{artifact.watch}</p>
+
+            <span>
+                <h3>What's Going On</h3> <Speech text={artifact.how} />
+              </span>
+              <p style={{ fontSize: `${settings.fontSize}`, marginTop: "0px" }}>
+                {artifact.how}
+              </p>
+
             </div> : 
             <div className="left">
             <span><h3>{artifact.directions.title}</h3> <Speech text={directionsText} /></span>
@@ -106,12 +114,7 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
           </div>}
 
             <div className="right">
-              <span>
-                <h3>What's Going On</h3> <Speech text={artifact.how} />
-              </span>
-              <p className="description" style={{ fontSize: `${settings.fontSize}` }}>
-                {artifact.how}
-              </p>
+              <SlideImage img={artifactImg1} />
             </div>
           </div>
           
@@ -122,4 +125,4 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
   );
 };
 
-export default Slides;
+export default SlidesJumpingWires;
