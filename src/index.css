@@ -460,3 +460,16 @@ a {
     width: 14rem;
   }
 }
+
+.hamRadioContainer {
+  display: grid;
+}
+
+.faqGroup {
+  grid-column: 1;
+}
+
+.hamVideo {
+  grid-column: 2;
+  padding-top: 15vh;
+}
