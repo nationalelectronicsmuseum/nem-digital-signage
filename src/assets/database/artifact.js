@@ -1223,6 +1223,40 @@ const data = [
     "tag": 24,
     "stationTitle": "Evolution of Recorded Sound",
     "slideTitle": "The Evolution of Recorded Sound"
+  },
+  {
+    "tag": 25,
+    "stationTitle": "Human Dynamo",
+    "slideTitle": "Human Dynamo",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Coming soon."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "How it Works",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Step 1"
+        },
+        {
+          "id": 2,
+          "step": "Step 2"
+        },
+        {
+          "id": 3,
+          "step": "Step 3"
+        }
+      ]
+    },
+    "watch": "Coming soon",
+    "how": "Coming soon"
   }
 ];
 

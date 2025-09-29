@@ -12,6 +12,7 @@ import Oersted from "./pages/oersted";
 import Faraday from "./pages/faraday";
 import JumpingWires from "./pages/jumpingWires";
 import JacobsLadder from "./pages/jacobsLadder";
+import HumanDynamo from "./pages/humanDynamo";
 import StaticElectricity from "./pages/staticElectricity";
 import Turbine from "./pages/turbine";
 import Theremin from "./pages/theremin";
@@ -97,6 +98,7 @@ function App() {
             <Route path="/station2" element={<Station2 />} />
             <Route path="/jumping-wires" element={<JumpingWires />} />
             <Route path="/jacobs-ladder" element={<JacobsLadder />} />
+            <Route path="/human-dynamo" element={<HumanDynamo />} />
             <Route path="/static-electricity" element={<StaticElectricity />} />
             <Route path="/manual-turbine" element={<Turbine />} />
             <Route path="/vandegraaff" element={<Graaff />} />

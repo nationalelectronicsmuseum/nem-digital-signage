@@ -264,6 +264,10 @@ body {
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  height: 800px;
+  overflow: scroll;
 }
 
 .btnNav {

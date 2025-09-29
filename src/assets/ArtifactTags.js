@@ -23,3 +23,4 @@ export const SECTION_2 = 21;
 export const SECTION_3 = 22;
 export const SECTION_4 = 23;
 export const EVOLUTION_OF_RECORDED_SOUND = 24;
+export const HUMAN_DYNAMO = 25;
