@@ -49,7 +49,7 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
               </div>
 
               <div className="right">
-                <SlideImage img={artifactImg1} />
+                {artifactImg1 ? <SlideImage img={artifactImg1} /> : ""}
               </div>
             </div>
           </div>
@@ -68,7 +68,7 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
               </p>
             </div>
             <div className="right">
-              <SlideImage img={artifactImg2} />
+              {artifactImg2 ? <SlideImage img={artifactImg2} /> : ""}
             </div>
           </div>
         </SwiperSlide>
