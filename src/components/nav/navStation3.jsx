@@ -11,9 +11,6 @@ const NavStation3 = () => {
         <Link to="/station3" relative="path" className="nav-links" onClick={cancelSpeech}>
            Home
         </Link>
-        <Link to="/marconi" relative="path" className="nav-links" onClick={cancelSpeech}>
-           The Marconi Magnetic Detector
-        </Link>
         <Link to="/audio" relative="path" className="nav-links" onClick={cancelSpeech}>
             Audio Translator
         </Link>

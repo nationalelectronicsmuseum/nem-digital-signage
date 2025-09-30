@@ -23,10 +23,6 @@ export default function Station3() {
       </div>
 
       <div className="homeLink">
-        <Link to="/marconi" relative="path" className="linkPage">
-          <img src={homeMarconi} className="homeImg"></img>
-          <h2 className="stationPages">{marconiMagneticDetector.stationTitle}</h2>
-        </Link>
         <Link to="/audio" relative="path" className="linkPage">
           <img src={homeAudio} className="homeImg"></img>
           <h2 className="stationPages">{audioTranslator.stationTitle}</h2>
