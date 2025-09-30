@@ -4,7 +4,7 @@ import Accessibility from '../components/accessibility/accessibility'
 import Loop from '../components/loop'
 import AudioSnip from '../components/audioClip/audioSnip'
 import Video from '../components/Video/Video.jsx'
-import hamVideo from "../assets/video/hamRadio.mp4"
+import hamVideo from "../assets/video/hamRadio.webm"
 import { getLocalizedArtifact } from "../assets/Localization.js";
 import { HAM_RADIO } from "../assets/ArtifactTags.js";
 
