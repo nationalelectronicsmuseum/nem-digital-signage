@@ -1,14 +1,12 @@
 import { Link } from "react-router-dom";
-import homeMarconi from "../assets/img/marconi1.jpg"
 import homeAudio from "../assets/img/audiotrans1.jpg"
 import homeRecord from "../assets/img/AudioHome.jfif"
 import homeEwaves from "../assets/img/ewaves1.webp"
 import Accessibility from "../components/accessibility/accessibility.jsx";
 import { getLocalizedArtifact } from "../assets/Localization.js";
-import { THE_MARCONI_MAGNETIC_DETECTOR, AUDIO_TRANSLATOR, ELECTROMAGNETIC_RADIO_WAVES, EVOLUTION_OF_RECORDED_SOUND } from "../assets/ArtifactTags.js";
+import { AUDIO_TRANSLATOR, ELECTROMAGNETIC_RADIO_WAVES, EVOLUTION_OF_RECORDED_SOUND } from "../assets/ArtifactTags.js";
 
 export default function Station3() {
-    const marconiMagneticDetector = getLocalizedArtifact(THE_MARCONI_MAGNETIC_DETECTOR);
     const audioTranslator = getLocalizedArtifact(AUDIO_TRANSLATOR);
     const electromagneticRadioWaves = getLocalizedArtifact(ELECTROMAGNETIC_RADIO_WAVES);
     const evolutionOfRecordedSound = getLocalizedArtifact(EVOLUTION_OF_RECORDED_SOUND);
