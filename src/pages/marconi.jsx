@@ -1,5 +1,5 @@
 import SlidesMarconi from "../components/slides/slidesMarconi.jsx";
-import NavStation3 from "../components/nav/navStation3.jsx";
+import NavStation4 from "../components/nav/navStation4.jsx";
 import Loop from '../components/loop'
 import StationHeader from "../components/StationHeader/StationHeader.jsx";
 import { getLocalizedArtifact } from "../assets/Localization.js";
@@ -14,7 +14,7 @@ const Marconi = () => {
   
   return (
     <>
-      <StationHeader nav={<NavStation3 />} artifact={artifact} />
+      <StationHeader nav={<NavStation4 />} artifact={artifact} />
       <div className="sectionhead">
         <div className="sectiontitle">
           <h1 className="artifactTitle">{artifact.slideTitle}</h1>

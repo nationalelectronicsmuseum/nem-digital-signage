@@ -11,7 +11,7 @@ const NavStation3 = () => {
         <Link to="/station3" relative="path" className="nav-links" onClick={cancelSpeech}>
            Home
         </Link>
-        <Link to="/audio" relative="path" className="nav-links" onClick={cancelSpeech}>
+        <Link to="/station3audio" relative="path" className="nav-links" onClick={cancelSpeech}>
             Audio Translator
         </Link>
         <Link to="/visible-electromagnetic-waves" relative="path" className="nav-links" onClick={cancelSpeech}>

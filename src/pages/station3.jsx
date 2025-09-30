@@ -21,7 +21,7 @@ export default function Station3() {
       </div>
 
       <div className="homeLink">
-        <Link to="/audio" relative="path" className="linkPage">
+        <Link to="/station3audio" relative="path" className="linkPage">
           <img src={homeAudio} className="homeImg"></img>
           <h2 className="stationPages">{audioTranslator.stationTitle}</h2>
         </Link>

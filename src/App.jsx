@@ -176,7 +176,8 @@ function App() {
             <Route path="/station15section3" element={<Station15Section3 />} />
             <Route path="/station15section4" element={<Station15Section4 />} />
 
-            <Route path="/audio" element={<Audio />} />
+            <Route path="/station3audio" element={<Audio stationNumber={3} />} />
+            <Route path="/station4audio" element={<Audio stationNumber={4} />} />
             <Route path="/marconi" element={<Marconi />} />
             <Route path="/telegraph" element={<Telegraph />} />
           </Routes>
