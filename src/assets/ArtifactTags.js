@@ -24,3 +24,5 @@ export const SECTION_3 = 22;
 export const SECTION_4 = 23;
 export const EVOLUTION_OF_RECORDED_SOUND = 24;
 export const HUMAN_DYNAMO = 25;
+export const INFRARED = 26;
+export const BOMBSIGHTS = 27;

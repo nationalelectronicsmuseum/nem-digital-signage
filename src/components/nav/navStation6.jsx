@@ -13,20 +13,17 @@ function navStation6() {
         <Link to="/station6" relative="path" className="nav-links" onClick={cancelSpeech}>
             Home
         </Link>
-        <Link to="/audio" relative="path" className="nav-links" onClick={cancelSpeech}>
-            Audio Translator
+        <Link to="/infrared" relative="path" className="nav-links" onClick={cancelSpeech}>
+            Infrared
         </Link>
-        <Link to="/marconi" relative="path" className="nav-links" onClick={cancelSpeech}>
-            Marcon Magnetic Detector
+        <Link to="/theremin" relative="path" className="nav-links" onClick={cancelSpeech}>
+            Theremin
         </Link>
-        <Link to="/first-broadcast" relative="path" className="nav-links" onClick={cancelSpeech}>
-            First Broadcast
-        </Link>
-        <Link to="/evolution-of-sound" relative="path" className="nav-links" onClick={cancelSpeech}>
-          Evolution of Sound
+        <Link to="/bombsights" relative="path" className="nav-links" onClick={cancelSpeech}>
+            Bombsights
         </Link>
         <Link to="/" relative="path" className="nav-links" onClick={cancelSpeech}>
-          <h6>Hub Station</h6>
+          <h6 className="white">Hub Station</h6>
         </Link>
         </div>
     </div>

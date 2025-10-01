@@ -1,4 +1,4 @@
-import NavStation5 from "../components/nav/navStation5.jsx";
+import NavStation6 from "../components/nav/navStation6.jsx";
 import Slides from "../components/slides/slides";
 import Loop from '../components/loop'
 import StationHeader from "../components/StationHeader/StationHeader.jsx"
@@ -13,7 +13,7 @@ function Theremin() {
 
   return (
     <div>
-      <StationHeader nav={<NavStation5 />} artifact={artifact} />
+      <StationHeader nav={<NavStation6 />} artifact={artifact} />
       <div className="sectionhead">
         <div className="sectiontitle">
           <h1 className="artifactTitle">{artifact.slideTitle}</h1>

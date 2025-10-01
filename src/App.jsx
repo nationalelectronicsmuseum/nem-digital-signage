@@ -13,6 +13,8 @@ import Faraday from "./pages/faraday";
 import JumpingWires from "./pages/jumpingWires";
 import JacobsLadder from "./pages/jacobsLadder";
 import HumanDynamo from "./pages/humanDynamo";
+import Infrared from "./pages/infrared.jsx";
+import Bombsights from "./pages/bombsights.jsx";
 import StaticElectricity from "./pages/staticElectricity";
 import Turbine from "./pages/turbine";
 import Theremin from "./pages/theremin";
@@ -119,6 +121,8 @@ function App() {
             <Route path="/audio-translator" element={<Audio />} />
             <Route path="/first-broadcast" element={<FirstBroadcast />} />
             <Route path="/evolution-of-sound" element={<EvolutionSound />} />
+            <Route path="/infrared" element={<Infrared />} />
+            <Route path="/bombsights" element={<Bombsights />} />
 
             <Route path="/station7" element={<Station7 />} />
             <Route path="/telegraph" element={<Telegraph />} />
