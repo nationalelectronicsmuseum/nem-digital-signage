@@ -6,19 +6,24 @@ import hashlib
 from googletrans import Translator
 from titlecase import titlecase
 
-language_codes = ["es", "fr", "de"]
+# https://developers.google.com/workspace/admin/directory/v1/languages
+language_codes = ["es", "fr", "de", "zh-CN", "ja"]
 
 cache_file = "./translation_cache.json"
 
 input_file = "./src/assets/database/artifact.js"
 output_files = ["./src/assets/database/artifact-spanish.js",
                 "./src/assets/database/artifact-french.js",
-                "./src/assets/database/artifact-german.js"]
+                "./src/assets/database/artifact-german.js",
+                "./src/assets/database/artifact-chinese.js",
+                "./src/assets/database/artifact-japanese.js"]
 
 input_file_constants = "./src/assets/database/constant.js"
 output_files_constants = ["./src/assets/database/constant-spanish.js",
                           "./src/assets/database/constant-french.js",
-                          "./src/assets/database/constant-german.js"]
+                          "./src/assets/database/constant-german.js",
+                          "./src/assets/database/constant-chinese.js",
+                          "./src/assets/database/constant-japanese.js"]
 
 translator = Translator()
 

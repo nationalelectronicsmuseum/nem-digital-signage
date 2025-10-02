@@ -38,6 +38,16 @@ export function Accessibility() {
     updateSetting("language", Constant.LANGUAGE_FRENCH);
     updateSetting("speech", Constant.SPEECH_FRENCH);
   }
+  const selectChi = () => {
+    stopSpeech();
+    updateSetting("language", Constant.LANGUAGE_CHINESE);
+    updateSetting("speech", Constant.SPEECH_CHINESE);
+  }
+  const selectJap = () => {
+    stopSpeech();
+    updateSetting("language", Constant.LANGUAGE_JAPANESE);
+    updateSetting("speech", Constant.SPEECH_JAPANESE);
+  }
 
   // Setting the Font Size
   const fontDef = () => {
@@ -104,6 +114,8 @@ export function Accessibility() {
               <button className={ settings.language === Constant.LANGUAGE_SPANISH ? "qpBtn colorSelected" : "qpBtn" } onClick={selectSpa}>Spanish</button>
               <button className={ settings.language === Constant.LANGUAGE_GERMAN ? "qpBtn colorSelected" : "qpBtn" } onClick={selectGer}>German</button>
               <button className={ settings.language === Constant.LANGUAGE_FRENCH ? "qpBtn colorSelected" : "qpBtn" } onClick={selectFre}>French</button>
+              <button className={ settings.language === Constant.LANGUAGE_CHINESE ? "qpBtn colorSelected" : "qpBtn" } onClick={selectChi}>Chinese</button>
+              <button className={ settings.language === Constant.LANGUAGE_JAPANESE ? "qpBtn colorSelected" : "qpBtn" } onClick={selectJap}>Japanese</button>
             </span>
           </span>
           <span className="qpChild">
