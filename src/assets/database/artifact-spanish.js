@@ -473,21 +473,6 @@ const data = [
       "El descubrimiento de la electricidad estática ha tenido un profundo impacto en la tecnología y la vida cotidiana. Desde la invención del telégrafo hasta el desarrollo de la electrónica moderna, la electricidad estática juega un papel crucial para alimentar nuestros dispositivos y facilitar la comunicación.",
       "En el siglo XVIII, Benjamin Franklin realizó un famoso experimento de cometas, demostrando que el rayo es una forma de electricidad. Este innovador descubrimiento condujo a la invención del pararrayos, un dispositivo diseñado para proteger los edificios y los barcos de los rayos redirigiendo de forma segura la carga eléctrica al suelo. La invención de Franklin revolucionó nuestra comprensión del rayo y allanó el camino para los sistemas modernos de protección del rayo."
     ],
-    "directions": {
-      "title": "¿Cómo Funciona?",
-      "steps": [
-        {
-          "id": 1,
-          "step": "Presione y mantenga presionado el botón"
-        },
-        {
-          "id": 2,
-          "step": "Mira las chispas eléctricas en la parte superior"
-        }
-      ]
-    },
-    "watch": "",
-    "how": "La máquina separa las cargas positivas y negativas para acumular mucha energía potencial. Finalmente, se libera una chispa que usa casi toda la energía y equilibra los dos lados.",
     "tag": 8
   },
   {
@@ -1237,7 +1222,109 @@ const data = [
   {
     "tag": 24,
     "stationTitle": "Evolución Del Sonido Grabado",
-    "slideTitle": "La Evolución Del Sonido Grabado",
+    "slideTitle": "La Evolución Del Sonido Grabado"
+  },
+  {
+    "tag": 25,
+    "stationTitle": "Dinamo",
+    "slideTitle": "Dinamo",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Muy pronto."
+    ],
+    "impact": "Impacto",
+    "directions": {
+      "title": "Cómo Funciona",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Paso 1"
+        },
+        {
+          "id": 2,
+          "step": "Paso 2"
+        },
+        {
+          "id": 3,
+          "step": "Paso 3"
+        }
+      ]
+    },
+    "watch": "Muy pronto",
+    "how": "Muy pronto"
+  },
+  {
+    "tag": 26,
+    "stationTitle": "Infrarrojo",
+    "slideTitle": "Infrarrojo",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Muy pronto."
+    ],
+    "impact": "Impacto",
+    "directions": {
+      "title": "Cómo Funciona",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Paso 1"
+        },
+        {
+          "id": 2,
+          "step": "Paso 2"
+        },
+        {
+          "id": 3,
+          "step": "Paso 3"
+        }
+      ]
+    },
+    "watch": "Muy pronto",
+    "how": "Muy pronto"
+  },
+  {
+    "tag": 27,
+    "stationTitle": "Cementerios",
+    "slideTitle": "Cementerios",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Muy pronto."
+    ],
+    "impact": "Impacto",
+    "directions": {
+      "title": "Cómo Funciona",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Paso 1"
+        },
+        {
+          "id": 2,
+          "step": "Paso 2"
+        },
+        {
+          "id": 3,
+          "step": "Paso 3"
+        }
+      ]
+    },
+    "watch": "Muy pronto",
+    "how": "Muy pronto"
   }
 ];
 

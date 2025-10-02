@@ -473,21 +473,6 @@ const data = [
       "La découverte de l'électricité statique a eu un impact profond sur la technologie et la vie quotidienne. De l'invention du télégraphe au développement de l'électronique moderne, l'électricité statique joue un rôle crucial dans l'alimentation de nos appareils et la facilitation de la communication.",
       "Au XVIIIe siècle, Benjamin Franklin a mené son expérience de cerf-volant, prouvant que la foudre est une forme d'électricité. Cette découverte révolutionnaire a conduit à l'invention de la paratonnerre - un appareil conçu pour protéger les bâtiments et les navires des coups de foudre en redirigeant en toute sécurité la charge électrique vers le sol. L'invention de Franklin a révolutionné notre compréhension de la foudre et a ouvert la voie à des systèmes de protection de la foudre moderne."
     ],
-    "directions": {
-      "title": "Comment Ça Marche?",
-      "steps": [
-        {
-          "id": 1,
-          "step": "Appuyez et maintenez le bouton"
-        },
-        {
-          "id": 2,
-          "step": "Regardez les étincelles électriques en haut"
-        }
-      ]
-    },
-    "watch": "",
-    "how": "La machine sépare les charges positives et négatives pour créer beaucoup d'énergie potentielle. Finalement, une étincelle est libérée qui utilise presque toute l'énergie et équilibre les deux côtés.",
     "tag": 8
   },
   {
@@ -1237,7 +1222,109 @@ const data = [
   {
     "tag": 24,
     "stationTitle": "Évolution Du Son Enregistré",
-    "slideTitle": "l'Évolution Du Son Enregistré",
+    "slideTitle": "l'Évolution Du Son Enregistré"
+  },
+  {
+    "tag": 25,
+    "stationTitle": "Dynamo Humain",
+    "slideTitle": "Dynamo Humain",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "À venir."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "Comment Ça Marche",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Étape 1"
+        },
+        {
+          "id": 2,
+          "step": "Étape 2"
+        },
+        {
+          "id": 3,
+          "step": "Étape 3"
+        }
+      ]
+    },
+    "watch": "À venir",
+    "how": "À venir"
+  },
+  {
+    "tag": 26,
+    "stationTitle": "Infrarouge",
+    "slideTitle": "Infrarouge",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "À venir."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "Comment Ça Marche",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Étape 1"
+        },
+        {
+          "id": 2,
+          "step": "Étape 2"
+        },
+        {
+          "id": 3,
+          "step": "Étape 3"
+        }
+      ]
+    },
+    "watch": "À venir",
+    "how": "À venir"
+  },
+  {
+    "tag": 27,
+    "stationTitle": "Lights",
+    "slideTitle": "Lights",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "À venir."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "Comment Ça Marche",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Étape 1"
+        },
+        {
+          "id": 2,
+          "step": "Étape 2"
+        },
+        {
+          "id": 3,
+          "step": "Étape 3"
+        }
+      ]
+    },
+    "watch": "À venir",
+    "how": "À venir"
   }
 ];
 

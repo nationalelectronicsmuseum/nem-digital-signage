@@ -473,21 +473,6 @@ const data = [
       "Die Entdeckung statischer Elektrizität hat einen tiefgreifenden Einfluss auf Technologie und Alltag. Von der Erfindung des Telegraphen bis zur Entwicklung der modernen Elektronik spielt statische Elektrizität eine entscheidende Rolle bei der Leistung unserer Geräte und zur Erleichterung der Kommunikation.",
       "Im 18. Jahrhundert führte Benjamin Franklin sein Kite -Experiment bekannt und beweist, dass Blitz eine Form von Elektrizität ist. Diese bahnbrechende Entdeckung führte zur Erfindung der Blitzabte - ein Gerät zum Schutz von Gebäuden und Schiffen vor Blitzschlägen, indem die elektrische Ladung auf den Boden sicher umgeleitet wurde. Franklins Erfindung revolutionierte unser Verständnis von Blitz und ebnete den Weg für moderne Blitzschutzsysteme."
     ],
-    "directions": {
-      "title": "Wie Funktioniert Es?",
-      "steps": [
-        {
-          "id": 1,
-          "step": "Drücken und halten Sie den Knopf gedrückt"
-        },
-        {
-          "id": 2,
-          "step": "Beobachten Sie die elektrischen Funken oben"
-        }
-      ]
-    },
-    "watch": "",
-    "how": "Die Maschine trennt positive und negative Ladungen, um eine Menge potentieller Energie aufzubauen. Schließlich wird ein Funken veröffentlicht, der fast die gesamte Energie verbraucht und die beiden Seiten ausgleichen.",
     "tag": 8
   },
   {
@@ -1237,7 +1222,109 @@ const data = [
   {
     "tag": 24,
     "stationTitle": "Entwicklung Des Aufgenommenen Klangs",
-    "slideTitle": "Die Entwicklung Des Aufgenommenen Klangs",
+    "slideTitle": "Die Entwicklung Des Aufgenommenen Klangs"
+  },
+  {
+    "tag": 25,
+    "stationTitle": "Menschlicher Dynamo",
+    "slideTitle": "Menschlicher Dynamo",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Bald kommen."
+    ],
+    "impact": "Auswirkungen",
+    "directions": {
+      "title": "Wie Es Funktioniert",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Schritt 3"
+        }
+      ]
+    },
+    "watch": "Bald kommen",
+    "how": "Bald kommen"
+  },
+  {
+    "tag": 26,
+    "stationTitle": "Infrarot",
+    "slideTitle": "Infrarot",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Bald kommen."
+    ],
+    "impact": "Auswirkungen",
+    "directions": {
+      "title": "Wie Es Funktioniert",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Schritt 3"
+        }
+      ]
+    },
+    "watch": "Bald kommen",
+    "how": "Bald kommen"
+  },
+  {
+    "tag": 27,
+    "stationTitle": "Bombens",
+    "slideTitle": "Bombens",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Bald kommen."
+    ],
+    "impact": "Auswirkungen",
+    "directions": {
+      "title": "Wie Es Funktioniert",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Schritt 3"
+        }
+      ]
+    },
+    "watch": "Bald kommen",
+    "how": "Bald kommen"
   }
 ];
 
