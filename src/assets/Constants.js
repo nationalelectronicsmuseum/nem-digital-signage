@@ -6,7 +6,7 @@ export const LANGUAGE_CHINESE = "chinese";
 export const LANGUAGE_JAPANESE = "japanese";
 
 // Speech Synthesis Language Codes - https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support?tabs=stt
-export const SPEECH_ENGLISH = "en-US";
+export const SPEECH_ENGLISH = "en-CA";
 export const SPEECH_SPANISH = "es-MX";
 export const SPEECH_FRENCH = "fr-FR";
 export const SPEECH_GERMAN = "de-DE";

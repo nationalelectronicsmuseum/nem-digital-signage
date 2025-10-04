@@ -20,7 +20,7 @@ function Speech({ text }) {
     <div>
       <div className="speechPlayer">
         <div className={settings.speechEnabled ? "present" : "hiddenPlayer"}>
-          <button onClick={() => toggle(text, null)} className="speech">
+          <button onClick={() => toggle(text)} className="speech">
             <img src={playButtonLabel} className="iconImg"></img>
           </button>
           <button onClick={stop} className="speech">
