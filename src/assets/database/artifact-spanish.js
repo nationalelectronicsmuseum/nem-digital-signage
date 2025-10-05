@@ -51,7 +51,7 @@ const data = [
     ],
     "impact": "Comprender el voltaje y la corriente ayuda a los ingenieros y científicos a diseñar sistemas eléctricos más seguros y eficientes. Desde los circuitos más pequeños hasta las redes de energía más grandiosas, estos conceptos son cruciales para crear tecnología que funcione de manera confiable y segura.",
     "directions": {
-      "title": "Cómo Funciona",
+      "title": "Cómo Funciona:",
       "steps": [
         {
           "id": 1,
@@ -160,7 +160,7 @@ const data = [
       ]
     },
     "directions": {
-      "title": "Cómo Funciona",
+      "title": "Cómo Funciona:",
       "steps": [
         {
           "id": 1,
@@ -263,7 +263,7 @@ const data = [
     ],
     "impact": "El descubrimiento de Oersted fue la clave que desbloqueó la misteriosa relación entre electricidad y magnetismo. Esta revelación sentó las bases para el desarrollo de motores eléctricos, generadores y la tecnología moderna en la que confiamos hoy.",
     "directions": {
-      "title": "Cómo Funciona",
+      "title": "Cómo Funciona:",
       "steps": [
         {
           "id": 1,
@@ -364,7 +364,7 @@ const data = [
       "Comprender el electromagnetismo, la relación entre electricidad y imanes, condujo a la creación de centrales eléctricas. Estas plantas generan electricidad para nuestros hogares, escuelas y ciudades. Gracias a esta invención, podemos iluminar nuestras casas, alimentar nuestros dispositivos y explorar cosas increíbles con electricidad."
     ],
     "directions": {
-      "title": "Cómo Funciona",
+      "title": "Cómo Funciona:",
       "steps": [
         {
           "id": 1,
@@ -991,7 +991,7 @@ const data = [
       "Si bien el teléfono, inventado a fines del siglo XIX, revolucionó la comunicación directa entre las personas, estaba limitado por la necesidad de conexión física a través de cables o cables. Facilitó conversaciones individuales a largas distancias, pero no abordó el desafío de capturar y transmitir sonidos o voces distantes para audiencias más amplias. El traductor de audio permitió la conversión de ondas de sonido en señales eléctricas, lo que permite la transmisión de estas señales a grandes distancias sin degradación. Esta tecnología facilitó la transmisión de sonidos (música, discursos, noticias) a una amplia audiencia, superando las limitaciones de comunicación directa ofrecida por el teléfono. Habilitó experiencias compartidas e intercambio cultural a escala masiva, llegando a millones de hogares a nivel mundial."
     ],
     "directions": {
-      "title": "Cómo Funciona",
+      "title": "Cómo Funciona:",
       "steps": [
         {
           "id": 1,
@@ -1095,7 +1095,7 @@ const data = [
     ],
     "impact": "Texto de muestra de impacto",
     "directions": {
-      "title": "Cómo Funciona",
+      "title": "Cómo Funciona:",
       "steps": [
         {
           "id": 1,
@@ -1130,7 +1130,7 @@ const data = [
     ],
     "impact": "Texto de muestra de impacto",
     "directions": {
-      "title": "Cómo Funciona",
+      "title": "Cómo Funciona:",
       "steps": [
         {
           "id": 1,
@@ -1165,7 +1165,7 @@ const data = [
     ],
     "impact": "Texto de muestra de impacto",
     "directions": {
-      "title": "Cómo Funciona",
+      "title": "Cómo Funciona:",
       "steps": [
         {
           "id": 1,
@@ -1200,7 +1200,7 @@ const data = [
     ],
     "impact": "Texto de muestra de impacto",
     "directions": {
-      "title": "Cómo Funciona",
+      "title": "Cómo Funciona:",
       "steps": [
         {
           "id": 1,
@@ -1239,7 +1239,7 @@ const data = [
     ],
     "impact": "Impacto",
     "directions": {
-      "title": "Cómo Funciona",
+      "title": "Cómo Funciona:",
       "steps": [
         {
           "id": 1,
@@ -1273,7 +1273,7 @@ const data = [
     ],
     "impact": "Impacto",
     "directions": {
-      "title": "Cómo Funciona",
+      "title": "Cómo Funciona:",
       "steps": [
         {
           "id": 1,
@@ -1307,7 +1307,7 @@ const data = [
     ],
     "impact": "Impacto",
     "directions": {
-      "title": "Cómo Funciona",
+      "title": "Cómo Funciona:",
       "steps": [
         {
           "id": 1,

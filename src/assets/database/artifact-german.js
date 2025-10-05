@@ -51,7 +51,7 @@ const data = [
     ],
     "impact": "Das Verständnis von Spannung und Strom hilft Ingenieuren und Wissenschaftlern, sicherere und effizientere elektrische Systeme zu entwerfen. Von den kleinsten Schaltungen bis zu den größten Stromnetzern sind diese Konzepte entscheidend für die Erstellung von Technologien, die zuverlässig und sicher funktionieren.",
     "directions": {
-      "title": "Wie Es Funktioniert",
+      "title": "Wie Es Funktioniert:",
       "steps": [
         {
           "id": 1,
@@ -160,7 +160,7 @@ const data = [
       ]
     },
     "directions": {
-      "title": "Wie Es Funktioniert",
+      "title": "Wie Es Funktioniert:",
       "steps": [
         {
           "id": 1,
@@ -263,7 +263,7 @@ const data = [
     ],
     "impact": "Oersteds Entdeckung war der Schlüssel, der die mysteriöse Beziehung zwischen Elektrizität und Magnetismus aufschaltete. Diese Offenbarung legte den Grundstein für die Entwicklung von Elektromotoren, Generatoren und der modernen Technologie, auf die wir uns heute verlassen.",
     "directions": {
-      "title": "Wie Es Funktioniert",
+      "title": "Wie Es Funktioniert:",
       "steps": [
         {
           "id": 1,
@@ -364,7 +364,7 @@ const data = [
       "Das Verständnis der Elektromagnetismus führte zur Erzeugung von Kraftwerken. Diese Pflanzen erzeugen Strom für unsere Häuser, Schulen und Städte. Dank dieser Erfindung können wir unsere Häuser aufleuchten, unsere Geräte mit Strom versorgen und erstaunliche Dinge mit Elektrizität erkunden."
     ],
     "directions": {
-      "title": "Wie Es Funktioniert",
+      "title": "Wie Es Funktioniert:",
       "steps": [
         {
           "id": 1,
@@ -991,7 +991,7 @@ const data = [
       "Während das Telefon, das Ende des 19. Jahrhunderts erfunden wurde, revolutionierte es direkte Kommunikation zwischen Einzelpersonen, es wurde durch die Notwendigkeit einer physischen Verbindung über Kabel oder Kabel eingeschränkt. Es erleichterte Einzelgespräche über große Entfernungen, ging jedoch nicht mit der Herausforderung, entfernte Geräusche oder Stimmen für ein breiteres Publikum zu erfassen und zu übertragen. Der Audio -Übersetzer ermöglichte die Umwandlung von Schallwellen in elektrische Signale und ermöglichte die Übertragung dieser Signale über weite Entfernungen ohne Verschlechterung. Diese Technologie erleichterte die Ausstrahlung von Sounds - muSisic, Reden, Nachrichten - einem breiten Publikum und über die Überwindung der Grenzen der direkten Kommunikation, die vom Telefon angeboten wird. Es ermöglichte gemeinsame Erfahrungen und den kulturellen Austausch im Massenmaßstab und erreichte weltweit Millionen von Haushalten."
     ],
     "directions": {
-      "title": "Wie Es Funktioniert",
+      "title": "Wie Es Funktioniert:",
       "steps": [
         {
           "id": 1,
@@ -1095,7 +1095,7 @@ const data = [
     ],
     "impact": "Aufprallprobentext",
     "directions": {
-      "title": "Wie Es Funktioniert",
+      "title": "Wie Es Funktioniert:",
       "steps": [
         {
           "id": 1,
@@ -1130,7 +1130,7 @@ const data = [
     ],
     "impact": "Aufprallprobentext",
     "directions": {
-      "title": "Wie Es Funktioniert",
+      "title": "Wie Es Funktioniert:",
       "steps": [
         {
           "id": 1,
@@ -1165,7 +1165,7 @@ const data = [
     ],
     "impact": "Aufprallprobentext",
     "directions": {
-      "title": "Wie Es Funktioniert",
+      "title": "Wie Es Funktioniert:",
       "steps": [
         {
           "id": 1,
@@ -1200,7 +1200,7 @@ const data = [
     ],
     "impact": "Aufprallprobentext",
     "directions": {
-      "title": "Wie Es Funktioniert",
+      "title": "Wie Es Funktioniert:",
       "steps": [
         {
           "id": 1,
@@ -1239,7 +1239,7 @@ const data = [
     ],
     "impact": "Auswirkungen",
     "directions": {
-      "title": "Wie Es Funktioniert",
+      "title": "Wie Es Funktioniert:",
       "steps": [
         {
           "id": 1,
@@ -1273,7 +1273,7 @@ const data = [
     ],
     "impact": "Auswirkungen",
     "directions": {
-      "title": "Wie Es Funktioniert",
+      "title": "Wie Es Funktioniert:",
       "steps": [
         {
           "id": 1,
@@ -1307,7 +1307,7 @@ const data = [
     ],
     "impact": "Auswirkungen",
     "directions": {
-      "title": "Wie Es Funktioniert",
+      "title": "Wie Es Funktioniert:",
       "steps": [
         {
           "id": 1,

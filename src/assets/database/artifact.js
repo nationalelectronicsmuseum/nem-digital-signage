@@ -51,7 +51,7 @@ const data = [
     ],
     "impact": "Understanding Voltage and Current helps engineers and scientists design safer and more efficient electrical systems. From the tiniest circuits to the grandest power grids, these concepts are crucial for creating technology that works reliably and safely.",
     "directions": {
-      "title": "How it Works",
+      "title": "How it Works:",
       "steps": [
         {
           "id": 1,
@@ -160,7 +160,7 @@ const data = [
       ]
     },
     "directions": {
-      "title": "How it Works",
+      "title": "How it Works:",
       "steps": [
         {
           "id": 1,
@@ -263,7 +263,7 @@ const data = [
     ],
     "impact": "Oersted's discovery was the key that unlocked the mysterious relationship between electricity and magnetism. This revelation laid the groundwork for the development of electric motors, generators, and the modern technology we rely on today.",
     "directions": {
-      "title": "How it Works",
+      "title": "How it Works:",
       "steps": [
         {
           "id": 1,
@@ -364,7 +364,7 @@ const data = [
       "Understanding electromagnetism, the relationship between electricity and magnets, led to the creation of power plants. These plants generate electricity for our homes, schools, and cities. Thanks to this invention, we can light up our homes, power our gadgets, and explore amazing things using electricity."
     ],
     "directions": {
-      "title": "How It Works",
+      "title": "How it Works:",
       "steps": [
         {
           "id": 1,
@@ -991,7 +991,7 @@ const data = [
       "While the telephone, invented in the late 19th century, revolutionized direct communication between individuals, it was limited by the need for physical connection via wires or cables. It facilitated one-on-one conversations over long distances but didn't address the challenge of capturing and transmitting distant sounds or voices for broader audiences. The audio translator enabled the conversion of sound waves into electrical signals, allowing the transmission of these signals over vast distances without degradation. This technology facilitated the broadcast of sounds—music, speeches, news—to a wide audience, overcoming the limitations of direct communication offered by the telephone. It enabled shared experiences and cultural exchange on a mass scale, reaching millions of households globally."
     ],
     "directions": {
-      "title": "How it Works",
+      "title": "How it Works:",
       "steps": [
         {
           "id": 1,
@@ -1095,7 +1095,7 @@ const data = [
     ],
     "impact": "Impact sample text",
     "directions": {
-      "title": "How it Works",
+      "title": "How it Works:",
       "steps": [
         {
           "id": 1,
@@ -1130,7 +1130,7 @@ const data = [
     ],
     "impact": "Impact sample text",
     "directions": {
-      "title": "How it Works",
+      "title": "How it Works:",
       "steps": [
         {
           "id": 1,
@@ -1165,7 +1165,7 @@ const data = [
     ],
     "impact": "Impact sample text",
     "directions": {
-      "title": "How it Works",
+      "title": "How it Works:",
       "steps": [
         {
           "id": 1,
@@ -1200,7 +1200,7 @@ const data = [
     ],
     "impact": "Impact sample text",
     "directions": {
-      "title": "How it Works",
+      "title": "How it Works:",
       "steps": [
         {
           "id": 1,
@@ -1239,7 +1239,7 @@ const data = [
     ],
     "impact": "Impact",
     "directions": {
-      "title": "How it Works",
+      "title": "How it Works:",
       "steps": [
         {
           "id": 1,
@@ -1273,7 +1273,7 @@ const data = [
     ],
     "impact": "Impact",
     "directions": {
-      "title": "How it Works",
+      "title": "How it Works:",
       "steps": [
         {
           "id": 1,
@@ -1307,7 +1307,7 @@ const data = [
     ],
     "impact": "Impact",
     "directions": {
-      "title": "How it Works",
+      "title": "How it Works:",
       "steps": [
         {
           "id": 1,

@@ -15,7 +15,7 @@ function Admin() {
                 <input type="text" name="impact" required/>
             </div>
             <div>
-                <label for="direction">How it works</label>
+                <label for="direction">How it Works::</label>
                 <input type="text" name="direction" required/>
                 <input type="text" name="direction" required/>
                 <input type="text" name="direction" required/>

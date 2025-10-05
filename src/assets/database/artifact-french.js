@@ -51,7 +51,7 @@ const data = [
     ],
     "impact": "La compréhension de la tension et du courant aide les ingénieurs et les scientifiques à concevoir des systèmes électriques plus sûrs et plus efficaces. Des plus petits circuits aux plus grands réseaux électriques, ces concepts sont cruciaux pour créer une technologie qui fonctionne de manière fiable et en toute sécurité.",
     "directions": {
-      "title": "Comment Ça Marche",
+      "title": "Comment Ça Marche:",
       "steps": [
         {
           "id": 1,
@@ -160,7 +160,7 @@ const data = [
       ]
     },
     "directions": {
-      "title": "Comment Ça Marche",
+      "title": "Comment Ça Marche:",
       "steps": [
         {
           "id": 1,
@@ -263,7 +263,7 @@ const data = [
     ],
     "impact": "La découverte d'Oersted a été la clé qui a débloqué la mystérieuse relation entre l'électricité et le magnétisme. Cette révélation a jeté les bases du développement des moteurs électriques, des générateurs et de la technologie moderne sur laquelle nous comptons aujourd'hui.",
     "directions": {
-      "title": "Comment Ça Marche",
+      "title": "Comment Ça Marche:",
       "steps": [
         {
           "id": 1,
@@ -364,7 +364,7 @@ const data = [
       "La compréhension de l'électromagnétisme, la relation entre l'électricité et les aimants, a conduit à la création de centrales électriques. Ces plantes génèrent de l'électricité pour nos maisons, nos écoles et nos villes. Grâce à cette invention, nous pouvons éclairer nos maisons, alimenter nos gadgets et explorer des choses incroyables en utilisant l'électricité."
     ],
     "directions": {
-      "title": "Comment Ça Marche",
+      "title": "Comment Ça Marche:",
       "steps": [
         {
           "id": 1,
@@ -991,7 +991,7 @@ const data = [
       "Alors que le téléphone, inventé à la fin du XIXe siècle, a révolutionné la communication directe entre les individus, elle était limitée par la nécessité d'une connexion physique via des fils ou des câbles. Il a facilité des conversations individuelles sur de longues distances mais n'a pas relevé le défi de capturer et de transmettre des sons ou des voix distants pour un public plus large. Le traducteur audio a permis la conversion des ondes sonores en signaux électriques, permettant la transmission de ces signaux sur de vastes distances sans dégradation. Cette technologie a facilité la diffusion des sons - music, des discours, des nouvelles - à un large public, surmontant les limites de la communication directe offerte par le téléphone. Il a permis des expériences partagées et des échanges culturels à l'échelle de masse, atteignant des millions de ménages dans le monde."
     ],
     "directions": {
-      "title": "Comment Ça Marche",
+      "title": "Comment Ça Marche:",
       "steps": [
         {
           "id": 1,
@@ -1095,7 +1095,7 @@ const data = [
     ],
     "impact": "Impact Exemple de texte",
     "directions": {
-      "title": "Comment Ça Marche",
+      "title": "Comment Ça Marche:",
       "steps": [
         {
           "id": 1,
@@ -1130,7 +1130,7 @@ const data = [
     ],
     "impact": "Impact Exemple de texte",
     "directions": {
-      "title": "Comment Ça Marche",
+      "title": "Comment Ça Marche:",
       "steps": [
         {
           "id": 1,
@@ -1165,7 +1165,7 @@ const data = [
     ],
     "impact": "Impact Exemple de texte",
     "directions": {
-      "title": "Comment Ça Marche",
+      "title": "Comment Ça Marche:",
       "steps": [
         {
           "id": 1,
@@ -1200,7 +1200,7 @@ const data = [
     ],
     "impact": "Impact Exemple de texte",
     "directions": {
-      "title": "Comment Ça Marche",
+      "title": "Comment Ça Marche:",
       "steps": [
         {
           "id": 1,
@@ -1239,7 +1239,7 @@ const data = [
     ],
     "impact": "Impact",
     "directions": {
-      "title": "Comment Ça Marche",
+      "title": "Comment Ça Marche:",
       "steps": [
         {
           "id": 1,
@@ -1273,7 +1273,7 @@ const data = [
     ],
     "impact": "Impact",
     "directions": {
-      "title": "Comment Ça Marche",
+      "title": "Comment Ça Marche:",
       "steps": [
         {
           "id": 1,
@@ -1307,7 +1307,7 @@ const data = [
     ],
     "impact": "Impact",
     "directions": {
-      "title": "Comment Ça Marche",
+      "title": "Comment Ça Marche:",
       "steps": [
         {
           "id": 1,

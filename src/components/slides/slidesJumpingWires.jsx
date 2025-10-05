@@ -3,6 +3,7 @@ import { Pagination, Navigation } from "swiper/modules";
 import { useSpeechSynthesis } from '../speech/useSpeechSynthesis';
 import { useSettings } from "../../components/AccessibilitySettings/AccessibilitySettings.jsx";
 import SlideImage from "../slideImage/SlideImage.jsx";
+import { getLocalizedStringConstant } from "../../assets/Localization.js";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -15,6 +16,9 @@ const SlidesJumpingWires = ({ artifact, artifactImg1, artifactImg2, artifactImg3
   const { settings, setSettings } = useSettings();
   const { voices, status, toggle, stop } = useSpeechSynthesis();
 
+  const theImpactHeaderText = getLocalizedStringConstant("The Impact:");
+  const whatToWatchHeaderText = getLocalizedStringConstant("What to Watch:");
+  const whatsGoingOnHeaderText = getLocalizedStringConstant("What's Going On:");
   const directionsText = artifact.directions ?  artifact.directions.steps.map((x) => x.step).join(" ") : "";
 
   return (
@@ -61,7 +65,7 @@ const SlidesJumpingWires = ({ artifact, artifactImg1, artifactImg2, artifactImg3
           <div className="bg">
             <div className="left">
               <span>
-                <h3>The Impact</h3> <Speech text={artifact.impact} />
+                <h3>{theImpactHeaderText}</h3> <Speech text={artifact.impact} />
               </span>
               <p className="description" style={{ fontSize: `${settings.fontSize}` }}>
                 {artifact.impact}
@@ -94,12 +98,12 @@ const SlidesJumpingWires = ({ artifact, artifactImg1, artifactImg2, artifactImg3
                   );
                 })}
               </ol>
-              {artifact.watch ? <span><h4 className="watchHeader">What to watch:</h4> <Speech text={artifact.watch}/></span> : ""}
+              {artifact.watch ? <span><h4 className="watchHeader">{whatToWatchHeaderText}</h4> <Speech text={artifact.watch}/></span> : ""}
               
               <p className="watchPara" style={{ fontSize: `${settings.fontSize}` }}>{artifact.watch}</p>
 
             <span>
-                <h3>What's Going On</h3> <Speech text={artifact.how} />
+                <h3>{whatsGoingOnHeaderText}</h3> <Speech text={artifact.how} />
               </span>
               <p style={{ fontSize: `${settings.fontSize}`, marginTop: "0px" }}>
                 {artifact.how}
@@ -108,7 +112,7 @@ const SlidesJumpingWires = ({ artifact, artifactImg1, artifactImg2, artifactImg3
             </div> : 
             <div className="left">
             <span><h3>{artifact.directions.title}</h3> <Speech text={directionsText} /></span>
-            {artifact.watch ? <span><h4 className="watchHeader">What to watch:</h4> <Speech text={artifact.watch}/></span> : ""}
+            {artifact.watch ? <span><h4 className="watchHeader">{whatToWatchHeaderText}</h4> <Speech text={artifact.watch}/></span> : ""}
             
             <p className="watchPara" style={{ fontSize: `${settings.fontSize}` }}>{artifact.directions.description}</p>
           </div>}

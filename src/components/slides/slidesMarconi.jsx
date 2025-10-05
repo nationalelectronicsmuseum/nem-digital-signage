@@ -11,12 +11,16 @@ import { useSettings } from "../../components/AccessibilitySettings/Accessibilit
 import { useSpeechSynthesis } from '../speech/useSpeechSynthesis.jsx';
 import SlideImage from "../slideImage/SlideImage.jsx";
 import { useImageOverlay } from "../OverlayImage/OverlayImageContext.jsx";
+import { getLocalizedStringConstant } from "../../assets/Localization.js";
 
 const SlidesMarconi = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactImg4 }) => {
   const { settings, setSettings } = useSettings();
   const { voices, speechStatus, toggle, stop: stopSpeech } = useSpeechSynthesis();
   const { openOverlay } = useImageOverlay();
 
+  const theImpactHeaderText = getLocalizedStringConstant("The Impact:");
+  const whatToWatchHeaderText = getLocalizedStringConstant("What to Watch:");
+  const whatsGoingOnHeaderText = getLocalizedStringConstant("What's Going On:");
   const directionsText = artifact.directions.steps.map((x) => x.step).join(" ");
 
   return (
@@ -64,7 +68,7 @@ const SlidesMarconi = ({ artifact, artifactImg1, artifactImg2, artifactImg3, art
           <div className="bg">
             <div className="left">
               <span>
-                <h3>The Impact</h3> <Speech text={artifact.impact} />
+                <h3>{theImpactHeaderText}</h3> <Speech text={artifact.impact} />
               </span>
 
               <p className="description" style={{ fontSize: `${settings.fontSize}` }}>
@@ -105,7 +109,7 @@ const SlidesMarconi = ({ artifact, artifactImg1, artifactImg2, artifactImg3, art
                   );
                 })}
               </ol>
-              {artifact.watch ? <span><h4 className="watchHeader">What to watch:</h4> <Speech text={artifact.watch}/></span> : ""}
+              {artifact.watch ? <span><h4 className="watchHeader">{whatToWatchHeaderText}</h4> <Speech text={artifact.watch}/></span> : ""}
               
               <p className="watchPara" style={{ fontSize: `${settings.fontSize}` }}>{artifact.watch}</p>
             </div>
@@ -122,7 +126,7 @@ const SlidesMarconi = ({ artifact, artifactImg1, artifactImg2, artifactImg3, art
             <div className="left">
 
             <span>
-                <h3>What's Going On</h3> <Speech text={artifact.how} />
+                <h3>{whatsGoingOnHeaderText}</h3> <Speech text={artifact.how} />
               </span>
               <p className="description" style={{ fontSize: `${settings.fontSize}` }}>
                 {artifact.how}
