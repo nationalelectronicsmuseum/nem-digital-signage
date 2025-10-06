@@ -4,8 +4,6 @@ import HomeStation from "./pages/homeStation";
 
 import { SettingsProvider } from "./components/AccessibilitySettings/AccessibilitySettings.jsx";
 
-import Admin from "../src/assets/admin/admin";
-
 import VoltAndCurr from "./pages/voltAndCurr";
 import HumanBattery from "./pages/humanBatt";
 import Oersted from "./pages/oersted";
@@ -89,7 +87,6 @@ function App() {
         <Router>
           <Routes>
             <Route exact path="/" element={<HomeStation />} />
-            <Route path="/admin" element={<Admin />} />
 
             <Route path="/station1" element={<Station1 />} />
             <Route path="/voltage-and-current" element={<VoltAndCurr />} />
