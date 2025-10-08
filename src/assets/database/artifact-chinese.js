@@ -1222,7 +1222,30 @@ const data = [
   {
     "tag": 24,
     "stationTitle": "记录声音的演变",
-    "slideTitle": "记录的声音的演变"
+    "slideTitle": "记录的声音的演变",
+    "info": [
+      {
+        "id": 1,
+        "title": "邦克山",
+        "performedBy": "哈兰和斯坦利",
+        "performedWhen": "那。 1905年",
+        "recordedOn": "记录在爱迪生黑色蜡缸上＃8966"
+      },
+      {
+        "id": 2,
+        "title": "在那边",
+        "performedBy": "Enrico Caruso",
+        "performedWhen": "1918",
+        "recordedOn": "记录在Victor Talking Machine磁盘上"
+      },
+      {
+        "id": 3,
+        "title": "约翰尼·B·古德（Johnny B. Goode）",
+        "performedBy": "感恩的死者",
+        "performedWhen": "1973年6月10日",
+        "recordedOn": "使用 Sony TC 2850SD 便携式盒式录音机在 Memorex 盒式磁带上录制。"
+      }
+    ]
   },
   {
     "tag": 25,

@@ -1222,7 +1222,30 @@ const data = [
   {
     "tag": 24,
     "stationTitle": "Entwicklung Des Aufgenommenen Klangs",
-    "slideTitle": "Die Entwicklung Des Aufgenommenen Klangs"
+    "slideTitle": "Die Entwicklung Des Aufgenommenen Klangs",
+    "info": [
+      {
+        "id": 1,
+        "title": "Bunker Hill",
+        "performedBy": "Harlan und Stanley",
+        "performedWhen": "Das. 1905",
+        "recordedOn": "Aufgenommen auf Edison Black Wax Cylinder #8966"
+      },
+      {
+        "id": 2,
+        "title": "Da Drüben",
+        "performedBy": "Enrico Caruso",
+        "performedWhen": "1918",
+        "recordedOn": "Aufgenommen auf Victor Talking Machine Disk"
+      },
+      {
+        "id": 3,
+        "title": "Johnny B. Goode",
+        "performedBy": "Die Grateful Dead",
+        "performedWhen": "10. Juni 1973",
+        "recordedOn": "Aufgenommen auf Sony TC 2850SD tragbarem Kassettenrekorder auf Memorex -Kassetten."
+      }
+    ]
   },
   {
     "tag": 25,

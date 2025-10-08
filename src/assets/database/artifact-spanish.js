@@ -1222,7 +1222,30 @@ const data = [
   {
     "tag": 24,
     "stationTitle": "Evolución Del Sonido Grabado",
-    "slideTitle": "La Evolución Del Sonido Grabado"
+    "slideTitle": "La Evolución Del Sonido Grabado",
+    "info": [
+      {
+        "id": 1,
+        "title": "Colina Del Búnker",
+        "performedBy": "Harlan y Stanley",
+        "performedWhen": "Eso. 1905",
+        "recordedOn": "Grabado en Edison Black Wax Cylinder #8966"
+      },
+      {
+        "id": 2,
+        "title": "Allí",
+        "performedBy": "Enrique Caruso",
+        "performedWhen": "1918",
+        "recordedOn": "Grabado en el disco de la máquina Talking Victor"
+      },
+      {
+        "id": 3,
+        "title": "Johnny B. Goode",
+        "performedBy": "Los agradecidos muertos",
+        "performedWhen": "10 de junio de 1973",
+        "recordedOn": "Grabado en una grabadora de casetes portátil Sony TC 2850SD en casetes Memorex."
+      }
+    ]
   },
   {
     "tag": 25,

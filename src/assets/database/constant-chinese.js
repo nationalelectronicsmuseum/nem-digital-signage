@@ -3,6 +3,7 @@ const data = {
     "The Impact:": "影响：",
     "What to Watch:": "观看什么：",
     "What's Going On:": "这是怎么回事：",
+    "Performed by": "表演者：",
 }
 
 export default data;

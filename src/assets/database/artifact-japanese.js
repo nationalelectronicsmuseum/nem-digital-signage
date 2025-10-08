@@ -1222,7 +1222,30 @@ const data = [
   {
     "tag": 24,
     "stationTitle": "記録されたサウンドの進化",
-    "slideTitle": "記録されたサウンドの進化"
+    "slideTitle": "記録されたサウンドの進化",
+    "info": [
+      {
+        "id": 1,
+        "title": "バンカーヒル",
+        "performedBy": "ハーランとスタンリー",
+        "performedWhen": "それ。 1905",
+        "recordedOn": "エジソンブラックワックスシリンダー＃8966に録音"
+      },
+      {
+        "id": 2,
+        "title": "そちら側",
+        "performedBy": "エンリコ・カルーソ",
+        "performedWhen": "1918",
+        "recordedOn": "ビクタートーキングマシンディスクに録音"
+      },
+      {
+        "id": 3,
+        "title": "ジョニー・b・グッド",
+        "performedBy": "グレイトフル・デッド",
+        "performedWhen": "1973年6月10日",
+        "recordedOn": "Sony TC 2850SD ポータブル カセット レコーダーの Memorex カセットに録音されました。"
+      }
+    ]
   },
   {
     "tag": 25,

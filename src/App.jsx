@@ -79,111 +79,114 @@ import Station15 from "./pages/station15";
 
 import HAMRadio from "./pages/hamRadio.jsx";
 import { ImageOverlayProvider } from "./components/OverlayImage/OverlayImageContext.jsx";
+import { AudioProvider } from "./components/AudioProvider/AudioProvider.jsx";
 
 function App() {
   return (
     <SettingsProvider>
-      <ImageOverlayProvider>
-        <Router>
-          <Routes>
-            <Route exact path="/" element={<HomeStation />} />
+      <AudioProvider>
+        <ImageOverlayProvider>
+          <Router>
+            <Routes>
+              <Route exact path="/" element={<HomeStation />} />
 
-            <Route path="/station1" element={<Station1 />} />
-            <Route path="/voltage-and-current" element={<VoltAndCurr />} />
-            <Route path="/human-battery" element={<HumanBattery />} />
-            <Route path="/oersted" element={<Oersted />} />
-            <Route path="/faraday" element={<Faraday />} />
+              <Route path="/station1" element={<Station1 />} />
+              <Route path="/voltage-and-current" element={<VoltAndCurr />} />
+              <Route path="/human-battery" element={<HumanBattery />} />
+              <Route path="/oersted" element={<Oersted />} />
+              <Route path="/faraday" element={<Faraday />} />
 
-            <Route path="/station2" element={<Station2 />} />
-            <Route path="/jumping-wires" element={<JumpingWires />} />
-            <Route path="/jacobs-ladder" element={<JacobsLadder />} />
-            <Route path="/human-dynamo" element={<HumanDynamo />} />
-            <Route path="/static-electricity" element={<StaticElectricity />} />
-            <Route path="/manual-turbine" element={<Turbine />} />
-            <Route path="/vandegraaff" element={<Graaff />} />
+              <Route path="/station2" element={<Station2 />} />
+              <Route path="/jumping-wires" element={<JumpingWires />} />
+              <Route path="/jacobs-ladder" element={<JacobsLadder />} />
+              <Route path="/human-dynamo" element={<HumanDynamo />} />
+              <Route path="/static-electricity" element={<StaticElectricity />} />
+              <Route path="/manual-turbine" element={<Turbine />} />
+              <Route path="/vandegraaff" element={<Graaff />} />
 
-            <Route path="/station3" element={<Station3 />} />
-            <Route path="/theremin" element={<Theremin />} />
-            <Route path="/visible-electromagnetic-waves" element={<VisibleElectronicWaves />} />
-            <Route path="/polarization" element={<Polarization />} />
-            <Route path="/evolution-recorded-sound" element={<EvolutionRecordedSound />} />
+              <Route path="/station3" element={<Station3 />} />
+              <Route path="/theremin" element={<Theremin />} />
+              <Route path="/visible-electromagnetic-waves" element={<VisibleElectronicWaves />} />
+              <Route path="/polarization" element={<Polarization />} />
+              <Route path="/evolution-recorded-sound" element={<EvolutionRecordedSound />} />
 
-            <Route path="/station4" element={<Station4 />} />
-            <Route path="/microwave-turntable" element={<MicrowaveTurntable />} />
+              <Route path="/station4" element={<Station4 />} />
+              <Route path="/microwave-turntable" element={<MicrowaveTurntable />} />
 
-            <Route path="/station5" element={<Station5 />} />
+              <Route path="/station5" element={<Station5 />} />
 
-            <Route path="/station6" element={<Station6 />} />
-            <Route path="/marconi" element={<Marconi />} />
-            <Route path="/audio-translator" element={<Audio />} />
-            <Route path="/first-broadcast" element={<FirstBroadcast />} />
-            <Route path="/evolution-of-sound" element={<EvolutionSound />} />
-            <Route path="/infrared" element={<Infrared />} />
-            <Route path="/bombsights" element={<Bombsights />} />
+              <Route path="/station6" element={<Station6 />} />
+              <Route path="/marconi" element={<Marconi />} />
+              <Route path="/audio-translator" element={<Audio />} />
+              <Route path="/first-broadcast" element={<FirstBroadcast />} />
+              <Route path="/evolution-of-sound" element={<EvolutionSound />} />
+              <Route path="/infrared" element={<Infrared />} />
+              <Route path="/bombsights" element={<Bombsights />} />
 
-            <Route path="/station7" element={<Station7 />} />
-            <Route path="/telegraph" element={<Telegraph />} />
-            <Route path="/electromagnetic" element={<Electromagnetic />} />
+              <Route path="/station7" element={<Station7 />} />
+              <Route path="/telegraph" element={<Telegraph />} />
+              <Route path="/electromagnetic" element={<Electromagnetic />} />
 
-            <Route path="/vacuum-tubes" element={<VacuumTube />} />
+              <Route path="/vacuum-tubes" element={<VacuumTube />} />
 
-            <Route path="/hamradio" element={<HAMRadio />} />
+              <Route path="/hamradio" element={<HAMRadio />} />
 
-            <Route path="/station8" element={<Station8 />} />
-            <Route path="/station8section1" element={<Station8Section1 />} />
-            <Route path="/station8section2" element={<Station8Section2 />} />
-            <Route path="/station8section3" element={<Station8Section3 />} />
-            <Route path="/station8section4" element={<Station8Section4 />} />
+              <Route path="/station8" element={<Station8 />} />
+              <Route path="/station8section1" element={<Station8Section1 />} />
+              <Route path="/station8section2" element={<Station8Section2 />} />
+              <Route path="/station8section3" element={<Station8Section3 />} />
+              <Route path="/station8section4" element={<Station8Section4 />} />
 
-            <Route path="/station9" element={<Station9 />} />
-            <Route path="/station9section1" element={<Station9Section1 />} />
-            <Route path="/station9section2" element={<Station9Section2 />} />
-            <Route path="/station9section3" element={<Station9Section3 />} />
-            <Route path="/station9section4" element={<Station9Section4 />} />
+              <Route path="/station9" element={<Station9 />} />
+              <Route path="/station9section1" element={<Station9Section1 />} />
+              <Route path="/station9section2" element={<Station9Section2 />} />
+              <Route path="/station9section3" element={<Station9Section3 />} />
+              <Route path="/station9section4" element={<Station9Section4 />} />
 
-            <Route path="/station10" element={<Station10 />} />
-            <Route path="/station10section1" element={<Station10Section1 />} />
-            <Route path="/station10section2" element={<Station10Section2 />} />
-            <Route path="/station10section3" element={<Station10Section3 />} />
-            <Route path="/station10section4" element={<Station10Section4 />} />
+              <Route path="/station10" element={<Station10 />} />
+              <Route path="/station10section1" element={<Station10Section1 />} />
+              <Route path="/station10section2" element={<Station10Section2 />} />
+              <Route path="/station10section3" element={<Station10Section3 />} />
+              <Route path="/station10section4" element={<Station10Section4 />} />
 
-            <Route path="/station11" element={<Station11 />} />
-            <Route path="/station11section1" element={<Station11Section1 />} />
-            <Route path="/station11section2" element={<Station11Section2 />} />
-            <Route path="/station11section3" element={<Station11Section3 />} />
-            <Route path="/station11section4" element={<Station11Section4 />} />
+              <Route path="/station11" element={<Station11 />} />
+              <Route path="/station11section1" element={<Station11Section1 />} />
+              <Route path="/station11section2" element={<Station11Section2 />} />
+              <Route path="/station11section3" element={<Station11Section3 />} />
+              <Route path="/station11section4" element={<Station11Section4 />} />
 
-            <Route path="/station12" element={<Station12 />} />
-            <Route path="/station12section1" element={<Station12Section1 />} />
-            <Route path="/station12section2" element={<Station12Section2 />} />
-            <Route path="/station12section3" element={<Station12Section3 />} />
-            <Route path="/station12section4" element={<Station12Section4 />} />
+              <Route path="/station12" element={<Station12 />} />
+              <Route path="/station12section1" element={<Station12Section1 />} />
+              <Route path="/station12section2" element={<Station12Section2 />} />
+              <Route path="/station12section3" element={<Station12Section3 />} />
+              <Route path="/station12section4" element={<Station12Section4 />} />
 
-            <Route path="/station13" element={<Station13 />} />
-            <Route path="/station13section1" element={<Station13Section1 />} />
-            <Route path="/station13section2" element={<Station13Section2 />} />
-            <Route path="/station13section3" element={<Station13Section3 />} />
-            <Route path="/station13section4" element={<Station13Section4 />} />
+              <Route path="/station13" element={<Station13 />} />
+              <Route path="/station13section1" element={<Station13Section1 />} />
+              <Route path="/station13section2" element={<Station13Section2 />} />
+              <Route path="/station13section3" element={<Station13Section3 />} />
+              <Route path="/station13section4" element={<Station13Section4 />} />
 
-            <Route path="/station14" element={<Station14 />} />
-            <Route path="/station14section1" element={<Station14Section1 />} />
-            <Route path="/station14section2" element={<Station14Section2 />} />
-            <Route path="/station14section3" element={<Station14Section3 />} />
-            <Route path="/station14section4" element={<Station14Section4 />} />
+              <Route path="/station14" element={<Station14 />} />
+              <Route path="/station14section1" element={<Station14Section1 />} />
+              <Route path="/station14section2" element={<Station14Section2 />} />
+              <Route path="/station14section3" element={<Station14Section3 />} />
+              <Route path="/station14section4" element={<Station14Section4 />} />
 
-            <Route path="/station15" element={<Station15 />} />
-            <Route path="/station15section1" element={<Station15Section1 />} />
-            <Route path="/station15section2" element={<Station15Section2 />} />
-            <Route path="/station15section3" element={<Station15Section3 />} />
-            <Route path="/station15section4" element={<Station15Section4 />} />
+              <Route path="/station15" element={<Station15 />} />
+              <Route path="/station15section1" element={<Station15Section1 />} />
+              <Route path="/station15section2" element={<Station15Section2 />} />
+              <Route path="/station15section3" element={<Station15Section3 />} />
+              <Route path="/station15section4" element={<Station15Section4 />} />
 
-            <Route path="/station3audio" element={<Audio stationNumber={3} />} />
-            <Route path="/station4audio" element={<Audio stationNumber={4} />} />
-            <Route path="/marconi" element={<Marconi />} />
-            <Route path="/telegraph" element={<Telegraph />} />
-          </Routes>
-        </Router>
-      </ImageOverlayProvider>
+              <Route path="/station3audio" element={<Audio stationNumber={3} />} />
+              <Route path="/station4audio" element={<Audio stationNumber={4} />} />
+              <Route path="/marconi" element={<Marconi />} />
+              <Route path="/telegraph" element={<Telegraph />} />
+            </Routes>
+          </Router>
+        </ImageOverlayProvider>
+      </AudioProvider>
     </SettingsProvider>
   );
 }

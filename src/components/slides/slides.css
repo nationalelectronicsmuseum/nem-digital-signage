@@ -120,7 +120,7 @@
   .audioLeft {
     width: 50%;
     height: 100%;
-    background: gray;
+    background: lightgrey;
     display: flex;
   }
   .audioRight {
@@ -144,6 +144,13 @@
   .audioRight p {
     font-size: 16pt;
     margin: 0 0 20px 0;
+  }
+
+  .audioTitleAndSpeech {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    gap: 20px;
   }
 
   /* Sound Audio Slides */

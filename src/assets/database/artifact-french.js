@@ -1222,7 +1222,30 @@ const data = [
   {
     "tag": 24,
     "stationTitle": "Évolution Du Son Enregistré",
-    "slideTitle": "l'Évolution Du Son Enregistré"
+    "slideTitle": "l'Évolution Du Son Enregistré",
+    "info": [
+      {
+        "id": 1,
+        "title": "Colline De Bunker",
+        "performedBy": "Harlan et Stanley",
+        "performedWhen": "Que. 1905",
+        "recordedOn": "Enregistré sur Edison Black Wax Cylinder # 8966"
+      },
+      {
+        "id": 2,
+        "title": "Là-Bas",
+        "performedBy": "Enrico Caruso",
+        "performedWhen": "1918",
+        "recordedOn": "Enregistré sur le disque Victor Talking Machine"
+      },
+      {
+        "id": 3,
+        "title": "Johnny B. Goode",
+        "performedBy": "Les Grateful Dead",
+        "performedWhen": "10 juin 1973",
+        "recordedOn": "Enregistré sur un magnétophone portable Sony TC 2850SD sur cassettes Memorex."
+      }
+    ]
   },
   {
     "tag": 25,

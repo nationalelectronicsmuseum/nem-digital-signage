@@ -1222,7 +1222,30 @@ const data = [
   {
     "tag": 24,
     "stationTitle": "Evolution of Recorded Sound",
-    "slideTitle": "The Evolution of Recorded Sound"
+    "slideTitle": "The Evolution of Recorded Sound",
+    "info": [
+      {
+        "id": 1,
+        "title": "Bunker Hill",
+        "performedBy": "Harlan and Stanley",
+        "performedWhen": "Ca. 1905",
+        "recordedOn": "Recorded on Edison black wax cylinder #8966"
+      },
+      {
+        "id": 2,
+        "title": "Over There",
+        "performedBy": "Enrico Caruso",
+        "performedWhen": "1918",
+        "recordedOn": "Recorded on Victor Talking Machine Disk"
+      },
+      {
+        "id": 3,
+        "title": "Johnny B. Goode",
+        "performedBy": "The Grateful Dead",
+        "performedWhen": "June 10, 1973",
+        "recordedOn": "Recorded on Sony TC 2850SD portable cassette recorder on Memorex cassettes."
+      }
+    ]
   },
   {
     "tag": 25,

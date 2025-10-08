@@ -3,6 +3,7 @@ const data = {
     "The Impact:": "El impacto:",
     "What to Watch:": "Qué ver:",
     "What's Going On:": "Qué está sucediendo:",
+    "Performed by": "Realizado por",
 }
 
 export default data;
