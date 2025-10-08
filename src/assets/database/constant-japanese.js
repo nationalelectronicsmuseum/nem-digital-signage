@@ -4,6 +4,7 @@ const data = {
     "What to Watch:": "見るもの：",
     "What's Going On:": "どうしたの：",
     "Performed by": "出演者",
+    "Home": "家",
 }
 
 export default data;

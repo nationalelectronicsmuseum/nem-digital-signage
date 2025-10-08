@@ -4,6 +4,7 @@ const data = {
     "What to Watch:": "Was zu sehen ist:",
     "What's Going On:": "Was ist los:",
     "Performed by": "Durchgeführt von",
+    "Home": "Heim",
 }
 
 export default data;
