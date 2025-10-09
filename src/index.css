@@ -72,7 +72,7 @@ body {
 .galleryImageOne {
     margin: auto;
     padding: 1vh 1vw;
-    width: 50%;
+    height: 75%;
     border-radius: 10px;
     z-index: 4;
     display: flex;
