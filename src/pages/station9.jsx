@@ -1,34 +1,39 @@
 import { Link } from "react-router-dom";
+import Accessibility from "../components/accessibility/accessibility.jsx";
 
 import sectionPlaceholder from "../assets/img/section.jpg"
 
 function Station9() {
-  return (
-    <div>
-        <div className="border">
-                <h1 className="title">National Electronics Museum</h1>
-        </div>
+    return (
+        <div>
+            <div className="accs">
+                <Accessibility />
+            </div>
 
-        <div className="homeLink">
-        <Link to="/station9section1" relative="path" className="linkPage">
-            <img src={sectionPlaceholder} className="homeImg"></img>
-            <h2 className="stationPages">Section 1</h2>
-        </Link>
-        <Link to="/station9section2" relative="path" className="linkPage">
-            <img src={sectionPlaceholder} className="homeImg"></img>
-            <h2 className="stationPages">Section 2</h2>
-        </Link>
-        <Link to="/station9section3" relative="path" className="linkPage">
-            <img src={sectionPlaceholder} className="homeImg"></img>
-            <h2 className="stationPages">Section 3</h2>
-        </Link>
-        <Link to="/station9section4" relative="path" className="linkPage">
-            <img src={sectionPlaceholder} className="homeImg"></img>
-            <h2 className="stationPages">Section 4</h2>
-        </Link>
+            <div className="border">
+                <h1 className="title">National Electronics Museum</h1>
+            </div>
+
+            <div className="homeLink">
+                <Link to="/station9section1" relative="path" className="linkPage">
+                    <img src={sectionPlaceholder} className="homeImg"></img>
+                    <h2 className="stationPages">Section 1</h2>
+                </Link>
+                <Link to="/station9section2" relative="path" className="linkPage">
+                    <img src={sectionPlaceholder} className="homeImg"></img>
+                    <h2 className="stationPages">Section 2</h2>
+                </Link>
+                <Link to="/station9section3" relative="path" className="linkPage">
+                    <img src={sectionPlaceholder} className="homeImg"></img>
+                    <h2 className="stationPages">Section 3</h2>
+                </Link>
+                <Link to="/station9section4" relative="path" className="linkPage">
+                    <img src={sectionPlaceholder} className="homeImg"></img>
+                    <h2 className="stationPages">Section 4</h2>
+                </Link>
+            </div>
         </div>
-    </div>
-  )
+    )
 }
 
 export default Station9
