@@ -21,7 +21,7 @@ const NavStation3 = () => {
         <Link to="/station3audio" relative="path" className="nav-links" onClick={cancelSpeech}>
           {audioTranslator.stationTitle}
         </Link>
-        <Link to="/visible-electromagnetic-waves" relative="path" className="nav-links" onClick={cancelSpeech}>
+        <Link to="/station3-visible-electromagnetic-waves" relative="path" className="nav-links" onClick={cancelSpeech}>
           {electromagneticRadioWaves.stationTitle}
         </Link>
         <Link to="/evolution-recorded-sound" relative="path" className="nav-links" onClick={cancelSpeech}>

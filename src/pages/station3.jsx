@@ -25,7 +25,7 @@ export default function Station3() {
           <img src={homeAudio} className="homeImg"></img>
           <h2 className="stationPages">{audioTranslator.stationTitle}</h2>
         </Link>
-        <Link to="/visible-electromagnetic-waves" className="linkPage" relative="path">
+        <Link to="/station3-visible-electromagnetic-waves" className="linkPage" relative="path">
           <img src={homeEwaves} className="homeImg"></img>
           <h2 className="stationPages">{electromagneticRadioWaves.stationTitle}</h2>
         </Link>

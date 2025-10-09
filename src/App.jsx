@@ -106,7 +106,7 @@ function App() {
 
               <Route path="/station3" element={<Station3 />} />
               <Route path="/theremin" element={<Theremin />} />
-              <Route path="/visible-electromagnetic-waves" element={<VisibleElectronicWaves />} />
+              <Route path="/station3-visible-electromagnetic-waves" element={<VisibleElectronicWaves stationNumber={3} />} />
               <Route path="/polarization" element={<Polarization />} />
               <Route path="/evolution-recorded-sound" element={<EvolutionRecordedSound />} />
 
@@ -126,6 +126,7 @@ function App() {
               <Route path="/station7" element={<Station7 />} />
               <Route path="/telegraph" element={<Telegraph />} />
               <Route path="/electromagnetic" element={<Electromagnetic />} />
+              <Route path="/station7-visible-electromagnetic-waves" element={<VisibleElectronicWaves stationNumber={7} />} />
 
               <Route path="/vacuum-tubes" element={<VacuumTube />} />
 

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ELECTROMAGNETIC_WAVES, POLARIZATION_EXPERIMENT } from "../../assets/ArtifactTags.js";
+import { ELECTROMAGNETIC_WAVES, POLARIZATION_EXPERIMENT, ELECTROMAGNETIC_RADIO_WAVES } from "../../assets/ArtifactTags.js";
 import { getLocalizedArtifact, getLocalizedStringConstant } from "../../assets/Localization.js";
 
 import "./nav.css"
@@ -8,6 +8,7 @@ const NavStation7 = () => {
   const home = getLocalizedStringConstant("Home");
   const electromagneticWaves = getLocalizedArtifact(ELECTROMAGNETIC_WAVES);
   const polarizationExperiment = getLocalizedArtifact(POLARIZATION_EXPERIMENT);
+  const electromagneticRadioWaves = getLocalizedArtifact(ELECTROMAGNETIC_RADIO_WAVES);
   const cancelSpeech = () => {
     window.speechSynthesis.cancel()
   }
@@ -23,6 +24,9 @@ const NavStation7 = () => {
         </Link>
         <Link to="/polarization" relative="path" className="nav-links" onClick={cancelSpeech}>
           {polarizationExperiment.stationTitle}
+        </Link>
+        <Link to="/station7-visible-electromagnetic-waves" relative="path" className="nav-links" onClick={cancelSpeech}>
+          {electromagneticRadioWaves.stationTitle}
         </Link>
         <Link to="/" relative="path" className="nav-links" onClick={cancelSpeech}>
           <h6 className="white">Hub Station</h6>
