@@ -131,3 +131,11 @@
     width: 35px;
     margin-right: 5px;
 }
+
+.btnLng {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
