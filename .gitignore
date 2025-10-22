@@ -23,6 +23,3 @@ dist-ssr
 *.sln
 *.sw?
 .venv
-
-# script caches
-translation_cache.json
