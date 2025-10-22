@@ -1,9 +1,27 @@
-# React + Vite
+# National Electronics Museum Digital Signage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The goal of this project is to enhance the museum experience by maximizing the delivery of information to all visitors through accessible, inclusive, and user-friendly digital signage software, ensuring that knowledge is shared without barriers.
 
-Currently, two official plugins are available:
+Features include:
+    - Touch screen navigation
+    - Audible speech of multiple languages
+    - Information read in multiple languages
+    - Adjustable font
+    - Adjustable font size
+    - Interactive signage involving pictures, figures, videos, and audio.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# nem-gallery
+Build requirements (taken care of by setup.sh):
+    nodejs
+    npm
+    vitejs
+    python
+    python-pip
+    googletrans (python library)
+    titlecase (python library)
+
+How to setup:
+    Linux (Debian 13):
+        Run the setup.py script from the repository's root directory.
+
+How to dev:
+    npm run dev
