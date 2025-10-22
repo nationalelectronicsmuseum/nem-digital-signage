@@ -1,9 +1,9 @@
 const data = {
     "Image Caption": "Cliquez pour agrandir",
-    "The Impact:": "L'impact:",
-    "What to Watch:": "Que regarder:",
+    "The Impact:": "L'impact :",
+    "What to Watch:": "Que regarder :",
     "What's Going On:": "Que se passe-t-il:",
-    "Performed by": "Effectué par",
+    "Performed by": "Interprété par",
     "Home": "Maison",
 }
 

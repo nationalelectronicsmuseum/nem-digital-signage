@@ -1,32 +1,32 @@
 const data = [
   {
-    "stationTitle": "Er Radio",
-    "slideTitle": "Er Radio",
+    "stationTitle": "Amateurfunk",
+    "slideTitle": "Amateurfunk",
     "info": [
       {
         "id": 1,
         "name": "Was ist Amateurradio?",
-        "description": "Amateur Radio (Ham Radio) ist ein internationales Hobby für bestimmte Frequenzen, die Kommunikation über verschiedene Methoden ermöglichen, z. Morsecode, Sprache und Daten. Anrufschilder wie K3NEM (unser Stationsanrufschild) sind für jeden lizenzierten Schinken oder Club einzigartig. Das Aufrufzeichen variieren je nach Land."
+        "description": "Amateurfunk (Ham Radio) ist ein internationales Hobby auf bestimmten Frequenzen, das die Kommunikation über verschiedene Methoden ermöglicht, z.B. Morsecode, Sprache und Daten. Rufzeichen wie K3NEM (unser Stationsrufzeichen) sind für jeden lizenzierten Funkamateur oder Verein einzigartig. Rufzeichenpräfixe variieren je nach Land."
       },
       {
         "id": 2,
-        "name": "Wer kann Amateur -Funker (Schinken) sein?",
-        "description": "Leute jeden Alters in den USA haben berechtigt, die Prüfungen abzulegen. Die Lizenzen werden von jedem Land ausgestellt und in Privilegien gewährt. Morse -Code -Kenntnisse sind nicht mehr erforderlich. Wenn Sie mit einem Handy umgehen können, sind Sie auf dem besten Weg, ein Schinken zu werden!"
+        "name": "Wer kann Amateurfunker (HAM) sein?",
+        "description": "In den USA sind Personen jeden Alters berechtigt, an den Prüfungen teilzunehmen. Lizenzen werden von jedem Land ausgestellt und in Grad an Privilegien vergeben. Kenntnisse im Morsecode sind nicht mehr erforderlich. Wenn Sie mit einem Mobiltelefon umgehen können, sind Sie auf dem besten Weg, ein Amateur zu werden!"
       },
       {
         "id": 3,
-        "name": "Was könnte ich in Ham -Radio machen?",
-        "description": "Viele kommunizieren über die Luft mit lokalen und weit entfernten Schinken mit Sprach-, Morsecode, digitalem Signalen oder sogar einem Zwei-Wege-Fernsehen. Die Kommunikation in Notsituationen ist eine beliebte und wichtige bürgerschaftliche Aktivität. Man kann lernen, elektronische Geräte zu bauen, zu reparieren und zu verstehen (Karrieremöglichkeiten)"
+        "name": "WAS KANN ICH IM HAM-RADIO TUN?",
+        "description": "Viele kommunizieren über Funk mit lokalen und weit entfernten Amateurfunkern über Sprache, Morsecode, digitale Signale oder sogar Zwei-Wege-Fernsehen. Kommunikation in Notsituationen ist eine beliebte und wichtige bürgerschaftliche Aktivität. Man kann lernen, elektronische Geräte zu bauen, zu reparieren und zu verstehen (Berufsmöglichkeiten)"
       },
       {
         "id": 4,
-        "name": "Notfallkommunikation",
-        "description": "Wenn Telefonsysteme nicht mehr sind, kommt Ham Radio immer noch durch. Radioamateure arbeiten mit Regierungsbehörden für Kommunikation zusammen. Wir verabschieden Verkehrsdatagramme-wie westliche Union Nachrichten über On-Air-Netzwerke von Schinken. Das Foto ist von ARRL Field Day, einem jährlichen Ereignis für Notfallvorbereitung."
+        "name": "NOTFALLKOMMUNIKATION",
+        "description": "Auch wenn Telefonanlagen ausfallen, kommt Amateurfunk immer noch durch. Funkamateure arbeiten für die Kommunikation mit Regierungsbehörden zusammen. Wir leiten Verkehrsdatagramme – wie Western-Union-Nachrichten – über Funknetze von Funkamateuren weiter. Das Foto zeigt den ARRL Field Day, eine jährliche Veranstaltung zur Notfallvorsorge."
       },
       {
         "id": 5,
-        "name": "Amateur -Radioclub des National Electronics Museum",
-        "description": "Das sind wir! Wir sind hier, um Sie zu lizenzieren und in der Luft zu lizenzieren. Unsere Donnerstagabendkurse von Zoom for Lizenzenkursen und Betriebsgrundsätze sind international besucht. Wir veranstalten interessante Sitzungen am Woche und Wochenend-On-Air-Veranstaltungen. Wir unterstützen das Museum mit Reiseführern und Freiwilligen. Unser Club Ham Station ist verfügbar.",
+        "name": "AMATEUR-RADIO-CLUB DES NATIONAL ELECTRONICS MUSEUM",
+        "description": "Das sind wir! Wir sind hier, um Ihnen dabei zu helfen, Ihre Lizenz zu erhalten und auf Sendung zu gehen. Unsere Donnerstagabendkurse per Zoom für Lizenzkurse und Betriebsprinzipien werden international besucht. Wir veranstalten unter der Woche interessante Clubtreffen und On-Air-Veranstaltungen am Wochenende. Wir unterstützen das Museum mit Reiseleitern und Freiwilligen. Unsere Vereinsschinkenstation steht zur Verfügung.",
         "contact": {
           "email": "contact@k3nem.org",
           "web": "www.k3nem.org/"
@@ -46,20 +46,20 @@ const data = [
       }
     ],
     "description": [
-      "Spannung ist wie der elektrische Druck. Ein Strom ist ein Strom der elektrischen Ladung. Es ist am besten, sich so so vorzustellen: Spannung verursacht einen elektrischen Strom, genau wie der Wasserdruck führt zu Fluss Wasser.",
-      "Spannung ist die unsichtbare Energie, die den Strom drängt, sich von einem Ort zum anderen zu bewegen. Spannung und Strom in Hand in Hand. Die Spannung liefert den Druck, während der Strom den Strom fließt. Zusammen schaffen sie die Energie, die unsere Geräte versorgt und unsere Welt beleuchtet."
+      "Spannung ist so etwas wie elektrischer Druck. Ein Strom ist ein Fluss elektrischer Ladung. Stellen Sie sich das am besten so vor: Spannung VERURSACHT elektrischen Strom, genau wie Wasserdruck Wasser zum Fließen bringt.",
+      "Spannung ist die unsichtbare Energie, die Elektrizität dazu bringt, sich von einem Ort zum anderen zu bewegen. Spannung und Strom arbeiten Hand in Hand. Spannung sorgt für den Antrieb, während Strom den Stromfluss aufrechterhält. Zusammen erzeugen sie die Energie, die unsere Geräte antreibt und unsere Welt erleuchtet."
     ],
-    "impact": "Das Verständnis von Spannung und Strom hilft Ingenieuren und Wissenschaftlern, sicherere und effizientere elektrische Systeme zu entwerfen. Von den kleinsten Schaltungen bis zu den größten Stromnetzern sind diese Konzepte entscheidend für die Erstellung von Technologien, die zuverlässig und sicher funktionieren.",
+    "impact": "Das Verständnis von Spannung und Strom hilft Ingenieuren und Wissenschaftlern, sicherere und effizientere elektrische Systeme zu entwerfen. Von den kleinsten Schaltkreisen bis hin zu den größten Stromnetzen sind diese Konzepte entscheidend für die Entwicklung einer Technologie, die zuverlässig und sicher funktioniert.",
     "directions": {
-      "title": "Wie Es Funktioniert:",
+      "title": "So Funktioniert Es:",
       "steps": [
         {
           "id": 1,
-          "step": "Drehen Sie den Knopf im Uhrzeigersinn und beobachten Sie die Messgeräte."
+          "step": "Drehen Sie den Knopf im Uhrzeigersinn und beobachten Sie die Anzeigen."
         },
         {
           "id": 2,
-          "step": "Schalten Sie den Schalter um und schalten Sie die Glühbirne ein, während Sie Meter beobachten."
+          "step": "Legen Sie den Schalter um und schalten Sie die Glühbirne ein, während Sie die Messgeräte beobachten."
         },
         {
           "id": 3,
@@ -67,12 +67,12 @@ const data = [
         }
       ]
     },
-    "watch": "Durch das Drehen des Knopfes kann sich die Spannung ändern, wenn sich der Voltmeter zeigt. Das Messgerät bleibt still, weil kein Strom verwendet wird, bis Sie den Schalter umdrehen. Wenn Sie den Schalter umdrehen, zeigt der Amperemeter den Strom, der von der Glühbirne gezogen wird, während Sie den Knopf verdrehen. Die Menge des gezogenen Stroms variiert und ändert die Helligkeit der Glühbirne.",
-    "how": "Durch Umdrehen des Schalters schließen Sie den Stromkreis und lassen den Strom im Schaltungsweg fließen. Ohne die Spannungskraft und der Pfad eines Stromkreises fließen nicht der Strom. Die Spannung drückt den Strom und zwingt ihn, durch einen geschlossenen Stromkreis zu fließen und die Glühbirne zu beleuchten."
+    "watch": "Durch Drehen des Knopfes kann die Spannung entsprechend der Anzeige des Voltmeters geändert werden. Das Messgerät bleibt still, da kein Strom verbraucht wird, bis Sie den Schalter umlegen. Wenn Sie den Schalter umlegen, zeigt das Amperemeter den von der Glühbirne aufgenommenen Strom an, während Sie den Knopf drehen. Die Menge des entnommenen Stroms variiert und verändert die Helligkeit der Glühbirne.",
+    "how": "Durch Umlegen des Schalters schließen Sie den Stromkreis und lassen den Strom im Stromkreis fließen. Ohne die Kraft der Spannung und den Weg eines Stromkreises kann kein Strom fließen. Die Spannung drückt den Strom und zwingt ihn, durch einen geschlossenen Stromkreis zu fließen und die Glühbirne zum Leuchten zu bringen."
   },
   {
-    "stationTitle": "Der Marconi Magnetic Detektor",
-    "slideTitle": "Der Marconi Magnetic Detektor",
+    "stationTitle": "Der Marconi-Magnetdetektor",
+    "slideTitle": "Der Marconi-Magnetdetektor",
     "info": [
       {
         "id": 1,
@@ -86,7 +86,7 @@ const data = [
       },
       {
         "id": 3,
-        "title": "Schlüsselfunktion:",
+        "title": "Hauptmerkmal:",
         "text": "Magnetfeldsensor"
       },
       {
@@ -96,9 +96,9 @@ const data = [
       }
     ],
     "description": [
-      "Im späten 19. Jahrhundert entwickelte ein junger Erfinder namens Guglielmo Marconi den Marconi Magnetic Detektor, ein Gerät, das Magnetfelder in Funkwellen erkennen konnte. Dies sind unsichtbare Signale, die drahtlose Kommunikation ermöglichen. Diese Signale konnten lange Strecken ohne Drähte übertragen werden, und wurden zum Ausgangspunkt für die drahtlose Kommunikation."
+      "Im späten 19. Jahrhundert entwickelte ein junger Erfinder namens Guglielmo Marconi den Marconi-Magnetdetektor, ein Gerät, das Magnetfelder in Radiowellen erkennen konnte. Dabei handelt es sich um unsichtbare Signale, die eine drahtlose Kommunikation ermöglichen. Diese Signale konnten ohne Kabel über große Entfernungen übertragen und empfangen werden und wurden zum Ausgangspunkt für die drahtlose Kommunikation."
     ],
-    "impact": "Der Marconi Magnetic Detektor ist ein kritischer Baustein, der die Reise zur globalen Konnektivität begann. Diese Erfindung hat das Kommunikationsspiel verändert und unsere moderne Welt gestaltet. Diese Entdeckung legte die Grundlage für zukünftige drahtlose Innovationen wie Radios, Fernseher, Internet, Smartphones und Wi-Fi.",
+    "impact": "Der Marconi-Magnetdetektor ist ein entscheidender Baustein, mit dem die Reise zur globalen Konnektivität begann. Diese Erfindung veränderte das Spiel der Kommunikation und prägte unsere moderne Welt. Diese Entdeckung legte den Grundstein für zukünftige drahtlose Innovationen wie Radios, Fernseher, das Internet, Smartphones und Wi-Fi.",
     "timeline": {
       "title": "Geschichte Der Drahtlosen Kommunikation",
       "dates": [
@@ -115,22 +115,22 @@ const data = [
         {
           "id": 3,
           "date": "1920er Jahre",
-          "text": "Erster kommerzieller Radio"
+          "text": "Erstes kommerzielles Radio"
         },
         {
           "id": 4,
-          "date": "1930 S.",
-          "text": "Radartechnologie, Fernsehsendungen"
+          "date": "1930er Jahre",
+          "text": "Radartechnik, Fernsehübertragung"
         },
         {
           "id": 5,
           "date": "1940er Jahre",
-          "text": "Qualitätsfunkdienste"
+          "text": "Hochwertige Radiodienste"
         },
         {
           "id": 6,
           "date": "1950er Jahre",
-          "text": "Erste Satelliten, das Weltraumprogramm"
+          "text": "First Satellites, das Weltraumprogramm"
         },
         {
           "id": 7,
@@ -144,35 +144,35 @@ const data = [
         },
         {
           "id": 9,
-          "date": "1990 S.",
+          "date": "1990er Jahre",
           "text": "Mobilfunknetze der zweiten Generation, Wi-Fi"
         },
         {
           "id": 10,
           "date": "2000er Jahre",
-          "text": "Satelliten -Internet, 3G -Netzwerke"
+          "text": "Satelliteninternet, 3G-Netzwerke"
         },
         {
           "id": 11,
-          "date": "2010er",
-          "text": "LTE Advanced, 5G -Netzwerk"
+          "date": "2010er Jahre",
+          "text": "LTE Advanced, 5G-Netzwerk"
         }
       ]
     },
     "directions": {
-      "title": "Wie Es Funktioniert:",
+      "title": "So Funktioniert Es:",
       "steps": [
         {
           "id": 1,
-          "step": "Hören Sie den Telefonempfänger an."
+          "step": "Hören Sie am Telefonhörer."
         },
         {
           "id": 2,
-          "step": "Drehen Sie den Knopf langsam im Uhrzeigersinn."
+          "step": "Drehen Sie den Knopf an der Vorderseite langsam im Uhrzeigersinn."
         },
         {
           "id": 3,
-          "step": "Der Radiosender wird nur dann erkannt, wenn sich das Drahtband bewegt. Es stoppt, wenn das Drahtband anhält."
+          "step": "Der Radiosender wird nur erkannt, wenn sich das Drahtband bewegt. Es stoppt, wenn das Drahtband stoppt."
         },
         {
           "id": 4,
@@ -181,11 +181,11 @@ const data = [
       ]
     },
     "watch": "",
-    "how": "Maggie ”bewegt das Eisendrahtband durch die Funkfrequenzspule, während Sie den Knopf drehen. Die Detektorfunktionen, indem sie Funkwellen erfassen, die unsichtbare Signale sind, die durch die Luft reisen. Dieses Gerät verwendete ein Magnetfeld, um diese Wellen abzufangen. Wenn die Funkwellen mit dem Magnetfeld wechselte. Ergutschloss. Menschen, die von den Funkwellen getragen werden. Interpretiert diese Änderung, um eine erkennbare Ausgabe zu erzeugen, normalerweise ein hörbares Signal.",
+    "how": "„Maggie“ bewegt das Eisendrahtband durch die Hochfrequenzspule, während Sie den Knopf drehen. Der Detektor erfasst Radiowellen, bei denen es sich um unsichtbare Signale handelt, die sich durch die Luft bewegen. Dieses Gerät nutzte ein Magnetfeld, um diese Wellen abzufangen. Wenn die Radiowellen mit dem Magnetfeld im Detektor interagierten, verursachten sie Schwankungen und erzeugten winzige elektrische Ströme. Diese Ströme wurden dann verstärkt und in hörbare Töne umgewandelt, was dies ermöglichte Menschen, die von den Radiowellen übertragenen Nachrichten zu hören. Der Marconi-Magnetdetektor arbeitet nach den Prinzipien der elektromagnetischen Induktion. Es erkennt Radiowellen mithilfe eines Kohärenters, einer Komponente, die gegenüber elektromagnetischen Wellen empfindlich ist.  Es funktioniert, indem es eine Antenne zum Empfang von Radiowellen, einen Kohärenter zum Erkennen und Reagieren auf diese Wellen durch Änderung seines elektrischen Widerstands und anschließende Schaltkreise verwendet interpretiert diese Änderung, um eine erkennbare Ausgabe zu erzeugen, normalerweise ein akustisches Signal. Diese bahnbrechende Technologie legte den Grundstein für die drahtlosen Kommunikationssysteme, die wir heute verwenden.",
     "tag": 2
   },
   {
-    "stationTitle": "Das Faraday -Projekt",
+    "stationTitle": "Das Faraday-Projekt",
     "slideTitle": "Faradays Experiment: Elektrizität Und Magnetismus",
     "info": [
       {
@@ -200,41 +200,41 @@ const data = [
       },
       {
         "id": 3,
-        "title": "Schlüsselfunktion:",
-        "text": "Beziehung zwischen Strom und Magnetismus"
+        "title": "Hauptmerkmal:",
+        "text": "Zusammenhang zwischen Elektrizität und Magnetismus"
       },
       {
         "id": 4,
         "title": "Auswirkungen:",
-        "text": "Grundlage für moderne elektrische Stromquellen"
+        "text": "Grundlage für moderne elektrische Energiequellen"
       }
     ],
     "description": [
-      "Michael Faraday, ein Wissenschaftler aus dem 19. Jahrhundert, machte Entdeckungen die Art und Weise, wie wir Elektrizität und Magnetismus verstehen.",
-      "Faraday führte 1831 ein bahnbrechendes Experiment durch, das zeigte, wie Strom und Magnetismus verbunden sind. Er entdeckte, dass ein Magnet in der Nähe eines Drahtes einen elektrischen Strom erzeugt. Diese Entdeckung legte die Grundlage für die moderne Technologie, die wir heute einsetzen.",
-      "Als Michael Faraday seine Entdeckung der elektromagnetischen Induktion machte, stellte er die Hypothese auf, dass ein sich ändernder Magnetfeld notwendig ist, um einen Strom in einer nahe gelegenen Schaltung zu induzieren. Um seine Hypothese zu testen, machte er eine Spule, indem er einen Papierzylinder mit Draht einwickelte. Neigen Sie das Röhrchen vorsichtig, damit der Magnet den Röhrchen hinunter gleitet, und prüfen Sie, ob Sie einen winzigen elektrischen Strom erzeugen können.",
-      "Die Stärke eines Elektromagnetzes hängt von der Anzahl der Wicklungen in der Spule und der Stärke des elektrischen Stroms ab. Mehr Wicklungen und stärkerer Strom erzeugen intensivere Magnetfelder."
+      "Michael Faraday, ein Wissenschaftler aus dem 19. Jahrhundert, machte Entdeckungen, die unser Verständnis von Elektrizität und Magnetismus veränderten.",
+      "Faraday führte 1831 ein bahnbrechendes Experiment durch, das zeigte, wie Elektrizität und Magnetismus zusammenhängen. Er entdeckte, dass ein Magnet, der sich in der Nähe eines Drahtes bewegt, einen elektrischen Strom erzeugt. Diese Entdeckung legte den Grundstein für die moderne Technologie, die wir heute verwenden.",
+      "Als Michael Faraday die elektromagnetische Induktion entdeckte, stellte er die Hypothese auf, dass ein sich änderndes Magnetfeld notwendig sei, um einen Strom in einem nahegelegenen Stromkreis zu induzieren. Um seine Hypothese zu testen, stellte er eine Spule her, indem er einen Papierzylinder mit Draht umwickelte. Kippen Sie die Röhre vorsichtig, sodass der Magnet an der Röhre entlang gleitet, und prüfen Sie, ob Sie einen kleinen elektrischen Strom erzeugen können.",
+      "Die Stärke eines Elektromagneten hängt von der Anzahl der Windungen in der Spule und der Stärke des elektrischen Stroms ab. Mehr Wicklungen und ein stärkerer Strom erzeugen stärkere Magnetfelder."
     ],
-    "impact": "Faradays Experiment war ein entscheidender Schritt, um die Beziehung zwischen Elektrizität und Magnetismus zu verstehen. Dieser Durchbruch führte zur Entwicklung von Generatoren, die den Strom produzieren, der unsere Häuser, Schulen und Geräte versorgt. Ohne Faradays Entdeckungen gibt es viele der elektronischen Geräte, auf die wir uns heute verlassen, nicht.",
+    "impact": "Faradays Experiment war ein entscheidender Schritt zum Verständnis der Beziehung zwischen Elektrizität und Magnetismus. Dieser Durchbruch führte zur Entwicklung von Generatoren, die den Strom erzeugen, der unsere Häuser, Schulen und Geräte mit Strom versorgt. Ohne Faradays Entdeckungen gäbe es viele der elektronischen Geräte, auf die wir uns heute verlassen, möglicherweise nicht.",
     "directions": {
-      "title": "Versuchen Sie Das:",
+      "title": "Versuchen Sie Folgendes:",
       "steps": [
         {
           "id": 1,
-          "step": "Neigen Sie das Röhrchen vorsichtig, damit der Magnet das Rohr hinunter gleitet."
+          "step": "Kippen Sie das Rohr vorsichtig, sodass der Magnet am Rohr entlang gleitet."
         },
         {
           "id": 2,
-          "step": "Beobachten Sie, wie der Messgerät das Vorhandensein von elektrischem Strom zeigt, wenn der Magnet an der Drahtspule vorbei gleitet."
+          "step": "Beobachten Sie, wie das Messgerät das Vorhandensein von elektrischem Strom anzeigt, während der Magnet an der Drahtspule vorbeigleitet."
         }
       ]
     },
     "watch": "",
-    "how": "Dieses Phänomen tritt aufgrund der elektromagnetischen Induktion auf, einem von Faraday entdeckten Prinzip. Es zeigt, dass ein sich ändernes Magnetfeld in einem Leiter einen elektrischen Strom induziert. Der Schlüsselfaktor ist hier die relative Bewegung zwischen Magnet und Draht, wodurch sich der magnetische Fluss durch die Spule ändert.  Magnetischer Fluss ist ein Maß für die Größe eines Magnetfeldes, der durch einen bestimmten Bereich verläuft.",
+    "how": "Dieses Phänomen entsteht durch elektromagnetische Induktion, ein von Faraday entdecktes Prinzip. Es zeigt, dass ein sich änderndes Magnetfeld einen elektrischen Strom in einem Leiter induziert. Der entscheidende Faktor hierbei ist die Relativbewegung zwischen Magnet und Draht, die zu einer Änderung des magnetischen Flusses durch die Spule führt.  Der magnetische Fluss ist ein Maß für die Stärke eines Magnetfelds, das durch einen bestimmten Bereich verläuft.",
     "tag": 3
   },
   {
-    "stationTitle": "Verstopft",
+    "stationTitle": "Örsted",
     "slideTitle": "Oersteds Experiment",
     "info": [
       {
@@ -244,52 +244,52 @@ const data = [
       },
       {
         "id": 2,
-        "title": "Entdeckungsdatum:",
+        "title": "Datum Der Entdeckung:",
         "text": "1820"
       },
       {
         "id": 3,
-        "title": "Experimententyp:",
+        "title": "Experimenttyp:",
         "text": "Beobachtung der Wechselwirkung zwischen Elektrizität und Magnetismus."
       },
       {
         "id": 4,
         "title": "Schlüsselentdeckung:",
-        "text": "Fließender Elektrizität durch einen Draht führte dazu, dass sich eine nahe gelegene magnetische Kompassnadel bewegte."
+        "text": "Der Stromfluss durch einen Draht veranlasste die Bewegung einer nahegelegenen magnetischen Kompassnadel."
       }
     ],
     "description": [
-      "Im frühen 19. Jahrhundert startete Oersted ein Experiment, das unser Verständnis der Natur verändern würde. Oersteds Neugier führte ihn zu einem außergewöhnlichen Experiment. Mit einem einfachen Setup beobachtete er die Wechselwirkung zwischen Elektrizität und Magnetismus. Er bemerkte, dass sich eine nahe gelegene magnetische Kompassnadel, als ein elektrischer Strom durch einen Draht floss. Diese unerwartete Wechselwirkung zwischen Elektrizität und Magnetismus war der Funke, der eine Revolution in der Wissenschaft beleuchtete."
+      "Im frühen 19. Jahrhundert startete Oersted ein Experiment, das unser Verständnis der Natur verändern sollte. Oersteds Neugier führte ihn zu einem außergewöhnlichen Experiment. Mit einem einfachen Aufbau beobachtete er die Wechselwirkung zwischen Elektrizität und Magnetismus. Er bemerkte, dass sich eine magnetische Kompassnadel in der Nähe bewegte, wenn ein elektrischer Strom durch einen Draht floss. Diese unerwartete Wechselwirkung zwischen Elektrizität und Magnetismus war der Funke, der eine Revolution in der Wissenschaft auslöste."
     ],
-    "impact": "Oersteds Entdeckung war der Schlüssel, der die mysteriöse Beziehung zwischen Elektrizität und Magnetismus aufschaltete. Diese Offenbarung legte den Grundstein für die Entwicklung von Elektromotoren, Generatoren und der modernen Technologie, auf die wir uns heute verlassen.",
+    "impact": "Oersteds Entdeckung war der Schlüssel zur geheimnisvollen Beziehung zwischen Elektrizität und Magnetismus. Diese Offenbarung legte den Grundstein für die Entwicklung von Elektromotoren, Generatoren und der modernen Technologie, auf die wir heute angewiesen sind.",
     "directions": {
-      "title": "Wie Es Funktioniert:",
+      "title": "So Funktioniert Es:",
       "steps": [
         {
           "id": 1,
-          "step": "Schauen Sie sich die Richtung der Kompasse an; Sie zeigen alle nach Norden."
+          "step": "Schauen Sie auf die Richtung des Kompasses. sie zeigen alle nach Norden."
         },
         {
           "id": 2,
-          "step": "Drehen Sie den Schalter in beide Richtungen."
+          "step": "Legen Sie den Schalter in beide Richtungen um."
         },
         {
           "id": 3,
-          "step": "Beobachten Sie, wie sich die Kompassnadeln bewegen, während Sie den Schalter umdrehen."
+          "step": "Beobachten Sie, wie sich die Kompassnadeln bewegen, während Sie den Schalter betätigen."
         },
         {
           "id": 4,
-          "step": "Sie zeigen die Richtung des Magnetfeldes, wenn der Strom auf den Kupferdraht aufgetragen wird."
+          "step": "Sie zeigen die Richtung des Magnetfelds an, wenn Strom an den Kupferdraht angelegt wird."
         }
       ]
     },
     "watch": "",
-    "how": "Eine Kompassnadel zeigt auf eine magnetische Kraft und typischerweise auf den Erdmagnetpol der Erde. Wenn Sie den Schalter umdrehen, lassen Sie den Strom aus der Batterie in eine Richtung fließen. Das vom elektrischen Strom erzeugte Magnetfeld durch die gewickelte Drahtspule erzeugte ein eigenes Magnetfeld. Die Kompassnadeln richten sich mit dem Magnetfeld um den Draht. Wenn Sie den Schalter in die andere Richtung umdrehen, wird die Kompassnadeln umgekehrt, da die Richtung des Stroms umgekehrt wurde.",
+    "how": "Eine Kompassnadel zeigt auf eine magnetische Kraft und typischerweise auf den magnetischen Nordpol der Erde. Wenn Sie den Schalter umlegen, ermöglichen Sie den Stromfluss in eine Richtung von der Batterie. Das durch den elektrischen Strom durch die umwickelte Drahtspule erzeugte Magnetfeld erzeugte ein eigenes Magnetfeld. Die Kompassnadeln richten sich nach dem Magnetfeld um den Draht. Wenn Sie den Schalter in die andere Richtung umlegen, kehren die Kompassnadeln um, da sich die Richtung des Stroms umgekehrt hat.",
     "tag": 4
   },
   {
     "stationTitle": "Menschliche Batterie",
-    "slideTitle": "Haben Sie Die Stromversorgung, Ein Elektrischer Leiter Zu Sein?",
+    "slideTitle": "Haben Sie Die Kraft, Ein Elektrischer Leiter Zu Sein?",
     "info": [
       {
         "id": 1,
@@ -309,14 +309,14 @@ const data = [
       }
     ],
     "description": [
-      "Wenn Sie eine Hand auf die Kupferplatte und die andere Hand auf die Aluminiumplatte legen, fließt der Strom durch Ihren Körper von einer Platte zur anderen durch Ihren Körper.",
+      "Wenn Sie eine Hand auf die Kupferplatte und die andere Hand auf die Aluminiumplatte legen, fließt der Strom durch Ihren Körper von einer Platte zur anderen.",
       " ",
       " ",
       " "
     ],
-    "impact": "Wir können durch chemische Wirkung Strom erzeugen. Durch Schließen von Schaltkreisen lassen wir diese Energie fließen. Sie haben die leitende Flüssigkeit für diese Batterie bereitgestellt, sodass der Strom durch Sie fließt!",
+    "impact": "Wir können durch chemische Einwirkung Elektrizität erzeugen. Indem wir Kreisläufe schließen, lassen wir diese Energie fließen. Sie haben die leitende Flüssigkeit für diese Batterie bereitgestellt, sodass der Strom durch Sie fließt!",
     "directions": {
-      "title": "Versuchen Sie Das:",
+      "title": "Versuchen Sie Folgendes:",
       "steps": [
         {
           "id": 1,
@@ -324,17 +324,17 @@ const data = [
         },
         {
           "id": 2,
-          "step": "Wiederholen Sie mit einem Freund: Halten Sie die Hände und dann stellen jede Person ihre freie Hand auf einen der Teller. Versuchen Sie es erneut mit mehr als zwei Personen „in der Schleife“."
+          "step": "Wiederholen Sie dies mit einem Freund: Halten Sie sich an den Händen, und dann legt jede Person ihre freie Hand auf einen der Teller. Versuchen Sie es noch einmal mit mehr als zwei Personen „in the loop“."
         }
       ]
     },
-    "watch": "Beobachten Sie das Messgerät. Es zeigt einen konstanten Stromfluss in eine Richtung.",
-    "how": "Wenn Sie die Metallplatten berühren, fungiert die Feuchtigkeit in Ihren Händen als Kochsalzlösung der Batterie, die Elektrolyte leitet. Die Elektrolyte reagieren mit den Kupfer- und Aluminiumplatten. Es nimmt die negativ geladenen Elektronen der Kupferplatte weg und lassen die positiven Ladungen zurück. Es gibt dann Elektronen auf die Aluminiumplatte, was dazu führt, dass sie negativ aufgeladen wird. Diese Elektronen gehen durch das Messgerät, wenn sie zur Kupferplatte zurückkehren. In einer einfachen Schaltung wie diesem wird die Richtung des Stromflusses durch die Potentialdifferenz zwischen den beiden Platten bestimmt. Wenn Sie beide Platten gleichzeitig berühren, vervollständigen Sie den Stromkreis und lassen den Elektronenfluss vom höheren Potential (Kupferplatte) bis zum niedrigeren Potential (Aluminiumplatte) durch Ihren Körper.",
+    "watch": "Beobachten Sie den Zähler. Es zeigt einen konstanten Stromfluss in eine Richtung.",
+    "how": "Wenn Sie die Metallplatten berühren, fungiert die Feuchtigkeit an Ihren Händen als salzhaltiger, leitender Elektrolyt der Batterie. Die Elektrolyte reagieren mit den Kupfer- und Aluminiumplatten. Es entzieht der Kupferplatte die negativ geladenen Elektronen und hinterlässt die positiven Ladungen. Anschließend gibt es Elektronen an die Aluminiumplatte ab, wodurch diese negativ aufgeladen wird. Diese Elektronen passieren das Messgerät und kehren zur Kupferplatte zurück. In einer einfachen Schaltung wie dieser wird die Richtung des Stromflusses durch die Potentialdifferenz zwischen den beiden Platten bestimmt. Wenn Sie beide Platten gleichzeitig berühren, schließen Sie den Stromkreis und ermöglichen den Elektronenfluss vom höheren Potenzial (Kupferplatte) zum niedrigeren Potenzial (Aluminiumplatte) durch Ihren Körper.",
     "tag": 5
   },
   {
-    "stationTitle": "Sprungdraht",
-    "slideTitle": "Jumping Drähte",
+    "stationTitle": "Springender Draht",
+    "slideTitle": "Springende Drähte",
     "info": [
       {
         "id": 1,
@@ -354,60 +354,60 @@ const data = [
       }
     ],
     "description": [
-      "Vor langer Zeit haben sich die Wissenschaftler über unsichtbare Kräfte um uns herum gewundert. Eine solche Kraft, die als Elektrizität bezeichnet wurde, faszinierte sie. Sie entdeckten, dass es die Dinge bewegen und leuchten könnte. Aber sie wussten nicht, wie sie es schaffen sollten.",
-      "Im 19. Jahrhundert wurde ein brillanter Wissenschaftler namens Michael Faraday neugierig auf Strom und Magnete. Er entdeckte etwas Unglaubliches - wenn sich Magnete in der Nähe eines Drahtes bewegen, erzeugen sie Strom. Mit Faradays Entdeckung bauten Ingenieure den ersten elektrischen Generator. Stellen Sie sich eine Maschine vor, die die Leistung von Spinnmagneten in Elektrizität verwandelt. Diese Erfindung hat die Welt für immer verändert.",
+      "Vor langer Zeit wunderten sich Wissenschaftler über unsichtbare Kräfte um uns herum. Eine solche Kraft namens Elektrizität faszinierte sie. Sie entdeckten, dass es Dinge in Bewegung und zum Leuchten bringen konnte. Aber sie wussten nicht, wie man es herstellt.",
+      "Im 19. Jahrhundert wurde ein brillanter Wissenschaftler namens Michael Faraday neugierig auf Elektrizität und Magnete. Er entdeckte etwas Unglaubliches: Wenn sich Magnete in der Nähe eines Drahtes bewegen, erzeugen sie Strom. Basierend auf Faradays Entdeckung bauten Ingenieure den ersten elektrischen Generator. Stellen Sie sich eine Maschine vor, die die Kraft rotierender Magnete in Elektrizität umwandelt. Diese Erfindung hat die Welt für immer verändert.",
       "",
       ""
     ],
     "impact": [
-      "Michael Faradays Experimente mit Elektromagnetismus veranlassten ihn, den ersten elektrischen Generator im Jahr 1831 zu erfinden. Unter Verwendung der hier gezeigten Prinzipien wandelte der Generator die mechanische Energie der Rotation in elektrische Energie um. Die Leistung des Motors hängt von der Festigkeit des Magnetfeldes, der Anzahl der Drähte und der Menge des Stroms ab, die durch die Drähte verläuft.",
-      "Das Verständnis der Elektromagnetismus führte zur Erzeugung von Kraftwerken. Diese Pflanzen erzeugen Strom für unsere Häuser, Schulen und Städte. Dank dieser Erfindung können wir unsere Häuser aufleuchten, unsere Geräte mit Strom versorgen und erstaunliche Dinge mit Elektrizität erkunden."
+      "Michael Faradays Experimente mit Elektromagnetismus führten ihn 1831 zur Erfindung des ersten elektrischen Generators. Mithilfe der hier gezeigten Prinzipien wandelte der Generator die mechanische Energie der Rotation in elektrische Energie um. Die Leistung des Motors hängt von der Stärke des Magnetfelds, der Anzahl der Drähte und der Stromstärke ab, die durch die Drähte fließt.",
+      "Das Verständnis des Elektromagnetismus, der Beziehung zwischen Elektrizität und Magneten, führte zur Schaffung von Kraftwerken. Diese Anlagen erzeugen Strom für unsere Häuser, Schulen und Städte. Dank dieser Erfindung können wir unsere Häuser beleuchten, unsere Geräte mit Strom versorgen und erstaunliche Dinge mithilfe von Elektrizität erkunden."
     ],
     "directions": {
-      "title": "Wie Es Funktioniert:",
+      "title": "So Funktioniert Es:",
       "steps": [
         {
           "id": 1,
-          "step": "Druckknopf 1"
+          "step": "Drücken Sie die Taste 1"
         },
         {
           "id": 2,
-          "step": "Druckknopf 2"
+          "step": "Drücken Sie die Taste 2"
         }
       ]
     },
     "watch": "",
-    "how": "Beachten Sie, dass der Draht zwischen zwei Magneten springt. Der Draht bewegt sich, weil das durch elektrischen Strom erzeugte Magnetfeld mit dem permanenten Magnetfeld interagiert.",
+    "how": "Beachten Sie, dass der Draht zwischen zwei Magneten springt. Der Draht bewegt sich, weil das durch elektrischen Strom erzeugte Magnetfeld mit dem Permanentmagnetfeld interagiert.",
     "what": {
       "title": "Was Ist Los?",
       "list": [
         {
           "id": 1,
-          "info": "Bewegung des Magneten: In Faradays Experiment, wenn ein Magnet in eine Drehspule (oder umgekehrt) in und aus einer Drehspule bewegt wird, ändert sich das Magnetfeld um die Spule."
+          "info": "Bewegung des Magneten: Wenn in Faradays Experiment ein Magnet in eine Drahtspule hinein und aus ihr heraus bewegt wird (oder umgekehrt), ändert sich das Magnetfeld um die Spule herum."
         },
         {
           "id": 2,
-          "info": "Induzierter Strom: Diese Änderung im Magnetfeld induziert einen Elektronenstrom oder einen elektrischen Strom in der Drahtspule."
+          "info": "Induzierter Strom: Diese Änderung des Magnetfelds induziert einen Elektronenfluss oder einen elektrischen Strom in der Drahtspule."
         },
         {
           "id": 3,
           "info": "Stromrichtung: Die Richtung des induzierten Stroms hängt von der Bewegungsrichtung des Magneten und der Spule ab.",
           "tilt": [
-            "Nach dem Recht fließt der induzierte Strom in eine Richtung.",
-            "Das Kippen nach links führt dazu, dass der induzierte Strom in die entgegengesetzte Richtung fließt."
+            "Durch die Neigung nach rechts fließt der induzierte Strom in eine Richtung.",
+            "Eine Neigung nach links führt dazu, dass der induzierte Strom in die entgegengesetzte Richtung fließt."
           ]
         },
         {
           "id": 4,
-          "info": "Stromerzeugung: Der induzierte Strom im Draht kann verwendet werden, um einen Stromkreis auszuführen oder Strom zu erzeugen."
+          "info": "Stromerzeugung: Der im Kabel induzierte Strom kann zur Stromversorgung eines Stromkreises oder zur Stromerzeugung verwendet werden."
         }
       ]
     },
     "tag": 6
   },
   {
-    "stationTitle": "Jacobs Ladder -Experiment",
-    "slideTitle": "Jacobs Leiter -Experiment: Demonstration Von Elektrischen Prinzipien",
+    "stationTitle": "Jakobsleiter-Experiment",
+    "slideTitle": "Jakobsleiter-Experiment: Demonstration Elektrischer Prinzipien",
     "info": [
       {
         "id": 1,
@@ -423,12 +423,12 @@ const data = [
       }
     ],
     "description": [
-      "Jacobs Leiter -Experiment ist eine Demonstration der Stromversorgung von Elektrizität, um faszinierende Lichtbögen zu erzeugen. Es besteht aus zwei vertikalen Leitern, typischerweise aus Metallstäben oder Drähten, die in eine V-Form mit einer kleinen Lücke zwischen ihnen unten gelegt werden.",
+      "Jacob's Ladder Experiment ist eine Demonstration der Kraft der Elektrizität, faszinierende Lichtbögen zu erzeugen. Es besteht aus zwei vertikalen Leitern, typischerweise aus Metallstäben oder -drähten, die in einer V-Form angeordnet sind und an der Unterseite einen kleinen Spalt zwischen ihnen haben.",
       "",
       "",
       ""
     ],
-    "impact": "Das Leiter -Experiment des Jakobs ist nicht nur ein faszinierendes visuelles Spektakel, sondern dient auch als grundlegende Demonstration elektrischer Prinzipien. Es unterstreicht das Verhalten von Elektrizität in der Luft und die Auswirkungen der hohen Spannung auf Ionisation und Leitfähigkeit. Dieses Experiment war entscheidend, um unser Verständnis von elektrischen Phänomenen voranzutreiben und den Weg für zahlreiche technologische Innovationen zu ebnen.",
+    "impact": "Das Jacob's Ladder Experiment ist nicht nur ein faszinierendes visuelles Spektakel, sondern dient auch als grundlegende Demonstration elektrischer Prinzipien. Es beleuchtet das Verhalten von Elektrizität in der Luft und die Auswirkungen von Hochspannung auf Ionisierung und Leitfähigkeit. Dieses Experiment war entscheidend für die Weiterentwicklung unseres Verständnisses elektrischer Phänomene und ebnete den Weg für zahlreiche technologische Innovationen.",
     "directions": {
       "title": "Wie Funktioniert Es?",
       "steps": [
@@ -438,17 +438,17 @@ const data = [
         },
         {
           "id": 2,
-          "step": "Beobachten Sie die beiden hohen Drähte."
+          "step": "Achten Sie auf die beiden hohen Drähte."
         }
       ]
     },
     "watch": "",
-    "how": "Wenn die beiden Leiter eine Hochspannung angelegt wird, fließt der Strom in der Lücke zwischen ihnen durch die Luft, die Luft ionisiert und einen leitenden Pfad erzeugt. Die intensive Wärme, die durch diese elektrische Entladung erzeugt wird, veranlasst die Luft, sich schnell auszudehnen und den Bogen nach oben zu drücken. Wenn der Lichtbogen klettert, kühlt es ab und die Luft wird weniger ionisiert, wobei er schließlich den Stromkreis bricht und den Bogen löscht. Der Vorgang wiederholt sich und erstellt eine faszinierende Display, die einer Leiter ähnelt, die nach oben klettert.  Das Zeugen des Lichtbogenentladung und des Verständnisses seiner zugrunde liegenden Prinzipien liefert wertvolle Einblicke in die Welt der Wissenschaft und des Ingenieurwesens.",
+    "how": "Wenn eine Hochspannung an die beiden Leiter angelegt wird, fließt Elektrizität durch die Luft im Spalt zwischen ihnen, ionisiert die Luft und erzeugt einen leitenden Pfad. Die durch diese elektrische Entladung erzeugte starke Hitze führt dazu, dass sich die Luft schnell ausdehnt und den Lichtbogen nach oben drückt. Während der Lichtbogen ansteigt, kühlt er ab und die Luft wird weniger ionisiert, wodurch schließlich der Stromkreis unterbrochen und der Lichtbogen gelöscht wird. Der Vorgang wiederholt sich und es entsteht ein faszinierendes Schauspiel, das einer nach oben kletternden Leiter ähnelt.  Die Beobachtung der Lichtbogenentladung und das Verständnis ihrer zugrunde liegenden Prinzipien bieten wertvolle Einblicke in die Welt der Wissenschaft und Technik.",
     "tag": 7
   },
   {
-    "stationTitle": "Statischer Strom",
-    "slideTitle": "Statischer Strom: Eine Schockierende Entdeckung",
+    "stationTitle": "Statische Elektrizität",
+    "slideTitle": "Statische Elektrizität: Eine Schockierende Entdeckung",
     "info": [
       {
         "id": 1,
@@ -464,14 +464,14 @@ const data = [
       }
     ],
     "description": [
-      "Statische Elektrizität ist eine Form der elektrischen Räume, die sich aus dem Ungleichgewicht zwischen positiven und negativen Techern im Material einmacht, das auftritt, wenn sich die Delektronen (die negativ geladenen Partikel in Anatom) von einem Material zu einem anderen bewegen. Wenn das Elektronen-Empfangsmaterial entweder isoliert oder nicht ein Elektrikumbauweiter ist, hält es die Elektronen an, was zu einem Aufbau einer Elektrikladung führt. Da sich diese Ladung nicht bewegt, wird sie als statischer Strom bezeichnet. Wenn die Bedingungen die aufgebaute Ladung fließen lassen, wird der statische Elektrizität entlassen und erschwinglich.",
-      "Statische Elektrizität ist ein Phänomen, das auftritt, wenn bestimmte Materialien gegeneinander reiben, wodurch sich die Elektronen von einer Oberfläche zu einer anderen bewegen. Diese Bewegung schafft ein Ungleichgewicht von elektrischen Ladungen, was zum Aufbau statischer Strom führt.",
-      "Gewitter sind die elektrischen Generatoren der Natur, die immense statische Ladungen erzeugen, wenn Wassertröpfchen und Eispartikel in Wolken kollidieren. Wenn der Aufbau von statischer Elektrizität zu groß wird, sucht er einen Weg zum Boden, was zu Blitzschlägen führt. Diese Stromschrauben können die Temperaturen erreichen, die heißer sind als die Oberfläche der Sonne und löst eine zerstörerische Kraft auf alles auf ihrem Weg aus.",
+      "Statische Elektrizität ist eine Form der Elektrizität, die aus dem Ungleichgewicht zwischen positiven und negativen Ladungen innerhalb eines Materials resultiert, das auftritt, wenn Elektronen (die negativ geladenen Teilchen in einem Atom) von einem Material zu einem anderen wandern. Wenn das elektronenaufnehmende Material entweder isoliert oder kein elektrischer Leiter ist, neigt es dazu, die Elektronen festzuhalten, was zu einem Aufbau elektrischer Ladung führt. Da sich diese Ladung nicht bewegt, spricht man von statischer Elektrizität. Wenn die Bedingungen den Abfluss der aufgebauten Ladung zulassen, wird der Überschuss an statischer Elektrizität entladen und in Strom umgewandelt.",
+      "Statische Elektrizität ist ein Phänomen, das auftritt, wenn bestimmte Materialien aneinander reiben, wodurch Elektronen von einer Oberfläche zur anderen wandern. Diese Bewegung führt zu einem Ungleichgewicht der elektrischen Ladungen, was zum Aufbau statischer Elektrizität führt.",
+      "Gewitter sind elektrische Generatoren der Natur, die enorme statische Aufladungen erzeugen, wenn Wassertropfen und Eispartikel in Wolken kollidieren. Wenn die statische Elektrizität zu groß wird, sucht sie sich einen Weg zum Boden, was zu Blitzeinschlägen führt. Diese Elektrizitätsblitze können Temperaturen erreichen, die heißer sind als die der Sonnenoberfläche, und zerstörerische Kraft auf alles entfalten, was ihnen in den Weg kommt.",
       ""
     ],
     "impact": [
-      "Die Entdeckung statischer Elektrizität hat einen tiefgreifenden Einfluss auf Technologie und Alltag. Von der Erfindung des Telegraphen bis zur Entwicklung der modernen Elektronik spielt statische Elektrizität eine entscheidende Rolle bei der Leistung unserer Geräte und zur Erleichterung der Kommunikation.",
-      "Im 18. Jahrhundert führte Benjamin Franklin sein Kite -Experiment bekannt und beweist, dass Blitz eine Form von Elektrizität ist. Diese bahnbrechende Entdeckung führte zur Erfindung der Blitzabte - ein Gerät zum Schutz von Gebäuden und Schiffen vor Blitzschlägen, indem die elektrische Ladung auf den Boden sicher umgeleitet wurde. Franklins Erfindung revolutionierte unser Verständnis von Blitz und ebnete den Weg für moderne Blitzschutzsysteme."
+      "Die Entdeckung der statischen Elektrizität hatte tiefgreifende Auswirkungen auf die Technologie und das Alltagsleben. Von der Erfindung des Telegraphen bis zur Entwicklung moderner Elektronik spielt statische Elektrizität eine entscheidende Rolle bei der Stromversorgung unserer Geräte und der Erleichterung der Kommunikation.",
+      "Im 18. Jahrhundert führte Benjamin Franklin sein berühmtes Drachenexperiment durch und bewies, dass Blitze eine Form von Elektrizität sind. Diese bahnbrechende Entdeckung führte zur Erfindung des Blitzableiters – eines Geräts, das Gebäude und Schiffe vor Blitzeinschlägen schützen soll, indem es die elektrische Ladung sicher auf den Boden umleitet. Franklins Erfindung revolutionierte unser Verständnis von Blitzen und ebnete den Weg für moderne Blitzschutzsysteme."
     ],
     "tag": 8
   },
@@ -493,32 +493,32 @@ const data = [
       }
     ],
     "description": [
-      "Dieses Experiment zeigt, wie Filter elektromagnetische Wellen ermöglichen, die in eine bestimmte Richtung durchlaufen, während sie andere blockieren, und die Auswirkungen der Polarisation auf elektromagnetische Wellen zeigt.  Mit polarisierter Sonnenbrille erzeugt der Filter vertikale Öffnungen für Licht. Nur Lichtstrahlen, die sich Ihren Augen vertikal nähern, können durch diese Öffnungen passen. Die Linsen blockieren alle horizontalen Lichtwellen, die zum Beispiel von einem glatten Teich oder einer glänzenden Autohaube abprallen.  Dies ist ein ähnliches Konzept wie die Polarisation auf elektromagnetischen Wellen.",
+      "Dieses Experiment zeigt, wie Filter in einer bestimmten Richtung schwingende elektromagnetische Wellen durchlassen, während sie andere blockieren, und zeigt die Auswirkungen der Polarisation auf elektromagnetische Wellen.  Bei polarisierten Sonnenbrillen erzeugt der Filter vertikale Öffnungen für Licht. Durch diese Öffnungen passen nur Lichtstrahlen, die senkrecht auf Ihr Auge treffen. Die Linsen blockieren alle horizontalen Lichtwellen, die beispielsweise von einem glatten Teich oder einer glänzenden Motorhaube eines Autos reflektiert werden.  Dies ist ein ähnliches Konzept wie die Polarisation elektromagnetischer Wellen.",
       "",
       "",
       ""
     ],
-    "impact": "Polarisation ist das, was den Netzbildschirm in Ihrer Mikrowellenofen -Türblock -gefährliche Energie durch Flucht ermöglicht. Die Drähte des Netzes sind vertikale und horizontale Blockierungswellen in beide Richtungen.",
+    "impact": "Durch die Polarisation verhindert das Maschensieb in der Tür Ihres Mikrowellenofens, dass gefährliche Energie entweicht. Die Drähte des Netzes sind vertikale und horizontale Sperrwellen, die sich in beide Richtungen bewegen.",
     "directions": {
       "title": "Wie Funktioniert Es?",
       "steps": [
         {
           "id": 1,
-          "step": "Drücken Sie die rote Taste."
+          "step": "Drücken Sie den roten Knopf."
         },
         {
           "id": 2,
-          "step": "Drehen Sie das Bildschirmrad langsam, während Sie die zwei Meter beobachten. Das linke Horn sendet und das rechte Horn erhält."
+          "step": "Drehen Sie das Bildschirmrad langsam und beobachten Sie dabei die zwei Meter. Das linke Horn sendet und das rechte Horn empfängt."
         }
       ]
     },
     "watch": "",
-    "how": "Schauen Sie sich die Messgeräte an, um zu sehen, wie viel elektromagnetische Energie übertragen wird und wie viel empfangen wird. Änderen sich die Beträge, wenn sich das Bildschirmrad bewegt? Der offene Drahtbildschirm kann elektromagnetische Wellen reflektieren oder übertragen, die vertikal polarisiert sind. Einige Wellen gehen durch die Räume zwischen den Drähten, während andere Wellen von den Drähten wieder reflektiert werden. Bei vertikal polarisierten Wellen blockiert der Bildschirm am effektivsten, wenn seine Drähte auch vertikal sind.",
+    "how": "Schauen Sie auf die Messgeräte, um zu sehen, wie viel elektromagnetische Energie gesendet und wie viel empfangen wird. Ändern sich die Beträge, wenn sich das Siebrad bewegt? Der offene Drahtschirm kann vertikal polarisierte elektromagnetische Wellen reflektieren oder übertragen. Einige Wellen passieren die Räume zwischen den Drähten, während andere Wellen von den Drähten zurückreflektiert werden. Bei vertikal polarisierten Wellen blockiert der Schirm am effektivsten, wenn seine Drähte ebenfalls vertikal verlaufen.",
     "tag": 9
   },
   {
-    "stationTitle": "Warum Haben Mikrowellen Plattenspieler?",
-    "slideTitle": "Warum Haben Mikrowellen Plattenspieler?",
+    "stationTitle": "Warum Haben Mikrowellen Drehteller?",
+    "slideTitle": "Warum Haben Mikrowellen Drehteller?",
     "info": [
       {
         "id": 1,
@@ -534,29 +534,29 @@ const data = [
       }
     ],
     "description": [
-      "Mikrowellenöfen erzeugen elektromagnetische Wellen (Mikrowellen), die Lebensmittel durch aufregende Wassermoleküle im Lebensmittel erhitzen. Mikrowellen sind unsichtbar, sodass Sie sie nicht in einem Mikrowellenofen sehen können, aber ihre Anwesenheit kann mit Neonlampen erkannt werden. Das sich ändernde elektromagnetische Feld aus den Mikrowellen bewegt sich geladene Partikel, sodass sich die Elektronen in den Metallbeinen Strom bewegen. Dieser Strom lässt die Lampen leuchten.  Die Verteilung dieser Wellen in der Mikrowelle ist tendenziell ungleichmäßig, sodass ein Plattenteller die Nahrung dreht und sicherstellt, dass alle Teile der Schüssel relativ gleichermaßen die Mikrowellen ausgesetzt sind. Dies führt zu konsistenterem und sogar Kochen."
+      "Mikrowellenöfen erzeugen elektromagnetische Wellen (Mikrowellen), die Lebensmittel erhitzen, indem sie Wassermoleküle in den Lebensmitteln anregen. Mikrowellen sind unsichtbar, daher kann man sie in einem Mikrowellenherd nicht sehen, aber ihre Anwesenheit kann mit Neonlampen erkannt werden. Das sich verändernde elektromagnetische Feld der Mikrowellen bewegt geladene Teilchen, und so bewegen sich die Elektronen in den Metallbeinen und erzeugen Strom. Dieser Strom bringt die Lampen zum Leuchten.  Da die Verteilung dieser Wellen innerhalb der Mikrowelle tendenziell ungleichmäßig ist, hilft ein Drehteller dabei, das Essen zu drehen und sicherzustellen, dass alle Teile des Gerichts den Mikrowellen relativ gleichmäßig ausgesetzt sind. Dies führt zu einem gleichmäßigeren und gleichmäßigeren Garen."
     ],
-    "impact": "Die Nahrung im Ofen absorbiert Mikrowellenenergie. Der Plattenspieler dreht die Nahrung durch die hohen und niedrigen Feldintensitäten. Gründliches Kochen ist das Ergebnis.",
+    "impact": "Lebensmittel im Ofen absorbieren Mikrowellenenergie. Der Drehteller dreht Lebensmittel durch die hohe und niedrige Feldintensität. Gründliches Garen ist das Ergebnis.",
     "directions": {
       "title": "Wie Funktioniert Es?",
       "steps": [
         {
           "id": 1,
-          "step": "Drücken Sie die rote Taste links vom Mikrowellenofen."
+          "step": "Drücken Sie den roten Knopf links neben dem Mikrowellenherd."
         }
       ]
     },
-    "how": "Beobachten Sie die Neonlichter auf dem Plattenspieler in der Mikrowelle. Sie schalten sich ein und aus und verändern die Helligkeit, wenn sich ihre Position im Ofen ändert.  Dies ist eine visuelle Demonstration der Inkonsistenz der Mikrowellenenergie. Die Verteilung der Mikrowellenenergie ist inkonsistent. Dies verursacht unterschiedliche Feldintensitäten oder heiße und kalte Flecken im Ofen.  Ein Plattenspieler wird verwendet, um die Wahrscheinlichkeit von Hotspots oder kalten Flecken in Ihrem Essen zu verringern.",
+    "how": "Beobachten Sie die Neonlichter auf dem Drehteller in der Mikrowelle. Sie schalten sich ein und aus und ändern ihre Helligkeit, wenn sich ihre Position im Ofen ändert.  Dies ist eine visuelle Demonstration der Inkonsistenz der Mikrowellenenergie. Die Verteilung der Mikrowellenenergie ist inkonsistent. Dadurch entstehen unterschiedliche Feldstärken oder heiße und kalte Stellen im Ofen.  Ein Drehteller wird eingesetzt, um die Wahrscheinlichkeit von heißen oder kalten Stellen in Ihren Speisen zu verringern.",
     "tag": 10
   },
   {
-    "stationTitle": "Telegraphenmaschine",
-    "slideTitle": "Telegraphenmaschine - Verbinden Der Welt",
+    "stationTitle": "Telegrafenmaschine",
+    "slideTitle": "Telegrafenmaschine – Die Welt Verbinden",
     "info": [
       {
         "id": 1,
         "title": "Name:",
-        "text": "Telegraphenmaschine"
+        "text": "Telegrafenmaschine"
       },
       {
         "id": 2,
@@ -571,7 +571,7 @@ const data = [
       {
         "id": 4,
         "title": "Geschwindigkeit:",
-        "text": "Nachrichten, die in Sekunden übertragen werden"
+        "text": "Nachrichten werden in Sekundenschnelle übertragen"
       },
       {
         "id": 5,
@@ -581,30 +581,30 @@ const data = [
       {
         "id": 6,
         "title": "Globale Verbindung:",
-        "text": "Verbundene Kontinente, verändern die Art und Weise, wie wir Informationen weltweit teilen"
+        "text": "Vernetzte Kontinente verändern die Art und Weise, wie wir weltweit Informationen austauschen"
       }
     ],
     "description": [
-      "Der Telegraph transformierte die Kommunikation, indem er Nachrichten über Drähte sendet und Lücken zwischen Menschen und Orten überbrückte. Mit Morse Code, einer Reihe von Punkten und Strichen, verband der Telegraph die Welt schneller als je zuvor.",
+      "Der Telegraph veränderte die Kommunikation, indem er Nachrichten über große Entfernungen über Kabel verschickte und so Kluften zwischen Menschen und Orten überbrückte. Mithilfe des Morsecodes, einer Reihe von Punkten und Strichen, verband der Telegraf die Welt schneller als je zuvor.",
       "",
       "",
       ""
     ],
-    "impact": "Vor dem Telegraph war die Kommunikation langsam und wichtige Informationen kamen oft zu spät. Da Telegraphdrähte über Kontinente dauern, konnten schnell Nachrichten ausgeliefert werden, was für Unternehmen, Regierungen und Familien besonders wichtig war, die auf wichtige Aktualisierungen warten. Der Telegraph war nicht nur ein Gerät; Es war eine Brücke zwischen Menschen und Orten. Es spielte eine bedeutende Rolle beim Bau der transkontinentalen Eisenbahn. Seine Fähigkeit, Nachrichten schnell und genau über große Entfernungen zu übertragen, spielte eine wichtige Rolle beim erfolgreichen Abschluss dieses monumentalen Ingenieurprojekts, verband die Ost- und Westküste der Vereinigten Staaten und erleichterte es, die Arbeit und Reisen durch das Land zu koordinieren.",
+    "impact": "Vor dem Telegraphen war die Kommunikation langsam und wichtige Informationen kamen oft zu spät. Da sich Telegraphendrähte über Kontinente erstreckten, konnten Nachrichten schnell übermittelt werden, was besonders wichtig für Unternehmen, Regierungen und Familien war, die auf wichtige Neuigkeiten warteten. Der Telegraph war nicht nur ein Gerät; es war eine Brücke zwischen Menschen und Orten. Es spielte eine bedeutende Rolle beim Bau der transkontinentalen Eisenbahn. Seine Fähigkeit, Nachrichten schnell und genau über große Entfernungen zu übertragen, spielte eine entscheidende Rolle bei der erfolgreichen Fertigstellung dieses monumentalen Ingenieurprojekts, das die Ost- und Westküste der Vereinigten Staaten verband und die Koordinierung von Arbeit und Reisen im ganzen Land erleichterte.",
     "directions": {
       "title": "Wie Funktioniert Es?",
       "steps": [
         {
           "id": 1,
-          "step": "Drücken Sie den großen schwarzen Knopf auf der Telegraphenschlüssel auf."
+          "step": "Drücken Sie den großen schwarzen Knopf auf der Telegrafentaste."
         },
         {
           "id": 2,
-          "step": "Halten Sie dann die Veröffentlichung für Striche, drücken Sie und geben Sie schnell für Punkte frei."
+          "step": "Für Striche gedrückt halten und dann loslassen, für Punkte kurz drücken und loslassen."
         },
         {
           "id": 3,
-          "step": "Hören Sie den Code vom Sounder an."
+          "step": "Achten Sie auf den Code vom Echolot."
         }
       ]
     },
@@ -613,28 +613,28 @@ const data = [
       "instructions": [
         {
           "id": 1,
-          "steps": "Drücken Sie den großen schwarzen Knopf auf dem Telegraphenschlüssel auf"
+          "steps": "Drücken Sie den großen schwarzen Knopf auf der Telegrafentaste"
         },
         {
           "id": 2,
-          "steps": "Halten Sie dann die Veröffentlichung für Striche, drücken Sie und geben Sie schnell für Punkte frei."
+          "steps": "Für Striche gedrückt halten und dann loslassen, für Punkte kurz drücken und loslassen."
         },
         {
           "id": 3,
-          "steps": "Hören Sie den Code vom Sounder an."
+          "steps": "Achten Sie auf den Code vom Echolot."
         }
       ]
     },
     "how": [
-      "Die magnetischen Eigenschaften des Stroms tragen dazu bei, den Strom entlang des Telegrafendrahtes zu senden. Der Spezialcode von Punkten und Strichen namens \"Morse Code\" verwendet aktuelle Impulse, um Nachrichten zu senden.",
-      "Dies war die früheste Form der sofortigen Fernkommunikation. Nachrichten können gesendet werden, indem ein spezieller Code von Samuel Morse auf einem Telegraphenschlüssel erstellt wird. Jeder Buchstabe des Alphabets hat eine eigene spezielle Sequenz von Punkten und Strichen. Der Name Telegraph wird aus dem Wort „Tele“ abgeleitet, das weit weg und das zum Schreiben von Diagrammen bedeutet.",
+      "Die magnetischen Eigenschaften der Elektrizität tragen dazu bei, den Strom über den Telegrafendraht zu leiten. Der spezielle Code aus Punkten und Strichen namens „Morsecode“ verwendet Stromimpulse, um Nachrichten zu senden.",
+      "Dies war die früheste Form der sofortigen Fernkommunikation. Nachrichten konnten durch Tippen auf einen von Samuel Morse erstellten speziellen Code auf einer Telegrafentaste gesendet werden. Jeder Buchstabe des Alphabets hat seine eigene spezielle Reihenfolge aus Punkten und Strichen. Der Name Telegraph leitet sich vom Wort „tele“ für „fern“ und dem Wort „graph“ für schreiben ab.",
       ""
     ],
     "tag": 11
   },
   {
     "stationTitle": "Theremin",
-    "slideTitle": "Harrison Instrumente 302 Theremin",
+    "slideTitle": "Harrison Instruments 302 Theremin",
     "info": [
       {
         "id": 1,
@@ -659,19 +659,19 @@ const data = [
       {
         "id": 5,
         "title": "Bemerkenswerte Funktion:",
-        "text": "Ohne physischen Kontakt gespielt"
+        "text": "Gespielt ohne Körperkontakt"
       }
     ],
     "description": [
-      "Das Theremin ist ein einzigartiges Musikinstrument, in dem es ohne physischen Kontakt gespielt wird.  Der Spieler steht vor dem Instrument und bewegt ihre Hände in der Nähe seiner zwei Metallantennen.  Das Volumen und die Tonhöhe werden durch die Entfernung von den Händen des Spielers von den Antennen gesteuert.  Das Bewegen einer Hand näher an die linke Platte erhöht das Volumen.  Wenn Sie die Hand näher an die rechte Platte bewegen, erhöht sich die Tonhöhe.  Die Hände des Spielers fungieren als geerdeter Teller eines variablen Kondensators.",
+      "Das Theremin ist ein einzigartiges Musikinstrument, da es ohne Körperkontakt gespielt wird.  Der Spieler steht vor dem Instrument und bewegt seine Hände in die Nähe der beiden Metallantennen.  Lautstärke und Tonhöhe werden durch den Abstand der Hände des Spielers von den Antennen gesteuert.  Wenn Sie eine Hand näher an die linke Platte bewegen, erhöht sich die Lautstärke.  Wenn Sie die Hand näher an die rechte Platte bewegen, erhöht sich die Tonhöhe.  Die Hände des Spielers fungieren als geerdete Platte eines variablen Kondensators.",
       "",
       "",
       ""
     ],
-    "impact": "Das Theremin ist ein Beweis für die Verschmelzung von Kunst und Wissenschaft und bietet eine einzigartige Schnittstelle, an der Sound ohne physischen Kontakt hergestellt wird. Die Erfindung war ein bedeutender Sprung in der Entwicklung elektronischer Musik und faszinierte das Publikum mit seinen unheimlichen und jenseitigen Tönen. Von seiner frühen Verwendung in klassischen Kompositionen bis hin zu seiner ikonischen Präsenz in Science -Fiction -Soundtracks hat das Theremin eine unauslöschliche Spuren in der Musikgeschichte hinterlassen. Sein unheimlicher Science-Fiction-Sound hat unzählige Filme gezeigt und zu Szenen der Spannung und des Staunens eine unverkennbare Atmosphäre verleiht.",
+    "impact": "Das Theremin ist ein Beweis für die Verschmelzung von Kunst und Wissenschaft und bietet eine einzigartige Schnittstelle, bei der Klang ohne physischen Kontakt erzeugt wird. Seine Erfindung markierte einen bedeutenden Sprung in der Entwicklung der elektronischen Musik und faszinierte das Publikum mit seinen unheimlichen und jenseitigen Klängen. Von seiner frühen Verwendung in klassischen Kompositionen bis zu seiner ikonischen Präsenz in Science-Fiction-Soundtracks hat das Theremin einen unauslöschlichen Eindruck in der Musikgeschichte hinterlassen. Sein unheimlicher Science-Fiction-Sound hat unzählige Filme bereichert und Szenen voller Spannung und Wunder eine unverwechselbare Atmosphäre verliehen.",
     "directions": {
       "title": "Wie Funktioniert Es?",
-      "description": "Steigen Sie zu unserem interaktiven Display.  Spüren Sie die unsichtbare Kraft des elektromagnetischen Feldes, während Sie die Tonhöhen und Volumenantennen manipulieren und Ihre eigenen Melodien in der Luft erstellen.  Um eine Notiz zu spielen, positionieren Sie Ihre Hand in der Nähe der Tonhöhenantenne (rechts) und stellen Sie den Abstand ein, um die Frequenz der Tonhöhe zu steuern.  Wenn sich Ihre Hand näher an die Antenne bewegt, steigt die Tonhöhe; Umgekehrt senkt das Bewegen der Hand die Tonhöhe.  Das Volumen (links) wird ähnlich gesteuert, wobei die Nähe zur Volumenantenne die Lautstärke des Schalls bestimmt wird.",
+      "description": "Betreten Sie unsere interaktive Ausstellung.  Spüren Sie die unsichtbare Kraft des elektromagnetischen Feldes, während Sie die Tonhöhe und Lautstärke der Antennen manipulieren und so Ihre eigenen Melodien in der Luft erzeugen.  Um eine Note zu spielen, positionieren Sie Ihre Hand in der Nähe der Tonhöhenantenne (rechts) und passen Sie den Abstand an, um die Frequenz der Tonhöhe zu steuern.  Je näher Ihre Hand an die Antenne herankommt, desto höher ist die Tonhöhe. Umgekehrt senkt das Wegbewegen der Hand die Tonhöhe.  Die Lautstärke (links) wird auf ähnliche Weise gesteuert, wobei die Nähe zur Lautstärkeantenne die Lautstärke des Tons bestimmt.",
       "steps": [
         {
           "id": 1,
@@ -683,12 +683,12 @@ const data = [
         }
       ]
     },
-    "how": "Das Theremin arbeitet nach dem Kapazitätsprinzip und der Manipulation elektromagnetischer Felder. Das Theremin besteht aus zwei Antennen - einer für die Tonhöhe und die andere für Volumen. Während der Spieler ihre Hände in der Nähe dieser Antennen bewegt, ist das elektromagnetische Feld gestört und erzeugt eindringliche Melodien und Harmonien. Sein intuitiver, aber verwirrender Betrieb fesselt weiterhin Musiker und Enthusiasten.",
+    "how": "Das Theremin arbeitet nach dem Prinzip der Kapazität und der Manipulation elektromagnetischer Felder. Das Theremin besteht aus zwei Antennen – eine für die Tonhöhe und die andere für die Lautstärke. Wenn der Spieler seine Hände in die Nähe dieser Antennen bewegt, wird das elektromagnetische Feld gestört und es entstehen eindringliche Melodien und Harmonien. Seine intuitive und zugleich verwirrende Bedienung fasziniert Musiker und Enthusiasten gleichermaßen.",
     "tag": 12
   },
   {
-    "stationTitle": "Erste Ausstrahlung",
-    "slideTitle": "Erste Ausstrahlung",
+    "stationTitle": "Erste Sendung",
+    "slideTitle": "Erste Sendung",
     "info": [
       {
         "id": 1,
@@ -767,13 +767,13 @@ const data = [
     "tag": 14
   },
   {
-    "stationTitle": "Elektromagnetische Funkwellen",
-    "slideTitle": "Elektromagnetische Funkwellen",
+    "stationTitle": "Elektromagnetische Radiowellen",
+    "slideTitle": "Elektromagnetische Radiowellen",
     "info": [
       {
         "id": 1,
         "title": "Name:",
-        "text": "Elektromagnetische Funkwellen"
+        "text": "Elektromagnetische Radiowellen"
       },
       {
         "id": 2,
@@ -782,8 +782,8 @@ const data = [
       },
       {
         "id": 3,
-        "title": "Schlüsselmerkmale:",
-        "text": "Unsichtbar, mit Lichtgeschwindigkeit reisen und in Kommunikationstechnologien eingesetzt werden"
+        "title": "Hauptmerkmale:",
+        "text": "Unsichtbar, mit Lichtgeschwindigkeit reisen, in Kommunikationstechnologien verwendet"
       },
       {
         "id": 4,
@@ -792,38 +792,38 @@ const data = [
       }
     ],
     "description": [
-      "Elektromagnetische Funkwellen sind die unsichtbare Kraft, die uns über große Entfernungen hinweg verbindet.  Wie eine Sinfonie von Frequenzen tragen diese Wellen Informationen, Musik und Stimmen durch die Luft und prägen unsere moderne Welt auf eine Weise, die wir oft für selbstverständlich halten.",
-      "Im späten 19. Jahrhundert führte Heinrich Hertz Experimente durch, die die Existenz von elektromagnetischen Wellen bestätigten, die von James Clerk Maxwells Gleichungen vorhergesagt wurden.  Hertz 'Arbeit legte den Grundstein für unser Verständnis von Funkwellen und ihrer Anwendungen.",
+      "Elektromagnetische Radiowellen sind die unsichtbare Kraft, die uns über weite Entfernungen verbindet.  Wie eine Symphonie aus Frequenzen transportieren diese Wellen Informationen, Musik und Stimmen durch die Luft und prägen unsere moderne Welt auf eine Weise, die wir oft für selbstverständlich halten.",
+      "Im späten 19. Jahrhundert führte Heinrich Hertz Experimente durch, die die Existenz elektromagnetischer Wellen bestätigten, die in den Gleichungen von James Clerk Maxwell vorhergesagt wurde.  Die Arbeit von Hertz legte den Grundstein für unser Verständnis von Radiowellen und ihren Anwendungen.",
       "",
       ""
     ],
-    "impact": "In den frühen Tagen wurden Funkwellen hauptsächlich für die Telegraphie verwendet, was eine Fernkommunikation über Morse Code ermöglichte.  Angesichts der technologischen Fortschritte wurden Radiowellen jedoch zum Rückgrat moderner Kommunikationssysteme, die Radiosendung, Fernsehübertragung und später drahtloses Internet und Mobilfunknetzwerke erleichterten. Im Gegensatz zu materiellen Objekten sind Radiowellen für das menschliche Auge unsichtbar. Dennoch durchdringen sie unsere Umgebung und tragen mühelos Informationen durch die Luft. Egal, ob es sich um das Musikstreaming von Ihrem Smartphone oder die Satellitensignale, die Flugzeuge leiten, organisieren Radiowellen unsere miteinander verbundene Welt lautlos.",
+    "impact": "In den Anfängen wurden Funkwellen hauptsächlich für die Telegrafie genutzt und ermöglichten die Kommunikation über große Entfernungen mittels Morsezeichen.  Mit der Weiterentwicklung der Technologie wurden Radiowellen jedoch zum Rückgrat moderner Kommunikationssysteme und ermöglichten die Rundfunkübertragung, Fernsehübertragung und später drahtloses Internet und Mobilfunknetze. Im Gegensatz zu greifbaren Objekten sind Radiowellen für das menschliche Auge unsichtbar. Dennoch durchdringen sie unsere Umgebung und transportieren Informationen mühelos durch die Luft. Ob Musik-Streaming von Ihrem Smartphone oder Satellitensignale, die Flugzeuge steuern, Radiowellen orchestrieren lautlos unsere vernetzte Welt.",
     "directions": {
       "title": "Wie Funktioniert Es?",
       "steps": [
         {
           "id": 1,
-          "step": "Generierung: Funkwellen werden erzeugt, wenn ein abwechselnder Strom durch eine Antenne fließt.  Dieser abwechselnde Strom erzeugt oszillierende elektrische und magnetische Felder um die Antenne, die zusammen die Funkwelle bilden."
+          "step": "Erzeugung: Radiowellen entstehen, wenn ein Wechselstrom durch eine Antenne fließt.  Dieser Wechselstrom erzeugt um die Antenne herum oszillierende elektrische und magnetische Felder, die zusammen die Radiowelle bilden."
         },
         {
           "id": 2,
-          "step": "Ausbreitung: Nach der Erzeugung reisen Funkwellen mit Lichtgeschwindigkeit durch die Luft (oder andere Medien).  Sie verbreiten sich in alle Richtungen aus, ähnlich wie Wellen auf der Oberfläche eines Teiches, wenn Sie einen Stein fallen lassen."
+          "step": "Ausbreitung: Einmal erzeugt, breiten sich Radiowellen mit Lichtgeschwindigkeit durch die Luft (oder andere Medien) aus.  Sie breiten sich in alle Richtungen aus, ähnlich wie Wellen auf der Oberfläche eines Teiches, wenn man einen Stein fallen lässt."
         },
         {
           "id": 3,
-          "step": "Übertragung: Funkwellen tragen Energie und Informationen, während sie sich ausbreiten.  Zum Beispiel wandelt ein Sender im Radioübertrag in elektrische Signale um, die dann zum Modulieren der Funkwellen verwendet werden.  Diese Modulation codiert die Toninformationen auf die Funkwelle und ermöglicht es, Musik, Sprache oder Daten über große Strecken zu tragen."
+          "step": "Übertragung: Radiowellen übertragen bei ihrer Ausbreitung Energie und Informationen.  Beim Rundfunk beispielsweise wandelt ein Sender Schallwellen in elektrische Signale um, die dann zur Modulation der Radiowellen verwendet werden.  Diese Modulation kodiert die Toninformationen auf der Radiowelle und ermöglicht so die Übertragung von Musik, Sprache oder Daten über große Entfernungen."
         },
         {
           "id": 4,
-          "step": "Empfang: Wenn Radiowellen auf eine auf die gleiche Frequenz abgestimmte Antenne stoßen, induzieren sie einen kleinen Wechselstrom in der Antenne.  Dieser Strom wird dann durch elektronische Schaltkreise in einem Empfängergerät wie ein Radio oder ein Smartphone verstärkt und dekodiert.  Die in der Funkwelle codierten ursprünglichen Informationen werden rekonstruiert und als Ton, Daten oder Bilder ausgegeben."
+          "step": "Empfang: Wenn Radiowellen auf eine auf die gleiche Frequenz abgestimmte Antenne treffen, induzieren sie in der Antenne einen kleinen Wechselstrom.  Dieser Strom wird dann durch elektronische Schaltkreise in einem Empfangsgerät, beispielsweise einem Radio oder einem Smartphone, verstärkt und dekodiert.  Die auf der Radiowelle kodierten Originalinformationen werden rekonstruiert und als Ton, Daten oder Bilder ausgegeben."
         },
         {
           "id": 5,
-          "step": "Interferenz und Regulierung: Funkwellen können durch verschiedene Faktoren beeinflusst werden, wie z. B. atmosphärische Bedingungen, Störungen anderer elektronischer Geräte oder Hindernisse in ihrem Weg.  Um eine zuverlässige Kommunikation sicherzustellen, werden Funkfrequenzen von Regierungen und internationalen Stellen sorgfältig reguliert, um Interferenzen zu minimieren und bestimmte Frequenzbänder für unterschiedliche Verwendungen wie Rundfunk, Luftfahrt oder mobile Kommunikation zuzuweisen."
+          "step": "Interferenz und Regulierung: Funkwellen können durch verschiedene Faktoren beeinflusst werden, wie z. B. atmosphärische Bedingungen, Interferenzen durch andere elektronische Geräte oder Hindernisse auf ihrem Weg.  Um eine zuverlässige Kommunikation zu gewährleisten, werden Funkfrequenzen von Regierungen und internationalen Gremien sorgfältig reguliert, um Störungen zu minimieren und bestimmte Frequenzbänder für verschiedene Verwendungszwecke wie Rundfunk, Luftfahrt oder Mobilkommunikation zuzuweisen."
         }
       ]
     },
-    "how": "In der elektronischen Kommunikation ist die Bandbreite die Menge an Informationen, die auf einer elektromagnetischen Welle übertragen wird.  Je mehr Informationen in einer Übertragung, desto mehr Frequenzen verbreiten sie sich aus.  Da die Frequenz eines Signals in Hertz gemessen wird (die Anzahl der Änderungenzyklen pro Sekunde), ist eine Bandbreite der Unterschied in Hertz zwischen der höchsten Frequenz und der niedrigsten Frequenz, die sie verwendet.  Die Bandbreite ist eng mit der Effizienz, Kapazität und der Qualität von Kommunikationssystemen auf Funkwellen verbunden.  Durch die Verwaltung der Bandbreitenzuweisung und Optimierung von Übertragungsparametern können Ingenieure Kommunikationsnetzwerke entwerfen, die den Benutzern weltweit zuverlässige Hochgeschwindigkeitsverbindungen bieten. Irgendwo über dir senkte ein Flugzeug seinen Standort, seine Geschwindigkeit und das Lager von 1090 MHz.  Ein geostationärer Wettersatelliten 22.000 Meilen von der Erde überträgt detaillierte Wetterkarten auf 1694,1 MHz.  Ein Auto, das von Ihrem Haus fährt, überträgt ein Signal mit der Druckbelebung eines seiner Reifen bei 315 MHz.  Ein GPS -Satelliten, der mit 8.000 Meilen pro Stunde über Kopf fliegt, pingt ein Signal an Ihr Telefon bei 1575,42 MHz.  Eine im Atlantischen Ozean bewegte Datenbühne überträgt die Seemesswerte der Meerestemperatur, der Wellenhöhe und der Windgeschwindigkeit auf einen NOAA -Satellit bei 401 MHz.  Darüber hinaus sprengt jedes einzelne mobile Gerät und jeder WLAN -Router in Ihrer Nähe in Ihrer Nähe den Internetverkehr aller über die Luft über Radiowellen.  All dies kann gleichzeitig dank eines sehr sorgfältig regulierten Funkspektrums auftreten.  Lizenzierte Sender können Teile der regional verfügbaren Bandbreite zugewiesen werden, sodass ihre Signale nicht miteinander stören. Die Federal Communication Commission (FCC) und die National Telecommunications and Information Administration (NTIA) teilen die Aufgabe, die Zuteilung von Funkfrequenzen für US -amerikanische Luftwellen zu verwalten.  Die NTIA verwaltet Federal All Radio Applications (einschließlich militärischer Anwendungen), während die FCC alles andere verwaltet, einschließlich staatlicher und lokaler Regierungs-, Handels- und Amateur -Radio -Nutzung.",
+    "how": "In der elektronischen Kommunikation ist die Bandbreite die Informationsmenge, die auf einer elektromagnetischen Welle übertragen wird.  Je mehr Informationen in einer Übertragung enthalten sind, desto mehr Frequenzen werden übertragen.  Da die Frequenz eines Signals in Hertz (Anzahl der Änderungszyklen pro Sekunde) gemessen wird, ist eine Bandbreite die Differenz in Hertz zwischen der höchsten und der niedrigsten verwendeten Frequenz.  Die Bandbreite ist eng mit der Effizienz, Kapazität und Qualität radiowellenbasierter Kommunikationssysteme verknüpft.  Durch die Verwaltung der Bandbreitenzuweisung und die Optimierung der Übertragungsparameter können Ingenieure Kommunikationsnetzwerke entwerfen, die Benutzern weltweit zuverlässige Hochgeschwindigkeitsverbindungen bieten. Irgendwo über Ihnen sendet gerade ein Flugzeug seinen Standort, seine Geschwindigkeit und seine Peilung auf 1090 MHz.  Ein geostationärer Wettersatellit 22.000 Meilen von der Erde entfernt sendet detaillierte Wetterkarten auf 1694,1 MHz.  Ein Auto, das an Ihrem Haus vorbeifährt, sendet ein Signal mit der Druckanzeige eines seiner Reifen auf 315 MHz.  Ein GPS-Satellit, der mit 8.000 Meilen pro Stunde über Ihnen fliegt, sendet ein Signal mit 1575,42 MHz an Ihr Telefon.  Eine im Atlantischen Ozean schaukelnde Datenboje übermittelt mit 401 MHz Messwerte zu Meerestemperatur, Wellenhöhe und Windgeschwindigkeit an einen NOAA-Satelliten.  Darüber hinaus sendet jedes einzelne Mobilgerät und jeder WLAN-Router in Ihrer Nähe den Internetverkehr aller über Funkwellen durch die Luft.  All dies kann dank eines sehr sorgfältig regulierten Funkspektrums gleichzeitig auftreten.  Lizenzierten Rundfunkveranstaltern können Teile der regional verfügbaren Bandbreite zugewiesen werden, damit sich ihre Signale nicht gegenseitig stören. Die Federal Communication Commission (FCC) und die National Telecommunications and Information Administration (NTIA) teilen sich die Aufgabe, die Zuteilung von Funkfrequenzen für US-amerikanische Funkwellen zu verwalten.  Die NTIA verwaltet alle Funkanwendungen auf Bundesebene (einschließlich militärischer Nutzung), während die FCC alles andere verwaltet, einschließlich der Nutzung durch Landes- und Kommunalverwaltung sowie kommerzielle und Amateurfunknutzung.",
     "tag": 15
   },
   {
@@ -863,22 +863,22 @@ const data = [
         }
       ]
     },
-    "how": "Der offene Drahtbildschirm kann elektromagnetische Wellen reflektieren oder übertragen, die vertikal polarisiert sind. Einige Wellen gehen durch die Räume zwischen den Drähten, während andere Wellen von den Drähten wieder reflektiert werden. Bei vertikal polarisierten Wellen blockiert der Bildschirm am effektivsten, wenn seine Drähte auch vertikal sind.",
+    "how": "Der offene Drahtschirm kann vertikal polarisierte elektromagnetische Wellen reflektieren oder übertragen. Einige Wellen passieren die Räume zwischen den Drähten, während andere Wellen von den Drähten zurückreflektiert werden. Bei vertikal polarisierten Wellen blockiert der Schirm am effektivsten, wenn seine Drähte ebenfalls vertikal verlaufen.",
     "tag": 16
   },
   {
-    "stationTitle": "Vom Graaff -Generator",
-    "slideTitle": "Der Van De Graaff Generator: Nutzung Der Leistung Von Statischer Elektrizität",
+    "stationTitle": "Van-De-Graaff-Generator",
+    "slideTitle": "Der Van De Graaff-Generator: Die Kraft Statischer Elektrizität Nutzen",
     "info": [
       {
         "id": 1,
         "title": "Name:",
-        "text": "Vom Graaff -Generator"
+        "text": "Van-de-Graaff-Generator"
       },
       {
         "id": 2,
         "title": "Erfinder:",
-        "text": "Robert J. van de Graaff"
+        "text": "Robert J. Van de Graaff"
       },
       {
         "id": 3,
@@ -888,26 +888,26 @@ const data = [
       {
         "id": 4,
         "title": "Zweck:",
-        "text": "Statischer Elektrizität demonstrieren"
+        "text": "Demonstration statischer Elektrizität"
       },
       {
         "id": 5,
-        "title": "Lustige Tatsache:",
-        "text": "Der größte Van de Graaff-Generator kann blitzartige Funken über 20 Fuß lang machen"
+        "title": "Fun Fact:",
+        "text": "Der größte Van-de-Graaff-Generator kann blitzartige Funken mit einer Länge von über 20 Fuß erzeugen"
       },
       {
         "id": 6,
         "title": "Auswirkungen:",
-        "text": "Half bei der nuklearen Forschung und zum Verständnis von Atomstrukturen."
+        "text": "Hat bei der Kernforschung und dem Verständnis atomarer Strukturen geholfen."
       }
     ],
     "description": [
-      "Der Van de Graaff Generator wurde 1929 von Robert J. van de Graaff erfunden, um zu zeigen, wie elektrische Gebühren funktionieren.  Durch die Verwendung eines sich bewegenden Gürtels, um Strom auf dem großen Metallkuppel aufzubauen, lehrt es uns über statische Elektrizität - etwas, das überall um uns herum ist, aber wir bemerken es normalerweise nicht.",
+      "Der Van-de-Graaff-Generator wurde 1929 von Robert J. Van de Graaff erfunden, um zu zeigen, wie elektrische Ladungen funktionieren.  Durch den Einsatz eines beweglichen Bandes zum Aufbau von Elektrizität auf der großen Metallkuppel lernen wir etwas über statische Elektrizität – etwas, das überall um uns herum vorhanden ist, das wir aber normalerweise nicht bemerken.",
       "",
       "",
       ""
     ],
-    "impact": "Dieser Generator hilft Wissenschaftlern, die Kräfte zu verstehen, die Atome zusammenhalten.  Es wurde einst in Laboratorien verwendet, um Partikel für Experimente in der Kernphysik zu beschleunigen und uns zu helfen, mehr über das Universum und die Bausteine ​​der Materie zu erfahren. Höhere Energy -Maschinen - 1937 baute die Westinghouse Electric Company eine 65 -Fuß -Maschine, die Westinghouse Atom Smasher, die in Forest Hills, Pennsylvania 5 MeV, 5 MeV erzeugen kann.  Es war der Beginn der nuklearen Forschung für zivile Anwendungen.  Es wurde 1958 stillgelegt und 2015 teilweise abgerissen.",
+    "impact": "Dieser Generator hilft Wissenschaftlern, die Kräfte zu verstehen, die Atome zusammenhalten.  Es wurde einst in Labors verwendet, um Teilchen für Experimente in der Kernphysik zu beschleunigen und uns dabei zu helfen, mehr über das Universum und die Bausteine ​​der Materie zu erfahren. Maschinen mit höherer Energie – 1937 baute das Unternehmen Westinghouse Electric in Forest Hills, Pennsylvania, eine 20 m lange Maschine, den Westinghouse Atom Smasher, der 5 MeV erzeugen konnte.  Es markierte den Beginn der Kernforschung für zivile Anwendungen.  Es wurde 1958 stillgelegt und 2015 teilweise abgerissen.",
     "directions": {
       "title": "Wie Funktioniert Es?",
       "steps": [
@@ -925,77 +925,77 @@ const data = [
     "howGraaff": {
       "title": "Wie Funktioniert Es?",
       "info": [
-        "Reibung am Gürtel → Gebühren übertragen in die Kuppel → Ladungen springen, um Funken zu erzeugen.",
-        "Der Van de Graaff Generator arbeitet mit dem Aufbau und Speichern statischer Elektrizität, den er an andere Objekte überträgt. So macht es das:"
+        "Reibung am Gürtel → Ladungen werden auf die Kuppel übertragen → Ladungen springen und erzeugen Funken.",
+        "Der Van-de-Graaff-Generator funktioniert, indem er statische Elektrizität aufbaut und speichert, die er auf andere Objekte überträgt. So geht das:"
       ],
       "list": [
         {
           "id": 1,
           "item": "Der Gürtel.",
-          "description": "In der Maschine befindet sich ein Gummi oder einen Stoffriemen, der sich ständig über Walzen bewegt. Während sich der Gürtel bewegt, reibt er sich gegen die Walzen und erfasst winzige elektrische Ladungen durch einen Prozess, der als Reibung bezeichnet wird."
+          "description": "Im Inneren der Maschine befindet sich ein Gummi- oder Stoffband, das sich kontinuierlich über Rollen bewegt. Während sich das Band bewegt, reibt es an den Rollen und nimmt durch einen Prozess namens Reibung winzige elektrische Ladungen auf."
         },
         {
           "id": 2,
           "item": "Der Kamm.",
-          "description": "Wenn sich der Gürtel bewegt, verläuft er an einem Kamm (einem Metallstreifen mit scharfen Punkten) in der Nähe der Maschine. Der Kamm überträgt die elektrischen Ladungen vom Gürtel an die Metallkuppel oben am Generator."
+          "description": "Während sich das Band bewegt, passiert es einen Kamm (einen Metallstreifen mit scharfen Spitzen) in der Nähe der Maschinenbasis. Der Kamm überträgt die elektrischen Ladungen vom Gürtel auf die Metallkuppel oben am Generator."
         },
         {
           "id": 3,
           "item": "Die Kuppel.",
-          "description": "Die Kuppel ist wie ein riesiger Behälter für elektrische Gebühren. Während sich die Gebühren aufbauen, wird die Kuppel hoch aufgeladen. Dies ist statischer Strom, ähnlich wie beim Reiben eines Ballons an Ihrem Haar."
+          "description": "Die Kuppel ist wie ein riesiger Behälter für elektrische Ladungen. Wenn sich die Ladungen aufbauen, wird die Kuppel stark aufgeladen. Dabei handelt es sich um statische Elektrizität, ähnlich wie wenn man einen Luftballon über sein Haar reibt."
         },
         {
           "id": 4,
-          "item": "Funken und statisch.",
-          "description": "Wenn sich die Gebühren auf der Kuppel genug aufbauen, suchen sie nach einem Weg zum Flucht.  Wenn Sie ein Metallobjekt (oder sogar Ihre Hand) in der Nähe der Kuppel bringen, springen die Ladungen durch die Luft und erzeugen einen sichtbaren Funken.  Manchmal, wenn Sie die Kuppel berühren, bewegen sich die Ladungen durch Sie - und tragen Sie Ihr Haar zu Ende."
+          "item": "Funken und statische Aufladung.",
+          "description": "Wenn sich die Ladungen auf der Kuppel stark genug aufbauen, suchen sie nach einem Fluchtweg.  Wenn Sie einen Metallgegenstand (oder sogar Ihre Hand) in die Nähe der Kuppel bringen, springen die Ladungen durch die Luft und erzeugen einen sichtbaren Funken.  Manchmal, wenn Sie die Kuppel berühren, bewegen sich die Ladungen durch Sie hindurch, sodass Ihnen die Haare zu Berge stehen."
         }
       ]
     },
     "try": {
-      "title": "Versuchen Sie Das Und Beobachten Sie:",
+      "title": "Probieren Sie Es Aus Und Schauen Sie Sich Folgendes An:",
       "steps": [
         {
           "id": 1,
           "name": "Halten Sie die Taste gedrückt, um sie einzuschalten.",
-          "text": "Der Van de Graaff -Generator und lassen Sie ihn die Gebühr aufbauen. Sie werden ein schwaches Summen -Geräusch hören, und nach einigen Augenblicken wird die Kuppel ansammeln, statische Elektrizität zu sammeln."
+          "text": "Den Van-de-Graaff-Generator anschließen und die Ladung aufbauen lassen. Sie hören ein leises Summen und nach wenigen Augenblicken beginnt sich in der Kuppel statische Elektrizität anzusammeln."
         },
         {
           "id": 2,
-          "name": "Zeuge der Anklage.",
-          "text": "Beobachten Sie den Funken -Zap vom Stab bis zur Metallkuppel. Das Haar wird zunehmen, wenn der statische Strom fließt. Die statische Elektrizität abwehrt jeden Haarstrang von den anderen weg und erzeugt den „verrückten Haareffekt“. Die Fluoreszenzleuchten flackern und schmücken die Glühbirnen."
+          "name": "Seien Sie Zeuge der Anklage.",
+          "text": "Beobachten Sie, wie die Funken vom Stab zur Metallkuppel sprühen. Die Haare beginnen sich aufzurichten, wenn die statische Elektrizität fließt. Die statische Elektrizität stößt jede Haarsträhne von der anderen ab und erzeugt so den „Crazy-Hair“-Effekt. Die Leuchtstofflampen flackern und laden die Glühbirnen auf."
         }
       ]
     },
     "tag": 17
   },
   {
-    "stationTitle": "Audioübersetzer",
-    "slideTitle": "Der Audioübersetzer",
+    "stationTitle": "Audio-Übersetzer",
+    "slideTitle": "Der Audio-Übersetzer",
     "info": [
       {
         "id": 1,
         "title": "Auswirkungen:",
-        "text": "Bis 1930 40 Millionen Haushalte verbunden"
+        "text": "Vernetzte bis 1930 40 Millionen Haushalte"
       },
       {
         "id": 2,
         "title": "Globale Reichweite:",
-        "text": "95% Mobilfunknetzabdeckung (2023)"
+        "text": "95 % Mobilfunknetzabdeckung (2023)"
       }
     ],
     "description": [
-      "Der Audio -Übersetzer, der nicht mit einem Sprachübersetzer verwechselt wird, ist ein Gerät, das entfernte Geräusche erfasst und sie in elektrische Signale verwandelt. Dieser Durchbruch markierte eine neue Ära in der Kommunikation."
+      "Der Audioübersetzer, nicht zu verwechseln mit einem Sprachübersetzer, ist ein Gerät, das entfernte Geräusche erfasst und sie in elektrische Signale umwandelt. Dieser Durchbruch markierte eine neue Ära in der Kommunikation."
     ],
     "impact": [
-      "Audioübersetzer verwandelten entfernte Flüstern in globale Gespräche. Sie prägten die moderne Kommunikation und vereint Menschen weltweit. Erkunden Sie die Kraft der Innovation und Verbindung in unserer gemeinsamen Geschichte.",
-      "Während das Telefon, das Ende des 19. Jahrhunderts erfunden wurde, revolutionierte es direkte Kommunikation zwischen Einzelpersonen, es wurde durch die Notwendigkeit einer physischen Verbindung über Kabel oder Kabel eingeschränkt. Es erleichterte Einzelgespräche über große Entfernungen, ging jedoch nicht mit der Herausforderung, entfernte Geräusche oder Stimmen für ein breiteres Publikum zu erfassen und zu übertragen. Der Audio -Übersetzer ermöglichte die Umwandlung von Schallwellen in elektrische Signale und ermöglichte die Übertragung dieser Signale über weite Entfernungen ohne Verschlechterung. Diese Technologie erleichterte die Ausstrahlung von Sounds - muSisic, Reden, Nachrichten - einem breiten Publikum und über die Überwindung der Grenzen der direkten Kommunikation, die vom Telefon angeboten wird. Es ermöglichte gemeinsame Erfahrungen und den kulturellen Austausch im Massenmaßstab und erreichte weltweit Millionen von Haushalten."
+      "Audioübersetzer verwandelten entferntes Flüstern in globale Gespräche. Sie prägten die moderne Kommunikation und vereinten Menschen weltweit. Entdecken Sie die Kraft der Innovation und Verbindung in unserer gemeinsamen Geschichte.",
+      "Das im späten 19. Jahrhundert erfundene Telefon revolutionierte zwar die direkte Kommunikation zwischen Einzelpersonen, war jedoch durch die Notwendigkeit einer physischen Verbindung über Drähte oder Kabel eingeschränkt. Es erleichterte Einzelgespräche über große Entfernungen, stellte sich jedoch nicht der Herausforderung, entfernte Geräusche oder Stimmen für ein breiteres Publikum zu erfassen und zu übertragen. Der Audioübersetzer ermöglichte die Umwandlung von Schallwellen in elektrische Signale und ermöglichte so die Übertragung dieser Signale über große Entfernungen ohne Beeinträchtigung. Diese Technologie ermöglichte die Übertragung von Geräuschen – Musik, Reden, Nachrichten – an ein breites Publikum und überwand damit die Einschränkungen der direkten Kommunikation, die das Telefon bietet. Es ermöglichte gemeinsame Erfahrungen und kulturellen Austausch in großem Maßstab und erreichte Millionen von Haushalten auf der ganzen Welt."
     ],
     "directions": {
-      "title": "Wie Es Funktioniert:",
+      "title": "So Funktioniert Es:",
       "steps": [
         {
           "id": 1,
-          "step": "Drücken Sie die Taste, um sie einzuschalten, und warten Sie einen Moment, bis sie sich aufwärmen kann."
+          "step": "Drücken Sie die Taste, um es einzuschalten, und warten Sie einen Moment, bis es warm ist."
         },
         {
           "id": 2,
@@ -1007,13 +1007,13 @@ const data = [
         }
       ]
     },
-    "how": "Ein Audio -Übersetzer erfasst Schallwellen durch ein empfindliches Mikrofon oder Membran. Diese Schallwellen werden dann in elektrische Signale umgewandelt. Mit dieser Transformation können die Signale am Empfangsende verstärkt, übertragen und als Klang reproduziert werden. Im Wesentlichen wandelt es hörbare Informationen in elektrische Impulse für eine effiziente Übertragung über Entfernungen um und stellt sicher, dass die ursprünglichen Geräusche intakt bleiben, wenn sie ihr Ziel erreichen.",
+    "how": "Ein Audioübersetzer erfasst Schallwellen durch ein empfindliches Mikrofon oder eine Membran. Diese Schallwellen werden dann in elektrische Signale umgewandelt. Durch diese Transformation können die Signale am Empfangsende verstärkt, übertragen und als Ton wiedergegeben werden. Im Wesentlichen wandelt es hörbare Informationen in elektrische Impulse für eine effiziente Übertragung über Entfernungen um und stellt sicher, dass die ursprünglichen Geräusche erhalten bleiben, wenn sie ihr Ziel erreichen.",
     "tag": 18
   },
   {
     "stationTitle": "Elektromagnetische Wellen",
     "slideTitle": "Einführung in Elektromagnetische Wellen",
-    "description": "Willkommen, wenn wir durch die unsichtbaren Kräfte reisen, die unser Universum prägen. Von Funkwellen bis hin zu Gammastrahlen umfassen elektromagnetische Wellen ein riesiges Energiespektrum, das jeden Aspekt unseres täglichen Lebens durchdringt.  Folgen Sie mit, während wir ihre tiefgreifenden Auswirkungen auf Technologie, Kommunikation und unser Verständnis des Kosmos untersuchen.",
+    "description": "Willkommen auf unserer Reise durch die unsichtbaren Kräfte, die unser Universum formen. Von Radiowellen bis zu Gammastrahlen umfassen elektromagnetische Wellen ein riesiges Energiespektrum, das jeden Aspekt unseres täglichen Lebens durchdringt.  Folgen Sie uns, während wir ihre tiefgreifenden Auswirkungen auf Technologie, Kommunikation und unser Verständnis des Kosmos erkunden.",
     "categories": {
       "title": "Kategorien Elektromagnetischer Wellen",
       "waves": [
@@ -1021,61 +1021,61 @@ const data = [
           "id": 1,
           "title": "Radiowellen",
           "description": [
-            "Diese Wellen haben die längsten Wellenlängen und die niedrigsten Frequenzen im elektromagnetischen Spektrum.",
-            "In der Kommunikation häufig verwendet, einschließlich Radiosendungen, Wi-Fi und Mobilfunknetzwerken."
+            "Diese Wellen haben die längsten Wellenlängen und niedrigsten Frequenzen im elektromagnetischen Spektrum.",
+            "Weit verbreitet in der Kommunikation, einschließlich Rundfunk, WLAN und Mobilfunknetzen."
           ]
         },
         {
           "id": 2,
           "title": "Mikrowellen",
           "description": [
-            "Mit leicht kürzeren Wellenlängen als Funkwellen werden Mikrowellen in verschiedenen Anwendungen wie Kochen, Radar und Satellitenkommunikation verwendet."
+            "Mikrowellen haben eine etwas kürzere Wellenlänge als Radiowellen und werden in verschiedenen Anwendungen wie Kochen, Radar und Satellitenkommunikation eingesetzt."
           ]
         },
         {
           "id": 3,
           "title": "Infrarotlicht",
           "description": [
-            "Jenseits sichtbares Licht, aber kürzer als Mikrowellen, sind Infrarotwellen mit Wärme verbunden und werden in Nachtsichtstechnologie, Fernbedienungen und thermischen Bildgebung verwendet."
+            "Infrarotwellen gehen über das sichtbare Licht hinaus, sind aber kürzer als Mikrowellen und werden mit Wärme in Verbindung gebracht. Sie werden in der Nachtsichttechnologie, in Fernbedienungen und in der Wärmebildtechnik eingesetzt."
           ]
         },
         {
           "id": 4,
           "title": "Sichtbares Licht",
           "description": [
-            "Das einzige Segment des für das menschlichen Auge sichtbaren elektromagnetischen Spektrums umfasst sichtbares Licht eine Reihe von Farben von Rot bis Violett.",
-            "Wesentlich für das Sehen und in optischen Technologien wie Kameras, Teleskopen und Lasern verwendet."
+            "Sichtbares Licht ist der einzige für das menschliche Auge sichtbare Abschnitt des elektromagnetischen Spektrums und umfasst eine Reihe von Farben von Rot bis Violett.",
+            "Unverzichtbar für das Sehen und wird in optischen Technologien wie Kameras, Teleskopen und Lasern verwendet."
           ]
         },
         {
           "id": 5,
           "title": "Ultraviolette (UV) Wellen",
           "description": [
-            "Abgesehen von violettem Licht am elektromagnetischen Spektrum haben UV -Wellen kürzere Wellenlängen und höhere Energie.",
-            "Wird in Sterilisation, Bräunungsbetten und medizinischen Behandlungen verwendet, kann aber auch lebende Gewebe schädigen."
+            "Über das violette Licht im elektromagnetischen Spektrum hinaus haben UV-Wellen kürzere Wellenlängen und eine höhere Energie.",
+            "Wird bei Sterilisationen, Solarien und medizinischen Behandlungen verwendet, kann aber auch lebendes Gewebe schädigen."
           ]
         },
         {
           "id": 6,
           "title": "Röntgenaufnahmen",
           "description": [
-            "Diese Wellen haben noch kürzere Wellenlängen und höhere Energie als UV -Wellen.",
-            "Wertvoll in der medizinischen Bildgebung, im Scannen der Flughafensicherheit und bei der Materialanalyse aufgrund ihrer Fähigkeit, feste Objekte zu durchdringen."
+            "Diese Wellen haben noch kürzere Wellenlängen und eine höhere Energie als UV-Wellen.",
+            "Aufgrund ihrer Fähigkeit, feste Objekte zu durchdringen, sind sie für die medizinische Bildgebung, das Scannen der Flughafensicherheit und die Materialanalyse wertvoll."
           ]
         },
         {
           "id": 7,
           "title": "Gammastrahlen",
           "description": [
-            "Mit den kürzesten Wellenlängen und der höchsten Energie im elektromagnetischen Spektrum werden Gammastrahlen durch radioaktive Materialien und kosmische Ereignisse emittiert.",
-            "Nutzung bei Krebsbehandlung, Sterilisation und Untersuchung energiereicher astrophysikalischer Phänomene."
+            "Gammastrahlen mit den kürzesten Wellenlängen und der höchsten Energie im elektromagnetischen Spektrum werden von radioaktiven Materialien und kosmischen Ereignissen emittiert.",
+            "Wird zur Krebsbehandlung, Sterilisation und zur Untersuchung hochenergetischer astrophysikalischer Phänomene eingesetzt."
           ]
         }
       ]
     },
     "ending": [
-      "Wenn Sie die Kategorien elektromagnetischer Wellen untersuchen, werden Sie eine tiefere Wertschätzung für die Vielfalt und Bedeutung dieser Phänomene erhalten.  Von den praktischen Anwendungen in der täglichen Technologie bis hin zu den tiefgreifenden Einsichten, die sie in die Natur des Universums geben, formen elektromagnetische Wellen unsere Welt weiterhin auf eine Weise und unsichtbar.",
-      "Achten Sie besonders auf unsere Exponate über „visuelle elektromagnetische Wellen“ und „elektromagnetische Funkwellen“, um weitere Einblicke in diese Beispiele für elektromagnetische Wellen zu erhalten."
+      "Wenn Sie die Kategorien elektromagnetischer Wellen erforschen, werden Sie ein tieferes Verständnis für die Vielfalt und Bedeutung dieser Phänomene gewinnen.  Von den praktischen Anwendungen in der alltäglichen Technologie bis hin zu den tiefgreifenden Einblicken, die sie in die Natur des Universums liefern, prägen elektromagnetische Wellen unsere Welt weiterhin auf sichtbare und unsichtbare Weise.",
+      "Achten Sie besonders auf unsere Ausstellungen zu „Visuelle elektromagnetische Wellen“ und „Elektromagnetische Radiowellen“, um weitere Einblicke in diese Beispiele elektromagnetischer Wellen zu erhalten."
     ],
     "tag": 19
   },
@@ -1090,12 +1090,12 @@ const data = [
       }
     ],
     "description": [
-      "Dies ist Beispieltext.",
-      "Dies ist auch Beispieltext."
+      "Dies ist ein Beispieltext.",
+      "Dies ist auch ein Beispieltext."
     ],
-    "impact": "Aufprallprobentext",
+    "impact": "Beispieltext für Auswirkungen",
     "directions": {
-      "title": "Wie Es Funktioniert:",
+      "title": "So Funktioniert Es:",
       "steps": [
         {
           "id": 1,
@@ -1111,7 +1111,7 @@ const data = [
         }
       ]
     },
-    "watch": "Sehen Sie sich Beispieltext an",
+    "watch": "Beispieltext ansehen",
     "how": "Wie Beispieltext"
   },
   {
@@ -1125,12 +1125,12 @@ const data = [
       }
     ],
     "description": [
-      "Dies ist Beispieltext.",
-      "Dies ist auch Beispieltext."
+      "Dies ist ein Beispieltext.",
+      "Dies ist auch ein Beispieltext."
     ],
-    "impact": "Aufprallprobentext",
+    "impact": "Beispieltext für Auswirkungen",
     "directions": {
-      "title": "Wie Es Funktioniert:",
+      "title": "So Funktioniert Es:",
       "steps": [
         {
           "id": 1,
@@ -1146,7 +1146,7 @@ const data = [
         }
       ]
     },
-    "watch": "Sehen Sie sich Beispieltext an",
+    "watch": "Beispieltext ansehen",
     "how": "Wie Beispieltext"
   },
   {
@@ -1160,12 +1160,12 @@ const data = [
       }
     ],
     "description": [
-      "Dies ist Beispieltext.",
-      "Dies ist auch Beispieltext."
+      "Dies ist ein Beispieltext.",
+      "Dies ist auch ein Beispieltext."
     ],
-    "impact": "Aufprallprobentext",
+    "impact": "Beispieltext für Auswirkungen",
     "directions": {
-      "title": "Wie Es Funktioniert:",
+      "title": "So Funktioniert Es:",
       "steps": [
         {
           "id": 1,
@@ -1181,7 +1181,7 @@ const data = [
         }
       ]
     },
-    "watch": "Sehen Sie sich Beispieltext an",
+    "watch": "Beispieltext ansehen",
     "how": "Wie Beispieltext"
   },
   {
@@ -1195,12 +1195,12 @@ const data = [
       }
     ],
     "description": [
-      "Dies ist Beispieltext.",
-      "Dies ist auch Beispieltext."
+      "Dies ist ein Beispieltext.",
+      "Dies ist auch ein Beispieltext."
     ],
-    "impact": "Aufprallprobentext",
+    "impact": "Beispieltext für Auswirkungen",
     "directions": {
-      "title": "Wie Es Funktioniert:",
+      "title": "So Funktioniert Es:",
       "steps": [
         {
           "id": 1,
@@ -1216,20 +1216,20 @@ const data = [
         }
       ]
     },
-    "watch": "Sehen Sie sich Beispieltext an",
+    "watch": "Beispieltext ansehen",
     "how": "Wie Beispieltext"
   },
   {
     "tag": 24,
-    "stationTitle": "Entwicklung Des Aufgenommenen Klangs",
-    "slideTitle": "Die Entwicklung Des Aufgenommenen Klangs",
+    "stationTitle": "Entwicklung Des Aufgezeichneten Tons",
+    "slideTitle": "Die Entwicklung Des Aufgezeichneten Tons",
     "info": [
       {
         "id": 1,
         "title": "Bunker Hill",
         "performedBy": "Harlan und Stanley",
         "performedWhen": "Das. 1905",
-        "recordedOn": "Aufgenommen auf Edison Black Wax Cylinder #8966"
+        "recordedOn": "Aufgezeichnet auf schwarzem Edison-Wachszylinder Nr. 8966"
       },
       {
         "id": 2,
@@ -1241,9 +1241,9 @@ const data = [
       {
         "id": 3,
         "title": "Johnny B. Goode",
-        "performedBy": "Die Grateful Dead",
+        "performedBy": "Die dankbaren Toten",
         "performedWhen": "10. Juni 1973",
-        "recordedOn": "Aufgenommen auf Sony TC 2850SD tragbarem Kassettenrekorder auf Memorex -Kassetten."
+        "recordedOn": "Aufgenommen mit dem tragbaren Kassettenrecorder Sony TC 2850SD auf Memorex-Kassetten."
       }
     ]
   },
@@ -1258,11 +1258,11 @@ const data = [
       }
     ],
     "description": [
-      "Bald kommen."
+      "Kommt bald."
     ],
     "impact": "Auswirkungen",
     "directions": {
-      "title": "Wie Es Funktioniert:",
+      "title": "So Funktioniert Es:",
       "steps": [
         {
           "id": 1,
@@ -1278,8 +1278,8 @@ const data = [
         }
       ]
     },
-    "watch": "Bald kommen",
-    "how": "Bald kommen"
+    "watch": "Kommt bald",
+    "how": "Kommt bald"
   },
   {
     "tag": 26,
@@ -1292,11 +1292,11 @@ const data = [
       }
     ],
     "description": [
-      "Bald kommen."
+      "Kommt bald."
     ],
     "impact": "Auswirkungen",
     "directions": {
-      "title": "Wie Es Funktioniert:",
+      "title": "So Funktioniert Es:",
       "steps": [
         {
           "id": 1,
@@ -1312,13 +1312,13 @@ const data = [
         }
       ]
     },
-    "watch": "Bald kommen",
-    "how": "Bald kommen"
+    "watch": "Kommt bald",
+    "how": "Kommt bald"
   },
   {
     "tag": 27,
-    "stationTitle": "Bombens",
-    "slideTitle": "Bombens",
+    "stationTitle": "Bombenvisiere",
+    "slideTitle": "Bombenvisiere",
     "info": [
       {
         "id": 1,
@@ -1326,11 +1326,11 @@ const data = [
       }
     ],
     "description": [
-      "Bald kommen."
+      "Kommt bald."
     ],
     "impact": "Auswirkungen",
     "directions": {
-      "title": "Wie Es Funktioniert:",
+      "title": "So Funktioniert Es:",
       "steps": [
         {
           "id": 1,
@@ -1346,8 +1346,8 @@ const data = [
         }
       ]
     },
-    "watch": "Bald kommen",
-    "how": "Bald kommen"
+    "watch": "Kommt bald",
+    "how": "Kommt bald"
   }
 ];
 

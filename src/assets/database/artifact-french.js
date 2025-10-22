@@ -1,32 +1,32 @@
 const data = [
   {
-    "stationTitle": "Lui Radio",
-    "slideTitle": "Lui Radio",
+    "stationTitle": "Radio Jambon",
+    "slideTitle": "Radio Jambon",
     "info": [
       {
         "id": 1,
-        "name": "Qu'est-ce que la radio amateur?",
-        "description": "Amateur Radio (Ham Radio) est un passe-temps international sur les fréquences désignées permettant une communication via diverses méthodes, par ex. Code Morse, voix et données. Des indications d'appel telles que K3NEM (notre signal d'appel de station) sont uniques à chaque jambon ou club agréé. Les préfixes d'appel varient selon le pays."
+        "name": "QU'EST-CE QUE LA RADIO AMATEUR ?",
+        "description": "La radioamateur (Ham Radio) est un passe-temps international sur des fréquences désignées permettant la communication via diverses méthodes, par ex. Code Morse, voix et données. Les indicatifs d'appel tels que K3NEM (notre indicatif d'appel de station) sont uniques à chaque jambon ou club sous licence. Les préfixes des indicatifs d'appel varient selon les pays."
       },
       {
         "id": 2,
-        "name": "Qui peut être un opérateur radio amateur (HAM)?",
-        "description": "Les gens de tout âge aux États-Unis sont éligibles pour passer les examens. Les licences sont délivrées par chaque pays et sont accordées en degrés de privilège. La maîtrise du code Morse n'est plus nécessaire. Si vous pouvez gérer un téléphone portable, vous êtes en bonne voie pour devenir un jambon!"
+        "name": "QUI PEUT ÊTRE OPÉRATEUR DE RADIO AMATEUR (HAM) ?",
+        "description": "Aux États-Unis, les personnes de tout âge peuvent passer les examens. Les licences sont délivrées par chaque pays et sont accordées selon des degrés de privilège. La maîtrise du code Morse n'est plus requise. Si vous savez manier un téléphone portable, vous êtes sur la bonne voie pour devenir un jambon !"
       },
       {
         "id": 3,
-        "name": "Que puis-je faire à la radio amateur?",
-        "description": "Beaucoup communiquent au-dessus de l'air avec des jambons locaux et lointains en utilisant la voix, le code Morse, les signaux numériques ou même la télévision bidirectionnelle. La communication dans les situations d'urgence est une activité civique populaire et importante. On peut apprendre à construire, réparer et comprendre les appareils électroniques (opportunités de carrière)"
+        "name": "QUE PUIS-JE FAIRE DANS HAM RADIO ?",
+        "description": "Beaucoup communiquent par voie hertzienne avec des radioamateurs locaux et lointains en utilisant la voix, le code Morse, les signaux numériques ou même la télévision bidirectionnelle. La communication dans les situations d’urgence est une activité civique populaire et importante. On peut apprendre à construire, réparer et comprendre des appareils électroniques (opportunités de carrière)"
       },
       {
         "id": 4,
-        "name": "Communications d'urgence",
-        "description": "Lorsque les systèmes téléphoniques sont en baisse, la radio amateur est toujours en train de passer. Les amateurs de radio travaillent avec les agences gouvernementales pour les communications. Nous passons des datagrammes de trafic - comme les messages de Western Union via des réseaux de jambons en plein air. La photo est de l'ARRL Field Day, un événement annuel de préparation aux urgences."
+        "name": "COMMUNICATIONS D'URGENCE",
+        "description": "Lorsque les systèmes téléphoniques sont en panne, la radioamateur continue de passer. Les radioamateurs travaillent avec des agences gouvernementales pour les communications. Nous transmettons des datagrammes de trafic, comme les messages Western Union, via des réseaux de radioamateurs en direct. La photo est celle de l'ARRL Field Day, un événement annuel de préparation aux situations d'urgence."
       },
       {
         "id": 5,
-        "name": "Club de radio amateur du National Electronics Museum",
-        "description": "C'est nous! Nous sommes là pour vous aider à vous attribuer sous licence et à l'antenne. Nos cours du jeudi soir par Zoom pour les cours de licences et les principes d'exploitation sont assistés à l'international. Nous organisons des réunions intéressantes de club de semaine et des événements de week-end en cours. Nous soutenons le musée avec des guides touristiques et des bénévoles. Notre station Club Ham est disponible.",
+        "name": "RADIO CLUB AMATEUR DU MUSÉE NATIONAL DE L'ÉLECTRONIQUE",
+        "description": "C'est nous! Nous sommes là pour vous aider à obtenir une licence et à être diffusé. Nos cours du jeudi soir par Zoom pour les cours de licences et les principes de fonctionnement sont suivis à l'échelle internationale. Nous organisons des réunions de club intéressantes en semaine et des événements à l'antenne le week-end. Nous soutenons le musée avec des guides touristiques et des bénévoles. Notre station de jambon club est disponible.",
         "contact": {
           "email": "contact@k3nem.org",
           "web": "www.k3nem.org/"
@@ -46,29 +46,29 @@ const data = [
       }
     ],
     "description": [
-      "La tension est un peu comme la pression électrique. Un courant est un flux de charge électrique. Il est préférable de le penser comme ceci: la tension provoque un courant électrique, tout comme la pression de l'eau provoque l'écoulement de l'eau.",
-      "La tension est l'énergie invisible qui exhorte l'électricité à se déplacer d'un endroit à un autre. La tension et le courant fonctionnent main dans la main. La tension fournit la poussée, tandis que le courant maintient l'électricité qui coule. Ensemble, ils créent l'énergie qui alimente nos gadgets et illumine notre monde."
+      "La tension est un peu comme la pression électrique. Un courant est un flux de charge électrique. Il est préférable de penser aux choses comme ceci : la tension PROVOQUE le courant électrique, tout comme la pression de l’eau fait couler l’eau.",
+      "La tension est l’énergie invisible qui pousse l’électricité à se déplacer d’un endroit à un autre. La tension et le courant fonctionnent main dans la main. La tension fournit la poussée, tandis que le courant maintient le flux d'électricité. Ensemble, ils créent l’énergie qui alimente nos gadgets et illumine notre monde."
     ],
-    "impact": "La compréhension de la tension et du courant aide les ingénieurs et les scientifiques à concevoir des systèmes électriques plus sûrs et plus efficaces. Des plus petits circuits aux plus grands réseaux électriques, ces concepts sont cruciaux pour créer une technologie qui fonctionne de manière fiable et en toute sécurité.",
+    "impact": "Comprendre la tension et le courant aide les ingénieurs et les scientifiques à concevoir des systèmes électriques plus sûrs et plus efficaces. Des plus petits circuits aux plus grands réseaux électriques, ces concepts sont cruciaux pour créer une technologie qui fonctionne de manière fiable et sûre.",
     "directions": {
-      "title": "Comment Ça Marche:",
+      "title": "Comment Ça Marche :",
       "steps": [
         {
           "id": 1,
-          "step": "Tournez le bouton dans le sens des aiguilles d'une montre et regardez les mètres."
+          "step": "Tournez le bouton dans le sens des aiguilles d’une montre et observez les compteurs."
         },
         {
           "id": 2,
-          "step": "Retournez l'interrupteur et allumez l'ampoule tout en regardant les compteurs."
+          "step": "Actionnez l'interrupteur et allumez l'ampoule tout en surveillant les compteurs."
         },
         {
           "id": 3,
-          "step": "Faites pivoter le bouton pour changer la tension."
+          "step": "Tournez le bouton pour changer la tension."
         }
       ]
     },
-    "watch": "Le tour du bouton permet de changer la tension comme le montre le voltmètre. Le compteur reste immobile parce qu'aucun courant n'est utilisé jusqu'à ce que vous retourniez l'interrupteur. Lorsque vous retournez l'interrupteur, l'amètre montre le courant dessiné par l'ampoule lorsque vous tournez le bouton. La quantité de courant dessinée varie, modifiant la luminosité de l'ampoule.",
-    "how": "En retournant l'interrupteur, vous fermez le circuit et laissez le courant s'écouler dans le chemin du circuit. Sans la force de la tension et le chemin d'un circuit, le courant ne coule pas. La tension pousse le courant, le forçant à circuler à travers un circuit fermé et allumer l'ampoule."
+    "watch": "Tourner le bouton permet à la tension de changer comme l'indique le voltmètre. Le compteur reste immobile car aucun courant n'est utilisé jusqu'à ce que vous actionniez l'interrupteur. Lorsque vous actionnez l'interrupteur, l'ampèremètre indique le courant consommé par l'ampoule lorsque vous tournez le bouton. La quantité de courant consommée varie, modifiant la luminosité de l'ampoule.",
+    "how": "En appuyant sur l'interrupteur, vous fermez le circuit et permettez au courant de circuler dans le chemin du circuit. Sans la force de la tension et le trajet d’un circuit, le courant ne circulera pas. La tension pousse le courant, le forçant à circuler dans un circuit fermé et à allumer l'ampoule."
   },
   {
     "stationTitle": "Le Détecteur Magnétique Marconi",
@@ -81,12 +81,12 @@ const data = [
       },
       {
         "id": 2,
-        "title": "Année D'invention:",
+        "title": "Année D'invention :",
         "text": "1896"
       },
       {
         "id": 3,
-        "title": "Caractéristique Clé:",
+        "title": "Caractéristique Clé :",
         "text": "Capteur de champ magnétique"
       },
       {
@@ -96,128 +96,128 @@ const data = [
       }
     ],
     "description": [
-      "À la fin du 19e siècle, un jeune inventeur nommé Guglielmo Marconi a développé le détecteur magnétique Marconi, un appareil qui pourrait détecter les champs magnétiques dans les ondes radio. Ce sont des signaux invisibles qui rendent la communication sans fil possible. Ces signaux pourraient être transmis de longues distances sans fils et reçus et sont devenus le point de départ de la communication sans fil."
+      "À la fin du XIXe siècle, un jeune inventeur nommé Guglielmo Marconi a développé le détecteur magnétique Marconi, un appareil capable de détecter les champs magnétiques dans les ondes radio. Ce sont des signaux invisibles qui rendent possible la communication sans fil. Ces signaux pouvaient être transmis et reçus sur de longues distances sans fil et sont devenus le point de départ de la communication sans fil."
     ],
-    "impact": "Le détecteur magnétique Marconi est un élément de construction critique qui a commencé le voyage vers la connectivité mondiale. Cette invention a changé le jeu de la communication, façonnant notre monde moderne. Cette découverte a jeté les bases de futures innovations sans fil comme les radios, les téléviseurs, Internet, les smartphones et le Wi-Fi.",
+    "impact": "Le détecteur magnétique Marconi est un élément essentiel qui a lancé le voyage vers la connectivité mondiale. Cette invention a changé le jeu de la communication, façonnant notre monde moderne. Cette découverte a jeté les bases des futures innovations sans fil telles que les radios, les téléviseurs, Internet, les smartphones et le Wi-Fi.",
     "timeline": {
       "title": "Histoire De La Communication Sans Fil",
       "dates": [
         {
           "id": 1,
-          "date": "1890",
+          "date": "années 1890",
           "text": "Première communication sans fil"
         },
         {
           "id": 2,
-          "date": "1900",
-          "text": "Première diffusion radio"
+          "date": "années 1900",
+          "text": "Première émission de radio"
         },
         {
           "id": 3,
-          "date": "1920",
+          "date": "années 1920",
           "text": "Première radio commerciale"
         },
         {
           "id": 4,
-          "date": "1930 S.",
-          "text": "Technologie radar, diffusion télévisée"
+          "date": "années 1930",
+          "text": "Technologie radar, télédiffusion"
         },
         {
           "id": 5,
-          "date": "1940",
-          "text": "Services radio de qualité"
+          "date": "années 1940",
+          "text": "Des services radio de qualité"
         },
         {
           "id": 6,
-          "date": "1950",
-          "text": "Premiers satellites, le programme spatial"
+          "date": "années 1950",
+          "text": "Premiers Satellites, le programme Spatial"
         },
         {
           "id": 7,
-          "date": "1970",
+          "date": "années 1970",
           "text": "Réseaux mobiles, GPS"
         },
         {
           "id": 8,
-          "date": "1980",
+          "date": "années 1980",
           "text": "Réseaux mobiles de première génération"
         },
         {
           "id": 9,
-          "date": "1990 S.",
+          "date": "années 1990",
           "text": "Réseaux mobiles de deuxième génération, Wi-Fi"
         },
         {
           "id": 10,
-          "date": "2000",
-          "text": "Internet satellite, réseaux 3G"
+          "date": "années 2000",
+          "text": "Internet par satellite, réseaux 3G"
         },
         {
           "id": 11,
-          "date": "2010",
-          "text": "LTE Advanced, réseau 5G"
+          "date": "années 2010",
+          "text": "Réseau LTE avancé et 5G"
         }
       ]
     },
     "directions": {
-      "title": "Comment Ça Marche:",
+      "title": "Comment Ça Marche :",
       "steps": [
         {
           "id": 1,
-          "step": "Écoutez sur le récepteur téléphonique."
+          "step": "Écoutez sur le combiné téléphonique."
         },
         {
           "id": 2,
-          "step": "Tournez lentement le bouton sur le sens des aiguilles d'une montre."
+          "step": "Tournez lentement le bouton situé à l'avant dans le sens des aiguilles d'une montre."
         },
         {
           "id": 3,
-          "step": "La station de radio n'est détectée que lorsque la bande de fil se déplace. Il s'arrête lorsque la bande de fil s'arrête."
+          "step": "La station radio n'est détectée que lorsque la bande filaire se déplace. Il s'arrête lorsque la bande métallique s'arrête."
         },
         {
           "id": 4,
-          "step": "Voyez à quel point vous pouvez tourner le bouton et entendre toujours la radio."
+          "step": "Voyez avec quelle lenteur vous pouvez tourner le bouton tout en continuant d'entendre la radio."
         }
       ]
     },
     "watch": "",
-    "how": "Maggie ”déplace la bande de fil de fer à travers la bobine de radiofréquence lorsque vous tournez le bouton. Le détecteur fonctionne en capturant des ondes radio, qui sont des signaux invisibles voyageant dans l'air. Ce dispositif a utilisé un champ magnétique pour intercepter ces ondes. Permettre aux gens d'entendre les messages transportés par les ondes radio. Les circuits qui interprètent ce changement pour générer une sortie perceptible, généralement un signal audible.",
+    "how": "Maggie\" déplace la bande de fil de fer à travers la bobine de radiofréquence lorsque vous tournez le bouton. Le détecteur fonctionne en capturant les ondes radio, qui sont des signaux invisibles voyageant dans l'air. Cet appareil a utilisé un champ magnétique pour intercepter ces ondes. Lorsque les ondes radio ont interagi avec le champ magnétique à l'intérieur du détecteur, elles ont provoqué des fluctuations, créant de minuscules courants électriques. Ces courants ont ensuite été amplifiés et convertis en sons audibles. permettant aux gens d'entendre les messages véhiculés par les ondes radio. Le détecteur magnétique Marconi fonctionne sur les principes de l'induction électromagnétique. Il détecte les ondes radio en utilisant un cohéreur, qui est un composant sensible aux ondes électromagnétiques.  Il fonctionne en utilisant une antenne pour recevoir des ondes radio, un cohéreur pour détecter et répondre à ces ondes en modifiant sa résistance électrique, et ensuite des circuits qui interprètent ce changement pour générer une sortie perceptible, généralement un signal sonore. Cette technologie pionnière a jeté les bases des systèmes de communication sans fil que nous utilisons aujourd’hui.",
     "tag": 2
   },
   {
     "stationTitle": "Le Projet Faraday",
-    "slideTitle": "l'Expérience De Faraday: Électricité Et Magnétisme",
+    "slideTitle": "l'Expérience De Faraday : Électricité Et Magnétisme",
     "info": [
       {
         "id": 1,
         "title": "Inventeur:",
-        "text": "Michael Faraday"
+        "text": "Michel Faraday"
       },
       {
         "id": 2,
-        "title": "Année D'invention:",
+        "title": "Année D'invention :",
         "text": "1831"
       },
       {
         "id": 3,
-        "title": "Caractéristique Clé:",
+        "title": "Caractéristique Clé :",
         "text": "Relation entre l'électricité et le magnétisme"
       },
       {
         "id": 4,
         "title": "Impact:",
-        "text": "Fondation pour les sources d'alimentation électrique modernes"
+        "text": "Fondation pour des sources d’énergie électrique modernes"
       }
     ],
     "description": [
-      "Michael Faraday, un scientifique du 19e siècle, a fait des découvertes a changé notre façon de comprendre l'électricité et le magnétisme.",
-      "Faraday a mené une expérience révolutionnaire en 1831 qui a montré comment l'électricité et le magnétisme sont connectés. Il a découvert que lorsqu'un aimant se déplace près d'un fil, il crée un courant électrique. Cette découverte a jeté les bases de la technologie moderne que nous utilisons aujourd'hui.",
-      "Lorsque Michael Faraday a fait sa découverte d'une induction électromagnétique, il a émis l'hypothèse qu'un champ magnétique changeant est nécessaire pour induire un courant dans un circuit voisin. Pour tester son hypothèse, il a fait une bobine en enroulant un cylindre en papier avec du fil. Inclinez doucement le tube pour que l'aimant glisse dans le tube et voyez si vous pouvez générer un petit courant électrique.",
-      "La force d'un électromêne dépend du nombre d'enroulements dans la bobine et de la force du courant électrique. Plus d'enroulements et un courant plus fort produisent des champs magnétiques plus intenses."
+      "Michael Faraday, un scientifique du XIXe siècle, a fait des découvertes qui ont changé notre façon de comprendre l'électricité et le magnétisme.",
+      "Faraday a mené une expérience révolutionnaire en 1831 qui a montré comment l'électricité et le magnétisme sont liés. Il a découvert que lorsqu’un aimant se déplace à proximité d’un fil, il crée un courant électrique. Cette découverte a jeté les bases de la technologie moderne que nous utilisons aujourd’hui.",
+      "Lorsque Michael Faraday a fait sa découverte de l’induction électromagnétique, il a émis l’hypothèse qu’un champ magnétique changeant était nécessaire pour induire un courant dans un circuit proche. Pour tester son hypothèse, il a fabriqué une bobine en enveloppant un cylindre de papier avec du fil. Inclinez doucement le tube pour que l'aimant glisse le long du tube et voyez si vous pouvez générer un petit courant électrique.",
+      "La force d'un électro-aimant dépend du nombre d'enroulements dans la bobine et de la force du courant électrique. Un plus grand nombre d'enroulements et un courant plus fort produisent des champs magnétiques plus intenses."
     ],
-    "impact": "L'expérience de Faraday a été une étape cruciale dans la compréhension de la relation entre l'électricité et le magnétisme. Cette percée a conduit au développement de générateurs, qui produisent l'électricité qui alimente nos maisons, nos écoles et nos gadgets. Sans les découvertes de Faraday, de nombreux appareils électroniques sur lesquels nous comptons aujourd'hui pourraient ne pas exister.",
+    "impact": "L'expérience de Faraday a constitué une étape cruciale dans la compréhension de la relation entre l'électricité et le magnétisme. Cette percée a conduit au développement de générateurs qui produisent l’électricité qui alimente nos maisons, nos écoles et nos gadgets. Sans les découvertes de Faraday, bon nombre des appareils électroniques sur lesquels nous comptons aujourd'hui n'existeraient peut-être pas.",
     "directions": {
-      "title": "Essayez Ceci:",
+      "title": "Essayez Ceci :",
       "steps": [
         {
           "id": 1,
@@ -225,57 +225,57 @@ const data = [
         },
         {
           "id": 2,
-          "step": "Regardez le compteur montrer la présence de courant électrique lorsque l'aimant glisse devant la bobine de fil."
+          "step": "Regardez le compteur indiquer la présence de courant électrique lorsque l'aimant glisse devant la bobine de fil."
         }
       ]
     },
     "watch": "",
-    "how": "Ce phénomène se produit en raison de l'induction électromagnétique, un principe découvert par Faraday. Il démontre qu'un champ magnétique changeant induit un courant électrique dans un conducteur. Le facteur clé ici est le mouvement relatif entre l'aimant et le fil, ce qui fait changer le flux magnétique à travers la bobine.  Le flux magnétique est une mesure de l'amplitude d'un champ magnétique traversant une zone donnée.",
+    "how": "Ce phénomène est dû à l'induction électromagnétique, un principe découvert par Faraday. Cela démontre qu'un champ magnétique changeant induit un courant électrique dans un conducteur. Le facteur clé ici est le mouvement relatif entre l’aimant et le fil, provoquant une modification du flux magnétique à travers la bobine.  Le flux magnétique est une mesure de l'ampleur d'un champ magnétique traversant une zone donnée.",
     "tag": 3
   },
   {
-    "stationTitle": "Foulé",
-    "slideTitle": "Expérience De Oersted",
+    "stationTitle": "Örsted",
+    "slideTitle": "l'Expérience d'Oersted",
     "info": [
       {
         "id": 1,
         "title": "Découvreur:",
-        "text": "Hans Christian Oersted"
+        "text": "Hans Christian Örsted"
       },
       {
         "id": 2,
-        "title": "Date De Découverte:",
+        "title": "Date De Découverte :",
         "text": "1820"
       },
       {
         "id": 3,
-        "title": "Type D'expérience:",
+        "title": "Type D'expérience :",
         "text": "Observer l'interaction entre l'électricité et le magnétisme."
       },
       {
         "id": 4,
-        "title": "Découverte Clé:",
-        "text": "L'électricité coulant à travers un fil a provoqué un déplacement à proximité d'une boussole magnétique à proximité."
+        "title": "Découverte Clé :",
+        "text": "Le passage de l’électricité à travers un fil a provoqué le déplacement de l’aiguille d’une boussole magnétique à proximité."
       }
     ],
     "description": [
-      "Au début du XIXe siècle, Oersted s'est lancé dans une expérience qui changerait notre compréhension de la nature. La curiosité d'Oersted l'a conduit à une expérience extraordinaire. Avec une configuration simple, il a observé l'interaction entre l'électricité et le magnétisme. Il a remarqué que lorsqu'un courant électrique traversait un fil, une aiguille magnétique à proximité se déplaçait. Cette interaction inattendue entre l'électricité et le magnétisme était l'étincelle qui a illuminé une révolution de la science."
+      "Au début du XIXe siècle, Oersted se lança dans une expérience qui allait changer notre compréhension de la nature. La curiosité d'Oersted le conduisit à une expérience extraordinaire. Avec une configuration simple, il a observé l’interaction entre l’électricité et le magnétisme. Il a remarqué que lorsqu'un courant électrique circulait dans un fil, l'aiguille d'une boussole magnétique à proximité se déplaçait. Cette interaction inattendue entre l’électricité et le magnétisme a été l’étincelle qui a déclenché une révolution scientifique."
     ],
-    "impact": "La découverte d'Oersted a été la clé qui a débloqué la mystérieuse relation entre l'électricité et le magnétisme. Cette révélation a jeté les bases du développement des moteurs électriques, des générateurs et de la technologie moderne sur laquelle nous comptons aujourd'hui.",
+    "impact": "La découverte d'Oersted a été la clé qui a révélé la mystérieuse relation entre l'électricité et le magnétisme. Cette révélation a jeté les bases du développement des moteurs électriques, des générateurs et de la technologie moderne sur laquelle nous comptons aujourd’hui.",
     "directions": {
-      "title": "Comment Ça Marche:",
+      "title": "Comment Ça Marche :",
       "steps": [
         {
           "id": 1,
-          "step": "Regardez la direction des boussoles; Ils pointent tous vers le nord."
+          "step": "Regardez la direction des boussoles ; ils pointent tous vers le nord."
         },
         {
           "id": 2,
-          "step": "Retournez l'interrupteur dans les deux sens."
+          "step": "Basculez l'interrupteur dans les deux sens."
         },
         {
           "id": 3,
-          "step": "Regardez les aiguilles de boussole se déplacer lorsque vous retournez l'interrupteur."
+          "step": "Regardez les aiguilles de la boussole bouger lorsque vous actionnez l'interrupteur."
         },
         {
           "id": 4,
@@ -284,12 +284,12 @@ const data = [
       ]
     },
     "watch": "",
-    "how": "Une aiguille à boussole pointe vers une force magnétique et généralement vers le pôle magnétique nord de la Terre. Lorsque vous retournez l'interrupteur, vous permettez au courant de s'écouler dans une direction de la batterie. Le champ magnétique créé par le courant électrique à travers la bobine de fil enveloppée a créé son propre champ magnétique. Les aiguilles de boussole s'alignent avec le champ magnétique autour du fil. Lorsque vous retournez l'interrupteur dans l'autre sens, les aiguilles de boussole s'inversent car la direction du courant a été inversée.",
+    "how": "L’aiguille d’une boussole pointe vers une force magnétique et généralement vers le pôle magnétique nord de la Terre. Lorsque vous actionnez l’interrupteur, vous permettez au courant de circuler dans une direction à partir de la batterie. Le champ magnétique créé par le courant électrique traversant la bobine de fil enroulé a créé son propre champ magnétique. Les aiguilles de la boussole s'alignent avec le champ magnétique autour du fil. Lorsque vous actionnez l’interrupteur dans l’autre sens, les aiguilles de la boussole s’inversent car le sens du courant a été inversé.",
     "tag": 4
   },
   {
     "stationTitle": "Batterie Humaine",
-    "slideTitle": "Avez-Vous Le Pouvoir d'Être Un Conducteur Électrique?",
+    "slideTitle": "Avez-Vous Le Pouvoir D’être Un Conducteur Électrique ?",
     "info": [
       {
         "id": 1,
@@ -309,32 +309,32 @@ const data = [
       }
     ],
     "description": [
-      "Lorsque vous placez une main sur la plaque de cuivre et l'autre main sur la plaque en aluminium, le courant circulait dans votre corps d'une plaque à l'autre.",
+      "Lorsque vous placez une main sur la plaque de cuivre et l’autre main sur la plaque d’aluminium, le courant traverse votre corps d’une plaque à l’autre.",
       " ",
       " ",
       " "
     ],
-    "impact": "Nous pouvons créer de l'électricité par action chimique. En fermant les circuits, nous permettons à cette énergie de s'écouler. Vous avez fourni le fluide conducteur pour cette batterie, donc l'électricité vous traverse!",
+    "impact": "Nous pouvons créer de l'électricité par action chimique. En fermant les circuits, nous permettons à cette énergie de circuler. Vous avez fourni le fluide conducteur pour cette batterie, l’électricité circule donc à travers vous !",
     "directions": {
-      "title": "Essayez Ceci:",
+      "title": "Essayez Ceci :",
       "steps": [
         {
           "id": 1,
-          "step": "Placer une main sur chaque plaque"
+          "step": "Placer une main sur chaque assiette"
         },
         {
           "id": 2,
-          "step": "Répétez avec un ami: Tiens la main, puis chaque personne place sa main libre sur l'une des assiettes. Essayez à nouveau avec plus de deux personnes «dans la boucle»."
+          "step": "Répétez avec un ami : tenez-vous la main, puis chacun pose sa main libre sur l’une des assiettes. Réessayez avec plus de deux personnes « au courant »."
         }
       ]
     },
-    "watch": "Regardez le compteur. Il montre un flux de courant constant dans une direction.",
-    "how": "Lorsque vous touchez les plaques métalliques, l'humidité sur vos mains agit comme les électrolytes salins de la batterie. Les électrolytes réagissent avec les plaques de cuivre et d'aluminium. Il éloigne les électrons chargés négativement de la plaque de cuivre, laissant les charges positives derrière. Il donne ensuite des électrons à la plaque en aluminium, ce qui le fait être chargé négativement. Ces électrons traversent le compteur à mesure qu'ils retournent sur la plaque de cuivre. Dans un circuit simple comme celui-ci, la direction du flux de courant est déterminée par la différence de potentiel entre les deux plaques. Lorsque vous touchez les deux plaques simultanément, vous complétez le circuit, permettant l'écoulement des électrons du potentiel plus élevé (plaque de cuivre) au potentiel inférieur (plaque en aluminium) à travers votre corps.",
+    "watch": "Surveillez le compteur. Il montre un flux de courant constant dans une direction.",
+    "how": "Lorsque vous touchez les plaques métalliques, l’humidité de vos mains agit comme les électrolytes conducteurs salins de la batterie. Les électrolytes réagissent avec les plaques de cuivre et d'aluminium. Il éloigne les électrons chargés négativement de la plaque de cuivre, laissant derrière eux les charges positives. Il donne ensuite des électrons à la plaque d’aluminium, la rendant chargée négativement. Ces électrons traversent le compteur lorsqu’ils retournent vers la plaque de cuivre. Dans un circuit simple comme celui-ci, la direction du flux de courant est déterminée par la différence de potentiel entre les deux plaques. Lorsque vous touchez les deux plaques simultanément, vous complétez le circuit, permettant ainsi la circulation des électrons du potentiel le plus élevé (plaque de cuivre) au potentiel inférieur (plaque d'aluminium) à travers votre corps.",
     "tag": 5
   },
   {
-    "stationTitle": "Fil De Saute",
-    "slideTitle": "Fils De Saut",
+    "stationTitle": "Fil À Sauter",
+    "slideTitle": "Fils Sautants",
     "info": [
       {
         "id": 1,
@@ -354,60 +354,60 @@ const data = [
       }
     ],
     "description": [
-      "Il y a longtemps, les scientifiques se sont interrogés sur les forces invisibles qui nous entourent. Une telle force, appelée électricité, les a fascinés. Ils ont découvert que cela pouvait faire bouger les choses et briller. Mais ils ne savaient pas comment le créer.",
-      "Dans les années 1800, un brillant scientifique nommé Michael Faraday est devenu curieux de l'électricité et des aimants. Il a découvert quelque chose d'incroyable - lorsque les aimants se déplacent près d'un fil, ils créent de l'électricité. En utilisant la découverte de Faraday, les ingénieurs ont construit le premier générateur électrique. Imaginez une machine qui transforme la puissance des aimants en rotation en électricité. Cette invention a changé le monde pour toujours.",
+      "Il y a bien longtemps, les scientifiques s’interrogeaient sur les forces invisibles qui nous entourent. Une de ces forces, appelée électricité, les fascinait. Ils ont découvert que cela pouvait faire bouger et briller les objets. Mais ils ne savaient pas comment le créer.",
+      "Dans les années 1800, un brillant scientifique nommé Michael Faraday s’est intéressé à l’électricité et aux aimants. Il a découvert quelque chose d'incroyable : lorsque des aimants se déplacent à proximité d'un fil, ils créent de l'électricité. Grâce à la découverte de Faraday, les ingénieurs ont construit le premier générateur électrique. Imaginez une machine qui transforme la puissance des aimants en rotation en électricité. Cette invention a changé le monde pour toujours.",
       "",
       ""
     ],
     "impact": [
-      "Les expériences de Michael Faraday avec l'électromagnétisme l'ont amené à inventer le premier générateur électrique en 1831. En utilisant les principes démontrés ici, le générateur a converti l'énergie mécanique de la rotation en énergie électrique. La puissance du moteur dépend de la résistance du champ magnétique, du nombre de fils et de la quantité de courant parcourant les fils.",
-      "La compréhension de l'électromagnétisme, la relation entre l'électricité et les aimants, a conduit à la création de centrales électriques. Ces plantes génèrent de l'électricité pour nos maisons, nos écoles et nos villes. Grâce à cette invention, nous pouvons éclairer nos maisons, alimenter nos gadgets et explorer des choses incroyables en utilisant l'électricité."
+      "Les expériences de Michael Faraday avec l'électromagnétisme l'ont amené à inventer le premier générateur électrique en 1831. En utilisant les principes démontrés ici, le générateur convertissait l'énergie mécanique de rotation en énergie électrique. La puissance du moteur dépend de la force du champ magnétique, du nombre de fils et de la quantité de courant qui les traverse.",
+      "La compréhension de l'électromagnétisme, la relation entre l'électricité et les aimants, a conduit à la création de centrales électriques. Ces centrales produisent de l'électricité pour nos maisons, nos écoles et nos villes. Grâce à cette invention, nous pouvons éclairer nos maisons, alimenter nos gadgets et explorer des choses étonnantes grâce à l’électricité."
     ],
     "directions": {
-      "title": "Comment Ça Marche:",
+      "title": "Comment Ça Marche :",
       "steps": [
         {
           "id": 1,
-          "step": "Bouton-poussoir 1"
+          "step": "Bouton poussoir 1"
         },
         {
           "id": 2,
-          "step": "Bouton-poussoir 2"
+          "step": "Bouton poussoir 2"
         }
       ]
     },
     "watch": "",
-    "how": "Notez que le fil entre deux aimants saute. Le fil se déplace parce que le champ magnétique créé par le courant électrique interagit avec le champ magnétique permanent.",
+    "how": "Notez que le fil entre deux aimants saute. Le fil se déplace car le champ magnétique créé par le courant électrique interagit avec le champ magnétique permanent.",
     "what": {
       "title": "Que Se Passe-T-Il?",
       "list": [
         {
           "id": 1,
-          "info": "Mouvement de l'aimant: Dans l'expérience de Faraday, lorsqu'un aimant est déplacé vers l'intérieur et hors d'une bobine de fil (ou vice versa), il fait changer le champ magnétique autour de la bobine."
+          "info": "Mouvement de l'aimant : Dans l'expérience de Faraday, lorsqu'un aimant entre et sort d'une bobine de fil (ou vice versa), le champ magnétique autour de la bobine change."
         },
         {
           "id": 2,
-          "info": "Courant induit: Ce changement dans le champ magnétique induit un débit d'électrons ou un courant électrique dans la bobine de fil."
+          "info": "Courant induit : Ce changement du champ magnétique induit un flux d'électrons ou un courant électrique dans la bobine de fil."
         },
         {
           "id": 3,
-          "info": "Direction du courant: La direction du courant induit dépend de la direction de mouvement de l'aimant et de la bobine.",
+          "info": "Direction du courant : La direction du courant induit dépend du sens de déplacement de l’aimant et de la bobine.",
           "tilt": [
-            "L'inclinaison vers la droite fait couler le courant induit dans une direction.",
-            "L'inclinaison vers la gauche fait couler le courant induit dans la direction opposée."
+            "L'inclinaison vers la droite fait circuler le courant induit dans une direction.",
+            "L'inclinaison vers la gauche fait circuler le courant induit dans la direction opposée."
           ]
         },
         {
           "id": 4,
-          "info": "Production d'électricité: le courant induit dans le fil peut être utilisé pour alimenter un circuit ou produire de l'électricité."
+          "info": "Production d'électricité : Le courant induit dans le fil peut être utilisé pour alimenter un circuit ou produire de l'électricité."
         }
       ]
     },
     "tag": 6
   },
   {
-    "stationTitle": "Expérience d'Échelle De Jacob",
-    "slideTitle": "Expérience d'Échelle De Jacob: Démontrer Les Principes Électriques",
+    "stationTitle": "Expérience De l'Échelle De Jacob",
+    "slideTitle": "Expérience De l'Échelle De Jacob : Démonstration Des Principes Électriques",
     "info": [
       {
         "id": 1,
@@ -423,18 +423,18 @@ const data = [
       }
     ],
     "description": [
-      "L'expérience d'échelle de Jacob est une démonstration du pouvoir de l'électricité pour créer des arcs de lumière fascinants. Il se compose de deux conducteurs verticaux, généralement fabriqués en tiges ou fils métalliques, placés en forme de V avec un petit écart entre eux en bas.",
+      "L'expérience de l'échelle de Jacob est une démonstration du pouvoir de l'électricité à créer des arcs de lumière fascinants. Il se compose de deux conducteurs verticaux, généralement constitués de tiges ou de fils métalliques, placés en forme de V avec un petit espace entre eux en bas.",
       "",
       "",
       ""
     ],
-    "impact": "L'expérience d'échelle de Jacob n'est pas seulement un spectacle visuel fascinant, mais sert également de démonstration fondamentale des principes électriques. Il met en évidence le comportement de l'électricité dans l'air et les effets de la haute tension sur l'ionisation et la conductivité. Cette expérience a été cruciale pour faire progresser notre compréhension des phénomènes électriques et a ouvert la voie à de nombreuses innovations technologiques.",
+    "impact": "L'expérience de l'échelle de Jacob n'est pas seulement un spectacle visuel fascinant, mais sert également de démonstration fondamentale des principes électriques. Il met en évidence le comportement de l'électricité dans l'air et les effets de la haute tension sur l'ionisation et la conductivité. Cette expérience a joué un rôle crucial dans l’avancement de notre compréhension des phénomènes électriques et a ouvert la voie à de nombreuses innovations technologiques.",
     "directions": {
-      "title": "Comment Ça Marche?",
+      "title": "Comment Ça Marche ?",
       "steps": [
         {
           "id": 1,
-          "step": "Appuyez sur le bouton et maintenez-le."
+          "step": "Appuyez sur le bouton et maintenez-le enfoncé."
         },
         {
           "id": 2,
@@ -443,12 +443,12 @@ const data = [
       ]
     },
     "watch": "",
-    "how": "Lorsqu'une haute tension est appliquée aux deux conducteurs, l'électricité coule dans l'air dans l'espace entre elles, ionisant l'air et créant un chemin conducteur. La chaleur intense générée par cette décharge électrique fait se développer rapidement l'air, poussant l'arc vers le haut. Au fur et à mesure que l'arc grimpe, il se refroidit et l'air devient moins ionisé, brisant finalement le circuit et éteint l'arc. Le processus se répète, créant un affichage fascinant ressemblant à une échelle grimpant vers le haut.  Assister à la décharge d'arc et à la compréhension de ses principes sous-jacents fournit des informations précieuses sur le monde de la science et de l'ingénierie.",
+    "how": "Lorsqu'une haute tension est appliquée aux deux conducteurs, l'électricité circule dans l'air entre eux, ionisant l'air et créant un chemin conducteur. La chaleur intense générée par cette décharge électrique provoque une expansion rapide de l’air, poussant l’arc vers le haut. À mesure que l’arc monte, il se refroidit et l’air devient moins ionisé, ce qui finit par couper le circuit et éteindre l’arc. Le processus se répète, créant un affichage fascinant ressemblant à une échelle grimpant vers le haut.  Être témoin de la décharge d'arc et comprendre ses principes sous-jacents fournit des informations précieuses sur le monde de la science et de l'ingénierie.",
     "tag": 7
   },
   {
     "stationTitle": "Électricité Statique",
-    "slideTitle": "Électricité Statique: Une Découverte Choquante",
+    "slideTitle": "Électricité Statique : Une Découverte Choquante",
     "info": [
       {
         "id": 1,
@@ -464,14 +464,14 @@ const data = [
       }
     ],
     "description": [
-      "L'électricité statique est une forme d'électricité de réception du déséquilibre entre les carrefours positifs et négatives avec un matériau qui se produit lorsque les électrons (les particules chargées négativement dans l'anatom) se déplacent d'un matériau à un autre. Si le matériau de réception d'électrons est isolé ou non un conducteur électrique, il a tendance à conserver les électrons, ce qui entraîne une charge d'offre d'électricité. Étant donné que cette charge ne bouge pas, elle est appelée électricité statique. Lorsque les conditions permettent à la charge accumulée de s'écouler, cette électricité statique est déchargée et elle devient la fréquence d'électricité.",
-      "L'électricité statique est un phénomène qui se produit lorsque certains matériaux se frottent les uns contre les autres, ce qui fait que les électrons se déplacent d'une surface à l'autre. Ce mouvement crée un déséquilibre des charges électriques, conduisant à l'accumulation de l'électricité statique.",
-      "Les orages sont des générateurs électriques de la nature, produisant d'immenses charges statiques alors que les gouttelettes d'eau et les particules de glace entrent en collision dans les nuages. Lorsque l'accumulation de l'électricité statique devient trop grande, elle cherche un chemin vers le sol, ce qui entraîne des coups de foudre. Ces boulons d'électricité peuvent atteindre des températures plus chaudes que la surface du soleil et libérer la puissance destructrice sur tout sur leur chemin.",
+      "L'électricité statique est une forme d'électricité résultant du déséquilibre entre les charges positives et négatives au sein d'un matériau qui se produit lorsque les électrons (les particules chargées négativement dans l'anatomie) se déplacent d'un matériau à un autre. Si le matériau récepteur d'électrons est isolé ou n'est pas conducteur électrique, il a tendance à retenir les électrons, ce qui entraîne une accumulation de charge électrique. Puisque cette charge ne bouge pas, on parle d’électricité statique. Lorsque les conditions permettent à la charge accumulée de circuler, le surplus d’électricité statique est déchargé et devient de l’électricité actuelle.",
+      "L'électricité statique est un phénomène qui se produit lorsque certains matériaux frottent les uns contre les autres, provoquant le déplacement d'électrons d'une surface à une autre. Ce mouvement crée un déséquilibre des charges électriques, conduisant à l’accumulation d’électricité statique.",
+      "Les orages sont des générateurs électriques naturels, produisant d'immenses charges statiques lorsque les gouttelettes d'eau et les particules de glace entrent en collision dans les nuages. Lorsque l’accumulation d’électricité statique devient trop importante, elle cherche un chemin vers le sol, provoquant des éclairs. Ces éclairs électriques peuvent atteindre des températures plus élevées que la surface du soleil et libérer une puissance destructrice sur tout ce qui se trouve sur leur passage.",
       ""
     ],
     "impact": [
-      "La découverte de l'électricité statique a eu un impact profond sur la technologie et la vie quotidienne. De l'invention du télégraphe au développement de l'électronique moderne, l'électricité statique joue un rôle crucial dans l'alimentation de nos appareils et la facilitation de la communication.",
-      "Au XVIIIe siècle, Benjamin Franklin a mené son expérience de cerf-volant, prouvant que la foudre est une forme d'électricité. Cette découverte révolutionnaire a conduit à l'invention de la paratonnerre - un appareil conçu pour protéger les bâtiments et les navires des coups de foudre en redirigeant en toute sécurité la charge électrique vers le sol. L'invention de Franklin a révolutionné notre compréhension de la foudre et a ouvert la voie à des systèmes de protection de la foudre moderne."
+      "La découverte de l’électricité statique a eu un impact profond sur la technologie et la vie quotidienne. De l’invention du télégraphe au développement de l’électronique moderne, l’électricité statique joue un rôle crucial dans l’alimentation de nos appareils et dans la facilitation de la communication.",
+      "Au XVIIIe siècle, Benjamin Franklin a mené son célèbre expérience sur le cerf-volant, prouvant que la foudre est une forme d'électricité. Cette découverte révolutionnaire a conduit à l’invention du paratonnerre, un dispositif conçu pour protéger les bâtiments et les navires des coups de foudre en redirigeant en toute sécurité la charge électrique vers le sol. L'invention de Franklin a révolutionné notre compréhension de la foudre et a ouvert la voie aux systèmes modernes de protection contre la foudre."
     ],
     "tag": 8
   },
@@ -493,14 +493,14 @@ const data = [
       }
     ],
     "description": [
-      "Cette expérience montre comment les filtres permettent des ondes électromagnétiques oscillant dans une certaine direction pour passer tout en bloquant les autres, présentant les effets de la polarisation sur les ondes électromagnétiques.  Avec des lunettes de soleil polarisées, le filtre crée des ouvertures verticales pour la lumière. Seuls les rayons lumineux qui approchent de vos yeux verticalement peuvent passer à travers ces ouvertures. Les lentilles bloquent toutes les ondes lumineuses horizontales rebondissant sur un étang lisse ou un capot de voiture brillant, par exemple.  Il s'agit d'un concept similaire à la polarisation sur les ondes électromagnétiques.",
+      "Cette expérience démontre comment les filtres laissent passer les ondes électromagnétiques oscillant dans une certaine direction tout en bloquant les autres, mettant en valeur les effets de la polarisation sur les ondes électromagnétiques.  Avec les lunettes de soleil polarisées, le filtre crée des ouvertures verticales pour la lumière. Seuls les rayons lumineux qui s’approchent verticalement de vos yeux peuvent passer à travers ces ouvertures. Les lentilles bloquent toutes les ondes lumineuses horizontales rebondissant sur un étang lisse ou un capot de voiture brillant, par exemple.  Il s'agit d'un concept similaire à la polarisation des ondes électromagnétiques.",
       "",
       "",
       ""
     ],
-    "impact": "La polarisation est ce qui permet à l'écran de maillage de votre porte de four à micro-ondes d'énergie dangereuse de s'échapper. Les fils du maillage sont des ondes de blocage verticales et horizontales se déplaçant dans les deux sens.",
+    "impact": "La polarisation est ce qui permet au grillage de la porte de votre four à micro-ondes d'empêcher l'énergie dangereuse de s'échapper. Les fils du treillis bloquent les ondes verticales et horizontales se déplaçant dans les deux sens.",
     "directions": {
-      "title": "Comment Ça Marche?",
+      "title": "Comment Ça Marche ?",
       "steps": [
         {
           "id": 1,
@@ -508,17 +508,17 @@ const data = [
         },
         {
           "id": 2,
-          "step": "Faites tourner lentement la roue d'écran tout en regardant les deux mètres. La corne gauche transmet et la corne droite reçoit."
+          "step": "Faites tourner lentement la molette de l'écran tout en regardant les deux mètres. Le klaxon gauche transmet et le klaxon droit reçoit."
         }
       ]
     },
     "watch": "",
-    "how": "Regardez les compteurs pour voir la quantité d'énergie électromagnétique en cours de transmission et la quantité reçue. Les montants changent-ils à mesure que la roue d'écran se déplace? L'écran de fil ouvert peut refléter ou transmettre des ondes électromagnétiques qui sont polarisées verticalement. Certaines vagues traversent les espaces entre les fils, tandis que d'autres vagues sont reflétées des fils. Pour les ondes polarisées verticalement, l'écran bloque le plus efficacement lorsque ses fils sont également verticaux.",
+    "how": "Regardez les compteurs pour voir quelle quantité d’énergie électromagnétique est transmise et quelle quantité est reçue. Les montants changent-ils à mesure que la roue de l'écran bouge ? L'écran en fil ouvert peut réfléchir ou transmettre des ondes électromagnétiques polarisées verticalement. Certaines ondes traversent les espaces entre les fils, tandis que d’autres sont réfléchies par les fils. Pour les ondes polarisées verticalement, l'écran bloque plus efficacement lorsque ses fils sont également verticaux.",
     "tag": 9
   },
   {
-    "stationTitle": "Pourquoi Les Micro-Ondes Ont-Ils Des Platines?",
-    "slideTitle": "Pourquoi Les Micro-Ondes Ont-Ils Des Platines?",
+    "stationTitle": "Pourquoi Les Micro-Ondes Ont-Ils Des Plateaux Tournants ?",
+    "slideTitle": "Pourquoi Les Micro-Ondes Ont-Ils Des Plateaux Tournants ?",
     "info": [
       {
         "id": 1,
@@ -534,11 +534,11 @@ const data = [
       }
     ],
     "description": [
-      "Les fours à micro-ondes génèrent des ondes électromagnétiques (micro-ondes) qui chauffent les aliments en excitant les molécules d'eau dans les aliments. Les micro-ondes sont invisibles, vous ne pouvez donc pas les voir dans un four à micro-ondes, mais leur présence peut être détectée avec des lampes néon. Le champ électromagnétique changeant des micro-ondes fera bouger les particules chargées, et donc les électrons dans les jambes métalliques déplaceront la création de courant. Ce courant fait briller les lampes.  La distribution de ces ondes à l'intérieur du micro-ondes a tendance à être inégale, donc une plaque tournante aide à faire pivoter les aliments, garantissant que toutes les parties du plat reçoivent une exposition relativement égale aux micro-ondes. Il en résulte une cuisine plus cohérente et même."
+      "Les fours à micro-ondes génèrent des ondes électromagnétiques (micro-ondes) qui chauffent les aliments en excitant les molécules d'eau qu'ils contiennent. Les micro-ondes sont invisibles, vous ne pouvez donc pas les voir à l'intérieur d'un four à micro-ondes, mais leur présence peut être détectée grâce à des lampes au néon. Le champ électromagnétique changeant des micro-ondes fera bouger les particules chargées, et ainsi les électrons dans les pattes métalliques se déplaceront en créant du courant. Ce courant fait briller les lampes.  La répartition de ces ondes à l'intérieur du micro-ondes a tendance à être inégale, c'est pourquoi un plateau tournant permet de faire tourner les aliments, garantissant ainsi que toutes les parties du plat reçoivent une exposition relativement égale aux micro-ondes. Il en résulte une cuisson plus cohérente et uniforme."
     ],
-    "impact": "La nourriture dans le four absorbe l'énergie micro-ondes. La platine tourne les aliments à travers les intensités de champ élevés et bas. La cuisson approfondie est le résultat.",
+    "impact": "Les aliments dans le four absorbent l'énergie des micro-ondes. Le plateau tournant fait tourner les aliments selon les intensités de champ élevées et faibles. Le résultat est une cuisson minutieuse.",
     "directions": {
-      "title": "Comment Ça Marche?",
+      "title": "Comment Ça Marche ?",
       "steps": [
         {
           "id": 1,
@@ -546,12 +546,12 @@ const data = [
         }
       ]
     },
-    "how": "Regardez les néons sur la platine à l'intérieur du micro-ondes. Ils s'allument et s'éteignent et changent de luminosité à mesure que leur position dans le four change.  Il s'agit d'une démonstration visuelle de l'incohérence de l'énergie micro-ondes. La distribution de l'énergie micro-ondes est incohérente. Cela provoque des intensités de champs variables, ou des taches chaudes et froides dans le four.  Une platine est utilisée pour réduire la probabilité de points chauds ou de points froids dans votre nourriture.",
+    "how": "Regardez les néons sur le plateau tournant à l’intérieur du micro-ondes. Ils s'allument et s'éteignent et changent de luminosité à mesure que leur position dans le four change.  Il s'agit d'une démonstration visuelle de l'incohérence de l'énergie des micro-ondes. La distribution de l’énergie des micro-ondes est incohérente. Cela provoque des intensités de champ variables ou des points chauds et froids dans le four.  Un plateau tournant est utilisé pour réduire le risque de points chauds ou de points froids dans vos aliments.",
     "tag": 10
   },
   {
     "stationTitle": "Machine Télégraphique",
-    "slideTitle": "Machine Télégraphique - Connexion Du Monde",
+    "slideTitle": "Machine Télégraphique - Connecter Le Monde",
     "info": [
       {
         "id": 1,
@@ -565,7 +565,7 @@ const data = [
       },
       {
         "id": 3,
-        "title": "Année D'invention:",
+        "title": "Année D'invention :",
         "text": "1837"
       },
       {
@@ -580,27 +580,27 @@ const data = [
       },
       {
         "id": 6,
-        "title": "Connexion Globale:",
-        "text": "Continents liés, modifiant la façon dont nous partageons les informations dans le monde entier"
+        "title": "Connexion Globale :",
+        "text": "Des continents liés, changeant la façon dont nous partageons l'information dans le monde entier"
       }
     ],
     "description": [
-      "Le télégraphe a transformé la communication en envoyant des messages à distance à travers les fils, en combler les écarts entre les personnes et les lieux. En utilisant le code Morse, une série de points et de tirets, le télégraphe a connecté le monde plus rapidement que jamais.",
+      "Le télégraphe a transformé la communication en envoyant des messages à longue distance via des fils, comblant ainsi le fossé entre les personnes et les lieux. Grâce au code Morse, une série de points et de tirets, le télégraphe a connecté le monde plus rapidement que jamais.",
       "",
       "",
       ""
     ],
-    "impact": "Avant le télégraphe, la communication était lente et les informations importantes sont souvent arrivées trop tard. Avec les fils télégraphiques qui s'étendent sur les continents, les nouvelles pourraient être livrées rapidement, ce qui était particulièrement important pour les entreprises, les gouvernements et les familles en attendant d'importantes mises à jour. Le télégraphe n'était pas seulement un appareil; C'était un pont entre les gens et les lieux. Il a joué un rôle important dans la construction du chemin de fer transcontinental. Sa capacité à transmettre des messages rapidement et avec précision sur de longues distances a joué un rôle vital dans la réussite de ce projet d'ingénierie monumentale, reliant les côtes est et ouest des États-Unis et facilitant la coordonnée du travail et des voyages à travers le pays.",
+    "impact": "Avant le télégraphe, la communication était lente et les informations importantes arrivaient souvent trop tard. Les fils télégraphiques s'étendant à travers les continents, les informations pouvaient être transmises rapidement, ce qui était particulièrement important pour les entreprises, les gouvernements et les familles qui attendaient des mises à jour importantes. Le télégraphe n'était pas seulement un appareil ; c'était un pont entre les gens et les lieux. Elle a joué un rôle important dans la construction du chemin de fer transcontinental. Sa capacité à transmettre des messages rapidement et avec précision sur de longues distances a joué un rôle essentiel dans la réussite de ce projet d'ingénierie monumental, reliant les côtes est et ouest des États-Unis et facilitant la coordination du travail et des déplacements à travers le pays.",
     "directions": {
-      "title": "Comment Ça Marche?",
+      "title": "Comment Ça Marche ?",
       "steps": [
         {
           "id": 1,
-          "step": "Appuyez sur le gros bouton noir sur la touche Telegraph."
+          "step": "Appuyez sur le gros bouton noir de la clé télégraphique."
         },
         {
           "id": 2,
-          "step": "Hold ensuite relâchez pour les tirets, appuyez et relâchez rapidement pour les points."
+          "step": "Maintenez puis relâchez pour les tirets, appuyez et relâchez rapidement pour les points."
         },
         {
           "id": 3,
@@ -613,11 +613,11 @@ const data = [
       "instructions": [
         {
           "id": 1,
-          "steps": "Appuyez sur le gros bouton noir sur la touche télégraphique"
+          "steps": "Appuyez sur le gros bouton noir de la clé télégraphique"
         },
         {
           "id": 2,
-          "steps": "Hold ensuite relâchez pour les tirets, appuyez et relâchez rapidement pour les points."
+          "steps": "Maintenez puis relâchez pour les tirets, appuyez et relâchez rapidement pour les points."
         },
         {
           "id": 3,
@@ -626,29 +626,29 @@ const data = [
       ]
     },
     "how": [
-      "Les qualités magnétiques de l'électricité aident à envoyer le courant le long du fil télégraphique. Le code spécial des points et des tirets appelés «Morse Code» utilise des impulsions de courant pour envoyer des messages.",
-      "C'était la première forme de communication à longue distance instantanée. Les messages peuvent être envoyés en appuyant un code spécial créé par Samuel Morse sur une clé télégraphique. Chaque lettre de l'alphabet a sa propre séquence spéciale de points et de tirets. Le nom Telegraph est dérivé du mot «télé» signifiant éloigné et du mot «graphique» signifiant écrire.",
+      "Les qualités magnétiques de l’électricité aident à envoyer le courant le long du fil télégraphique. Le code spécial composé de points et de tirets appelé « code Morse » utilise des impulsions de courant pour envoyer des messages.",
+      "Il s’agissait de la première forme de communication instantanée longue distance. Les messages pouvaient être envoyés en tapant un code spécial créé par Samuel Morse sur une clé télégraphique. Chaque lettre de l'alphabet possède sa propre séquence spéciale de points et de tirets. Le nom télégraphe est dérivé du mot « télé » signifiant loin et du mot « graphique » signifiant écrire.",
       ""
     ],
     "tag": 11
   },
   {
-    "stationTitle": "Theremin",
-    "slideTitle": "Harrison Instruments 302 Theremin",
+    "stationTitle": "Thérémine",
+    "slideTitle": "Harrison Instruments 302 Thérémine",
     "info": [
       {
         "id": 1,
         "title": "Nom:",
-        "text": "Theremin"
+        "text": "Thérémine"
       },
       {
         "id": 2,
-        "title": "Inventé Par:",
-        "text": "Leon Theremin"
+        "title": "Inventé Par :",
+        "text": "Léon Thérémine"
       },
       {
         "id": 3,
-        "title": "Année D'invention:",
+        "title": "Année D'invention :",
         "text": "1920"
       },
       {
@@ -658,20 +658,20 @@ const data = [
       },
       {
         "id": 5,
-        "title": "Caractéristique Notable:",
+        "title": "Caractéristique Notable :",
         "text": "Joué sans contact physique"
       }
     ],
     "description": [
-      "Le Theremin est un instrument de musique unique, en ce qu'il est joué sans contact physique.  Le joueur se tient devant l'instrument et déplace ses mains près de ses deux antennes métalliques.  Le volume et la hauteur sont contrôlés par la distance des mains du joueur des antennes.  Le rapprochement d'une main de la plaque gauche augmente le volume.  En rapprocher la main de la plaque droite augmente le pas.  Les mains du joueur agissent comme la plaque à la terre d'un condensateur variable.",
+      "Le thérémine est un instrument de musique unique, dans le sens où il se joue sans contact physique.  Le joueur se tient devant l'instrument et rapproche ses mains de ses deux antennes métalliques.  Le volume et la hauteur sont contrôlés par la distance entre les mains du joueur et les antennes.  Rapprocher une main de la plaque gauche augmente le volume.  Rapprocher la main de la plaque droite augmente la hauteur.  Les mains du joueur agissent comme la plaque mise à la terre d’un condensateur variable.",
       "",
       "",
       ""
     ],
-    "impact": "Le Theremin témoigne de la fusion de l'art et de la science, offrant une interface unique où le son est produit sans aucun contact physique. Son invention a marqué un saut significatif dans l'évolution de la musique électronique, captivant le public avec ses tons étranges et d'un autre monde. De son utilisation précoce dans les compositions classiques à sa présence emblématique dans les bandes sonores de science-fiction, le Theremin a laissé une marque indélébile sur l'histoire de la musique. Son son étrange et de science-fiction a honoré d'innombrables films, ajoutant une atmosphère indubitable aux scènes de suspense et d'émerveillement.",
+    "impact": "Le Theremin témoigne de la fusion de l'art et de la science, offrant une interface unique où le son est produit sans aucun contact physique. Son invention a marqué un pas important dans l’évolution de la musique électronique, captivant le public par ses sonorités étranges et surnaturelles. Depuis son utilisation précoce dans des compositions classiques jusqu’à sa présence emblématique dans les bandes sonores de science-fiction, le thérémine a laissé une marque indélébile dans l’histoire de la musique. Son son étrange et de science-fiction a orné d'innombrables films, ajoutant une atmosphère incomparable aux scènes de suspense et d'émerveillement.",
     "directions": {
-      "title": "Comment Ça Marche?",
-      "description": "Passez à notre écran interactif.  Sentez la force invisible du champ électromagnétique lorsque vous manipulez les antennes de hauteur et de volume, créant vos propres mélodies dans l'air.  Pour jouer une note, positionnez votre main près de l'antenne de tangage (à droite), en ajustant la distance pour contrôler la fréquence de la hauteur.  Alors que votre main se rapproche de l'antenne, la hauteur monte; Inversement, déplacer la main abaisse le terrain.  Le volume (à gauche) est contrôlé de manière similaire, avec la proximité de l'antenne de volume déterminant l'intensité du son.",
+      "title": "Comment Ça Marche ?",
+      "description": "Passez à notre affichage interactif.  Ressentez la force invisible du champ électromagnétique lorsque vous manipulez les antennes de hauteur et de volume, créant ainsi vos propres mélodies dans les airs.  Pour jouer une note, placez votre main près de l'antenne pitch (à droite), en ajustant la distance pour contrôler la fréquence du pitch.  À mesure que votre main se rapproche de l’antenne, la tonalité augmente ; à l’inverse, éloigner la main diminue la hauteur.  Le volume (à gauche) est contrôlé de la même manière, la proximité de l'antenne de volume déterminant l'intensité du son.",
       "steps": [
         {
           "id": 1,
@@ -683,7 +683,7 @@ const data = [
         }
       ]
     },
-    "how": "Le Theremin fonctionne sur le principe de la capacité et la manipulation des champs électromagnétiques. Le Theremin se compose de deux antennes - l'une pour le tangage et l'autre pour le volume. Alors que le joueur se déplace près de ces antennes, le champ électromagnétique est perturbé, produisant des mélodies et des harmonies obsédantes. Son opération intuitive mais perplexe continue d'intriguer les musiciens et les passionnés.",
+    "how": "Le Theremin fonctionne sur le principe de la capacité et de la manipulation des champs électromagnétiques. Le Theremin se compose de deux antennes – une pour la hauteur et l'autre pour le volume. Lorsque le joueur approche ses mains de ces antennes, le champ électromagnétique est perturbé, produisant des mélodies et des harmonies envoûtantes. Son fonctionnement intuitif mais déroutant continue d'intriguer les musiciens et les passionnés.",
     "tag": 12
   },
   {
@@ -711,7 +711,7 @@ const data = [
     ],
     "impact": "",
     "directions": {
-      "title": "Comment Ça Marche?",
+      "title": "Comment Ça Marche ?",
       "steps": [
         {
           "id": 1,
@@ -751,7 +751,7 @@ const data = [
     ],
     "impact": "",
     "directions": {
-      "title": "Comment Ça Marche?",
+      "title": "Comment Ça Marche ?",
       "steps": [
         {
           "id": 1,
@@ -778,52 +778,52 @@ const data = [
       {
         "id": 2,
         "title": "Découvert:",
-        "text": "À la fin du 19e siècle par Heinrich Hertz"
+        "text": "À la fin du XIXe siècle par Heinrich Hertz"
       },
       {
         "id": 3,
-        "title": "Caractéristiques Clés:",
-        "text": "Invisible, voyager à la vitesse de la lumière, utilisé dans les technologies de communication"
+        "title": "Caractéristiques Clés :",
+        "text": "Invisible, voyagez à la vitesse de la lumière, utilisé dans les technologies de communication"
       },
       {
         "id": 4,
         "title": "Impact:",
-        "text": "Communication révolutionnée, activé les technologies sans fil"
+        "text": "Communication révolutionnée, technologies sans fil activées"
       }
     ],
     "description": [
-      "Les ondes radio électromagnétiques sont la force invisible qui nous relie sur de vastes distances.  Comme une symphonie de fréquences, ces vagues transportent des informations, de la musique et des voix dans les airs, façonnant notre monde moderne d'une manière que nous tenons souvent pour acquise.",
-      "À la fin du XIXe siècle, Heinrich Hertz a mené des expériences qui ont confirmé l'existence d'ondes électromagnétiques prédites par les équations de James Clerk Maxwell.  Le travail de Hertz a jeté les bases de notre compréhension des ondes radio et de leurs applications.",
+      "Les ondes radio électromagnétiques sont la force invisible qui nous relie sur de vastes distances.  Telle une symphonie de fréquences, ces ondes transportent des informations, de la musique et des voix dans les airs, façonnant notre monde moderne d’une manière que nous tenons souvent pour acquise.",
+      "À la fin du XIXe siècle, Heinrich Hertz a mené des expériences qui ont confirmé l'existence d'ondes électromagnétiques prédites par les équations de James Clerk Maxwell.  Les travaux de Hertz ont jeté les bases de notre compréhension des ondes radio et de leurs applications.",
       "",
       ""
     ],
-    "impact": "Au début, les ondes radio étaient principalement utilisées pour la télégraphie, permettant une communication longue distance via le code Morse.  Cependant, avec les progrès de la technologie, les ondes radio sont devenues l'épine dorsale des systèmes de communication modernes, facilitant la radiodiffusion, la transmission télévisée, et plus tard, Internet sans fil et réseaux cellulaires. Contrairement aux objets tangibles, les ondes radio sont invisibles à l'œil humain. Pourtant, ils imprègnent notre environnement, transportant des informations dans l'air sans effort. Que ce soit la musique en streaming depuis votre smartphone ou les signaux satellites guidant les avions, les ondes radio orchestrent silencieusement notre monde interconnecté.",
+    "impact": "Au début, les ondes radio étaient principalement utilisées pour la télégraphie, permettant des communications longue distance via le code Morse.  Cependant, avec les progrès technologiques, les ondes radio sont devenues l’épine dorsale des systèmes de communication modernes, facilitant la diffusion radio, la transmission télévisuelle et, plus tard, l’Internet sans fil et les réseaux cellulaires. Contrairement aux objets tangibles, les ondes radio sont invisibles à l’œil humain. Pourtant, ils imprègnent notre environnement, transportant les informations dans les airs sans effort. Qu'il s'agisse de la musique diffusée depuis votre smartphone ou des signaux satellite guidant les avions, les ondes radio orchestrent silencieusement notre monde interconnecté.",
     "directions": {
-      "title": "Comment Ça Marche?",
+      "title": "Comment Ça Marche ?",
       "steps": [
         {
           "id": 1,
-          "step": "Génération: les ondes radio sont générées lorsqu'un courant alternatif traverse une antenne.  Ce courant alternatif crée des champs électriques et magnétiques oscillants autour de l'antenne, qui forment ensemble l'onde radio."
+          "step": "Génération : Les ondes radio sont générées lorsqu'un courant alternatif traverse une antenne.  Ce courant alternatif crée des champs électriques et magnétiques oscillants autour de l’antenne, qui forment ensemble l’onde radio."
         },
         {
           "id": 2,
-          "step": "Propagation: Une fois généré, les ondes radio se déplacent dans l'air (ou d'autres médiums) à la vitesse de la lumière.  Ils se propagent dans toutes les directions, un peu comme les ondulations à la surface d'un étang lorsque vous laisse tomber une pierre."
+          "step": "Propagation : Une fois générées, les ondes radio se propagent dans l'air (ou dans d'autres milieux) à la vitesse de la lumière.  Ils se propagent dans toutes les directions, un peu comme des ondulations à la surface d’un étang lorsqu’on laisse tomber une pierre."
         },
         {
           "id": 3,
-          "step": "Transmission: les ondes radio transportent de l'énergie et des informations à mesure qu'elles se propagent.  Par exemple, dans la radiodiffusion, un émetteur convertit les ondes sonores en signaux électriques, qui sont ensuite utilisés pour moduler les ondes radio.  Cette modulation code les informations sonores sur l'onde radio, ce qui lui permet de transporter de la musique, de la parole ou des données sur de longues distances."
+          "step": "Transmission : Les ondes radio transportent de l’énergie et des informations lors de leur propagation.  Par exemple, en radiodiffusion, un émetteur convertit les ondes sonores en signaux électriques, qui sont ensuite utilisés pour moduler les ondes radio.  Cette modulation code les informations sonores sur l'onde radio, lui permettant de transporter de la musique, de la parole ou des données sur de longues distances."
         },
         {
           "id": 4,
-          "step": "Réception: Lorsque les ondes radio rencontrent une antenne réglée sur la même fréquence, elles induisent un petit courant alternatif dans l'antenne.  Ce courant est ensuite amplifié et décodé par des circuits électroniques dans un périphérique récepteur, comme une radio ou un smartphone.  Les informations originales codées sur l'onde radio sont reconstruites et diffusées sous forme de son, de données ou d'images."
+          "step": "Réception : Lorsque les ondes radio rencontrent une antenne réglée sur la même fréquence, elles induisent un petit courant alternatif dans l'antenne.  Ce courant est ensuite amplifié et décodé par des circuits électroniques dans un appareil récepteur, comme une radio ou un smartphone.  Les informations originales codées sur l'onde radio sont reconstruites et émises sous forme de son, de données ou d'images."
         },
         {
           "id": 5,
-          "step": "Interférence et régulation: les ondes radio peuvent être affectées par divers facteurs, tels que les conditions atmosphériques, les interférences d'autres dispositifs électroniques ou les obstacles sur leur chemin.  Pour assurer une communication fiable, les fréquences radio sont soigneusement réglementées par les gouvernements et les organismes internationaux pour minimiser les interférences et allouer des bandes de fréquence spécifiques à différentes utilisations, telles que la radiodiffusion, l'aviation ou la communication mobile."
+          "step": "Interférence et régulation : Les ondes radio peuvent être affectées par divers facteurs, tels que les conditions atmosphériques, les interférences provenant d'autres appareils électroniques ou les obstacles sur leur chemin.  Pour garantir une communication fiable, les fréquences radio sont soigneusement réglementées par les gouvernements et les organismes internationaux afin de minimiser les interférences et d'attribuer des bandes de fréquences spécifiques à différentes utilisations, telles que la radiodiffusion, l'aviation ou les communications mobiles."
         }
       ]
     },
-    "how": "Dans la communication électronique, la bande passante est la quantité d'informations transmises sur une onde électromagnétique.  Plus il y a d'informations dans une transmission, plus elle se propage de fréquences.  Étant donné que la fréquence d'un signal est mesurée dans Hertz (le nombre de cycles de changement par seconde), une bande passante est la différence de Hertz entre la fréquence la plus élevée et la fréquence la plus basse qu'il utilise.  La bande passante est intimement liée à l'efficacité, à la capacité et à la qualité des systèmes de communication à base d'ondes radio.  En gérant l'allocation de la bande passante et l'optimisation des paramètres de transmission, les ingénieurs peuvent concevoir des réseaux de communication qui offrent une connectivité fiable et à grande vitesse aux utilisateurs du monde entier. Quelque part au-dessus de vous en ce moment, un avion diffuse son emplacement, sa vitesse et sa roulement sur 1090 MHz.  Un satellite météorologique géostationnaire à 22 000 kilomètres de la Terre transmet des cartes météorologiques détaillées sur 1694,1 MHz.  Une voiture conduisant près de votre maison transmet un signal avec la lecture de la pression de l'un de ses pneus à 315 MHz.  Un satellite GPS volant au-dessus de 8 000 miles par heure fait un signal à votre téléphone à 1575,42 MHz.  Une bouée de données dans l'océan Atlantique transmet la température de la mer, la hauteur des vagues et les lectures de vitesse du vent dans un satellite NOAA à 401 MHz.  En plus de tout cela, chaque appareil mobile et routeur WiFi près de chez vous saute le trafic Internet de tout le monde dans les airs au-dessus des ondes radio.  Tous ces éléments peuvent se produire simultanément grâce à un spectre radio très soigneusement réglementé.  Les radiodiffuseurs agréés peuvent se voir attribuer des parties de la bande passante accessible au niveau régional afin que leurs signaux n'interfèrent pas les uns avec les autres. La Federal Communication Commission (FCC) et la National Telecommunications and Information Administration (NTIA) partagent la tâche de gérer l'attribution des fréquences radio pour les ondes américaines.  La NTIA gère les applications fédérales sur toutes les applications radio (y compris les utilisations militaires), tandis que la FCC gère tout le reste, y compris l'utilisation de la radio commerciale et locale, commerciale et amateur.",
+    "how": "Dans les communications électroniques, la bande passante est la quantité d’informations transmises sur une onde électromagnétique.  Plus une transmission contient d’informations, plus elle se propage sur de fréquences.  Puisque la fréquence d’un signal est mesurée en hertz (le nombre de cycles de changement par seconde), une bande passante est la différence en hertz entre la fréquence la plus élevée et la fréquence la plus basse utilisée.  La bande passante est intimement liée à l'efficacité, à la capacité et à la qualité des systèmes de communication basés sur les ondes radio.  En gérant l'allocation de bande passante et en optimisant les paramètres de transmission, les ingénieurs peuvent concevoir des réseaux de communication offrant une connectivité fiable et haut débit aux utilisateurs du monde entier. Quelque part au-dessus de vous, un avion diffuse sa position, sa vitesse et son relèvement sur 1090 MHz.  Un satellite météorologique géostationnaire situé à 22 000 milles de la Terre transmet des cartes météorologiques détaillées sur 1 694,1 MHz.  Une voiture qui passe près de chez vous transmet un signal avec la pression de l'un de ses pneus à 315 MHz.  Un satellite GPS survolant votre téléphone à 8 000 milles à l'heure envoie un signal à 1 575,42 MHz.  Une bouée de données flottant dans l'océan Atlantique transmet les relevés de la température de la mer, de la hauteur des vagues et de la vitesse du vent à un satellite de la NOAA à 401 MHz.  En plus de tout cela, chaque appareil mobile et routeur WiFi à proximité diffuse le trafic Internet de chacun par voie aérienne via les ondes radio.  Tous ces phénomènes peuvent se produire simultanément grâce à un spectre radioélectrique très soigneusement régulé.  Les radiodiffuseurs agréés peuvent se voir attribuer des parties de la bande passante disponible au niveau régional afin que leurs signaux n'interfèrent pas les uns avec les autres. La Federal Communication Commission (FCC) et la National Telecommunications and Information Administration (NTIA) partagent la tâche de gérer l’attribution des fréquences radio pour les ondes américaines.  La NTIA gère toutes les applications radio fédérales (y compris les utilisations militaires), tandis que la FCC gère tout le reste, y compris l'utilisation des radios étatiques et locales, commerciales et amateurs.",
     "tag": 15
   },
   {
@@ -851,7 +851,7 @@ const data = [
     ],
     "impact": "",
     "directions": {
-      "title": "Comment Ça Marche?",
+      "title": "Comment Ça Marche ?",
       "steps": [
         {
           "id": 1,
@@ -863,17 +863,17 @@ const data = [
         }
       ]
     },
-    "how": "L'écran de fil ouvert peut refléter ou transmettre des ondes électromagnétiques qui sont polarisées verticalement. Certaines vagues traversent les espaces entre les fils, tandis que d'autres vagues sont reflétées des fils. Pour les ondes polarisées verticalement, l'écran bloque le plus efficacement lorsque ses fils sont également verticaux.",
+    "how": "L'écran en fil ouvert peut réfléchir ou transmettre des ondes électromagnétiques polarisées verticalement. Certaines ondes traversent les espaces entre les fils, tandis que d’autres sont réfléchies par les fils. Pour les ondes polarisées verticalement, l'écran bloque plus efficacement lorsque ses fils sont également verticaux.",
     "tag": 16
   },
   {
-    "stationTitle": "Du Générateur Graaff",
-    "slideTitle": "Le Générateur Van De Graaff: Exploitant La Puissance De l'Électricité Statique",
+    "stationTitle": "Générateur Van De Graaff",
+    "slideTitle": "Le Générateur Van De Graaff : Exploiter La Puissance De L’électricité Statique",
     "info": [
       {
         "id": 1,
         "title": "Nom:",
-        "text": "Du générateur Graaff"
+        "text": "Générateur Van de Graaff"
       },
       {
         "id": 2,
@@ -888,28 +888,28 @@ const data = [
       {
         "id": 4,
         "title": "But:",
-        "text": "Démontrer l'électricité statique"
+        "text": "Démonstration d'électricité statique"
       },
       {
         "id": 5,
-        "title": "Fait Amusant:",
-        "text": "Le plus grand générateur de van de graaff peut faire des étincelles de foudre de plus de 20 pieds de long"
+        "title": "Fait Amusant :",
+        "text": "Le plus gros générateur Van de Graaff peut produire des étincelles semblables à des éclairs sur plus de 20 pieds de long"
       },
       {
         "id": 6,
         "title": "Impact:",
-        "text": "Aidé à la recherche nucléaire et à la compréhension des structures atomiques."
+        "text": "A aidé à la recherche nucléaire et à la compréhension des structures atomiques."
       }
     ],
     "description": [
-      "Le générateur Van de Graaff a été inventé par Robert J. Van de Graaff en 1929 pour montrer comment fonctionnent les charges électriques.  En utilisant une ceinture en mouvement pour construire de l'électricité sur le grand dôme métallique, il nous enseigne l'électricité statique - quelque chose qui nous entoure, mais nous ne le remarquons généralement pas.",
+      "Le générateur Van de Graaff a été inventé par Robert J. Van de Graaff en 1929 pour montrer le fonctionnement des charges électriques.  En utilisant une courroie mobile pour accumuler de l’électricité sur le grand dôme métallique, cela nous apprend ce qu’est l’électricité statique – quelque chose qui est tout autour de nous, mais que nous ne remarquons généralement pas.",
       "",
       "",
       ""
     ],
-    "impact": "Ce générateur aide les scientifiques à comprendre les forces qui gardent les atomes ensemble.  Il était autrefois utilisé dans les laboratoires pour accélérer les particules pour des expériences en physique nucléaire, nous aidant à en savoir plus sur l'univers et les éléments constitutifs de la matière. Machines à énergie supérieure - En 1937, la Westinghouse Electric Company a construit une machine de 65 pieds (20 m), le Westinghouse Atom Smasher capable de générer 5 MeV à Forest Hills, en Pennsylvanie.  Il a marqué le début de la recherche nucléaire pour les applications civiles.  Il a été mis hors service en 1958 et a été partiellement démoli en 2015.",
+    "impact": "Ce générateur aide les scientifiques à comprendre les forces qui maintiennent les atomes ensemble.  Il était autrefois utilisé dans les laboratoires pour accélérer les particules destinées aux expériences de physique nucléaire, nous aidant ainsi à en apprendre davantage sur l'univers et les éléments constitutifs de la matière. Machines à énergie plus élevée – En 1937, la société Westinghouse Electric a construit une machine de 20 m, le Westinghouse Atom Smasher, capable de générer 5 MeV à Forest Hills, en Pennsylvanie.  Elle marque le début de la recherche nucléaire à des fins civiles.  Il a été mis hors service en 1958 et partiellement démoli en 2015.",
     "directions": {
-      "title": "Comment Ça Marche?",
+      "title": "Comment Ça Marche ?",
       "steps": [
         {
           "id": 1,
@@ -923,46 +923,46 @@ const data = [
     },
     "how": "",
     "howGraaff": {
-      "title": "Comment Ça Marche?",
+      "title": "Comment Ça Marche ?",
       "info": [
-        "Frottement sur la ceinture → Charges transférées au dôme → Charges sautent pour créer des étincelles.",
-        "Le générateur Van de Graaff fonctionne en construisant et en stockant l'électricité statique, qu'elle transfère vers d'autres objets. Voici comment cela fait cela:"
+        "Friction sur la courroie → Transfert de charges vers le dôme → Les charges sautent pour créer des étincelles.",
+        "Le générateur Van de Graaff fonctionne en accumulant et en stockant de l'électricité statique, qu'il transfère à d'autres objets. Voici comment procéder :"
       ],
       "list": [
         {
           "id": 1,
-          "item": "La ceinture.",
-          "description": "À l'intérieur de la machine, il y a une ceinture en caoutchouc ou en tissu qui se déplace en continu sur les rouleaux. Au fur et à mesure que la ceinture se déplace, elle se frotte contre les rouleaux, ramassant de minuscules charges électriques à travers un processus appelé frottement."
+          "item": "La Ceinture.",
+          "description": "À l’intérieur de la machine se trouve une courroie en caoutchouc ou en tissu qui se déplace en continu sur des rouleaux. Lorsque la courroie se déplace, elle frotte contre les rouleaux, captant de minuscules charges électriques grâce à un processus appelé friction."
         },
         {
           "id": 2,
-          "item": "Le peigne.",
-          "description": "Au fur et à mesure que la ceinture se déplace, elle passe par un peigne (une bande métallique avec des points pointus) près de la base de la machine. Le peigne transfère les charges électriques de la courroie au dôme métallique en haut du générateur."
+          "item": "Le Peigne.",
+          "description": "Lorsque la courroie se déplace, elle passe devant un peigne (une bande métallique dotée de pointes acérées) près de la base de la machine. Le peigne transfère les charges électriques de la courroie vers le dôme métallique situé au sommet du générateur."
         },
         {
           "id": 3,
-          "item": "Le dôme.",
-          "description": "Le dôme est comme un conteneur géant pour les charges électriques. À mesure que les charges s'accumulent, le dôme devient très chargé. C'est une électricité statique, similaire à ce qui se passe lorsque vous frottez un ballon sur vos cheveux."
+          "item": "Le Dôme.",
+          "description": "Le dôme est comme un conteneur géant pour les charges électriques. À mesure que les charges s'accumulent, le dôme devient très chargé. Il s’agit d’électricité statique, semblable à ce qui se produit lorsque vous frottez un ballon sur vos cheveux."
         },
         {
           "id": 4,
-          "item": "Des étincelles et statiques.",
-          "description": "Lorsque les charges sur le dôme s'accumulent suffisamment, ils recherchent un moyen de s'échapper.  Si vous apportez un objet métallique (ou même votre main) près du dôme, les charges sautent dans l'air, créant une étincelle visible.  Parfois, si vous touchez le dôme, les charges se déplacent à travers vous - en faisant la fin de vos cheveux."
+          "item": "Étincelles et statique.",
+          "description": "Lorsque les charges sur le dôme s'accumulent suffisamment, ils cherchent un moyen de s'échapper.  Si vous approchez un objet métallique (ou même votre main) du dôme, les charges sautent dans les airs, créant une étincelle visible.  Parfois, si vous touchez le dôme, les charges vous traversent et vous font dresser les cheveux."
         }
       ]
     },
     "try": {
-      "title": "Essayez Ceci Et Regardez:",
+      "title": "Essayez Ceci Et Regardez :",
       "steps": [
         {
           "id": 1,
           "name": "Appuyez et maintenez le bouton pour l'allumer.",
-          "text": "Le générateur Van de Graaff et laissez-le accumuler la charge. Vous entendrez un faible bourdonnement, et après quelques instants, le dôme commencera à accumuler de l'électricité statique."
+          "text": "Le générateur Van de Graaff et laissez-le accumuler de la charge. Vous entendrez un léger bourdonnement et après quelques instants, le dôme commencera à accumuler de l’électricité statique."
         },
         {
           "id": 2,
-          "name": "Assister à l'accusation.",
-          "text": "Regardez les étincelles zaps de la tige au dôme métallique. Les cheveux commenceront à augmenter à mesure que l'électricité statique s'écoule. L'électricité statique repousse chaque mèche de cheveux loin des autres, créant l'effet des «cheveux fous». Les lumières fluorescentes scintillent, chargant les ampoules."
+          "name": "Soyez témoin de l’accusation.",
+          "text": "Regardez les étincelles passer de la tige au dôme métallique. Les cheveux commenceront à se dresser à mesure que l’électricité statique circule. L’électricité statique repousse chaque mèche de cheveux les unes des autres, créant ainsi l’effet « cheveux fous ». Les lampes fluorescentes vacillent, chargeant les ampoules."
         }
       ]
     },
@@ -975,45 +975,45 @@ const data = [
       {
         "id": 1,
         "title": "Impact:",
-        "text": "Connecté 40 millions de ménages en 1930"
+        "text": "Connecté 40 millions de foyers d’ici 1930"
       },
       {
         "id": 2,
-        "title": "Reach Global:",
-        "text": "Couverture du réseau mobile à 95% (2023)"
+        "title": "Portée Mondiale :",
+        "text": "Couverture du réseau mobile à 95 % (2023)"
       }
     ],
     "description": [
-      "Le traducteur audio, à ne pas confondre avec un traducteur de langue, est un appareil qui capture des sons distants, les transformant en signaux électriques. Cette percée a marqué une nouvelle ère en communication."
+      "L'Audio Translator, à ne pas confondre avec un traducteur de langue, est un appareil qui capture des sons lointains et les transforme en signaux électriques. Cette percée a marqué une nouvelle ère dans la communication."
     ],
     "impact": [
-      "Les traducteurs audio ont transformé les chuchotements distants en conversations mondiales. Ils ont façonné la communication moderne, unissant les gens dans le monde entier. Explorez le pouvoir de l'innovation et de la connexion dans notre histoire partagée.",
-      "Alors que le téléphone, inventé à la fin du XIXe siècle, a révolutionné la communication directe entre les individus, elle était limitée par la nécessité d'une connexion physique via des fils ou des câbles. Il a facilité des conversations individuelles sur de longues distances mais n'a pas relevé le défi de capturer et de transmettre des sons ou des voix distants pour un public plus large. Le traducteur audio a permis la conversion des ondes sonores en signaux électriques, permettant la transmission de ces signaux sur de vastes distances sans dégradation. Cette technologie a facilité la diffusion des sons - music, des discours, des nouvelles - à un large public, surmontant les limites de la communication directe offerte par le téléphone. Il a permis des expériences partagées et des échanges culturels à l'échelle de masse, atteignant des millions de ménages dans le monde."
+      "Les traducteurs audio ont transformé les murmures lointains en conversations mondiales. Ils ont façonné la communication moderne, unissant les gens du monde entier. Explorez le pouvoir de l’innovation et de la connexion dans notre histoire commune.",
+      "Si le téléphone, inventé à la fin du XIXe siècle, a révolutionné la communication directe entre individus, il était limité par la nécessité d'une connexion physique via des fils ou des câbles. Il facilitait les conversations en tête-à-tête sur de longues distances, mais ne résolvait pas le défi de capturer et de transmettre des sons ou des voix distants à un public plus large. Le traducteur audio a permis la conversion des ondes sonores en signaux électriques, permettant la transmission de ces signaux sur de vastes distances sans dégradation. Cette technologie a facilité la diffusion de sons (musique, discours, informations) à un large public, surmontant ainsi les limites de la communication directe offerte par le téléphone. Il a permis le partage d’expériences et d’échanges culturels à grande échelle, touchant des millions de foyers dans le monde."
     ],
     "directions": {
-      "title": "Comment Ça Marche:",
+      "title": "Comment Ça Marche :",
       "steps": [
         {
           "id": 1,
-          "step": "Appuyez sur le bouton pour l'allumer et attendez un moment pour qu'il se réchauffe."
+          "step": "Appuyez sur le bouton pour l'allumer et attendez un moment qu'il se réchauffe."
         },
         {
           "id": 2,
-          "step": "Lorsque vous voyez la ligne verte à l'écran, parlez des trous à l'avant de l'étui."
+          "step": "Lorsque vous voyez la ligne verte sur l'écran, parlez dans les trous situés à l'avant du boîtier."
         },
         {
           "id": 3,
-          "step": "Regardez comment la ligne verte de l'écran réagit au son de votre voix. Il convertit le son en un signal électrique."
+          "step": "Regardez comment la ligne verte sur l'écran réagit au son de votre voix. Il s’agit de convertir le son en signal électrique."
         }
       ]
     },
-    "how": "Un traducteur audio fonctionne en capturant des ondes sonores à travers un microphone ou un diaphragme sensible. Ces ondes sonores sont ensuite converties en signaux électriques. Cette transformation permet aux signaux d'être amplifiés, transmis et reproduits comme son à une fin de réception. Essentiellement, il convertit les informations audibles en impulsions électriques pour une transmission efficace sur les distances, garantissant que les sons d'origine restent intacts lorsqu'ils atteignent leur destination.",
+    "how": "Un traducteur audio fonctionne en capturant les ondes sonores via un microphone ou un diaphragme sensible. Ces ondes sonores sont ensuite converties en signaux électriques. Cette transformation permet aux signaux d'être amplifiés, transmis et reproduits sous forme de son à la réception. Essentiellement, il convertit les informations sonores en impulsions électriques pour une transmission efficace sur plusieurs distances, garantissant ainsi que les sons d'origine restent intacts lorsqu'ils atteignent leur destination.",
     "tag": 18
   },
   {
     "stationTitle": "Ondes Électromagnétiques",
     "slideTitle": "Introduction Aux Ondes Électromagnétiques",
-    "description": "Bienvenue, alors que nous voyageons à travers les forces invisibles qui façonnent notre univers. Des ondes radio aux rayons gamma, les ondes électromagnétiques englobent un vaste spectre d'énergie qui imprègne tous les aspects de notre vie quotidienne.  Suivez alors que nous explorons leur impact profond sur la technologie, la communication et notre compréhension du cosmos.",
+    "description": "Bienvenue, alors que nous voyageons à travers les forces invisibles qui façonnent notre univers. Des ondes radio aux rayons gamma, les ondes électromagnétiques englobent un vaste spectre d’énergie qui imprègne tous les aspects de notre vie quotidienne.  Suivez-nous pendant que nous explorons leur profond impact sur la technologie, la communication et notre compréhension du cosmos.",
     "categories": {
       "title": "Catégories d'Ondes Électromagnétiques",
       "waves": [
@@ -1021,35 +1021,35 @@ const data = [
           "id": 1,
           "title": "Ondes Radio",
           "description": [
-            "Ces ondes ont les longueurs d'onde les plus longues et les fréquences les plus basses du spectre électromagnétique.",
-            "Largement utilisé dans la communication, notamment la radiodiffusion, le Wi-Fi et les réseaux cellulaires."
+            "Ces ondes ont les longueurs d’onde les plus longues et les fréquences les plus basses du spectre électromagnétique.",
+            "Largement utilisé dans les communications, notamment la radiodiffusion, le Wi-Fi et les réseaux cellulaires."
           ]
         },
         {
           "id": 2,
           "title": "Micro-Ondes",
           "description": [
-            "Avec des longueurs d'onde légèrement plus courtes que les ondes radio, les micro-ondes sont utilisées dans diverses applications telles que la cuisson, le radar et la communication par satellite."
+            "Avec des longueurs d'onde légèrement plus courtes que les ondes radio, les micro-ondes sont utilisées dans diverses applications telles que la cuisine, les radars et les communications par satellite."
           ]
         },
         {
           "id": 3,
           "title": "Lumière Infrarouge",
           "description": [
-            "Au-delà de la lumière visible mais plus courte que les micro-ondes, les ondes infrarouges sont associées à la chaleur et sont utilisées dans la technologie de vision nocturne, les télécommandes et l'imagerie thermique."
+            "Au-delà de la lumière visible, mais plus courtes que les micro-ondes, les ondes infrarouges sont associées à la chaleur et sont utilisées dans la technologie de vision nocturne, les télécommandes et l'imagerie thermique."
           ]
         },
         {
           "id": 4,
           "title": "Lumière Visible",
           "description": [
-            "Le seul segment du spectre électromagnétique visible à l'œil humain, la lumière visible englobe une gamme de couleurs du rouge au violet.",
-            "Essentiel à la vision et utilisé dans les technologies optiques telles que les caméras, les télescopes et les lasers."
+            "Seul segment du spectre électromagnétique visible à l’œil humain, la lumière visible englobe une gamme de couleurs allant du rouge au violet.",
+            "Essentiel pour la vision et utilisé dans les technologies optiques telles que les caméras, les télescopes et les lasers."
           ]
         },
         {
           "id": 5,
-          "title": "Vagues Ultraviolets (UV)",
+          "title": "Ondes Ultraviolettes (UV)",
           "description": [
             "Au-delà de la lumière violette sur le spectre électromagnétique, les ondes UV ont des longueurs d'onde plus courtes et une énergie plus élevée.",
             "Utilisé dans la stérilisation, les lits de bronzage et les traitements médicaux, mais peut également endommager les tissus vivants."
@@ -1059,23 +1059,23 @@ const data = [
           "id": 6,
           "title": "Rayons X",
           "description": [
-            "Ces ondes ont encore des longueurs d'onde encore plus courtes et une énergie plus élevée que les ondes UV.",
-            "Précieux dans l'imagerie médicale, la numérisation de sécurité des aéroports et l'analyse des matériaux en raison de leur capacité à pénétrer des objets solides."
+            "Ces ondes ont des longueurs d’onde encore plus courtes et une énergie plus élevée que les ondes UV.",
+            "Précieux en imagerie médicale, en numérisation de sécurité aéroportuaire et en analyse de matériaux en raison de leur capacité à pénétrer des objets solides."
           ]
         },
         {
           "id": 7,
           "title": "Rayons Gamma",
           "description": [
-            "Avec les longueurs d'onde les plus courtes et l'énergie la plus élevée dans le spectre électromagnétique, les rayons gamma sont émis par les matières radioactives et les événements cosmiques.",
-            "Utilisé dans le traitement du cancer, la stérilisation et l'étude des phénomènes astrophysiques à haute énergie."
+            "Possédant les longueurs d'onde les plus courtes et l'énergie la plus élevée du spectre électromagnétique, les rayons gamma sont émis par les matières radioactives et les événements cosmiques.",
+            "Utilisé dans le traitement du cancer, la stérilisation et l’étude des phénomènes astrophysiques à haute énergie."
           ]
         }
       ]
     },
     "ending": [
-      "Lorsque vous explorez les catégories des ondes électromagnétiques, vous gagnerez une appréciation plus profonde pour la diversité et la signification de ces phénomènes.  Des applications pratiques de la technologie quotidienne aux idées profondes qu'elles fournissent sur la nature de l'univers, les ondes électromagnétiques continuent de façonner notre monde d'une manière à la fois vue et invisible.",
-      "Portez une attention particulière à nos expositions sur les «ondes électromagnétiques visuelles» et les «ondes radio électromagnétiques» pour un aperçu supplémentaire de ces exemples d'ondes électromagnétiques."
+      "En explorant les catégories d’ondes électromagnétiques, vous apprécierez davantage la diversité et l’importance de ces phénomènes.  Depuis leurs applications pratiques dans la technologie quotidienne jusqu’aux connaissances approfondies qu’elles fournissent sur la nature de l’univers, les ondes électromagnétiques continuent de façonner notre monde de manière visible et invisible.",
+      "Portez une attention particulière à nos expositions sur « Ondes électromagnétiques visuelles » et « Ondes radio électromagnétiques » pour en savoir plus sur ces exemples d'ondes électromagnétiques."
     ],
     "tag": 19
   },
@@ -1090,12 +1090,12 @@ const data = [
       }
     ],
     "description": [
-      "Il s'agit d'un exemple de texte.",
-      "Il s'agit également d'un exemple de texte."
+      "Ceci est un exemple de texte.",
+      "Ceci est également un exemple de texte."
     ],
-    "impact": "Impact Exemple de texte",
+    "impact": "Exemple de texte d'impact",
     "directions": {
-      "title": "Comment Ça Marche:",
+      "title": "Comment Ça Marche :",
       "steps": [
         {
           "id": 1,
@@ -1125,12 +1125,12 @@ const data = [
       }
     ],
     "description": [
-      "Il s'agit d'un exemple de texte.",
-      "Il s'agit également d'un exemple de texte."
+      "Ceci est un exemple de texte.",
+      "Ceci est également un exemple de texte."
     ],
-    "impact": "Impact Exemple de texte",
+    "impact": "Exemple de texte d'impact",
     "directions": {
-      "title": "Comment Ça Marche:",
+      "title": "Comment Ça Marche :",
       "steps": [
         {
           "id": 1,
@@ -1160,12 +1160,12 @@ const data = [
       }
     ],
     "description": [
-      "Il s'agit d'un exemple de texte.",
-      "Il s'agit également d'un exemple de texte."
+      "Ceci est un exemple de texte.",
+      "Ceci est également un exemple de texte."
     ],
-    "impact": "Impact Exemple de texte",
+    "impact": "Exemple de texte d'impact",
     "directions": {
-      "title": "Comment Ça Marche:",
+      "title": "Comment Ça Marche :",
       "steps": [
         {
           "id": 1,
@@ -1186,8 +1186,8 @@ const data = [
   },
   {
     "tag": 23,
-    "stationTitle": "Section 4",
-    "slideTitle": "Section 4",
+    "stationTitle": "Article 4",
+    "slideTitle": "Article 4",
     "info": [
       {
         "id": 1,
@@ -1195,12 +1195,12 @@ const data = [
       }
     ],
     "description": [
-      "Il s'agit d'un exemple de texte.",
-      "Il s'agit également d'un exemple de texte."
+      "Ceci est un exemple de texte.",
+      "Ceci est également un exemple de texte."
     ],
-    "impact": "Impact Exemple de texte",
+    "impact": "Exemple de texte d'impact",
     "directions": {
-      "title": "Comment Ça Marche:",
+      "title": "Comment Ça Marche :",
       "steps": [
         {
           "id": 1,
@@ -1226,10 +1226,10 @@ const data = [
     "info": [
       {
         "id": 1,
-        "title": "Colline De Bunker",
+        "title": "Colline Du Bunker",
         "performedBy": "Harlan et Stanley",
         "performedWhen": "Que. 1905",
-        "recordedOn": "Enregistré sur Edison Black Wax Cylinder # 8966"
+        "recordedOn": "Enregistré sur un cylindre de cire noire Edison #8966"
       },
       {
         "id": 2,
@@ -1241,7 +1241,7 @@ const data = [
       {
         "id": 3,
         "title": "Johnny B. Goode",
-        "performedBy": "Les Grateful Dead",
+        "performedBy": "Les morts reconnaissants",
         "performedWhen": "10 juin 1973",
         "recordedOn": "Enregistré sur un magnétophone portable Sony TC 2850SD sur cassettes Memorex."
       }
@@ -1249,8 +1249,8 @@ const data = [
   },
   {
     "tag": 25,
-    "stationTitle": "Dynamo Humain",
-    "slideTitle": "Dynamo Humain",
+    "stationTitle": "Dynamo Humaine",
+    "slideTitle": "Dynamo Humaine",
     "info": [
       {
         "id": 1,
@@ -1262,7 +1262,7 @@ const data = [
     ],
     "impact": "Impact",
     "directions": {
-      "title": "Comment Ça Marche:",
+      "title": "Comment Ça Marche :",
       "steps": [
         {
           "id": 1,
@@ -1296,7 +1296,7 @@ const data = [
     ],
     "impact": "Impact",
     "directions": {
-      "title": "Comment Ça Marche:",
+      "title": "Comment Ça Marche :",
       "steps": [
         {
           "id": 1,
@@ -1317,8 +1317,8 @@ const data = [
   },
   {
     "tag": 27,
-    "stationTitle": "Lights",
-    "slideTitle": "Lights",
+    "stationTitle": "Viseur De Bombes",
+    "slideTitle": "Viseur De Bombes",
     "info": [
       {
         "id": 1,
@@ -1330,7 +1330,7 @@ const data = [
     ],
     "impact": "Impact",
     "directions": {
-      "title": "Comment Ça Marche:",
+      "title": "Comment Ça Marche :",
       "steps": [
         {
           "id": 1,
