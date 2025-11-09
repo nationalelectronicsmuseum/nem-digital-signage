@@ -25,3 +25,6 @@ How to setup:
 
 How to dev:
     npm run dev
+
+Resources:
+    [Live netlify app](https://nemdigitalsignage.netlify.app/)
