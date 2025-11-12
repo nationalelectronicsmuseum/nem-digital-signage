@@ -1928,7 +1928,7 @@ const data = [
     "how": "近日公開"
   },
   {
-    "tag": 46,
+    "tag": 45,
     "stationTitle": "チャフ",
     "slideTitle": "チャフ",
     "info": [
@@ -1962,7 +1962,7 @@ const data = [
     "how": "近日公開"
   },
   {
-    "tag": 47,
+    "tag": 46,
     "stationTitle": "おとり",
     "slideTitle": "おとり",
     "info": [
@@ -1996,7 +1996,7 @@ const data = [
     "how": "近日公開"
   },
   {
-    "tag": 48,
+    "tag": 47,
     "stationTitle": "対策の種類",
     "slideTitle": "対策の種類",
     "info": [
@@ -2030,9 +2030,111 @@ const data = [
     "how": "近日公開"
   },
   {
-    "tag": 49,
+    "tag": 48,
     "stationTitle": "対策略歴",
     "slideTitle": "対策略歴",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "近日公開。"
+    ],
+    "impact": "インパクト",
+    "directions": {
+      "title": "仕組み:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "ステップ1"
+        },
+        {
+          "id": 2,
+          "step": "ステップ2"
+        },
+        {
+          "id": 3,
+          "step": "ステップ3"
+        }
+      ]
+    },
+    "watch": "近日公開",
+    "how": "近日公開"
+  },
+  {
+    "tag": 49,
+    "stationTitle": "衛星とその仕組み",
+    "slideTitle": "衛星とその仕組み",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "近日公開。"
+    ],
+    "impact": "インパクト",
+    "directions": {
+      "title": "仕組み:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "ステップ1"
+        },
+        {
+          "id": 2,
+          "step": "ステップ2"
+        },
+        {
+          "id": 3,
+          "step": "ステップ3"
+        }
+      ]
+    },
+    "watch": "近日公開",
+    "how": "近日公開"
+  },
+  {
+    "tag": 50,
+    "stationTitle": "月面カメラ",
+    "slideTitle": "月面カメラ",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "近日公開。"
+    ],
+    "impact": "インパクト",
+    "directions": {
+      "title": "仕組み:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "ステップ1"
+        },
+        {
+          "id": 2,
+          "step": "ステップ2"
+        },
+        {
+          "id": 3,
+          "step": "ステップ3"
+        }
+      ]
+    },
+    "watch": "近日公開",
+    "how": "近日公開"
+  },
+  {
+    "tag": 51,
+    "stationTitle": "テルスター",
+    "slideTitle": "テルスター",
     "info": [
       {
         "id": 1,

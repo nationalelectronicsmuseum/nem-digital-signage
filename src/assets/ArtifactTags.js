@@ -47,3 +47,6 @@ export const CHAFF = 45;
 export const DECOYS = 46;
 export const TYPES_OF_COUNTERMEASURES = 47;
 export const COUNTERMEASURE_BIOGRAPHY = 48;
+export const SATELLITES_AND_HOW_THEY_WORK = 49;
+export const LUNAR_CAMERA = 50;
+export const TELSTAR = 51;

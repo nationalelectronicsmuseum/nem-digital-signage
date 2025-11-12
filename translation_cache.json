@@ -3578,5 +3578,35 @@
       "zh-CN": "对策是什么？",
       "ja": "対策とは何ですか？"
     }
+  },
+  "8401d1458eaa0c25b62c46cf468b2a86c12db6917b20ed7d69cce2738bb517ad": {
+    "original": "Satellites and How They Work",
+    "translations": {
+      "es": "Satélites y cómo funcionan",
+      "fr": "Les satellites et leur fonctionnement",
+      "de": "Satelliten und wie sie funktionieren",
+      "zh-CN": "卫星及其工作原理",
+      "ja": "衛星とその仕組み"
+    }
+  },
+  "025178adbb08e088bbe2a9a71b881b8bff1ba7771c9678a7765ee872aa99c3ef": {
+    "original": "Lunar Camera",
+    "translations": {
+      "es": "cámara lunar",
+      "fr": "Caméra Lunaire",
+      "de": "Mondkamera",
+      "zh-CN": "月球相机",
+      "ja": "月面カメラ"
+    }
+  },
+  "634e637fe9ddf5c9c1d5d0501ec0ad248911ad1192e560ad43a043ead6801e94": {
+    "original": "Telstar",
+    "translations": {
+      "es": "Telstar",
+      "fr": "Telstar",
+      "de": "Telstar",
+      "zh-CN": "泰事达",
+      "ja": "テルスター"
+    }
   }
 }

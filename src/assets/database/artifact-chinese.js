@@ -1928,7 +1928,7 @@ const data = [
     "how": "即将推出"
   },
   {
-    "tag": 46,
+    "tag": 45,
     "stationTitle": "糠",
     "slideTitle": "糠",
     "info": [
@@ -1962,7 +1962,7 @@ const data = [
     "how": "即将推出"
   },
   {
-    "tag": 47,
+    "tag": 46,
     "stationTitle": "诱饵",
     "slideTitle": "诱饵",
     "info": [
@@ -1996,7 +1996,7 @@ const data = [
     "how": "即将推出"
   },
   {
-    "tag": 48,
+    "tag": 47,
     "stationTitle": "对策的种类",
     "slideTitle": "对策的种类",
     "info": [
@@ -2030,9 +2030,111 @@ const data = [
     "how": "即将推出"
   },
   {
-    "tag": 49,
+    "tag": 48,
     "stationTitle": "对策传记",
     "slideTitle": "对策传记",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "即将推出。"
+    ],
+    "impact": "影响",
+    "directions": {
+      "title": "运作原理：",
+      "steps": [
+        {
+          "id": 1,
+          "step": "步骤1"
+        },
+        {
+          "id": 2,
+          "step": "步骤2"
+        },
+        {
+          "id": 3,
+          "step": "步骤3"
+        }
+      ]
+    },
+    "watch": "即将推出",
+    "how": "即将推出"
+  },
+  {
+    "tag": 49,
+    "stationTitle": "卫星及其工作原理",
+    "slideTitle": "卫星及其工作原理",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "即将推出。"
+    ],
+    "impact": "影响",
+    "directions": {
+      "title": "运作原理：",
+      "steps": [
+        {
+          "id": 1,
+          "step": "步骤1"
+        },
+        {
+          "id": 2,
+          "step": "步骤2"
+        },
+        {
+          "id": 3,
+          "step": "步骤3"
+        }
+      ]
+    },
+    "watch": "即将推出",
+    "how": "即将推出"
+  },
+  {
+    "tag": 50,
+    "stationTitle": "月球相机",
+    "slideTitle": "月球相机",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "即将推出。"
+    ],
+    "impact": "影响",
+    "directions": {
+      "title": "运作原理：",
+      "steps": [
+        {
+          "id": 1,
+          "step": "步骤1"
+        },
+        {
+          "id": 2,
+          "step": "步骤2"
+        },
+        {
+          "id": 3,
+          "step": "步骤3"
+        }
+      ]
+    },
+    "watch": "即将推出",
+    "how": "即将推出"
+  },
+  {
+    "tag": 51,
+    "stationTitle": "泰事达",
+    "slideTitle": "泰事达",
     "info": [
       {
         "id": 1,

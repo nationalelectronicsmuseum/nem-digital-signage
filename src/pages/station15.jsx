@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom";
 import Accessibility from "../components/accessibility/accessibility.jsx";
+import { getLocalizedArtifact } from "../assets/Localization.js";
+import { SATELLITES_AND_HOW_THEY_WORK, LUNAR_CAMERA, TELSTAR } from "../assets/ArtifactTags.js";
 
 import sectionPlaceholder from "../assets/img/section.jpg"
 
 function Station15() {
+  const satellitesAndHowTheyWork = getLocalizedArtifact(SATELLITES_AND_HOW_THEY_WORK);
+  const lunarCamera = getLocalizedArtifact(LUNAR_CAMERA);
+  const telstar = getLocalizedArtifact(TELSTAR);
     return (
         <div>
             <div className="accs">
@@ -15,21 +20,17 @@ function Station15() {
             </div>
 
             <div className="homeLink">
-                <Link to="/station15section1" relative="path" className="linkPage">
+                <Link to="/satellitesAndHowTheyWork" relative="path" className="linkPage">
                     <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 1</h2>
+                    <h2 className="stationPages">{satellitesAndHowTheyWork.stationTitle}</h2>
                 </Link>
-                <Link to="/station15section2" relative="path" className="linkPage">
+                <Link to="/lunarCamera" relative="path" className="linkPage">
                     <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 2</h2>
+                    <h2 className="stationPages">{lunarCamera.stationTitle}</h2>
                 </Link>
-                <Link to="/station15section3" relative="path" className="linkPage">
+                <Link to="/telstar" relative="path" className="linkPage">
                     <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 3</h2>
-                </Link>
-                <Link to="/station15section4" relative="path" className="linkPage">
-                    <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 4</h2>
+                    <h2 className="stationPages">{telstar.stationTitle}</h2>
                 </Link>
             </div>
         </div>

@@ -48,10 +48,9 @@ import Station14Section2 from "./pages/chaff.jsx";
 import Station14Section3 from "./pages/decoys.jsx";
 import Station14Section4 from "./pages/typesOfCountermeasures.jsx";
 import Station14Section5 from "./pages/countermeasureBiography.jsx";
-import Station15Section1 from "./pages/station15section1.jsx";
-import Station15Section2 from "./pages/station15section2.jsx";
-import Station15Section3 from "./pages/station15section3.jsx";
-import Station15Section4 from "./pages/station15section4.jsx";
+import Station15Section1 from "./pages/satellitesAndHowTheyWork.jsx";
+import Station15Section2 from "./pages/lunarCamera.jsx";
+import Station15Section3 from "./pages/telstar.jsx";
 import Graaff from "./pages/graaff.jsx";
 
 import Station1 from "./pages/station1";
@@ -158,10 +157,9 @@ function App() {
               <Route path="/countermeasureBiography" element={<Station14Section5 />} />
 
               <Route path="/station15" element={<Station15 />} />
-              <Route path="/station15section1" element={<Station15Section1 />} />
-              <Route path="/station15section2" element={<Station15Section2 />} />
-              <Route path="/station15section3" element={<Station15Section3 />} />
-              <Route path="/station15section4" element={<Station15Section4 />} />
+              <Route path="/satellitesAndHowTheyWork" element={<Station15Section1 />} />
+              <Route path="/lunarCamera" element={<Station15Section2 />} />
+              <Route path="/telstar" element={<Station15Section3 />} />
 
               <Route path="/station3audio" element={<Audio stationNumber={3} />} />
               <Route path="/station4audio" element={<Audio stationNumber={4} />} />

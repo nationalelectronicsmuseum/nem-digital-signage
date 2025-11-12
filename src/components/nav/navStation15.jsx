@@ -1,7 +1,12 @@
 import { Link } from "react-router-dom";
 import "./nav.css"
+import { getLocalizedArtifact } from "../../assets/Localization.js";
+import { SATELLITES_AND_HOW_THEY_WORK, LUNAR_CAMERA, TELSTAR } from "../../assets/ArtifactTags.js";
 
 const NavStation15 = () => {
+  const satellitesAndHowTheyWork = getLocalizedArtifact(SATELLITES_AND_HOW_THEY_WORK);
+  const lunarCamera = getLocalizedArtifact(LUNAR_CAMERA);
+  const telstar = getLocalizedArtifact(TELSTAR);
 
   const cancelSpeech = () => {
     window.speechSynthesis.cancel()
@@ -13,17 +18,14 @@ const NavStation15 = () => {
         <Link to="/station15" relative="path" className="nav-links" onClick={cancelSpeech}>
           Home
         </Link>
-        <Link to="/station15section1" relative="path" className="nav-links" onClick={cancelSpeech}>
-        Section 1
+        <Link to="/satellitesAndHowTheyWork" relative="path" className="nav-links" onClick={cancelSpeech}>
+        {satellitesAndHowTheyWork.stationTitle}
         </Link>
-        <Link to="/station15section2" relative="path" className="nav-links" onClick={cancelSpeech}>
-        Section 2
+        <Link to="/lunarCamera" relative="path" className="nav-links" onClick={cancelSpeech}>
+        {lunarCamera.stationTitle}
         </Link>
-        <Link to="/station15section3" relative="path" className="nav-links" onClick={cancelSpeech}>
-        Section 3
-        </Link>
-        <Link to="/station15section4" relative="path" className="nav-links" onClick={cancelSpeech}>
-        Section 4
+        <Link to="/telstar" relative="path" className="nav-links" onClick={cancelSpeech}>
+        {telstar.stationTitle}
         </Link>
         <Link to="/" relative="path" className="nav-links" onClick={cancelSpeech}>
           <h6 className="white">Hub Station</h6>

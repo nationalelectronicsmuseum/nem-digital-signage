@@ -2062,6 +2062,108 @@ const data = [
     },
     "watch": "Coming soon",
     "how": "Coming soon"
+  },
+  {
+    "tag": 49,
+    "stationTitle": "Satellites and How They Work",
+    "slideTitle": "Satellites and How They Work",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Coming soon."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "How it Works:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Step 1"
+        },
+        {
+          "id": 2,
+          "step": "Step 2"
+        },
+        {
+          "id": 3,
+          "step": "Step 3"
+        }
+      ]
+    },
+    "watch": "Coming soon",
+    "how": "Coming soon"
+  },
+  {
+    "tag": 50,
+    "stationTitle": "Lunar Camera",
+    "slideTitle": "Lunar Camera",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Coming soon."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "How it Works:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Step 1"
+        },
+        {
+          "id": 2,
+          "step": "Step 2"
+        },
+        {
+          "id": 3,
+          "step": "Step 3"
+        }
+      ]
+    },
+    "watch": "Coming soon",
+    "how": "Coming soon"
+  },
+  {
+    "tag": 51,
+    "stationTitle": "Telstar",
+    "slideTitle": "Telstar",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Coming soon."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "How it Works:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Step 1"
+        },
+        {
+          "id": 2,
+          "step": "Step 2"
+        },
+        {
+          "id": 3,
+          "step": "Step 3"
+        }
+      ]
+    },
+    "watch": "Coming soon",
+    "how": "Coming soon"
   }
 ];
 

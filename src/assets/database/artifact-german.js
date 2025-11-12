@@ -1928,7 +1928,7 @@ const data = [
     "how": "Kommt bald"
   },
   {
-    "tag": 46,
+    "tag": 45,
     "stationTitle": "Spreu",
     "slideTitle": "Spreu",
     "info": [
@@ -1962,7 +1962,7 @@ const data = [
     "how": "Kommt bald"
   },
   {
-    "tag": 47,
+    "tag": 46,
     "stationTitle": "Lockvögel",
     "slideTitle": "Lockvögel",
     "info": [
@@ -1996,7 +1996,7 @@ const data = [
     "how": "Kommt bald"
   },
   {
-    "tag": 48,
+    "tag": 47,
     "stationTitle": "Arten Von Gegenmaßnahmen",
     "slideTitle": "Arten Von Gegenmaßnahmen",
     "info": [
@@ -2030,9 +2030,111 @@ const data = [
     "how": "Kommt bald"
   },
   {
-    "tag": 49,
+    "tag": 48,
     "stationTitle": "Biografie Der Gegenmaßnahme",
     "slideTitle": "Biografie Der Gegenmaßnahme",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Kommt bald."
+    ],
+    "impact": "Auswirkungen",
+    "directions": {
+      "title": "So Funktioniert Es:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Schritt 3"
+        }
+      ]
+    },
+    "watch": "Kommt bald",
+    "how": "Kommt bald"
+  },
+  {
+    "tag": 49,
+    "stationTitle": "Satelliten Und Wie Sie Funktionieren",
+    "slideTitle": "Satelliten Und Wie Sie Funktionieren",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Kommt bald."
+    ],
+    "impact": "Auswirkungen",
+    "directions": {
+      "title": "So Funktioniert Es:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Schritt 3"
+        }
+      ]
+    },
+    "watch": "Kommt bald",
+    "how": "Kommt bald"
+  },
+  {
+    "tag": 50,
+    "stationTitle": "Mondkamera",
+    "slideTitle": "Mondkamera",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Kommt bald."
+    ],
+    "impact": "Auswirkungen",
+    "directions": {
+      "title": "So Funktioniert Es:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Schritt 3"
+        }
+      ]
+    },
+    "watch": "Kommt bald",
+    "how": "Kommt bald"
+  },
+  {
+    "tag": 51,
+    "stationTitle": "Telstar",
+    "slideTitle": "Telstar",
     "info": [
       {
         "id": 1,

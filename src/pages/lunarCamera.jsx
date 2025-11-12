@@ -1,17 +1,17 @@
 import Slides from "../components/slides/slides.jsx";
-import NavStation13 from "../components/nav/navStation13.jsx";
+import NavStation15 from "../components/nav/navStation15.jsx";
 import Loop from '../components/loop.jsx'
 import StationHeader from "../components/StationHeader/StationHeader.jsx";
 import { getLocalizedArtifact } from "../assets/Localization.js";
-import { SECTION_3 } from "../assets/ArtifactTags.js";
+import { LUNAR_CAMERA } from "../assets/ArtifactTags.js";
 import sectionPlaceholder from "../assets/img/section.jpg"
 
-export default function Station13Section3() {
-  const artifact = getLocalizedArtifact(SECTION_3);
+export default function Station15Section2() {
+  const artifact = getLocalizedArtifact(LUNAR_CAMERA);
 
   return (
     <div>
-      <StationHeader nav={<NavStation13 />} artifact={artifact} />
+      <StationHeader nav={<NavStation15 />} artifact={artifact} />
       <div className="sectionhead">
         <div className="sectiontitle">
           <h1 className="artifactTitle">{artifact.slideTitle}</h1>

@@ -3,11 +3,11 @@ import NavStation15 from "../components/nav/navStation15.jsx";
 import Loop from '../components/loop.jsx'
 import StationHeader from "../components/StationHeader/StationHeader.jsx";
 import { getLocalizedArtifact } from "../assets/Localization.js";
-import { SECTION_2 } from "../assets/ArtifactTags.js";
+import { SATELLITES_AND_HOW_THEY_WORK } from "../assets/ArtifactTags.js";
 import sectionPlaceholder from "../assets/img/section.jpg"
 
-export default function Station15Section2() {
-  const artifact = getLocalizedArtifact(SECTION_2);
+export default function Station15Section1() {
+  const artifact = getLocalizedArtifact(SATELLITES_AND_HOW_THEY_WORK);
 
   return (
     <div>
