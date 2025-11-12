@@ -3358,5 +3358,45 @@
       "zh-CN": "表演者：",
       "ja": "出演者"
     }
+  },
+  "70be465854515170979b4b657e4c6fcbdc82eea074834ad8581d7b61511315e3": {
+    "original": "Vacuum Tube History",
+    "translations": {
+      "es": "Historia del tubo de vacío",
+      "fr": "Histoire des tubes à vide",
+      "de": "Geschichte der Vakuumröhre",
+      "zh-CN": "真空管的历史",
+      "ja": "真空管の歴史"
+    }
+  },
+  "2d3a0e43aaf5fe3f4d5a0ceedfe1f0ba6ee8fbb827935b2148916344e0762945": {
+    "original": "How Vacuum Tubes Work",
+    "translations": {
+      "es": "Cómo funcionan los tubos de vacío",
+      "fr": "Comment fonctionnent les tubes à vide",
+      "de": "Wie Vakuumröhren funktionieren",
+      "zh-CN": "真空管的工作原理",
+      "ja": "真空管の仕組み"
+    }
+  },
+  "481268e04dde1de5ba9d9e17b432be289e9f115f787848170296a472c27f727e": {
+    "original": "Vacuum Tube Types",
+    "translations": {
+      "es": "Tipos de tubos de vacío",
+      "fr": "Types de tubes à vide",
+      "de": "Vakuumröhrentypen",
+      "zh-CN": "真空管类型",
+      "ja": "真空管の種類"
+    }
+  },
+  "56ab983426491ee41c8d21aac350786b29c044248a7912af072a766b4cd47e16": {
+    "original": "How Do Vacuum Tubes Work?",
+    "translations": {
+      "es": "¿Cómo funcionan los tubos de vacío?",
+      "fr": "Comment fonctionnent les tubes à vide ?",
+      "de": "Wie funktionieren Vakuumröhren?",
+      "zh-CN": "真空管如何工作？",
+      "ja": "真空管はどのように動作するのですか?"
+    }
   }
 }

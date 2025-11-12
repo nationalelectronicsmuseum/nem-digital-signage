@@ -26,3 +26,6 @@ export const EVOLUTION_OF_RECORDED_SOUND = 24;
 export const HUMAN_DYNAMO = 25;
 export const INFRARED = 26;
 export const BOMBSIGHTS = 27;
+export const VACUUM_TUBE_HISTORY = 28;
+export const VACUUM_TUBE_TYPES = 29;
+export const HOW_DO_VACUUM_TUBES_WORK = 30;

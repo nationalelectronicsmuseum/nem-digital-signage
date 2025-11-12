@@ -1348,6 +1348,108 @@ const data = [
     },
     "watch": "Kommt bald",
     "how": "Kommt bald"
+  },
+  {
+    "tag": 28,
+    "stationTitle": "Geschichte Der Vakuumröhre",
+    "slideTitle": "Geschichte Der Vakuumröhre",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Kommt bald."
+    ],
+    "impact": "Auswirkungen",
+    "directions": {
+      "title": "So Funktioniert Es:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Schritt 3"
+        }
+      ]
+    },
+    "watch": "Kommt bald",
+    "how": "Kommt bald"
+  },
+  {
+    "tag": 29,
+    "stationTitle": "Vakuumröhrentypen",
+    "slideTitle": "Vakuumröhrentypen",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Kommt bald."
+    ],
+    "impact": "Auswirkungen",
+    "directions": {
+      "title": "So Funktioniert Es:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Schritt 3"
+        }
+      ]
+    },
+    "watch": "Kommt bald",
+    "how": "Kommt bald"
+  },
+  {
+    "tag": 30,
+    "stationTitle": "Wie Funktionieren Vakuumröhren?",
+    "slideTitle": "Wie Vakuumröhren Funktionieren",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Kommt bald."
+    ],
+    "impact": "Auswirkungen",
+    "directions": {
+      "title": "So Funktioniert Es:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Schritt 3"
+        }
+      ]
+    },
+    "watch": "Kommt bald",
+    "how": "Kommt bald"
   }
 ];
 

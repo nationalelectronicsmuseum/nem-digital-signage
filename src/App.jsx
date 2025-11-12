@@ -27,10 +27,9 @@ import EvolutionSound from "./pages/evolutionSound";
 import Telegraph from "./pages/telegraph";
 import Electromagnetic from "./pages/electromagnetic.jsx"
 import VacuumTube from "./pages/vacuumTube";
-import Station8Section1 from "./pages/station8section1.jsx";
-import Station8Section2 from "./pages/station8section2.jsx";
-import Station8Section3 from "./pages/station8section3.jsx";
-import Station8Section4 from "./pages/station8section4.jsx";
+import Station8Section1 from "./pages/vacuumTubeHistory.jsx";
+import Station8Section2 from "./pages/vacuumTubeTypes.jsx";
+import Station8Section3 from "./pages/howDoVacuumTubesWork.jsx";
 import Station9Section1 from "./pages/station9section1.jsx";
 import Station9Section2 from "./pages/station9section2.jsx";
 import Station9Section3 from "./pages/station9section3.jsx";
@@ -133,10 +132,9 @@ function App() {
               <Route path="/hamradio" element={<HAMRadio />} />
 
               <Route path="/station8" element={<Station8 />} />
-              <Route path="/station8section1" element={<Station8Section1 />} />
-              <Route path="/station8section2" element={<Station8Section2 />} />
-              <Route path="/station8section3" element={<Station8Section3 />} />
-              <Route path="/station8section4" element={<Station8Section4 />} />
+              <Route path="/vacuumTubeHistory" element={<Station8Section1 />} />
+              <Route path="/vacuumTubeTypes" element={<Station8Section2 />} />
+              <Route path="/howDoVacuumTubesWork" element={<Station8Section3 />} />
 
               <Route path="/station9" element={<Station9 />} />
               <Route path="/station9section1" element={<Station9Section1 />} />

@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom";
 import Accessibility from "../components/accessibility/accessibility.jsx";
+import { getLocalizedArtifact } from "../assets/Localization.js";
+import { VACUUM_TUBE_HISTORY, VACUUM_TUBE_TYPES, HOW_DO_VACUUM_TUBES_WORK } from "../assets/ArtifactTags.js";
 
 import sectionPlaceholder from "../assets/img/section.jpg"
 
 function Station8() {
+  const vacuumTubeHistory = getLocalizedArtifact(VACUUM_TUBE_HISTORY);
+  const vacuumTubeTypes = getLocalizedArtifact(VACUUM_TUBE_TYPES);
+  const howDoVacuumTubesWork = getLocalizedArtifact(HOW_DO_VACUUM_TUBES_WORK);
     return (
         <div>
             <div className="accs">
@@ -14,21 +19,17 @@ function Station8() {
             </div>
 
             <div className="homeLink">
-                <Link to="/station8section1" relative="path" className="linkPage">
+                <Link to="/vacuumTubeHistory" relative="path" className="linkPage">
                     <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 1</h2>
+                    <h2 className="stationPages">{vacuumTubeHistory.stationTitle}</h2>
                 </Link>
-                <Link to="/station8section2" relative="path" className="linkPage">
+                <Link to="/vacuumTubeTypes" relative="path" className="linkPage">
                     <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 2</h2>
+                    <h2 className="stationPages">{vacuumTubeTypes.stationTitle}</h2>
                 </Link>
-                <Link to="/station8section3" relative="path" className="linkPage">
+                <Link to="/howDoVacuumTubesWork" relative="path" className="linkPage">
                     <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 3</h2>
-                </Link>
-                <Link to="/station8section4" relative="path" className="linkPage">
-                    <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 4</h2>
+                    <h2 className="stationPages">{howDoVacuumTubesWork.stationTitle}</h2>
                 </Link>
             </div>
         </div>
