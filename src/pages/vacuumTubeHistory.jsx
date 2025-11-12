@@ -3,11 +3,11 @@ import NavStation8 from "../components/nav/navStation8.jsx";
 import Loop from '../components/loop.jsx'
 import StationHeader from "../components/StationHeader/StationHeader.jsx";
 import { getLocalizedArtifact } from "../assets/Localization.js";
-import { SECTION_1 } from "../assets/ArtifactTags.js";
+import { VACUUM_TUBE_HISTORY } from "../assets/ArtifactTags.js";
 import sectionPlaceholder from "../assets/img/section.jpg"
 
 export default function Station8Section1() {
-  const artifact = getLocalizedArtifact(SECTION_1);
+  const artifact = getLocalizedArtifact(VACUUM_TUBE_HISTORY);
 
   return (
     <div>
