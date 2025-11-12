@@ -1450,6 +1450,108 @@ const data = [
     },
     "watch": "即将推出",
     "how": "即将推出"
+  },
+  {
+    "tag": 31,
+    "stationTitle": "接近熔断器",
+    "slideTitle": "接近熔断器",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "即将推出。"
+    ],
+    "impact": "影响",
+    "directions": {
+      "title": "运作原理：",
+      "steps": [
+        {
+          "id": 1,
+          "step": "步骤1"
+        },
+        {
+          "id": 2,
+          "step": "步骤2"
+        },
+        {
+          "id": 3,
+          "step": "步骤3"
+        }
+      ]
+    },
+    "watch": "即将推出",
+    "how": "即将推出"
+  },
+  {
+    "tag": 32,
+    "stationTitle": "SCR-270",
+    "slideTitle": "SCR-270",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "即将推出。"
+    ],
+    "impact": "影响",
+    "directions": {
+      "title": "运作原理：",
+      "steps": [
+        {
+          "id": 1,
+          "step": "步骤1"
+        },
+        {
+          "id": 2,
+          "step": "步骤2"
+        },
+        {
+          "id": 3,
+          "step": "步骤3"
+        }
+      ]
+    },
+    "watch": "即将推出",
+    "how": "即将推出"
+  },
+  {
+    "tag": 33,
+    "stationTitle": "SCR-399",
+    "slideTitle": "SCR-399",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "即将推出。"
+    ],
+    "impact": "影响",
+    "directions": {
+      "title": "运作原理：",
+      "steps": [
+        {
+          "id": 1,
+          "step": "步骤1"
+        },
+        {
+          "id": 2,
+          "step": "步骤2"
+        },
+        {
+          "id": 3,
+          "step": "步骤3"
+        }
+      ]
+    },
+    "watch": "即将推出",
+    "how": "即将推出"
   }
 ];
 

@@ -1,17 +1,17 @@
 import Slides from "../components/slides/slides.jsx";
-import NavStation9 from "../components/nav/navStation9.jsx";
+import NavStation10 from "../components/nav/navStation10.jsx";
 import Loop from '../components/loop.jsx'
 import StationHeader from "../components/StationHeader/StationHeader.jsx";
 import { getLocalizedArtifact } from "../assets/Localization.js";
-import { SECTION_2 } from "../assets/ArtifactTags.js";
+import { PROXIMITY_FUSE } from "../assets/ArtifactTags.js";
 import sectionPlaceholder from "../assets/img/section.jpg"
 
-export default function Station9Section2() {
-  const artifact = getLocalizedArtifact(SECTION_2);
+export default function Station10Section1() {
+  const artifact = getLocalizedArtifact(PROXIMITY_FUSE);
 
   return (
     <div>
-      <StationHeader nav={<NavStation9 />} artifact={artifact} />
+      <StationHeader nav={<NavStation10 />} artifact={artifact} />
       <div className="sectionhead">
         <div className="sectiontitle">
           <h1 className="artifactTitle">{artifact.slideTitle}</h1>

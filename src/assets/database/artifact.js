@@ -1450,6 +1450,108 @@ const data = [
     },
     "watch": "Coming soon",
     "how": "Coming soon"
+  },
+  {
+    "tag": 31,
+    "stationTitle": "Proximity Fuse",
+    "slideTitle": "Proximity Fuse",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Coming soon."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "How it Works:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Step 1"
+        },
+        {
+          "id": 2,
+          "step": "Step 2"
+        },
+        {
+          "id": 3,
+          "step": "Step 3"
+        }
+      ]
+    },
+    "watch": "Coming soon",
+    "how": "Coming soon"
+  },
+  {
+    "tag": 32,
+    "stationTitle": "SCR-270",
+    "slideTitle": "SCR-270",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Coming soon."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "How it Works:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Step 1"
+        },
+        {
+          "id": 2,
+          "step": "Step 2"
+        },
+        {
+          "id": 3,
+          "step": "Step 3"
+        }
+      ]
+    },
+    "watch": "Coming soon",
+    "how": "Coming soon"
+  },
+  {
+    "tag": 33,
+    "stationTitle": "SCR-399",
+    "slideTitle": "SCR-399",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Coming soon."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "How it Works:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Step 1"
+        },
+        {
+          "id": 2,
+          "step": "Step 2"
+        },
+        {
+          "id": 3,
+          "step": "Step 3"
+        }
+      ]
+    },
+    "watch": "Coming soon",
+    "how": "Coming soon"
   }
 ];
 

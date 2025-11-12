@@ -1450,6 +1450,108 @@ const data = [
     },
     "watch": "近日公開",
     "how": "近日公開"
+  },
+  {
+    "tag": 31,
+    "stationTitle": "近接ヒューズ",
+    "slideTitle": "近接ヒューズ",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "近日公開。"
+    ],
+    "impact": "インパクト",
+    "directions": {
+      "title": "仕組み:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "ステップ1"
+        },
+        {
+          "id": 2,
+          "step": "ステップ2"
+        },
+        {
+          "id": 3,
+          "step": "ステップ3"
+        }
+      ]
+    },
+    "watch": "近日公開",
+    "how": "近日公開"
+  },
+  {
+    "tag": 32,
+    "stationTitle": "SCR-270",
+    "slideTitle": "SCR-270",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "近日公開。"
+    ],
+    "impact": "インパクト",
+    "directions": {
+      "title": "仕組み:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "ステップ1"
+        },
+        {
+          "id": 2,
+          "step": "ステップ2"
+        },
+        {
+          "id": 3,
+          "step": "ステップ3"
+        }
+      ]
+    },
+    "watch": "近日公開",
+    "how": "近日公開"
+  },
+  {
+    "tag": 33,
+    "stationTitle": "SCR-399",
+    "slideTitle": "SCR-399",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "近日公開。"
+    ],
+    "impact": "インパクト",
+    "directions": {
+      "title": "仕組み:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "ステップ1"
+        },
+        {
+          "id": 2,
+          "step": "ステップ2"
+        },
+        {
+          "id": 3,
+          "step": "ステップ3"
+        }
+      ]
+    },
+    "watch": "近日公開",
+    "how": "近日公開"
   }
 ];
 

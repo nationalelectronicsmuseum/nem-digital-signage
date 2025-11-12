@@ -29,3 +29,6 @@ export const BOMBSIGHTS = 27;
 export const VACUUM_TUBE_HISTORY = 28;
 export const VACUUM_TUBE_TYPES = 29;
 export const HOW_DO_VACUUM_TUBES_WORK = 30;
+export const PROXIMITY_FUSE = 31;
+export const SCR_270 = 32;
+export const SCR_399 = 33;

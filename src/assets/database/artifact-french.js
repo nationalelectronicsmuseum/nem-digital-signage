@@ -1450,6 +1450,108 @@ const data = [
     },
     "watch": "À venir",
     "how": "À venir"
+  },
+  {
+    "tag": 31,
+    "stationTitle": "Fusible De Proximité",
+    "slideTitle": "Fusible De Proximité",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "À venir."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "Comment Ça Marche :",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Étape 1"
+        },
+        {
+          "id": 2,
+          "step": "Étape 2"
+        },
+        {
+          "id": 3,
+          "step": "Étape 3"
+        }
+      ]
+    },
+    "watch": "À venir",
+    "how": "À venir"
+  },
+  {
+    "tag": 32,
+    "stationTitle": "RCS-270",
+    "slideTitle": "RCS-270",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "À venir."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "Comment Ça Marche :",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Étape 1"
+        },
+        {
+          "id": 2,
+          "step": "Étape 2"
+        },
+        {
+          "id": 3,
+          "step": "Étape 3"
+        }
+      ]
+    },
+    "watch": "À venir",
+    "how": "À venir"
+  },
+  {
+    "tag": 33,
+    "stationTitle": "RCS-399",
+    "slideTitle": "RCS-399",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "À venir."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "Comment Ça Marche :",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Étape 1"
+        },
+        {
+          "id": 2,
+          "step": "Étape 2"
+        },
+        {
+          "id": 3,
+          "step": "Étape 3"
+        }
+      ]
+    },
+    "watch": "À venir",
+    "how": "À venir"
   }
 ];
 

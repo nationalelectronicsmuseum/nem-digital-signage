@@ -3398,5 +3398,35 @@
       "zh-CN": "真空管如何工作？",
       "ja": "真空管はどのように動作するのですか?"
     }
+  },
+  "61e83541d93f2b1db817452f224fefdad6672171c60341923134e190a402bc97": {
+    "original": "Proximity Fuse",
+    "translations": {
+      "es": "Fusible de proximidad",
+      "fr": "Fusible de proximité",
+      "de": "Näherungssicherung",
+      "zh-CN": "接近熔断器",
+      "ja": "近接ヒューズ"
+    }
+  },
+  "687e5d1f590e2f3abbe9af87f21f70b7744e858626c66ae73a6a317f91d8f83b": {
+    "original": "SCR-399",
+    "translations": {
+      "es": "SCR-399",
+      "fr": "RCS-399",
+      "de": "SCR-399",
+      "zh-CN": "SCR-399",
+      "ja": "SCR-399"
+    }
+  },
+  "8054c19c346911927ebeb923362ff0276e2af462b76a1a7fe739c01f54181b1c": {
+    "original": "SCR-270",
+    "translations": {
+      "es": "SCR-270",
+      "fr": "RCS-270",
+      "de": "SCR-270",
+      "zh-CN": "SCR-270",
+      "ja": "SCR-270"
+    }
   }
 }

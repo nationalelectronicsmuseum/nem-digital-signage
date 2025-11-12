@@ -30,14 +30,9 @@ import VacuumTube from "./pages/vacuumTube";
 import Station8Section1 from "./pages/vacuumTubeHistory.jsx";
 import Station8Section2 from "./pages/vacuumTubeTypes.jsx";
 import Station8Section3 from "./pages/howDoVacuumTubesWork.jsx";
-import Station9Section1 from "./pages/station9section1.jsx";
-import Station9Section2 from "./pages/station9section2.jsx";
-import Station9Section3 from "./pages/station9section3.jsx";
-import Station9Section4 from "./pages/station9section4.jsx";
-import Station10Section1 from "./pages/station10section1.jsx";
-import Station10Section2 from "./pages/station10section2.jsx";
-import Station10Section3 from "./pages/station10section3.jsx";
-import Station10Section4 from "./pages/station10section4.jsx";
+import Station10Section1 from "./pages/proximityFuse.jsx";
+import Station10Section2 from "./pages/scr270.jsx";
+import Station10Section3 from "./pages/scr399.jsx";
 import Station11Section1 from "./pages/station11section1.jsx";
 import Station11Section2 from "./pages/station11section2.jsx";
 import Station11Section3 from "./pages/station11section3.jsx";
@@ -68,7 +63,6 @@ import Station5 from "./pages/station5";
 import Station6 from "./pages/station6";
 import Station7 from "./pages/station7";
 import Station8 from "./pages/station8";
-import Station9 from "./pages/station9";
 import Station10 from "./pages/station10";
 import Station11 from "./pages/station11";
 import Station12 from "./pages/station12";
@@ -136,17 +130,10 @@ function App() {
               <Route path="/vacuumTubeTypes" element={<Station8Section2 />} />
               <Route path="/howDoVacuumTubesWork" element={<Station8Section3 />} />
 
-              <Route path="/station9" element={<Station9 />} />
-              <Route path="/station9section1" element={<Station9Section1 />} />
-              <Route path="/station9section2" element={<Station9Section2 />} />
-              <Route path="/station9section3" element={<Station9Section3 />} />
-              <Route path="/station9section4" element={<Station9Section4 />} />
-
               <Route path="/station10" element={<Station10 />} />
-              <Route path="/station10section1" element={<Station10Section1 />} />
-              <Route path="/station10section2" element={<Station10Section2 />} />
-              <Route path="/station10section3" element={<Station10Section3 />} />
-              <Route path="/station10section4" element={<Station10Section4 />} />
+              <Route path="/proximityFuse" element={<Station10Section1 />} />
+              <Route path="/scr270" element={<Station10Section2 />} />
+              <Route path="/scr399" element={<Station10Section3 />} />
 
               <Route path="/station11" element={<Station11 />} />
               <Route path="/station11section1" element={<Station11Section1 />} />

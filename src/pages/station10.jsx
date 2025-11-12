@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom";
 import Accessibility from "../components/accessibility/accessibility.jsx";
+import { getLocalizedArtifact } from "../assets/Localization.js";
+import { PROXIMITY_FUSE, SCR_270, SCR_399 } from "../assets/ArtifactTags.js";
 
 import sectionPlaceholder from "../assets/img/section.jpg"
 
 function Station10() {
+  const proximityFuse = getLocalizedArtifact(PROXIMITY_FUSE);
+  const scr270 = getLocalizedArtifact(SCR_270);
+  const scr399 = getLocalizedArtifact(SCR_399);
     return (
         <div>
             <div className="accs">
@@ -15,21 +20,17 @@ function Station10() {
             </div>
 
             <div className="homeLink">
-                <Link to="/station10section1" relative="path" className="linkPage">
+                <Link to="/proximityFuse" relative="path" className="linkPage">
                     <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 1</h2>
+                    <h2 className="stationPages">{proximityFuse.stationTitle}</h2>
                 </Link>
-                <Link to="/station10section2" relative="path" className="linkPage">
+                <Link to="/scr270" relative="path" className="linkPage">
                     <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 2</h2>
+                    <h2 className="stationPages">{scr270.stationTitle}</h2>
                 </Link>
-                <Link to="/station10section3" relative="path" className="linkPage">
+                <Link to="/scr399" relative="path" className="linkPage">
                     <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 3</h2>
-                </Link>
-                <Link to="/station10section4" relative="path" className="linkPage">
-                    <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 4</h2>
+                    <h2 className="stationPages">{scr399.stationTitle}</h2>
                 </Link>
             </div>
         </div>

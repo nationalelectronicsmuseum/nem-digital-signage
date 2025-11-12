@@ -1450,6 +1450,108 @@ const data = [
     },
     "watch": "Muy pronto",
     "how": "Muy pronto"
+  },
+  {
+    "tag": 31,
+    "stationTitle": "Fusible De Proximidad",
+    "slideTitle": "Fusible De Proximidad",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Muy pronto."
+    ],
+    "impact": "Impacto",
+    "directions": {
+      "title": "Cómo Funciona:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Paso 1"
+        },
+        {
+          "id": 2,
+          "step": "Paso 2"
+        },
+        {
+          "id": 3,
+          "step": "Paso 3"
+        }
+      ]
+    },
+    "watch": "Muy pronto",
+    "how": "Muy pronto"
+  },
+  {
+    "tag": 32,
+    "stationTitle": "SCR-270",
+    "slideTitle": "SCR-270",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Muy pronto."
+    ],
+    "impact": "Impacto",
+    "directions": {
+      "title": "Cómo Funciona:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Paso 1"
+        },
+        {
+          "id": 2,
+          "step": "Paso 2"
+        },
+        {
+          "id": 3,
+          "step": "Paso 3"
+        }
+      ]
+    },
+    "watch": "Muy pronto",
+    "how": "Muy pronto"
+  },
+  {
+    "tag": 33,
+    "stationTitle": "SCR-399",
+    "slideTitle": "SCR-399",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Muy pronto."
+    ],
+    "impact": "Impacto",
+    "directions": {
+      "title": "Cómo Funciona:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Paso 1"
+        },
+        {
+          "id": 2,
+          "step": "Paso 2"
+        },
+        {
+          "id": 3,
+          "step": "Paso 3"
+        }
+      ]
+    },
+    "watch": "Muy pronto",
+    "how": "Muy pronto"
   }
 ];
 
