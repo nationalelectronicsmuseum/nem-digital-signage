@@ -1824,6 +1824,74 @@ const data = [
     },
     "watch": "Muy pronto",
     "how": "Muy pronto"
+  },
+  {
+    "tag": 42,
+    "stationTitle": "Radar Doppler",
+    "slideTitle": "Radar Doppler",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Muy pronto."
+    ],
+    "impact": "Impacto",
+    "directions": {
+      "title": "Cómo Funciona:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Paso 1"
+        },
+        {
+          "id": 2,
+          "step": "Paso 2"
+        },
+        {
+          "id": 3,
+          "step": "Paso 3"
+        }
+      ]
+    },
+    "watch": "Muy pronto",
+    "how": "Muy pronto"
+  },
+  {
+    "tag": 43,
+    "stationTitle": "Bomarc",
+    "slideTitle": "Bomarc",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Muy pronto."
+    ],
+    "impact": "Impacto",
+    "directions": {
+      "title": "Cómo Funciona:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Paso 1"
+        },
+        {
+          "id": 2,
+          "step": "Paso 2"
+        },
+        {
+          "id": 3,
+          "step": "Paso 3"
+        }
+      ]
+    },
+    "watch": "Muy pronto",
+    "how": "Muy pronto"
   }
 ];
 

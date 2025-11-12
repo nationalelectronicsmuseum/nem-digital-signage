@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom";
 import Accessibility from "../components/accessibility/accessibility.jsx";
+import { getLocalizedArtifact } from "../assets/Localization.js";
+import { DOPPLER_RADAR, BOMARC } from "../assets/ArtifactTags.js";
 
 import sectionPlaceholder from "../assets/img/section.jpg"
 
 function Station13() {
+  const dopplerRadar = getLocalizedArtifact(DOPPLER_RADAR);
+  const bomarc = getLocalizedArtifact(BOMARC);
     return (
         <div>
             <div className="accs">
@@ -15,21 +19,13 @@ function Station13() {
             </div>
 
             <div className="homeLink">
-                <Link to="/station13section1" relative="path" className="linkPage">
+                <Link to="/dopplerRadar" relative="path" className="linkPage">
                     <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 1</h2>
+                    <h2 className="stationPages">{dopplerRadar.stationTitle}</h2>
                 </Link>
-                <Link to="/station13section2" relative="path" className="linkPage">
+                <Link to="/bomarc" relative="path" className="linkPage">
                     <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 2</h2>
-                </Link>
-                <Link to="/station13section3" relative="path" className="linkPage">
-                    <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 3</h2>
-                </Link>
-                <Link to="/station13section4" relative="path" className="linkPage">
-                    <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 4</h2>
+                    <h2 className="stationPages">{bomarc.stationTitle}</h2>
                 </Link>
             </div>
         </div>

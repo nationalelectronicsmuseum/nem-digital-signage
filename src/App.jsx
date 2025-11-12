@@ -41,10 +41,8 @@ import Station11Section5 from "./pages/veteranSeas.jsx";
 import Station12Section1 from "./pages/whatIsRadar.jsx";
 import Station12Section2 from "./pages/typesOfRadar.jsx";
 import Station12Section3 from "./pages/awacs.jsx";
-import Station13Section1 from "./pages/station13section1.jsx";
-import Station13Section2 from "./pages/station13section2.jsx";
-import Station13Section3 from "./pages/station13section3.jsx";
-import Station13Section4 from "./pages/station13section4.jsx";
+import Station13Section1 from "./pages/dopplerRadar.jsx";
+import Station13Section2 from "./pages/bomarc.jsx";
 import Station14Section1 from "./pages/station14section1.jsx";
 import Station14Section2 from "./pages/station14section2.jsx";
 import Station14Section3 from "./pages/station14section3.jsx";
@@ -148,10 +146,8 @@ function App() {
               <Route path="/awacs" element={<Station12Section3 />} />
 
               <Route path="/station13" element={<Station13 />} />
-              <Route path="/station13section1" element={<Station13Section1 />} />
-              <Route path="/station13section2" element={<Station13Section2 />} />
-              <Route path="/station13section3" element={<Station13Section3 />} />
-              <Route path="/station13section4" element={<Station13Section4 />} />
+              <Route path="/dopplerRadar" element={<Station13Section1 />} />
+              <Route path="/bomarc" element={<Station13Section2 />} />
 
               <Route path="/station14" element={<Station14 />} />
               <Route path="/station14section1" element={<Station14Section1 />} />

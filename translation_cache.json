@@ -3508,5 +3508,25 @@
       "zh-CN": "什么是雷达？",
       "ja": "レーダーとは何ですか?"
     }
+  },
+  "4c329b5952cae8c5e5c926fe2ef3d5c862a6b401dc6651a0eec7d2c01e74cf1b": {
+    "original": "Doppler Radar",
+    "translations": {
+      "es": "Radar Doppler",
+      "fr": "Radar Doppler",
+      "de": "Doppler-Radar",
+      "zh-CN": "多普勒雷达",
+      "ja": "ドップラーレーダー"
+    }
+  },
+  "c9067c56108e09fd06ce71ffb092eabc7c9b671966902dd07869e87a71df9b82": {
+    "original": "BOMARC",
+    "translations": {
+      "es": "BOMARC",
+      "fr": "BOMARC",
+      "de": "BOMARC",
+      "zh-CN": "博马克",
+      "ja": "ボマルク"
+    }
   }
 }

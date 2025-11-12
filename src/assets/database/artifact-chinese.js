@@ -1824,6 +1824,74 @@ const data = [
     },
     "watch": "即将推出",
     "how": "即将推出"
+  },
+  {
+    "tag": 42,
+    "stationTitle": "多普勒雷达",
+    "slideTitle": "多普勒雷达",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "即将推出。"
+    ],
+    "impact": "影响",
+    "directions": {
+      "title": "运作原理：",
+      "steps": [
+        {
+          "id": 1,
+          "step": "步骤1"
+        },
+        {
+          "id": 2,
+          "step": "步骤2"
+        },
+        {
+          "id": 3,
+          "step": "步骤3"
+        }
+      ]
+    },
+    "watch": "即将推出",
+    "how": "即将推出"
+  },
+  {
+    "tag": 43,
+    "stationTitle": "博马克",
+    "slideTitle": "博马克",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "即将推出。"
+    ],
+    "impact": "影响",
+    "directions": {
+      "title": "运作原理：",
+      "steps": [
+        {
+          "id": 1,
+          "step": "步骤1"
+        },
+        {
+          "id": 2,
+          "step": "步骤2"
+        },
+        {
+          "id": 3,
+          "step": "步骤3"
+        }
+      ]
+    },
+    "watch": "即将推出",
+    "how": "即将推出"
   }
 ];
 

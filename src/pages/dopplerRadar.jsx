@@ -3,11 +3,11 @@ import NavStation13 from "../components/nav/navStation13.jsx";
 import Loop from '../components/loop.jsx'
 import StationHeader from "../components/StationHeader/StationHeader.jsx";
 import { getLocalizedArtifact } from "../assets/Localization.js";
-import { SECTION_4 } from "../assets/ArtifactTags.js";
+import { DOPPLER_RADAR } from "../assets/ArtifactTags.js";
 import sectionPlaceholder from "../assets/img/section.jpg"
 
-export default function Station13Section4() {
-  const artifact = getLocalizedArtifact(SECTION_4);
+export default function Station13Section1() {
+  const artifact = getLocalizedArtifact(DOPPLER_RADAR);
 
   return (
     <div>

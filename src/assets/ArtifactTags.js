@@ -40,3 +40,5 @@ export const VETERAN_SEAS = 38;
 export const WHAT_IS_RADAR = 39;
 export const TYPES_OF_RADAR = 40;
 export const AWACS = 41;
+export const DOPPLER_RADAR = 42;
+export const BOMARC = 43;
