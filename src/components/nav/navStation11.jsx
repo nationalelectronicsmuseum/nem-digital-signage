@@ -1,7 +1,14 @@
 import { Link } from "react-router-dom";
 import "./nav.css"
+import { getLocalizedArtifact } from "../../assets/Localization.js";
+import { SOUNDS_AT_SEA, SONAR_BEACON, SONAR_BUOYS, XBOT, VETERAN_SEAS } from "../../assets/ArtifactTags.js";
 
 const NavStation11 = () => {
+  const soundsAtSea = getLocalizedArtifact(SOUNDS_AT_SEA);
+  const sonarBeacon = getLocalizedArtifact(SONAR_BEACON);
+  const sonarBuoys = getLocalizedArtifact(SONAR_BUOYS);
+  const xBot = getLocalizedArtifact(XBOT);
+  const veteranSeas = getLocalizedArtifact(VETERAN_SEAS);
 
   const cancelSpeech = () => {
     window.speechSynthesis.cancel()
@@ -10,20 +17,20 @@ const NavStation11 = () => {
   return (
     <div>
       <div className="nav menu">
-        <Link to="/station11" relative="path" className="nav-links" onClick={cancelSpeech}>
-          Home
+        <Link to="/soundsAtSea" relative="path" className="nav-links" onClick={cancelSpeech}>
+          {soundsAtSea.stationTitle}
         </Link>
-        <Link to="/station11section1" relative="path" className="nav-links" onClick={cancelSpeech}>
-        Section 1
+        <Link to="/sonarBeacon" relative="path" className="nav-links" onClick={cancelSpeech}>
+        {sonarBeacon.stationTitle}
         </Link>
-        <Link to="/station11section2" relative="path" className="nav-links" onClick={cancelSpeech}>
-        Section 2
+        <Link to="/sonarBuoys" relative="path" className="nav-links" onClick={cancelSpeech}>
+        {sonarBuoys.stationTitle}
         </Link>
-        <Link to="/station11section3" relative="path" className="nav-links" onClick={cancelSpeech}>
-        Section 3
+        <Link to="/xBot" relative="path" className="nav-links" onClick={cancelSpeech}>
+        {xBot.stationTitle}
         </Link>
-        <Link to="/station11section4" relative="path" className="nav-links" onClick={cancelSpeech}>
-        Section 4
+        <Link to="/veteranSeas" relative="path" className="nav-links" onClick={cancelSpeech}>
+        {veteranSeas.stationTitle}
         </Link>
         <Link to="/" relative="path" className="nav-links" onClick={cancelSpeech}>
           <h6 className="white">Hub Station</h6>

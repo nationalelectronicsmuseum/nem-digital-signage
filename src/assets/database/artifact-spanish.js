@@ -1552,6 +1552,176 @@ const data = [
     },
     "watch": "Muy pronto",
     "how": "Muy pronto"
+  },
+  {
+    "tag": 34,
+    "stationTitle": "Sonidos en El Mar",
+    "slideTitle": "Sonidos en El Mar",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Muy pronto."
+    ],
+    "impact": "Impacto",
+    "directions": {
+      "title": "Cómo Funciona:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Paso 1"
+        },
+        {
+          "id": 2,
+          "step": "Paso 2"
+        },
+        {
+          "id": 3,
+          "step": "Paso 3"
+        }
+      ]
+    },
+    "watch": "Muy pronto",
+    "how": "Muy pronto"
+  },
+  {
+    "tag": 35,
+    "stationTitle": "Baliza De Sonda",
+    "slideTitle": "Baliza De Sonda",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Muy pronto."
+    ],
+    "impact": "Impacto",
+    "directions": {
+      "title": "Cómo Funciona:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Paso 1"
+        },
+        {
+          "id": 2,
+          "step": "Paso 2"
+        },
+        {
+          "id": 3,
+          "step": "Paso 3"
+        }
+      ]
+    },
+    "watch": "Muy pronto",
+    "how": "Muy pronto"
+  },
+  {
+    "tag": 36,
+    "stationTitle": "Sonar Buoys",
+    "slideTitle": "Sonar Buoys",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Muy pronto."
+    ],
+    "impact": "Impacto",
+    "directions": {
+      "title": "Cómo Funciona:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Paso 1"
+        },
+        {
+          "id": 2,
+          "step": "Paso 2"
+        },
+        {
+          "id": 3,
+          "step": "Paso 3"
+        }
+      ]
+    },
+    "watch": "Muy pronto",
+    "how": "Muy pronto"
+  },
+  {
+    "tag": 37,
+    "stationTitle": "XBot",
+    "slideTitle": "XBot",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Muy pronto."
+    ],
+    "impact": "Impacto",
+    "directions": {
+      "title": "Cómo Funciona:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Paso 1"
+        },
+        {
+          "id": 2,
+          "step": "Paso 2"
+        },
+        {
+          "id": 3,
+          "step": "Paso 3"
+        }
+      ]
+    },
+    "watch": "Muy pronto",
+    "how": "Muy pronto"
+  },
+  {
+    "tag": 38,
+    "stationTitle": "Veteran Seas",
+    "slideTitle": "Veteran Seas",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Muy pronto."
+    ],
+    "impact": "Impacto",
+    "directions": {
+      "title": "Cómo Funciona:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Paso 1"
+        },
+        {
+          "id": 2,
+          "step": "Paso 2"
+        },
+        {
+          "id": 3,
+          "step": "Paso 3"
+        }
+      ]
+    },
+    "watch": "Muy pronto",
+    "how": "Muy pronto"
   }
 ];
 

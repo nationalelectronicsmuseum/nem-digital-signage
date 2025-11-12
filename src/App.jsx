@@ -33,10 +33,11 @@ import Station8Section3 from "./pages/howDoVacuumTubesWork.jsx";
 import Station10Section1 from "./pages/proximityFuse.jsx";
 import Station10Section2 from "./pages/scr270.jsx";
 import Station10Section3 from "./pages/scr399.jsx";
-import Station11Section1 from "./pages/station11section1.jsx";
-import Station11Section2 from "./pages/station11section2.jsx";
-import Station11Section3 from "./pages/station11section3.jsx";
-import Station11Section4 from "./pages/station11section4.jsx";
+import Station11Section1 from "./pages/soundsAtSea.jsx";
+import Station11Section2 from "./pages/sonarBeacon.jsx";
+import Station11Section3 from "./pages/sonarBuoys.jsx";
+import Station11Section4 from "./pages/xBot.jsx";
+import Station11Section5 from "./pages/veteranSeas.jsx";
 import Station12Section1 from "./pages/station12section1.jsx";
 import Station12Section2 from "./pages/station12section2.jsx";
 import Station12Section3 from "./pages/station12section3.jsx";
@@ -136,10 +137,11 @@ function App() {
               <Route path="/scr399" element={<Station10Section3 />} />
 
               <Route path="/station11" element={<Station11 />} />
-              <Route path="/station11section1" element={<Station11Section1 />} />
-              <Route path="/station11section2" element={<Station11Section2 />} />
-              <Route path="/station11section3" element={<Station11Section3 />} />
-              <Route path="/station11section4" element={<Station11Section4 />} />
+              <Route path="/soundsAtSea" element={<Station11Section1 />} />
+              <Route path="/sonarBeacon" element={<Station11Section2 />} />
+              <Route path="/sonarBuoys" element={<Station11Section3 />} />
+              <Route path="/xBot" element={<Station11Section4 />} />
+              <Route path="/veteranSeas" element={<Station11Section5 />} />
 
               <Route path="/station12" element={<Station12 />} />
               <Route path="/station12section1" element={<Station12Section1 />} />

@@ -1552,6 +1552,176 @@ const data = [
     },
     "watch": "Kommt bald",
     "how": "Kommt bald"
+  },
+  {
+    "tag": 34,
+    "stationTitle": "Klänge Auf See",
+    "slideTitle": "Klänge Auf See",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Kommt bald."
+    ],
+    "impact": "Auswirkungen",
+    "directions": {
+      "title": "So Funktioniert Es:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Schritt 3"
+        }
+      ]
+    },
+    "watch": "Kommt bald",
+    "how": "Kommt bald"
+  },
+  {
+    "tag": 35,
+    "stationTitle": "Sonar-Leuchtfeuer",
+    "slideTitle": "Sonar-Leuchtfeuer",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Kommt bald."
+    ],
+    "impact": "Auswirkungen",
+    "directions": {
+      "title": "So Funktioniert Es:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Schritt 3"
+        }
+      ]
+    },
+    "watch": "Kommt bald",
+    "how": "Kommt bald"
+  },
+  {
+    "tag": 36,
+    "stationTitle": "Sonarbojen",
+    "slideTitle": "Sonarbojen",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Kommt bald."
+    ],
+    "impact": "Auswirkungen",
+    "directions": {
+      "title": "So Funktioniert Es:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Schritt 3"
+        }
+      ]
+    },
+    "watch": "Kommt bald",
+    "how": "Kommt bald"
+  },
+  {
+    "tag": 37,
+    "stationTitle": "XBot",
+    "slideTitle": "XBot",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Kommt bald."
+    ],
+    "impact": "Auswirkungen",
+    "directions": {
+      "title": "So Funktioniert Es:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Schritt 3"
+        }
+      ]
+    },
+    "watch": "Kommt bald",
+    "how": "Kommt bald"
+  },
+  {
+    "tag": 38,
+    "stationTitle": "Veteranenmeere",
+    "slideTitle": "Veteranenmeere",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Kommt bald."
+    ],
+    "impact": "Auswirkungen",
+    "directions": {
+      "title": "So Funktioniert Es:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Schritt 3"
+        }
+      ]
+    },
+    "watch": "Kommt bald",
+    "how": "Kommt bald"
   }
 ];
 

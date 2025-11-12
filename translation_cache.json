@@ -3428,5 +3428,55 @@
       "zh-CN": "SCR-270",
       "ja": "SCR-270"
     }
+  },
+  "4b0b67bfa17d4334cdb52b0be61cde325365514efd593e1f71fe576433cab8f5": {
+    "original": "XBot",
+    "translations": {
+      "es": "XBot",
+      "fr": "XBot",
+      "de": "XBot",
+      "zh-CN": "XBot",
+      "ja": "Xボット"
+    }
+  },
+  "f8f4906c1cc57412457800707263585392e6ae71fb3d19ecb35b684b5e0bc49f": {
+    "original": "Veteran Seas",
+    "translations": {
+      "es": "Veteran Seas",
+      "fr": "Mers vétérans",
+      "de": "Veteranenmeere",
+      "zh-CN": "老将海",
+      "ja": "ベテランシーズ"
+    }
+  },
+  "a1aacedd0b31af5f27648287bf0f5bc6d5e02567a8c39abfd3691d614d307162": {
+    "original": "Sounds at Sea",
+    "translations": {
+      "es": "Sonidos en el mar",
+      "fr": "Sons en mer",
+      "de": "Klänge auf See",
+      "zh-CN": "海上的声音",
+      "ja": "海の音"
+    }
+  },
+  "4d8ab14e0e3614c3a2c5825e14f5c83ff429febaa2967084598e2d465e82eaa0": {
+    "original": "Sonar Buoys",
+    "translations": {
+      "es": "Sonar Buoys",
+      "fr": "Bouées sonar",
+      "de": "Sonarbojen",
+      "zh-CN": "声纳浮标",
+      "ja": "ソナーブイ"
+    }
+  },
+  "154c97af97f5f943e6b5b218cf643ad328abfcf8a79190216f75603bc74484a4": {
+    "original": "Sonar Beacon",
+    "translations": {
+      "es": "Baliza de sonda",
+      "fr": "Balise sonar",
+      "de": "Sonar-Leuchtfeuer",
+      "zh-CN": "声纳信标",
+      "ja": "ソナービーコン"
+    }
   }
 }

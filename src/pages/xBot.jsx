@@ -3,11 +3,11 @@ import NavStation11 from "../components/nav/navStation11.jsx";
 import Loop from '../components/loop.jsx'
 import StationHeader from "../components/StationHeader/StationHeader.jsx";
 import { getLocalizedArtifact } from "../assets/Localization.js";
-import { SECTION_2 } from "../assets/ArtifactTags.js";
+import { XBOT } from "../assets/ArtifactTags.js";
 import sectionPlaceholder from "../assets/img/section.jpg"
 
-export default function Station11Section2() {
-  const artifact = getLocalizedArtifact(SECTION_2);
+export default function Station11Section4() {
+  const artifact = getLocalizedArtifact(XBOT);
 
   return (
     <div>

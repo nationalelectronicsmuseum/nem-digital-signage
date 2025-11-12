@@ -1,9 +1,16 @@
 import { Link } from "react-router-dom";
 import Accessibility from "../components/accessibility/accessibility.jsx";
+import { getLocalizedArtifact } from "../assets/Localization.js";
+import { SOUNDS_AT_SEA, SONAR_BEACON, SONAR_BUOYS, XBOT, VETERAN_SEAS } from "../assets/ArtifactTags.js";
 
 import sectionPlaceholder from "../assets/img/section.jpg"
 
 function Station11() {
+  const soundsAtSea = getLocalizedArtifact(SOUNDS_AT_SEA);
+  const sonarBeacon = getLocalizedArtifact(SONAR_BEACON);
+  const sonarBuoys = getLocalizedArtifact(SONAR_BUOYS);
+  const xBot = getLocalizedArtifact(XBOT);
+  const veteranSeas = getLocalizedArtifact(VETERAN_SEAS);
     return (
         <div>
             <div className="accs">
@@ -15,21 +22,25 @@ function Station11() {
             </div>
 
             <div className="homeLink">
-                <Link to="/station11section1" relative="path" className="linkPage">
+                <Link to="/soundsAtSea" relative="path" className="linkPage">
                     <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 1</h2>
+                    <h2 className="stationPages">{soundsAtSea.stationTitle}</h2>
                 </Link>
-                <Link to="/station11section2" relative="path" className="linkPage">
+                <Link to="/sonarBeacon" relative="path" className="linkPage">
                     <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 2</h2>
+                    <h2 className="stationPages">{sonarBeacon.stationTitle}</h2>
                 </Link>
-                <Link to="/station11section3" relative="path" className="linkPage">
+                <Link to="/sonarBuoys" relative="path" className="linkPage">
                     <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 3</h2>
+                    <h2 className="stationPages">{sonarBuoys.stationTitle}</h2>
                 </Link>
-                <Link to="/station11section4" relative="path" className="linkPage">
+                <Link to="/xBot" relative="path" className="linkPage">
                     <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 4</h2>
+                    <h2 className="stationPages">{xBot.stationTitle}</h2>
+                </Link>
+                <Link to="/veteranSeas" relative="path" className="linkPage">
+                    <img src={sectionPlaceholder} className="homeImg"></img>
+                    <h2 className="stationPages">{veteranSeas.stationTitle}</h2>
                 </Link>
             </div>
         </div>

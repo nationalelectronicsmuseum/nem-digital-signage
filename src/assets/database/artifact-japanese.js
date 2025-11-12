@@ -1552,6 +1552,176 @@ const data = [
     },
     "watch": "近日公開",
     "how": "近日公開"
+  },
+  {
+    "tag": 34,
+    "stationTitle": "海の音",
+    "slideTitle": "海の音",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "近日公開。"
+    ],
+    "impact": "インパクト",
+    "directions": {
+      "title": "仕組み:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "ステップ1"
+        },
+        {
+          "id": 2,
+          "step": "ステップ2"
+        },
+        {
+          "id": 3,
+          "step": "ステップ3"
+        }
+      ]
+    },
+    "watch": "近日公開",
+    "how": "近日公開"
+  },
+  {
+    "tag": 35,
+    "stationTitle": "ソナービーコン",
+    "slideTitle": "ソナービーコン",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "近日公開。"
+    ],
+    "impact": "インパクト",
+    "directions": {
+      "title": "仕組み:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "ステップ1"
+        },
+        {
+          "id": 2,
+          "step": "ステップ2"
+        },
+        {
+          "id": 3,
+          "step": "ステップ3"
+        }
+      ]
+    },
+    "watch": "近日公開",
+    "how": "近日公開"
+  },
+  {
+    "tag": 36,
+    "stationTitle": "ソナーブイ",
+    "slideTitle": "ソナーブイ",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "近日公開。"
+    ],
+    "impact": "インパクト",
+    "directions": {
+      "title": "仕組み:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "ステップ1"
+        },
+        {
+          "id": 2,
+          "step": "ステップ2"
+        },
+        {
+          "id": 3,
+          "step": "ステップ3"
+        }
+      ]
+    },
+    "watch": "近日公開",
+    "how": "近日公開"
+  },
+  {
+    "tag": 37,
+    "stationTitle": "Xボット",
+    "slideTitle": "Xボット",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "近日公開。"
+    ],
+    "impact": "インパクト",
+    "directions": {
+      "title": "仕組み:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "ステップ1"
+        },
+        {
+          "id": 2,
+          "step": "ステップ2"
+        },
+        {
+          "id": 3,
+          "step": "ステップ3"
+        }
+      ]
+    },
+    "watch": "近日公開",
+    "how": "近日公開"
+  },
+  {
+    "tag": 38,
+    "stationTitle": "ベテランシーズ",
+    "slideTitle": "ベテランシーズ",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "近日公開。"
+    ],
+    "impact": "インパクト",
+    "directions": {
+      "title": "仕組み:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "ステップ1"
+        },
+        {
+          "id": 2,
+          "step": "ステップ2"
+        },
+        {
+          "id": 3,
+          "step": "ステップ3"
+        }
+      ]
+    },
+    "watch": "近日公開",
+    "how": "近日公開"
   }
 ];
 

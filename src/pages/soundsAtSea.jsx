@@ -3,11 +3,11 @@ import NavStation11 from "../components/nav/navStation11.jsx";
 import Loop from '../components/loop.jsx'
 import StationHeader from "../components/StationHeader/StationHeader.jsx";
 import { getLocalizedArtifact } from "../assets/Localization.js";
-import { SECTION_4 } from "../assets/ArtifactTags.js";
+import { SOUNDS_AT_SEA } from "../assets/ArtifactTags.js";
 import sectionPlaceholder from "../assets/img/section.jpg"
 
-export default function Station11Section4() {
-  const artifact = getLocalizedArtifact(SECTION_4);
+export default function Station11Section1() {
+  const artifact = getLocalizedArtifact(SOUNDS_AT_SEA);
 
   return (
     <div>

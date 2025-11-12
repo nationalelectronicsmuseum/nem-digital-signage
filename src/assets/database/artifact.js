@@ -1552,6 +1552,176 @@ const data = [
     },
     "watch": "Coming soon",
     "how": "Coming soon"
+  },
+  {
+    "tag": 34,
+    "stationTitle": "Sounds at Sea",
+    "slideTitle": "Sounds at Sea",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Coming soon."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "How it Works:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Step 1"
+        },
+        {
+          "id": 2,
+          "step": "Step 2"
+        },
+        {
+          "id": 3,
+          "step": "Step 3"
+        }
+      ]
+    },
+    "watch": "Coming soon",
+    "how": "Coming soon"
+  },
+  {
+    "tag": 35,
+    "stationTitle": "Sonar Beacon",
+    "slideTitle": "Sonar Beacon",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Coming soon."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "How it Works:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Step 1"
+        },
+        {
+          "id": 2,
+          "step": "Step 2"
+        },
+        {
+          "id": 3,
+          "step": "Step 3"
+        }
+      ]
+    },
+    "watch": "Coming soon",
+    "how": "Coming soon"
+  },
+  {
+    "tag": 36,
+    "stationTitle": "Sonar Buoys",
+    "slideTitle": "Sonar Buoys",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Coming soon."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "How it Works:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Step 1"
+        },
+        {
+          "id": 2,
+          "step": "Step 2"
+        },
+        {
+          "id": 3,
+          "step": "Step 3"
+        }
+      ]
+    },
+    "watch": "Coming soon",
+    "how": "Coming soon"
+  },
+  {
+    "tag": 37,
+    "stationTitle": "XBot",
+    "slideTitle": "XBot",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Coming soon."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "How it Works:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Step 1"
+        },
+        {
+          "id": 2,
+          "step": "Step 2"
+        },
+        {
+          "id": 3,
+          "step": "Step 3"
+        }
+      ]
+    },
+    "watch": "Coming soon",
+    "how": "Coming soon"
+  },
+  {
+    "tag": 38,
+    "stationTitle": "Veteran Seas",
+    "slideTitle": "Veteran Seas",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Coming soon."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "How it Works:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Step 1"
+        },
+        {
+          "id": 2,
+          "step": "Step 2"
+        },
+        {
+          "id": 3,
+          "step": "Step 3"
+        }
+      ]
+    },
+    "watch": "Coming soon",
+    "how": "Coming soon"
   }
 ];
 

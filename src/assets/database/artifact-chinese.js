@@ -1552,6 +1552,176 @@ const data = [
     },
     "watch": "即将推出",
     "how": "即将推出"
+  },
+  {
+    "tag": 34,
+    "stationTitle": "海上的声音",
+    "slideTitle": "海上的声音",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "即将推出。"
+    ],
+    "impact": "影响",
+    "directions": {
+      "title": "运作原理：",
+      "steps": [
+        {
+          "id": 1,
+          "step": "步骤1"
+        },
+        {
+          "id": 2,
+          "step": "步骤2"
+        },
+        {
+          "id": 3,
+          "step": "步骤3"
+        }
+      ]
+    },
+    "watch": "即将推出",
+    "how": "即将推出"
+  },
+  {
+    "tag": 35,
+    "stationTitle": "声纳信标",
+    "slideTitle": "声纳信标",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "即将推出。"
+    ],
+    "impact": "影响",
+    "directions": {
+      "title": "运作原理：",
+      "steps": [
+        {
+          "id": 1,
+          "step": "步骤1"
+        },
+        {
+          "id": 2,
+          "step": "步骤2"
+        },
+        {
+          "id": 3,
+          "step": "步骤3"
+        }
+      ]
+    },
+    "watch": "即将推出",
+    "how": "即将推出"
+  },
+  {
+    "tag": 36,
+    "stationTitle": "声纳浮标",
+    "slideTitle": "声纳浮标",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "即将推出。"
+    ],
+    "impact": "影响",
+    "directions": {
+      "title": "运作原理：",
+      "steps": [
+        {
+          "id": 1,
+          "step": "步骤1"
+        },
+        {
+          "id": 2,
+          "step": "步骤2"
+        },
+        {
+          "id": 3,
+          "step": "步骤3"
+        }
+      ]
+    },
+    "watch": "即将推出",
+    "how": "即将推出"
+  },
+  {
+    "tag": 37,
+    "stationTitle": "XBot",
+    "slideTitle": "XBot",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "即将推出。"
+    ],
+    "impact": "影响",
+    "directions": {
+      "title": "运作原理：",
+      "steps": [
+        {
+          "id": 1,
+          "step": "步骤1"
+        },
+        {
+          "id": 2,
+          "step": "步骤2"
+        },
+        {
+          "id": 3,
+          "step": "步骤3"
+        }
+      ]
+    },
+    "watch": "即将推出",
+    "how": "即将推出"
+  },
+  {
+    "tag": 38,
+    "stationTitle": "老将海",
+    "slideTitle": "老将海",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "即将推出。"
+    ],
+    "impact": "影响",
+    "directions": {
+      "title": "运作原理：",
+      "steps": [
+        {
+          "id": 1,
+          "step": "步骤1"
+        },
+        {
+          "id": 2,
+          "step": "步骤2"
+        },
+        {
+          "id": 3,
+          "step": "步骤3"
+        }
+      ]
+    },
+    "watch": "即将推出",
+    "how": "即将推出"
   }
 ];
 
