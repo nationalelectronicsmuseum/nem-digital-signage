@@ -1722,6 +1722,108 @@ const data = [
     },
     "watch": "Muy pronto",
     "how": "Muy pronto"
+  },
+  {
+    "tag": 39,
+    "stationTitle": "¿Qué Es El Radar?",
+    "slideTitle": "¿Qué Es El Radar?",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Muy pronto."
+    ],
+    "impact": "Impacto",
+    "directions": {
+      "title": "Cómo Funciona:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Paso 1"
+        },
+        {
+          "id": 2,
+          "step": "Paso 2"
+        },
+        {
+          "id": 3,
+          "step": "Paso 3"
+        }
+      ]
+    },
+    "watch": "Muy pronto",
+    "how": "Muy pronto"
+  },
+  {
+    "tag": 40,
+    "stationTitle": "Tipos De Radares",
+    "slideTitle": "Tipos De Radares",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Muy pronto."
+    ],
+    "impact": "Impacto",
+    "directions": {
+      "title": "Cómo Funciona:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Paso 1"
+        },
+        {
+          "id": 2,
+          "step": "Paso 2"
+        },
+        {
+          "id": 3,
+          "step": "Paso 3"
+        }
+      ]
+    },
+    "watch": "Muy pronto",
+    "how": "Muy pronto"
+  },
+  {
+    "tag": 41,
+    "stationTitle": "Awacs",
+    "slideTitle": "Awacs",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Muy pronto."
+    ],
+    "impact": "Impacto",
+    "directions": {
+      "title": "Cómo Funciona:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Paso 1"
+        },
+        {
+          "id": 2,
+          "step": "Paso 2"
+        },
+        {
+          "id": 3,
+          "step": "Paso 3"
+        }
+      ]
+    },
+    "watch": "Muy pronto",
+    "how": "Muy pronto"
   }
 ];
 

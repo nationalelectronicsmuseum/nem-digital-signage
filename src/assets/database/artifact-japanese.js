@@ -1722,6 +1722,108 @@ const data = [
     },
     "watch": "近日公開",
     "how": "近日公開"
+  },
+  {
+    "tag": 39,
+    "stationTitle": "レーダーとは何ですか?",
+    "slideTitle": "レーダーとは何ですか?",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "近日公開。"
+    ],
+    "impact": "インパクト",
+    "directions": {
+      "title": "仕組み:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "ステップ1"
+        },
+        {
+          "id": 2,
+          "step": "ステップ2"
+        },
+        {
+          "id": 3,
+          "step": "ステップ3"
+        }
+      ]
+    },
+    "watch": "近日公開",
+    "how": "近日公開"
+  },
+  {
+    "tag": 40,
+    "stationTitle": "レーダーの種類",
+    "slideTitle": "レーダーの種類",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "近日公開。"
+    ],
+    "impact": "インパクト",
+    "directions": {
+      "title": "仕組み:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "ステップ1"
+        },
+        {
+          "id": 2,
+          "step": "ステップ2"
+        },
+        {
+          "id": 3,
+          "step": "ステップ3"
+        }
+      ]
+    },
+    "watch": "近日公開",
+    "how": "近日公開"
+  },
+  {
+    "tag": 41,
+    "stationTitle": "Awacs",
+    "slideTitle": "Awacs",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "近日公開。"
+    ],
+    "impact": "インパクト",
+    "directions": {
+      "title": "仕組み:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "ステップ1"
+        },
+        {
+          "id": 2,
+          "step": "ステップ2"
+        },
+        {
+          "id": 3,
+          "step": "ステップ3"
+        }
+      ]
+    },
+    "watch": "近日公開",
+    "how": "近日公開"
   }
 ];
 

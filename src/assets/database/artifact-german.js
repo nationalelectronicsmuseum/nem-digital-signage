@@ -1722,6 +1722,108 @@ const data = [
     },
     "watch": "Kommt bald",
     "how": "Kommt bald"
+  },
+  {
+    "tag": 39,
+    "stationTitle": "Was Ist Radar?",
+    "slideTitle": "Was Ist Radar?",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Kommt bald."
+    ],
+    "impact": "Auswirkungen",
+    "directions": {
+      "title": "So Funktioniert Es:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Schritt 3"
+        }
+      ]
+    },
+    "watch": "Kommt bald",
+    "how": "Kommt bald"
+  },
+  {
+    "tag": 40,
+    "stationTitle": "Arten Von Radar",
+    "slideTitle": "Arten Von Radar",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Kommt bald."
+    ],
+    "impact": "Auswirkungen",
+    "directions": {
+      "title": "So Funktioniert Es:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Schritt 3"
+        }
+      ]
+    },
+    "watch": "Kommt bald",
+    "how": "Kommt bald"
+  },
+  {
+    "tag": 41,
+    "stationTitle": "Awacs",
+    "slideTitle": "Awacs",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Kommt bald."
+    ],
+    "impact": "Auswirkungen",
+    "directions": {
+      "title": "So Funktioniert Es:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Schritt 3"
+        }
+      ]
+    },
+    "watch": "Kommt bald",
+    "how": "Kommt bald"
   }
 ];
 

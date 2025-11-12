@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom";
 import Accessibility from "../components/accessibility/accessibility.jsx";
+import { getLocalizedArtifact } from "../assets/Localization.js";
+import { WHAT_IS_RADAR, TYPES_OF_RADAR, AWACS } from "../assets/ArtifactTags.js";
 
 import sectionPlaceholder from "../assets/img/section.jpg"
 
 function Station12() {
+  const whatIsRadar = getLocalizedArtifact(WHAT_IS_RADAR);
+  const typesOfRadar = getLocalizedArtifact(TYPES_OF_RADAR);
+  const awacs = getLocalizedArtifact(AWACS);
     return (
         <div>
             <div className="accs">
@@ -15,21 +20,17 @@ function Station12() {
             </div>
 
             <div className="homeLink">
-                <Link to="/station12section1" relative="path" className="linkPage">
+                <Link to="/whatIsRadar" relative="path" className="linkPage">
                     <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 1</h2>
+                    <h2 className="stationPages">{whatIsRadar.stationTitle}</h2>
                 </Link>
-                <Link to="/station12section2" relative="path" className="linkPage">
+                <Link to="/typesOfRadar" relative="path" className="linkPage">
                     <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 2</h2>
+                    <h2 className="stationPages">{typesOfRadar.stationTitle}</h2>
                 </Link>
-                <Link to="/station12section3" relative="path" className="linkPage">
+                <Link to="/awacs" relative="path" className="linkPage">
                     <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 3</h2>
-                </Link>
-                <Link to="/station12section4" relative="path" className="linkPage">
-                    <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 4</h2>
+                    <h2 className="stationPages">{awacs.stationTitle}</h2>
                 </Link>
             </div>
         </div>

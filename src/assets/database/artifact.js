@@ -1722,6 +1722,108 @@ const data = [
     },
     "watch": "Coming soon",
     "how": "Coming soon"
+  },
+  {
+    "tag": 39,
+    "stationTitle": "What is Radar?",
+    "slideTitle": "What is Radar?",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Coming soon."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "How it Works:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Step 1"
+        },
+        {
+          "id": 2,
+          "step": "Step 2"
+        },
+        {
+          "id": 3,
+          "step": "Step 3"
+        }
+      ]
+    },
+    "watch": "Coming soon",
+    "how": "Coming soon"
+  },
+  {
+    "tag": 40,
+    "stationTitle": "Types of Radar",
+    "slideTitle": "Types of Radar",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Coming soon."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "How it Works:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Step 1"
+        },
+        {
+          "id": 2,
+          "step": "Step 2"
+        },
+        {
+          "id": 3,
+          "step": "Step 3"
+        }
+      ]
+    },
+    "watch": "Coming soon",
+    "how": "Coming soon"
+  },
+  {
+    "tag": 41,
+    "stationTitle": "AWACS",
+    "slideTitle": "AWACS",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Coming soon."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "How it Works:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Step 1"
+        },
+        {
+          "id": 2,
+          "step": "Step 2"
+        },
+        {
+          "id": 3,
+          "step": "Step 3"
+        }
+      ]
+    },
+    "watch": "Coming soon",
+    "how": "Coming soon"
   }
 ];
 

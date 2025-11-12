@@ -1722,6 +1722,108 @@ const data = [
     },
     "watch": "即将推出",
     "how": "即将推出"
+  },
+  {
+    "tag": 39,
+    "stationTitle": "什么是雷达？",
+    "slideTitle": "什么是雷达？",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "即将推出。"
+    ],
+    "impact": "影响",
+    "directions": {
+      "title": "运作原理：",
+      "steps": [
+        {
+          "id": 1,
+          "step": "步骤1"
+        },
+        {
+          "id": 2,
+          "step": "步骤2"
+        },
+        {
+          "id": 3,
+          "step": "步骤3"
+        }
+      ]
+    },
+    "watch": "即将推出",
+    "how": "即将推出"
+  },
+  {
+    "tag": 40,
+    "stationTitle": "雷达类型",
+    "slideTitle": "雷达类型",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "即将推出。"
+    ],
+    "impact": "影响",
+    "directions": {
+      "title": "运作原理：",
+      "steps": [
+        {
+          "id": 1,
+          "step": "步骤1"
+        },
+        {
+          "id": 2,
+          "step": "步骤2"
+        },
+        {
+          "id": 3,
+          "step": "步骤3"
+        }
+      ]
+    },
+    "watch": "即将推出",
+    "how": "即将推出"
+  },
+  {
+    "tag": 41,
+    "stationTitle": "预警机",
+    "slideTitle": "预警机",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "即将推出。"
+    ],
+    "impact": "影响",
+    "directions": {
+      "title": "运作原理：",
+      "steps": [
+        {
+          "id": 1,
+          "step": "步骤1"
+        },
+        {
+          "id": 2,
+          "step": "步骤2"
+        },
+        {
+          "id": 3,
+          "step": "步骤3"
+        }
+      ]
+    },
+    "watch": "即将推出",
+    "how": "即将推出"
   }
 ];
 

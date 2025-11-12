@@ -3478,5 +3478,35 @@
       "zh-CN": "声纳信标",
       "ja": "ソナービーコン"
     }
+  },
+  "42c05d502190f23a8a178c1893443f44e772cd85ac182d25aaab81047d50e8fd": {
+    "original": "AWACS",
+    "translations": {
+      "es": "AWACS",
+      "fr": "AWACS",
+      "de": "AWACS",
+      "zh-CN": "预警机",
+      "ja": "AWACS"
+    }
+  },
+  "c10f0af0da90e891f2c16e13a33117cc56f8a704c90fc182c058383301a30686": {
+    "original": "Types of Radar",
+    "translations": {
+      "es": "Tipos de radares",
+      "fr": "Types de radars",
+      "de": "Arten von Radar",
+      "zh-CN": "雷达类型",
+      "ja": "レーダーの種類"
+    }
+  },
+  "03dd8f0844878406a55e30b4198d0146665a26e7a1efcf96fe92acb62839d40e": {
+    "original": "What is Radar?",
+    "translations": {
+      "es": "¿Qué es el radar?",
+      "fr": "Qu’est-ce que le radar ?",
+      "de": "Was ist Radar?",
+      "zh-CN": "什么是雷达？",
+      "ja": "レーダーとは何ですか?"
+    }
   }
 }
