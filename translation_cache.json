@@ -3528,5 +3528,55 @@
       "zh-CN": "博马克",
       "ja": "ボマルク"
     }
+  },
+  "937223b7a35b5737c3150ad4077ec1fd5024624a2b4c306955868e051a6d5886": {
+    "original": "Chaff",
+    "translations": {
+      "es": "Paja",
+      "fr": "Balle",
+      "de": "Spreu",
+      "zh-CN": "糠",
+      "ja": "チャフ"
+    }
+  },
+  "80eea1d9c0bb126716786cf780d23b82eb1ae668d3c0fea0a3e357e5b6d5d56b": {
+    "original": "Countermeasure Biography",
+    "translations": {
+      "es": "Biografía de contramedida",
+      "fr": "Biographie des contre-mesures",
+      "de": "Biografie der Gegenmaßnahme",
+      "zh-CN": "对策传记",
+      "ja": "対策略歴"
+    }
+  },
+  "989eecd2494d731ac0447a466e404be4a758809e3c465bf3157f52113489e48f": {
+    "original": "Decoys",
+    "translations": {
+      "es": "señuelos",
+      "fr": "Leurres",
+      "de": "Lockvögel",
+      "zh-CN": "诱饵",
+      "ja": "おとり"
+    }
+  },
+  "378adf49364121ddb2638b05617f0e1be9effd860b541bf1dec40a510d4ecdd2": {
+    "original": "Types of Countermeasures",
+    "translations": {
+      "es": "Tipos de contramedidas",
+      "fr": "Types de contre-mesures",
+      "de": "Arten von Gegenmaßnahmen",
+      "zh-CN": "对策的种类",
+      "ja": "対策の種類"
+    }
+  },
+  "2eded5da3472076f0ff23edc8468f2404a6d87f931d7778f1a596be3d57a5652": {
+    "original": "What are Countermeasures?",
+    "translations": {
+      "es": "¿Qué son las contramedidas?",
+      "fr": "Que sont les contre-mesures ?",
+      "de": "Was sind Gegenmaßnahmen?",
+      "zh-CN": "对策是什么？",
+      "ja": "対策とは何ですか？"
+    }
   }
 }

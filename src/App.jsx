@@ -43,10 +43,11 @@ import Station12Section2 from "./pages/typesOfRadar.jsx";
 import Station12Section3 from "./pages/awacs.jsx";
 import Station13Section1 from "./pages/dopplerRadar.jsx";
 import Station13Section2 from "./pages/bomarc.jsx";
-import Station14Section1 from "./pages/station14section1.jsx";
-import Station14Section2 from "./pages/station14section2.jsx";
-import Station14Section3 from "./pages/station14section3.jsx";
-import Station14Section4 from "./pages/station14section4.jsx";
+import Station14Section1 from "./pages/whatAreCountermeasures.jsx";
+import Station14Section2 from "./pages/chaff.jsx";
+import Station14Section3 from "./pages/decoys.jsx";
+import Station14Section4 from "./pages/typesOfCountermeasures.jsx";
+import Station14Section5 from "./pages/countermeasureBiography.jsx";
 import Station15Section1 from "./pages/station15section1.jsx";
 import Station15Section2 from "./pages/station15section2.jsx";
 import Station15Section3 from "./pages/station15section3.jsx";
@@ -150,10 +151,11 @@ function App() {
               <Route path="/bomarc" element={<Station13Section2 />} />
 
               <Route path="/station14" element={<Station14 />} />
-              <Route path="/station14section1" element={<Station14Section1 />} />
-              <Route path="/station14section2" element={<Station14Section2 />} />
-              <Route path="/station14section3" element={<Station14Section3 />} />
-              <Route path="/station14section4" element={<Station14Section4 />} />
+              <Route path="/whatAreCountermeasures" element={<Station14Section1 />} />
+              <Route path="/chaff" element={<Station14Section2 />} />
+              <Route path="/decoys" element={<Station14Section3 />} />
+              <Route path="/typesOfCountermeasures" element={<Station14Section4 />} />
+              <Route path="/countermeasureBiography" element={<Station14Section5 />} />
 
               <Route path="/station15" element={<Station15 />} />
               <Route path="/station15section1" element={<Station15Section1 />} />

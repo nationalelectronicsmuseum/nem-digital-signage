@@ -1,9 +1,16 @@
 import { Link } from "react-router-dom";
 import Accessibility from "../components/accessibility/accessibility.jsx";
+import { getLocalizedArtifact } from "../assets/Localization.js";
+import { WHAT_ARE_COUNTERMEASURES, CHAFF, DECOYS, TYPES_OF_COUNTERMEASURES, COUNTERMEASURE_BIOGRAPHY } from "../assets/ArtifactTags.js";
 
 import sectionPlaceholder from "../assets/img/section.jpg"
 
 function Station14() {
+  const whatAreCountermeasures = getLocalizedArtifact(WHAT_ARE_COUNTERMEASURES);
+  const chaff = getLocalizedArtifact(CHAFF);
+  const decoys = getLocalizedArtifact(DECOYS);
+  const typesOfCountermeasures = getLocalizedArtifact(TYPES_OF_COUNTERMEASURES);
+  const countermeasureBiography = getLocalizedArtifact(COUNTERMEASURE_BIOGRAPHY);
     return (
         <div>
             <div className="accs">
@@ -15,21 +22,25 @@ function Station14() {
             </div>
 
             <div className="homeLink">
-                <Link to="/station14section1" relative="path" className="linkPage">
+                <Link to="/whatAreCountermeasures" relative="path" className="linkPage">
                     <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 1</h2>
+                    <h2 className="stationPages">{whatAreCountermeasures.stationTitle}</h2>
                 </Link>
-                <Link to="/station14section2" relative="path" className="linkPage">
+                <Link to="/chaff" relative="path" className="linkPage">
                     <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 2</h2>
+                    <h2 className="stationPages">{chaff.stationTitle}</h2>
                 </Link>
-                <Link to="/station14section3" relative="path" className="linkPage">
+                <Link to="/decoys" relative="path" className="linkPage">
                     <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 3</h2>
+                    <h2 className="stationPages">{decoys.stationTitle}</h2>
                 </Link>
-                <Link to="/station14section4" relative="path" className="linkPage">
+                <Link to="/typesOfCountermeasures" relative="path" className="linkPage">
                     <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">Section 4</h2>
+                    <h2 className="stationPages">{typesOfCountermeasures.stationTitle}</h2>
+                </Link>
+                <Link to="/countermeasureBiography" relative="path" className="linkPage">
+                    <img src={sectionPlaceholder} className="homeImg"></img>
+                    <h2 className="stationPages">{countermeasureBiography.stationTitle}</h2>
                 </Link>
             </div>
         </div>
