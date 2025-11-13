@@ -1827,8 +1827,42 @@ const data = [
   },
   {
     "tag": 42,
-    "stationTitle": "Doppler-Radar",
-    "slideTitle": "Doppler-Radar",
+    "stationTitle": "Was Ist Doppler?",
+    "slideTitle": "Was Ist Doppler?",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Kommt bald."
+    ],
+    "impact": "Auswirkungen",
+    "directions": {
+      "title": "So Funktioniert Es:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Schritt 3"
+        }
+      ]
+    },
+    "watch": "Kommt bald",
+    "how": "Kommt bald"
+  },
+  {
+    "tag": 43,
+    "stationTitle": "Doppler-Geschichte",
+    "slideTitle": "Doppler-Geschichte",
     "info": [
       {
         "id": 1,
@@ -1863,6 +1897,74 @@ const data = [
     "tag": 43,
     "stationTitle": "Bomarc",
     "slideTitle": "Bomarc",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Kommt bald."
+    ],
+    "impact": "Auswirkungen",
+    "directions": {
+      "title": "So Funktioniert Es:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Schritt 3"
+        }
+      ]
+    },
+    "watch": "Kommt bald",
+    "how": "Kommt bald"
+  },
+  {
+    "tag": 42,
+    "stationTitle": "Moderne Doppler-Nutzung",
+    "slideTitle": "Moderne Doppler-Nutzung",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Kommt bald."
+    ],
+    "impact": "Auswirkungen",
+    "directions": {
+      "title": "So Funktioniert Es:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Schritt 1"
+        },
+        {
+          "id": 2,
+          "step": "Schritt 2"
+        },
+        {
+          "id": 3,
+          "step": "Schritt 3"
+        }
+      ]
+    },
+    "watch": "Kommt bald",
+    "how": "Kommt bald"
+  },
+  {
+    "tag": 42,
+    "stationTitle": "Doppler Oral History",
+    "slideTitle": "Doppler Oral History",
     "info": [
       {
         "id": 1,

@@ -1827,8 +1827,42 @@ const data = [
   },
   {
     "tag": 42,
-    "stationTitle": "Radar Doppler",
-    "slideTitle": "Radar Doppler",
+    "stationTitle": "Qu’est-Ce Que Le Doppler ?",
+    "slideTitle": "Qu’est-Ce Que Le Doppler ?",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "À venir."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "Comment Ça Marche :",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Étape 1"
+        },
+        {
+          "id": 2,
+          "step": "Étape 2"
+        },
+        {
+          "id": 3,
+          "step": "Étape 3"
+        }
+      ]
+    },
+    "watch": "À venir",
+    "how": "À venir"
+  },
+  {
+    "tag": 43,
+    "stationTitle": "Histoire Doppler",
+    "slideTitle": "Histoire Doppler",
     "info": [
       {
         "id": 1,
@@ -1863,6 +1897,74 @@ const data = [
     "tag": 43,
     "stationTitle": "Bomarc",
     "slideTitle": "Bomarc",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "À venir."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "Comment Ça Marche :",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Étape 1"
+        },
+        {
+          "id": 2,
+          "step": "Étape 2"
+        },
+        {
+          "id": 3,
+          "step": "Étape 3"
+        }
+      ]
+    },
+    "watch": "À venir",
+    "how": "À venir"
+  },
+  {
+    "tag": 42,
+    "stationTitle": "Utilisation Moderne Du Doppler",
+    "slideTitle": "Utilisation Moderne Du Doppler",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "À venir."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "Comment Ça Marche :",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Étape 1"
+        },
+        {
+          "id": 2,
+          "step": "Étape 2"
+        },
+        {
+          "id": 3,
+          "step": "Étape 3"
+        }
+      ]
+    },
+    "watch": "À venir",
+    "how": "À venir"
+  },
+  {
+    "tag": 42,
+    "stationTitle": "Histoire Orale Doppler",
+    "slideTitle": "Histoire Orale Doppler",
     "info": [
       {
         "id": 1,

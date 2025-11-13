@@ -1827,8 +1827,8 @@ const data = [
   },
   {
     "tag": 42,
-    "stationTitle": "Doppler Radar",
-    "slideTitle": "Doppler Radar",
+    "stationTitle": "What is Doppler?",
+    "slideTitle": "What is Doppler?",
     "info": [
       {
         "id": 1,
@@ -1861,6 +1861,40 @@ const data = [
   },
   {
     "tag": 43,
+    "stationTitle": "Doppler History",
+    "slideTitle": "Doppler History",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Coming soon."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "How it Works:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Step 1"
+        },
+        {
+          "id": 2,
+          "step": "Step 2"
+        },
+        {
+          "id": 3,
+          "step": "Step 3"
+        }
+      ]
+    },
+    "watch": "Coming soon",
+    "how": "Coming soon"
+  },
+  {
+    "tag": 44,
     "stationTitle": "BOMARC",
     "slideTitle": "BOMARC",
     "info": [
@@ -1894,7 +1928,75 @@ const data = [
     "how": "Coming soon"
   },
   {
-    "tag": 44,
+    "tag": 45,
+    "stationTitle": "Modern Doppler Use",
+    "slideTitle": "Modern Doppler Use",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Coming soon."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "How it Works:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Step 1"
+        },
+        {
+          "id": 2,
+          "step": "Step 2"
+        },
+        {
+          "id": 3,
+          "step": "Step 3"
+        }
+      ]
+    },
+    "watch": "Coming soon",
+    "how": "Coming soon"
+  },
+  {
+    "tag": 46,
+    "stationTitle": "Doppler Oral History",
+    "slideTitle": "Doppler Oral History",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Coming soon."
+    ],
+    "impact": "Impact",
+    "directions": {
+      "title": "How it Works:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Step 1"
+        },
+        {
+          "id": 2,
+          "step": "Step 2"
+        },
+        {
+          "id": 3,
+          "step": "Step 3"
+        }
+      ]
+    },
+    "watch": "Coming soon",
+    "how": "Coming soon"
+  },
+  {
+    "tag": 47,
     "stationTitle": "What are Countermeasures?",
     "slideTitle": "What are Countermeasures?",
     "info": [
@@ -1928,7 +2030,7 @@ const data = [
     "how": "Coming soon"
   },
   {
-    "tag": 45,
+    "tag": 48,
     "stationTitle": "Chaff",
     "slideTitle": "Chaff",
     "info": [
@@ -1962,7 +2064,7 @@ const data = [
     "how": "Coming soon"
   },
   {
-    "tag": 46,
+    "tag": 49,
     "stationTitle": "Decoys",
     "slideTitle": "Decoys",
     "info": [
@@ -1996,7 +2098,7 @@ const data = [
     "how": "Coming soon"
   },
   {
-    "tag": 47,
+    "tag": 50,
     "stationTitle": "Types of Countermeasures",
     "slideTitle": "Types of Countermeasures",
     "info": [
@@ -2030,7 +2132,7 @@ const data = [
     "how": "Coming soon"
   },
   {
-    "tag": 48,
+    "tag": 51,
     "stationTitle": "Countermeasure Biography",
     "slideTitle": "Countermeasure Biography",
     "info": [
@@ -2064,7 +2166,7 @@ const data = [
     "how": "Coming soon"
   },
   {
-    "tag": 49,
+    "tag": 52,
     "stationTitle": "Satellites and How They Work",
     "slideTitle": "Satellites and How They Work",
     "info": [
@@ -2098,7 +2200,7 @@ const data = [
     "how": "Coming soon"
   },
   {
-    "tag": 50,
+    "tag": 53,
     "stationTitle": "Lunar Camera",
     "slideTitle": "Lunar Camera",
     "info": [
@@ -2132,7 +2234,7 @@ const data = [
     "how": "Coming soon"
   },
   {
-    "tag": 51,
+    "tag": 54,
     "stationTitle": "Telstar",
     "slideTitle": "Telstar",
     "info": [

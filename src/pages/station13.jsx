@@ -1,13 +1,16 @@
 import { Link } from "react-router-dom";
 import Accessibility from "../components/accessibility/accessibility.jsx";
 import { getLocalizedArtifact } from "../assets/Localization.js";
-import { DOPPLER_RADAR, BOMARC } from "../assets/ArtifactTags.js";
+import { WHAT_IS_DOPPLER, DOPPLER_HISTORY, BOMARC, MODERN_DOPPLER_USE, DOPPLER_ORAL_HISTORY } from "../assets/ArtifactTags.js";
 
 import sectionPlaceholder from "../assets/img/section.jpg"
 
 function Station13() {
-  const dopplerRadar = getLocalizedArtifact(DOPPLER_RADAR);
+  const whatIsDoppler = getLocalizedArtifact(WHAT_IS_DOPPLER);
+  const dopplerHistory = getLocalizedArtifact(DOPPLER_HISTORY);
   const bomarc = getLocalizedArtifact(BOMARC);
+  const modernDopplerUse = getLocalizedArtifact(MODERN_DOPPLER_USE);
+  const dopplerOralHistory = getLocalizedArtifact(DOPPLER_ORAL_HISTORY);
     return (
         <div>
             <div className="accs">
@@ -19,13 +22,25 @@ function Station13() {
             </div>
 
             <div className="homeLink">
-                <Link to="/dopplerRadar" relative="path" className="linkPage">
+                <Link to="/whatIsDoppler" relative="path" className="linkPage">
                     <img src={sectionPlaceholder} className="homeImg"></img>
-                    <h2 className="stationPages">{dopplerRadar.stationTitle}</h2>
+                    <h2 className="stationPages">{whatIsDoppler.stationTitle}</h2>
+                </Link>
+                <Link to="/dopplerHistory" relative="path" className="linkPage">
+                    <img src={sectionPlaceholder} className="homeImg"></img>
+                    <h2 className="stationPages">{dopplerHistory.stationTitle}</h2>
                 </Link>
                 <Link to="/bomarc" relative="path" className="linkPage">
                     <img src={sectionPlaceholder} className="homeImg"></img>
                     <h2 className="stationPages">{bomarc.stationTitle}</h2>
+                </Link>
+                <Link to="/modernDopplerUse" relative="path" className="linkPage">
+                    <img src={sectionPlaceholder} className="homeImg"></img>
+                    <h2 className="stationPages">{modernDopplerUse.stationTitle}</h2>
+                </Link>
+                <Link to="/dopplerOralHistory" relative="path" className="linkPage">
+                    <img src={sectionPlaceholder} className="homeImg"></img>
+                    <h2 className="stationPages">{dopplerOralHistory.stationTitle}</h2>
                 </Link>
             </div>
         </div>

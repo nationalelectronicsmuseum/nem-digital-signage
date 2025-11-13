@@ -41,8 +41,11 @@ import Station11Section5 from "./pages/veteranSeas.jsx";
 import Station12Section1 from "./pages/whatIsRadar.jsx";
 import Station12Section2 from "./pages/typesOfRadar.jsx";
 import Station12Section3 from "./pages/awacs.jsx";
-import Station13Section1 from "./pages/dopplerRadar.jsx";
-import Station13Section2 from "./pages/bomarc.jsx";
+import Station13Section1 from "./pages/whatIsDoppler.jsx";
+import Station13Section2 from "./pages/dopplerHistory.jsx";
+import Station13Section3 from "./pages/bomarc.jsx";
+import Station13Section4 from "./pages/modernDopplerUse.jsx";
+import Station13Section5 from "./pages/dopplerOralHistory.jsx";
 import Station14Section1 from "./pages/whatAreCountermeasures.jsx";
 import Station14Section2 from "./pages/chaff.jsx";
 import Station14Section3 from "./pages/decoys.jsx";
@@ -146,8 +149,11 @@ function App() {
               <Route path="/awacs" element={<Station12Section3 />} />
 
               <Route path="/station13" element={<Station13 />} />
-              <Route path="/dopplerRadar" element={<Station13Section1 />} />
-              <Route path="/bomarc" element={<Station13Section2 />} />
+              <Route path="/whatIsDoppler" element={<Station13Section1 />} />
+              <Route path="/dopplerHistory" element={<Station13Section2 />} />
+              <Route path="/bomarc" element={<Station13Section3 />} />
+              <Route path="/modernDopplerUse" element={<Station13Section4 />} />
+              <Route path="/dopplerOralHistory" element={<Station13Section5 />} />
 
               <Route path="/station14" element={<Station14 />} />
               <Route path="/whatAreCountermeasures" element={<Station14Section1 />} />

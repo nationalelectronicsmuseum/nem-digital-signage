@@ -1827,8 +1827,42 @@ const data = [
   },
   {
     "tag": 42,
-    "stationTitle": "ドップラーレーダー",
-    "slideTitle": "ドップラーレーダー",
+    "stationTitle": "ドップラーとは何ですか?",
+    "slideTitle": "ドップラーとは何ですか?",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "近日公開。"
+    ],
+    "impact": "インパクト",
+    "directions": {
+      "title": "仕組み:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "ステップ1"
+        },
+        {
+          "id": 2,
+          "step": "ステップ2"
+        },
+        {
+          "id": 3,
+          "step": "ステップ3"
+        }
+      ]
+    },
+    "watch": "近日公開",
+    "how": "近日公開"
+  },
+  {
+    "tag": 43,
+    "stationTitle": "ドップラーの歴史",
+    "slideTitle": "ドップラーの歴史",
     "info": [
       {
         "id": 1,
@@ -1863,6 +1897,74 @@ const data = [
     "tag": 43,
     "stationTitle": "ボマルク",
     "slideTitle": "ボマルク",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "近日公開。"
+    ],
+    "impact": "インパクト",
+    "directions": {
+      "title": "仕組み:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "ステップ1"
+        },
+        {
+          "id": 2,
+          "step": "ステップ2"
+        },
+        {
+          "id": 3,
+          "step": "ステップ3"
+        }
+      ]
+    },
+    "watch": "近日公開",
+    "how": "近日公開"
+  },
+  {
+    "tag": 42,
+    "stationTitle": "現代のドップラーの使用",
+    "slideTitle": "現代のドップラーの使用",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "近日公開。"
+    ],
+    "impact": "インパクト",
+    "directions": {
+      "title": "仕組み:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "ステップ1"
+        },
+        {
+          "id": 2,
+          "step": "ステップ2"
+        },
+        {
+          "id": 3,
+          "step": "ステップ3"
+        }
+      ]
+    },
+    "watch": "近日公開",
+    "how": "近日公開"
+  },
+  {
+    "tag": 42,
+    "stationTitle": "ドップラーオーラルヒストリー",
+    "slideTitle": "ドップラーオーラルヒストリー",
     "info": [
       {
         "id": 1,

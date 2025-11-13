@@ -1827,8 +1827,42 @@ const data = [
   },
   {
     "tag": 42,
-    "stationTitle": "Radar Doppler",
-    "slideTitle": "Radar Doppler",
+    "stationTitle": "¿Qué Es Doppler?",
+    "slideTitle": "¿Qué Es Doppler?",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Muy pronto."
+    ],
+    "impact": "Impacto",
+    "directions": {
+      "title": "Cómo Funciona:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Paso 1"
+        },
+        {
+          "id": 2,
+          "step": "Paso 2"
+        },
+        {
+          "id": 3,
+          "step": "Paso 3"
+        }
+      ]
+    },
+    "watch": "Muy pronto",
+    "how": "Muy pronto"
+  },
+  {
+    "tag": 43,
+    "stationTitle": "Historia Doppler",
+    "slideTitle": "Historia Doppler",
     "info": [
       {
         "id": 1,
@@ -1863,6 +1897,74 @@ const data = [
     "tag": 43,
     "stationTitle": "Bomarc",
     "slideTitle": "Bomarc",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Muy pronto."
+    ],
+    "impact": "Impacto",
+    "directions": {
+      "title": "Cómo Funciona:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Paso 1"
+        },
+        {
+          "id": 2,
+          "step": "Paso 2"
+        },
+        {
+          "id": 3,
+          "step": "Paso 3"
+        }
+      ]
+    },
+    "watch": "Muy pronto",
+    "how": "Muy pronto"
+  },
+  {
+    "tag": 42,
+    "stationTitle": "Uso Moderno Del Doppler",
+    "slideTitle": "Uso Moderno Del Doppler",
+    "info": [
+      {
+        "id": 1,
+        "text": ""
+      }
+    ],
+    "description": [
+      "Muy pronto."
+    ],
+    "impact": "Impacto",
+    "directions": {
+      "title": "Cómo Funciona:",
+      "steps": [
+        {
+          "id": 1,
+          "step": "Paso 1"
+        },
+        {
+          "id": 2,
+          "step": "Paso 2"
+        },
+        {
+          "id": 3,
+          "step": "Paso 3"
+        }
+      ]
+    },
+    "watch": "Muy pronto",
+    "how": "Muy pronto"
+  },
+  {
+    "tag": 42,
+    "stationTitle": "Historia Oral Doppler",
+    "slideTitle": "Historia Oral Doppler",
     "info": [
       {
         "id": 1,

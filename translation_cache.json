@@ -3608,5 +3608,45 @@
       "zh-CN": "泰事达",
       "ja": "テルスター"
     }
+  },
+  "263e02933224ba75242a07742cf9d62ae3d947d30bcb11192197f306e3ca6757": {
+    "original": "What is Doppler?",
+    "translations": {
+      "es": "¿Qué es Doppler?",
+      "fr": "Qu’est-ce que le Doppler ?",
+      "de": "Was ist Doppler?",
+      "zh-CN": "什么是多普勒？",
+      "ja": "ドップラーとは何ですか?"
+    }
+  },
+  "bb581f8e81e3e75d93a6f8b5e43c23102579dee61f086901255d429669650964": {
+    "original": "Doppler Oral History",
+    "translations": {
+      "es": "Historia oral Doppler",
+      "fr": "Histoire orale Doppler",
+      "de": "Doppler Oral History",
+      "zh-CN": "多普勒口述历史",
+      "ja": "ドップラーオーラルヒストリー"
+    }
+  },
+  "7e8c6e37b12cda1735901e817397f56c620ba5c84cf43c1c93f7cdb026698f5c": {
+    "original": "Modern Doppler Use",
+    "translations": {
+      "es": "Uso moderno del Doppler",
+      "fr": "Utilisation moderne du Doppler",
+      "de": "Moderne Doppler-Nutzung",
+      "zh-CN": "现代多普勒的使用",
+      "ja": "現代のドップラーの使用"
+    }
+  },
+  "5283e22ecdeb568c106c6314fb33132c5f6d1de6db59e5a1b27f18f237610a59": {
+    "original": "Doppler History",
+    "translations": {
+      "es": "Historia Doppler",
+      "fr": "Histoire Doppler",
+      "de": "Doppler-Geschichte",
+      "zh-CN": "多普勒历史",
+      "ja": "ドップラーの歴史"
+    }
   }
 }
