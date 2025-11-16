@@ -1,4 +1,4 @@
-import { createContext, useContext, useRef, useState } from 'react';
+import { createContext, useContext, useRef, useState } from "react";
 
 const AudioContextGlobal = createContext();
 
@@ -13,7 +13,7 @@ export const AudioProvider = ({ children }) => {
   const preload = (src) => {
     if (!audioCache.current[src]) {
       const audio = new Audio(src);
-      audio.preload = 'auto';
+      audio.preload = "auto";
       audioCache.current[src] = audio;
     }
   };

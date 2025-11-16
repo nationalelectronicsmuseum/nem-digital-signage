@@ -1,7 +1,7 @@
-import Slides from '../components/slides/slides'
-import NavStation2 from '../components/nav/navStation2.jsx'
-import Loop from '../components/loop'
-import StationHeader from '../components/StationHeader/StationHeader.jsx'
+import Slides from "../components/slides/slides";
+import NavStation2 from "../components/nav/navStation2.jsx";
+import Loop from "../components/loop";
+import StationHeader from "../components/StationHeader/StationHeader.jsx";
 import { getLocalizedArtifact } from "../assets/Localization.js";
 import { MANUAL_TURBINE } from "../assets/ArtifactTags.js";
 
@@ -19,5 +19,5 @@ export default function Turbine() {
       <Loop />
       <Slides artifact={artifact} />
     </div>
-  )
+  );
 }

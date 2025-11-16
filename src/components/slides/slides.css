@@ -5,176 +5,177 @@
 .placeholder {
   width: 50%;
   height: 100%;
-  background:white;
+  background: white;
 }
 
 .swiper {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 30px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    object-fit: contain;
-  }
+  width: 100%;
+  height: 100%;
+}
 
-  .swipe-directions{
-    margin: 0;
-  }
+.swiper-slide {
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
 
-  .fg {
-    display:flex;
-    flex-direction: column;
-  }
-  .bg {
-    width: 100%;
-    height: 100vh;
-    display:flex;
-    flex-direction: row;
-  }
-  
-  .bg3 {
-    background: lightgray;
-    width: 100%;
-    height: 100%;
-  }
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
 
-  .left, .right {
-    width:49.5%;
-    height: 70%;
-    overflow: scroll;
-  }
+.swipe-directions {
+  margin: 0;
+}
 
-  .left {
-    font-size: 36pt;
-    text-align: left;
-    padding-right: 25px;
-  }
+.fg {
+  display: flex;
+  flex-direction: column;
+}
+.bg {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
 
-  .left span,
-  .right span {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-  }
+.bg3 {
+  background: lightgray;
+  width: 100%;
+  height: 100%;
+}
 
-  .left h3,
-  .right h3 {
-    margin: .25em 0.5em .25em 0;
-  }
+.left,
+.right {
+  width: 49.5%;
+  height: 70%;
+  overflow: scroll;
+}
 
-  .right{
-    flex-direction:column-reverse;
-    text-align: left;
-    font-size: 36pt;
-  }
+.left {
+  font-size: 36pt;
+  text-align: left;
+  padding-right: 25px;
+}
 
-  .info {
-    text-decoration: none;
-    list-style: none;
-    margin-bottom: 20px;
-  }
+.left span,
+.right span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
 
-  .swipe-mention {
-    color: gray;
-    margin: 0;
-  }
+.left h3,
+.right h3 {
+  margin: 0.25em 0.5em 0.25em 0;
+}
 
-  .description {
-    overflow:scroll;
-    height: 700px;
-    margin: 0;
-  }
+.right {
+  flex-direction: column-reverse;
+  text-align: left;
+  font-size: 36pt;
+}
 
-  .description p {
-    margin: 0;
-  }
+.info {
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 20px;
+}
 
-  .watchHeader {
-    margin-top: 15px;
-    margin-bottom: 0;
-  }
+.swipe-mention {
+  color: gray;
+  margin: 0;
+}
 
-  .watchPara {
-    margin: 0;
-  }
+.description {
+  overflow: scroll;
+  height: 700px;
+  margin: 0;
+}
 
-  .audioSlides {
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    height: 40vw;
-  }
+.description p {
+  margin: 0;
+}
 
-  .audioLeft {
-    width: 50%;
-    height: 100%;
-    background: lightgrey;
-    display: flex;
-  }
-  .audioRight {
-    padding: 20px;
-    width: 50%;
-    height: 100%;
-    background: beige;
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
+.watchHeader {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
 
-  .audioRight h3{
-    margin: 0;
-  }
+.watchPara {
+  margin: 0;
+}
 
-  .audioRight h5 {
-    margin: 0;
-  }
+.audioSlides {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 40vw;
+}
 
-  .audioRight p {
-    font-size: 16pt;
-    margin: 0 0 20px 0;
-  }
+.audioLeft {
+  width: 50%;
+  height: 100%;
+  background: lightgrey;
+  display: flex;
+}
+.audioRight {
+  padding: 20px;
+  width: 50%;
+  height: 100%;
+  background: beige;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
-  .audioTitleAndSpeech {
-    flex-direction: row;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
+.audioRight h3 {
+  margin: 0;
+}
 
-  /* Sound Audio Slides */
-  .audioPlayer {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
+.audioRight h5 {
+  margin: 0;
+}
 
-  .audioPlayer img {
-    margin-right: 10px;
-    padding-right: 10px;
-    width: 25%;
-  }
+.audioRight p {
+  font-size: 16pt;
+  margin: 0 0 20px 0;
+}
 
-  /* Image Displayer */
-  
-  /* EMW */
-  .emTitle {
-    margin: 0;
-  }
+.audioTitleAndSpeech {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 
-  .emFB {
-    display: flex;
-    padding: 0 100px;
-  }
+/* Sound Audio Slides */
+.audioPlayer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.audioPlayer img {
+  margin-right: 10px;
+  padding-right: 10px;
+  width: 25%;
+}
+
+/* Image Displayer */
+
+/* EMW */
+.emTitle {
+  margin: 0;
+}
+
+.emFB {
+  display: flex;
+  padding: 0 100px;
+}

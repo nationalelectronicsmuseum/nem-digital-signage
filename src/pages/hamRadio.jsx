@@ -1,28 +1,27 @@
-import { useState } from 'react'
-import Menu from '../components/menu/menu'
-import Accessibility from '../components/accessibility/accessibility'
-import Loop from '../components/loop'
-import AudioSnip from '../components/audioClip/audioSnip'
-import Video from '../components/Video/Video.jsx'
-import hamVideo from "../assets/video/hamRadio.webm"
+import { useState } from "react";
+import Menu from "../components/menu/menu";
+import Accessibility from "../components/accessibility/accessibility";
+import Loop from "../components/loop";
+import AudioSnip from "../components/audioClip/audioSnip";
+import Video from "../components/Video/Video.jsx";
+import hamVideo from "../assets/video/hamRadio.webm";
 import { getLocalizedArtifact } from "../assets/Localization.js";
 import { HAM_RADIO } from "../assets/ArtifactTags.js";
 
-import ham1 from "../assets/img/ham01.png"
-import ham2 from "../assets/img/ham2.png"
-import ham3 from "../assets/img/ham3.png"
+import ham1 from "../assets/img/ham01.png";
+import ham2 from "../assets/img/ham2.png";
+import ham3 from "../assets/img/ham3.png";
 // import ham4 from "../assets/img/ham4.png"
 // import ham5 from "../assets/img/ham5.png"
-import ham6 from "../assets/img/ham6.jpg"
-import ham7 from "../assets/img/ham7.png"
-
+import ham6 from "../assets/img/ham6.jpg";
+import ham7 from "../assets/img/ham7.png";
 
 function HAMRadio() {
-  const [one, setOne] = useState("hide")
-  const [two, setTwo] = useState("hide")
-  const [three, setThree] = useState("hide")
-  const [four, setFour] = useState("hide")
-  const [five, setFive] = useState("hide")
+  const [one, setOne] = useState("hide");
+  const [two, setTwo] = useState("hide");
+  const [three, setThree] = useState("hide");
+  const [four, setFour] = useState("hide");
+  const [five, setFive] = useState("hide");
 
   const artifact = getLocalizedArtifact(HAM_RADIO);
 
@@ -30,48 +29,47 @@ function HAMRadio() {
 
   const toggleOne = () => {
     if (one === "hide") {
-      setOne("showImageOne")
+      setOne("showImageOne");
     } else {
-      setOne("hide")
-      synth.cancel()
+      setOne("hide");
+      synth.cancel();
     }
-  }
+  };
   const toggleTwo = () => {
     if (two === "hide") {
-      setTwo("showImageTwo")
+      setTwo("showImageTwo");
     } else {
-      setTwo("hide")
-      synth.cancel()
+      setTwo("hide");
+      synth.cancel();
     }
-  }
+  };
   const toggleThree = () => {
     if (three === "hide") {
-      setThree("showImageThree")
+      setThree("showImageThree");
     } else {
-      setThree("hide")
-      synth.cancel()
+      setThree("hide");
+      synth.cancel();
     }
-  }
+  };
   const toggleFour = () => {
     if (four === "hide") {
-      setFour("showImageFour")
+      setFour("showImageFour");
     } else {
-      setFour("hide")
-      synth.cancel()
+      setFour("hide");
+      synth.cancel();
     }
-  }
+  };
   const toggleFive = () => {
     if (five === "hide") {
-      setFive("showImageFive")
+      setFive("showImageFive");
     } else {
-      setFive("hide")
-      synth.cancel()
+      setFive("hide");
+      synth.cancel();
     }
-  }
+  };
 
   return (
     <div>
-
       <div className="btnNav">
         <Menu />
         <div className="accs">
@@ -87,8 +85,15 @@ function HAMRadio() {
                 <AudioSnip text={artifact.info[0].description} />
                 <p>{artifact.info[0].description}</p>
                 <div className="audioSnipBox">
-                  <AudioSnip text={"Image: A desk with computers, mouse, keyboard, HAM radio, and a map."} />
-                  <h5>Image: A desk with computers, mouse, keyboard, HAM radio, and a map.</h5>
+                  <AudioSnip
+                    text={
+                      "Image: A desk with computers, mouse, keyboard, HAM radio, and a map."
+                    }
+                  />
+                  <h5>
+                    Image: A desk with computers, mouse, keyboard, HAM radio,
+                    and a map.
+                  </h5>
                 </div>
               </div>
               <div className="infoRight">
@@ -108,7 +113,6 @@ function HAMRadio() {
                   <AudioSnip text={"Image: A child operating the HAM radio."} />
                   <h5>Image: A child operating the HAM radio.</h5>
                 </div>
-
               </div>
               <div className="infoRight">
                 <img src={ham2} className="hamImg"></img>
@@ -123,7 +127,9 @@ function HAMRadio() {
                 <AudioSnip text={artifact.info[2].description} />
                 <p>{artifact.info[2].description}</p>
                 <div className="audioSnipBox">
-                  <AudioSnip text={"Image: Showing an example of the End Fed."} />
+                  <AudioSnip
+                    text={"Image: Showing an example of the End Fed."}
+                  />
                   <h5>Image: Showing an example of the End Fed.</h5>
                 </div>
               </div>
@@ -141,8 +147,15 @@ function HAMRadio() {
                 <p>{artifact.info[3].description}</p>
 
                 <div className="audioSnipBox">
-                  <AudioSnip text={"Image: ARRL Field Day, an annual emergency preparedness event."} />
-                  <h5>Image: ARRL Field Day, an annual emergency preparedness event.</h5>
+                  <AudioSnip
+                    text={
+                      "Image: ARRL Field Day, an annual emergency preparedness event."
+                    }
+                  />
+                  <h5>
+                    Image: ARRL Field Day, an annual emergency preparedness
+                    event.
+                  </h5>
                 </div>
               </div>
               <div className="infoRight">
@@ -160,7 +173,11 @@ function HAMRadio() {
                 <p>{artifact.info[4].description}</p>
 
                 <div className="audioSnipBox">
-                  <AudioSnip text={"Scan QR Code to join FB group or explore the website."} />
+                  <AudioSnip
+                    text={
+                      "Scan QR Code to join FB group or explore the website."
+                    }
+                  />
                   <h5>Scan QR Code to join FB group or explore the website.</h5>
                 </div>
               </div>
@@ -178,11 +195,21 @@ function HAMRadio() {
           <Loop />
 
           <div className="hamTitles">
-            <button className="hamBtn" onClick={toggleOne}><h2>{artifact.info[0].name}</h2></button>
-            <button className="hamBtn" onClick={toggleTwo}><h2>{artifact.info[1].name}</h2></button>
-            <button className="hamBtn" onClick={toggleThree}><h2 >{artifact.info[2].name}</h2></button>
-            <button className="hamBtn" onClick={toggleFour}><h2 >{artifact.info[3].name}</h2></button>
-            <button className="hamBtn" onClick={toggleFive}><h2 >{artifact.info[4].name}</h2></button>
+            <button className="hamBtn" onClick={toggleOne}>
+              <h2>{artifact.info[0].name}</h2>
+            </button>
+            <button className="hamBtn" onClick={toggleTwo}>
+              <h2>{artifact.info[1].name}</h2>
+            </button>
+            <button className="hamBtn" onClick={toggleThree}>
+              <h2>{artifact.info[2].name}</h2>
+            </button>
+            <button className="hamBtn" onClick={toggleFour}>
+              <h2>{artifact.info[3].name}</h2>
+            </button>
+            <button className="hamBtn" onClick={toggleFive}>
+              <h2>{artifact.info[4].name}</h2>
+            </button>
           </div>
         </div>
         <div className="hamVideo">
@@ -190,7 +217,7 @@ function HAMRadio() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default HAMRadio
+export default HAMRadio;

@@ -1,39 +1,71 @@
 import { Link } from "react-router-dom";
-import { ELECTROMAGNETIC_WAVES, POLARIZATION_EXPERIMENT, ELECTROMAGNETIC_RADIO_WAVES } from "../../assets/ArtifactTags.js";
-import { getLocalizedArtifact, getLocalizedStringConstant } from "../../assets/Localization.js";
+import {
+  ELECTROMAGNETIC_WAVES,
+  POLARIZATION_EXPERIMENT,
+  ELECTROMAGNETIC_RADIO_WAVES,
+} from "../../assets/ArtifactTags.js";
+import {
+  getLocalizedArtifact,
+  getLocalizedStringConstant,
+} from "../../assets/Localization.js";
 
-import "./nav.css"
+import "./nav.css";
 
 const NavStation7 = () => {
   const home = getLocalizedStringConstant("Home");
   const electromagneticWaves = getLocalizedArtifact(ELECTROMAGNETIC_WAVES);
   const polarizationExperiment = getLocalizedArtifact(POLARIZATION_EXPERIMENT);
-  const electromagneticRadioWaves = getLocalizedArtifact(ELECTROMAGNETIC_RADIO_WAVES);
+  const electromagneticRadioWaves = getLocalizedArtifact(
+    ELECTROMAGNETIC_RADIO_WAVES
+  );
   const cancelSpeech = () => {
-    window.speechSynthesis.cancel()
-  }
+    window.speechSynthesis.cancel();
+  };
 
   return (
     <div>
       <div className="nav menu">
-        <Link to="/station7" relative="path" className="nav-links" onClick={cancelSpeech}>
+        <Link
+          to="/station7"
+          relative="path"
+          className="nav-links"
+          onClick={cancelSpeech}
+        >
           {home}
         </Link>
-        <Link to="/electromagnetic" relative="path" className="nav-links" onClick={cancelSpeech}>
+        <Link
+          to="/electromagnetic"
+          relative="path"
+          className="nav-links"
+          onClick={cancelSpeech}
+        >
           {electromagneticWaves.stationTitle}
         </Link>
-        <Link to="/polarization" relative="path" className="nav-links" onClick={cancelSpeech}>
+        <Link
+          to="/polarization"
+          relative="path"
+          className="nav-links"
+          onClick={cancelSpeech}
+        >
           {polarizationExperiment.stationTitle}
         </Link>
-        <Link to="/station7-visible-electromagnetic-waves" relative="path" className="nav-links" onClick={cancelSpeech}>
+        <Link
+          to="/station7-visible-electromagnetic-waves"
+          relative="path"
+          className="nav-links"
+          onClick={cancelSpeech}
+        >
           {electromagneticRadioWaves.stationTitle}
         </Link>
-        <Link to="/" relative="path" className="nav-links" onClick={cancelSpeech}>
+        <Link
+          to="/"
+          relative="path"
+          className="nav-links"
+          onClick={cancelSpeech}
+        >
           <h6 className="white">Hub Station</h6>
         </Link>
       </div>
-
-
     </div>
   );
 };

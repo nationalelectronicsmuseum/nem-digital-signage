@@ -1,7 +1,7 @@
 import Slides from "../components/slides/slides";
 import NavStation7 from "../components/nav/navStation7";
-import StationHeader from "../components/StationHeader/StationHeader"
-import Loop from '../components/loop'
+import StationHeader from "../components/StationHeader/StationHeader";
+import Loop from "../components/loop";
 import { getLocalizedArtifact } from "../assets/Localization.js";
 import { POLARIZATION_EXPERIMENT } from "../assets/ArtifactTags.js";
 

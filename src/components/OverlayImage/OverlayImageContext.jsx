@@ -1,4 +1,4 @@
-import { createContext, useState, useContext } from 'react';
+import { createContext, useState, useContext } from "react";
 
 const ImageOverlayContext = createContext();
 
@@ -13,9 +13,12 @@ export const ImageOverlayProvider = ({ children }) => {
   return (
     <ImageOverlayContext.Provider value={{ openOverlay, closeOverlay }}>
       {imageSrc && (
-        <div onClick={closeOverlay} className={imageSrc !== null ? "showImageOne" : ""}>
-        <div className="backgroundImage"></div>
-        <img src={imageSrc} className="galleryImageOne"></img>
+        <div
+          onClick={closeOverlay}
+          className={imageSrc !== null ? "showImageOne" : ""}
+        >
+          <div className="backgroundImage"></div>
+          <img src={imageSrc} className="galleryImageOne"></img>
         </div>
       )}
       {children}

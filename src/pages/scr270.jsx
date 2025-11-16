@@ -1,10 +1,10 @@
 import Slides from "../components/slides/slides.jsx";
 import NavStation10 from "../components/nav/navStation10.jsx";
-import Loop from '../components/loop.jsx'
+import Loop from "../components/loop.jsx";
 import StationHeader from "../components/StationHeader/StationHeader.jsx";
 import { getLocalizedArtifact } from "../assets/Localization.js";
 import { SCR_270 } from "../assets/ArtifactTags.js";
-import sectionPlaceholder from "../assets/img/section.jpg"
+import sectionPlaceholder from "../assets/img/section.jpg";
 
 export default function Station10Section2() {
   const artifact = getLocalizedArtifact(SCR_270);
@@ -18,7 +18,11 @@ export default function Station10Section2() {
         </div>
       </div>
       <Loop />
-      <Slides artifact={artifact} artifactImg1={sectionPlaceholder} artifactImg2={sectionPlaceholder} />
+      <Slides
+        artifact={artifact}
+        artifactImg1={sectionPlaceholder}
+        artifactImg2={sectionPlaceholder}
+      />
     </div>
   );
 }

@@ -1,8 +1,8 @@
 import Slides from "../components/slides/slides.jsx";
 import NavStation1 from "../components/nav/navStation1.jsx";
-import voltImpact from "../assets/img/volt_impact.jpg"
+import voltImpact from "../assets/img/volt_impact.jpg";
 import ohmslawGif from "../assets/img/ohmslaw.gif";
-import Loop from '../components/loop'
+import Loop from "../components/loop";
 import StationHeader from "../components/StationHeader/StationHeader.jsx";
 import { getLocalizedArtifact } from "../assets/Localization.js";
 import { VOLTAGE_AND_CURRENT } from "../assets/ArtifactTags.js";
@@ -18,7 +18,11 @@ export default function VoltAndCurr() {
         </div>
       </div>
       <Loop />
-      <Slides artifact={artifact} artifactImg1={ohmslawGif} artifactImg2={voltImpact} />
+      <Slides
+        artifact={artifact}
+        artifactImg1={ohmslawGif}
+        artifactImg2={voltImpact}
+      />
     </div>
   );
 }

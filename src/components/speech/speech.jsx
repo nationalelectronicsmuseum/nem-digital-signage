@@ -1,10 +1,10 @@
 import { useContext } from "react";
 import "../speech/speech.css";
-import iconPlay from "../../assets/img/icon_play.svg"
-import iconStop from "../../assets/img/icon_stop.svg"
-import iconPause from "../../assets/img/icon_pause.svg"
+import iconPlay from "../../assets/img/icon_play.svg";
+import iconStop from "../../assets/img/icon_stop.svg";
+import iconPause from "../../assets/img/icon_pause.svg";
 import { useSettings } from "../../components/AccessibilitySettings/AccessibilitySettings.jsx";
-import { useSpeechSynthesis } from '../speech/useSpeechSynthesis';
+import { useSpeechSynthesis } from "../speech/useSpeechSynthesis";
 
 function Speech({ text }) {
   const { settings, setSettings } = useSettings();

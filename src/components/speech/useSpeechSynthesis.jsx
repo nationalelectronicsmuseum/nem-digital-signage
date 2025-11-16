@@ -1,10 +1,10 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from "react";
 import { useSettings } from "../AccessibilitySettings/AccessibilitySettings.jsx";
 
 export function useSpeechSynthesis() {
   const { settings, setSettings } = useSettings();
   const [voices, setVoices] = useState([]);
-  const [status, setStatus] = useState('idle');
+  const [status, setStatus] = useState("idle");
   const utteranceRef = useRef(null);
 
   useEffect(() => {
@@ -22,36 +22,38 @@ export function useSpeechSynthesis() {
   const speak = (text) => {
     stop(); // always clear previous
     const utterance = new SpeechSynthesisUtterance(text);
-    const selectedVoice = voices.find(voice => voice.lang.startsWith(settings.speech));
+    const selectedVoice = voices.find((voice) =>
+      voice.lang.startsWith(settings.speech)
+    );
     if (selectedVoice) {
       utterance.voice = selectedVoice;
     } else {
       alert(`No voice found for language: ${settings.speech}`);
     }
 
-    utterance.onstart = () => setStatus('playing');
-    utterance.onend = () => setStatus('idle');
-    utterance.onerror = () => setStatus('idle');
+    utterance.onstart = () => setStatus("playing");
+    utterance.onend = () => setStatus("idle");
+    utterance.onerror = () => setStatus("idle");
 
     utteranceRef.current = utterance;
     window.speechSynthesis.speak(utterance);
   };
 
   const toggle = (text, voice = null) => {
-    if (status === 'idle') {
+    if (status === "idle") {
       speak(text, voice);
-    } else if (status === 'playing') {
+    } else if (status === "playing") {
       window.speechSynthesis.pause();
-      setStatus('paused');
-    } else if (status === 'paused') {
+      setStatus("paused");
+    } else if (status === "paused") {
       window.speechSynthesis.resume();
-      setStatus('playing');
+      setStatus("playing");
     }
   };
 
   const stop = () => {
     window.speechSynthesis.cancel();
-    setStatus('idle');
+    setStatus("idle");
   };
 
   return {

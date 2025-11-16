@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useEffect } from 'react';
+import { createContext, useContext, useState, useEffect } from "react";
 import * as Constant from "../../assets/Constants";
 
 const defaultSettings = {
@@ -7,7 +7,7 @@ const defaultSettings = {
   language: Constant.LANGUAGE_ENGLISH,
   speech: Constant.SPEECH_ENGLISH,
   listPadding: Constant.LIST_PADDING_MEDIUM,
-  speechEnabled: true
+  speechEnabled: true,
 };
 
 const SettingsContext = createContext();
@@ -16,12 +16,12 @@ export const useSettings = () => useContext(SettingsContext);
 
 export const SettingsProvider = ({ children }) => {
   const [settings, setSettings] = useState(() => {
-    const saved = localStorage.getItem('appSettings');
+    const saved = localStorage.getItem("appSettings");
     return saved ? JSON.parse(saved) : defaultSettings;
   });
 
   useEffect(() => {
-    localStorage.setItem('appSettings', JSON.stringify(settings));
+    localStorage.setItem("appSettings", JSON.stringify(settings));
   }, [settings]);
 
   return (

@@ -1,26 +1,25 @@
 .nav-bar {
-    float: left;
-    position: absolute;
+  float: left;
+  position: absolute;
 }
 .nav {
-    font-size: 48pt;
-    font: black;
+  font-size: 48pt;
+  font: black;
 }
 
 .menu {
-    display: flex;
-    flex-direction: column;
-    
+  display: flex;
+  flex-direction: column;
 }
 
 .nav-links {
-    text-decoration: none;
-    font: black;
-    font-weight: 600;
-    font-size: 24pt;
-    line-height: 40pt;
+  text-decoration: none;
+  font: black;
+  font-weight: 600;
+  font-size: 24pt;
+  line-height: 40pt;
 }
 
 .white {
-    opacity: 0;
+  opacity: 0;
 }

@@ -1,16 +1,16 @@
 .btn {
-    width: 30px;
-    height: 30px;
-    border: 1px solid gray;
-    border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 5px;
 }
 
-.def {  
-    font-size: 10pt;
+.def {
+  font-size: 10pt;
 }
-.med {  
-    font-size: 18pt;
+.med {
+  font-size: 18pt;
 }
-.lrg {  
-    font-size: 24pt;
+.lrg {
+  font-size: 24pt;
 }

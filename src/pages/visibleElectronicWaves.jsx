@@ -1,20 +1,23 @@
 import NavStation3 from "../components/nav/navStation3.jsx";
 import NavStation7 from "../components/nav/navStation7.jsx";
 import Slides from "../components/slides/slides";
-import Loop from '../components/loop';
-import StationHeader from "../components/StationHeader/StationHeader.jsx"
+import Loop from "../components/loop";
+import StationHeader from "../components/StationHeader/StationHeader.jsx";
 import { getLocalizedArtifact } from "../assets/Localization.js";
 import { ELECTROMAGNETIC_RADIO_WAVES } from "../assets/ArtifactTags.js";
 
-import image1 from "../assets/img/ewaves2.jpg"
-import image2 from "../assets/img/ewaves3.webp"
+import image1 from "../assets/img/ewaves2.jpg";
+import image2 from "../assets/img/ewaves3.webp";
 
-function VisibleElectronicWaves({stationNumber}) {
+function VisibleElectronicWaves({ stationNumber }) {
   const artifact = getLocalizedArtifact(ELECTROMAGNETIC_RADIO_WAVES);
 
   return (
     <div>
-      <StationHeader nav={stationNumber == 3 ? <NavStation3 /> : <NavStation7 />} artifact={artifact} />
+      <StationHeader
+        nav={stationNumber == 3 ? <NavStation3 /> : <NavStation7 />}
+        artifact={artifact}
+      />
       <div className="sectionhead">
         <div className="sectiontitle">
           <h1 className="artifactTitle">{artifact.slideTitle}</h1>
@@ -23,7 +26,7 @@ function VisibleElectronicWaves({stationNumber}) {
       <Loop />
       <Slides artifact={artifact} artifactImg1={image1} artifactImg2={image2} />
     </div>
-  )
+  );
 }
 
-export default VisibleElectronicWaves
+export default VisibleElectronicWaves;

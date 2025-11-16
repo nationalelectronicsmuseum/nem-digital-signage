@@ -31,8 +31,6 @@ button {
   background-position: center;
 }
 
-
-
 .background {
   position: fixed;
   z-index: 2;
@@ -78,46 +76,46 @@ button {
 }
 
 .menu nav:hover > a {
-    opacity: 0.25;
+  opacity: 0.25;
 }
-  
+
 .menu nav > a:hover {
-    opacity: 1;
-    translate: 8px 0;
+  opacity: 1;
+  translate: 8px 0;
 }
-  
+
 .menu a {
-    position: relative;
-    color: #f9f9f9;
-    font-size: 32px;
-    font-family: "Euclid Circular A";
-    padding: 20px 0 20px 20px;
-    text-decoration: none;
-    opacity: 0;
-    cursor: pointer;
-    transition: 0.4s;
+  position: relative;
+  color: #f9f9f9;
+  font-size: 32px;
+  font-family: "Euclid Circular A";
+  padding: 20px 0 20px 20px;
+  text-decoration: none;
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.4s;
 }
-  
+
 .menu a::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    right: -26px;
-    translate: 0 -50%;
-    margin-top: 2px;
-    width: 10px;
-    height: 10px;
-    border-top: 3px solid #ffffff;
-    border-right: 3px solid #ffffff;
-    opacity: 0;
-    rotate: 45deg;
-    transition: 0.3s;
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -26px;
+  translate: 0 -50%;
+  margin-top: 2px;
+  width: 10px;
+  height: 10px;
+  border-top: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+  opacity: 0;
+  rotate: 45deg;
+  transition: 0.3s;
 }
-  
+
 .menu a:hover::after {
-    opacity: 1;
+  opacity: 1;
 }
-  
+
 @keyframes appear {
   0% {
     opacity: 0;
@@ -135,35 +133,35 @@ button {
 }
 
 .line {
-  stroke:  black;
+  stroke: black;
   stroke-linecap: round;
   stroke-width: 10;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 .menuBtn.on .line {
   stroke: orangered;
 }
 
-.menuBtn:hover .line.one{
+.menuBtn:hover .line.one {
   transform: translateY(10px);
 }
 
-.menuBtn:hover .line.three{
+.menuBtn:hover .line.three {
   transform: translateY(-10px);
 }
 
-.menuBtn.on .line.one{
-    transform-origin: 50% 25%;
-  transform: translateY(25px)  rotate(-45deg);
+.menuBtn.on .line.one {
+  transform-origin: 50% 25%;
+  transform: translateY(25px) rotate(-45deg);
 }
 
-.menuBtn.on .line.two{
+.menuBtn.on .line.two {
   transform-origin: 50% 50%;
-  transform:  rotate(45deg);
+  transform: rotate(45deg);
 }
 
-.menuBtn.on .line.three{
+.menuBtn.on .line.three {
   transform-origin: 50% 75%;
-  transform: translateY(-25px)  rotate(45deg);
+  transform: translateY(-25px) rotate(45deg);
 }

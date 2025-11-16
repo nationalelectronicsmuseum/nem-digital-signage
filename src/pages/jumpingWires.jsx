@@ -20,7 +20,11 @@ function JumpingWires() {
         </div>
       </div>
       <Loop />
-      <SlidesJumpingWires artifact={artifact} artifactImg1={image1} artifactImg2={image2} />
+      <SlidesJumpingWires
+        artifact={artifact}
+        artifactImg1={image1}
+        artifactImg2={image2}
+      />
     </div>
   );
 }

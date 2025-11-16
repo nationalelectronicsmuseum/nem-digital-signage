@@ -1,12 +1,12 @@
 import NavStation6 from "../components/nav/navStation6.jsx";
 import Slides from "../components/slides/slides";
-import Loop from '../components/loop'
-import StationHeader from "../components/StationHeader/StationHeader.jsx"
+import Loop from "../components/loop";
+import StationHeader from "../components/StationHeader/StationHeader.jsx";
 import { getLocalizedArtifact } from "../assets/Localization.js";
 import { THEREMIN } from "../assets/ArtifactTags.js";
 
-import image1 from "../assets/img/theremin1.svg"
-import image2 from "../assets/img/theremin2.webp"
+import image1 from "../assets/img/theremin1.svg";
+import image2 from "../assets/img/theremin2.webp";
 
 function Theremin() {
   const artifact = getLocalizedArtifact(THEREMIN);
@@ -22,7 +22,7 @@ function Theremin() {
       <Loop />
       <Slides artifact={artifact} artifactImg1={image1} artifactImg2={image2} />
     </div>
-  )
+  );
 }
 
-export default Theremin
+export default Theremin;

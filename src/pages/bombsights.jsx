@@ -1,15 +1,15 @@
 import Slides from "../components/slides/slides";
-import NavStation6 from '../components/nav/navStation6.jsx'
-import Loop from '../components/loop'
+import NavStation6 from "../components/nav/navStation6.jsx";
+import Loop from "../components/loop";
 import StationHeader from "../components/StationHeader/StationHeader.jsx";
 import { getLocalizedArtifact } from "../assets/Localization.js";
 import { BOMBSIGHTS } from "../assets/ArtifactTags.js";
 
-import image1 from "../assets/img/section.jpg"
+import image1 from "../assets/img/section.jpg";
 
 export default function Bombsights() {
   const artifact = getLocalizedArtifact(BOMBSIGHTS);
-    
+
   return (
     <div>
       <StationHeader nav={<NavStation6 />} artifact={artifact} />
@@ -19,7 +19,7 @@ export default function Bombsights() {
         </div>
       </div>
       <Loop />
-      <Slides artifact={artifact} artifactImg1={image1} artifactImg2={image1}/>
+      <Slides artifact={artifact} artifactImg1={image1} artifactImg2={image1} />
     </div>
-  )
+  );
 }

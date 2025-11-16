@@ -1,24 +1,24 @@
 import { useState } from "react";
 import Nav from "../nav/nav";
-import "./menu.css"
+import "./menu.css";
 
 function Menu() {
   const [open, setOpen] = useState("");
-  const [menuButton, setMenuButton] = useState("menuBtn")
+  const [menuButton, setMenuButton] = useState("menuBtn");
 
   const toggleMenu = () => {
     if (open === "") {
       setOpen("open");
-      setMenuButton("menuBtn on")
+      setMenuButton("menuBtn on");
     } else {
-        setOpen("");
-        setMenuButton("menuBtn")
+      setOpen("");
+      setMenuButton("menuBtn");
     }
   };
 
   return (
     <div className={open}>
-      <button className="burger" onClick={toggleMenu} >
+      <button className="burger" onClick={toggleMenu}>
         <svg
           width="30px"
           height="30px"
@@ -32,7 +32,7 @@ function Menu() {
         </svg>
       </button>
       {/* <MenuButton className="burger"/> */}
-        <div className="background"></div>
+      <div className="background"></div>
       {/* <div className="shade"></div> */}
       <div className="menu" onClick={toggleMenu}>
         <Nav />

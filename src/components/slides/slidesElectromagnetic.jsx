@@ -8,13 +8,24 @@ import "swiper/css/navigation";
 import "./slides.css";
 import Speech from "../speech/speech";
 import { useSettings } from "../../components/AccessibilitySettings/AccessibilitySettings.jsx";
-import { useSpeechSynthesis } from '../speech/useSpeechSynthesis.jsx';
+import { useSpeechSynthesis } from "../speech/useSpeechSynthesis.jsx";
 import SlideImage from "../slideImage/SlideImage.jsx";
 import { useImageOverlay } from "../OverlayImage/OverlayImageContext.jsx";
 
-const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactImg4 }) => {
+const Slides = ({
+  artifact,
+  artifactImg1,
+  artifactImg2,
+  artifactImg3,
+  artifactImg4,
+}) => {
   const { settings, setSettings } = useSettings();
-  const { voices, speechStatus, toggle, stop: stopSpeech } = useSpeechSynthesis();
+  const {
+    voices,
+    speechStatus,
+    toggle,
+    stop: stopSpeech,
+  } = useSpeechSynthesis();
   const { openOverlay } = useImageOverlay();
 
   return (
@@ -28,7 +39,7 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
         className="mySwiper"
         onSlideChange={stopSpeech}
       >
-        <SwiperSlide >
+        <SwiperSlide>
           <div className="fg">
             <div className="bg">
               <p className="emFB">{artifact.description}</p>
@@ -36,28 +47,31 @@ const Slides = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactIm
           </div>
         </SwiperSlide>
 
-         {artifact.categories.waves.map((el) => {
-          return(
-          <SwiperSlide key={el.id}>
-          <div className="fg">
-            <div className="bg">
-              <div className="left description">
-                <h4 className="emTitle" >{el.title}</h4>
-                <Speech text={el.description} />
-                <p style={{ fontSize: `${settings.fontSize}` }}>{el.description}</p>
-              </div>
+        {artifact.categories.waves.map((el) => {
+          return (
+            <SwiperSlide key={el.id}>
+              <div className="fg">
+                <div className="bg">
+                  <div className="left description">
+                    <h4 className="emTitle">{el.title}</h4>
+                    <Speech text={el.description} />
+                    <p style={{ fontSize: `${settings.fontSize}` }}>
+                      {el.description}
+                    </p>
+                  </div>
 
-              <div className="right">
-                <SlideImage img={artifactImg1} />
+                  <div className="right">
+                    <SlideImage img={artifactImg1} />
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        )})}
-        <SwiperSlide >
+            </SwiperSlide>
+          );
+        })}
+        <SwiperSlide>
           <div className="fg">
             <div className="bg">
-              <p className="emFB" >{artifact.ending}</p>
+              <p className="emFB">{artifact.ending}</p>
             </div>
           </div>
         </SwiperSlide>

@@ -1,6 +1,6 @@
-import SlidesElectromagnetic from "../components/slides/slidesElectromagnetic.jsx"
+import SlidesElectromagnetic from "../components/slides/slidesElectromagnetic.jsx";
 import NavStation7 from "../components/nav/navStation7.jsx";
-import Loop from '../components/loop'
+import Loop from "../components/loop";
 import StationHeader from "../components/StationHeader/StationHeader.jsx";
 import { getLocalizedArtifact } from "../assets/Localization.js";
 import { ELECTROMAGNETIC_WAVES } from "../assets/ArtifactTags.js";
@@ -13,7 +13,7 @@ function Polarization() {
       <StationHeader nav={<NavStation7 />} artifact={artifact} />
       <div className="emhead">
         <div className="sectiontitle">
-          <h1 className="artifactTitle" >{artifact.slideTitle}</h1>
+          <h1 className="artifactTitle">{artifact.slideTitle}</h1>
         </div>
       </div>
       <Loop />

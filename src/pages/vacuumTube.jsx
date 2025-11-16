@@ -1,7 +1,7 @@
-import Slides from '../components/slides/slides'
-import Menu from '../components/menu/menu'
-import Accessibility from '../components/accessibility/accessibility'
-import Loop from '../components/loop'
+import Slides from "../components/slides/slides";
+import Menu from "../components/menu/menu";
+import Accessibility from "../components/accessibility/accessibility";
+import Loop from "../components/loop";
 import { getLocalizedArtifact } from "../assets/Localization.js";
 import { VACUUM_TUBE } from "../assets/ArtifactTags.js";
 
@@ -24,7 +24,7 @@ function VacuumTube() {
       <Loop />
       <Slides artifact={artifact} />
     </div>
-  )
+  );
 }
 
-export default VacuumTube
+export default VacuumTube;

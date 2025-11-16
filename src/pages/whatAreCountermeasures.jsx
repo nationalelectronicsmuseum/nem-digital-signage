@@ -1,10 +1,10 @@
 import Slides from "../components/slides/slides.jsx";
 import NavStation14 from "../components/nav/navStation14.jsx";
-import Loop from '../components/loop.jsx'
+import Loop from "../components/loop.jsx";
 import StationHeader from "../components/StationHeader/StationHeader.jsx";
 import { getLocalizedArtifact } from "../assets/Localization.js";
 import { WHAT_ARE_COUNTERMEASURES } from "../assets/ArtifactTags.js";
-import sectionPlaceholder from "../assets/img/section.jpg"
+import sectionPlaceholder from "../assets/img/section.jpg";
 
 export default function Station14Section1() {
   const artifact = getLocalizedArtifact(WHAT_ARE_COUNTERMEASURES);
@@ -18,7 +18,11 @@ export default function Station14Section1() {
         </div>
       </div>
       <Loop />
-      <Slides artifact={artifact} artifactImg1={sectionPlaceholder} artifactImg2={sectionPlaceholder} />
+      <Slides
+        artifact={artifact}
+        artifactImg1={sectionPlaceholder}
+        artifactImg2={sectionPlaceholder}
+      />
     </div>
   );
 }

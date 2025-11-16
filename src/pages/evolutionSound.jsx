@@ -1,11 +1,11 @@
-import Slides from '../components/slides/slides'
-import artifact from '../assets/database/artifact'
-import NavStation6 from '../components/nav/navStation6.jsx'
-import Loop from '../components/loop'
-import StationHeader from '../components/StationHeader/StationHeader.jsx'
+import Slides from "../components/slides/slides";
+import artifact from "../assets/database/artifact";
+import NavStation6 from "../components/nav/navStation6.jsx";
+import Loop from "../components/loop";
+import StationHeader from "../components/StationHeader/StationHeader.jsx";
 
 function EvolutionSound() {
-  const data = artifact.filter(x => x.title === "The Evolution of Sound")
+  const data = artifact.filter((x) => x.title === "The Evolution of Sound");
   return (
     <div>
       <StationHeader nav={<NavStation6 />} artifact={artifact} />
@@ -17,7 +17,7 @@ function EvolutionSound() {
       <Loop />
       <Slides artifact={data[0]} />
     </div>
-  )
+  );
 }
 
-export default EvolutionSound
+export default EvolutionSound;

@@ -1,10 +1,10 @@
 import Slides from "../components/slides/slides.jsx";
 import NavStation8 from "../components/nav/navStation8.jsx";
-import Loop from '../components/loop.jsx'
+import Loop from "../components/loop.jsx";
 import StationHeader from "../components/StationHeader/StationHeader.jsx";
 import { getLocalizedArtifact } from "../assets/Localization.js";
 import { VACUUM_TUBE_TYPES } from "../assets/ArtifactTags.js";
-import sectionPlaceholder from "../assets/img/section.jpg"
+import sectionPlaceholder from "../assets/img/section.jpg";
 
 export default function Station8Section2() {
   const artifact = getLocalizedArtifact(VACUUM_TUBE_TYPES);
@@ -18,7 +18,11 @@ export default function Station8Section2() {
         </div>
       </div>
       <Loop />
-      <Slides artifact={artifact} artifactImg1={sectionPlaceholder} artifactImg2={sectionPlaceholder} />
+      <Slides
+        artifact={artifact}
+        artifactImg1={sectionPlaceholder}
+        artifactImg2={sectionPlaceholder}
+      />
     </div>
   );
 }

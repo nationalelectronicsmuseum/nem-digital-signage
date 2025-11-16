@@ -25,7 +25,7 @@ import Marconi from "./pages/marconi";
 import FirstBroadcast from "./pages/firstBroadcast";
 import EvolutionSound from "./pages/evolutionSound";
 import Telegraph from "./pages/telegraph";
-import Electromagnetic from "./pages/electromagnetic.jsx"
+import Electromagnetic from "./pages/electromagnetic.jsx";
 import VacuumTube from "./pages/vacuumTube";
 import Station8Section1 from "./pages/vacuumTubeHistory.jsx";
 import Station8Section2 from "./pages/vacuumTubeTypes.jsx";
@@ -94,18 +94,30 @@ function App() {
               <Route path="/jumping-wires" element={<JumpingWires />} />
               <Route path="/jacobs-ladder" element={<JacobsLadder />} />
               <Route path="/human-dynamo" element={<HumanDynamo />} />
-              <Route path="/static-electricity" element={<StaticElectricity />} />
+              <Route
+                path="/static-electricity"
+                element={<StaticElectricity />}
+              />
               <Route path="/manual-turbine" element={<Turbine />} />
               <Route path="/vandegraaff" element={<Graaff />} />
 
               <Route path="/station3" element={<Station3 />} />
               <Route path="/theremin" element={<Theremin />} />
-              <Route path="/station3-visible-electromagnetic-waves" element={<VisibleElectronicWaves stationNumber={3} />} />
+              <Route
+                path="/station3-visible-electromagnetic-waves"
+                element={<VisibleElectronicWaves stationNumber={3} />}
+              />
               <Route path="/polarization" element={<Polarization />} />
-              <Route path="/evolution-recorded-sound" element={<EvolutionRecordedSound />} />
+              <Route
+                path="/evolution-recorded-sound"
+                element={<EvolutionRecordedSound />}
+              />
 
               <Route path="/station4" element={<Station4 />} />
-              <Route path="/microwave-turntable" element={<MicrowaveTurntable />} />
+              <Route
+                path="/microwave-turntable"
+                element={<MicrowaveTurntable />}
+              />
 
               <Route path="/station5" element={<Station5 />} />
 
@@ -120,7 +132,10 @@ function App() {
               <Route path="/station7" element={<Station7 />} />
               <Route path="/telegraph" element={<Telegraph />} />
               <Route path="/electromagnetic" element={<Electromagnetic />} />
-              <Route path="/station7-visible-electromagnetic-waves" element={<VisibleElectronicWaves stationNumber={7} />} />
+              <Route
+                path="/station7-visible-electromagnetic-waves"
+                element={<VisibleElectronicWaves stationNumber={7} />}
+              />
 
               <Route path="/vacuum-tubes" element={<VacuumTube />} />
 
@@ -129,7 +144,10 @@ function App() {
               <Route path="/station8" element={<Station8 />} />
               <Route path="/vacuumTubeHistory" element={<Station8Section1 />} />
               <Route path="/vacuumTubeTypes" element={<Station8Section2 />} />
-              <Route path="/howDoVacuumTubesWork" element={<Station8Section3 />} />
+              <Route
+                path="/howDoVacuumTubesWork"
+                element={<Station8Section3 />}
+              />
 
               <Route path="/station10" element={<Station10 />} />
               <Route path="/proximityFuse" element={<Station10Section1 />} />
@@ -153,22 +171,43 @@ function App() {
               <Route path="/dopplerHistory" element={<Station13Section2 />} />
               <Route path="/bomarc" element={<Station13Section3 />} />
               <Route path="/modernDopplerUse" element={<Station13Section4 />} />
-              <Route path="/dopplerOralHistory" element={<Station13Section5 />} />
+              <Route
+                path="/dopplerOralHistory"
+                element={<Station13Section5 />}
+              />
 
               <Route path="/station14" element={<Station14 />} />
-              <Route path="/whatAreCountermeasures" element={<Station14Section1 />} />
+              <Route
+                path="/whatAreCountermeasures"
+                element={<Station14Section1 />}
+              />
               <Route path="/chaff" element={<Station14Section2 />} />
               <Route path="/decoys" element={<Station14Section3 />} />
-              <Route path="/typesOfCountermeasures" element={<Station14Section4 />} />
-              <Route path="/countermeasureBiography" element={<Station14Section5 />} />
+              <Route
+                path="/typesOfCountermeasures"
+                element={<Station14Section4 />}
+              />
+              <Route
+                path="/countermeasureBiography"
+                element={<Station14Section5 />}
+              />
 
               <Route path="/station15" element={<Station15 />} />
-              <Route path="/satellitesAndHowTheyWork" element={<Station15Section1 />} />
+              <Route
+                path="/satellitesAndHowTheyWork"
+                element={<Station15Section1 />}
+              />
               <Route path="/lunarCamera" element={<Station15Section2 />} />
               <Route path="/telstar" element={<Station15Section3 />} />
 
-              <Route path="/station3audio" element={<Audio stationNumber={3} />} />
-              <Route path="/station4audio" element={<Audio stationNumber={4} />} />
+              <Route
+                path="/station3audio"
+                element={<Audio stationNumber={3} />}
+              />
+              <Route
+                path="/station4audio"
+                element={<Audio stationNumber={4} />}
+              />
               <Route path="/marconi" element={<Marconi />} />
               <Route path="/telegraph" element={<Telegraph />} />
             </Routes>

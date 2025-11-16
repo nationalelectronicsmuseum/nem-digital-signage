@@ -9,21 +9,38 @@ import "swiper/css/navigation";
 import "./slides.css";
 import Speech from "../speech/speech";
 import { useSettings } from "../../components/AccessibilitySettings/AccessibilitySettings.jsx";
-import { useSpeechSynthesis } from '../speech/useSpeechSynthesis.jsx';
+import { useSpeechSynthesis } from "../speech/useSpeechSynthesis.jsx";
 import SlideImage from "../slideImage/SlideImage.jsx";
 import { useImageOverlay } from "../OverlayImage/OverlayImageContext.jsx";
 import { getLocalizedStringConstant } from "../../assets/Localization.js";
 
-const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3, artifactImg4 }) => {
+const SlidesVanderGraaff = ({
+  artifact,
+  artifactImg1,
+  artifactImg2,
+  artifactImg3,
+  artifactImg4,
+}) => {
   const { settings, setSettings } = useSettings();
-  const { voices, speechStatus, toggle, stop: stopSpeech } = useSpeechSynthesis();
+  const {
+    voices,
+    speechStatus,
+    toggle,
+    stop: stopSpeech,
+  } = useSpeechSynthesis();
   const { openOverlay } = useImageOverlay();
 
   const theImpactHeaderText = getLocalizedStringConstant("The Impact:");
   const whatToWatchHeaderText = getLocalizedStringConstant("What to Watch:");
   const whatsGoingOnHeaderText = getLocalizedStringConstant("What's Going On:");
-  const speechHow = artifact.howGraaff.info.join(" ") + " " + artifact.howGraaff.list.map((x) => x.item + " " + x.description).join(" ")
-  const speechTry = artifact.try.title + " " + artifact.try.steps.map((x) => x.name + " " + x.text).join(" ")
+  const speechHow =
+    artifact.howGraaff.info.join(" ") +
+    " " +
+    artifact.howGraaff.list.map((x) => x.item + " " + x.description).join(" ");
+  const speechTry =
+    artifact.try.title +
+    " " +
+    artifact.try.steps.map((x) => x.name + " " + x.text).join(" ");
 
   return (
     <div className="swiperMain">
@@ -42,14 +59,23 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
             <div className="bg">
               <div className="left description">
                 <Speech text={artifact.description} />
-                
 
-                <p style={{ fontSize: `${settings.fontSize}` }}>{artifact.description}</p>
+                <p style={{ fontSize: `${settings.fontSize}` }}>
+                  {artifact.description}
+                </p>
 
                 <ul>
                   {artifact.info.map((el) => {
                     return (
-                      <li key={el.id} className="info" style={{ fontSize: `${settings.fontSize}`, fontStyle: "italic", fontWeight: "300" }}>
+                      <li
+                        key={el.id}
+                        className="info"
+                        style={{
+                          fontSize: `${settings.fontSize}`,
+                          fontStyle: "italic",
+                          fontWeight: "300",
+                        }}
+                      >
                         {el.text}
                       </li>
                     );
@@ -64,7 +90,6 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
           </div>
         </SwiperSlide>
 
-
         {/* Slide 2 */}
         <SwiperSlide>
           <div className="bg">
@@ -73,7 +98,10 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
                 <h3>{theImpactHeaderText}</h3> <Speech text={artifact.impact} />
               </span>
 
-              <p className="description" style={{ fontSize: `${settings.fontSize}` }}>
+              <p
+                className="description"
+                style={{ fontSize: `${settings.fontSize}` }}
+              >
                 {artifact.impact}
               </p>
             </div>
@@ -83,24 +111,34 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
           </div>
         </SwiperSlide>
 
-
         {/* Slide 3 */}
         <SwiperSlide>
           <div className="bg">
             <div className="left">
+              <span>
+                <h3>{artifact.howGraaff.title}</h3> <Speech text={speechHow} />
+              </span>
+              <span style={{ fontSize: `${settings.fontSize}` }}>
+                {artifact.howGraaff.info[0]}
+              </span>
+              <span style={{ fontSize: `${settings.fontSize}` }}>
+                {artifact.howGraaff.info[1]}
+              </span>
 
-              <span><h3>{artifact.howGraaff.title}</h3> <Speech text={speechHow} /></span>
-              <span style={{fontSize: `${settings.fontSize}`}}>{artifact.howGraaff.info[0]}</span>
-              <span style={{fontSize: `${settings.fontSize}`}}>{artifact.howGraaff.info[1]}</span>
-
-              <ol className="swipe-directions" style={{ paddingLeft: `${settings.listPadding}` }}>
+              <ol
+                className="swipe-directions"
+                style={{ paddingLeft: `${settings.listPadding}` }}
+              >
                 {artifact.howGraaff.list.map((el) => {
                   return (
                     <li
                       key={el.id}
                       className="swipe-directions"
-                      style={{ fontSize: `${settings.fontSize}` }}>
-                     <span style={{fontWeight : "bold"}}>{el.item}</span> <br style={{display: "none"}}/>{el.description}
+                      style={{ fontSize: `${settings.fontSize}` }}
+                    >
+                      <span style={{ fontWeight: "bold" }}>{el.item}</span>{" "}
+                      <br style={{ display: "none" }} />
+                      {el.description}
                     </li>
                   );
                 })}
@@ -111,38 +149,54 @@ const SlidesVanderGraaff = ({ artifact, artifactImg1, artifactImg2, artifactImg3
               <SlideImage img={artifactImg3} />
             </div>
           </div>
-          
         </SwiperSlide>
 
         {/* Slide 4 */}
         <SwiperSlide>
           <div className="bg">
             <div className="left">
+              <span>
+                <h3>{artifact.try.title}</h3> <Speech text={speechTry} />
+              </span>
 
-              <span><h3>{artifact.try.title}</h3> <Speech text={speechTry} /></span>
-
-              <ol className="swipe-directions" style={{ paddingLeft: `${settings.listPadding}` }}>
+              <ol
+                className="swipe-directions"
+                style={{ paddingLeft: `${settings.listPadding}` }}
+              >
                 {artifact.try.steps.map((el) => {
                   return (
                     <li
                       key={el.id}
                       className="swipe-directions"
-                      style={{ fontSize: `${settings.fontSize}` }}>
-                     <span style={{ fontWeight: "bold"}}>{el.name}</span> <br style={{ display: "none"}}/> {el.text}
+                      style={{ fontSize: `${settings.fontSize}` }}
+                    >
+                      <span style={{ fontWeight: "bold" }}>{el.name}</span>{" "}
+                      <br style={{ display: "none" }} /> {el.text}
                     </li>
                   );
                 })}
               </ol>
-              {artifact.watch ? <span><h4 className="watchHeader">{whatToWatchHeaderText}</h4> <Speech text={artifact.watch}/></span> : ""}
-              
-              <p className="watchPara" style={{ fontSize: `${settings.fontSize}` }}>{artifact.watch}</p>
+              {artifact.watch ? (
+                <span>
+                  <h4 className="watchHeader">{whatToWatchHeaderText}</h4>{" "}
+                  <Speech text={artifact.watch} />
+                </span>
+              ) : (
+                ""
+              )}
+
+              <p
+                className="watchPara"
+                style={{ fontSize: `${settings.fontSize}` }}
+              >
+                {artifact.watch}
+              </p>
             </div>
 
             <div className="right">
-            <SlideImage img={artifactImg4} />
+              <SlideImage img={artifactImg4} />
             </div>
           </div>
-          
         </SwiperSlide>
       </Swiper>
     </div>

@@ -14,8 +14,8 @@ export default function Station6() {
   return (
     <div>
       <div className="accs">
-              <Accessibility />
-            </div>
+        <Accessibility />
+      </div>
 
       <div className="border">
         <h1 className="title">National Electronics Museum</h1>
