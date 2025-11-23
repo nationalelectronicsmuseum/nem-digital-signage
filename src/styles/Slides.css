@@ -1,0 +1,9 @@
+.swiper,
+.swiper-slide {
+  height: 100%;
+}
+
+.split-container {
+  display: flex;
+  height: 100%;
+}

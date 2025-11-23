@@ -1,0 +1,32 @@
+{
+  "font": [
+    {
+      "name": "Arial",
+      "fontCode": "Arial, Helvetica, sans-serif",
+      "default": true
+    },
+    {
+      "name": "Times New Roman",
+      "fontCode": "Times New Roman, Times, serif"
+    },
+    {
+      "name": "Dyslex",
+      "fontCode": "OpenDyslexicMono"
+    }
+  ],
+  "fontSize": [
+    {
+        "name": "Small",
+        "point": "24pt"
+    },
+    {
+        "name": "Medium",
+        "point": "35pt",
+        "default": true
+    },
+    {
+        "name": "Large",
+        "point": "45pt"
+    }
+  ]
+}

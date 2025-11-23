@@ -1,0 +1,17 @@
+{
+  "padding": [
+    {
+        "name": "Small",
+        "padding": "36px"
+    },
+    {
+        "name": "Medium",
+        "padding": "50px",
+        "default": true
+    },
+    {
+        "name": "Large",
+        "padding": "65px"
+    }
+  ]
+}

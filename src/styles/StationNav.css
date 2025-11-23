@@ -1,0 +1,10 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.transparent {
+  opacity: 0;
+}

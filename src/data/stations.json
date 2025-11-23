@@ -1,0 +1,54 @@
+{
+  "stations": [
+    {
+      "id": "station1",
+      "name": "Station 1",
+      "sections": [
+        {
+          "id": "VoltageAndCurrent",
+          "title": "Voltage and Current",
+          "image": "/images/voltcurr.png",
+          "slides": [
+            { "type": "TextSlide", "text": "Welcome to Station One" },
+            { "type": "ImageSlide", "artifactId": "artifact1" },
+            { "type": "DemoSlide", "demoId": "demoA" }
+          ]
+        },
+        {
+          "id": "HumanBattery",
+          "title": "Human Battery",
+          "image": "/images/humanbatt.png",
+          "slides": [
+            { "type": "VideoSlide", "videoUrl": "/videos/demo.mp4" },
+            { "type": "ConceptSlide", "conceptId": "conceptX" }
+          ]
+        },
+        {
+          "id": "Oersted",
+          "title": "Oersted",
+          "image": "/images/oersted1.jpg",
+          "slides": [
+            { "type": "VideoSlide", "videoUrl": "/videos/demo.mp4" },
+            { "type": "ConceptSlide", "conceptId": "conceptX" }
+          ]
+        },
+        {
+          "id": "TheFaradayProject",
+          "title": "The Faraday Project",
+          "image": "/images/faraday.png",
+          "slides": [
+            { "type": "VideoSlide", "videoUrl": "/videos/demo.mp4" },
+            { "type": "ConceptSlide", "conceptId": "conceptX" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "station2",
+      "name": "Station 2",
+      "sections": [
+        
+      ]
+    }
+  ]
+}

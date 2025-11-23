@@ -1,0 +1,14 @@
+.index-station-link {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.station-button {
+    border-radius: 10px;
+    padding: 10px 50px;
+    font-size: x-large;
+    font-weight: bold;
+    background: linear-gradient(180deg, #5b0b0b 80%, #555555 100%);
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.6);;
+    color: #eeeeee;
+}

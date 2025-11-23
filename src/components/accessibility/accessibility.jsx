@@ -1,7 +1,6 @@
 import { useState } from "react";
-import "./accessibility.css";
-import aIcon from "../../assets/img/accessibleIcon.svg";
-import { useSettings } from "../../components/AccessibilitySettings/AccessibilitySettings.jsx";
+import aIcon from "/images/accessibleIcon.svg?url";
+import { useSettings } from "../../context/SettingsContext.jsx";
 import { useSpeechSynthesis } from "../speech/useSpeechSynthesis.jsx";
 import * as Constant from "../../assets/Constants.js";
 

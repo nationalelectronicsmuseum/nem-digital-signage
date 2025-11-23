@@ -1,0 +1,35 @@
+{
+  "languages": [
+    {
+      "name": "English",
+      "languageCode": "en",
+      "speechCode": "en-CA",
+      "default": "true"
+    },
+    {
+      "name": "Spanish",
+      "languageCode": "es",
+      "speechCode": "es-MX"
+    },
+    {
+      "name": "French",
+      "languageCode": "fr",
+      "speechCode": "fr-FR"
+    },
+    {
+      "name": "German",
+      "languageCode": "de",
+      "speechCode": "de-DE"
+    },
+    {
+      "name": "Chinese",
+      "languageCode": "zh-CN",
+      "speechCode": "zh-CN"
+    },
+    {
+      "name": "Japanese",
+      "languageCode": "ja",
+      "speechCode": "ja-JP"
+    }
+  ]
+}

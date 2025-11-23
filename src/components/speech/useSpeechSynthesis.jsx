@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { useSettings } from "../AccessibilitySettings/AccessibilitySettings.jsx";
+import { useSettings } from "../../context/SettingsContext.jsx";
 
 export function useSpeechSynthesis() {
   const { settings, setSettings } = useSettings();
