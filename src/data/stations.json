@@ -9,7 +9,7 @@
           "title": "Voltage and Current",
           "image": "/images/voltcurr.png",
           "slides": [
-            { "type": "TextSlide", "text": "Welcome to Station One" },
+            { "type": "TextImageSlideA", "artifactId": "artifact1" },
             { "type": "ImageSlide", "artifactId": "artifact1" },
             { "type": "DemoSlide", "demoId": "demoA" }
           ]

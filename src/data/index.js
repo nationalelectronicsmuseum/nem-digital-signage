@@ -1,11 +1,9 @@
-import artifacts from "./artifacts.json";
-import demo from "./demo.json";
-import concept from "./concept.json";
-
-const DataRegistry = {
-  artifacts,
-  demo,
-  concept,
-};
+const modules = import.meta.glob("./*.json", { eager: true });
+const DataRegistry = Object.fromEntries(
+  Object.entries(modules).map(([path, content]) => {
+    const name = path.split("/").pop().replace(".json", "");
+    return [name, content];
+  })
+);
 
 export default DataRegistry;
