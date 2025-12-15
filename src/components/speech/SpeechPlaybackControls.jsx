@@ -1,12 +1,11 @@
-import { useContext } from "react";
-import "../speech/speech.css";
-import iconPlay from "../../assets/img/icon_play.svg";
-import iconStop from "../../assets/img/icon_stop.svg";
-import iconPause from "../../assets/img/icon_pause.svg";
-import { useSettings } from "../../components/AccessibilitySettings/AccessibilitySettings.jsx";
-import { useSpeechSynthesis } from "../speech/useSpeechSynthesis";
+import "../../styles/SpeechPlaybackControls.css";
+import iconPlay from "/images/icon_play.svg?url";
+import iconStop from "/images/icon_stop.svg?url";
+import iconPause from "/images/icon_pause.svg?url";
+import { useSettings, isSpeechEnabled } from "../../context/SettingsContext.jsx";
+import { useSpeechSynthesis } from "./useSpeechSynthesis.jsx";
 
-function Speech({ text }) {
+function SpeechPlaybackControls({ text }) {
   const { settings, setSettings } = useSettings();
   const { voices, status, toggle, stop } = useSpeechSynthesis();
 
@@ -19,7 +18,7 @@ function Speech({ text }) {
   return (
     <div>
       <div className="speechPlayer">
-        <div className={settings.speechEnabled ? "present" : "hiddenPlayer"}>
+        <div className={isSpeechEnabled() ? "present" : "hiddenPlayer"}>
           <button onClick={() => toggle(text)} className="speech">
             <img src={playButtonLabel} className="iconImg"></img>
           </button>
@@ -32,4 +31,4 @@ function Speech({ text }) {
   );
 }
 
-export default Speech;
+export default SpeechPlaybackControls;

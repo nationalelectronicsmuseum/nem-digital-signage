@@ -20,6 +20,11 @@ const SettingsContext = createContext();
 
 export const useSettings = () => useContext(SettingsContext);
 
+export const isSpeechEnabled = () => {
+  const {settings, setSettings} = useSettings();
+  return settings.speechEnabled.value;
+};
+
 export const SettingsProvider = ({ children }) => {
   const [settings, setSettings] = useState(() => {
     const saved = localStorage.getItem("appSettings");

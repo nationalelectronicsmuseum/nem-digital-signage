@@ -10,7 +10,7 @@ export default function AccessibilityMenu({ menuRef }) {
   return (
     <div ref={menuRef} className="accessibility-menu-container">
       <h2 className="accessibility-menu-title">Accessibility Menu</h2>
-
+      <div>{JSON.stringify(settings)}</div>
       <SettingGroup
         label="Language"
         options={languagesJson.languages}

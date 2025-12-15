@@ -23,12 +23,12 @@ export function useSpeechSynthesis() {
     stop(); // always clear previous
     const utterance = new SpeechSynthesisUtterance(text);
     const selectedVoice = voices.find((voice) =>
-      voice.lang.startsWith(settings.speech)
+      voice.lang.startsWith(settings.language.speechCode)
     );
     if (selectedVoice) {
       utterance.voice = selectedVoice;
     } else {
-      alert(`No voice found for language: ${settings.speech}`);
+      alert(`No voice found for language: ${settings.language.speechCode}`);
     }
 
     utterance.onstart = () => setStatus("playing");

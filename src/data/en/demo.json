@@ -1,0 +1,20 @@
+{
+  "demoA": {
+    "title": "Prototype A",
+    "notes": "Works great.",
+    "facts": [
+      {
+        "label": "Year",
+        "value": "2026"
+      },
+      {
+        "label": "Author",
+        "value": "Aubrey Quasney"
+      },
+      {
+        "label": "Color",
+        "value": "Blonde"
+      }
+    ]
+  }
+}

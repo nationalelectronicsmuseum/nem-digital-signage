@@ -1,0 +1,13 @@
+{
+  "slide1": {
+    "left": [
+      "artifacts.artifact1.whatsGoingOn",
+      "concept.conceptX.facts",
+      "demo.demoA.description"
+    ],
+    "right": [
+      "demo.demoA.facts",
+      "artifacts.artifact1.description"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "conceptX": {
+    "title": "Spanish Concept X",
+    "description": "Spanish An important design idea.",
+    "facts": [
+      {
+        "label": "Spanish Year",
+        "value": "3000"
+      },
+      {
+        "label": "Spanish Author",
+        "value": "Jonas Brothers"
+      },
+      {
+        "label": "Spanish Color",
+        "value": "Red"
+      }
+    ]
+  }
+}

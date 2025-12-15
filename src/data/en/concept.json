@@ -1,0 +1,20 @@
+{
+  "conceptX": {
+    "title": "Concept X",
+    "description": "An important design idea.",
+    "facts": [
+      {
+        "label": "Year",
+        "value": "3000"
+      },
+      {
+        "label": "Author",
+        "value": "Jonas Brothers"
+      },
+      {
+        "label": "Color",
+        "value": "Red"
+      }
+    ]
+  }
+}
