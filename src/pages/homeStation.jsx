@@ -84,6 +84,11 @@ function HomeStation() {
             Station 15
           </Link>
         </li>
+        <li>
+          <Link to="/stationHoliday" relative="path" className="homeImg">
+            <strong>Operation Snoopy</strong>
+          </Link>
+        </li>
       </ul>
     </>
   );

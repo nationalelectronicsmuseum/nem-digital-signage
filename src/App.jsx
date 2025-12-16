@@ -70,6 +70,7 @@ import Station12 from "./pages/station12";
 import Station13 from "./pages/station13";
 import Station14 from "./pages/station14";
 import Station15 from "./pages/station15";
+import StationHoliday from "./pages/stationHoliday.jsx";
 
 import HAMRadio from "./pages/hamRadio.jsx";
 import { ImageOverlayProvider } from "./components/OverlayImage/OverlayImageContext.jsx";
@@ -208,6 +209,7 @@ function App() {
                 path="/station4audio"
                 element={<Audio stationNumber={4} />}
               />
+              <Route path="/stationHoliday" element={<StationHoliday />} />
               <Route path="/marconi" element={<Marconi />} />
               <Route path="/telegraph" element={<Telegraph />} />
             </Routes>
