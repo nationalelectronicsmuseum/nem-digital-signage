@@ -8,6 +8,7 @@ import {
 } from "../assets/ArtifactTags.js";
 
 import sectionPlaceholder from "../assets/img/section.jpg";
+import millerGrantLogo from "../assets/img/millerGrant.png";
 
 function Station12() {
   const whatIsRadar = getLocalizedArtifact(WHAT_IS_RADAR);
@@ -15,6 +16,7 @@ function Station12() {
   const awacs = getLocalizedArtifact(AWACS);
   return (
     <div>
+      <img className="grantLogo" src={millerGrantLogo} relative="path"></img>
       <div className="accs">
         <Accessibility />
       </div>

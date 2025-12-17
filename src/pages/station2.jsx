@@ -4,6 +4,7 @@ import homeJumpwire from "../assets/img/jumpwire1.jpg";
 import staticElectricityThumbnail from "../assets/img/static-electricity-section-thumbnail.jpg";
 import humanDynamoThumbnail from "../assets/img/section.jpg";
 import homeGraaff from "../assets/img/graaff1.jpg";
+import millerGrantLogo from "../assets/img/millerGrant.png";
 import Accessibility from "../components/accessibility/accessibility.jsx";
 import { getLocalizedArtifact } from "../assets/Localization.js";
 import {
@@ -22,6 +23,7 @@ export default function Station2() {
   const humanDynamo = getLocalizedArtifact(HUMAN_DYNAMO);
   return (
     <div>
+      <img className="grantLogo" src={millerGrantLogo} relative="path"></img>
       <div className="accs">
         <Accessibility />
       </div>

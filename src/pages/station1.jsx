@@ -3,6 +3,7 @@ import homeOersted from "../assets/img/oersted1.jpg";
 import homeBatt from "../assets/img/humanbatt.png";
 import homeFaraday from "../assets/img/faraday.png";
 import homeVolt from "../assets/img/voltcurr.png";
+import millerGrantLogo from "../assets/img/millerGrant.png";
 import Accessibility from "../components/accessibility/accessibility.jsx";
 import { getLocalizedArtifact } from "../assets/Localization.js";
 import {
@@ -19,6 +20,7 @@ function Station1() {
   const theFaradayProject = getLocalizedArtifact(THE_FARADAY_PROJECT);
   return (
     <div>
+      <img className="grantLogo" src={millerGrantLogo} relative="path"></img>
       <div className="accs">
         <Accessibility />
       </div>

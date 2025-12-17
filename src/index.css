@@ -465,3 +465,10 @@ a {
   grid-column: 2;
   padding-top: 15vh;
 }
+
+.grantLogo {
+  position: fixed;
+  border: black;
+  border-style: solid;
+  top: 20px;
+}

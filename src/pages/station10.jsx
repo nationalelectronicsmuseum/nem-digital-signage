@@ -4,6 +4,7 @@ import { getLocalizedArtifact } from "../assets/Localization.js";
 import { PROXIMITY_FUSE, SCR_270, SCR_399 } from "../assets/ArtifactTags.js";
 
 import sectionPlaceholder from "../assets/img/section.jpg";
+import millerGrantLogo from "../assets/img/millerGrant.png";
 
 function Station10() {
   const proximityFuse = getLocalizedArtifact(PROXIMITY_FUSE);
@@ -11,6 +12,7 @@ function Station10() {
   const scr399 = getLocalizedArtifact(SCR_399);
   return (
     <div>
+      <img className="grantLogo" src={millerGrantLogo} relative="path"></img>
       <div className="accs">
         <Accessibility />
       </div>

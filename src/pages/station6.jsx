@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import infraredThumbnail from "../assets/img/section.jpg";
 import thereminThumbnail from "../assets/img/thereminHome.jpg";
 import bombsightsThumbnail from "../assets/img/section.jpg";
+import millerGrantLogo from "../assets/img/millerGrant.png";
 import { THEREMIN, INFRARED, BOMBSIGHTS } from "../assets/ArtifactTags.js";
 import Accessibility from "../components/accessibility/accessibility.jsx";
 import { getLocalizedArtifact } from "../assets/Localization.js";
@@ -13,6 +14,7 @@ export default function Station6() {
 
   return (
     <div>
+      <img className="grantLogo" src={millerGrantLogo} relative="path"></img>
       <div className="accs">
         <Accessibility />
       </div>

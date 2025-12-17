@@ -7,6 +7,7 @@ import Video from "../components/Video/Video.jsx";
 import hamVideo from "../assets/video/hamRadio.webm";
 import { getLocalizedArtifact } from "../assets/Localization.js";
 import { HAM_RADIO } from "../assets/ArtifactTags.js";
+import millerGrantLogo from "../assets/img/millerGrant.png";
 
 import ham1 from "../assets/img/ham01.png";
 import ham2 from "../assets/img/ham2.png";
@@ -70,6 +71,7 @@ function HAMRadio() {
 
   return (
     <div>
+      <img style={{"left": "100px"}} className="grantLogo" src={millerGrantLogo} relative="path"></img>
       <div className="btnNav">
         <Menu />
         <div className="accs">

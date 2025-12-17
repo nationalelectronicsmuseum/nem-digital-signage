@@ -10,6 +10,7 @@ import {
 } from "../assets/ArtifactTags.js";
 
 import sectionPlaceholder from "../assets/img/section.jpg";
+import millerGrantLogo from "../assets/img/millerGrant.png";
 
 function Station11() {
   const soundsAtSea = getLocalizedArtifact(SOUNDS_AT_SEA);
@@ -19,6 +20,7 @@ function Station11() {
   const veteranSeas = getLocalizedArtifact(VETERAN_SEAS);
   return (
     <div>
+      <img className="grantLogo" src={millerGrantLogo} relative="path"></img>
       <div className="accs">
         <Accessibility />
       </div>

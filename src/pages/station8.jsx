@@ -8,6 +8,7 @@ import {
 } from "../assets/ArtifactTags.js";
 
 import sectionPlaceholder from "../assets/img/section.jpg";
+import millerGrantLogo from "../assets/img/millerGrant.png";
 
 function Station8() {
   const vacuumTubeHistory = getLocalizedArtifact(VACUUM_TUBE_HISTORY);
@@ -15,6 +16,7 @@ function Station8() {
   const howDoVacuumTubesWork = getLocalizedArtifact(HOW_DO_VACUUM_TUBES_WORK);
   return (
     <div>
+      <img className="grantLogo" src={millerGrantLogo} relative="path"></img>
       <div className="accs">
         <Accessibility />
       </div>

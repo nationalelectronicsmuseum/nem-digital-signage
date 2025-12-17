@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import homePolar from "../assets/img/polarHome.png";
 import homeWaves from "../assets/img/wavesHome.jpg";
 import homeEwaves from "../assets/img/ewaves1.webp";
+import millerGrantLogo from "../assets/img/millerGrant.png";
 import Accessibility from "../components/accessibility/accessibility.jsx";
 import { getLocalizedArtifact } from "../assets/Localization.js";
 import {
@@ -18,6 +19,7 @@ export default function Station7() {
   );
   return (
     <div>
+      <img className="grantLogo" src={millerGrantLogo} relative="path"></img>
       <div className="accs">
         <Accessibility />
       </div>

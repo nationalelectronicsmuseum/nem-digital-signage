@@ -10,6 +10,7 @@ import {
 } from "../assets/ArtifactTags.js";
 
 import sectionPlaceholder from "../assets/img/section.jpg";
+import millerGrantLogo from "../assets/img/millerGrant.png";
 
 function Station14() {
   const whatAreCountermeasures = getLocalizedArtifact(WHAT_ARE_COUNTERMEASURES);
@@ -21,6 +22,7 @@ function Station14() {
   );
   return (
     <div>
+      <img className="grantLogo" src={millerGrantLogo} relative="path"></img>
       <div className="accs">
         <Accessibility />
       </div>

@@ -8,6 +8,7 @@ import {
 } from "../assets/ArtifactTags.js";
 
 import sectionPlaceholder from "../assets/img/section.jpg";
+import millerGrantLogo from "../assets/img/millerGrant.png";
 
 function Station15() {
   const satellitesAndHowTheyWork = getLocalizedArtifact(
@@ -17,6 +18,7 @@ function Station15() {
   const telstar = getLocalizedArtifact(TELSTAR);
   return (
     <div>
+      <img className="grantLogo" src={millerGrantLogo} relative="path"></img>
       <div className="accs">
         <Accessibility />
       </div>

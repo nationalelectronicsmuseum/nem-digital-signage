@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import homeAudio from "../assets/img/audiotrans1.jpg";
 import telegraphThumbnail from "../assets/img/section.jpg";
 import homeMarconi from "../assets/img/marconi1.jpg";
+import millerGrantLogo from "../assets/img/millerGrant.png";
 import Accessibility from "../components/accessibility/accessibility.jsx";
 import { getLocalizedArtifact } from "../assets/Localization.js";
 import {
@@ -18,6 +19,7 @@ export default function Station3() {
   );
   return (
     <div>
+      <img className="grantLogo" src={millerGrantLogo} relative="path"></img>
       <div className="accs">
         <Accessibility />
       </div>
