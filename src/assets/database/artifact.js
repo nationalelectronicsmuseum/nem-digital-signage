@@ -1252,33 +1252,33 @@ const data = [
     tag: 25,
     stationTitle: "Human Dynamo",
     slideTitle: "Human Dynamo",
-    info: [
-      {
-        id: 1,
-        text: "",
-      },
-    ],
-    description: ["Coming soon."],
-    impact: "Impact",
-    directions: {
-      title: "How it Works:",
+    description: "This demonstration empowers the user to Generate Electric Power. A hand crank rapidly turns an Alternator, producing electric power to Illuminate an adjacent LED panel and drive two Voltmeters. The Lower Voltmeter indicates Instantaneous Voltage. The Upper Voltmeter shows the Progressive Voltage Increase of a Capacitor as it is Charged by the Dynamo. If the user cranks long enough, the Capacitor Charges to its Full Potential and a “GOAL” light flashes. When the user is finished, and after a short delay, the demo resets itself for the next user.",
+    impact: "The adoption of Alternating Current (AC) as a standard for Electric Power Transmission allowed efficient long-distance distribution and integration into a Wide Area National Grid. Edison’s DC system would have required Many Power Plants every mile or so.",
+    watch: "Observe the LED light panels next to the generator.  You will notice that they don’t light up until you crank rapidly and produce higher voltage.\n\nLook at the lower bar-graph Instant Voltmeter. The voltage it indicates is directly proportional to the speed at which you turn the crank.\n\nYou will notice that the Upper Capacitor Charge Meter will initially increase quickly as you crank. The Rate of that increase Decreases the closer the meter gets to Full Scale. The charge capacitor demonstrates storage of POTENTIAL ENERGY for later use.",
+    how: "When the crank is rapidly turned, a drive belt transfers your Rotational Kinetic Energy to a small Alternator. An Alternator is an alternating current generator like the one that recharges your car battery and provides power to the vehicle. It works by Moving high power permanent Magnets by Coils of Wire. As each magnet passes a coil, a Current is induced. Since adjacent magnets are arranged with Opposing Polarities, and adjacent Coils are wound in Inverse Directions, the Current will constantly Flip back and forth - or Alternate. The faster the crank is turned, the faster it will alternate (higher frequency).\nThe Alternating Current (AC) in your house flips polarity as a sinusoidal waveform at a frequency of 60 cycles per second. Rapid Rotation of the demo’s crank will cause this Generator to produce more Power at a higher Frequency. This Alternating Current is then RECTIFIED or converted to a Pulsating Direct Current by a Rectifier. The pulsations are then smoothed out by a Filter capacitor. The result is continuous Direct Current (DC) like that obtained from a Battery.",
+    what: "The Rectified and Filtered DC Current from the generator directly powers the LED light panels next to it.  They don’t light up until you crank fast enough.  This is characteristic of LED’s, which will only illuminate when a specific voltage threshold is reached.  For these lights, that threshold is about 20 Volts, which you can observe on the Lower Bar-Graph Meter. As you keep rapidly turning the crank, the Upper Charge Meter will slowly increase. You will notice that the rate of that increase decreases the higher the meter gets.  This is typical of the charging curve for capacitors and batteries. BUT DON’T GIVE UP! If you reach full charge, the Fully Charged GOAL LIGHT will FLASH!",
+    funFact: "This Alternator is like those designed by Michael Faraday and refined by Nikola Tesla. It relies on Wireless Induction to internally transfer power, unlike Direct Current (DC) generators designed by Thomas Edison’s Lab. Edison’s Dynamos need physical contact (Brushes) to their moving parts to Generate electricity.",
+    try: {
+      title: "Try this:",
       steps: [
         {
           id: 1,
-          step: "Step 1",
+          text: "Turn the crank Slowly. The lower Voltmeter will begin to increase, but the lights next to the dynamo will not illuminate. Those LED lamps need at least 20 volts to glow.",
         },
         {
           id: 2,
-          step: "Step 2",
+          text: "Turn the crank Faster. The LED’s begin to Light Up, the Voltmeter will indicate at least 20 volts and the upper Charge Indicator Meter will begin to increase.",
         },
         {
           id: 3,
-          step: "Step 3",
+          text: "Keep Rapidly Cranking! The Voltmeter will stay above 20 volts and the LED lights will stay On. The Meter continues to Rise, but will start Slowing Down, eventually reaching Full Scale."
         },
+        {
+          id: 4,
+          text: "At Full Scale, the FULL CHARGE Goal light will Flash."
+        }
       ],
     },
-    watch: "Coming soon",
-    how: "Coming soon",
   },
   {
     tag: 26,
