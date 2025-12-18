@@ -1,6 +1,11 @@
 import Accessibility from "../components/accessibility/accessibility.jsx";
 import { useState } from "react";
 
+import profSnoopy from "../assets/img/profSnoopy.jpg";
+import snoopy from "../assets/img/snoopy.gif";
+
+import "./snowflakes.css"
+
 const TARGET_HASH = "4a88df5310e4662bf1f5715d6cdc40c1f4daa7345d14ee9ec00c546c56f45be3";
 
 async function hashString(value) {
@@ -45,8 +50,66 @@ function StationHoliday() {
     alignItems: "center"
   };
 
+  const imgContainerStyle = {
+    display: "flex",
+    justifyContent: "space-around",
+    marginTop: "100px"
+  };
+
   return (
     <div>
+      <div class="initial-snow">
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+		<div class="snow">&#10052;</div>
+	</div>
       <div className="accs">
         <Accessibility />
       </div>
@@ -75,6 +138,10 @@ function StationHoliday() {
             </button>
           </span>
         </form>
+      </div>
+      <div style={imgContainerStyle}>
+        <img src={snoopy}></img>
+        <img style={{height: "220px"}} src={profSnoopy}></img>
       </div>
     </div>
   );
