@@ -38,6 +38,13 @@ function StationHoliday() {
     margin: "10px",
   };
 
+  const formStyle = {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center"
+  };
+
   return (
     <div>
       <div className="accs">
@@ -57,11 +64,8 @@ function StationHoliday() {
       </h2>
 
       <div style={{justifyContent: "center", display: "flex"}}>
-        <form method="post" onSubmit={handleSubmit}>
-          <label>
-            <input style={{fontSize: "20pt"}} value={code} type="text" name="codeInput" onChange={(e) => setCode(e.target.value)} />
-          </label>
-          <br />
+        <form method="post" style={formStyle} onSubmit={handleSubmit}>
+          <input style={{fontSize: "20pt"}} value={code} type="text" name="codeInput" onChange={(e) => setCode(e.target.value)} />
           <span>
             <button style={btnStyle} type="reset" onClick={() => setCode('')}>
               Reset
