@@ -4,6 +4,8 @@ import { useSettings } from "../context/SettingsContext.jsx";
 import { resolvePath } from "../utils/resolvePath.js";
 import "../styles/SlideContent.css";
 import SpeechPlaybackControls from "./speech/SpeechPlaybackControls.jsx";
+import Facts from "./Facts.jsx";
+import Steps from "./Steps.jsx";
 
 const getFieldName = (str) => {
   const parts = str.split(".");
@@ -41,30 +43,9 @@ export default function SlideContent({ data }) {
 
         if (Array.isArray(v)) {
           if (fn === "facts") {
-            return (
-              <ul key={i}>
-                {v.map((el, j) => (
-                  <li className="facts" key={j}>
-                    <span style={aStyle} className="facts-label">
-                      {el.label}
-                    </span>
-                    <span style={aStyle} className="facts-value">
-                      {el.value}
-                    </span>
-                  </li>
-                ))}
-              </ul>
-            );
+            return <Facts componentObject={v} key={i} />
           } else if (fn === "steps") {
-            return (
-              <ul key={i}>
-                {v.map((el, j) => (
-                  <li className="steps" key={j}>
-                    <span style={aStyle} className="step">{el}</span>
-                  </li>
-                ))}
-              </ul>
-            );
+            return <Steps componentObject={v} key={i} />
           } else {
             <p style={aStyle}>
               Array resolver not found for field name {fn} from {item}.
