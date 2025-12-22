@@ -1,13 +1,21 @@
 {
   "slide1": {
     "left": [
-      "artifacts.artifact1.whatsGoingOn",
-      "concept.conceptX.facts",
-      "demo.demoA.description"
+      "demo.demoA.tcTest1",
+      "demo.demoA.tcTest2",
+      "demo.demoA.theImpact"
     ],
     "right": [
       "demo.demoA.facts",
-      "artifacts.artifact1.description"
+      "demo.demoA.steps"
+    ]
+  },
+  "hamRadio": {
+    "left": [
+      "faq.hamRadio.faq"
+    ],
+    "right": [
+
     ]
   }
 }

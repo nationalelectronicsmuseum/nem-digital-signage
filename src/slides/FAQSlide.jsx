@@ -1,10 +1,10 @@
 import { SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "../styles/BifoldSlide.css";
+import "../styles/FAQSlide.css";
 import SlideContent from "../components/SlideContent";
 import DataRegistry from "../data";
 
-export default function BifoldSlide({ slideID }) {
+export default function FAQSlide({ slideID }) {
   const slide = DataRegistry.slides[slideID];
   const leftContent = slide.left;
   const rightContent = slide.right;
@@ -12,9 +12,9 @@ export default function BifoldSlide({ slideID }) {
   return (
     <SwiperSlide>
       {slide ? (
-        <div className="bifold-slide-split-container">
-          <div className="bifold-slide-pane">
-            <div className="bifold-slide-content">
+        <div className="faq-slide-split-container">
+          <div className="faq-slide-pane">
+            <div className="faq-slide-content">
               {slide.left ? (
                 <SlideContent data={leftContent} />
               ) : (
@@ -22,13 +22,9 @@ export default function BifoldSlide({ slideID }) {
               )}
             </div>
           </div>
-          <div className="bifold-slide-pane">
-            <div className="bifold-slide-content">
-              {slide.right ? (
-                <SlideContent data={rightContent} />
-              ) : (
-                "Right property not found for artifact " + slideID
-              )}
+          <div className="faq-slide-pane">
+            <div className="faq-slide-content">
+              {slide.right ? <SlideContent data={rightContent} /> : ""}
             </div>
           </div>
         </div>

@@ -1,8 +1,9 @@
 import { useSettings } from "../context/SettingsContext.jsx";
 import SpeechPlaybackControls from "./speech/SpeechPlaybackControls.jsx";
-import "../styles/Facts.css";
+import "../styles/FAQCardList.css";
+import FAQCard from "./FAQCard.jsx";
 
-export default function Facts({ componentObject }) {
+export default function FAQCardList({ componentObject }) {
   const { settings } = useSettings();
   const aStyle = {
     fontSize: settings.fontSize.point,
@@ -22,18 +23,9 @@ export default function Facts({ componentObject }) {
       <span className="facts-title-label">
         <SpeechPlaybackControls text={speechText} />
       </span>
-      <ul>
         {componentObject.map((el, j) => (
-          <li className="facts" key={j}>
-            <span style={aStyle} className="facts-label">
-              {el.label}
-            </span>
-            <span style={aStyle} className="facts-value">
-              {el.value}
-            </span>
-          </li>
+          <FAQCard componentObject={el} key={j} />
         ))}
-      </ul>
     </div>
   );
 }

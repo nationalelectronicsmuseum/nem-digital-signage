@@ -20,7 +20,7 @@ export default function SectionRenderer({ station, section }) {
           {section.slides.map((slide, i) => {
             const Slide = getSlideComponent(slide.type);
             return (
-              <SwiperSlide key={i}>
+              <SwiperSlide slidesPerView={1} key={i}>
                 <Slide {...slide} />
               </SwiperSlide>
             );

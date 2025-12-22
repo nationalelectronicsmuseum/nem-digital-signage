@@ -3,13 +3,13 @@
   height: 100%;
 }
 
-.split-container {
+.faq-slide-split-container {
   display: flex;
   height: 100%;
 }
 
-.pane {
-  flex: 1;
+.faq-slide-pane {
+  flex: 0 0 75%;
   height: 100%;
   overflow-y: auto;
   padding: 1rem;
@@ -17,15 +17,15 @@
 }
 
 /* Avoid scrollbars making layout jump */
-.pane::-webkit-scrollbar {
+.faq-slide-pane::-webkit-scrollbar {
   width: 6px;
 }
-.pane::-webkit-scrollbar-thumb {
+.faq-slide-pane::-webkit-scrollbar-thumb {
   background: #ccc;
   border-radius: 3px;
 }
 
 /* Inner content spacing */
-.content {
+.faq-slide-content {
   padding-bottom: 200px; /* gives room to scroll */
 }

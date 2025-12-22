@@ -15,11 +15,11 @@
           ]
         },
         {
-          "id": "HumanBattery",
-          "title": "Human Battery",
+          "id": "hamRadio",
+          "title": "HAM Radio",
           "image": "/images/humanbatt.png",
           "slides": [
-            { "type": "VideoSlide", "videoUrl": "/videos/demo.mp4" },
+            { "type": "FAQSlide", "slideID": "hamRadio" },
             { "type": "ConceptSlide", "conceptId": "conceptX" }
           ]
         },

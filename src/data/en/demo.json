@@ -2,6 +2,7 @@
   "demoA": {
     "title": "Prototype A",
     "notes": "Works great.",
+    "description": "This is demo a's description",
     "facts": [
       {
         "label": "Year",
@@ -15,6 +16,29 @@
         "label": "Color",
         "value": "Blonde"
       }
-    ]
+    ],
+    "tcTest1": "This is the single paragraph test for the text content component.",
+    "tcTest2": {
+      "text": "This is the label and paragraph test for the text content component.",
+      "label": "Test label"
+    },
+    "theImpact": "This is the common label test for the text content component.",
+    "steps": {
+      "label": "Steps label",
+      "description": "This is a description for the steps to demo A. Please proceed with the following:",
+      "list": [
+        {
+          "label": "Step 1",
+          "text": "This is step 1, push button A"
+        },
+        {
+          "text": "This is step 2, push the green button"
+        },
+        {
+          "label": "Step 3",
+          "text": "This is step 3, pull the lever"
+        }
+      ]
+    }
   }
 }

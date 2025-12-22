@@ -1,11 +1,11 @@
-import "../styles/Slides.css";
 import { loadContent } from "../utils/loadContent";
 import { useSettings } from "../context/SettingsContext.jsx";
 import { resolvePath } from "../utils/resolvePath.js";
 import "../styles/SlideContent.css";
-import SpeechPlaybackControls from "./speech/SpeechPlaybackControls.jsx";
 import Facts from "./Facts.jsx";
 import Steps from "./Steps.jsx";
+import TextContent from "./TextContent.jsx";
+import FAQCardList from "./FAQCardList.jsx";
 
 const getFieldName = (str) => {
   const parts = str.split(".");
@@ -36,36 +36,36 @@ export default function SlideContent({ data }) {
 
   return (
     <div>
-      {data.map((item, i) => {
-        const v = resolvePath(content, item);
-        const fn = getFieldName(item);
-        const label = getLabel(fn, content.common.label);
+      {data.map((itemPath, i) => {
+        let contentItem = resolvePath(content, itemPath);
+        if (!contentItem) {
+          console.log(
+            "Content item of path " + itemPath + " unresolved. Skipping..."
+          );
+          return;
+        }
+        const fieldName = getFieldName(itemPath);
 
-        if (Array.isArray(v)) {
-          if (fn === "facts") {
-            return <Facts componentObject={v} key={i} />
-          } else if (fn === "steps") {
-            return <Steps componentObject={v} key={i} />
-          } else {
-            <p style={aStyle}>
-              Array resolver not found for field name {fn} from {item}.
-            </p>;
+        if (Array.isArray(contentItem)) {
+          if (fieldName === "facts") {
+            return <Facts componentObject={contentItem} key={i} />;
+          } else if (fieldName === "faq") {
+            return <FAQCardList componentObject={contentItem} key={i} />;
           }
         }
 
-        return (
-          <div key={i}>
-            {label ? (
-              <span style={labelStyle} className="content-label">
-                {label}
-                <SpeechPlaybackControls text={v} />
-              </span>
-            ) : (
-              <SpeechPlaybackControls text={v} />
-            )}
-            <p style={aStyle}>{v}</p>
-          </div>
-        );
+        const label = getLabel(fieldName, content.common.label);
+        if (typeof contentItem === "string") {
+          contentItem = { text: contentItem, label: label };
+        } else if (!("label" in contentItem)) {
+          contentItem.label = label;
+        }
+
+        if (fieldName === "steps") {
+          return <Steps componentObject={contentItem} key={i} />;
+        }
+
+        return <TextContent key={i} componentObject={contentItem} />;
       })}
     </div>
   );

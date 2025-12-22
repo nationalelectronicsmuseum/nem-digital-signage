@@ -9,5 +9,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <App />
     </BrowserRouter>
+    <div id="modal-root"></div>
   </React.StrictMode>
 );

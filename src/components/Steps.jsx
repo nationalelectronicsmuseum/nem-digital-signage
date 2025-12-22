@@ -1,4 +1,6 @@
 import { useSettings } from "../context/SettingsContext.jsx";
+import SpeechPlaybackControls from "./speech/SpeechPlaybackControls.jsx";
+import "../styles/Steps.css";
 
 export default function Steps({ componentObject }) {
   const { settings } = useSettings();
@@ -7,15 +9,54 @@ export default function Steps({ componentObject }) {
     fontCode: settings.font.fontCode,
   };
 
+  const labelFontSize = parseFloat(settings.fontSize.point) + 2 + "pt";
+  const labelStyle = {
+    fontSize: labelFontSize,
+    fontCode: settings.font.fontCode,
+  };
+
+  const itemList = componentObject.list;
+
+  let index = 1;
+  let speechText = componentObject.label ? componentObject.label : "";
+  speechText += ". ";
+  speechText += componentObject.description ? componentObject.description : "";
+  speechText += ". ";
+  for(const step of componentObject.list) {
+    speechText += index + ". ";
+    if(typeof step === "string") {
+      speechText += step;
+    } else {
+      speechText += step.label ? step.label : "";
+      speechText += ". ";
+      speechText += step.text ? step.text : "";
+    }
+    speechText += ". ";
+    index += 1;
+  }
+  
+
   return (
-    <ul>
-      {componentObject.map((el, j) => (
-        <li className="steps" key={j}>
-          <span style={aStyle} className="step">
-            {el}
-          </span>
-        </li>
-      ))}
-    </ul>
+    <div>
+      <span style={labelStyle} className="steps-label">
+        {componentObject.label}
+        <SpeechPlaybackControls text={speechText} />
+      </span>
+      {componentObject.description && <p style={aStyle} className="steps-description">{componentObject.description}</p>}
+      <ul>
+        {itemList.map((el, j) => (
+          <li className="steps" key={j}>
+            {el.label && (
+              <span style={labelStyle} className="steps-label">
+                {j + 1 + ". " + el.label}
+              </span>
+            )}
+            <p style={aStyle} className="steps-value">
+              {(el.label ? "" : (j + 1) + ". ") + el.text}
+            </p>
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 }
