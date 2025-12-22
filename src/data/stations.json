@@ -16,7 +16,7 @@
         },
         {
           "id": "hamRadio",
-          "title": "HAM Radio",
+          "title": "HAM Radio Club",
           "image": "/images/humanbatt.png",
           "slides": [
             { "type": "FAQSlide", "slideID": "hamRadio" },

@@ -6,6 +6,7 @@ import Facts from "./Facts.jsx";
 import Steps from "./Steps.jsx";
 import TextContent from "./TextContent.jsx";
 import FAQCardList from "./FAQCardList.jsx";
+import Video from "./Video/Video.jsx";
 
 const getFieldName = (str) => {
   const parts = str.split(".");
@@ -52,6 +53,10 @@ export default function SlideContent({ data }) {
           } else if (fieldName === "faq") {
             return <FAQCardList componentObject={contentItem} key={i} />;
           }
+        }
+
+        if(fieldName === "video") {
+          return <Video src={"/video/" + contentItem} key={i} />
         }
 
         const label = getLabel(fieldName, content.common.label);

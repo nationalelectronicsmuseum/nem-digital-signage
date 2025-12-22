@@ -4,13 +4,38 @@ import { useSettings } from "../context/SettingsContext.jsx";
 import SpeechPlaybackControls from "./speech/SpeechPlaybackControls.jsx";
 import "../styles/FAQCard.css";
 
-const FAQOverlay = ({ onClose }) => {
+const FAQOverlay = ({ onClose, componentObject }) => {
+  const { settings } = useSettings();
+  const aStyle = {
+    fontSize: settings.fontSize.point,
+    fontCode: settings.font.fontCode,
+  };
   return createPortal(
     <div className="faqcard-overlay-background" onClick={onClose}>
       <div className="faqcard-overlay" onClick={(e) => e.stopPropagation()}>
-        <div className="faqcard-overlay-content">
-          <p>This is the overlay content.</p>
-        </div>
+        {componentObject && (
+          <div className="faqcard-overlay-content">
+            <div className="faqcard-overlay-content-left">
+              {componentObject.description && (
+                <div>
+                  <SpeechPlaybackControls speechText={componentObject.description} />
+                  <p className="faqcard-overlay-content-text" style={aStyle}>{componentObject.description}</p>
+                </div>
+              )}
+              {componentObject.imageCaption && (
+                <div>
+                  <SpeechPlaybackControls
+                    speechText={componentObject.imageCaption}
+                  />
+                  <p className="faqcard-overlay-content-caption" style={aStyle}>{componentObject.imageCaption}</p>
+                </div>
+              )}
+            </div>
+            <div className="faqcard-overlay-content-right">
+              {componentObject.image && <img className="faqcard-overlay-content-image" src={"/images/" + componentObject.image} />}
+            </div>
+          </div>
+        )}
       </div>
     </div>,
     document.getElementById("modal-root")
@@ -25,20 +50,21 @@ export default function FAQCard({ componentObject }) {
     fontCode: settings.font.fontCode,
   };
 
-  let speechText = "";
-  speechText += componentObject.name ? componentObject.name : "";
-  speechText += ". ";
-  speechText += componentObject.description ? componentObject.description : "";
-  speechText += ". ";
+  let speechText = componentObject.name ? componentObject.name : "";
   const [open, setOpen] = useState(false);
 
   return (
     <div>
-      <button style={aStyle} className="faqcard-button" onClick={() => setOpen(true)}>
+      <SpeechPlaybackControls speechText={speechText} />
+      <button
+        style={aStyle}
+        className="faqcard-button"
+        onClick={() => setOpen(true)}
+      >
         {componentObject.name}
       </button>
 
-      {open && <FAQOverlay onClose={() => setOpen(false)} />}
+      {open && <FAQOverlay componentObject={componentObject} onClose={() => setOpen(false)} />}
     </div>
   );
 }

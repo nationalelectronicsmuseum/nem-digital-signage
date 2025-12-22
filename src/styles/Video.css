@@ -1,0 +1,5 @@
+.content-video {
+    width: 30vw;
+    height: 75vh;
+    object-fit: contain;
+}
