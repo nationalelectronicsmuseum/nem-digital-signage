@@ -10,7 +10,7 @@ export default function FAQSlide({ slideID }) {
   const rightContent = slide.right;
 
   return (
-    <SwiperSlide>
+    <SwiperSlide className="slide-wrapper">
       {slide ? (
         <div className="faq-slide-split-container">
           <div className="faq-slide-pane">

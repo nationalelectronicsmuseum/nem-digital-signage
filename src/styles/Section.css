@@ -31,3 +31,7 @@
   position: fixed;
   left: -30px;
 }
+
+.slide-wrapper {
+  height: inherit;
+}

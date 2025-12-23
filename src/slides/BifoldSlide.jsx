@@ -8,7 +8,7 @@ export default function BifoldSlide({ slideID }) {
   const rightContent = slide.right;
 
   return (
-    <div>
+    <div className="slide-wrapper">
       {slide ? (
         <div className="bifold-slide-split-container">
           <div className="bifold-slide-pane">

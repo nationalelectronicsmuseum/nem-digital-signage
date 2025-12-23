@@ -8,10 +8,10 @@ export default function AudioSlide({ slideID }) {
   const rightContent = slide.right;
 
   return (
-    <div>
+    <div className="slide-wrapper">
       {slide ? (
         <div className="audio-slide-split-container">
-          <div className="audio-slide-pane">
+          <div className="audio-slide-pane audio-slide-left">
             <div className="audio-slide-content">
               {slide.left ? (
                 <SlideContent data={leftContent} />
@@ -20,7 +20,7 @@ export default function AudioSlide({ slideID }) {
               )}
             </div>
           </div>
-          <div className="audio-slide-pane">
+          <div className="audio-slide-pane audio-slide-right">
             <div className="audio-slide-content">
               {slide.right ? <SlideContent data={rightContent} /> : ""}
             </div>
