@@ -10,8 +10,7 @@
           "image": "/images/voltcurr.png",
           "slides": [
             { "type": "BifoldSlide", "slideID": "slide1" },
-            { "type": "ImageSlide", "artifactId": "artifact1" },
-            { "type": "DemoSlide", "demoId": "demoA" }
+            { "type": "AudioSlide", "slideID": "slide2" }
           ]
         },
         {
@@ -19,8 +18,7 @@
           "title": "HAM Radio Club",
           "image": "/images/humanbatt.png",
           "slides": [
-            { "type": "FAQSlide", "slideID": "hamRadio" },
-            { "type": "ConceptSlide", "conceptId": "conceptX" }
+            { "type": "FAQSlide", "slideID": "hamRadio" }
           ]
         },
         {

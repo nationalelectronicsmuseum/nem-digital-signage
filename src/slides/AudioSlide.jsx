@@ -1,8 +1,8 @@
-import "../styles/BifoldSlide.css";
+import "../styles/AudioSlide.css";
 import SlideContent from "../components/SlideContent";
 import DataRegistry from "../data";
 
-export default function BifoldSlide({ slideID }) {
+export default function AudioSlide({ slideID }) {
   const slide = DataRegistry.slides[slideID];
   const leftContent = slide.left;
   const rightContent = slide.right;
@@ -10,9 +10,9 @@ export default function BifoldSlide({ slideID }) {
   return (
     <div>
       {slide ? (
-        <div className="bifold-slide-split-container">
-          <div className="bifold-slide-pane">
-            <div className="bifold-slide-content">
+        <div className="audio-slide-split-container">
+          <div className="audio-slide-pane">
+            <div className="audio-slide-content">
               {slide.left ? (
                 <SlideContent data={leftContent} />
               ) : (
@@ -20,13 +20,9 @@ export default function BifoldSlide({ slideID }) {
               )}
             </div>
           </div>
-          <div className="bifold-slide-pane">
-            <div className="bifold-slide-content">
-              {slide.right ? (
-                <SlideContent data={rightContent} />
-              ) : (
-                "Right property not found for artifact " + slideID
-              )}
+          <div className="audio-slide-pane">
+            <div className="audio-slide-content">
+              {slide.right ? <SlideContent data={rightContent} /> : ""}
             </div>
           </div>
         </div>

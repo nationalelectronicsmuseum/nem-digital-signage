@@ -1,0 +1,31 @@
+.swiper,
+.swiper-slide {
+  height: 100%;
+}
+
+.audio-slide-split-container {
+  display: flex;
+  height: 100%;
+}
+
+.audio-slide-pane {
+  flex: 1;
+  height: 100%;
+  overflow-y: auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+/* Avoid scrollbars making layout jump */
+.audio-slide-pane::-webkit-scrollbar {
+  width: 6px;
+}
+.audio-slide-pane::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+
+/* Inner content spacing */
+.audio-slide-content {
+  padding-bottom: 200px; /* gives room to scroll */
+}

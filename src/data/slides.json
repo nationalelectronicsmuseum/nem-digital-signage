@@ -17,5 +17,16 @@
     "right": [
       "faq.hamRadio.video"
     ]
+  },
+  "slide2": {
+    "left": [
+      "demo.demoA.tcTest1",
+      "demo.demoA.tcTest2",
+      "demo.demoA.theImpact"
+    ],
+    "right": [
+      "demo.demoA.facts",
+      "demo.demoA.steps"
+    ]
   }
 }
