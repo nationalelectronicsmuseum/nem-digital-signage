@@ -1,6 +1,6 @@
 .slideImage {
   max-width: 100%;
-  max-height: 95%;
+  max-height: 100%;
 }
 
 .slideImageContainer {
@@ -15,4 +15,36 @@
 .slideImageCaption {
   font-size: 16pt;
   max-height: 5%;
+}
+
+.audio-overlay-background {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.87);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    z-index: 3;
+}
+
+.audio-overlay {
+    z-index: 4;
+    height: auto;
+    background-color: #f0f8ff;
+    padding: 2rem;
+    border-radius: 25px;
+}
+
+.audio-overlay-content {
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+  display: flex;
+  max-height: 75vh;
+  max-width: 75vw;
+  justify-content: center;
+}
+
+.audio-overlay-content-image {
+  object-fit: contain;
 }

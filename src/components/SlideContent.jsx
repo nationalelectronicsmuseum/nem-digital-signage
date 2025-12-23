@@ -7,6 +7,7 @@ import Steps from "./Steps.jsx";
 import TextContent from "./TextContent.jsx";
 import FAQCardList from "./FAQCardList.jsx";
 import Video from "./Video/Video.jsx";
+import SlideImage from "./slideImage/SlideImage.jsx";
 
 const getFieldName = (str) => {
   const parts = str.split(".");
@@ -19,6 +20,17 @@ const getFieldName = (str) => {
 const getLabel = (fieldName, content) => {
   return fieldName in content ? content[fieldName] : null;
 };
+
+const VIDEO_FILES = ['mp4', 'webm'];
+const IMAGE_FILES = ['jpg', 'jpeg', 'png', 'svg'];
+
+const isVideo = (contentItem) => {
+  return typeof contentItem === "string" && VIDEO_FILES.includes(contentItem.split('.').pop());
+}
+
+const isImage = (contentItem) => {
+  return typeof contentItem === "string" && IMAGE_FILES.includes(contentItem.split('.').pop());
+}
 
 export default function SlideContent({ data }) {
   const { settings } = useSettings();
@@ -55,8 +67,10 @@ export default function SlideContent({ data }) {
           }
         }
 
-        if(fieldName === "video") {
+        if(isVideo(contentItem)) {
           return <Video src={"/video/" + contentItem} key={i} />
+        } else if(isImage(contentItem)) {
+          return <SlideImage img={"/images/" + contentItem} caption={content.common.label.imageCaption} key={i} />
         }
 
         const label = getLabel(fieldName, content.common.label);

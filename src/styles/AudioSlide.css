@@ -27,11 +27,12 @@
 
 /* Inner content spacing */
 .audio-slide-content {
-  padding-bottom: 200px; /* gives room to scroll */
 }
 
 .audio-slide-left {
   background-color: #d3d3d3;
+  display: flex;
+  align-items: center;
 }
 
 .audio-slide-right {

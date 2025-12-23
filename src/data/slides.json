@@ -20,9 +20,7 @@
   },
   "slide2": {
     "left": [
-      "demo.demoA.tcTest1",
-      "demo.demoA.tcTest2",
-      "demo.demoA.theImpact"
+      "artifacts.sound1.image"
     ],
     "right": [
       "demo.demoA.facts",

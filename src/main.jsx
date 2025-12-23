@@ -10,5 +10,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <App />
     </BrowserRouter>
     <div id="modal-root"></div>
+    <div id="modal-image-root"></div>
   </React.StrictMode>
 );

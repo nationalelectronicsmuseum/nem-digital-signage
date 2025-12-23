@@ -16,5 +16,8 @@
         "value": "Polkadot"
       }
     ]
+  },
+  "sound1": {
+    "image": "audioPic1.jpg"
   }
 }

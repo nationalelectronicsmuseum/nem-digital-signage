@@ -1,21 +1,35 @@
-import { useImageOverlay } from "../OverlayImage/OverlayImageContext.jsx";
-import { getLocalizedStringConstant } from "../../assets/Localization.js";
-
+import { useState } from "react";
+import { createPortal } from "react-dom";
 import "./SlideImage.css";
 
-function SlideImage(props) {
-  const caption = getLocalizedStringConstant("Image Caption");
-  const { openOverlay } = useImageOverlay();
+const ImageOverlay = ({ onClose, image }) => {
+  return createPortal(
+    <div className="audio-overlay-background" onClick={onClose}>
+      <div className="audio-overlay" onClick={(e) => e.stopPropagation()}>
+        {image && (
+          <div className="audio-overlay-content">
+            <img className="audio-overlay-content-image" src={image}></img>
+          </div>
+        )}
+      </div>
+    </div>,
+    document.getElementById("modal-image-root")
+  );
+};
+
+export default function SlideImage(props) {
+  const [open, setOpen] = useState(false);
   return (
     <div className="slideImageContainer">
       <img
         className="slideImage"
         src={props.img}
-        onClick={() => openOverlay(props.img)}
+        onClick={() => setOpen(true)}
       ></img>
-      <i className="slideImageCaption">{caption}</i>
+      <i className="slideImageCaption">{props.caption}</i>
+      {open && (
+        <ImageOverlay image={props.img} onClose={() => setOpen(false)} />
+      )}
     </div>
   );
 }
-
-export default SlideImage;
