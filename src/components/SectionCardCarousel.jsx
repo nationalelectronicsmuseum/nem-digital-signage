@@ -1,9 +1,15 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/SectionCardCarousel.css";
+import { loadContent } from "../utils/loadContent";
+import { useSettings } from "../context/SettingsContext.jsx";
+import { resolvePath } from "../utils/resolvePath.js";
 import defaultImage from "/images/section.jpg?url";
 
 export default function SectionCardCarousel({ station }) {
+  const { settings } = useSettings();
+  const languageCode = settings.language.languageCode;
+  const content = loadContent(languageCode);
   const [rows, setRows] = useState([]);
   
   useEffect(() => {
@@ -21,7 +27,9 @@ export default function SectionCardCarousel({ station }) {
       <div className="carousel-grid">
         {rows.map((row, rowIndex) => (
           <div className="carousel-row" key={rowIndex}>
-            {row.map((section) => (
+            {row.map((section) => {
+              let title = resolvePath(content, "common.sectionCardTitle." + section.id);
+              return (
               <Link
                 key={section.id}
                 to={"/" + station.id + "/" + section.id}
@@ -31,17 +39,17 @@ export default function SectionCardCarousel({ station }) {
                 <div className="card-image-wrapper">
                   <img
                     src={section.image ? section.image : defaultImage}
-                    alt={section.title ? section.title : "Sample Title"}
+                    alt={title ? title : "Sample Title"}
                     loading="lazy"
                     className="card-image"
                   />
                 </div>
 
                 <div className="card-title stationPages">
-                  {section.title ? section.title : "Sample Title"}
+                  {title ? title : "Sample Title"}
                 </div>
               </Link>
-            ))}
+            );})}
           </div>
         ))}
       </div>

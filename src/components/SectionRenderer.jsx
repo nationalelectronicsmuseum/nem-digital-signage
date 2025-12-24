@@ -7,8 +7,15 @@ import "../styles/Section.css";
 import { getSlideComponent } from "./SlideRegistry";
 import MenuButton from "./MenuButton.jsx";
 import AccessibilityButton from "./AccessibilityButton.jsx";
+import { loadContent } from "../utils/loadContent";
+import { useSettings } from "../context/SettingsContext.jsx";
+import { resolvePath } from "../utils/resolvePath.js";
 
 export default function SectionRenderer({ station, section }) {
+  const { settings } = useSettings();
+  const languageCode = settings.language.languageCode;
+  const content = loadContent(languageCode);
+  let title = resolvePath(content, "common.sectionTitle." + section.id);
   return (
     <div className="section">
       <header className="section-header">
@@ -16,7 +23,7 @@ export default function SectionRenderer({ station, section }) {
           <MenuButton station={station} section={section} />
           <AccessibilityButton />
         </div>
-        <h1 className="section-title">{section.title}</h1>
+        <h1 className="section-title">{title}</h1>
       </header>
       <main className="swiper-wrapper">
         <Swiper
