@@ -26,8 +26,8 @@
           "title": "Oersted",
           "image": "/images/oersted1.jpg",
           "slides": [
-            { "type": "VideoSlide", "videoUrl": "/videos/demo.mp4" },
-            { "type": "ConceptSlide", "conceptId": "conceptX" }
+            { "type": "CenteredMonoSlide", "slideID": "slide3" },
+            { "type": "MonoSlide", "slideID": "slide3" }
           ]
         },
         {

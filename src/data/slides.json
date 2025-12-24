@@ -25,5 +25,12 @@
     "right": [
       "concept.recordedSound.audioInfo.bunkerHill"
     ]
-  }
+  },
+  "slide3": [
+      "demo.demoA.tcTest1",
+      "demo.demoA.tcTest2",
+      "demo.demoA.theImpact",
+      "demo.demoA.facts",
+      "demo.demoA.steps"
+  ]
 }

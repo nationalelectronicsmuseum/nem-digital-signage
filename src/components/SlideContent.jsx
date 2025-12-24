@@ -49,23 +49,13 @@ const objectImplementsAudioCard = (contentItem) => {
   );
 };
 
-export default function SlideContent({ data }) {
+export default function SlideContent({ data, className }) {
   const { settings } = useSettings();
   const languageCode = settings.language.languageCode;
   const content = loadContent(languageCode);
-  const aStyle = {
-    fontSize: settings.fontSize.point,
-    fontCode: settings.font.fontCode,
-  };
-
-  const labelFontSize = parseFloat(settings.fontSize.point) + 2 + "pt";
-  const labelStyle = {
-    fontSize: labelFontSize,
-    fontCode: settings.font.fontCode,
-  };
 
   return (
-    <div>
+    <div className={className}>
       {data.map((itemPath, i) => {
         let contentItem = resolvePath(content, itemPath);
         if (!contentItem) {
