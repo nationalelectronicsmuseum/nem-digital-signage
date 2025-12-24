@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Navigation } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 import "../styles/Section.css";
 import { getSlideComponent } from "./SlideRegistry";
 import MenuButton from "./MenuButton.jsx";
@@ -19,7 +19,13 @@ export default function SectionRenderer({ station, section }) {
         <h1 className="section-title">{section.title}</h1>
       </header>
       <main className="swiper-wrapper">
-        <Swiper navigation={true} modules={[Navigation]}>
+        <Swiper
+          pagination={{
+            type: "progressbar",
+          }}
+          navigation={true}
+          modules={[Navigation, Pagination]}
+        >
           {section.slides.map((slide, i) => {
             const Slide = getSlideComponent(slide.type);
             return (

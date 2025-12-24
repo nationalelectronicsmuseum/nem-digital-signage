@@ -23,8 +23,7 @@
       "artifacts.sound1.image"
     ],
     "right": [
-      "demo.demoA.facts",
-      "demo.demoA.steps"
+      "concept.recordedSound.audioInfo.bunkerHill"
     ]
   }
 }

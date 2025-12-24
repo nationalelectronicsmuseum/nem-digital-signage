@@ -8,6 +8,7 @@ import TextContent from "./TextContent.jsx";
 import FAQCardList from "./FAQCardList.jsx";
 import Video from "./Video/Video.jsx";
 import SlideImage from "./slideImage/SlideImage.jsx";
+import AudioCard from "./AudioCard.jsx";
 
 const getFieldName = (str) => {
   const parts = str.split(".");
@@ -21,16 +22,32 @@ const getLabel = (fieldName, content) => {
   return fieldName in content ? content[fieldName] : null;
 };
 
-const VIDEO_FILES = ['mp4', 'webm'];
-const IMAGE_FILES = ['jpg', 'jpeg', 'png', 'svg'];
+const VIDEO_FILES = ["mp4", "webm"];
+const IMAGE_FILES = ["jpg", "jpeg", "png", "svg"];
 
 const isVideo = (contentItem) => {
-  return typeof contentItem === "string" && VIDEO_FILES.includes(contentItem.split('.').pop());
-}
+  return (
+    typeof contentItem === "string" &&
+    VIDEO_FILES.includes(contentItem.split(".").pop())
+  );
+};
 
 const isImage = (contentItem) => {
-  return typeof contentItem === "string" && IMAGE_FILES.includes(contentItem.split('.').pop());
-}
+  return (
+    typeof contentItem === "string" &&
+    IMAGE_FILES.includes(contentItem.split(".").pop())
+  );
+};
+
+const objectImplementsAudioCard = (contentItem) => {
+  return ( (typeof contentItem !== "string") &&
+    "title" in contentItem &&
+    "performedBy" in contentItem &&
+    "performedWhen" in contentItem &&
+    "recordedOn" in contentItem &&
+    "file" in contentItem
+  );
+};
 
 export default function SlideContent({ data }) {
   const { settings } = useSettings();
@@ -67,10 +84,19 @@ export default function SlideContent({ data }) {
           }
         }
 
-        if(isVideo(contentItem)) {
-          return <Video src={"/video/" + contentItem} key={i} />
-        } else if(isImage(contentItem)) {
-          return <SlideImage img={"/images/" + contentItem} caption={content.common.label.imageCaption} key={i} />
+        if (isVideo(contentItem)) {
+          return <Video src={"/video/" + contentItem} key={i} />;
+        } else if (isImage(contentItem)) {
+          return (
+            <SlideImage
+              img={"/images/" + contentItem}
+              caption={content.common.label.imageCaption}
+              key={i}
+            />
+          );
+        } else if(objectImplementsAudioCard(contentItem)) {
+          contentItem.performedByText = content.common.label.performedBy;
+          return <AudioCard componentObject={contentItem} key={i} />
         }
 
         const label = getLabel(fieldName, content.common.label);

@@ -25,10 +25,6 @@
   border-radius: 3px;
 }
 
-/* Inner content spacing */
-.audio-slide-content {
-}
-
 .audio-slide-left {
   background-color: #d3d3d3;
   display: flex;

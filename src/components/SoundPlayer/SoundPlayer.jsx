@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { useAudioContext } from "../AudioProvider/AudioProvider.jsx";
 
-import iconPlay from "../../assets/img/evoPlay.svg";
-import iconPause from "../../assets/img/evoPause.svg";
-import iconStop from "../../assets/img/evoStop.svg";
+import iconPlay from "/images/evoPlay.svg?url";
+import iconPause from "/images/evoPause.svg?url";
+import iconStop from "/images/evoStop.svg?url";
 
 export default function SoundPlayer({ src }) {
   const { play, pause, stop, preload, currentSrc, isPlaying } =

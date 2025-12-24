@@ -16,5 +16,30 @@
         "value": "Red"
       }
     ]
+  },
+  "recordedSound": {
+    "audioInfo": {
+      "bunkerHill": {
+        "title": "Bunker Hill",
+        "performedBy": "Harlan and Stanley",
+        "performedWhen": "Ca. 1905",
+        "recordedOn": "Recorded on Edison black wax cylinder #8966",
+        "file": "01C.mp3"
+      },
+      "overThere": {
+        "title": "Over There",
+        "performedBy": "Enrico Caruso",
+        "performedWhen": "1918",
+        "recordedOn": "Recorded on Victor Talking Machine Disk",
+        "file": "02C.mp3"
+      },
+      "johnnyBGoode": {
+        "title": "Johnny B. Goode",
+        "performedBy": "The Grateful Dead",
+        "performedWhen": "June 10, 1973",
+        "recordedOn": "Recorded on Sony TC 2850SD portable cassette recorder on Memorex cassettes.",
+        "file": "03C.mp3"
+      }
+    }
   }
 }
