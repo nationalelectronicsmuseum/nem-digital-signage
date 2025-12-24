@@ -12,8 +12,8 @@
           ]
         },
         {
-          "id": "hamRadio",
-          "title": "HAM Radio Club",
+          "id": "humanBattery",
+          "title": "Human Battery",
           "image": "/images/humanbatt.png",
           "slides": [
           ]
@@ -38,98 +38,413 @@
       "id": "station2",
       "name": "Station 2",
       "sections": [
-        
+        {
+          "id": "JumpingWire",
+          "title": "Jumping Wire",
+          "image": "/images/jumpingwire1.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "StaticElectricity",
+          "title": "Static Electricity",
+          "image": "/images/static-electricity-section-thumbnail.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "HumanDynamo",
+          "title": "Human Dynamo",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "VanDeGraaffGenerator",
+          "title": "Van De Graaff Generator",
+          "image": "/images/graaff1.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "JacobsLadderExperiment",
+          "title": "Jacob's Ladder Experiment",
+          "image": "/images/jacobs2.jpg",
+          "slides": [
+          ]
+        }
       ]
     },
     {
       "id": "station3",
       "name": "Station 3",
       "sections": [
-        
+        {
+          "id": "AudioTranslator",
+          "title": "Audio Translator",
+          "image": "/images/audiotrans1.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "ElectromagneticRadioWaves",
+          "title": "Electromagnetic Radio Waves",
+          "image": "/images/ewaves1.webp",
+          "slides": [
+          ]
+        },
+        {
+          "id": "EvolutionOfRecordedSound",
+          "title": "Evolution of Recorded Sound",
+          "image": "/images/AudioHome.jfif",
+          "slides": [
+          ]
+        }
       ]
     },
     {
       "id": "station4",
       "name": "Station 4",
       "sections": [
-        
+        {
+          "id": "TelegraphMachine",
+          "title": "Telegraph Machine",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "TheMarconiMagneticDetector",
+          "title": "The Marconi Magnetic Detector",
+          "image": "/images/marconi1.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "AudioTranslator",
+          "title": "Audio Translator",
+          "image": "/images/audiotrans1.jpg",
+          "slides": [
+          ]
+        }
       ]
     },
     {
       "id": "station5",
       "name": "Station 5",
       "sections": [
-        
+        {
+          "id": "WhyDoMicrowavesHaveTurntables",
+          "title": "Why do Microwaves Have Turntables?",
+          "image": "/images/microwaveHome.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "Theremin",
+          "title": "Theremin",
+          "image": "/images/thereminHome.jpg",
+          "slides": [
+          ]
+        }
       ]
     },
     {
       "id": "station6",
       "name": "Station 6",
       "sections": [
-        
+        {
+          "id": "Infrared",
+          "title": "Infrared",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "Theremin",
+          "title": "Theremin",
+          "image": "/images/thereminHome.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "Bombsights",
+          "title": "Bombsights",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        }
       ]
     },
     {
       "id": "station7",
       "name": "Station 7",
       "sections": [
-        
+        {
+          "id": "ElectromagneticWaves",
+          "title": "Electromagnetic Waves",
+          "image": "/images/wavesHome.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "PolarizationExperiment",
+          "title": "Polarization Experiment",
+          "image": "/images/polarHome.png",
+          "slides": [
+          ]
+        },
+        {
+          "id": "ElectromagneticRadioWaves",
+          "title": "Electromagnetic Radio Waves",
+          "image": "/images/ewaves1.webp",
+          "slides": [
+          ]
+        }
       ]
     },
     {
       "id": "station8",
       "name": "Station 8",
       "sections": [
-        
+        {
+          "id": "VacuumTubeHistory",
+          "title": "Vacuum Tube History",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "VacuumTubeTypes",
+          "title": "Vacuum Tube Types",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "HowDoVacuumTubesWork",
+          "title": "Vacuum Tube History",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        }
       ]
     },
     {
       "id": "hamRadio",
       "name": "HAM Radio",
       "sections": [
-        
+        {
+          "id": "hamRadio",
+          "title": "HAM Radio Club",
+          "image": "/images/humanbatt.png",
+          "slides": [
+          ]
+        }
       ]
     },
     {
       "id": "station10",
       "name": "Station 10",
       "sections": [
-        
+        {
+          "id": "ProximityFuze",
+          "title": "Proximity Fuze",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "SCR-270",
+          "title": "SCR-270",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "SCR-399",
+          "title": "SCR-399",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        }
       ]
     },
     {
       "id": "station11",
       "name": "Station 11",
       "sections": [
-        
+        {
+          "id": "SoundsAtSea",
+          "title": "Sounds at Sea",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "SonarBeacon",
+          "title": "Sonar Beacon",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "SonarBuoys",
+          "title": "Sonar Buoys",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "XBot",
+          "title": "XBot",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "VeteranSeas",
+          "title": "Veteran Seas",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        }
       ]
     },
     {
       "id": "station12",
       "name": "Station 12",
       "sections": [
-        
+        {
+          "id": "WhatIsRadar",
+          "title": "What is Radar?",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "TypesOfRadar",
+          "title": "Types of Radar",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "AWACS",
+          "title": "AWACS",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        }
       ]
     },
     {
       "id": "station13",
       "name": "Station 13",
       "sections": [
-        
+        {
+          "id": "WhatIsDoppler",
+          "title": "What is Doppler?",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "DopplerHistory",
+          "title": "Doppler History",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "BOMARC",
+          "title": "BOMARC",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "ModernDopplerUse",
+          "title": "Modern Doppler Use",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "DopplerOralHistory",
+          "title": "Doppler Oral History",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        }
       ]
     },
     {
       "id": "station14",
       "name": "Station 14",
       "sections": [
-        
+        {
+          "id": "WhatAreCountermeasures",
+          "title": "What are Countermeasures?",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "Chaff",
+          "title": "Chaff",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "Decoys",
+          "title": "Decoys",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "TypesOfCountermeasures",
+          "title": "Types of Countermeasures",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "CountermeasureBiography",
+          "title": "Countermeasure Biography",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        }
       ]
     },
     {
       "id": "station15",
       "name": "Station 15",
       "sections": [
-        
+        {
+          "id": "SatellitesAndHowTheyWork",
+          "title": "Satellites and How They Work",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "LunarCamera",
+          "title": "Lunar Camera",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        },
+        {
+          "id": "Telstar",
+          "title": "Telstar",
+          "image": "/images/section.jpg",
+          "slides": [
+          ]
+        }
       ]
     }
   ]
