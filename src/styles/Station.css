@@ -7,7 +7,9 @@
 
 .station-header {
   height: 200px;
-  flex-shrink: 0;
+  font-size: 24pt;
+  padding: 5px;
+  line-height: 1;
 }
 
 .station-body {
