@@ -8,15 +8,17 @@ export default function Index() {
       <div>
         <h1 className="title">National Electronics Museum</h1>
       </div>
-      <ul>
-        {stationsData.stations.map((station) => (
-          <li key={station.id} className="index-station-link">
-            <Link to={`/${station.id}`} relative="path">
-              <button className="station-button">{station.name}</button>
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <div className="station-list-wrapper">
+        <ul className="station-list">
+          {stationsData.stations.map((station) => (
+            <li key={station.id} className="index-station-link">
+              <Link to={`/${station.id}`} relative="path">
+                <button className="station-button">{station.name}</button>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
     </>
   );
 }
