@@ -70,10 +70,13 @@ export default function SlideContent({ data, className }) {
   const languageCode = settings.language.languageCode;
   const content = loadContent(languageCode);
 
+  let addPadding = true;
+
   return (
     <div className={className}>
       {data.map((itemPath, i) => {
         let contentItem = resolvePath(content, itemPath);
+        addPadding = true;
         if (!contentItem) {
           console.log(
             "Content item of path " + itemPath + " unresolved. Skipping..."
@@ -92,8 +95,10 @@ export default function SlideContent({ data, className }) {
         }
 
         if (isVideo(contentItem)) {
+          addPadding = false;
           return <Video src={"/video/" + contentItem} key={i} />;
         } else if (isImage(contentItem)) {
+          addPadding = false;
           return (
             <SlideImage
               img={"/images/" + contentItem}
@@ -121,6 +126,7 @@ export default function SlideContent({ data, className }) {
 
         return <TextContent key={i} componentObject={contentItem} />;
       })}
+      {addPadding && <div className="text-padding"></div>}
     </div>
   );
 }
