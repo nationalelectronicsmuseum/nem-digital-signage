@@ -1,6 +1,6 @@
 {
   "VoltageAndCurrent": {
-    "description": "Voltage is sort of like electrical pressure. A current is a flow of electric charge. It is best to think of it like this: voltage CAUSES electric current, just like water pressure causes water to flow.\nVoltage is the invisible energy that urges electricity to move from one place to another. Voltage and Current work hand in hand. Voltage provides the push, while Current keeps the electricity flowing. Together, they create the energy that powers our gadgets and lights up our world.\n\n\n",
+    "description": "Voltage is sort of like electrical pressure. A current is a flow of electric charge. It is best to think of it like this: voltage CAUSES electric current, just like water pressure causes water to flow.\nVoltage is the invisible energy that urges electricity to move from one place to another. Voltage and Current work hand in hand. Voltage provides the push, while Current keeps the electricity flowing. Together, they create the energy that powers our gadgets and lights up our world.",
     "theImpact": "Understanding Voltage and Current helps engineers and scientists design safer and more efficient electrical systems. From the tiniest circuits to the grandest power grids, these concepts are crucial for creating technology that works reliably and safely.",
     "steps": {
       "label": "How it Works:",
@@ -20,6 +20,67 @@
     "whatsGoingOn": "By flipping the switch, you close the circuit and allow the current to flow in the circuit's path. Without the force of the voltage and the path of a circuit, current will not flow. Voltage pushes current, forcing it to flow through a closed circuit and light the bulb.",
     "image1": "ohmslaw.gif",
     "image2": "volt_impact.jpg"
+  },
+  "HumanBattery": {
+    "description": "When you place one hand on the copper plate and the other hand on the aluminum plate, the current would flow through your body from one plate to the other.",
+    "theImpact": "We can create electricity by chemical action. By closing circuits, we allow that energy to flow. You have provided the conducting fluid for this battery, so the electricity is flowing through you!",
+    "steps": {
+      "label": "Try This:",
+      "list": [
+        {
+          "text": "Place one hand on each plate"
+        },
+        {
+          "text": "Repeat with a friend: hold hands, and then each person place their free hand on one of the plates. Try it again with more than two people “in the loop”."
+        }
+      ]
+    },
+    "whatToWatch": "Watch the meter. It shows constant current flow in one direction.",
+    "whatsGoingOn": "When you touch the metal plates, the moisture on your hands acts as the battery`s saline conducting electrolytes. The electrolytes react with the copper and aluminum plates. It takes the negatively charged electrons away from the copper plate, leaving the positive charges behind. It then gives electrons to the aluminum plate, causing it to become negatively charged. These electrons pass through the meter as they return to the copper plate. In a simple circuit like this, the direction of current flow is determined by the potential difference between the two plates. When you touch both plates simultaneously, you complete the circuit, allowing the flow of electrons from the higher potential (copper plate) to the lower potential (aluminum plate) through your body.",
+    "image1": "humanBatt2.gif",
+    "image2": "humanBatt1.png"
+  },
+  "Oersted": {
+    "description": "In the early 19th century, Oersted embarked on an experiment that would change our understanding of nature. Oersted's curiosity led him to an extraordinary experiment. With a simple setup, he observed the interaction between electricity and magnetism. He noticed that when an electric current flowed through a wire, a nearby magnetic compass needle moved. This unexpected interaction between electricity and magnetism was the spark that lit up a revolution in science.",
+    "theImpact": "Oersted's discovery was the key that unlocked the mysterious relationship between electricity and magnetism. This revelation laid the groundwork for the development of electric motors, generators, and the modern technology we rely on today.",
+    "facts": [
+      {
+        "label": "Discoverer:",
+        "value": "Hans Christian Oersted"
+      },
+      {
+        "label": "Date of Discovery:",
+        "value": "1820"
+      },
+      {
+        "label": "Experiment Type:",
+        "value": "Observing the interaction between electricity and magnetism."
+      },
+      {
+        "label": "Key Discovery:",
+        "value": "Flowing electricity through a wire caused a nearby magnetic compass needle to move."
+      }
+    ],
+    "steps": {
+      "label": "How it Works:",
+      "list": [
+        {
+          "text": "Look at the direction of the compasses; they are all pointing north."
+        },
+        {
+          "text": "Flip the switch both ways."
+        },
+        {
+          "text": "Watch the compass needles move as you flip the switch."
+        },
+        {
+          "text": "They are showing the direction of the magnetic field as current is applied to the copper wire."
+        }
+      ]
+    },
+    "whatsGoingOn": "A compass needle points to a magnetic force and typically to the Earth’s north magnetic pole. When you flip the switch, you allow current to flow in one direction from the battery. The magnetic field created by the electric current through the wrapped wire coil created its own magnetic field. The compass needles line up with the magnetic field around the wire. When you flip the switch the other way, the compass needles reverse because the direction of the current has been reversed.",
+    "image1": "oersted2.jpg",
+    "image2": "oersted3.png"
   },
   "recordedSound": {
     "audioInfo": {

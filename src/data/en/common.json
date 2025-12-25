@@ -10,8 +10,8 @@
   },
   "sectionCardTitle": {
     "VoltageAndCurrent": "Voltage and Current",
-    "HumanBattery": "Human Battery",
-    "Oersted": "Oersted",
+    "HumanBattery": "Do you have the power to be an electrical conductor?",
+    "Oersted": "Oersted's Experiment",
     "TheFaradayProject": "The Faraday Project",
     "JumpingWire": "Jumping Wire",
     "StaticElectricity": "Static Electricity",

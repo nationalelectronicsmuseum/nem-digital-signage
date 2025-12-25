@@ -17,11 +17,60 @@
   },
   "VoltageAndCurrent3": {
     "left": [
-      "concept.VoltageAndCurrent.steps",
-      "concept.VoltageAndCurrent.whatToWatch"
+      "concept.HumanBattery.steps",
+      "concept.HumanBattery.whatToWatch"
     ],
     "right": [
-      "concept.VoltageAndCurrent.whatsGoingOn"
+      "concept.HumanBattery.whatsGoingOn"
+    ]
+  },
+  "HumanBattery1": {
+    "left": [
+      "concept.HumanBattery.description"
+    ],
+    "right": [
+      "concept.HumanBattery.image1"
+    ]
+  },
+  "HumanBattery2": {
+    "left": [
+      "concept.HumanBattery.theImpact"
+    ],
+    "right": [
+      "concept.HumanBattery.image2"
+    ]
+  },
+  "HumanBattery3": {
+    "left": [
+      "concept.HumanBattery.steps",
+      "concept.HumanBattery.whatToWatch"
+    ],
+    "right": [
+      "concept.HumanBattery.whatsGoingOn"
+    ]
+  },
+  "Oersted1": {
+    "left": [
+      "concept.Oersted.description"
+    ],
+    "right": [
+      "concept.Oersted.image1"
+    ]
+  },
+  "Oersted2": {
+    "left": [
+      "concept.Oersted.theImpact"
+    ],
+    "right": [
+      "concept.Oersted.image2"
+    ]
+  },
+  "Oersted3": {
+    "left": [
+      "concept.Oersted.steps"
+    ],
+    "right": [
+      "concept.Oersted.whatsGoingOn"
     ]
   },
   "hamRadio": {

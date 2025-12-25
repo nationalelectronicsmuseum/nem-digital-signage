@@ -17,12 +17,18 @@
           "id": "HumanBattery",
           "image": "/images/humanbatt.png",
           "slides": [
+            {"type": "BifoldSlide", "slideID": "HumanBattery1"},
+            {"type": "BifoldSlide", "slideID": "HumanBattery2"},
+            {"type": "BifoldSlide", "slideID": "HumanBattery3"}
           ]
         },
         {
           "id": "Oersted",
           "image": "/images/oersted1.jpg",
           "slides": [
+            {"type": "BifoldSlide", "slideID": "Oersted1"},
+            {"type": "BifoldSlide", "slideID": "Oersted2"},
+            {"type": "BifoldSlide", "slideID": "Oersted3"}
           ]
         },
         {
