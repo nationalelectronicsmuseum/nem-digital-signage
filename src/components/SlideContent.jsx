@@ -23,7 +23,7 @@ const getLabel = (fieldName, content) => {
 };
 
 const VIDEO_FILES = ["mp4", "webm"];
-const IMAGE_FILES = ["jpg", "jpeg", "png", "svg", "gif"];
+const IMAGE_FILES = ["jpg", "jpeg", "png", "svg", "gif", "webp"];
 
 const isVideo = (contentItem) => {
   return (
@@ -46,6 +46,14 @@ const objectImplementsAudioCard = (contentItem) => {
     "performedWhen" in contentItem &&
     "recordedOn" in contentItem &&
     "file" in contentItem
+  );
+};
+
+const objectImplementsSteps = (contentItem) => {
+  return ( (typeof contentItem !== "string") &&
+    "list" in contentItem &&
+    Array.isArray(contentItem.list) &&
+    "text" in contentItem.list[0]
   );
 };
 
@@ -96,7 +104,7 @@ export default function SlideContent({ data, className }) {
           contentItem.label = label;
         }
 
-        if (fieldName === "steps") {
+        if (fieldName === "steps" || objectImplementsSteps(contentItem)) {
           return <Steps componentObject={contentItem} key={i} />;
         }
 

@@ -98,6 +98,138 @@
       "concept.TheFaradayProject.whatsGoingOn"
     ]
   },
+  "JumpingWire1": {
+    "left": [
+      "concept.JumpingWire.description",
+      "concept.JumpingWire.facts"
+    ],
+    "right": [
+      "concept.JumpingWire.image1"
+    ]
+  },
+  "JumpingWire2": {
+    "left": [
+      "concept.JumpingWire.theImpact"
+    ],
+    "right": [
+      "concept.JumpingWire.image2"
+    ]
+  },
+  "JumpingWire3": {
+    "left": [
+      "concept.JumpingWire.steps",
+      "concept.JumpingWire.whatsGoingOn"
+    ],
+    "right": [
+      "concept.JumpingWire.image1"
+    ]
+  },
+  "StaticElectricity1": {
+    "left": [
+      "concept.StaticElectricity.description"
+    ],
+    "right": [
+      "concept.StaticElectricity.image1"
+    ]
+  },
+  "StaticElectricity2": {
+    "left": [
+      "concept.StaticElectricity.theImpact"
+    ],
+    "right": [
+      "concept.StaticElectricity.image2"
+    ]
+  },
+  "HumanDynamo1": {
+    "left": [
+      "concept.HumanDynamo.description"
+    ],
+    "right": [
+      "concept.HumanDynamo.image1"
+    ]
+  },
+  "HumanDynamo2": {
+    "left": [
+      "concept.HumanDynamo.theImpact"
+    ],
+    "right": [
+      "concept.HumanDynamo.image1"
+    ]
+  },
+  "HumanDynamo3": {
+    "left": [
+      "concept.HumanDynamo.steps",
+      "concept.HumanDynamo.whatToWatch"
+    ],
+    "right": [
+      "concept.HumanDynamo.video1"
+    ]
+  },
+  "HumanDynamo4": {
+    "left": [
+      "concept.HumanDynamo.whatsGoingOn"
+    ],
+    "right": [
+      "concept.HumanDynamo.image1"
+    ]
+  },
+  "VanDeGraaffGenerator1": {
+    "left": [
+      "concept.VanDeGraaffGenerator.description",
+      "concept.VanDeGraaffGenerator.facts"
+    ],
+    "right": [
+      "concept.VanDeGraaffGenerator.image1"
+    ]
+  },
+  "VanDeGraaffGenerator2": {
+    "left": [
+      "concept.VanDeGraaffGenerator.theImpact"
+    ],
+    "right": [
+      "concept.VanDeGraaffGenerator.image2"
+    ]
+  },
+  "VanDeGraaffGenerator3": {
+    "left": [
+      "concept.VanDeGraaffGenerator.howDoesItWork"
+    ],
+    "right": [
+      "concept.VanDeGraaffGenerator.image3"
+    ]
+  },
+  "VanDeGraaffGenerator4": {
+    "left": [
+      "concept.VanDeGraaffGenerator.steps"
+    ],
+    "right": [
+      "concept.VanDeGraaffGenerator.image4"
+    ]
+  },
+  "JacobsLadderExperiment1": {
+    "left": [
+      "concept.JacobsLadderExperiment.description"
+    ],
+    "right": [
+      "concept.JacobsLadderExperiment.image1"
+    ]
+  },
+  "JacobsLadderExperiment2": {
+    "left": [
+      "concept.JacobsLadderExperiment.theImpact"
+    ],
+    "right": [
+      "concept.JacobsLadderExperiment.image2"
+    ]
+  },
+  "JacobsLadderExperiment3": {
+    "left": [
+      "concept.JacobsLadderExperiment.steps"
+    ],
+    "right": [
+      "concept.JacobsLadderExperiment.whatsGoingOn"
+    ]
+  },
   "hamRadio": {
     "left": [
       "faq.hamRadio.faq"

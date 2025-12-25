@@ -118,6 +118,166 @@
     "image1": "faraday1.jpg",
     "image2": "faraday2.jpg"
   },
+  "JumpingWire": {
+    "description": "Long ago, scientists wondered about invisible forces around us. One such force, called electricity, fascinated them. They discovered it could make things move and glow. But they didn't know how to create it. In the 1800s, a brilliant scientist named Michael Faraday became curious about electricity and magnets. He discovered something incredible - when magnets move near a wire, they create electricity. Using Faraday's discovery, engineers built the first electric generator. Imagine a machine that turns the power of spinning magnets into electricity. This invention changed the world forever.",
+    "theImpact": "Michael Faraday's experiments with electromagnetism led him to invent the first electrical generator in 1831. Using the principles demonstrated here, the generator converted the mechanical energy of the rotation into electrical energy. The power of the motor depends on the strength of the magnetic field, the number of wires and the amount of current running through the wires. Understanding electromagnetism, the relationship between electricity and magnets, led to the creation of power plants. These plants generate electricity for our homes, schools, and cities. Thanks to this invention, we can light up our homes, power our gadgets, and explore amazing things using electricity.",
+    "steps": {
+      "label": "How it Works:",
+      "list": [
+        {
+          "text": "Push button 1"
+        },
+        {
+          "text": "Push button 2"
+        }
+      ]
+    },
+    "whatsGoingOn": "Notice that the wire between two magnets jumps. The wire moves because the magnetic field created by electric current interacts with the permanent magnetic field.",
+    "whatsGoingOn2": {
+      "list": [
+        {
+          "text": "Movement of the Magnet: In Faraday's experiment, when a magnet is moved in and out of a coil of wire (or vice versa), it causes the magnetic field around the coil to change."
+        },
+        {
+          "text": "Induced Current: This change in the magnetic field induces a flow of electrons or an electric current in the wire coil."
+        },
+        {
+          "text": "Direction of Current: The direction of the induced current depends on the direction of movement of the magnet and the coil."
+        },
+        {
+          "text": "Tilting to the right causes the induced current to flow in one direction."
+        },
+        {
+          "text": "Tilting to the left causes the induced current to flow in the opposite direction."
+        },
+        {
+          "text": "Electricity Generation: The induced current in the wire can be used to power a circuit or generate electricity."
+        }
+      ]
+    },
+    "image1": "jumpwire1.jpg",
+    "image2": "jumpingwire2.jpg"
+  },
+  "StaticElectricity": {
+    "description": "Static electricity is a form of electricity resulting from the imbalance between positive and negative charges within a material that occurs when electrons (the negatively charged particles in an atom) move from one material to another. If the electron-receiving material is either isolated or not an electrical conductor, it tends to hold on to the electrons, resulting in a buildup of electric charge. Since this charge is not moving, it is referred to as static electricity. When conditions allow the built-up charge to flow, the surplus of static electricity is discharged, and it becomes current electricity. Static Electricity is a phenomenon that occurs when certain materials rub against each other, causing electrons to move from one surface to another. This movement creates an imbalance of electric charges, leading to the buildup of static electricity. Thunderstorms are nature's electrical generators, producing immense static charges as water droplets and ice particles collide within clouds. When the buildup of static electricity becomes too great, it seeks a path to the ground, resulting in lightning strikes. These bolts of electricity can reach temperatures hotter than the surface of the sun and unleash destructive power upon anything in their path.",
+    "theImpact": "The discovery of static electricity has had a profound impact on technology and everyday life. From the invention of the telegraph to the development of modern electronics, static electricity plays a crucial role in powering our devices and facilitating communication. In the 18th century, Benjamin Franklin famously conducted his kite experiment, proving that lightning is a form of electricity. This groundbreaking discovery led to the invention of the lightning rod—a device designed to protect buildings and ships from lightning strikes by safely redirecting the electrical charge to the ground. Franklin's invention revolutionized our understanding of lightning and paved the way for modern lightning protection systems.",
+    "image1": "static1.jpg",
+    "image2": "static2.webp"
+  },
+  "HumanDynamo": {
+    "description": "This demonstration empowers the user to Generate Electric Power. A hand crank rapidly turns an Alternator, producing electric power to Illuminate an adjacent LED panel and drive two Voltmeters. The Lower Voltmeter indicates Instantaneous Voltage. The Upper Voltmeter shows the Progressive Voltage Increase of a Capacitor as it is Charged by the Dynamo. If the user cranks long enough, the Capacitor Charges to its Full Potential and a “GOAL” light flashes. When the user is finished, and after a short delay, the demo resets itself for the next user.",
+    "theImpact": "The adoption of Alternating Current (AC) as a standard for Electric Power Transmission allowed efficient long-distance distribution and integration into a Wide Area National Grid. Edison's DC system would have required Many Power Plants every mile or so.",
+    "whatToWatch": "Observe the LED light panels next to the generator.  You will notice that they don't light up until you crank rapidly and produce higher voltage.\n\nLook at the lower bar-graph Instant Voltmeter. The voltage it indicates is directly proportional to the speed at which you turn the crank.\n\nYou will notice that the Upper Capacitor Charge Meter will initially increase quickly as you crank. The Rate of that increase Decreases the closer the meter gets to Full Scale. The charge capacitor demonstrates storage of POTENTIAL ENERGY for later use.",
+    "whatsGoingOn": "When the crank is rapidly turned, a drive belt transfers your Rotational Kinetic Energy to a small Alternator. An Alternator is an alternating current generator like the one that recharges your car battery and provides power to the vehicle. It works by Moving high power permanent Magnets by Coils of Wire. As each magnet passes a coil, a Current is induced. Since adjacent magnets are arranged with Opposing Polarities, and adjacent Coils are wound in Inverse Directions, the Current will constantly Flip back and forth - or Alternate. The faster the crank is turned, the faster it will alternate (higher frequency).\nThe Alternating Current (AC) in your house flips polarity as a sinusoidal waveform at a frequency of 60 cycles per second. Rapid Rotation of the demo's crank will cause this Generator to produce more Power at a higher Frequency. This Alternating Current is then RECTIFIED or converted to a Pulsating Direct Current by a Rectifier. The pulsations are then smoothed out by a Filter capacitor. The result is continuous Direct Current (DC) like that obtained from a Battery.",
+    "what": "The Rectified and Filtered DC Current from the generator directly powers the LED light panels next to it.  They don't light up until you crank fast enough.  This is characteristic of LED's, which will only illuminate when a specific voltage threshold is reached.  For these lights, that threshold is about 20 Volts, which you can observe on the Lower Bar-Graph Meter. As you keep rapidly turning the crank, the Upper Charge Meter will slowly increase. You will notice that the rate of that increase decreases the higher the meter gets.  This is typical of the charging curve for capacitors and batteries. BUT DON'T GIVE UP! If you reach full charge, the Fully Charged GOAL LIGHT will FLASH!",
+    "funFact": "This Alternator is like those designed by Michael Faraday and refined by Nikola Tesla. It relies on Wireless Induction to internally transfer power, unlike Direct Current (DC) generators designed by Thomas Edison's Lab. Edison's Dynamos need physical contact (Brushes) to their moving parts to Generate electricity.",
+    "steps": {
+      "label": "Try this:",
+      "list": [
+        {
+          "text": "Turn the crank Slowly. The lower Voltmeter will begin to increase, but the lights next to the dynamo will not illuminate. Those LED lamps need at least 20 volts to glow."
+        },
+        {
+          "text": "Turn the crank Faster. The LED's begin to Light Up, the Voltmeter will indicate at least 20 volts and the upper Charge Indicator Meter will begin to increase."
+        },
+        {
+          "text": "Keep Rapidly Cranking! The Voltmeter will stay above 20 volts and the LED lights will stay On. The Meter continues to Rise, but will start Slowing Down, eventually reaching Full Scale."
+        },
+        {
+          "text": "At Full Scale, the FULL CHARGE Goal light will Flash."
+        }
+      ]
+    },
+    "image1": "section.jpg",
+    "video1": "humanDynamo.mp4"
+  },
+  "VanDeGraaffGenerator": {
+    "description": "The Van de Graaff Generator was invented by Robert J. Van de Graaff in 1929 to show how electric charges work.  By using a moving belt to build up electricity on the big metal dome, it teaches us about static electricity — something that's all around us, but we usually don't notice.",
+    "theImpact": "This generator helps scientists understand the forces that keep atoms together.  It was once used in laboratories to speed up particles for experiments in nuclear physics, helping us learn more about the universe and the building blocks of matter. Higher energy machines – In 1937, the Westinghouse Electric company built a 65 ft (20 m) machine, the Westinghouse Atom Smasher capable of generating 5 MeV in Forest Hills, Pennsylvania.  It marked the beginning of nuclear research for civilian applications.  It was decommissioned in 1958 and was partially demolished in 2015.",
+    "facts": [
+      {
+        "label": "Name: ",
+        "value": "Van de Graaff Generator"
+      },
+      {
+        "label": "Inventor: ",
+        "value": "Robert J. Van de Graaff"
+      },
+      {
+        "label": "Year: ",
+        "value": "1929"
+      },
+      {
+        "label": "Purpose: ",
+        "value": "Demonstrating static electricity"
+      },
+      {
+        "label": "Fun Fact: ",
+        "value": "The biggest Van de Graaff generator can make lightning-like sparks over 20 feet long"
+      },
+      {
+        "label": "Impact: ",
+        "value": "Helped in nuclear research and understanding atomic structures."
+      }
+    ],
+    "howDoesItWork": {
+      "label": "How does it Work?",
+      "description": "Friction on the belt → Charges transfer to the dome → Charges jump to create sparks. The Van de Graaff generator works by building up and storing static electricity, which it transfers to other objects. Here's how it does that:",
+      "list": [
+        {
+          "label": "The Belt.",
+          "text": "Inside the machine, there's a rubber or fabric belt that moves continuously over rollers. As the belt moves, it rubs against the rollers, picking up tiny electric charges through a process called friction."
+        },
+        {
+          "label": "The Comb.",
+          "text": "As the belt moves, it passes by a comb (a metal strip with sharp points) near the base of the machine. The comb transfers the electric charges from the belt to the metal dome at the top of the generator."
+        },
+        {
+          "label": "The Dome.",
+          "text": "The dome is like a giant container for electric charges. As the charges build up, the dome becomes highly charged. This is static electricity, similar to what happens when you rub a balloon on your hair."
+        },
+        {
+          "label": "Sparks and Static.",
+          "text": "When the charges on the dome build up enough, they look for a way to escape.  If you bring a metal object (or even your hand) close to the dome, the charges jump through the air, creating a visible spark.  Sometimes, if you touch the dome, the charges move through you—making your hair stand on end."
+        }
+      ]
+    },
+    "steps": {
+      "label": "Try this and Watch:",
+      "list": [
+        {
+          "label": "Press and hold the button to turn it on.",
+          "text": "The Van de Graaff generator and let it build up charge. You will hear a faint humming sound, and after a few moments, the dome will begin to accumulate static electricity."
+        },
+        {
+          "label": "Witness the charge.",
+          "text": "Watch the sparks zap from rod to the metal dome. The hair will start to rise as the static electricity flows. The static electricity is repelling each strand of hair away from the others, creating the “crazy hair” effect. The fluorescent lights flicker, charing the bulbs. "
+        }
+      ]
+    },
+    "image1": "graaff2.jpg",
+    "image2": "graaff3.png",
+    "image3": "graaff4.png",
+    "image4": "graaff5.jpg"
+  },
+  "JacobsLadderExperiment": {
+    "description": "Jacob's Ladder Experiment is a demonstration of electricity's power to create mesmerizing arcs of light. It consists of two vertical conductors, typically made of metal rods or wires, placed in a V-shape with a small gap between them at the bottom.",
+    "theImpact": "The Jacob's Ladder Experiment is not only a fascinating visual spectacle but also serves as a fundamental demonstration of electrical principles. It highlights the behavior of electricity in the air and the effects of high voltage on ionization and conductivity. This experiment has been crucial in advancing our understanding of electrical phenomena and has paved the way for numerous technological innovations.",
+    "steps": {
+      "label": "How does it Work?",
+      "list": [
+        {
+          "text": "Push the button and hold it."
+        },
+        {
+          "text": "Watch the two tall wires."
+        }
+      ]
+    },
+    "whatsGoingOn": "When a high voltage is applied to the two conductors, electricity flows through the air in the gap between them, ionizing the air and creating a conductive path. The intense heat generated by this electrical discharge causes the air to expand rapidly, pushing the arc upwards. As the arc climbs, it cools down, and the air becomes less ionized, eventually breaking the circuit and extinguishing the arc. The process repeats, creating a mesmerizing display resembling a ladder climbing upwards.  Witnessing the arcing discharge and understanding its underlying principles provides valuable insights into the world of science and engineering.",
+    "image1": "jacobs3.gif",
+    "image2": "jacobs1.jpg"
+  },
   "recordedSound": {
     "audioInfo": {
       "bunkerHill": {

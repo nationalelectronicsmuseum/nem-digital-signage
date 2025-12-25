@@ -29,4 +29,5 @@
 .bifold-slide-content {
   min-height: 100%;
   height: 100%;
+  display: flex;
 }

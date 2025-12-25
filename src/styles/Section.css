@@ -6,9 +6,9 @@
 }
 
 .section-header {
-  height: 200px;
   display: flex;
   flex-shrink: 0;
+  line-height: 1.25;
 }
 
 .swiper-wrapper {

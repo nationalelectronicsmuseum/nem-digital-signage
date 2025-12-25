@@ -50,30 +50,46 @@
           "id": "JumpingWire",
           "image": "/images/jumpingwire1.jpg",
           "slides": [
+            {"type": "BifoldSlide", "slideID": "JumpingWire1"},
+            {"type": "BifoldSlide", "slideID": "JumpingWire2"},
+            {"type": "BifoldSlide", "slideID": "JumpingWire3"}
           ]
         },
         {
           "id": "StaticElectricity",
           "image": "/images/static-electricity-section-thumbnail.jpg",
           "slides": [
+            {"type": "BifoldSlide", "slideID": "StaticElectricity1"},
+            {"type": "BifoldSlide", "slideID": "StaticElectricity2"}
           ]
         },
         {
           "id": "HumanDynamo",
           "image": "/images/section.jpg",
           "slides": [
+            {"type": "BifoldSlide", "slideID": "HumanDynamo1"},
+            {"type": "BifoldSlide", "slideID": "HumanDynamo2"},
+            {"type": "BifoldSlide", "slideID": "HumanDynamo3"},
+            {"type": "BifoldSlide", "slideID": "HumanDynamo4"}
           ]
         },
         {
           "id": "VanDeGraaffGenerator",
           "image": "/images/graaff1.jpg",
           "slides": [
+            {"type": "BifoldSlide", "slideID": "VanDeGraaffGenerator1"},
+            {"type": "BifoldSlide", "slideID": "VanDeGraaffGenerator2"},
+            {"type": "BifoldSlide", "slideID": "VanDeGraaffGenerator3"},
+            {"type": "BifoldSlide", "slideID": "VanDeGraaffGenerator4"}
           ]
         },
         {
           "id": "JacobsLadderExperiment",
           "image": "/images/jacobs2.jpg",
           "slides": [
+            {"type": "BifoldSlide", "slideID": "JacobsLadderExperiment1"},
+            {"type": "BifoldSlide", "slideID": "JacobsLadderExperiment2"},
+            {"type": "BifoldSlide", "slideID": "JacobsLadderExperiment3"}
           ]
         }
       ]
