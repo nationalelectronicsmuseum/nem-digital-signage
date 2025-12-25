@@ -5,6 +5,7 @@ import "./SlideImage.css";
 const ImageOverlay = ({ onClose, image }) => {
   return createPortal(
     <div className="image-overlay-background" onClick={onClose}>
+      <button className="image-overlay-close"></button>
       <div className="image-overlay" onClick={(e) => e.stopPropagation()}>
         {image && (
           <div className="image-overlay-content">
