@@ -5,9 +5,12 @@
 }
 
 .facts-title-label {
+  margin: 0.25em 0.5em 0 0;
   display: flex;
+  flex-direction: row;
   justify-content: flex-start;
-  margin-left: 40px;
+  font-weight: bold;
+  gap: 20px;
 }
 
 .facts-label {

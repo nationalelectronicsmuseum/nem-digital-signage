@@ -9,8 +9,14 @@ export default function Facts({ componentObject }) {
     fontCode: settings.font.fontCode,
   };
 
+  const labelFontSize = parseFloat(settings.fontSize.point) + 2 + "pt";
+  const labelStyle = {
+    fontSize: labelFontSize,
+    fontCode: settings.font.fontCode,
+  };
+
   let speechText = "";
-  for (const fact of componentObject) {
+  for (const fact of componentObject.facts) {
     speechText += fact.label ? fact.label : "";
     speechText += ". ";
     speechText += fact.value ? fact.value : "";
@@ -19,11 +25,12 @@ export default function Facts({ componentObject }) {
 
   return (
     <div>
-      <span className="facts-title-label">
+      <span style={labelStyle} className="facts-title-label">
+        {componentObject.label}
         <SpeechPlaybackControls text={speechText} />
       </span>
       <ul>
-        {componentObject.map((el, j) => (
+        {componentObject.facts.map((el, j) => (
           <li className="facts" key={j}>
             <span style={aStyle} className="facts-label">
               {el.label}

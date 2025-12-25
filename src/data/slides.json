@@ -312,11 +312,195 @@
       "concept.EvolutionOfRecordedSound.audioInfo.johnnyBGoode"
     ]
   },
-  "slide3": [
-      "demo.demoA.tcTest1",
-      "demo.demoA.tcTest2",
-      "demo.demoA.theImpact",
-      "demo.demoA.facts",
-      "demo.demoA.steps"
+  "TelegraphMachine1": {
+    "left": [
+      "concept.TelegraphMachine.description",
+      "concept.TelegraphMachine.facts"
+    ],
+    "right": [
+      "concept.TelegraphMachine.image1"
+    ]
+  },
+  "TelegraphMachine2": {
+    "left": [
+      "concept.TelegraphMachine.theImpact"
+    ],
+    "right": [
+      "concept.TelegraphMachine.image2"
+    ]
+  },
+  "TelegraphMachine3": {
+    "left": [
+      "concept.TelegraphMachine.steps"
+    ],
+    "right": [
+      "concept.TelegraphMachine.whatsGoingOn"
+    ]
+  },
+  "TelegraphMachine4": {
+    "left": [
+      "concept.TelegraphMachine.telegraphSteps"
+    ],
+    "right": [
+    ]
+  },
+  "TheMarconiMagneticDetector1": {
+    "left": [
+      "concept.TheMarconiMagneticDetector.description",
+      "concept.TheMarconiMagneticDetector.facts"
+    ],
+    "right": [
+      "concept.TheMarconiMagneticDetector.image1"
+    ]
+  },
+  "TheMarconiMagneticDetector2": {
+    "left": [
+      "concept.TheMarconiMagneticDetector.theImpact"
+    ],
+    "right": [
+      "concept.TheMarconiMagneticDetector.timeline"
+    ]
+  },
+  "TheMarconiMagneticDetector3": {
+    "left": [
+      "concept.TheMarconiMagneticDetector.steps"
+    ],
+    "right": [
+      "concept.TheMarconiMagneticDetector.image2"
+    ]
+  },
+  "TheMarconiMagneticDetector4": {
+    "left": [
+      "concept.TheMarconiMagneticDetector.whatsGoingOn"
+    ],
+    "right": [
+      "concept.TheMarconiMagneticDetector.image3"
+    ]
+  },
+  "WhyDoMicrowavesHaveTurntables1": {
+    "left": [
+      "concept.WhyDoMicrowavesHaveTurntables.description"
+    ],
+    "right": [
+      "concept.WhyDoMicrowavesHaveTurntables.image1"
+    ]
+  },
+  "WhyDoMicrowavesHaveTurntables2": {
+    "left": [
+      "concept.WhyDoMicrowavesHaveTurntables.theImpact"
+    ],
+    "right": [
+      "concept.WhyDoMicrowavesHaveTurntables.image2"
+    ]
+  },
+  "WhyDoMicrowavesHaveTurntables3": {
+    "left": [
+      "concept.WhyDoMicrowavesHaveTurntables.steps"
+    ],
+    "right": [
+      "concept.WhyDoMicrowavesHaveTurntables.whatsGoingOn"
+    ]
+  },
+  "Theremin1": {
+    "left": [
+      "concept.Theremin.description"
+    ],
+    "right": [
+      "concept.Theremin.image1"
+    ]
+  },
+  "Theremin2": {
+    "left": [
+      "concept.Theremin.theImpact"
+    ],
+    "right": [
+      "concept.Theremin.image2"
+    ]
+  },
+  "Theremin3": {
+    "left": [
+      "concept.Theremin.steps"
+    ],
+    "right": [
+      "concept.Theremin.whatsGoingOn"
+    ]
+  },
+  "PolarizationExperiment1": {
+    "left": [
+      "concept.PolarizationExperiment.description"
+    ],
+    "right": [
+    ]
+  },
+  "PolarizationExperiment2": {
+    "left": [
+      "concept.PolarizationExperiment.theImpact"
+    ],
+    "right": [
+    ]
+  },
+  "PolarizationExperiment3": {
+    "left": [
+      "concept.PolarizationExperiment.steps"
+    ],
+    "right": [
+      "concept.PolarizationExperiment.whatsGoingOn"
+    ]
+  },
+  "ElectromagneticWaves1": [
+      "concept.ElectromagneticWaves.intro"
+    ]
+  ,
+  "ElectromagneticWaves2": {
+    "left": [
+      "concept.ElectromagneticWaves.radioWaves"
+    ],
+    "right": [
+    ]
+  },
+  "ElectromagneticWaves3": {
+    "left": [
+      "concept.ElectromagneticWaves.microWaves"
+    ],
+    "right": [
+    ]
+  },
+  "ElectromagneticWaves4": {
+    "left": [
+      "concept.ElectromagneticWaves.infraredLight"
+    ],
+    "right": [
+    ]
+  },
+  "ElectromagneticWaves5": {
+    "left": [
+      "concept.ElectromagneticWaves.visibleLight"
+    ],
+    "right": [
+    ]
+  },
+  "ElectromagneticWaves6": {
+    "left": [
+      "concept.ElectromagneticWaves.ultravioletWaves"
+    ],
+    "right": [
+    ]
+  },
+  "ElectromagneticWaves7": {
+    "left": [
+      "concept.ElectromagneticWaves.xRays"
+    ],
+    "right": [
+    ]
+  },
+  "ElectromagneticWaves8": {
+    "left": [
+      "concept.ElectromagneticWaves.gammaRays"
+    ],
+    "right": [
+    ]
+  },
+  "ElectromagneticWaves9": [
+    "concept.ElectromagneticWaves.outro"
   ]
 }

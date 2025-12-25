@@ -57,6 +57,14 @@ const objectImplementsSteps = (contentItem) => {
   );
 };
 
+const objectImplementsFacts = (contentItem) => {
+  return ( (typeof contentItem !== "string") &&
+    "facts" in contentItem &&
+    Array.isArray(contentItem.facts) &&
+    "value" in contentItem.facts[0]
+  );
+};
+
 export default function SlideContent({ data, className }) {
   const { settings } = useSettings();
   const languageCode = settings.language.languageCode;
@@ -76,7 +84,8 @@ export default function SlideContent({ data, className }) {
 
         if (Array.isArray(contentItem)) {
           if (fieldName === "facts") {
-            return <Facts componentObject={contentItem} key={i} />;
+            const newContentItem = {facts: contentItem}
+            return <Facts componentObject={newContentItem} key={i} />;
           } else if (fieldName === "faq") {
             return <FAQCardList componentObject={contentItem} key={i} />;
           }
@@ -95,6 +104,8 @@ export default function SlideContent({ data, className }) {
         } else if(objectImplementsAudioCard(contentItem)) {
           contentItem.performedByText = content.common.label.performedBy;
           return <AudioCard componentObject={contentItem} key={i} />
+        } else if(objectImplementsFacts(contentItem)) {
+          return <Facts componentObject={contentItem} key={i} />;
         }
 
         const label = getLabel(fieldName, content.common.label);

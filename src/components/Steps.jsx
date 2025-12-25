@@ -22,19 +22,20 @@ export default function Steps({ componentObject }) {
   speechText += ". ";
   speechText += componentObject.description ? componentObject.description : "";
   speechText += ". ";
-  for(const step of componentObject.list) {
-    speechText += index + ". ";
-    if(typeof step === "string") {
-      speechText += step;
-    } else {
-      speechText += step.label ? step.label : "";
+  if (componentObject.list) {
+    for (const step of componentObject.list) {
+      speechText += index + ". ";
+      if (typeof step === "string") {
+        speechText += step;
+      } else {
+        speechText += step.label ? step.label : "";
+        speechText += ". ";
+        speechText += step.text ? step.text : "";
+      }
       speechText += ". ";
-      speechText += step.text ? step.text : "";
+      index += 1;
     }
-    speechText += ". ";
-    index += 1;
   }
-  
 
   return (
     <div>
@@ -42,9 +43,13 @@ export default function Steps({ componentObject }) {
         {componentObject.label}
         <SpeechPlaybackControls text={speechText} />
       </span>
-      {componentObject.description && <p style={aStyle} className="steps-description">{componentObject.description}</p>}
+      {componentObject.description && (
+        <p style={aStyle} className="steps-description">
+          {componentObject.description}
+        </p>
+      )}
       <ul>
-        {itemList.map((el, j) => (
+        {itemList && itemList.map((el, j) => (
           <li className="steps" key={j}>
             {el.label && (
               <span style={labelStyle} className="steps-label">
@@ -52,7 +57,7 @@ export default function Steps({ componentObject }) {
               </span>
             )}
             <p style={aStyle} className="steps-value">
-              {(el.label ? "" : (j + 1) + ". ") + el.text}
+              {(el.label ? "" : j + 1 + ". ") + el.text}
             </p>
           </li>
         ))}

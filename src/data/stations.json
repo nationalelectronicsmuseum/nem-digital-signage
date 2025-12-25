@@ -135,6 +135,10 @@
           "id": "TelegraphMachine",
           "image": "/images/section.jpg",
           "slides": [
+            {"type": "BifoldSlide", "slideID": "TelegraphMachine1"},
+            {"type": "BifoldSlide", "slideID": "TelegraphMachine2"},
+            {"type": "BifoldSlide", "slideID": "TelegraphMachine3"},
+            {"type": "BifoldSlide", "slideID": "TelegraphMachine4"}
           ]
         },
         {
@@ -151,6 +155,9 @@
           "id": "AudioTranslator",
           "image": "/images/audiotrans1.jpg",
           "slides": [
+            {"type": "BifoldSlide", "slideID": "AudioTranslator1"},
+            {"type": "BifoldSlide", "slideID": "AudioTranslator2"},
+            {"type": "BifoldSlide", "slideID": "AudioTranslator3"}
           ]
         }
       ]
@@ -163,12 +170,18 @@
           "id": "WhyDoMicrowavesHaveTurntables",
           "image": "/images/microwaveHome.jpg",
           "slides": [
+            {"type": "BifoldSlide", "slideID": "WhyDoMicrowavesHaveTurntables1"},
+            {"type": "BifoldSlide", "slideID": "WhyDoMicrowavesHaveTurntables2"},
+            {"type": "BifoldSlide", "slideID": "WhyDoMicrowavesHaveTurntables3"}
           ]
         },
         {
           "id": "Theremin",
           "image": "/images/thereminHome.jpg",
           "slides": [
+            {"type": "BifoldSlide", "slideID": "Theremin1"},
+            {"type": "BifoldSlide", "slideID": "Theremin2"},
+            {"type": "BifoldSlide", "slideID": "Theremin3"}
           ]
         }
       ]
@@ -187,6 +200,9 @@
           "id": "Theremin",
           "image": "/images/thereminHome.jpg",
           "slides": [
+            {"type": "BifoldSlide", "slideID": "Theremin1"},
+            {"type": "BifoldSlide", "slideID": "Theremin2"},
+            {"type": "BifoldSlide", "slideID": "Theremin3"}
           ]
         },
         {
@@ -205,18 +221,33 @@
           "id": "ElectromagneticWaves",
           "image": "/images/wavesHome.jpg",
           "slides": [
+            {"type": "CenteredMonoSlide", "slideID": "ElectromagneticWaves1"},
+            {"type": "BifoldSlide", "slideID": "ElectromagneticWaves2"},
+            {"type": "BifoldSlide", "slideID": "ElectromagneticWaves3"},
+            {"type": "BifoldSlide", "slideID": "ElectromagneticWaves4"},
+            {"type": "BifoldSlide", "slideID": "ElectromagneticWaves5"},
+            {"type": "BifoldSlide", "slideID": "ElectromagneticWaves6"},
+            {"type": "BifoldSlide", "slideID": "ElectromagneticWaves7"},
+            {"type": "BifoldSlide", "slideID": "ElectromagneticWaves8"},
+            {"type": "CenteredMonoSlide", "slideID": "ElectromagneticWaves9"}
           ]
         },
         {
           "id": "PolarizationExperiment",
           "image": "/images/polarHome.png",
           "slides": [
+            {"type": "BifoldSlide", "slideID": "PolarizationExperiment1"},
+            {"type": "BifoldSlide", "slideID": "PolarizationExperiment2"},
+            {"type": "BifoldSlide", "slideID": "PolarizationExperiment3"}
           ]
         },
         {
           "id": "ElectromagneticRadioWaves",
           "image": "/images/ewaves1.webp",
           "slides": [
+            {"type": "BifoldSlide", "slideID": "ElectromagneticRadioWaves1"},
+            {"type": "BifoldSlide", "slideID": "ElectromagneticRadioWaves2"},
+            {"type": "BifoldSlide", "slideID": "ElectromagneticRadioWaves3"}
           ]
         }
       ]
