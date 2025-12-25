@@ -1,5 +1,4 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { useEffect } from "react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -17,11 +16,6 @@ export default function SectionRenderer({ station, section }) {
   const languageCode = settings.language.languageCode;
   const content = loadContent(languageCode);
   let title = resolvePath(content, "common.sectionTitle." + section.id);
-  
-  useEffect(() => {
-    const swiper = document.querySelector('.swiper').swiper;
-    swiper.slideTo(0);
-  });
 
   return (
     <div className="section">
