@@ -502,5 +502,13 @@
   },
   "ElectromagneticWaves9": [
     "concept.ElectromagneticWaves.outro"
-  ]
+  ],
+  "HAMRadio": {
+    "left": [
+      "faq.hamRadio.faq"
+    ],
+    "right": [
+      "faq.hamRadio.video"
+    ]
+  }
 }

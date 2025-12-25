@@ -282,8 +282,9 @@
       "sections": [
         {
           "id": "HAMRadio",
-          "image": "/images/humanbatt.png",
+          "image": "/images/section.jpg",
           "slides": [
+            {"type": "FAQSlide", "slideID": "HAMRadio"}
           ]
         }
       ]

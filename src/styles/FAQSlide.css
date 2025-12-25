@@ -27,5 +27,7 @@
 
 /* Inner content spacing */
 .faq-slide-content {
-  padding-bottom: 200px; /* gives room to scroll */
+  min-height: 100%;
+  height: 100%;
+  display: flex;
 }
