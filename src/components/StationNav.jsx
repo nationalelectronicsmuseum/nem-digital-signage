@@ -13,7 +13,7 @@ export default function StationNav({ station }) {
     <nav>
       <Link to={"/" + station.id}>Home</Link>
       {station.sections.map((sec) => {
-        let title = resolvePath(content, "common.sectionTitle." + sec.id);
+        let title = resolvePath(content, "common.sectionCardTitle." + sec.id);
         return (
           <Link key={sec.id} to={"/" + station.id + "/" + sec.id}>
             {title}

@@ -1,4 +1,3 @@
-import "../styles/FAQCardList.css";
 import FAQCard from "./FAQCard.jsx";
 
 export default function FAQCardList({ componentObject }) {
