@@ -102,18 +102,27 @@
           "id": "AudioTranslator",
           "image": "/images/audiotrans1.jpg",
           "slides": [
+            {"type": "BifoldSlide", "slideID": "AudioTranslator1"},
+            {"type": "BifoldSlide", "slideID": "AudioTranslator2"},
+            {"type": "BifoldSlide", "slideID": "AudioTranslator3"}
           ]
         },
         {
           "id": "ElectromagneticRadioWaves",
           "image": "/images/ewaves1.webp",
           "slides": [
+            {"type": "BifoldSlide", "slideID": "ElectromagneticRadioWaves1"},
+            {"type": "BifoldSlide", "slideID": "ElectromagneticRadioWaves2"},
+            {"type": "BifoldSlide", "slideID": "ElectromagneticRadioWaves3"}
           ]
         },
         {
           "id": "EvolutionOfRecordedSound",
           "image": "/images/AudioHome.jfif",
           "slides": [
+            {"type": "AudioSlide", "slideID": "EvolutionOfRecordedSound1"},
+            {"type": "AudioSlide", "slideID": "EvolutionOfRecordedSound2"},
+            {"type": "AudioSlide", "slideID": "EvolutionOfRecordedSound3"}
           ]
         }
       ]
@@ -132,6 +141,10 @@
           "id": "TheMarconiMagneticDetector",
           "image": "/images/marconi1.jpg",
           "slides": [
+            {"type": "BifoldSlide", "slideID": "TheMarconiMagneticDetector1"},
+            {"type": "BifoldSlide", "slideID": "TheMarconiMagneticDetector2"},
+            {"type": "BifoldSlide", "slideID": "TheMarconiMagneticDetector3"},
+            {"type": "BifoldSlide", "slideID": "TheMarconiMagneticDetector4"}
           ]
         },
         {

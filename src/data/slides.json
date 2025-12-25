@@ -230,6 +230,56 @@
       "concept.JacobsLadderExperiment.whatsGoingOn"
     ]
   },
+  "AudioTranslator1": {
+    "left": [
+      "concept.AudioTranslator.description",
+      "concept.AudioTranslator.facts"
+    ],
+    "right": [
+      "concept.AudioTranslator.image1"
+    ]
+  },
+  "AudioTranslator2": {
+    "left": [
+      "concept.AudioTranslator.theImpact"
+    ],
+    "right": [
+      "concept.AudioTranslator.image2"
+    ]
+  },
+  "AudioTranslator3": {
+    "left": [
+      "concept.AudioTranslator.steps"
+    ],
+    "right": [
+      "concept.AudioTranslator.whatsGoingOn"
+    ]
+  },
+  "ElectromagneticRadioWaves1": {
+    "left": [
+      "concept.ElectromagneticRadioWaves.description",
+      "concept.ElectromagneticRadioWaves.facts"
+    ],
+    "right": [
+      "concept.ElectromagneticRadioWaves.image1"
+    ]
+  },
+  "ElectromagneticRadioWaves2": {
+    "left": [
+      "concept.ElectromagneticRadioWaves.theImpact"
+    ],
+    "right": [
+      "concept.ElectromagneticRadioWaves.image2"
+    ]
+  },
+  "ElectromagneticRadioWaves3": {
+    "left": [
+      "concept.ElectromagneticRadioWaves.steps"
+    ],
+    "right": [
+      "concept.ElectromagneticRadioWaves.whatsGoingOn"
+    ]
+  },
   "hamRadio": {
     "left": [
       "faq.hamRadio.faq"
@@ -238,12 +288,28 @@
       "faq.hamRadio.video"
     ]
   },
-  "slide2": {
+  "EvolutionOfRecordedSound1": {
     "left": [
-      "artifacts.sound1.image"
+      "concept.EvolutionOfRecordedSound.image1"
     ],
     "right": [
-      "concept.recordedSound.audioInfo.bunkerHill"
+      "concept.EvolutionOfRecordedSound.audioInfo.bunkerHill"
+    ]
+  },
+  "EvolutionOfRecordedSound2": {
+    "left": [
+      "concept.EvolutionOfRecordedSound.image2"
+    ],
+    "right": [
+      "concept.EvolutionOfRecordedSound.audioInfo.overThere"
+    ]
+  },
+  "EvolutionOfRecordedSound3": {
+    "left": [
+      "concept.EvolutionOfRecordedSound.image3"
+    ],
+    "right": [
+      "concept.EvolutionOfRecordedSound.audioInfo.johnnyBGoode"
     ]
   },
   "slide3": [

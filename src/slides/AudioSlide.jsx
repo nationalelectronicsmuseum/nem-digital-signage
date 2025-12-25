@@ -14,7 +14,7 @@ export default function AudioSlide({ slideID }) {
           <div className="audio-slide-pane audio-slide-left">
             <div className="audio-slide-content">
               {slide.left ? (
-                <SlideContent data={leftContent} />
+                <SlideContent data={leftContent} className="audio-slide-content" />
               ) : (
                 "Left property not found for artifact " + slideID
               )}
