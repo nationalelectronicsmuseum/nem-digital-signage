@@ -23,7 +23,7 @@ const getLabel = (fieldName, content) => {
 };
 
 const VIDEO_FILES = ["mp4", "webm"];
-const IMAGE_FILES = ["jpg", "jpeg", "png", "svg"];
+const IMAGE_FILES = ["jpg", "jpeg", "png", "svg", "gif"];
 
 const isVideo = (contentItem) => {
   return (

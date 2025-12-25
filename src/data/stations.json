@@ -8,7 +8,9 @@
           "id": "VoltageAndCurrent",
           "image": "/images/voltcurr.png",
           "slides": [
-            {"type": "BifoldSlide", "slideID": "slide1"}
+            {"type": "BifoldSlide", "slideID": "VoltageAndCurrent1"},
+            {"type": "BifoldSlide", "slideID": "VoltageAndCurrent2"},
+            {"type": "BifoldSlide", "slideID": "VoltageAndCurrent3"}
           ]
         },
         {

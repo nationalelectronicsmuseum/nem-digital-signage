@@ -4,11 +4,11 @@ import "./SlideImage.css";
 
 const ImageOverlay = ({ onClose, image }) => {
   return createPortal(
-    <div className="audio-overlay-background" onClick={onClose}>
-      <div className="audio-overlay" onClick={(e) => e.stopPropagation()}>
+    <div className="image-overlay-background" onClick={onClose}>
+      <div className="image-overlay" onClick={(e) => e.stopPropagation()}>
         {image && (
-          <div className="audio-overlay-content">
-            <img className="audio-overlay-content-image" src={image}></img>
+          <div className="image-overlay-content">
+            <img className="image-overlay-content-image" src={image}></img>
           </div>
         )}
       </div>

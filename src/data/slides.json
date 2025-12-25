@@ -1,13 +1,27 @@
 {
-  "slide1": {
+  "VoltageAndCurrent1": {
     "left": [
-      "demo.demoA.tcTest1",
-      "demo.demoA.tcTest2",
-      "demo.demoA.theImpact"
+      "concept.VoltageAndCurrent.description"
     ],
     "right": [
-      "demo.demoA.facts",
-      "demo.demoA.steps"
+      "concept.VoltageAndCurrent.image1"
+    ]
+  },
+  "VoltageAndCurrent2": {
+    "left": [
+      "concept.VoltageAndCurrent.theImpact"
+    ],
+    "right": [
+      "concept.VoltageAndCurrent.image2"
+    ]
+  },
+  "VoltageAndCurrent3": {
+    "left": [
+      "concept.VoltageAndCurrent.steps",
+      "concept.VoltageAndCurrent.whatToWatch"
+    ],
+    "right": [
+      "concept.VoltageAndCurrent.whatsGoingOn"
     ]
   },
   "hamRadio": {

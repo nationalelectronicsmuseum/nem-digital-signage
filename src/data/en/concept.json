@@ -1,21 +1,25 @@
 {
-  "conceptX": {
-    "title": "Concept X",
-    "description": "An important design idea.",
-    "facts": [
-      {
-        "label": "Year",
-        "value": "3000"
-      },
-      {
-        "label": "Author",
-        "value": "Jonas Brothers"
-      },
-      {
-        "label": "Color",
-        "value": "Red"
-      }
-    ]
+  "VoltageAndCurrent": {
+    "description": "Voltage is sort of like electrical pressure. A current is a flow of electric charge. It is best to think of it like this: voltage CAUSES electric current, just like water pressure causes water to flow.\nVoltage is the invisible energy that urges electricity to move from one place to another. Voltage and Current work hand in hand. Voltage provides the push, while Current keeps the electricity flowing. Together, they create the energy that powers our gadgets and lights up our world.\n\n\n",
+    "theImpact": "Understanding Voltage and Current helps engineers and scientists design safer and more efficient electrical systems. From the tiniest circuits to the grandest power grids, these concepts are crucial for creating technology that works reliably and safely.",
+    "steps": {
+      "label": "How it Works:",
+      "list": [
+        {
+          "text": "Turn knob clockwise and watch the meters."
+        },
+        {
+          "text": "Flip the switch and turn on light bulb while watching meters."
+        },
+        {
+          "text": "Rotate the knob to change voltage."
+        }
+      ]
+    },
+    "whatToWatch": "Turning the knob allows voltage to change as the voltmeter shows. The meter remains still because no current is being used until you flip the switch. When you flip the switch, the ammeter shows the current being drawn by the bulb as you twist the knob. The amount of current drawn varies, changing the bulb's brightness.",
+    "whatsGoingOn": "By flipping the switch, you close the circuit and allow the current to flow in the circuit's path. Without the force of the voltage and the path of a circuit, current will not flow. Voltage pushes current, forcing it to flow through a closed circuit and light the bulb.",
+    "image1": "ohmslaw.gif",
+    "image2": "volt_impact.jpg"
   },
   "recordedSound": {
     "audioInfo": {

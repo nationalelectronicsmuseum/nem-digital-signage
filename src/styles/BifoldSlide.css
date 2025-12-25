@@ -27,5 +27,6 @@
 
 /* Inner content spacing */
 .bifold-slide-content {
-  padding-bottom: 200px; /* gives room to scroll */
+  min-height: 100%;
+  height: 100%;
 }

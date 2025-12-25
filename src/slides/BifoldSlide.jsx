@@ -21,13 +21,14 @@ export default function BifoldSlide({ slideID }) {
             </div>
           </div>
           <div className="bifold-slide-pane">
-            <div className="bifold-slide-content">
-              {slide.right ? (
-                <SlideContent data={rightContent} />
-              ) : (
-                "Right property not found for artifact " + slideID
-              )}
-            </div>
+            {slide.right ? (
+              <SlideContent
+                data={rightContent}
+                className="bifold-slide-content"
+              />
+            ) : (
+              "Right property not found for artifact " + slideID
+            )}
           </div>
         </div>
       ) : (
