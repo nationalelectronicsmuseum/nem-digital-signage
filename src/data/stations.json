@@ -35,6 +35,9 @@
           "id": "TheFaradayProject",
           "image": "/images/faraday.png",
           "slides": [
+            {"type": "BifoldSlide", "slideID": "TheFaradayProject1"},
+            {"type": "BifoldSlide", "slideID": "TheFaradayProject2"},
+            {"type": "BifoldSlide", "slideID": "TheFaradayProject3"}
           ]
         }
       ]

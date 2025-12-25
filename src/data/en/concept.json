@@ -82,6 +82,42 @@
     "image1": "oersted2.jpg",
     "image2": "oersted3.png"
   },
+  "TheFaradayProject": {
+    "description": "Michael Faraday, a scientist from the 19th century, made discoveries changed the way we understand electricity and magnetism. Faraday conducted a groundbreaking experiment in 1831 that showed how electricity and magnetism are connected. He discovered that when a magnet moves near a wire, it creates an electric current. This discovery laid the foundation for the modern technology we use today. When Michael Faraday made his discovery of electromagnetic induction, he hypothesized that a changing magnetic field is necessary to induce a current in a nearby circuit. To test his hypothesis he made a coil by wrapping a paper cylinder with wire. Gently tilt the tube so the magnet slides down the tube and see if you can generate a tiny electric current. The strength of an electromagnet depends on the number of windings in the coil and the strength of the electric current. More windings and stronger current produce more intense magnetic fields.",
+    "theImpact": "Faraday's experiment was a crucial step in understanding the relationship between electricity and magnetism. This breakthrough led to the development of generators, which produce the electricity that powers our homes, schools, and gadgets. Without Faraday's discoveries, many of the electronic devices we rely on today might not exist.",
+    "facts": [
+      {
+        "label": "Inventor:",
+        "value": "Michael Faraday"
+      },
+      {
+        "label": "Year of Invention:",
+        "value": "1831"
+      },
+      {
+        "label": "Key Feature:",
+        "value": "Relationship between electricity and magnetism"
+      },
+      {
+        "label": "Impact:",
+        "value": "Foundation for modern electric power sources"
+      }
+    ],
+    "steps": {
+      "label": "Try this:",
+      "list": [
+        {
+          "text": "Gently tilt the tube so the magnet slides down the tube."
+        },
+        {
+          "text": "Watch the meter show the presence of electric current as the magnet slides past the wire coil."
+        }
+      ]
+    },
+    "whatsGoingOn": "This phenomenon occurs due to electromagnetic induction, a principle discovered by Faraday. It demonstrates that a changing magnetic field induces an electric current in a conductor. The key factor here is the relative motion between the magnet and the wire, causing the magnetic flux through the coil to change.  Magnetic flux is a measure of the magnitude of a magnetic field passing through a given area.",
+    "image1": "faraday1.jpg",
+    "image2": "faraday2.jpg"
+  },
   "recordedSound": {
     "audioInfo": {
       "bunkerHill": {

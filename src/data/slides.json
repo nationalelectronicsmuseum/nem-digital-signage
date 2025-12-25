@@ -73,6 +73,31 @@
       "concept.Oersted.whatsGoingOn"
     ]
   },
+  "TheFaradayProject1": {
+    "left": [
+      "concept.TheFaradayProject.description",
+      "concept.TheFaradayProject.facts"
+    ],
+    "right": [
+      "concept.TheFaradayProject.image1"
+    ]
+  },
+  "TheFaradayProject2": {
+    "left": [
+      "concept.TheFaradayProject.theImpact"
+    ],
+    "right": [
+      "concept.TheFaradayProject.image2"
+    ]
+  },
+  "TheFaradayProject3": {
+    "left": [
+      "concept.TheFaradayProject.steps"
+    ],
+    "right": [
+      "concept.TheFaradayProject.whatsGoingOn"
+    ]
+  },
   "hamRadio": {
     "left": [
       "faq.hamRadio.faq"
