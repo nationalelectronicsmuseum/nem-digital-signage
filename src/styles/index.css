@@ -14,6 +14,11 @@
     padding: 0 1rem;
 }
 
+.station-list::-webkit-scrollbar-thumb {
+  background: #5b0b0b;
+  border-radius: 3px;
+}
+
 .station-button {
     border-radius: 10px;
     padding: 10px 50px;

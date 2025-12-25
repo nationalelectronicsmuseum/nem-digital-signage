@@ -21,7 +21,7 @@
   width: 6px;
 }
 .centered-mono-slide-pane::-webkit-scrollbar-thumb {
-  background: #ccc;
+  background: #5b0b0b;
   border-radius: 3px;
 }
 

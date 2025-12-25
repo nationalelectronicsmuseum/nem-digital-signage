@@ -6,6 +6,11 @@
   padding-top: 3vh;
 }
 
+.carousel-container::-webkit-scrollbar-thumb {
+  background: #5b0b0b;
+  border-radius: 3px;
+}
+
 .carousel-grid {
   display: flex;
   flex-direction: column;
