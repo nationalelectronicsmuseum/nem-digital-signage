@@ -1,0 +1,37 @@
+{
+  "hamRadio": {
+    "faq": [
+      {
+        "name": "Was ist Amateurradio?",
+        "description": "Amateurfunk (Ham Radio) ist ein internationales Hobby auf bestimmten Frequenzen, das die Kommunikation über verschiedene Methoden ermöglicht, z.B.Morsecode, Sprache und Daten.Rufzeichen wie K3NEM (unser Stationsrufzeichen) sind für jeden lizenzierten Funkamateur oder Verein einzigartig.Rufzeichenpräfixe variieren je nach Land.",
+        "imageCaption": "Bild: Ein Schreibtisch mit Computern, Maus, Tastatur, Amateurfunk und einer Karte.",
+        "image": "ham01.png"
+      },
+      {
+        "name": "Wer kann Amateurfunker (HAM) sein?",
+        "description": "In den USA sind Personen jeden Alters berechtigt, an den Prüfungen teilzunehmen.Lizenzen werden von jedem Land ausgestellt und in Grad an Privilegien vergeben.Kenntnisse im Morsecode sind nicht mehr erforderlich.Wenn Sie mit einem Mobiltelefon umgehen können, sind Sie auf dem besten Weg, ein Amateur zu werden!",
+        "imageCaption": "Bild: Ein Kind, das das Amateurfunkgerät bedient.",
+        "image": "ham2.png"
+      },
+      {
+        "name": "WAS KANN ICH IM HAM-RADIO TUN?",
+        "description": "Viele kommunizieren über Funk mit lokalen und weit entfernten Amateurfunkern über Sprache, Morsecode, digitale Signale oder sogar Zwei-Wege-Fernsehen.Kommunikation in Notsituationen ist eine beliebte und wichtige bürgerschaftliche Aktivität.Man kann lernen, elektronische Geräte zu bauen, zu reparieren und zu verstehen (Berufsmöglichkeiten)",
+        "imageCaption": "Bild: Zeigt ein Beispiel der End Fed.",
+        "image": "ham3.png"
+      },
+      {
+        "name": "NOTFALLKOMMUNIKATION",
+        "description": "Auch wenn Telefonanlagen ausfallen, kommt Amateurfunk immer noch durch.Funkamateure arbeiten für die Kommunikation mit Regierungsbehörden zusammen.Wir leiten Verkehrsdatagramme – wie Western-Union-Nachrichten – über Funknetze von Funkamateuren weiter.Das Foto zeigt den ARRL Field Day, eine jährliche Veranstaltung zur Notfallvorsorge.",
+        "imageCaption": "Bild: ARRL Field Day, eine jährliche Veranstaltung zur Notfallvorsorge.",
+        "image": "ham7.png"
+      },
+      {
+        "name": "AMATEUR-RADIO-CLUB DES NATIONAL ELECTRONICS MUSEUM",
+        "description": "Das sind wir!Wir sind hier, um Ihnen dabei zu helfen, Ihre Lizenz zu erhalten und auf Sendung zu gehen.Unsere Donnerstagabendkurse per Zoom für Lizenzkurse und Betriebsprinzipien werden international besucht.Wir veranstalten unter der Woche interessante Clubtreffen und On-Air-Veranstaltungen am Wochenende.Wir unterstützen das Museum mit Reiseleitern und Freiwilligen.Unsere Vereinsschinkenstation steht Ihnen zur Verfügung.",
+        "imageCaption": "Scannen Sie den QR-Code, um der FB-Gruppe beizutreten oder die Website zu erkunden.",
+        "image": "ham6.jpg"
+      }
+    ],
+    "video": "hamRadio.webm"
+  }
+}

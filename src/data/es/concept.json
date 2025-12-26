@@ -1,157 +1,157 @@
 {
   "VoltageAndCurrent": {
-    "description": "Voltage is sort of like electrical pressure. A current is a flow of electric charge. It is best to think of it like this: voltage CAUSES electric current, just like water pressure causes water to flow.\nVoltage is the invisible energy that urges electricity to move from one place to another. Voltage and Current work hand in hand. Voltage provides the push, while Current keeps the electricity flowing. Together, they create the energy that powers our gadgets and lights up our world.",
-    "theImpact": "Understanding Voltage and Current helps engineers and scientists design safer and more efficient electrical systems. From the tiniest circuits to the grandest power grids, these concepts are crucial for creating technology that works reliably and safely.",
+    "description": "El voltaje es algo así como la presión eléctrica.Una corriente es un flujo de carga eléctrica.Es mejor pensarlo así: el voltaje CAUSA la corriente eléctrica, al igual que la presión del agua hace que el agua fluya.\nEl voltaje es la energía invisible que impulsa a la electricidad a pasar de un lugar a otro.El voltaje y la corriente trabajan de la mano.El voltaje proporciona el empujón, mientras que la corriente mantiene el flujo de electricidad.Juntos, crean la energía que alimenta nuestros dispositivos e ilumina nuestro mundo.",
+    "theImpact": "Comprender el voltaje y la corriente ayuda a ingenieros y científicos a diseñar sistemas eléctricos más seguros y eficientes.Desde los circuitos más pequeños hasta las redes eléctricas más grandiosas, estos conceptos son cruciales para crear tecnología que funcione de manera confiable y segura.",
     "steps": {
-      "label": "How it Works:",
+      "label": "Cómo funciona:",
       "list": [
         {
-          "text": "Turn knob clockwise and watch the meters."
+          "text": "Gire la perilla en el sentido de las agujas del reloj y observe los medidores."
         },
         {
-          "text": "Flip the switch and turn on light bulb while watching meters."
+          "text": "Mueva el interruptor y encienda la bombilla mientras observa los medidores."
         },
         {
-          "text": "Rotate the knob to change voltage."
+          "text": "Gire la perilla para cambiar el voltaje."
         }
       ]
     },
-    "whatToWatch": "Turning the knob allows voltage to change as the voltmeter shows. The meter remains still because no current is being used until you flip the switch. When you flip the switch, the ammeter shows the current being drawn by the bulb as you twist the knob. The amount of current drawn varies, changing the bulb's brightness.",
-    "whatsGoingOn": "By flipping the switch, you close the circuit and allow the current to flow in the circuit's path. Without the force of the voltage and the path of a circuit, current will not flow. Voltage pushes current, forcing it to flow through a closed circuit and light the bulb.",
+    "whatToWatch": "Girar la perilla permite que el voltaje cambie como muestra el voltímetro.El medidor permanece quieto porque no se utiliza corriente hasta que acciona el interruptor.Cuando accionas el interruptor, el amperímetro muestra la corriente consumida por la bombilla mientras giras la perilla.La cantidad de corriente consumida varía, cambiando el brillo de la bombilla.",
+    "whatsGoingOn": "Al accionar el interruptor, se cierra el circuito y se permite que la corriente fluya en el camino del circuito.Sin la fuerza del voltaje y la trayectoria de un circuito, la corriente no fluirá.El voltaje empuja la corriente, obligándola a fluir a través de un circuito cerrado y encender la bombilla.",
     "image1": "ohmslaw.gif",
     "image2": "volt_impact.jpg"
   },
   "HumanBattery": {
-    "description": "When you place one hand on the copper plate and the other hand on the aluminum plate, the current would flow through your body from one plate to the other.",
-    "theImpact": "We can create electricity by chemical action. By closing circuits, we allow that energy to flow. You have provided the conducting fluid for this battery, so the electricity is flowing through you!",
+    "description": "Cuando colocas una mano sobre la placa de cobre y la otra sobre la placa de aluminio, la corriente fluirá a través de tu cuerpo de una placa a la otra.",
+    "theImpact": "Podemos crear electricidad por acción química.Al cerrar circuitos, permitimos que esa energía fluya.¡Usted ha proporcionado el fluido conductor para esta batería, por lo que la electricidad fluye a través de usted!",
     "steps": {
-      "label": "Try This:",
+      "label": "Pruebe esto:",
       "list": [
         {
-          "text": "Place one hand on each plate"
+          "text": "Coloque una mano en cada plato."
         },
         {
-          "text": "Repeat with a friend: hold hands, and then each person place their free hand on one of the plates. Try it again with more than two people “in the loop”."
+          "text": "Repita con un amigo: tómese de la mano y luego cada persona coloque su mano libre sobre uno de los platos.Inténtalo de nuevo con más de dos personas “al tanto”."
         }
       ]
     },
-    "whatToWatch": "Watch the meter. It shows constant current flow in one direction.",
-    "whatsGoingOn": "When you touch the metal plates, the moisture on your hands acts as the battery`s saline conducting electrolytes. The electrolytes react with the copper and aluminum plates. It takes the negatively charged electrons away from the copper plate, leaving the positive charges behind. It then gives electrons to the aluminum plate, causing it to become negatively charged. These electrons pass through the meter as they return to the copper plate. In a simple circuit like this, the direction of current flow is determined by the potential difference between the two plates. When you touch both plates simultaneously, you complete the circuit, allowing the flow of electrons from the higher potential (copper plate) to the lower potential (aluminum plate) through your body.",
+    "whatToWatch": "Mira el medidor.Muestra un flujo de corriente constante en una dirección.",
+    "whatsGoingOn": "Cuando tocas las placas de metal, la humedad de tus manos actúa como electrolitos conductores salinos de la batería.Los electrolitos reaccionan con las placas de cobre y aluminio.Quita los electrones cargados negativamente de la placa de cobre, dejando atrás las cargas positivas.Luego le da electrones a la placa de aluminio, lo que hace que se cargue negativamente.Estos electrones pasan a través del medidor y regresan a la placa de cobre.En un circuito simple como este, la dirección del flujo de corriente está determinada por la diferencia de potencial entre las dos placas.Cuando tocas ambas placas simultáneamente, completas el circuito, permitiendo el flujo de electrones desde el potencial más alto (placa de cobre) al potencial más bajo (placa de aluminio) a través de tu cuerpo.",
     "image1": "humanBatt2.gif",
     "image2": "humanBatt1.png"
   },
   "Oersted": {
-    "description": "In the early 19th century, Oersted embarked on an experiment that would change our understanding of nature. Oersted's curiosity led him to an extraordinary experiment. With a simple setup, he observed the interaction between electricity and magnetism. He noticed that when an electric current flowed through a wire, a nearby magnetic compass needle moved. This unexpected interaction between electricity and magnetism was the spark that lit up a revolution in science.",
-    "theImpact": "Oersted's discovery was the key that unlocked the mysterious relationship between electricity and magnetism. This revelation laid the groundwork for the development of electric motors, generators, and the modern technology we rely on today.",
+    "description": "A principios del siglo XIX, Oersted se embarcó en un experimento que cambiaría nuestra comprensión de la naturaleza.La curiosidad de Oersted lo llevó a realizar un experimento extraordinario.Con una sencilla configuración, observó la interacción entre la electricidad y el magnetismo.Se dio cuenta de que cuando una corriente eléctrica fluía a través de un cable, la aguja de una brújula magnética cercana se movía.Esta interacción inesperada entre la electricidad y el magnetismo fue la chispa que encendió una revolución en la ciencia.",
+    "theImpact": "El descubrimiento de Oersted fue la clave que desveló la misteriosa relación entre la electricidad y el magnetismo.Esta revelación sentó las bases para el desarrollo de motores eléctricos, generadores y la tecnología moderna de la que dependemos hoy.",
     "facts": [
       {
         "label": "Discoverer:",
         "value": "Hans Christian Oersted"
       },
       {
-        "label": "Date of Discovery:",
+        "label": "Fecha de descubrimiento:",
         "value": "1820"
       },
       {
-        "label": "Experiment Type:",
-        "value": "Observing the interaction between electricity and magnetism."
+        "label": "Tipo de experimento:",
+        "value": "Observando la interacción entre la electricidad y el magnetismo."
       },
       {
-        "label": "Key Discovery:",
-        "value": "Flowing electricity through a wire caused a nearby magnetic compass needle to move."
+        "label": "Descubrimiento clave:",
+        "value": "El flujo de electricidad a través de un cable provocó que la aguja de una brújula magnética cercana se moviera."
       }
     ],
     "steps": {
-      "label": "How it Works:",
+      "label": "Cómo funciona:",
       "list": [
         {
-          "text": "Look at the direction of the compasses; they are all pointing north."
+          "text": "Mira la dirección de las brújulas;todos están apuntando al norte."
         },
         {
-          "text": "Flip the switch both ways."
+          "text": "Mueva el interruptor en ambos sentidos."
         },
         {
-          "text": "Watch the compass needles move as you flip the switch."
+          "text": "Observe cómo se mueven las agujas de la brújula mientras acciona el interruptor."
         },
         {
-          "text": "They are showing the direction of the magnetic field as current is applied to the copper wire."
+          "text": "Muestran la dirección del campo magnético cuando se aplica corriente al cable de cobre."
         }
       ]
     },
-    "whatsGoingOn": "A compass needle points to a magnetic force and typically to the Earth’s north magnetic pole. When you flip the switch, you allow current to flow in one direction from the battery. The magnetic field created by the electric current through the wrapped wire coil created its own magnetic field. The compass needles line up with the magnetic field around the wire. When you flip the switch the other way, the compass needles reverse because the direction of the current has been reversed.",
+    "whatsGoingOn": "La aguja de una brújula apunta a una fuerza magnética y, normalmente, al polo norte magnético de la Tierra.Cuando accionas el interruptor, permites que la corriente fluya en una dirección desde la batería.El campo magnético creado por la corriente eléctrica a través de la bobina de alambre envuelto creó su propio campo magnético.Las agujas de la brújula se alinean con el campo magnético alrededor del cable.Cuando mueves el interruptor en la otra dirección, las agujas de la brújula se invierten porque se ha invertido la dirección de la corriente.",
     "image1": "oersted2.jpg",
     "image2": "oersted3.png"
   },
   "TheFaradayProject": {
-    "description": "Michael Faraday, a scientist from the 19th century, made discoveries changed the way we understand electricity and magnetism. Faraday conducted a groundbreaking experiment in 1831 that showed how electricity and magnetism are connected. He discovered that when a magnet moves near a wire, it creates an electric current. This discovery laid the foundation for the modern technology we use today. When Michael Faraday made his discovery of electromagnetic induction, he hypothesized that a changing magnetic field is necessary to induce a current in a nearby circuit. To test his hypothesis he made a coil by wrapping a paper cylinder with wire. Gently tilt the tube so the magnet slides down the tube and see if you can generate a tiny electric current. The strength of an electromagnet depends on the number of windings in the coil and the strength of the electric current. More windings and stronger current produce more intense magnetic fields.",
-    "theImpact": "Faraday's experiment was a crucial step in understanding the relationship between electricity and magnetism. This breakthrough led to the development of generators, which produce the electricity that powers our homes, schools, and gadgets. Without Faraday's discoveries, many of the electronic devices we rely on today might not exist.",
+    "description": "Michael Faraday, un científico del siglo XIX, hizo descubrimientos que cambiaron la forma en que entendemos la electricidad y el magnetismo.Faraday llevó a cabo un experimento innovador en 1831 que demostró cómo están conectados la electricidad y el magnetismo.Descubrió que cuando un imán se mueve cerca de un cable, crea una corriente eléctrica.Este descubrimiento sentó las bases de la tecnología moderna que utilizamos hoy.Cuando Michael Faraday descubrió la inducción electromagnética, planteó la hipótesis de que era necesario un campo magnético cambiante para inducir una corriente en un circuito cercano.Para probar su hipótesis hizo una bobina envolviendo un cilindro de papel con alambre.Incline suavemente el tubo para que el imán se deslice hacia abajo y vea si puede generar una pequeña corriente eléctrica.La fuerza de un electroimán depende del número de devanados de la bobina y de la fuerza de la corriente eléctrica.Más devanados y una corriente más fuerte producen campos magnéticos más intensos.",
+    "theImpact": "El experimento de Faraday fue un paso crucial para comprender la relación entre la electricidad y el magnetismo.Este avance condujo al desarrollo de generadores, que producen la electricidad que alimenta nuestros hogares, escuelas y dispositivos.Sin los descubrimientos de Faraday, muchos de los dispositivos electrónicos de los que dependemos hoy en día podrían no existir.",
     "facts": [
       {
         "label": "Inventor:",
         "value": "Michael Faraday"
       },
       {
-        "label": "Year of Invention:",
+        "label": "Año de invención:",
         "value": "1831"
       },
       {
-        "label": "Key Feature:",
-        "value": "Relationship between electricity and magnetism"
+        "label": "Característica clave:",
+        "value": "Relación entre electricidad y magnetismo."
       },
       {
-        "label": "Impact:",
-        "value": "Foundation for modern electric power sources"
+        "label": "Impacto:",
+        "value": "Fundación para fuentes modernas de energía eléctrica."
       }
     ],
     "steps": {
-      "label": "Try this:",
+      "label": "Prueba esto:",
       "list": [
         {
-          "text": "Gently tilt the tube so the magnet slides down the tube."
+          "text": "Incline suavemente el tubo para que el imán se deslice hacia abajo."
         },
         {
-          "text": "Watch the meter show the presence of electric current as the magnet slides past the wire coil."
+          "text": "Observe cómo el medidor muestra la presencia de corriente eléctrica a medida que el imán se desliza más allá de la bobina de alambre."
         }
       ]
     },
-    "whatsGoingOn": "This phenomenon occurs due to electromagnetic induction, a principle discovered by Faraday. It demonstrates that a changing magnetic field induces an electric current in a conductor. The key factor here is the relative motion between the magnet and the wire, causing the magnetic flux through the coil to change.  Magnetic flux is a measure of the magnitude of a magnetic field passing through a given area.",
+    "whatsGoingOn": "Este fenómeno se produce debido a la inducción electromagnética, principio descubierto por Faraday.Demuestra que un campo magnético cambiante induce una corriente eléctrica en un conductor.El factor clave aquí es el movimiento relativo entre el imán y el cable, lo que hace que cambie el flujo magnético a través de la bobina.El flujo magnético es una medida de la magnitud de un campo magnético que pasa a través de un área determinada.",
     "image1": "faraday1.jpg",
     "image2": "faraday2.jpg"
   },
   "JumpingWire": {
-    "description": "Long ago, scientists wondered about invisible forces around us. One such force, called electricity, fascinated them. They discovered it could make things move and glow. But they didn't know how to create it. In the 1800s, a brilliant scientist named Michael Faraday became curious about electricity and magnets. He discovered something incredible - when magnets move near a wire, they create electricity. Using Faraday's discovery, engineers built the first electric generator. Imagine a machine that turns the power of spinning magnets into electricity. This invention changed the world forever.",
-    "theImpact": "Michael Faraday's experiments with electromagnetism led him to invent the first electrical generator in 1831. Using the principles demonstrated here, the generator converted the mechanical energy of the rotation into electrical energy. The power of the motor depends on the strength of the magnetic field, the number of wires and the amount of current running through the wires. Understanding electromagnetism, the relationship between electricity and magnets, led to the creation of power plants. These plants generate electricity for our homes, schools, and cities. Thanks to this invention, we can light up our homes, power our gadgets, and explore amazing things using electricity.",
+    "description": "Hace mucho tiempo, los científicos se preguntaron acerca de las fuerzas invisibles que nos rodean.Una de esas fuerzas, llamada electricidad, los fascinó.Descubrieron que podía hacer que las cosas se movieran y brillaran.Pero no sabían cómo crearlo.En el siglo XIX, un brillante científico llamado Michael Faraday sintió curiosidad por la electricidad y los imanes.Descubrió algo increíble: cuando los imanes se mueven cerca de un cable, generan electricidad.Aprovechando el descubrimiento de Faraday, los ingenieros construyeron el primer generador eléctrico.Imagine una máquina que convierte el poder de los imanes giratorios en electricidad.Este invento cambió el mundo para siempre.",
+    "theImpact": "Los experimentos de Michael Faraday con el electromagnetismo lo llevaron a inventar el primer generador eléctrico en 1831. Utilizando los principios aquí demostrados, el generador convirtió la energía mecánica de la rotación en energía eléctrica.La potencia del motor depende de la intensidad del campo magnético, la cantidad de cables y la cantidad de corriente que circula por los cables.La comprensión del electromagnetismo, la relación entre la electricidad y los imanes, condujo a la creación de centrales eléctricas.Estas plantas generan electricidad para nuestros hogares, escuelas y ciudades.Gracias a este invento, podemos iluminar nuestros hogares, alimentar nuestros dispositivos y explorar cosas asombrosas utilizando la electricidad.",
     "steps": {
-      "label": "How it Works:",
+      "label": "Cómo funciona:",
       "list": [
         {
-          "text": "Push button 1"
+          "text": "Pulsador 1"
         },
         {
-          "text": "Push button 2"
+          "text": "Pulsador 2"
         }
       ]
     },
-    "whatsGoingOn": "Notice that the wire between two magnets jumps. The wire moves because the magnetic field created by electric current interacts with the permanent magnetic field.",
+    "whatsGoingOn": "Observe que el cable entre dos imanes salta.El cable se mueve porque el campo magnético creado por la corriente eléctrica interactúa con el campo magnético permanente.",
     "whatsGoingOn2": {
       "list": [
         {
-          "text": "Movement of the Magnet: In Faraday's experiment, when a magnet is moved in and out of a coil of wire (or vice versa), it causes the magnetic field around the coil to change."
+          "text": "Movimiento del imán: en el experimento de Faraday, cuando un imán se mueve dentro y fuera de una bobina de alambre (o viceversa), provoca que cambie el campo magnético alrededor de la bobina."
         },
         {
-          "text": "Induced Current: This change in the magnetic field induces a flow of electrons or an electric current in the wire coil."
+          "text": "Corriente Inducida: Este cambio en el campo magnético induce un flujo de electrones o una corriente eléctrica en la bobina de alambre."
         },
         {
-          "text": "Direction of Current: The direction of the induced current depends on the direction of movement of the magnet and the coil."
+          "text": "Dirección de la corriente: la dirección de la corriente inducida depende de la dirección del movimiento del imán y la bobina."
         },
         {
-          "text": "Tilting to the right causes the induced current to flow in one direction."
+          "text": "La inclinación hacia la derecha hace que la corriente inducida fluya en una dirección."
         },
         {
-          "text": "Tilting to the left causes the induced current to flow in the opposite direction."
+          "text": "La inclinación hacia la izquierda hace que la corriente inducida fluya en la dirección opuesta."
         },
         {
-          "text": "Electricity Generation: The induced current in the wire can be used to power a circuit or generate electricity."
+          "text": "Generación de electricidad: la corriente inducida en el cable se puede utilizar para alimentar un circuito o generar electricidad."
         }
       ]
     },
@@ -159,32 +159,32 @@
     "image2": "jumpingwire2.jpg"
   },
   "StaticElectricity": {
-    "description": "Static electricity is a form of electricity resulting from the imbalance between positive and negative charges within a material that occurs when electrons (the negatively charged particles in an atom) move from one material to another. If the electron-receiving material is either isolated or not an electrical conductor, it tends to hold on to the electrons, resulting in a buildup of electric charge. Since this charge is not moving, it is referred to as static electricity. When conditions allow the built-up charge to flow, the surplus of static electricity is discharged, and it becomes current electricity. Static Electricity is a phenomenon that occurs when certain materials rub against each other, causing electrons to move from one surface to another. This movement creates an imbalance of electric charges, leading to the buildup of static electricity. Thunderstorms are nature's electrical generators, producing immense static charges as water droplets and ice particles collide within clouds. When the buildup of static electricity becomes too great, it seeks a path to the ground, resulting in lightning strikes. These bolts of electricity can reach temperatures hotter than the surface of the sun and unleash destructive power upon anything in their path.",
-    "theImpact": "The discovery of static electricity has had a profound impact on technology and everyday life. From the invention of the telegraph to the development of modern electronics, static electricity plays a crucial role in powering our devices and facilitating communication. In the 18th century, Benjamin Franklin famously conducted his kite experiment, proving that lightning is a form of electricity. This groundbreaking discovery led to the invention of the lightning rod—a device designed to protect buildings and ships from lightning strikes by safely redirecting the electrical charge to the ground. Franklin's invention revolutionized our understanding of lightning and paved the way for modern lightning protection systems.",
+    "description": "La electricidad estática es una forma de electricidad resultante del desequilibrio entre cargas positivas y negativas dentro de un material que ocurre cuando los electrones (las partículas cargadas negativamente en un átomo) se mueven de un material a otro.Si el material receptor de electrones está aislado o no es un conductor eléctrico, tiende a retener los electrones, lo que produce una acumulación de carga eléctrica.Como esta carga no se mueve, se la conoce como electricidad estática.Cuando las condiciones permiten que fluya la carga acumulada, el excedente de electricidad estática se descarga y se convierte en electricidad actual.La electricidad estática es un fenómeno que se produce cuando ciertos materiales rozan entre sí, provocando que los electrones se desplacen de una superficie a otra.Este movimiento crea un desequilibrio de cargas eléctricas, lo que lleva a la acumulación de electricidad estática.Las tormentas son los generadores eléctricos de la naturaleza y producen inmensas cargas estáticas cuando las gotas de agua y las partículas de hielo chocan dentro de las nubes.Cuando la acumulación de electricidad estática se vuelve demasiado grande, busca un camino hacia el suelo, lo que provoca la caída de rayos.Estos rayos de electricidad pueden alcanzar temperaturas más altas que la superficie del sol y desatar un poder destructivo sobre cualquier cosa que se interponga en su camino.",
+    "theImpact": "El descubrimiento de la electricidad estática ha tenido un profundo impacto en la tecnología y la vida cotidiana.Desde la invención del telégrafo hasta el desarrollo de la electrónica moderna, la electricidad estática desempeña un papel crucial a la hora de alimentar nuestros dispositivos y facilitar la comunicación.En el siglo XVIII, Benjamin Franklin realizó su famoso experimento con cometas, demostrando que los rayos son una forma de electricidad.Este descubrimiento innovador condujo a la invención del pararrayos, un dispositivo diseñado para proteger edificios y barcos de los rayos al redirigir de forma segura la carga eléctrica al suelo.El invento de Franklin revolucionó nuestra comprensión de los rayos y allanó el camino para los sistemas modernos de protección contra rayos.",
     "image1": "static1.jpg",
     "image2": "static2.webp"
   },
   "HumanDynamo": {
-    "description": "This demonstration empowers the user to Generate Electric Power. A hand crank rapidly turns an Alternator, producing electric power to Illuminate an adjacent LED panel and drive two Voltmeters. The Lower Voltmeter indicates Instantaneous Voltage. The Upper Voltmeter shows the Progressive Voltage Increase of a Capacitor as it is Charged by the Dynamo. If the user cranks long enough, the Capacitor Charges to its Full Potential and a “GOAL” light flashes. When the user is finished, and after a short delay, the demo resets itself for the next user.",
-    "theImpact": "The adoption of Alternating Current (AC) as a standard for Electric Power Transmission allowed efficient long-distance distribution and integration into a Wide Area National Grid. Edison's DC system would have required Many Power Plants every mile or so.",
-    "whatToWatch": "Observe the LED light panels next to the generator.  You will notice that they don't light up until you crank rapidly and produce higher voltage.\n\nLook at the lower bar-graph Instant Voltmeter. The voltage it indicates is directly proportional to the speed at which you turn the crank.\n\nYou will notice that the Upper Capacitor Charge Meter will initially increase quickly as you crank. The Rate of that increase Decreases the closer the meter gets to Full Scale. The charge capacitor demonstrates storage of POTENTIAL ENERGY for later use.",
-    "whatsGoingOn": "When the crank is rapidly turned, a drive belt transfers your Rotational Kinetic Energy to a small Alternator. An Alternator is an alternating current generator like the one that recharges your car battery and provides power to the vehicle. It works by Moving high power permanent Magnets by Coils of Wire. As each magnet passes a coil, a Current is induced. Since adjacent magnets are arranged with Opposing Polarities, and adjacent Coils are wound in Inverse Directions, the Current will constantly Flip back and forth - or Alternate. The faster the crank is turned, the faster it will alternate (higher frequency).\nThe Alternating Current (AC) in your house flips polarity as a sinusoidal waveform at a frequency of 60 cycles per second. Rapid Rotation of the demo's crank will cause this Generator to produce more Power at a higher Frequency. This Alternating Current is then RECTIFIED or converted to a Pulsating Direct Current by a Rectifier. The pulsations are then smoothed out by a Filter capacitor. The result is continuous Direct Current (DC) like that obtained from a Battery.",
-    "what": "The Rectified and Filtered DC Current from the generator directly powers the LED light panels next to it.  They don't light up until you crank fast enough.  This is characteristic of LED's, which will only illuminate when a specific voltage threshold is reached.  For these lights, that threshold is about 20 Volts, which you can observe on the Lower Bar-Graph Meter. As you keep rapidly turning the crank, the Upper Charge Meter will slowly increase. You will notice that the rate of that increase decreases the higher the meter gets.  This is typical of the charging curve for capacitors and batteries. BUT DON'T GIVE UP! If you reach full charge, the Fully Charged GOAL LIGHT will FLASH!",
-    "funFact": "This Alternator is like those designed by Michael Faraday and refined by Nikola Tesla. It relies on Wireless Induction to internally transfer power, unlike Direct Current (DC) generators designed by Thomas Edison's Lab. Edison's Dynamos need physical contact (Brushes) to their moving parts to Generate electricity.",
+    "description": "Esta demostración permite al usuario generar energía eléctrica.Una manivela hace girar rápidamente un alternador, produciendo energía eléctrica para iluminar un panel LED adyacente y accionar dos voltímetros.El voltímetro inferior indica voltaje instantáneo.El voltímetro superior muestra el aumento progresivo de voltaje de un condensador a medida que lo carga el dínamo.Si el usuario gira el tiempo suficiente, el condensador se carga a su máximo potencial y parpadea una luz \"OBJETIVO\".Cuando el usuario termina, y después de un breve retraso, la demostración se reinicia para el siguiente usuario.",
+    "theImpact": "La adopción de la Corriente Alterna (CA) como estándar para la Transmisión de Energía Eléctrica permitió una distribución eficiente a larga distancia y su integración en una Red Nacional de Área Amplia.El sistema de corriente continua de Edison habría requerido muchas plantas de energía cada milla aproximadamente.",
+    "whatToWatch": "Observe los paneles de luces LED al lado del generador.Notará que no se encienden hasta que arranque rápidamente y produzca un voltaje más alto.\n\nMire el voltímetro instantáneo del gráfico de barras inferior.El voltaje que indica es directamente proporcional a la velocidad a la que gira la manivela.\n\nNotará que el medidor de carga del condensador superior inicialmente aumentará rápidamente a medida que gira.La tasa de ese aumento disminuye cuanto más se acerca el medidor a la escala completa.El condensador de carga demuestra el almacenamiento de ENERGÍA POTENCIAL para su uso posterior.",
+    "whatsGoingOn": "Cuando se gira rápidamente la manivela, una correa de transmisión transfiere su energía cinética rotacional a un pequeño alternador.Un alternador es un generador de corriente alterna como el que recarga la batería de tu coche y proporciona energía al vehículo.Funciona moviendo imanes permanentes de alta potencia mediante bobinas de alambre.Cuando cada imán pasa por una bobina, se induce una corriente.Dado que los imanes adyacentes están dispuestos con polaridades opuestas y las bobinas adyacentes están enrolladas en direcciones inversas, la corriente se moverá constantemente hacia adelante y hacia atrás, o alternará.Cuanto más rápido se gira la manivela, más rápido alternará (mayor frecuencia).\nLa corriente alterna (CA) de su casa invierte la polaridad como una forma de onda sinusoidal a una frecuencia de 60 ciclos por segundo.La rotación rápida de la manivela de la demostración hará que este generador produzca más energía a una frecuencia más alta.Esta corriente alterna luego se RECTIFICA o se convierte en una corriente continua pulsante mediante un rectificador.A continuación, un condensador de filtro suaviza las pulsaciones.El resultado es una Corriente Continua (CC) continua como la que se obtiene de una Batería.",
+    "what": "La corriente CC rectificada y filtrada del generador alimenta directamente los paneles de luz LED que se encuentran junto a él.No se encienden hasta que arrancas lo suficientemente rápido.Esto es característico de los LED, que sólo se iluminarán cuando se alcance un umbral de voltaje específico.Para estas luces, ese umbral es de aproximadamente 20 voltios, lo que puede observar en el medidor gráfico de barras inferior.A medida que siga girando rápidamente la manivela, el medidor de carga superior aumentará lentamente.Notará que la tasa de ese aumento disminuye cuanto más alto sube el medidor.Esto es típico de la curva de carga de condensadores y baterías.¡PERO NO TE RINDAS!Si alcanza la carga completa, ¡la LUZ DE META completamente cargada PARPADEARÁ!",
+    "funFact": "Este alternador es como los diseñados por Michael Faraday y perfeccionados por Nikola Tesla.Se basa en la inducción inalámbrica para transferir energía internamente, a diferencia de los generadores de corriente continua (CC) diseñados por el laboratorio de Thomas Edison.Las dinamos de Edison necesitan contacto físico (cepillos) con sus partes móviles para generar electricidad.",
     "steps": {
-      "label": "Try this:",
+      "label": "Prueba esto:",
       "list": [
         {
-          "text": "Turn the crank Slowly. The lower Voltmeter will begin to increase, but the lights next to the dynamo will not illuminate. Those LED lamps need at least 20 volts to glow."
+          "text": "Gire la manivela lentamente.El voltímetro inferior comenzará a aumentar, pero las luces al lado de la dinamo no se encenderán.Esas lámparas LED necesitan al menos 20 voltios para brillar."
         },
         {
-          "text": "Turn the crank Faster. The LED's begin to Light Up, the Voltmeter will indicate at least 20 volts and the upper Charge Indicator Meter will begin to increase."
+          "text": "Gira la manivela más rápido.Los LED comenzarán a iluminarse, el voltímetro indicará al menos 20 voltios y el medidor indicador de carga superior comenzará a aumentar."
         },
         {
-          "text": "Keep Rapidly Cranking! The Voltmeter will stay above 20 volts and the LED lights will stay On. The Meter continues to Rise, but will start Slowing Down, eventually reaching Full Scale."
+          "text": "¡Sigue arrancando rápidamente!El voltímetro permanecerá por encima de los 20 voltios y las luces LED permanecerán encendidas.El medidor continúa subiendo, pero comenzará a disminuir y eventualmente alcanzará la escala completa."
         },
         {
-          "text": "At Full Scale, the FULL CHARGE Goal light will Flash."
+          "text": "En escala completa, la luz del objetivo de CARGA COMPLETA parpadeará."
         }
       ]
     },
@@ -192,66 +192,66 @@
     "video1": "humanDynamo.mp4"
   },
   "VanDeGraaffGenerator": {
-    "description": "The Van de Graaff Generator was invented by Robert J. Van de Graaff in 1929 to show how electric charges work.  By using a moving belt to build up electricity on the big metal dome, it teaches us about static electricity — something that's all around us, but we usually don't notice.",
-    "theImpact": "This generator helps scientists understand the forces that keep atoms together.  It was once used in laboratories to speed up particles for experiments in nuclear physics, helping us learn more about the universe and the building blocks of matter. Higher energy machines – In 1937, the Westinghouse Electric company built a 65 ft (20 m) machine, the Westinghouse Atom Smasher capable of generating 5 MeV in Forest Hills, Pennsylvania.  It marked the beginning of nuclear research for civilian applications.  It was decommissioned in 1958 and was partially demolished in 2015.",
+    "description": "El generador Van de Graaff fue inventado por Robert J. Van de Graaff en 1929 para mostrar cómo funcionan las cargas eléctricas.Al usar una correa en movimiento para acumular electricidad en la gran cúpula de metal, nos enseña sobre la electricidad estática, algo que está a nuestro alrededor, pero que normalmente no notamos.",
+    "theImpact": "Este generador ayuda a los científicos a comprender las fuerzas que mantienen unidos a los átomos.Alguna vez se usó en laboratorios para acelerar partículas para experimentos de física nuclear, ayudándonos a aprender más sobre el universo y los componentes básicos de la materia.Máquinas de mayor energía: en 1937, la compañía Westinghouse Electric construyó una máquina de 20 m (65 pies), la Westinghouse Atom Smasher, capaz de generar 5 MeV en Forest Hills, Pensilvania.Marcó el comienzo de la investigación nuclear para aplicaciones civiles.Fue dado de baja en 1958 y parcialmente demolido en 2015.",
     "facts": [
       {
-        "label": "Name: ",
-        "value": "Van de Graaff Generator"
+        "label": "Nombre:",
+        "value": "Generador Van de Graaff"
       },
       {
         "label": "Inventor: ",
         "value": "Robert J. Van de Graaff"
       },
       {
-        "label": "Year: ",
+        "label": "Año:",
         "value": "1929"
       },
       {
-        "label": "Purpose: ",
-        "value": "Demonstrating static electricity"
+        "label": "Objetivo:",
+        "value": "Demostrando electricidad estática"
       },
       {
-        "label": "Fun Fact: ",
-        "value": "The biggest Van de Graaff generator can make lightning-like sparks over 20 feet long"
+        "label": "Dato curioso:",
+        "value": "El generador Van de Graaff más grande puede producir chispas parecidas a rayos de más de 20 pies de largo"
       },
       {
-        "label": "Impact: ",
-        "value": "Helped in nuclear research and understanding atomic structures."
+        "label": "Impacto:",
+        "value": "Ayudó en la investigación nuclear y en la comprensión de las estructuras atómicas."
       }
     ],
     "howDoesItWork": {
-      "label": "How does it Work?",
-      "description": "Friction on the belt → Charges transfer to the dome → Charges jump to create sparks. The Van de Graaff generator works by building up and storing static electricity, which it transfers to other objects. Here's how it does that:",
+      "label": "¿Cómo funciona?",
+      "description": "Fricción en el cinturón → Las cargas se transfieren a la cúpula → Las cargas saltan para crear chispas.El generador Van de Graaff funciona acumulando y almacenando electricidad estática, que transfiere a otros objetos.Así es como lo hace:",
       "list": [
         {
-          "label": "The Belt.",
-          "text": "Inside the machine, there's a rubber or fabric belt that moves continuously over rollers. As the belt moves, it rubs against the rollers, picking up tiny electric charges through a process called friction."
+          "label": "El cinturón.",
+          "text": "Dentro de la máquina hay una correa de caucho o tela que se mueve continuamente sobre rodillos.A medida que la correa se mueve, roza los rodillos y capta pequeñas cargas eléctricas mediante un proceso llamado fricción."
         },
         {
-          "label": "The Comb.",
-          "text": "As the belt moves, it passes by a comb (a metal strip with sharp points) near the base of the machine. The comb transfers the electric charges from the belt to the metal dome at the top of the generator."
+          "label": "El peine.",
+          "text": "A medida que la correa se mueve, pasa por un peine (una tira de metal con puntas afiladas) cerca de la base de la máquina.El peine transfiere las cargas eléctricas desde el cinturón a la cúpula metálica en la parte superior del generador."
         },
         {
-          "label": "The Dome.",
-          "text": "The dome is like a giant container for electric charges. As the charges build up, the dome becomes highly charged. This is static electricity, similar to what happens when you rub a balloon on your hair."
+          "label": "La Cúpula.",
+          "text": "La cúpula es como un contenedor gigante de cargas eléctricas.A medida que las cargas se acumulan, la cúpula se vuelve muy cargada.Se trata de electricidad estática, similar a lo que sucede cuando te frotas el pelo con un globo."
         },
         {
-          "label": "Sparks and Static.",
-          "text": "When the charges on the dome build up enough, they look for a way to escape.  If you bring a metal object (or even your hand) close to the dome, the charges jump through the air, creating a visible spark.  Sometimes, if you touch the dome, the charges move through you—making your hair stand on end."
+          "label": "Chispas y estática.",
+          "text": "Cuando las cargas en la cúpula se acumulan lo suficiente, buscan una manera de escapar.Si acercas un objeto metálico (o incluso tu mano) a la cúpula, las cargas saltan por el aire, creando una chispa visible.A veces, si tocas la cúpula, las cargas se mueven a través de ti, poniéndote los pelos de punta."
         }
       ]
     },
     "steps": {
-      "label": "Try this and Watch:",
+      "label": "Prueba esto y mira:",
       "list": [
         {
-          "label": "Press and hold the button to turn it on.",
-          "text": "The Van de Graaff generator and let it build up charge. You will hear a faint humming sound, and after a few moments, the dome will begin to accumulate static electricity."
+          "label": "Mantenga presionado el botón para encenderlo.",
+          "text": "El generador Van de Graaff y dejar que se cargue.Escuchará un leve zumbido y, después de unos momentos, el domo comenzará a acumular electricidad estática."
         },
         {
-          "label": "Witness the charge.",
-          "text": "Watch the sparks zap from rod to the metal dome. The hair will start to rise as the static electricity flows. The static electricity is repelling each strand of hair away from the others, creating the “crazy hair” effect. The fluorescent lights flicker, charing the bulbs. "
+          "label": "Sea testigo de la acusación.",
+          "text": "Observa las chispas que saltan desde la varilla hasta la cúpula de metal.El cabello comenzará a crecer a medida que fluya la electricidad estática.La electricidad estática repele cada mechón de cabello de los demás, creando el efecto de “cabello loco”.Las luces fluorescentes parpadean, carbonizando las bombillas."
         }
       ]
     },
@@ -261,120 +261,120 @@
     "image4": "graaff5.jpg"
   },
   "JacobsLadderExperiment": {
-    "description": "Jacob's Ladder Experiment is a demonstration of electricity's power to create mesmerizing arcs of light. It consists of two vertical conductors, typically made of metal rods or wires, placed in a V-shape with a small gap between them at the bottom.",
-    "theImpact": "The Jacob's Ladder Experiment is not only a fascinating visual spectacle but also serves as a fundamental demonstration of electrical principles. It highlights the behavior of electricity in the air and the effects of high voltage on ionization and conductivity. This experiment has been crucial in advancing our understanding of electrical phenomena and has paved the way for numerous technological innovations.",
+    "description": "El experimento de la escalera de Jacob es una demostración del poder de la electricidad para crear fascinantes arcos de luz.Consta de dos conductores verticales, normalmente hechos de varillas o alambres metálicos, colocados en forma de V con un pequeño espacio entre ellos en la parte inferior.",
+    "theImpact": "El experimento de la escalera de Jacob no es sólo un espectáculo visual fascinante, sino que también sirve como una demostración fundamental de los principios eléctricos.Destaca el comportamiento de la electricidad en el aire y los efectos del alto voltaje sobre la ionización y la conductividad.Este experimento ha sido crucial para mejorar nuestra comprensión de los fenómenos eléctricos y ha allanado el camino para numerosas innovaciones tecnológicas.",
     "steps": {
-      "label": "How does it Work?",
+      "label": "¿Cómo funciona?",
       "list": [
         {
-          "text": "Push the button and hold it."
+          "text": "Presione el botón y manténgalo presionado."
         },
         {
-          "text": "Watch the two tall wires."
+          "text": "Mire los dos cables altos."
         }
       ]
     },
-    "whatsGoingOn": "When a high voltage is applied to the two conductors, electricity flows through the air in the gap between them, ionizing the air and creating a conductive path. The intense heat generated by this electrical discharge causes the air to expand rapidly, pushing the arc upwards. As the arc climbs, it cools down, and the air becomes less ionized, eventually breaking the circuit and extinguishing the arc. The process repeats, creating a mesmerizing display resembling a ladder climbing upwards.  Witnessing the arcing discharge and understanding its underlying principles provides valuable insights into the world of science and engineering.",
+    "whatsGoingOn": "Cuando se aplica un alto voltaje a los dos conductores, la electricidad fluye a través del aire en el espacio entre ellos, ionizando el aire y creando un camino conductor.El intenso calor generado por esta descarga eléctrica hace que el aire se expanda rápidamente, empujando el arco hacia arriba.A medida que el arco asciende, se enfría y el aire se vuelve menos ionizado, lo que eventualmente rompe el circuito y extingue el arco.El proceso se repite, creando una exhibición fascinante que se asemeja a una escalera que sube hacia arriba.Ser testigo de la descarga del arco y comprender sus principios subyacentes proporciona información valiosa sobre el mundo de la ciencia y la ingeniería.",
     "image1": "jacobs3.gif",
     "image2": "jacobs1.jpg"
   },
   "AudioTranslator": {
-    "description": "The Audio Translator, not to be confused with a language translator, is a device that captures distant sounds, turning them into electrical signals. This breakthrough marked a new era in communication.",
-    "theImpact": "Audio translators transformed distant whispers into global conversations. They shaped modern communication, uniting people worldwide. Explore the power of innovation and connection in our shared history. While the telephone, invented in the late 19th century, revolutionized direct communication between individuals, it was limited by the need for physical connection via wires or cables. It facilitated one-on-one conversations over long distances but didn't address the challenge of capturing and transmitting distant sounds or voices for broader audiences. The audio translator enabled the conversion of sound waves into electrical signals, allowing the transmission of these signals over vast distances without degradation. This technology facilitated the broadcast of sounds—music, speeches, news—to a wide audience, overcoming the limitations of direct communication offered by the telephone. It enabled shared experiences and cultural exchange on a mass scale, reaching millions of households globally.",
+    "description": "El Audio Translator, que no debe confundirse con un traductor de idiomas, es un dispositivo que capta sonidos lejanos y los convierte en señales eléctricas.Este avance marcó una nueva era en la comunicación.",
+    "theImpact": "Los traductores de audio transformaron susurros distantes en conversaciones globales.Ellos dieron forma a la comunicación moderna, uniendo a personas de todo el mundo.Explore el poder de la innovación y la conexión en nuestra historia compartida.Si bien el teléfono, inventado a finales del siglo XIX, revolucionó la comunicación directa entre personas, estaba limitado por la necesidad de una conexión física mediante alambres o cables.Facilitó conversaciones individuales a largas distancias, pero no abordó el desafío de capturar y transmitir sonidos o voces distantes para audiencias más amplias.El traductor de audio permitió la conversión de ondas sonoras en señales eléctricas, lo que permitió la transmisión de estas señales a grandes distancias sin degradación.Esta tecnología facilitó la transmisión de sonidos (música, discursos, noticias) a una amplia audiencia, superando las limitaciones de la comunicación directa que ofrecía el teléfono.Permitió compartir experiencias e intercambio cultural a gran escala, llegando a millones de hogares en todo el mundo.",
     "facts": [
       {
-        "label": "Impact:",
-        "value": "Connected 40 million households by 1930"
+        "label": "Impacto:",
+        "value": "Conectado 40 millones de hogares en 1930"
       },
       {
-        "label": "Global Reach:",
-        "value": "95% mobile network coverage (2023)"
+        "label": "Alcance global:",
+        "value": "95% de cobertura de red móvil (2023)"
       }
     ],
     "steps": {
-      "label": "How it Works:",
+      "label": "Cómo funciona:",
       "list": [
         {
-          "text": "Press the button to turn it on and wait a moment for it to warm up."
+          "text": "Pulsa el botón para encenderlo y espera un momento a que se caliente."
         },
         {
-          "text": "When you see the green line on the screen, talk into the holes on the front of the case."
+          "text": "Cuando vea la línea verde en la pantalla, hable por los agujeros en el frente del estuche."
         },
         {
-          "text": "Watch how the green line on the screen reacts to the sound of your voice. It is converting sound into an electrical signal."
+          "text": "Observa cómo reacciona la línea verde en la pantalla al sonido de tu voz.Es convertir el sonido en una señal eléctrica."
         }
       ]
     },
-    "whatsGoingOn": "An audio translator works by capturing sound waves through a sensitive microphone or diaphragm. These sound waves are then converted into electrical signals. This transformation allows the signals to be amplified, transmitted, and reproduced as sound at a receiving end. Essentially, it converts audible information into electrical impulses for efficient transmission across distances, ensuring that the original sounds remain intact when they reach their destination.",
+    "whatsGoingOn": "Un traductor de audio funciona capturando ondas sonoras a través de un micrófono o diafragma sensible.Estas ondas sonoras luego se convierten en señales eléctricas.Esta transformación permite que las señales se amplifiquen, transmitan y reproduzcan como sonido en un extremo receptor.Básicamente, convierte información audible en impulsos eléctricos para una transmisión eficiente a través de distancias, asegurando que los sonidos originales permanezcan intactos cuando llegan a su destino.",
     "image1": "audiotrans2.jpg",
     "image2": "audiotrans3.jpg"
   },
   "ElectromagneticRadioWaves": {
-    "description": "Electromagnetic Radio Waves are the invisible force that connects us across vast distances.  Like a symphony of frequencies, these waves carry information, music and voices through the air, shaping our modern world in ways we often take for granted. In the late 19th century, Heinrich Hertz conducted experiments that confirmed the existence of electromagnetic waves predicted by James Clerk Maxwell's equations.  Hertz's work laid the foundation for our understanding of radio waves and their applications.",
-    "theImpact": "In the early days, radio waves were primarily used for telegraphy, enabling long-distance communication through Morse code.  However, with advancements in technology, radio waves became the backbone of modern communication systems, facilitating radio broadcasting, television transmission, and later, wireless internet and cellular networks. Unlike tangible objects, radio waves are invisible to the human eye. Yet, they permeate our surroundings, carrying information through the air effortlessly. Whether it's the music streaming from your smartphone or the satellite signals guiding airplanes, radio waves silently orchestrate our interconnected world.",
+    "description": "Las ondas de radio electromagnéticas son la fuerza invisible que nos conecta a través de grandes distancias.Como una sinfonía de frecuencias, estas ondas transportan información, música y voces a través del aire, dando forma a nuestro mundo moderno de maneras que a menudo damos por sentado.A finales del siglo XIX, Heinrich Hertz realizó experimentos que confirmaron la existencia de ondas electromagnéticas predichas por las ecuaciones de James Clerk Maxwell.El trabajo de Hertz sentó las bases para nuestra comprensión de las ondas de radio y sus aplicaciones.",
+    "theImpact": "En los primeros tiempos, las ondas de radio se utilizaban principalmente para la telegrafía, permitiendo la comunicación a larga distancia a través del código Morse.Sin embargo, con los avances de la tecnología, las ondas de radio se convirtieron en la columna vertebral de los sistemas de comunicación modernos, facilitando la transmisión de radio, la transmisión de televisión y, más tarde, Internet inalámbrico y redes celulares.A diferencia de los objetos tangibles, las ondas de radio son invisibles para el ojo humano.Sin embargo, impregnan nuestro entorno y transportan información por el aire sin esfuerzo.Ya sea la música que se transmite desde su teléfono inteligente o las señales de satélite que guían a los aviones, las ondas de radio orquestan silenciosamente nuestro mundo interconectado.",
     "facts": [
       {
-        "label": "Name:",
-        "value": "Electromagnetic Radio Waves"
+        "label": "Nombre:",
+        "value": "Ondas de radio electromagnéticas"
       },
       {
         "label": "Discovered:",
-        "value": "In the late 19th century by Heinrich Hertz"
+        "value": "A finales del siglo XIX por Heinrich Hertz"
       },
       {
-        "label": "Key Characteristics:",
-        "value": "Invisible, travel at the speed of light, used in communication technologies"
+        "label": "Características clave:",
+        "value": "Invisible, viaja a la velocidad de la luz, utilizado en tecnologías de la comunicación."
       },
       {
-        "label": "Impact:",
-        "value": "Revolutionized communication, enabled wireless technologies"
+        "label": "Impacto:",
+        "value": "Comunicación revolucionada, tecnologías inalámbricas habilitadas"
       }
     ],
     "steps": {
-      "label": "How Does it Work?",
+      "label": "¿Cómo funciona?",
       "list": [
         {
-          "text": "Generation: Radio waves are generated when an alternating current flows through an antenna.  This alternating current creates oscillating electric and magnetic fields around the antenna, which together form the radio wave."
+          "text": "Generación: Las ondas de radio se generan cuando una corriente alterna fluye a través de una antena.Esta corriente alterna crea campos eléctricos y magnéticos oscilantes alrededor de la antena, que juntos forman la onda de radio."
         },
         {
-          "text": "Propagation: Once generated, radio waves travel through the air (or other mediums) at the speed of light.  They propagate in all directions, much like ripples on the surface of a pond when you drop a stone."
+          "text": "Propagación: una vez generadas, las ondas de radio viajan a través del aire (u otros medios) a la velocidad de la luz.Se propagan en todas direcciones, como las ondas en la superficie de un estanque cuando se deja caer una piedra."
         },
         {
-          "text": "Transmission: Radio waves carry energy and information as they propagate.  For example, in radio broadcasting, a transmitter converts sound waves into electrical signals, which are then used to modulate the radio waves.  This modulation encodes the sound information onto the radio wave, allowing it to carry music, speech, or data over long distances."
+          "text": "Transmisión: Las ondas de radio transportan energía e información a medida que se propagan.Por ejemplo, en la radiodifusión, un transmisor convierte ondas sonoras en señales eléctricas, que luego se utilizan para modular las ondas de radio.Esta modulación codifica la información del sonido en la onda de radio, lo que le permite transportar música, voz o datos a largas distancias."
         },
         {
-          "text": "Reception: When radio waves encounter an antenna tuned to the same frequency, they induce a small alternating current in the antenna.  This current is then amplified and decoded by electronic circuits in a receiver device, such as a radio or a smartphone.  The original information encoded on the radio wave is reconstructed and outputted as sound, data, or images."
+          "text": "Recepción: cuando las ondas de radio encuentran una antena sintonizada en la misma frecuencia, inducen una pequeña corriente alterna en la antena.Luego, esta corriente se amplifica y decodifica mediante circuitos electrónicos en un dispositivo receptor, como una radio o un teléfono inteligente.La información original codificada en la onda de radio se reconstruye y se genera como sonido, datos o imágenes."
         },
         {
-          "text": "Interference and Regulation: Radio waves can be affected by various factors, such as atmospheric conditions, interference from other electronic devices, or obstacles in their path.  To ensure reliable communication, radio frequencies are carefully regulated by governments and international bodies to minimize interference and allocate specific frequency bands for different uses, such as broadcasting, aviation, or mobile communication."
+          "text": "Interferencia y regulación: las ondas de radio pueden verse afectadas por diversos factores, como condiciones atmosféricas, interferencias de otros dispositivos electrónicos u obstáculos en su camino.Para garantizar una comunicación confiable, las frecuencias de radio están cuidadosamente reguladas por gobiernos y organismos internacionales para minimizar la interferencia y asignar bandas de frecuencia específicas para diferentes usos, como radiodifusión, aviación o comunicaciones móviles."
         }
       ]
     },
-    "whatsGoingOn": "In electronic communication, bandwidth is the amount of information that is transmitted on an electromagnetic wave.  The more information in a transmission, the more frequencies it spreads across.  Since the frequency of a signal is measured in hertz (the number of cycles of change per second), a bandwidth is the difference in hertz between the highest frequency and the lowest frequency it uses.  Bandwidth is intimately linked to the efficiency, capacity, and quality of radio wave-based communication systems.  By managing bandwidth allocation and optimizing transmission parameters, engineers can design communication networks that deliver reliable, high-speed connectivity to users worldwide. Somewhere above you right now, a plane is broadcasting its location, speed and bearing on 1090 MHz.  A geostationary weather satellite 22 thousand miles from Earth is transmitting detailed weather maps on 1694.1 MHz.  A car driving by your home is transmitting a signal with the pressure readout of one of its tires at 315MHz.  A GPS satellite flying overhead at 8,000 miles per hour is pinging a signal to your phone at 1575.42 MHz .  A data buoy bobbing in the Atlantic ocean transmits sea temperature, wave height and wind speed readings to a NOAA satellite at 401 MHz.  On top of all that, every single mobile device and WiFi router near you blasts out everyone’s internet traffic through the air over radio waves.  All of these can occur simultaneously thanks to a very carefully regulated radio spectrum.  Licensed broadcasters may be assigned portions of the regionally available bandwidth so that their signals do not interfere with each other. The Federal Communication Commission (FCC) and the National Telecommunications and Information Administration (NTIA) share the task of managing the allotment of radio frequencies for U.S. airwaves.  The NTIA manages Federal all radio applications (including military uses), while the FCC manages everything else including state and local government, commercial and amateur radio use.",
+    "whatsGoingOn": "En las comunicaciones electrónicas, el ancho de banda es la cantidad de información que se transmite en una onda electromagnética.Cuanta más información haya en una transmisión, más frecuencias se difundirán.Dado que la frecuencia de una señal se mide en hercios (el número de ciclos de cambio por segundo), un ancho de banda es la diferencia en hercios entre la frecuencia más alta y la frecuencia más baja que utiliza.El ancho de banda está íntimamente ligado a la eficiencia, capacidad y calidad de los sistemas de comunicación basados ​​en ondas de radio.Al gestionar la asignación de ancho de banda y optimizar los parámetros de transmisión, los ingenieros pueden diseñar redes de comunicación que brinden conectividad confiable y de alta velocidad a usuarios de todo el mundo.En algún lugar encima de usted en este momento, un avión está transmitiendo su ubicación, velocidad y rumbo en 1090 MHz.Un satélite meteorológico geoestacionario a 22.000 millas de la Tierra transmite mapas meteorológicos detallados en 1694,1 MHz.Un automóvil que pasa por su casa está transmitiendo una señal con la lectura de presión de uno de sus neumáticos a 315MHz.Un satélite GPS que vuela sobre nosotros a 8.000 millas por hora envía una señal a su teléfono a 1575,42 MHz.Una boya de datos que flota en el océano Atlántico transmite lecturas de la temperatura del mar, la altura de las olas y la velocidad del viento a un satélite de la NOAA a 401 MHz.Además de todo eso, cada dispositivo móvil y enrutador WiFi cercano a usted explota el tráfico de Internet de todos a través del aire a través de ondas de radio.Todo esto puede ocurrir simultáneamente gracias a un espectro radioeléctrico muy cuidadosamente regulado.A las emisoras con licencia se les pueden asignar partes del ancho de banda disponible regionalmente para que sus señales no interfieran entre sí.La Comisión Federal de Comunicaciones (FCC) y la Administración Nacional de Información y Telecomunicaciones (NTIA) comparten la tarea de gestionar la asignación de frecuencias de radio para las ondas de radio de Estados Unidos.La NTIA gestiona todas las aplicaciones de radio federales (incluidos los usos militares), mientras que la FCC gestiona todo lo demás, incluido el uso de radioaficionados, comerciales y de los gobiernos estatales y locales.",
     "image1": "ewaves2.jpg",
     "image2": "ewaves3.webp"
   },
   "EvolutionOfRecordedSound": {
     "audioInfo": {
       "bunkerHill": {
-        "title": "Bunker Hill",
-        "performedBy": "Harlan and Stanley",
-        "performedWhen": "Ca. 1905",
-        "recordedOn": "Recorded on Edison black wax cylinder #8966",
+        "title": "colina del búnker",
+        "performedBy": "Harlan y Stanley",
+        "performedWhen": "California.1905",
+        "recordedOn": "Grabado en cilindro de cera negra Edison #8966",
         "file": "01C.mp3"
       },
       "overThere": {
-        "title": "Over There",
-        "performedBy": "Enrico Caruso",
+        "title": "Allí",
+        "performedBy": "Enrique Caruso",
         "performedWhen": "1918",
-        "recordedOn": "Recorded on Victor Talking Machine Disk",
+        "recordedOn": "Grabado en el disco Victor Talking Machine",
         "file": "02C.mp3"
       },
       "johnnyBGoode": {
         "title": "Johnny B. Goode",
-        "performedBy": "The Grateful Dead",
-        "performedWhen": "June 10, 1973",
-        "recordedOn": "Recorded on Sony TC 2850SD portable cassette recorder on Memorex cassettes.",
+        "performedBy": "Los muertos agradecidos",
+        "performedWhen": "10 de junio de 1973",
+        "recordedOn": "Grabado en una grabadora de casetes portátil Sony TC 2850SD en casetes Memorex.",
         "file": "03C.mp3"
       }
     },
@@ -383,252 +383,252 @@
     "image3": "audioPic3.jpg"
   },
   "TelegraphMachine": {
-    "description": "The telegraph transformed communication by sending messages long distance through wires, bridging gaps between people and places. Using Morse code, a series of dots and dashes, the telegraph connected the world faster than ever before. ",
-    "theImpact": "Before the telegraph, communication was slow, and important information often arrived too late. With telegraph wires stretching across continents, news could be delivered quickly, which was especially important for businesses, governments, and families waiting for important updates. The telegraph was not just a device; it was a bridge between people and places. It played a significant role in the construction of the transcontinental railroad. Its ability to transmit messages quickly and accurately over long distances played a vital role in the successful completion of this monumental engineering project, connecting the East and West coasts of the United States and making it easier to coordinate work and travel across the country. ",
+    "description": "El telégrafo transformó la comunicación al enviar mensajes a larga distancia a través de cables, salvando distancias entre personas y lugares.Utilizando el código Morse, una serie de puntos y rayas, el telégrafo conectó al mundo más rápido que nunca.",
+    "theImpact": "Antes del telégrafo, la comunicación era lenta y la información importante a menudo llegaba demasiado tarde.Con cables telegráficos que se extendían a lo largo de los continentes, las noticias podían entregarse rápidamente, lo cual era especialmente importante para las empresas, los gobiernos y las familias que esperaban actualizaciones importantes.El telégrafo no era sólo un dispositivo;era un puente entre personas y lugares.Desempeñó un papel importante en la construcción del ferrocarril transcontinental.Su capacidad para transmitir mensajes de forma rápida y precisa a largas distancias jugó un papel vital en la finalización exitosa de este monumental proyecto de ingeniería, que conecta las costas este y oeste de los Estados Unidos y facilita la coordinación del trabajo y los viajes por todo el país.",
     "steps": {
-      "label": "How Does it Work?",
+      "label": "¿Cómo funciona?",
       "list": [
         {
-          "text": "Push on the big black button on the telegraph key."
+          "text": "Presiona el gran botón negro de la tecla del telégrafo."
         },
         {
-          "text": "Hold then release for dashes, press and quickly release for dots."
+          "text": "Mantenga presionado y suelte para ver guiones, presione y suelte rápidamente para ver puntos."
         },
         {
-          "text": "Listen for the code from the sounder."
+          "text": "Escuche el código de la sirena."
         }
       ]
     },
     "facts": [
       {
-        "label": "Name: ",
-        "value": "Telegraph Machine"
+        "label": "Nombre:",
+        "value": "Máquina de telégrafo"
       },
       {
         "label": "Inventor: ",
-        "value": "Samuel Morse and Alfred Vail "
+        "value": "Samuel Morse y Alfred Vail"
       },
       {
-        "label": "Year of Invention: ",
-        "value": "1837 "
+        "label": "Año de invención:",
+        "value": "1837"
       },
       {
-        "label": "Speed: ",
-        "value": "Messages transmitted in seconds "
+        "label": "Velocidad:",
+        "value": "Mensajes transmitidos en segundos"
       },
       {
-        "label": "Language: ",
-        "value": "Morse Code (Dots and Dashes)"
+        "label": "Idioma:",
+        "value": "Código Morse (puntos y rayas)"
       },
       {
-        "label": "Global Connection: ",
-        "value": "Linked continents, changing the way we share information worldwide "
+        "label": "Conexión global:",
+        "value": "Continentes vinculados, cambiando la forma en que compartimos información en todo el mundo"
       }
     ],
     "telegraphSteps": {
-      "label": "Telegraph Station",
+      "label": "Estación de telégrafos",
       "list": [
         {
-          "text": "Push on the big black button on the telegraph key"
+          "text": "Presiona el gran botón negro en la tecla del telégrafo."
         },
         {
-          "text": "Hold then release for dashes, press and quickly release for dots."
+          "text": "Mantenga presionado y suelte para ver guiones, presione y suelte rápidamente para ver puntos."
         },
         {
-          "text": "Listen for the code from the sounder."
+          "text": "Escuche el código de la sirena."
         }
       ]
     },
-    "whatsGoingOn": "The magnetic qualities of electricity help to send the current along the telegraph wire. The special code of dots and dashes called “Morse Code” uses pulses of current to send messages. This was the earliest form of instant long-distance communication. Messages could be sent by tapping out a special code created by Samuel Morse on a telegraph key. Each letter of the alphabet has its own special sequence of dots and dashes. The name telegraph is derived from the word “tele” meaning far off and the word “graph” meaning to write.",
+    "whatsGoingOn": "Las cualidades magnéticas de la electricidad ayudan a enviar la corriente a lo largo del cable telegráfico.El código especial de puntos y rayas llamado “Código Morse” utiliza pulsos de corriente para enviar mensajes.Esta fue la primera forma de comunicación instantánea a larga distancia.Los mensajes se podían enviar pulsando un código especial creado por Samuel Morse en una tecla de telégrafo.Cada letra del alfabeto tiene su propia secuencia especial de puntos y rayas.El nombre telégrafo se deriva de la palabra \"tele\" que significa lejos y la palabra \"graph\" que significa escribir.",
     "image1": "telegraph1.jpg",
     "image2": "telegraph2.png"
   },
   "TheMarconiMagneticDetector": {
-    "description": "In the late 19th century, a young inventor named Guglielmo Marconi developed the Marconi Magnetic Detector, a device that could detect magnetic fields in radio waves. These are invisible signals that make wireless communication possible. These signals could be transmitted long distances without wires and received and became the starting point for wireless communication.",
-    "theImpact": "The Marconi Magnetic Detector is a critical building block that started the journey to global connectivity. This invention changed the game of communication, shaping our modern world. This discovery laid the foundation for future wireless innovations like radios, televisions, the internet, smartphones and Wi-Fi.",
+    "description": "A finales del siglo XIX, un joven inventor llamado Guglielmo Marconi desarrolló el detector magnético Marconi, un dispositivo que podía detectar campos magnéticos en ondas de radio.Se trata de señales invisibles que hacen posible la comunicación inalámbrica.Estas señales podían transmitirse y recibirse a largas distancias sin cables y se convirtieron en el punto de partida de la comunicación inalámbrica.",
+    "theImpact": "El detector magnético Marconi es un componente fundamental que inició el viaje hacia la conectividad global.Este invento cambió el juego de la comunicación y dio forma a nuestro mundo moderno.Este descubrimiento sentó las bases para futuras innovaciones inalámbricas como radios, televisores, Internet, teléfonos inteligentes y Wi-Fi.",
     "facts": [
       {
         "label": "Inventor: ",
         "value": "Guglielmo Marconi"
       },
       {
-        "label": "Year of Invention: ",
+        "label": "Año de invención:",
         "value": "1896"
       },
       {
-        "label": "Key Feature: ",
-        "value": "Magnetic field sensor"
+        "label": "Característica clave:",
+        "value": "Sensor de campo magnético"
       },
       {
-        "label": "Impact: ",
-        "value": "Foundation for modern wireless tech"
+        "label": "Impacto:",
+        "value": "Fundación para la tecnología inalámbrica moderna"
       }
     ],
     "timeline": {
-      "label": "History of Wireless communication",
+      "label": "Historia de la comunicación inalámbrica",
       "facts": [
         {
-          "label": "1890s",
-          "value": "First Wireless Communication"
+          "label": "Década de 1890",
+          "value": "Primera comunicación inalámbrica"
         },
         {
-          "label": "1900s",
-          "value": "First Radio Broadcast"
+          "label": "1900",
+          "value": "Primera transmisión de radio"
         },
         {
-          "label": "1920s",
-          "value": "First Commercial Radio"
+          "label": "década de 1920",
+          "value": "Primera radio comercial"
         },
         {
-          "label": "1930s",
-          "value": "Radar technology, Television Broadcasting"
+          "label": "década de 1930",
+          "value": "Tecnología de radar, Transmisión de televisión"
         },
         {
-          "label": "1940s",
-          "value": "Quality Radio Services"
+          "label": "década de 1940",
+          "value": "Servicios de radio de calidad"
         },
         {
-          "label": "1950s",
-          "value": "First Satellites, the Space program"
+          "label": "década de 1950",
+          "value": "Primeros satélites, el programa espacial."
         },
         {
-          "label": "1970s",
-          "value": "Mobile networks, GPS"
+          "label": "década de 1970",
+          "value": "Redes móviles, GPS"
         },
         {
-          "label": "1980s",
-          "value": "First-generation mobile networks"
+          "label": "década de 1980",
+          "value": "Redes móviles de primera generación"
         },
         {
-          "label": "1990s",
-          "value": "Second-generation mobile networks, Wi-Fi"
+          "label": "década de 1990",
+          "value": "Redes móviles de segunda generación, Wi-Fi"
         },
         {
-          "label": "2000s",
-          "value": "Satellite internet, 3G Networks"
+          "label": "2000",
+          "value": "Internet satelital, Redes 3G"
         },
         {
-          "label": "2010s",
-          "value": "LTE advanced, 5G network"
+          "label": "década de 2010",
+          "value": "LTE avanzado, red 5G"
         }
       ]
     },
     "steps": {
-      "label": "How it Works:",
+      "label": "Cómo funciona:",
       "list": [
         {
-          "text": "Listen on the telephone receiver."
+          "text": "Escuche en el auricular del teléfono."
         },
         {
-          "text": "Slowly turn the knob on the front clockwise."
+          "text": "Gire lentamente la perilla de la parte delantera en el sentido de las agujas del reloj."
         },
         {
-          "text": "The radio station is detected only when the wire band is moving. It stops when the wire band stops."
+          "text": "La estación de radio se detecta sólo cuando la banda de alambre se está moviendo.Se detiene cuando se detiene la banda de alambre."
         },
         {
-          "text": "See how slowly you can turn the knob and still hear the radio."
+          "text": "Vea qué tan lentamente puede girar la perilla y seguir escuchando la radio."
         }
       ]
     },
-    "whatsGoingOn": "\"Maggie\" moves the iron wire band through the radio frequency coil as you turn the knob. The detector functions by capturing radio waves, which are invisible signals traveling through the air. This device utilized a magnetic field to intercept these waves. When the radio waves interacted with the magnetic field within the detector, they caused fluctuations, creating tiny electrical currents. These currents were then amplified and converted into audible sounds, allowing people to hear the messages carried by the radio waves. The Marconi Magnetic Detector operates on the principles of electromagnetic induction. It detects radio waves by utilizing a coherer, which is a component sensitive to electromagnetic waves.  It operates by utilizing an antenna to receive radio waves, a coherer to detect and respond to these waves by altering its electrical resistance, and subsequent circuitry that interprets this change to generate a discernible output, usually an audible signal. This pioneering technology laid the foundation for wireless communication systems we use today. ",
+    "whatsGoingOn": "\"Maggie\" mueve la banda de alambre de hierro a través de la bobina de radiofrecuencia mientras giras la perilla.El detector funciona capturando ondas de radio, que son señales invisibles que viajan por el aire.Este dispositivo utilizó un campo magnético para interceptar estas ondas.Cuando las ondas de radio interactuaban con el campo magnético dentro del detector, provocaban fluctuaciones y creaban pequeñas corrientes eléctricas.Luego, estas corrientes se amplificaron y se convirtieron en sonidos audibles, lo que permitió a las personas escuchar los mensajes transmitidos por las ondas de radio.El detector magnético Marconi funciona según los principios de la inducción electromagnética.Detecta ondas de radio utilizando un cohesor, que es un componente sensible a las ondas electromagnéticas.Funciona utilizando una antena para recibir ondas de radio, un cohesor para detectar y responder a estas ondas alterando su resistencia eléctrica y un circuito posterior que interpreta este cambio para generar una salida discernible, generalmente una señal audible.Esta tecnología pionera sentó las bases de los sistemas de comunicación inalámbrica que utilizamos hoy en día.",
     "image1": "marconi2.jpg",
     "image2": "marconi3.jpg",
     "image3": "marconi02.png"
   },
   "WhyDoMicrowavesHaveTurntables": {
-    "description": "Microwave ovens generate electromagnetic waves (microwaves) that heat food by exciting water molecules within the food. Microwaves are invisible, so you can't see them inside a microwave oven, but their presence can be detected with neon lamps. The changing electromagnetic field from the microwaves will make charged particles move, and so the electrons in the metal legs will move creating current. This current makes the lamps glow.  The distribution of these waves inside the microwave tends to be uneven so a turntable helps rotate the food, ensuring that all parts of the dish receive relatively equal exposure to the microwaves. This results in more consistent and even cooking.",
-    "theImpact": "Food in the oven absorbs microwave energy. The turntable rotates food through the high and low field intensities. Thorough cooking is the result.",
+    "description": "Los hornos microondas generan ondas electromagnéticas (microondas) que calientan los alimentos excitando las moléculas de agua dentro de los alimentos.Las microondas son invisibles, por lo que no se pueden ver dentro de un horno microondas, pero su presencia se puede detectar con lámparas de neón.El campo electromagnético cambiante de las microondas hará que las partículas cargadas se muevan, por lo que los electrones en las patas metálicas se moverán creando corriente.Esta corriente hace que las lámparas brillen.La distribución de estas ondas dentro del microondas tiende a ser desigual, por lo que un plato giratorio ayuda a rotar la comida, asegurando que todas las partes del plato reciban una exposición relativamente igual a las microondas.Esto da como resultado una cocción más consistente y uniforme.",
+    "theImpact": "Los alimentos en el horno absorben la energía de las microondas.La plataforma giratoria hace girar los alimentos a través de intensidades de campo altas y bajas.El resultado es una cocción minuciosa.",
     "steps": {
-      "label": "How Does it Work?",
+      "label": "¿Cómo funciona?",
       "list": [
         {
-          "text": "Press the red button to the left of the microwave oven."
+          "text": "Presione el botón rojo a la izquierda del horno microondas."
         }
       ]
     },
-    "whatsGoingOn": "Watch the neon lights on the turntable inside the microwave. They turn on and off and change in brightness as their position in the oven changes.  This is a visual demonstration of the inconsistency of the microwave energy. The distribution of microwave energy is inconsistent. This causes varying field intensities, or hot and cold spots in the oven.  A turntable is employed to reduce the likelihood of hot spots or cold spots in your food.",
+    "whatsGoingOn": "Mira las luces de neón en el plato giratorio dentro del microondas.Se encienden y apagan y cambian de brillo a medida que cambia su posición en el horno.Esta es una demostración visual de la inconsistencia de la energía de microondas.La distribución de la energía de las microondas es inconsistente.Esto provoca intensidades de campo variables o puntos fríos y calientes en el horno.Se emplea un plato giratorio para reducir la probabilidad de que aparezcan puntos calientes o fríos en los alimentos.",
     "image1": "microwave1.svg",
     "image2": "microwave2.svg"
   },
   "Theremin": {
-    "description": "The Theremin is a unique musical instrument, in that it is played without physical contact.  The player stands in front of the instrument and moves their hands near its two metal antennas.  The volume and pitch are controlled by the distance from the player’s hands from the antennas.  Moving a hand closer to the left plate increases the volume.  Moving the hand closer to the right plate increases the pitch.  The player’s hands act as the grounded plate of a variable capacitor.",
-    "theImpact": "The Theremin is a testament to the fusion of art and science, offering a unique interface where sound is produced without any physical contact. Its invention marked a significant leap in the evolution of electronic music, captivating audiences with its eerie and otherworldly tones. From its early use in classical compositions to its iconic presence in science fiction soundtracks, the Theremin has left an indelible mark on music history. Its eerie, sci-fi sound has graced countless films, adding an unmistakable atmosphere to scenes of suspense and wonder.",
+    "description": "El Theremin es un instrumento musical único en el sentido de que se toca sin contacto físico.El jugador se para frente al instrumento y mueve sus manos cerca de sus dos antenas metálicas.El volumen y el tono se controlan mediante la distancia entre las manos del jugador y las antenas.Acercar la mano a la placa izquierda aumenta el volumen.Acercar la mano al plato derecho aumenta el tono.Las manos del jugador actúan como la placa conectada a tierra de un condensador variable.",
+    "theImpact": "El Theremin es un testimonio de la fusión del arte y la ciencia, y ofrece una interfaz única donde el sonido se produce sin ningún contacto físico.Su invención marcó un salto significativo en la evolución de la música electrónica, cautivando al público con sus tonos inquietantes y de otro mundo.Desde su uso temprano en composiciones clásicas hasta su presencia icónica en bandas sonoras de ciencia ficción, el Theremin ha dejado una marca indeleble en la historia de la música.Su inquietante sonido de ciencia ficción ha adornado innumerables películas, añadiendo una atmósfera inconfundible a escenas de suspenso y asombro.",
     "facts": [
       {
-        "label": "Name:",
-        "value": "Theremin"
+        "label": "Nombre:",
+        "value": "Theremín"
       },
       {
-        "label": "Invented by:",
-        "value": "Leon Theremin"
+        "label": "Inventado por:",
+        "value": "León Theremín"
       },
       {
-        "label": "Year of Invention:",
+        "label": "Año de invención:",
         "value": "1920"
       },
       {
-        "label": "Type:",
-        "value": "Electronic musical instrument"
+        "label": "Tipo:",
+        "value": "instrumento musical electrónico"
       },
       {
-        "label": "Notable Feature:",
-        "value": "Played without physical contact"
+        "label": "Característica notable:",
+        "value": "Jugó sin contacto físico"
       }
     ],
     "steps": {
-      "label": "How Does it Work?",
-      "description": "Step up to our interactive display.  Feel the invisible force of the electromagnetic field as you manipulate the pitch and volume antennas, creating your own melodies in the air.  To play a note, position your hand near the pitch antenna (right), adjusting the distance to control the pitch's frequency.  As your hand moves closer to the antenna, the pitch rises; conversely, moving the hand away lowers the pitch.  The volume (left) is controlled similarly, with proximity to the volume antenna determining the loudness of the sound."
+      "label": "¿Cómo funciona?",
+      "description": "Acérquese a nuestra pantalla interactiva.Siente la fuerza invisible del campo electromagnético mientras manipulas las antenas de tono y volumen, creando tus propias melodías en el aire.Para tocar una nota, coloque su mano cerca de la antena de tono (derecha), ajustando la distancia para controlar la frecuencia del tono.A medida que su mano se acerca a la antena, el tono aumenta;por el contrario, alejar la mano baja el tono.El volumen (izquierda) se controla de manera similar, y la proximidad a la antena de volumen determina el volumen del sonido."
     },
-    "whatsGoingOn": "The Theremin operates on the principle of capacitance and the manipulation of electromagnetic fields. The Theremin consists of two antennas - one for pitch and the other for volume. As the player moves their hands near these antennas, the electromagnetic field is disturbed, producing haunting melodies and harmonies. Its intuitive yet perplexing operation continues to intrigue musicians and enthusiasts alike.",
+    "whatsGoingOn": "El Theremin funciona según el principio de capacitancia y la manipulación de campos electromagnéticos.El Theremin consta de dos antenas: una para el tono y otra para el volumen.Cuando el jugador mueve sus manos cerca de estas antenas, el campo electromagnético se altera, produciendo melodías y armonías inquietantes.Su funcionamiento intuitivo pero desconcertante sigue intrigando a músicos y entusiastas por igual.",
     "image1": "theremin1.svg",
     "image2": "theremin2.webp"
   },
   "PolarizationExperiment": {
-    "description": "This experiment demonstrates how filters allow electromagnetic waves oscillating in a certain direction to pass through while blocking others, showcasing the effects of polarization on electromagnetic waves.  With polarized sunglasses, the filter creates vertical openings for light. Only light rays that approach your eyes vertically can fit through those openings. The lenses block all the horizontal light waves bouncing off a smooth pond or a shiny car hood, for instance.  This is a similar concept to polarization on electromagnetic waves.",
-    "theImpact": "Polarization is what lets the mesh screen in your microwave oven door block hazardous energy from escaping. The wires of the mesh are vertical and horizontal blocking waves moving in either direction.",
+    "description": "Este experimento demuestra cómo los filtros permiten el paso de ondas electromagnéticas que oscilan en una determinada dirección mientras bloquean otras, mostrando los efectos de la polarización en las ondas electromagnéticas.En las gafas de sol polarizadas, el filtro crea aberturas verticales para la luz.Sólo los rayos de luz que se acercan verticalmente a tus ojos pueden pasar por esas aberturas.Las lentes bloquean todas las ondas de luz horizontales que rebotan, por ejemplo, en un estanque liso o en el capó brillante de un coche.Este es un concepto similar a la polarización de ondas electromagnéticas.",
+    "theImpact": "La polarización es lo que permite que la malla de la puerta de su horno microondas bloquee el escape de energía peligrosa.Los alambres de la malla son ondas de bloqueo verticales y horizontales que se mueven en cualquier dirección.",
     "steps": {
-      "label": "How Does it Work?",
+      "label": "¿Cómo funciona?",
       "list": [
         {
-          "text": "Press the red button."
+          "text": "Presione el botón rojo."
         },
         {
-          "text": "Slowly rotate the screen wheel while watching the two meters. The left horn is transmitting, and the right horn is receiving."
+          "text": "Gire lentamente la rueda de la pantalla mientras observa los dos metros.La bocina izquierda transmite y la bocina derecha recibe."
         }
       ]
     },
-    "whatsGoingOn": "Look at the meters to see how much electromagnetic energy is being transmitted and how much is received. Do the amounts change as the screen wheel moves? The open wire screen can reflect or transmit electromagnetic waves which are vertically polarized. Some waves pass through the spaces between the wires, while other waves are reflected back off the wires. For vertically polarized waves, the screen blocks most effectively when its wires are also vertical."
+    "whatsGoingOn": "Mire los medidores para ver cuánta energía electromagnética se transmite y cuánta se recibe.¿Cambian las cantidades a medida que se mueve la rueda de la pantalla?La pantalla de alambre abierto puede reflejar o transmitir ondas electromagnéticas polarizadas verticalmente.Algunas ondas pasan a través de los espacios entre los cables, mientras que otras ondas se reflejan en los cables.Para ondas polarizadas verticalmente, la pantalla se bloquea más eficazmente cuando sus cables también están verticales."
   },
   "ElectromagneticWaves": {
-    "intro": "Welcome, as we journey through the invisible forces that shape our universe. From radio waves to gamma rays, electromagnetic waves encompass a vast spectrum of energy that permeates every aspect of our daily lives.  Follow along as we explore their profound impact on technology, communication, and our understanding of the cosmos.",
+    "intro": "Bienvenido, mientras viajamos a través de las fuerzas invisibles que dan forma a nuestro universo.Desde ondas de radio hasta rayos gamma, las ondas electromagnéticas abarcan un amplio espectro de energía que impregna todos los aspectos de nuestra vida diaria.Siga mientras exploramos su profundo impacto en la tecnología, la comunicación y nuestra comprensión del cosmos.",
     "radioWaves": {
-      "label": "Radio Waves",
-      "text": "These waves have the longest wavelengths and lowest frequencies in the electromagnetic spectrum. Widely used in communication, including radio broadcasting, Wi-Fi, and cellular networks."
+      "label": "Ondas de radio",
+      "text": "Estas ondas tienen las longitudes de onda más largas y las frecuencias más bajas del espectro electromagnético.Ampliamente utilizado en comunicaciones, incluidas transmisiones de radio, Wi-Fi y redes celulares."
     },
     "microWaves": {
-      "label": "Microwaves",
-      "text": "With slightly shorter wavelengths than radio waves, microwaves are utilized in various applications such as cooking, radar, and satellite communication."
+      "label": "Microondas",
+      "text": "Con longitudes de onda ligeramente más cortas que las ondas de radio, las microondas se utilizan en diversas aplicaciones, como la cocina, el radar y las comunicaciones por satélite."
     },
     "infraredLight": {
-      "label": "Infrared Light",
-      "text": "Beyond visible light but shorter than microwaves, infrared waves are associated with heat and are utilized in night vision technology, remote controls, and thermal imaging."
+      "label": "Luz infrarroja",
+      "text": "Más allá de la luz visible, pero más cortas que las microondas, las ondas infrarrojas están asociadas con el calor y se utilizan en tecnología de visión nocturna, controles remotos e imágenes térmicas."
     },
     "visibleLight": {
-      "label": "Visible Light",
-      "text": "The only segment of the electromagnetic spectrum visible to the human eye, visible light encompasses a range of colors from red to violet. Essential for vision and utilized in optical technologies such as cameras, telescopes, and lasers."
+      "label": "Luz visible",
+      "text": "La luz visible, el único segmento del espectro electromagnético visible para el ojo humano, abarca una gama de colores que van del rojo al violeta.Esencial para la visión y utilizado en tecnologías ópticas como cámaras, telescopios y láseres."
     },
     "ultravioletWaves": {
-      "label": "Ultraviolet (UV) Waves",
-      "text": "Beyond violet light on the electromagnetic spectrum, UV waves have shorter wavelengths and higher energy. Used in sterilization, tanning beds, and medical treatments but can also cause damage to living tissues."
+      "label": "Ondas ultravioleta (UV)",
+      "text": "Más allá de la luz violeta en el espectro electromagnético, las ondas ultravioleta tienen longitudes de onda más cortas y mayor energía.Se utiliza en esterilización, camas solares y tratamientos médicos, pero también puede causar daños a los tejidos vivos."
     },
     "xRays": {
-      "label": "X-Rays",
-      "text": "These waves have even shorter wavelengths and higher energy than UV waves. Valuable in medical imaging, airport security scanning, and material analysis due to their ability to penetrate solid objects."
+      "label": "Rayos X",
+      "text": "Estas ondas tienen longitudes de onda aún más cortas y mayor energía que las ondas ultravioleta.Valiosos en imágenes médicas, escaneos de seguridad de aeropuertos y análisis de materiales debido a su capacidad para penetrar objetos sólidos."
     },
     "gammaRays": {
-      "label": "Gamma Rays",
-      "text": "With the shortest wavelengths and highest energy in the electromagnetic spectrum, gamma rays are emitted by radioactive materials and cosmic events. Utilized in cancer treatment, sterilization, and studying high-energy astrophysical phenomena."
+      "label": "Rayos gamma",
+      "text": "Con las longitudes de onda más cortas y la mayor energía del espectro electromagnético, los rayos gamma son emitidos por materiales radiactivos y eventos cósmicos.Utilizado en el tratamiento del cáncer, esterilización y estudio de fenómenos astrofísicos de alta energía."
     },
-    "outro": "As you explore the categories of electromagnetic waves, you'll gain a deeper appreciation for the diversity and significance of these phenomena.  From the practical applications in everyday technology to the profound insights they provide into the nature of the universe, electromagnetic waves continue to shape our world in ways both seen and unseen. Pay particular attention to our exhibits on “Visual Electromagnetic Waves” and “Electromagnetic Radio Waves” for further insight into these examples of electromagnetic waves."
+    "outro": "A medida que explore las categorías de ondas electromagnéticas, obtendrá una apreciación más profunda de la diversidad y la importancia de estos fenómenos.Desde las aplicaciones prácticas en la tecnología cotidiana hasta los profundos conocimientos que brindan sobre la naturaleza del universo, las ondas electromagnéticas continúan dando forma a nuestro mundo de maneras tanto visibles como invisibles.Preste especial atención a nuestras exhibiciones sobre \"Ondas electromagnéticas visuales\" y \"Ondas de radio electromagnéticas\" para obtener más información sobre estos ejemplos de ondas electromagnéticas."
   }
 }

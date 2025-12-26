@@ -26,5 +26,12 @@ How to setup:
 How to dev:
     npm run dev
 
+Dev notes for updating localisation (linux):
+    sudo apt install python3.13-venv
+    python3 -m venv .venv
+    source .venv/bin/activate
+    pip install googletrans==4.0.0-rc1 tqdm legacy-cgi
+    python3 ./scripts/updateLocalizations.py
+
 Resources:
     [Live netlify app](https://nemdigitalsignage.netlify.app/)
