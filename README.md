@@ -33,5 +33,7 @@ Dev notes for updating localisation (linux):
     pip install googletrans==4.0.0-rc1 tqdm legacy-cgi
     python3 ./scripts/updateLocalizations.py
 
+    deactivate
+
 Resources:
     [Live netlify app](https://nemdigitalsignage.netlify.app/)
