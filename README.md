@@ -1,4 +1,5 @@
 # National Electronics Museum Digital Signage
+[![Netlify Status](https://api.netlify.com/api/v1/badges/49902500-cd87-47ea-a4dc-5644b941c796/deploy-status)](https://app.netlify.com/projects/nemdigitalsignage/deploys)
 
 The goal of this project is to enhance the museum experience by maximizing the delivery of information to all visitors through accessible, inclusive, and user-friendly digital signage software, ensuring that knowledge is shared without barriers.
 
