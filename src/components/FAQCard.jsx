@@ -18,8 +18,12 @@ const FAQOverlay = ({ onClose, componentObject }) => {
             <div className="faqcard-overlay-content-left">
               {componentObject.description && (
                 <div>
-                  <SpeechPlaybackControls speechText={componentObject.description} />
-                  <p className="faqcard-overlay-content-text" style={aStyle}>{componentObject.description}</p>
+                  <SpeechPlaybackControls
+                    speechText={componentObject.description}
+                  />
+                  <p className="faqcard-overlay-content-text" style={aStyle}>
+                    {componentObject.description}
+                  </p>
                 </div>
               )}
               {componentObject.imageCaption && (
@@ -27,12 +31,19 @@ const FAQOverlay = ({ onClose, componentObject }) => {
                   <SpeechPlaybackControls
                     speechText={componentObject.imageCaption}
                   />
-                  <p className="faqcard-overlay-content-caption" style={aStyle}>{componentObject.imageCaption}</p>
+                  <p className="faqcard-overlay-content-caption" style={aStyle}>
+                    {componentObject.imageCaption}
+                  </p>
                 </div>
               )}
             </div>
             <div className="faqcard-overlay-content-right">
-              {componentObject.image && <img className="faqcard-overlay-content-image" src={"/images/" + componentObject.image} />}
+              {componentObject.image && (
+                <img
+                  className="faqcard-overlay-content-image"
+                  src={"/images/" + componentObject.image}
+                />
+              )}
             </div>
           </div>
         )}
@@ -64,7 +75,12 @@ export default function FAQCard({ componentObject }) {
         {componentObject.name}
       </button>
 
-      {open && <FAQOverlay componentObject={componentObject} onClose={() => setOpen(false)} />}
+      {open && (
+        <FAQOverlay
+          componentObject={componentObject}
+          onClose={() => setOpen(false)}
+        />
+      )}
     </div>
   );
 }
