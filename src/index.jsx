@@ -4,7 +4,7 @@ import "./styles/index.css";
 
 export default function Index() {
   return (
-    <>
+    <div className="index-wrapper">
       <div>
         <h1 className="title">National Electronics Museum</h1>
       </div>
@@ -19,6 +19,6 @@ export default function Index() {
           ))}
         </ul>
       </div>
-    </>
+    </div>
   );
 }

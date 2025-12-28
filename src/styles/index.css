@@ -6,15 +6,21 @@ body {
   font-family: var(--app-font);
 }
 
+.index-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
 .index-station-link {
   list-style-type: none;
   margin-bottom: 10px;
 }
 
 .station-list-wrapper {
-  height: 80%;
   overflow-y: auto;
-  display: flex;
+  flex-direction: column;
 }
 
 .station-list {
