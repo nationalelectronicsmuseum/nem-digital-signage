@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { useSettings } from "../../context/SettingsContext.jsx";
 
+const WARM_SPEECH_INTERVAL_MILLIS = 30000;
+
 export function useSpeechSynthesis() {
   const { settings, setSettings } = useSettings();
   const [voices, setVoices] = useState([]);
@@ -14,10 +16,17 @@ export function useSpeechSynthesis() {
     };
 
     loadVoices();
-    window.speechSynthesis.addEventListener('voiceschanged', loadVoices);
+    window.speechSynthesis.addEventListener("voiceschanged", loadVoices);
+
+    const interval = setInterval(() => {
+      const u = new SpeechSynthesisUtterance(" ");
+      u.volume = 0;
+      window.speechSynthesis.speak(u);
+    }, WARM_SPEECH_INTERVAL_MILLIS);
 
     return () => {
-      window.speechSynthesis.removeEventListener('voiceschanged', loadVoices);
+      clearInterval(interval)
+      window.speechSynthesis.removeEventListener("voiceschanged", loadVoices);
     };
   }, []);
 
