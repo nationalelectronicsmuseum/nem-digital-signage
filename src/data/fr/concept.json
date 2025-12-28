@@ -322,7 +322,7 @@
         "value": "À la fin du XIXe siècle par Heinrich Hertz"
       },
       {
-        "label": "Key Characteristics:",
+        "label": "Caractéristiques clés :",
         "value": "Invisible, voyagez à la vitesse de la lumière, utilisé dans les technologies de communication"
       },
       {
@@ -380,7 +380,7 @@
     },
     "image1": "audioPic1.jpg",
     "image2": "audioPic2.jfif",
-    "image3": "audioPic3.jpg"
+    "image3": "audioPic3.webp"
   },
   "TelegraphMachine": {
     "description": "Le télégraphe a transformé la communication en envoyant des messages à longue distance via des fils, comblant ainsi le fossé entre les personnes et les lieux.Grâce au code Morse, une série de points et de tirets, le télégraphe a connecté le monde plus rapidement que jamais.",
@@ -548,7 +548,7 @@
     },
     "whatsGoingOn": "Regardez les néons sur le plateau tournant à l’intérieur du micro-ondes.Ils s'allument et s'éteignent et changent de luminosité à mesure que leur position dans le four change.Il s'agit d'une démonstration visuelle de l'incohérence de l'énergie des micro-ondes.La distribution de l’énergie des micro-ondes est incohérente.Cela provoque des intensités de champ variables ou des points chauds et froids dans le four.Un plateau tournant est utilisé pour réduire le risque de points chauds ou de points froids dans vos aliments.",
     "image1": "microwave1.svg",
-    "image2": "microwave2.svg"
+    "image2": "microwave2.webp"
   },
   "Theremin": {
     "description": "Le thérémine est un instrument de musique unique, dans le sens où il se joue sans contact physique.Le joueur se tient devant l'instrument et rapproche ses mains de ses deux antennes métalliques.Le volume et la hauteur sont contrôlés par la distance entre les mains du joueur et les antennes.Rapprocher une main de la plaque gauche augmente le volume.Rapprocher la main de la plaque droite augmente la hauteur.Les mains du joueur agissent comme la plaque mise à la terre d’un condensateur variable.",

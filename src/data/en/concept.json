@@ -380,7 +380,7 @@
     },
     "image1": "audioPic1.jpg",
     "image2": "audioPic2.jfif",
-    "image3": "audioPic3.jpg"
+    "image3": "audioPic3.webp"
   },
   "TelegraphMachine": {
     "description": "The telegraph transformed communication by sending messages long distance through wires, bridging gaps between people and places. Using Morse code, a series of dots and dashes, the telegraph connected the world faster than ever before. ",
@@ -548,7 +548,7 @@
     },
     "whatsGoingOn": "Watch the neon lights on the turntable inside the microwave. They turn on and off and change in brightness as their position in the oven changes.  This is a visual demonstration of the inconsistency of the microwave energy. The distribution of microwave energy is inconsistent. This causes varying field intensities, or hot and cold spots in the oven.  A turntable is employed to reduce the likelihood of hot spots or cold spots in your food.",
     "image1": "microwave1.svg",
-    "image2": "microwave2.svg"
+    "image2": "microwave2.webp"
   },
   "Theremin": {
     "description": "The Theremin is a unique musical instrument, in that it is played without physical contact.  The player stands in front of the instrument and moves their hands near its two metal antennas.  The volume and pitch are controlled by the distance from the player’s hands from the antennas.  Moving a hand closer to the left plate increases the volume.  Moving the hand closer to the right plate increases the pitch.  The player’s hands act as the grounded plate of a variable capacitor.",

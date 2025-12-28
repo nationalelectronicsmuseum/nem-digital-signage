@@ -5,13 +5,13 @@
         "name": "Was ist Amateurradio?",
         "description": "Amateurfunk (Ham Radio) ist ein internationales Hobby auf bestimmten Frequenzen, das die Kommunikation über verschiedene Methoden ermöglicht, z.B.Morsecode, Sprache und Daten.Rufzeichen wie K3NEM (unser Stationsrufzeichen) sind für jeden lizenzierten Funkamateur oder Verein einzigartig.Rufzeichenpräfixe variieren je nach Land.",
         "imageCaption": "Bild: Ein Schreibtisch mit Computern, Maus, Tastatur, Amateurfunk und einer Karte.",
-        "image": "ham01.png"
+        "image": "ham01.webp"
       },
       {
         "name": "Wer kann Amateurfunker (HAM) sein?",
         "description": "In den USA sind Personen jeden Alters berechtigt, an den Prüfungen teilzunehmen.Lizenzen werden von jedem Land ausgestellt und in Grad an Privilegien vergeben.Kenntnisse im Morsecode sind nicht mehr erforderlich.Wenn Sie mit einem Mobiltelefon umgehen können, sind Sie auf dem besten Weg, ein Amateur zu werden!",
         "imageCaption": "Bild: Ein Kind, das das Amateurfunkgerät bedient.",
-        "image": "ham2.png"
+        "image": "ham2.webp"
       },
       {
         "name": "WAS KANN ICH IM HAM-RADIO TUN?",
@@ -23,7 +23,7 @@
         "name": "NOTFALLKOMMUNIKATION",
         "description": "Auch wenn Telefonanlagen ausfallen, kommt Amateurfunk immer noch durch.Funkamateure arbeiten für die Kommunikation mit Regierungsbehörden zusammen.Wir leiten Verkehrsdatagramme – wie Western-Union-Nachrichten – über Funknetze von Funkamateuren weiter.Das Foto zeigt den ARRL Field Day, eine jährliche Veranstaltung zur Notfallvorsorge.",
         "imageCaption": "Bild: ARRL Field Day, eine jährliche Veranstaltung zur Notfallvorsorge.",
-        "image": "ham7.png"
+        "image": "ham7.webp"
       },
       {
         "name": "AMATEUR-RADIO-CLUB DES NATIONAL ELECTRONICS MUSEUM",

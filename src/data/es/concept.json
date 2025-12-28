@@ -380,7 +380,7 @@
     },
     "image1": "audioPic1.jpg",
     "image2": "audioPic2.jfif",
-    "image3": "audioPic3.jpg"
+    "image3": "audioPic3.webp"
   },
   "TelegraphMachine": {
     "description": "El telégrafo transformó la comunicación al enviar mensajes a larga distancia a través de cables, salvando distancias entre personas y lugares.Utilizando el código Morse, una serie de puntos y rayas, el telégrafo conectó al mundo más rápido que nunca.",
@@ -548,7 +548,7 @@
     },
     "whatsGoingOn": "Mira las luces de neón en el plato giratorio dentro del microondas.Se encienden y apagan y cambian de brillo a medida que cambia su posición en el horno.Esta es una demostración visual de la inconsistencia de la energía de microondas.La distribución de la energía de las microondas es inconsistente.Esto provoca intensidades de campo variables o puntos fríos y calientes en el horno.Se emplea un plato giratorio para reducir la probabilidad de que aparezcan puntos calientes o fríos en los alimentos.",
     "image1": "microwave1.svg",
-    "image2": "microwave2.svg"
+    "image2": "microwave2.webp"
   },
   "Theremin": {
     "description": "El Theremin es un instrumento musical único en el sentido de que se toca sin contacto físico.El jugador se para frente al instrumento y mueve sus manos cerca de sus dos antenas metálicas.El volumen y el tono se controlan mediante la distancia entre las manos del jugador y las antenas.Acercar la mano a la placa izquierda aumenta el volumen.Acercar la mano al plato derecho aumenta el tono.Las manos del jugador actúan como la placa conectada a tierra de un condensador variable.",

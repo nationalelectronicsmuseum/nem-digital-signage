@@ -5,13 +5,13 @@
         "name": "QU'EST-CE QUE LA RADIO AMATEUR ?",
         "description": "La radioamateur (Ham Radio) est un passe-temps international sur des fréquences désignées permettant la communication via diverses méthodes, par ex.Code Morse, voix et données.Les indicatifs d'appel tels que K3NEM (notre indicatif d'appel de station) sont uniques à chaque jambon ou club sous licence.Les préfixes des indicatifs d'appel varient selon les pays.",
         "imageCaption": "Image : Un bureau avec des ordinateurs, une souris, un clavier, une radio HAM et une carte.",
-        "image": "ham01.png"
+        "image": "ham01.webp"
       },
       {
         "name": "QUI PEUT ÊTRE OPÉRATEUR DE RADIO AMATEUR (HAM) ?",
         "description": "Aux États-Unis, les personnes de tout âge peuvent passer les examens.Les licences sont délivrées par chaque pays et sont accordées selon des degrés de privilège.La maîtrise du code Morse n'est plus requise.Si vous savez manier un téléphone portable, vous êtes sur la bonne voie pour devenir un jambon !",
         "imageCaption": "Image : Un enfant utilisant la radio HAM.",
-        "image": "ham2.png"
+        "image": "ham2.webp"
       },
       {
         "name": "QUE PUIS-JE FAIRE DANS HAM RADIO ?",
@@ -23,7 +23,7 @@
         "name": "COMMUNICATIONS D'URGENCE",
         "description": "Lorsque les systèmes téléphoniques sont en panne, la radioamateur continue de passer.Les radioamateurs travaillent avec des agences gouvernementales pour les communications.Nous transmettons des datagrammes de trafic, comme les messages Western Union, via des réseaux de radioamateurs en direct.La photo est celle de l'ARRL Field Day, un événement annuel de préparation aux situations d'urgence.",
         "imageCaption": "Image : ARRL Field Day, un événement annuel de préparation aux situations d'urgence.",
-        "image": "ham7.png"
+        "image": "ham7.webp"
       },
       {
         "name": "RADIO CLUB AMATEUR DU MUSÉE NATIONAL DE L'ÉLECTRONIQUE",

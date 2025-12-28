@@ -380,7 +380,7 @@
     },
     "image1": "audioPic1.jpg",
     "image2": "audioPic2.jfif",
-    "image3": "audioPic3.jpg"
+    "image3": "audioPic3.webp"
   },
   "TelegraphMachine": {
     "description": "Der Telegraph veränderte die Kommunikation, indem er Nachrichten über große Entfernungen über Kabel verschickte und so Kluften zwischen Menschen und Orten überbrückte.Mithilfe des Morsecodes, einer Reihe von Punkten und Strichen, verband der Telegraf die Welt schneller als je zuvor.",
@@ -548,7 +548,7 @@
     },
     "whatsGoingOn": "Beobachten Sie die Neonlichter auf dem Drehteller in der Mikrowelle.Sie schalten sich ein und aus und ändern ihre Helligkeit, wenn sich ihre Position im Ofen ändert.Dies ist eine visuelle Demonstration der Inkonsistenz der Mikrowellenenergie.Die Verteilung der Mikrowellenenergie ist inkonsistent.Dadurch entstehen unterschiedliche Feldstärken oder heiße und kalte Stellen im Ofen.Ein Drehteller wird eingesetzt, um die Wahrscheinlichkeit von heißen oder kalten Stellen in Ihren Speisen zu verringern.",
     "image1": "microwave1.svg",
-    "image2": "microwave2.svg"
+    "image2": "microwave2.webp"
   },
   "Theremin": {
     "description": "Das Theremin ist ein einzigartiges Musikinstrument, da es ohne Körperkontakt gespielt wird.Der Spieler steht vor dem Instrument und bewegt seine Hände in die Nähe der beiden Metallantennen.Lautstärke und Tonhöhe werden durch den Abstand der Hände des Spielers von den Antennen gesteuert.Wenn Sie eine Hand näher an die linke Platte bewegen, erhöht sich die Lautstärke.Wenn Sie die Hand näher an die rechte Platte bewegen, erhöht sich die Tonhöhe.Die Hände des Spielers fungieren als geerdete Platte eines variablen Kondensators.",

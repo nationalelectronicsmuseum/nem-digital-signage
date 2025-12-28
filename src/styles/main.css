@@ -30,8 +30,8 @@ html {
 
 body {
   background-image: url("/images/bg-opacity.webp");
-  background-size: cover;
   background-repeat: repeat;
+  background-size: 50%;
   overflow: hidden;
   height: 100%;
 }

@@ -5,13 +5,13 @@
         "name": "¿QUÉ ES LA RADIO AFICIONADA?",
         "description": "La radioafición (ham radio) es un pasatiempo internacional en frecuencias designadas que permite la comunicación a través de varios métodos, p.Código Morse, Voz y Datos.Los distintivos de llamada como K3NEM (nuestro distintivo de llamada de estación) son únicos para cada radioaficionado o club con licencia.Los prefijos de los distintivos de llamada varían según el país.",
         "imageCaption": "Imagen: Un escritorio con computadoras, mouse, teclado, radioaficionado y un mapa.",
-        "image": "ham01.png"
+        "image": "ham01.webp"
       },
       {
         "name": "¿QUIÉN PUEDE SER RADIOPERADOR AFICIONADO (HAM)?",
         "description": "Las personas de cualquier edad en los EE. UU. son elegibles para realizar los exámenes.Las licencias son emitidas por cada país y se otorgan en grados de privilegio.Ya no se requiere dominio del código Morse.Si puedes manejar un teléfono celular, ¡estás en camino de convertirte en un aficionado!",
         "imageCaption": "Image: A child operating the HAM radio.",
-        "image": "ham2.png"
+        "image": "ham2.webp"
       },
       {
         "name": "¿QUÉ PUEDO HACER EN RADIO HAM?",
@@ -23,7 +23,7 @@
         "name": "COMUNICACIONES DE EMERGENCIA",
         "description": "Cuando los sistemas telefónicos no funcionan, la radioafición todavía se comunica.Los radioaficionados trabajan con agencias gubernamentales para las comunicaciones.Pasamos datagramas de tráfico, como mensajes de Western Union, a través de redes de radioaficionados al aire.La foto es del ARRL Field Day, un evento anual de preparación para emergencias.",
         "imageCaption": "Imagen: ARRL Field Day, un evento anual de preparación para emergencias.",
-        "image": "ham7.png"
+        "image": "ham7.webp"
       },
       {
         "name": "CLUB DE RADIO AMATEUR DEL MUSEO NACIONAL DE ELECTRÓNICA",

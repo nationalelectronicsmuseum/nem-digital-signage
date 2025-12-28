@@ -48,7 +48,7 @@
       "sections": [
         {
           "id": "JumpingWire",
-          "image": "/images/jumpingwire1.jpg",
+          "image": "/images/jumpingwire1.webp",
           "slides": [
             { "type": "BifoldSlide", "slideID": "JumpingWire1" },
             { "type": "BifoldSlide", "slideID": "JumpingWire2" },
@@ -85,7 +85,7 @@
         },
         {
           "id": "JacobsLadderExperiment",
-          "image": "/images/jacobs2.jpg",
+          "image": "/images/jacobs2.webp",
           "slides": [
             { "type": "BifoldSlide", "slideID": "JacobsLadderExperiment1" },
             { "type": "BifoldSlide", "slideID": "JacobsLadderExperiment2" },
@@ -118,7 +118,7 @@
         },
         {
           "id": "EvolutionOfRecordedSound",
-          "image": "/images/AudioHome.jfif",
+          "image": "/images/AudioHome.webp",
           "slides": [
             { "type": "AudioSlide", "slideID": "EvolutionOfRecordedSound1" },
             { "type": "AudioSlide", "slideID": "EvolutionOfRecordedSound2" },
@@ -143,7 +143,7 @@
         },
         {
           "id": "TheMarconiMagneticDetector",
-          "image": "/images/marconi1.jpg",
+          "image": "/images/marconi1.webp",
           "slides": [
             { "type": "BifoldSlide", "slideID": "TheMarconiMagneticDetector1" },
             { "type": "BifoldSlide", "slideID": "TheMarconiMagneticDetector2" },
