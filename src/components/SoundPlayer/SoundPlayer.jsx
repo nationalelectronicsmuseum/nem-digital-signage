@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useAudioContext } from "../AudioProvider/AudioProvider.jsx";
+import { useAudioContext } from "../../context/AudioProvider.jsx";
 
 import iconPlay from "/images/evoPlay.svg?url";
 import iconPause from "/images/evoPause.svg?url";
