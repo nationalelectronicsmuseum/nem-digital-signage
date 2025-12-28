@@ -43,7 +43,6 @@ export default function SectionCardCarousel({ station }) {
                     <img
                       src={section.image ? section.image : defaultImage}
                       alt={title ? title : "Sample Title"}
-                      loading="lazy"
                       className="card-image"
                     />
                   </div>
