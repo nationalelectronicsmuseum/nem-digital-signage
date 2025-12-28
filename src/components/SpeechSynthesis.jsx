@@ -4,7 +4,7 @@ import { useSettings } from "../context/SettingsContext.jsx";
 const WARM_SPEECH_INTERVAL_MILLIS = 30000;
 
 export function useSpeechSynthesis() {
-  const { settings, setSettings } = useSettings();
+  const { settings } = useSettings();
   const [voices, setVoices] = useState([]);
   const [status, setStatus] = useState("idle");
   const utteranceRef = useRef(null);
@@ -25,13 +25,13 @@ export function useSpeechSynthesis() {
     }, WARM_SPEECH_INTERVAL_MILLIS);
 
     return () => {
-      clearInterval(interval)
+      clearInterval(interval);
       window.speechSynthesis.removeEventListener("voiceschanged", loadVoices);
     };
   }, []);
 
   const speak = (text) => {
-    stop(); // always clear previous
+    stop();
     const utterance = new SpeechSynthesisUtterance(text);
     const selectedVoice = voices.find((voice) =>
       voice.lang.startsWith(settings.language.speechCode)

@@ -1,4 +1,6 @@
-const modules = import.meta.glob('../slides/*.{jsx,js,tsx,ts}', { eager: true });
+const modules = import.meta.glob("../slides/*.{jsx,js,tsx,ts}", {
+  eager: true,
+});
 
 const registry = {};
 
@@ -13,8 +15,8 @@ const registry = {};
 
 for (const path in modules) {
   const name = path
-    .replace(/^\.\.\/slides\//, '')
-    .replace(/\.(jsx|js|tsx|ts)$/, '');
+    .replace(/^\.\.\/slides\//, "")
+    .replace(/\.(jsx|js|tsx|ts)$/, "");
 
   const mod = modules[path];
 

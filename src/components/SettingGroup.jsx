@@ -1,21 +1,23 @@
 import { useState } from "react";
 import "../styles/SettingGroup.css";
 
-export const toggleOptions = { "toggle": [
+export const toggleOptions = {
+  toggle: [
     {
-        "name": "On",
-        "value": true
+      name: "On",
+      value: true,
     },
     {
-        "name": "Off",
-        "value": false
-    }
-] }
+      name: "Off",
+      value: false,
+    },
+  ],
+};
 
 export default function SettingGroup({ label, options, value, onChange }) {
-    if(!options) {
-        options = toggleOptions.toggle;
-    }
+  if (!options) {
+    options = toggleOptions.toggle;
+  }
   return (
     <div className="setting-group-container">
       <h3 className="setting-group-title">{label}</h3>
@@ -33,8 +35,7 @@ export default function SettingGroup({ label, options, value, onChange }) {
           >
             {opt.name}
           </button>
-        ))
-        }
+        ))}
       </div>
     </div>
   );

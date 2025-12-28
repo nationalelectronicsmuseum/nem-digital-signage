@@ -11,7 +11,7 @@ export default function SectionCardCarousel({ station }) {
   const languageCode = settings.language.languageCode;
   const content = loadContent(languageCode);
   const [rows, setRows] = useState([]);
-  
+
   useEffect(() => {
     function update() {
       const perRow = getCardsPerRow();
@@ -28,28 +28,32 @@ export default function SectionCardCarousel({ station }) {
         {rows.map((row, rowIndex) => (
           <div className="carousel-row" key={rowIndex}>
             {row.map((section) => {
-              let title = resolvePath(content, "common.sectionCardTitle." + section.id);
+              let title = resolvePath(
+                content,
+                "common.sectionCardTitle." + section.id
+              );
               return (
-              <Link
-                key={section.id}
-                to={"/" + station.id + "/" + section.id}
-                relative="path"
-                className="card"
-              >
-                <div className="card-image-wrapper">
-                  <img
-                    src={section.image ? section.image : defaultImage}
-                    alt={title ? title : "Sample Title"}
-                    loading="lazy"
-                    className="card-image"
-                  />
-                </div>
+                <Link
+                  key={section.id}
+                  to={"/" + station.id + "/" + section.id}
+                  relative="path"
+                  className="card"
+                >
+                  <div className="card-image-wrapper">
+                    <img
+                      src={section.image ? section.image : defaultImage}
+                      alt={title ? title : "Sample Title"}
+                      loading="lazy"
+                      className="card-image"
+                    />
+                  </div>
 
-                <div className="card-title stationPages">
-                  {title ? title : "Sample Title"}
-                </div>
-              </Link>
-            );})}
+                  <div className="card-title stationPages">
+                    {title ? title : "Sample Title"}
+                  </div>
+                </Link>
+              );
+            })}
           </div>
         ))}
       </div>

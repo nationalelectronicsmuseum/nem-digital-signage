@@ -49,18 +49,19 @@ export default function Steps({ componentObject }) {
         </p>
       )}
       <ul>
-        {itemList && itemList.map((el, j) => (
-          <li className="steps" key={j}>
-            {el.label && (
-              <span style={labelStyle} className="steps-label">
-                {j + 1 + ". " + el.label}
-              </span>
-            )}
-            <p style={aStyle} className="steps-value">
-              {(el.label ? "" : j + 1 + ". ") + el.text}
-            </p>
-          </li>
-        ))}
+        {itemList &&
+          itemList.map((el, j) => (
+            <li className="steps" key={j}>
+              {el.label && (
+                <span style={labelStyle} className="steps-label">
+                  {j + 1 + ". " + el.label}
+                </span>
+              )}
+              <p style={aStyle} className="steps-value">
+                {(el.label ? "" : j + 1 + ". ") + el.text}
+              </p>
+            </li>
+          ))}
       </ul>
     </div>
   );

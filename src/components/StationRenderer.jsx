@@ -10,9 +10,9 @@ export default function StationRenderer({ station }) {
           <AccessibilityButton />
         </div>
 
-      <div className="border">
-        <h1 className="title">National Electronics Museum</h1>
-      </div>
+        <div className="border">
+          <h1 className="title">National Electronics Museum</h1>
+        </div>
       </header>
       <main className="station-body">
         <SectionCardCarousel station={station} />

@@ -17,7 +17,7 @@ export default function TextContent({ componentObject }) {
 
   const label = componentObject.label;
   const text = componentObject.text;
-  const speechText = (label != null) ? label + " " + text : text;
+  const speechText = label != null ? label + " " + text : text;
 
   return (
     <div className="text-content">
@@ -25,7 +25,9 @@ export default function TextContent({ componentObject }) {
         {label}
         <SpeechPlaybackControls text={speechText} />
       </span>
-      <p style={aStyle} className="text-content-text">{text}</p>
+      <p style={aStyle} className="text-content-text">
+        {text}
+      </p>
     </div>
   );
 }

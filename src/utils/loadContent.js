@@ -8,8 +8,8 @@ const content = {};
 // Build a structure like:
 // content = { en: { demos: {...}, concepts: {...}, artifacts: {...}, slides: [...] }, es: ... }
 for (const path in modules) {
-  const parts = path.split("/"); 
-  const lang = parts[2];          // "en"
+  const parts = path.split("/");
+  const lang = parts[2]; // "en"
   const file = parts[3].replace(".json", ""); // "demos"
 
   if (!content[lang]) content[lang] = {};

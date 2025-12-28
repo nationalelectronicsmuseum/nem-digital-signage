@@ -1,7 +1,7 @@
 .audio-card {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .audio-title-and-speech {
@@ -12,12 +12,12 @@
 }
 
 .audio-card-title {
-    font-size: 30pt;
-    margin: 0;
+  font-size: 30pt;
+  margin: 0;
 }
 
 .audio-card-content {
-    font-size: 24pt;
+  font-size: 24pt;
 }
 
 /* Sound Audio Slides */

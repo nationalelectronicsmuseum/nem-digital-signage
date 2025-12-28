@@ -40,7 +40,8 @@ const isImage = (contentItem) => {
 };
 
 const objectImplementsAudioCard = (contentItem) => {
-  return ( (typeof contentItem !== "string") &&
+  return (
+    typeof contentItem !== "string" &&
     "title" in contentItem &&
     "performedBy" in contentItem &&
     "performedWhen" in contentItem &&
@@ -50,7 +51,8 @@ const objectImplementsAudioCard = (contentItem) => {
 };
 
 const objectImplementsSteps = (contentItem) => {
-  return ( (typeof contentItem !== "string") &&
+  return (
+    typeof contentItem !== "string" &&
     "list" in contentItem &&
     Array.isArray(contentItem.list) &&
     "text" in contentItem.list[0]
@@ -58,7 +60,8 @@ const objectImplementsSteps = (contentItem) => {
 };
 
 const objectImplementsFacts = (contentItem) => {
-  return ( (typeof contentItem !== "string") &&
+  return (
+    typeof contentItem !== "string" &&
     "facts" in contentItem &&
     Array.isArray(contentItem.facts) &&
     "value" in contentItem.facts[0]
@@ -87,7 +90,7 @@ export default function SlideContent({ data, className }) {
 
         if (Array.isArray(contentItem)) {
           if (fieldName === "facts") {
-            const newContentItem = {facts: contentItem}
+            const newContentItem = { facts: contentItem };
             return <Facts componentObject={newContentItem} key={i} />;
           } else if (fieldName === "faq") {
             return <FAQCardList componentObject={contentItem} key={i} />;
@@ -106,10 +109,10 @@ export default function SlideContent({ data, className }) {
               key={i}
             />
           );
-        } else if(objectImplementsAudioCard(contentItem)) {
+        } else if (objectImplementsAudioCard(contentItem)) {
           contentItem.performedByText = content.common.label.performedBy;
-          return <AudioCard componentObject={contentItem} key={i} />
-        } else if(objectImplementsFacts(contentItem)) {
+          return <AudioCard componentObject={contentItem} key={i} />;
+        } else if (objectImplementsFacts(contentItem)) {
           return <Facts componentObject={contentItem} key={i} />;
         }
 

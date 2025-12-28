@@ -1,14 +1,14 @@
 .content-video {
-    width: auto;
-    max-width: 30vw;
-    max-height: 75vh;
-    object-fit: contain;
-    display: flex;
-    justify-content: center;
+  width: auto;
+  max-width: 30vw;
+  max-height: 75vh;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
 }
 
 .video-wrapper {
-    flex: 1;
-    display: flex;
-    justify-content: center;
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }

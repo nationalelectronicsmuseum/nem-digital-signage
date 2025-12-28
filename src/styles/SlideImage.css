@@ -53,7 +53,6 @@
   color: black;
   font-weight: bold;
   font-size: 24pt;
-  
 }
 
 .image-overlay-close::before {
@@ -90,7 +89,7 @@
 
 .image-overlay-content-image {
   object-fit: contain;
-  
+
   width: calc(100% - 4rem);
   height: calc(100% - 4rem);
 }

@@ -16,17 +16,17 @@
   ],
   "fontSize": [
     {
-        "name": "Small",
-        "point": "24pt"
+      "name": "Small",
+      "point": "24pt"
     },
     {
-        "name": "Medium",
-        "point": "35pt",
-        "default": true
+      "name": "Medium",
+      "point": "35pt",
+      "default": true
     },
     {
-        "name": "Large",
-        "point": "45pt"
+      "name": "Large",
+      "point": "45pt"
     }
   ]
 }

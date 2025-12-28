@@ -12,7 +12,11 @@ export default function Router() {
         <Route key={station.id} path={station.id}>
           <Route index element={<StationRenderer station={station} />} />
           {station.sections.map((section) => (
-            <Route key={section.id} path={section.id} element={<SectionRenderer station={station} section={section} />} />
+            <Route
+              key={section.id}
+              path={section.id}
+              element={<SectionRenderer station={station} section={section} />}
+            />
           ))}
         </Route>
       ))}

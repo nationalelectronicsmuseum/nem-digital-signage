@@ -12,11 +12,11 @@ export default function StationNav({ station }) {
   let swiper = null;
 
   const resetSwiper = () => {
-    if(swiper) swiper.slideTo(0);
+    if (swiper) swiper.slideTo(0);
   };
 
   useEffect(() => {
-    swiper = document.querySelector('.swiper').swiper;
+    swiper = document.querySelector(".swiper").swiper;
   });
 
   return (
@@ -25,7 +25,11 @@ export default function StationNav({ station }) {
       {station.sections.map((sec) => {
         let title = resolvePath(content, "common.sectionCardTitle." + sec.id);
         return (
-          <Link key={sec.id} to={"/" + station.id + "/" + sec.id} onClick={resetSwiper}>
+          <Link
+            key={sec.id}
+            to={"/" + station.id + "/" + sec.id}
+            onClick={resetSwiper}
+          >
             {title}
           </Link>
         );

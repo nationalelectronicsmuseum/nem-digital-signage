@@ -6,21 +6,20 @@ body {
   font-family: var(--app-font);
 }
 
-
 .index-station-link {
-    list-style-type: none;
-    margin-bottom: 10px;
+  list-style-type: none;
+  margin-bottom: 10px;
 }
 
 .station-list-wrapper {
-    height: 80%;
-    overflow-y: auto;
-    display: flex;
+  height: 80%;
+  overflow-y: auto;
+  display: flex;
 }
 
 .station-list {
-    columns: 2;
-    padding: 0 1rem;
+  columns: 2;
+  padding: 0 1rem;
 }
 
 .station-list::-webkit-scrollbar-thumb {
@@ -29,13 +28,13 @@ body {
 }
 
 .station-button {
-    border-radius: 10px;
-    padding: 10px 50px;
-    margin-bottom: 10px;
-    font-size: x-large;
-    font-weight: bold;
-    background: linear-gradient(180deg, #5b0b0b 80%, #555555 100%);
-    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.6);;
-    color: #eeeeee;
-    min-width: 250px;
+  border-radius: 10px;
+  padding: 10px 50px;
+  margin-bottom: 10px;
+  font-size: x-large;
+  font-weight: bold;
+  background: linear-gradient(180deg, #5b0b0b 80%, #555555 100%);
+  box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.6);
+  color: #eeeeee;
+  min-width: 250px;
 }
