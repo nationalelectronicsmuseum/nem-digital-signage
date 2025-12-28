@@ -1,6 +1,6 @@
 import { useSettings } from "../context/SettingsContext.jsx";
 import SpeechPlaybackControls from "./speech/SpeechPlaybackControls.jsx";
-import SoundPlayer from "./SoundPlayer/SoundPlayer.jsx";
+import SoundPlayer from "./SoundPlayer.jsx";
 import "../styles/AudioCard.css";
 
 export default function AudioCard({ componentObject }) {

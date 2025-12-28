@@ -6,8 +6,8 @@ import Facts from "./Facts.jsx";
 import Steps from "./Steps.jsx";
 import TextContent from "./TextContent.jsx";
 import FAQCardList from "./FAQCardList.jsx";
-import Video from "./Video/Video.jsx";
-import SlideImage from "./slideImage/SlideImage.jsx";
+import Video from "./Video.jsx";
+import SlideImage from "./SlideImage.jsx";
 import AudioCard from "./AudioCard.jsx";
 
 const getFieldName = (str) => {

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { createPortal } from "react-dom";
-import "./SlideImage.css";
+import "../styles/SlideImage.css";
 
 const ImageOverlay = ({ onClose, image }) => {
   return createPortal(

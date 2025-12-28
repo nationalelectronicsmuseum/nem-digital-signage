@@ -1,4 +1,4 @@
-import "../../styles/Video.css";
+import "../styles/Video.css";
 
 const Video = ({ src, width, height }) => {
   let ext = "video/" + src.substr(src.lastIndexOf(".") + 1);
