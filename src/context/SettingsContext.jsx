@@ -21,9 +21,20 @@ const SettingsContext = createContext();
 export const useSettings = () => useContext(SettingsContext);
 
 export const isSpeechEnabled = () => {
-  const {settings, setSettings} = useSettings();
+  const { settings, setSettings } = useSettings();
   return settings.speechEnabled.value;
 };
+
+function resetLocalStorageAtMidnight() {
+  const today = new Date().toDateString();
+  const lastReset = localStorage.getItem("lastResetDate");
+
+  if (lastReset !== today) {
+    // Reset what you need
+    localStorage.clear();
+    localStorage.setItem("lastResetDate", today);
+  }
+}
 
 export const SettingsProvider = ({ children }) => {
   const [settings, setSettings] = useState(() => {
@@ -32,6 +43,7 @@ export const SettingsProvider = ({ children }) => {
   });
 
   useEffect(() => {
+    resetLocalStorageAtMidnight();
     localStorage.setItem("appSettings", JSON.stringify(settings));
   }, [settings]);
 
