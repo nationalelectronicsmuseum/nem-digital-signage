@@ -10,6 +10,7 @@ import AccessibilityButton from "./AccessibilityButton.jsx";
 import { loadContent } from "../utils/loadContent";
 import { useSettings } from "../context/SettingsContext.jsx";
 import { resolvePath } from "../utils/resolvePath.js";
+import GrantLogo from "/images/millerGrant.png?url";
 
 export default function SectionRenderer({ station, section }) {
   const { settings } = useSettings();
@@ -22,6 +23,7 @@ export default function SectionRenderer({ station, section }) {
       <header className="section-header">
         <div className="controls">
           <MenuButton station={station} section={section} />
+          <img className="section-grant-logo" src={GrantLogo}></img>
           <AccessibilityButton />
         </div>
         <h1 className="section-title">{title}</h1>

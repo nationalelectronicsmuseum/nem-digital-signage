@@ -35,3 +35,9 @@
 .slide-wrapper {
   height: inherit;
 }
+
+.section-grant-logo {
+  position: fixed;
+  left: 75px;
+  margin: 10px;
+}

@@ -20,3 +20,9 @@
 .title {
   margin-top: 100px;
 }
+
+.station-grant-logo {
+  position: fixed;
+  left: 0;
+  margin: 10px;
+}
