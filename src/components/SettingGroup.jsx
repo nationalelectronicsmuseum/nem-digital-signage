@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "../styles/SettingGroup.css";
 
 export const toggleOptions = {

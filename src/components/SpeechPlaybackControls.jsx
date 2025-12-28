@@ -2,11 +2,10 @@ import "../styles/SpeechPlaybackControls.css";
 import iconPlay from "/images/icon_play.svg?url";
 import iconStop from "/images/icon_stop.svg?url";
 import iconPause from "/images/icon_pause.svg?url";
-import { useSettings, isSpeechEnabled } from "../context/SettingsContext.jsx";
+import { isSpeechEnabled } from "../context/SettingsContext.jsx";
 import { useSpeechSynthesis } from "./SpeechSynthesis.jsx";
 
 function SpeechPlaybackControls({ text }) {
-  const { settings, setSettings } = useSettings();
   const { voices, status, toggle, stop } = useSpeechSynthesis();
 
   const playButtonLabel = {

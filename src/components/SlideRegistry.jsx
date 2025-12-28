@@ -4,15 +4,6 @@ const modules = import.meta.glob("../slides/*.{jsx,js,tsx,ts}", {
 
 const registry = {};
 
-// Debug:
-// if (typeof window !== 'undefined') {
-//   // browser console
-//   console.log('[slideRegistry] import.meta.glob keys:', Object.keys(modules));
-// } else {
-//   // node/ssr / terminal
-//   console.log('[slideRegistry] import.meta.glob keys:', Object.keys(modules));
-// }
-
 for (const path in modules) {
   const name = path
     .replace(/^\.\.\/slides\//, "")
