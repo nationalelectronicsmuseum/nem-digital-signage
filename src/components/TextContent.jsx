@@ -1,5 +1,5 @@
 import { useSettings } from "../context/SettingsContext.jsx";
-import SpeechPlaybackControls from "./speech/SpeechPlaybackControls.jsx";
+import SpeechPlaybackControls from "./SpeechPlaybackControls.jsx";
 import "../styles/TextContent.css";
 
 export default function TextContent({ componentObject }) {

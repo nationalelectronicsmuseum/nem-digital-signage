@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { useSettings } from "../../context/SettingsContext.jsx";
+import { useSettings } from "../context/SettingsContext.jsx";
 
 const WARM_SPEECH_INTERVAL_MILLIS = 30000;
 

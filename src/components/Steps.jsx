@@ -1,5 +1,5 @@
 import { useSettings } from "../context/SettingsContext.jsx";
-import SpeechPlaybackControls from "./speech/SpeechPlaybackControls.jsx";
+import SpeechPlaybackControls from "./SpeechPlaybackControls.jsx";
 import "../styles/Steps.css";
 
 export default function Steps({ componentObject }) {

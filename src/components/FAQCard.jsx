@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { createPortal } from "react-dom";
 import { useSettings } from "../context/SettingsContext.jsx";
-import SpeechPlaybackControls from "./speech/SpeechPlaybackControls.jsx";
+import SpeechPlaybackControls from "./SpeechPlaybackControls.jsx";
 import "../styles/FAQCard.css";
 
 const FAQOverlay = ({ onClose, componentObject }) => {
