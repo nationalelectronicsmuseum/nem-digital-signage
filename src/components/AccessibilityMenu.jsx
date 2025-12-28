@@ -10,8 +10,8 @@ export default function AccessibilityMenu({ menuRef }) {
   return (
     <div ref={menuRef} className="accessibility-menu-container">
       <h2 className="accessibility-menu-title">Accessibility Menu</h2>
-      
-      {process.env.NODE_ENV === 'development' && (
+
+      {process.env.NODE_ENV === "development" && (
         <div>{JSON.stringify(settings)}</div>
       )}
 
@@ -26,7 +26,15 @@ export default function AccessibilityMenu({ menuRef }) {
         label="Font Type"
         options={fontsJson.font}
         value={settings.font}
-        onChange={(v) => setSettings((p) => ({ ...p, font: v }))}
+        onChange={(v) =>
+          setSettings((p) => {
+            document.documentElement.style.setProperty(
+              "--app-font",
+              v.fontCode
+            );
+            return { ...p, font: v };
+          })
+        }
       />
 
       <SettingGroup

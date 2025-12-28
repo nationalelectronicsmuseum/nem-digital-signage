@@ -2,7 +2,7 @@
   "font": [
     {
       "name": "Arial",
-      "fontCode": "Arial, Helvetica, sans-serif",
+      "fontCode": "Inter, system-ui, Avenir, Helvetica, Arial, sans-serif",
       "default": true
     },
     {

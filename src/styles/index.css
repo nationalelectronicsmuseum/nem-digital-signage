@@ -1,3 +1,12 @@
+:root {
+  --app-font: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  font-family: var(--app-font);
+}
+
+
 .index-station-link {
     list-style-type: none;
     margin-bottom: 10px;
