@@ -29,7 +29,7 @@ const FAQOverlay = ({ onClose, componentObject }) => {
               {componentObject.imageCaption && (
                 <div>
                   <SpeechPlaybackControls
-                    speechText={componentObject.imageCaption}
+                    text={componentObject.imageCaption}
                   />
                   <p className="faqcard-overlay-content-caption" style={aStyle}>
                     {componentObject.imageCaption}
@@ -66,7 +66,7 @@ export default function FAQCard({ componentObject }) {
 
   return (
     <div>
-      <SpeechPlaybackControls speechText={speechText} />
+      <SpeechPlaybackControls text={speechText} />
       <button
         style={aStyle}
         className="faqcard-button"
