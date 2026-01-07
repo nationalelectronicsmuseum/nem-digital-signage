@@ -51,7 +51,7 @@
     "right": ["concept.TheFaradayProject.whatsGoingOn"]
   },
   "JumpingWire1": {
-    "left": ["concept.JumpingWire.description", "concept.JumpingWire.facts"],
+    "left": ["concept.JumpingWire.description"],
     "right": ["concept.JumpingWire.image1"]
   },
   "JumpingWire2": {
