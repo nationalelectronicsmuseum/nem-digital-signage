@@ -11,6 +11,7 @@ import { loadContent } from "../utils/loadContent";
 import { useSettings } from "../context/SettingsContext.jsx";
 import { resolvePath } from "../utils/resolvePath.js";
 import GrantLogo from "/images/millerGrant.png?url";
+import loop from "/audio/loop.wav?url";
 
 export default function SectionRenderer({ station, section }) {
   const { settings } = useSettings();
@@ -29,6 +30,7 @@ export default function SectionRenderer({ station, section }) {
         <h1 className="section-title">{title}</h1>
       </header>
       <main className="swiper-wrapper">
+        <audio autoPlay loop src={loop} type="audio/wav"></audio>
         <Swiper
           pagination={{
             type: "progressbar",
