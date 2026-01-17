@@ -1,0 +1,14 @@
+{
+  "electricity": {
+      "term": "Electricity",
+      "definition": "Definition of electricity"
+  },
+  "voltage": {
+      "term": "Voltage",
+      "definition": "Definition of voltage"
+  },
+  "current": {
+      "term": "Current",
+      "definition": "Definition of current"
+  }
+}
