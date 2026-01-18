@@ -1,0 +1,154 @@
+{
+  "voltage": {
+    "term": "电压",
+    "definition": "将电荷推过电路的电力，类似于将水推过管道的压力。"
+  },
+  "current": {
+    "term": "当前的",
+    "definition": "电荷通过电线或电路的流动。"
+  },
+  "electric charge": {
+    "term": "电荷",
+    "definition": "物质的一种属性，使其在电场中受到正力或负力的作用。"
+  },
+  "circuit": {
+    "term": "电路",
+    "definition": "允许电流流动的完整路径。"
+  },
+  "circuits": {
+    "term": "电路",
+    "definition": "允许电流流动的完整路径。"
+  },
+  "ammeter": {
+    "term": "电表",
+    "definition": "用于测量电流的装置。"
+  },
+  "voltmeter": {
+    "term": "电压表",
+    "definition": "用于测量电压的装置。"
+  },
+  "electrons": {
+    "term": "电子",
+    "definition": "带负电的微小粒子穿过材料产生电力。"
+  },
+  "conductor": {
+    "term": "导体",
+    "definition": "一种允许电流轻松流过的材料。"
+  },
+  "electrolytes": {
+    "term": "电解质",
+    "definition": "由于含有带电粒子而导电的液体或物质。"
+  },
+  "potential difference": {
+    "term": "潜在差异",
+    "definition": "电压的别称；两点之间的电能差。"
+  },
+  "magnetic field": {
+    "term": "磁场",
+    "definition": "磁铁或电流周围的不可见区域，磁力在此区域起作用。"
+  },
+  "electromagnetism": {
+    "term": "电磁学",
+    "definition": "电和磁之间的关系，电流产生磁场。"
+  },
+  "electromagnetic induction": {
+    "term": "电磁感应",
+    "definition": "通过改变电线附近的磁场来产生电流的过程。"
+  },
+  "coil": {
+    "term": "线圈",
+    "definition": "缠绕成环状的电线，可增强磁效应和电效应。"
+  },
+  "generator": {
+    "term": "发电机",
+    "definition": "将运动转化为电能的机器。"
+  },
+  "alternator": {
+    "term": "交流发电机",
+    "definition": "一种产生交流电 (AC) 的发电机。"
+  },
+  "alternating current": {
+    "term": "交流电 (AC)",
+    "definition": "定期改变方向的电流，如家庭用电。"
+  },
+  "direct current": {
+    "term": "直流电 (DC)",
+    "definition": "仅沿一个方向流动的电流，如电池产生的电力。"
+  },
+  "capacitor": {
+    "term": "电容器",
+    "definition": "短时间储存电能的组件。"
+  },
+  "rectifier": {
+    "term": "整流器",
+    "definition": "将交流电（AC）转换为直流电（DC）的装置。"
+  },
+  "frequency": {
+    "term": "频率",
+    "definition": "电信号或电波每秒重复的频率，以赫兹 (Hz) 为单位。"
+  },
+  "static electricity": {
+    "term": "静电",
+    "definition": "物体上积聚的电荷，在放电之前不会流动。"
+  },
+  "discharge": {
+    "term": "释放",
+    "definition": "突然释放储存的电能。"
+  },
+  "ionization": {
+    "term": "电离",
+    "definition": "原子获得或失去电子的过程，使电流能够在空气中流动。"
+  },
+  "arc": {
+    "term": "电弧",
+    "definition": "明亮的放电在两个导体之间的空气中传播。"
+  },
+  "antenna": {
+    "term": "天线",
+    "definition": "发送或接收电磁波的设备。"
+  },
+  "electromagnetic waves": {
+    "term": "电磁波",
+    "definition": "以光速穿过空间的能量波，包括无线电波和光。"
+  },
+  "radio waves": {
+    "term": "无线电波",
+    "definition": "一种用于无线传输信息的电磁波。"
+  },
+  "bandwidth": {
+    "term": "带宽",
+    "definition": "可以通过信号传输的信息量。"
+  },
+  "polarization": {
+    "term": "极化",
+    "definition": "电磁波振动的方向。"
+  },
+  "microwaves": {
+    "term": "微波炉",
+    "definition": "用于烹饪、通信和雷达的电磁波。"
+  },
+  "electromagnetic spectrum": {
+    "term": "电磁波谱",
+    "definition": "从无线电波到伽马射线的全范围电磁波。"
+  },
+  "infrared": {
+    "term": "红外线的",
+    "definition": "与热相关的电磁波用于夜视和远程控制。"
+  },
+  "ultraviolet": {
+    "term": "紫外线",
+    "definition": "高能电磁波可以对表面进行消毒，但也会伤害皮肤。"
+  },
+  "x-rays": {
+    "term": "X射线",
+    "definition": "高能电磁波用于观察物体内部，例如医学成像。"
+  },
+  "gamma rays": {
+    "term": "伽马射线",
+    "definition": "由放射性物质和宇宙事件产生的最高能量的电磁波。"
+  },
+  "capacitance": {
+    "term": "电容",
+    "definition": "系统存储电荷的能力。"
+  }
+}
