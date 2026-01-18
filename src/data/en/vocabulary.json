@@ -1,14 +1,154 @@
 {
-  "electricity": {
-      "term": "Electricity",
-      "definition": "Definition of electricity"
-  },
   "voltage": {
-      "term": "Voltage",
-      "definition": "Definition of voltage"
+    "term": "Voltage",
+    "definition": "The electrical force that pushes electric charges through a circuit, similar to pressure pushing water through a pipe."
   },
   "current": {
-      "term": "Current",
-      "definition": "Definition of current"
+    "term": "Current",
+    "definition": "The flow of electric charge through a wire or circuit."
+  },
+  "electric charge": {
+    "term": "Electric Charge",
+    "definition": "A property of matter that causes it to experience a force in an electric field, either positive or negative."
+  },
+  "circuit": {
+    "term": "Circuit",
+    "definition": "A complete path that allows electric current to flow."
+  },
+  "circuits": {
+    "term": "Circuit",
+    "definition": "A complete path that allows electric current to flow."
+  },
+  "ammeter": {
+    "term": "Ammeter",
+    "definition": "A device used to measure electric current."
+  },
+  "voltmeter": {
+    "term": "Voltmeter",
+    "definition": "A device used to measure electrical voltage."
+  },
+  "electrons": {
+    "term": "Electrons",
+    "definition": "Tiny negatively charged particles that move through materials to create electricity."
+  },
+  "conductor": {
+    "term": "Conductor",
+    "definition": "A material that allows electric current to flow easily through it."
+  },
+  "electrolytes": {
+    "term": "Electrolytes",
+    "definition": "Liquids or substances that conduct electricity because they contain charged particles."
+  },
+  "potential difference": {
+    "term": "Potential Difference",
+    "definition": "Another name for voltage; the difference in electrical energy between two points."
+  },
+  "magnetic field": {
+    "term": "Magnetic Field",
+    "definition": "An invisible area around a magnet or electric current where magnetic forces act."
+  },
+  "electromagnetism": {
+    "term": "Electromagnetism",
+    "definition": "The relationship between electricity and magnetism, where electric currents create magnetic fields."
+  },
+  "electromagnetic induction": {
+    "term": "Electromagnetic Induction",
+    "definition": "The process of generating electric current by changing a magnetic field near a wire."
+  },
+  "coil": {
+    "term": "Coil",
+    "definition": "A wire wound in loops that strengthens magnetic and electrical effects."
+  },
+  "generator": {
+    "term": "Generator",
+    "definition": "A machine that converts motion into electrical energy."
+  },
+  "alternator": {
+    "term": "Alternator",
+    "definition": "A type of generator that produces alternating current (AC)."
+  },
+  "alternating current": {
+    "term": "Alternating Current (AC)",
+    "definition": "Electric current that regularly changes direction, like the electricity used in homes."
+  },
+  "direct current": {
+    "term": "Direct Current (DC)",
+    "definition": "Electric current that flows in one direction only, like electricity from a battery."
+  },
+  "capacitor": {
+    "term": "Capacitor",
+    "definition": "A component that stores electrical energy for a short time."
+  },
+  "rectifier": {
+    "term": "Rectifier",
+    "definition": "A device that converts alternating current (AC) into direct current (DC)."
+  },
+  "frequency": {
+    "term": "Frequency",
+    "definition": "How often an electric signal or wave repeats each second, measured in hertz (Hz)."
+  },
+  "static electricity": {
+    "term": "Static Electricity",
+    "definition": "Electric charge that builds up on an object and does not flow until discharged."
+  },
+  "discharge": {
+    "term": "Discharge",
+    "definition": "The sudden release of stored electric energy."
+  },
+  "ionization": {
+    "term": "Ionization",
+    "definition": "The process where atoms gain or lose electrons, allowing electricity to flow through air."
+  },
+  "arc": {
+    "term": "Electrical Arc",
+    "definition": "A bright electrical discharge traveling through air between two conductors."
+  },
+  "antenna": {
+    "term": "Antenna",
+    "definition": "A device that sends or receives electromagnetic waves."
+  },
+  "electromagnetic waves": {
+    "term": "Electromagnetic Waves",
+    "definition": "Waves of energy that travel through space at the speed of light, including radio waves and light."
+  },
+  "radio waves": {
+    "term": "Radio Waves",
+    "definition": "A type of electromagnetic wave used to transmit information wirelessly."
+  },
+  "bandwidth": {
+    "term": "Bandwidth",
+    "definition": "The amount of information that can be transmitted over a signal."
+  },
+  "polarization": {
+    "term": "Polarization",
+    "definition": "The direction in which an electromagnetic wave vibrates."
+  },
+  "microwaves": {
+    "term": "Microwaves",
+    "definition": "Electromagnetic waves used for cooking, communication, and radar."
+  },
+  "electromagnetic spectrum": {
+    "term": "Electromagnetic Spectrum",
+    "definition": "The full range of electromagnetic waves, from radio waves to gamma rays."
+  },
+  "infrared": {
+    "term": "Infrared",
+    "definition": "Electromagnetic waves associated with heat and used in night vision and remote controls."
+  },
+  "ultraviolet": {
+    "term": "Ultraviolet",
+    "definition": "High-energy electromagnetic waves that can sterilize surfaces but also harm skin."
+  },
+  "x-rays": {
+    "term": "X-Rays",
+    "definition": "High-energy electromagnetic waves used to see inside objects, such as in medical imaging."
+  },
+  "gamma rays": {
+    "term": "Gamma Rays",
+    "definition": "The most energetic electromagnetic waves, produced by radioactive materials and cosmic events."
+  },
+  "capacitance": {
+    "term": "Capacitance",
+    "definition": "The ability of a system to store electric charge."
   }
 }

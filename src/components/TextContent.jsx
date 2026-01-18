@@ -6,16 +6,86 @@ import { loadContent } from "../utils/loadContent";
 import { resolvePath } from "../utils/resolvePath.js";
 import "../styles/TextContent.css";
 
+function parseVocabularyText(text, vocabEntries, onClick) {
+  const matches = [];
+
+  vocabEntries.forEach(entry => {
+    let match;
+    while ((match = entry.regex.exec(text)) !== null) {
+      matches.push({
+        start: match.index,
+        end: match.index + match[0].length,
+        entry,
+        text: match[0]
+      });
+    }
+  });
+
+  // Sort by start index, then longest first
+  matches.sort((a, b) =>
+    a.start === b.start ? b.end - a.end : a.start - b.start
+  );
+
+  // Remove overlaps
+  const filtered = [];
+  let lastEnd = -1;
+  for (const m of matches) {
+    if (m.start >= lastEnd) {
+      filtered.push(m);
+      lastEnd = m.end;
+    }
+  }
+
+  // Build React output
+  const result = [];
+  let cursor = 0;
+
+  filtered.forEach((m, i) => {
+    if (cursor < m.start) {
+      result.push(text.slice(cursor, m.start));
+    }
+
+    result.push(
+      <span
+        key={`vocab-${i}`}
+        className="vocabulary-word"
+        onClick={() => onClick(m.entry)}
+      >
+        {m.text}
+      </span>
+    );
+
+    cursor = m.end;
+  });
+
+  if (cursor < text.length) {
+    result.push(text.slice(cursor));
+  }
+
+  return result;
+}
+
+
+
 export default function TextContent({ componentObject }) {
   const { settings } = useSettings();
   const languageCode = settings.language.languageCode;
   const content = loadContent(languageCode);
-  let vocabulary = resolvePath(content, "vocabulary");
+  const vocabulary = resolvePath(content, "vocabulary");
   const [activeWord, setActiveWord] = useState(null);
   const aStyle = {
     fontSize: settings.fontSize.point,
     fontCode: settings.font.fontCode,
   };
+
+const vocabEntries = Object.entries(vocabulary)
+  .map(([key, value]) => ({
+    key,
+    regex: new RegExp(`\\b${key.replace(/\s+/g, "\\s+")}\\b`, "gi"),
+    ...value
+  }))
+  .sort((a, b) => b.key.length - a.key.length);
+
 
   const labelFontSize = parseFloat(settings.fontSize.point) + 2 + "pt";
   const labelStyle = {
@@ -27,8 +97,6 @@ export default function TextContent({ componentObject }) {
   const text = componentObject.text;
   const speechText = label != null ? label + " " + text : text;
 
-  const tokens = text.split(/\b/);
-
   return (
     <div className="text-content">
       <span style={labelStyle} className="text-content-label">
@@ -36,22 +104,7 @@ export default function TextContent({ componentObject }) {
         <SpeechPlaybackControls text={speechText} />
       </span>
       <p style={aStyle} className="text-content-text">
-        {tokens.map((token, i) => {
-        const key = token.toLowerCase();
-
-        if (vocabulary[key]) {
-          return (
-            <span
-              key={i}
-              className="vocabulary-word"
-              onClick={() => setActiveWord(vocabulary[key])}
-            >
-              {token}
-            </span>
-          );
-        }
-        return token;
-      })}
+      {parseVocabularyText(text, vocabEntries, setActiveWord)}
 
       {activeWord && (
         <VocabularyOverlay
