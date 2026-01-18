@@ -15,7 +15,7 @@ function SpeechPlaybackControls({ text }) {
   }[status];
 
   return (
-    <div>
+    <div class="speech-playback-controls">
       <div className="speechPlayer">
         <div className={isSpeechEnabled() ? "present" : "hidden"}>
           <button onClick={() => toggle(text)} className="speech">
