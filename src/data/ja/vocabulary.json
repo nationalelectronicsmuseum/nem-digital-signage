@@ -1,153 +1,149 @@
 {
-  "voltage": {
+  "電圧": {
     "term": "電圧",
     "definition": "水をパイプ内に押し出す圧力と同様に、回路内に電荷を押し込む電気的な力。"
   },
-  "current": {
+  "現在": {
     "term": "現在",
     "definition": "ワイヤまたは回路を通る電荷の流れ。"
   },
-  "electric charge": {
+  "電荷": {
     "term": "電荷",
     "definition": "電場内で正または負の力を受ける物質の性質。"
   },
-  "circuit": {
+  "回路": {
     "term": "回路",
     "definition": "電流が流れる完全な経路。"
   },
-  "circuits": {
-    "term": "回路",
-    "definition": "電流が流れる完全な経路。"
-  },
-  "ammeter": {
+  "電流計": {
     "term": "電流計",
     "definition": "電流を測定するために使用される装置。"
   },
-  "voltmeter": {
+  "電圧計": {
     "term": "電圧計",
     "definition": "電圧を測定するために使用される装置。"
   },
-  "electrons": {
+  "電子": {
     "term": "電子",
     "definition": "負に帯電した小さな粒子が材料中を移動して電気を生成します。"
   },
-  "conductor": {
+  "導体": {
     "term": "導体",
     "definition": "電流を流しやすい材質です。"
   },
-  "electrolytes": {
+  "電解質": {
     "term": "電解質",
     "definition": "荷電粒子を含んでいるために電気を通す液体または物質。"
   },
-  "potential difference": {
+  "電位差": {
     "term": "電位差",
     "definition": "電圧の別名。 2 点間の電気エネルギーの差。"
   },
-  "magnetic field": {
+  "磁場": {
     "term": "磁場",
     "definition": "磁石や電流の周りに磁力が作用する目に見えない領域。"
   },
-  "electromagnetism": {
+  "電磁気": {
     "term": "電磁気",
     "definition": "電流が磁場を作り出す電気と磁気の関係。"
   },
-  "electromagnetic induction": {
+  "電磁誘導": {
     "term": "電磁誘導",
     "definition": "ワイヤの近くの磁場を変化させることによって電流を生成するプロセス。"
   },
-  "coil": {
+  "コイル": {
     "term": "コイル",
     "definition": "磁気効果と電気効果を強化するループ状に巻いたワイヤー。"
   },
-  "generator": {
+  "ジェネレータ": {
     "term": "ジェネレータ",
     "definition": "動きを電気エネルギーに変換する機械。"
   },
-  "alternator": {
+  "オルタネータ": {
     "term": "オルタネーター",
     "definition": "交流 (AC) を生成する発電機の一種。"
   },
-  "alternating current": {
+  "交流": {
     "term": "交流 (AC)",
     "definition": "家庭で使用されている電気のように、方向が定期的に変化する電流。"
   },
-  "direct current": {
+  "直流": {
     "term": "直流(DC)",
     "definition": "バッテリーからの電気のように、一方向にのみ流れる電流。"
   },
-  "capacitor": {
+  "コンデンサ": {
     "term": "コンデンサ",
     "definition": "電気エネルギーを短期間蓄える部品。"
   },
-  "rectifier": {
+  "整流器": {
     "term": "整流器",
     "definition": "交流 (AC) を直流 (DC) に変換する装置。"
   },
-  "frequency": {
+  "頻度": {
     "term": "頻度",
     "definition": "電気信号または電気波が 1 秒ごとに繰り返される頻度 (ヘルツ (Hz) 単位)。"
   },
-  "static electricity": {
+  "静電気": {
     "term": "静電気",
     "definition": "物体に蓄積され、放電するまで流れない電荷。"
   },
-  "discharge": {
+  "放電": {
     "term": "放電",
     "definition": "蓄えられた電気エネルギーが突然放出されること。"
   },
-  "ionization": {
+  "イオン化": {
     "term": "イオン化",
     "definition": "原子が電子を獲得または喪失し、空気中に電気が流れるようにするプロセス。"
   },
-  "arc": {
+  "アーク": {
     "term": "電気アーク",
     "definition": "2 つの導体間の空気中を伝わる明るい放電。"
   },
-  "antenna": {
+  "アンテナ": {
     "term": "アンテナ",
     "definition": "電磁波を送信または受信する装置。"
   },
-  "electromagnetic waves": {
+  "電磁波": {
     "term": "電磁波",
     "definition": "電波や光など、光の速度で空間を伝わるエネルギーの波。"
   },
-  "radio waves": {
+  "電波": {
     "term": "電波",
     "definition": "情報を無線で送信するために使用される電磁波の一種。"
   },
-  "bandwidth": {
+  "帯域幅": {
     "term": "帯域幅",
     "definition": "信号を通じて送信できる情報の量。"
   },
-  "polarization": {
+  "分極化": {
     "term": "分極",
     "definition": "電磁波が振動する方向。"
   },
-  "microwaves": {
+  "電子レンジ": {
     "term": "電子レンジ",
     "definition": "調理や通信、レーダーなどに使われる電磁波。"
   },
-  "electromagnetic spectrum": {
+  "電磁スペクトル": {
     "term": "電磁スペクトル",
     "definition": "電波からガンマ線までのあらゆる電磁波。"
   },
-  "infrared": {
+  "赤外線": {
     "term": "赤外線",
     "definition": "熱を伴う電磁波で、ナイトビジョンやリモコンに使用されます。"
   },
-  "ultraviolet": {
+  "紫外線": {
     "term": "紫外線",
     "definition": "高エネルギーの電磁波は表面を殺菌しますが、皮膚にも害を与えます。"
   },
-  "x-rays": {
+  "X線": {
     "term": "X線",
     "definition": "医療画像処理などで物体の内部を観察するために使用される高エネルギーの電磁波。"
   },
-  "gamma rays": {
+  "ガンマ線": {
     "term": "ガンマ線",
     "definition": "放射性物質や宇宙現象によって生成される、最もエネルギーの高い電磁波。"
   },
-  "capacitance": {
+  "キャパシタンス": {
     "term": "キャパシタンス",
     "definition": "電荷を蓄積するシステムの能力。"
   }

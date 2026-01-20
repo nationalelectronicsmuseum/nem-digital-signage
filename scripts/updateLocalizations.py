@@ -18,6 +18,8 @@ CACHE_FILE = DATA_DIR / ".translation_cache.json"
 BATCH_SIZE = 20
 BATCH_DELAY = 0.2
 
+VOCAB_FILE_NAME = "vocabulary.json"
+
 FILE_EXTENSION_REGEX = re.compile(r"\.[a-zA-Z0-9]{2,5}$")
 
 
@@ -48,11 +50,15 @@ def is_translatable_string(value: Any) -> bool:
 
 def collect_strings(data: Any, collected: Set[str]):
     if isinstance(data, dict):
-        for v in data.values():
+        for k, v in data.items():
+            if is_translatable_string(k):
+                collected.add(k)
             collect_strings(v, collected)
+
     elif isinstance(data, list):
         for item in data:
             collect_strings(item, collected)
+
     elif is_translatable_string(data):
         collected.add(data)
 
@@ -103,10 +109,10 @@ async def populate_cache_for_language(
     ]
 
     translator = Translator()
-
-    tasks = []
-    for batch in batches:
-        tasks.append(translate_batch(batch, target_lang, translator))
+    tasks = [
+        translate_batch(batch, target_lang, translator)
+        for batch in batches
+    ]
 
     for coro in tqdm_asyncio.as_completed(
         tasks,
@@ -119,6 +125,9 @@ async def populate_cache_for_language(
         await asyncio.sleep(BATCH_DELAY)
 
 
+# -------------------------------------------------
+# Translation strategies
+# -------------------------------------------------
 def translate_structure(
     data: Any,
     target_lang: str,
@@ -142,6 +151,35 @@ def translate_structure(
     return data
 
 
+def translate_vocabulary_structure(
+    data: Dict[str, Any],
+    target_lang: str,
+    cache: Dict[str, Dict[str, str]]
+) -> Dict[str, Any]:
+    translated = {}
+
+    for key, value in data.items():
+        new_key = (
+            cache[target_lang].get(key, key)
+            if is_translatable_string(key)
+            else key
+        )
+
+        if isinstance(value, dict):
+            translated[new_key] = {
+                k: (
+                    cache[target_lang].get(v, v)
+                    if is_translatable_string(v)
+                    else v
+                )
+                for k, v in value.items()
+            }
+        else:
+            translated[new_key] = value
+
+    return translated
+
+
 # -------------------------------------------------
 # File discovery
 # -------------------------------------------------
@@ -150,7 +188,7 @@ def get_all_english_json_files() -> List[Path]:
 
 
 # -------------------------------------------------
-# Main (async)
+# Main
 # -------------------------------------------------
 async def main():
     languages_data = load_json(DATA_DIR / "languages.json")
@@ -173,11 +211,20 @@ async def main():
             relative_path = en_file.relative_to(EN_DIR)
             target_file = DATA_DIR / lang / relative_path
 
-            translated = translate_structure(
-                load_json(en_file),
-                lang,
-                cache
-            )
+            source_data = load_json(en_file)
+
+            if en_file.name == VOCAB_FILE_NAME:
+                translated = translate_vocabulary_structure(
+                    source_data,
+                    lang,
+                    cache
+                )
+            else:
+                translated = translate_structure(
+                    source_data,
+                    lang,
+                    cache
+                )
 
             save_json(target_file, translated)
 

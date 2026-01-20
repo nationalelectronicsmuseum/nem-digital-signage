@@ -1,13 +1,13 @@
 {
-  "voltage": {
+  "tension": {
     "term": "Tension",
     "definition": "La force électrique qui pousse les charges électriques à travers un circuit, semblable à la pression poussant l’eau à travers un tuyau."
   },
-  "current": {
+  "actuel": {
     "term": "Actuel",
     "definition": "Le flux de charge électrique à travers un fil ou un circuit."
   },
-  "electric charge": {
+  "charge électrique": {
     "term": "Charge électrique",
     "definition": "Propriété de la matière qui lui fait subir une force dans un champ électrique, positive ou négative."
   },
@@ -19,83 +19,83 @@
     "term": "Circuit",
     "definition": "Un chemin complet qui permet au courant électrique de circuler."
   },
-  "ammeter": {
+  "ampèremètre": {
     "term": "Ampèremètre",
     "definition": "Un appareil utilisé pour mesurer le courant électrique."
   },
-  "voltmeter": {
+  "voltmètre": {
     "term": "Voltmètre",
     "definition": "Un appareil utilisé pour mesurer la tension électrique."
   },
-  "electrons": {
+  "électrons": {
     "term": "Électrons",
     "definition": "De minuscules particules chargées négativement qui se déplacent à travers les matériaux pour créer de l'électricité."
   },
-  "conductor": {
+  "conducteur": {
     "term": "Conducteur",
     "definition": "Un matériau qui permet au courant électrique de circuler facilement à travers lui."
   },
-  "electrolytes": {
+  "électrolytes": {
     "term": "Électrolytes",
     "definition": "Liquides ou substances qui conduisent l'électricité car ils contiennent des particules chargées."
   },
-  "potential difference": {
+  "différence de potentiel": {
     "term": "Différence potentielle",
     "definition": "Un autre nom pour la tension ; la différence d'énergie électrique entre deux points."
   },
-  "magnetic field": {
+  "champ magnétique": {
     "term": "Champ magnétique",
     "definition": "Zone invisible autour d’un aimant ou d’un courant électrique où agissent les forces magnétiques."
   },
-  "electromagnetism": {
+  "électromagnétisme": {
     "term": "Électromagnétisme",
     "definition": "La relation entre l'électricité et le magnétisme, où les courants électriques créent des champs magnétiques."
   },
-  "electromagnetic induction": {
+  "induction électromagnétique": {
     "term": "Induction électromagnétique",
     "definition": "Processus de génération de courant électrique en modifiant un champ magnétique à proximité d'un fil."
   },
-  "coil": {
+  "bobine": {
     "term": "Bobine",
     "definition": "Un fil enroulé en boucles qui renforce les effets magnétiques et électriques."
   },
-  "generator": {
+  "générateur": {
     "term": "Générateur",
     "definition": "Une machine qui convertit le mouvement en énergie électrique."
   },
-  "alternator": {
+  "alternateur": {
     "term": "Alternateur",
     "definition": "Type de générateur qui produit du courant alternatif (AC)."
   },
-  "alternating current": {
+  "courant alternatif": {
     "term": "Courant alternatif (AC)",
     "definition": "Courant électrique qui change régulièrement de direction, comme l’électricité utilisée dans les maisons."
   },
-  "direct current": {
+  "courant continu": {
     "term": "Courant continu (DC)",
     "definition": "Courant électrique qui circule dans une seule direction, comme l’électricité d’une batterie."
   },
-  "capacitor": {
+  "condensateur": {
     "term": "Condensateur",
     "definition": "Composant qui stocke l'énergie électrique pendant une courte période."
   },
-  "rectifier": {
+  "redresseur": {
     "term": "Redresseur",
     "definition": "Un appareil qui convertit le courant alternatif (AC) en courant continu (DC)."
   },
-  "frequency": {
+  "fréquence": {
     "term": "Fréquence",
     "definition": "Fréquence à laquelle un signal ou une onde électrique se répète chaque seconde, mesurée en hertz (Hz)."
   },
-  "static electricity": {
+  "électricité statique": {
     "term": "Électricité statique",
     "definition": "Charge électrique qui s'accumule sur un objet et ne circule pas tant qu'elle n'est pas déchargée."
   },
-  "discharge": {
+  "décharge": {
     "term": "Décharge",
     "definition": "La libération soudaine de l’énergie électrique stockée."
   },
-  "ionization": {
+  "ionisation": {
     "term": "Ionisation",
     "definition": "Processus par lequel les atomes gagnent ou perdent des électrons, permettant à l’électricité de circuler dans l’air."
   },
@@ -103,47 +103,47 @@
     "term": "Arc électrique",
     "definition": "Une décharge électrique brillante se propageant dans l’air entre deux conducteurs."
   },
-  "antenna": {
+  "antenne": {
     "term": "Antenne",
     "definition": "Un appareil qui envoie ou reçoit des ondes électromagnétiques."
   },
-  "electromagnetic waves": {
+  "ondes électromagnétiques": {
     "term": "Ondes électromagnétiques",
     "definition": "Vagues d'énergie qui voyagent dans l'espace à la vitesse de la lumière, notamment les ondes radio et la lumière."
   },
-  "radio waves": {
+  "ondes radio": {
     "term": "Ondes Radio",
     "definition": "Type d'onde électromagnétique utilisée pour transmettre des informations sans fil."
   },
-  "bandwidth": {
+  "bande passante": {
     "term": "Bande passante",
     "definition": "La quantité d'informations qui peuvent être transmises via un signal."
   },
-  "polarization": {
+  "polarisation": {
     "term": "Polarisation",
     "definition": "La direction dans laquelle vibre une onde électromagnétique."
   },
-  "microwaves": {
+  "micro-ondes": {
     "term": "Micro-ondes",
     "definition": "Ondes électromagnétiques utilisées pour la cuisine, la communication et les radars."
   },
-  "electromagnetic spectrum": {
+  "spectre électromagnétique": {
     "term": "Spectre électromagnétique",
     "definition": "La gamme complète des ondes électromagnétiques, des ondes radio jusqu'aux rayons gamma."
   },
-  "infrared": {
+  "infrarouge": {
     "term": "Infrarouge",
     "definition": "Ondes électromagnétiques associées à la chaleur et utilisées dans la vision nocturne et les télécommandes."
   },
-  "ultraviolet": {
+  "ultra-violet": {
     "term": "Ultra-violet",
     "definition": "Ondes électromagnétiques à haute énergie qui peuvent stériliser les surfaces mais également endommager la peau."
   },
-  "x-rays": {
+  "radiographies": {
     "term": "Rayons X",
     "definition": "Ondes électromagnétiques à haute énergie utilisées pour voir l’intérieur des objets, comme en imagerie médicale."
   },
-  "gamma rays": {
+  "rayons gamma": {
     "term": "Rayons gamma",
     "definition": "Les ondes électromagnétiques les plus énergétiques, produites par des matières radioactives et des événements cosmiques."
   },
