@@ -1,24 +1,24 @@
 import json
 import re
-import time
+import asyncio
 from pathlib import Path
-from typing import Any, Dict, Set
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from typing import Any, Dict, Set, List
 
 from googletrans import Translator
-from tqdm import tqdm
+from tqdm.asyncio import tqdm_asyncio
 
 
 # -------------------------------------------------
 # Configuration
 # -------------------------------------------------
-DATA_DIR = Path("./src/data")
+DATA_DIR = Path("./data")
 EN_DIR = DATA_DIR / "en"
-CACHE_FILE = Path("./translation_cache.json")
+CACHE_FILE = DATA_DIR / ".translation_cache.json"
 
-MAX_WORKERS = 2          # legacy-cgi safe
 BATCH_SIZE = 20
-BATCH_DELAY = 0.2        # throttling safety
+BATCH_DELAY = 0.2
+
+VOCAB_FILE_NAME = "vocabulary.json"
 
 FILE_EXTENSION_REGEX = re.compile(r"\.[a-zA-Z0-9]{2,5}$")
 
@@ -50,23 +50,26 @@ def is_translatable_string(value: Any) -> bool:
 
 def collect_strings(data: Any, collected: Set[str]):
     if isinstance(data, dict):
-        for v in data.values():
+        for k, v in data.items():
+            if is_translatable_string(k):
+                collected.add(k)
             collect_strings(v, collected)
+
     elif isinstance(data, list):
         for item in data:
             collect_strings(item, collected)
+
     elif is_translatable_string(data):
         collected.add(data)
 
 
-def translate_batch(texts: list[str], target_lang: str) -> Dict[str, str]:
-    """
-    Translator must be instantiated per call.
-    Handles googletrans returning None or partial results.
-    """
+async def translate_batch(
+    texts: List[str],
+    target_lang: str,
+    translator: Translator
+) -> Dict[str, str]:
     try:
-        translator = Translator()
-        results = translator.translate(texts, src="en", dest=target_lang)
+        results = await translator.translate(texts, src="en", dest=target_lang)
 
         if results is None:
             return {}
@@ -85,17 +88,8 @@ def translate_batch(texts: list[str], target_lang: str) -> Dict[str, str]:
         return {}
 
 
-def translate_single(text: str, target_lang: str) -> str | None:
-    try:
-        translator = Translator()
-        result = translator.translate(text, src="en", dest=target_lang)
-        return result.text if result and result.text else None
-    except Exception:
-        return None
-
-
-def populate_cache_for_language(
-    english_files: list[Path],
+async def populate_cache_for_language(
+    english_files: List[Path],
     target_lang: str,
     cache: Dict[str, Dict[str, str]]
 ):
@@ -114,33 +108,26 @@ def populate_cache_for_language(
         for i in range(0, len(to_translate), BATCH_SIZE)
     ]
 
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        futures = {
-            executor.submit(translate_batch, batch, target_lang): batch
-            for batch in batches
-        }
+    translator = Translator()
+    tasks = [
+        translate_batch(batch, target_lang, translator)
+        for batch in batches
+    ]
 
-        for future in tqdm(
-            as_completed(futures),
-            total=len(futures),
-            desc=f"Translating [{target_lang}]",
-            unit="batch"
-        ):
-            batch = futures[future]
-            result = future.result()
-
-            if result:
-                lang_cache.update(result)
-            else:
-                # Fallback: retry strings individually
-                for text in batch:
-                    translated = translate_single(text, target_lang)
-                    if translated:
-                        lang_cache[text] = translated
-
-            time.sleep(BATCH_DELAY)
+    for coro in tqdm_asyncio.as_completed(
+        tasks,
+        total=len(tasks),
+        desc=f"Translating [{target_lang}]",
+        unit="batch"
+    ):
+        result = await coro
+        lang_cache.update(result)
+        await asyncio.sleep(BATCH_DELAY)
 
 
+# -------------------------------------------------
+# Translation strategies
+# -------------------------------------------------
 def translate_structure(
     data: Any,
     target_lang: str,
@@ -164,17 +151,46 @@ def translate_structure(
     return data
 
 
+def translate_vocabulary_structure(
+    data: Dict[str, Any],
+    target_lang: str,
+    cache: Dict[str, Dict[str, str]]
+) -> Dict[str, Any]:
+    translated = {}
+
+    for key, value in data.items():
+        new_key = (
+            cache[target_lang].get(key, key)
+            if is_translatable_string(key)
+            else key
+        )
+
+        if isinstance(value, dict):
+            translated[new_key] = {
+                k: (
+                    cache[target_lang].get(v, v)
+                    if is_translatable_string(v)
+                    else v
+                )
+                for k, v in value.items()
+            }
+        else:
+            translated[new_key] = value
+
+    return translated
+
+
 # -------------------------------------------------
 # File discovery
 # -------------------------------------------------
-def get_all_english_json_files() -> list[Path]:
+def get_all_english_json_files() -> List[Path]:
     return list(EN_DIR.rglob("*.json"))
 
 
 # -------------------------------------------------
 # Main
 # -------------------------------------------------
-def main():
+async def main():
     languages_data = load_json(DATA_DIR / "languages.json")
     language_codes = [
         lang["languageCode"]
@@ -189,17 +205,26 @@ def main():
         if lang == "en":
             continue
 
-        populate_cache_for_language(english_files, lang, cache)
+        await populate_cache_for_language(english_files, lang, cache)
 
         for en_file in english_files:
             relative_path = en_file.relative_to(EN_DIR)
             target_file = DATA_DIR / lang / relative_path
 
-            translated = translate_structure(
-                load_json(en_file),
-                lang,
-                cache
-            )
+            source_data = load_json(en_file)
+
+            if en_file.name == VOCAB_FILE_NAME:
+                translated = translate_vocabulary_structure(
+                    source_data,
+                    lang,
+                    cache
+                )
+            else:
+                translated = translate_structure(
+                    source_data,
+                    lang,
+                    cache
+                )
 
             save_json(target_file, translated)
 
@@ -208,4 +233,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())

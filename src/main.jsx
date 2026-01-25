@@ -12,5 +12,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </BrowserRouter>
     <div id="modal-root"></div>
     <div id="modal-image-root"></div>
+    <div id="modal-vocabulary-root"></div>
   </React.StrictMode>
 );
