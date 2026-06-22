@@ -11,7 +11,12 @@ const FAQOverlay = ({ onClose, componentObject }) => {
   };
   return createPortal(
     <div className="faqcard-overlay-background" onClick={onClose}>
-      <div className="faqcard-overlay" onClick={(e) => e.stopPropagation()}>
+      <div
+        className="faqcard-overlay"
+        role="dialog"
+        aria-modal="true"
+        onClick={(e) => e.stopPropagation()}
+      >
         {componentObject && (
           <div className="faqcard-overlay-content">
             <div className="faqcard-overlay-content-left">
@@ -41,6 +46,7 @@ const FAQOverlay = ({ onClose, componentObject }) => {
                 <img
                   className="faqcard-overlay-content-image"
                   src={"/images/" + componentObject.image}
+                  alt={componentObject.imageCaption || ""}
                 />
               )}
             </div>

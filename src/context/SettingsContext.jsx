@@ -24,6 +24,16 @@ function resolveOption(list, key, saved, fallback) {
 }
 
 function loadSettings() {
+  // Reset visitor settings to defaults once per day so a changed font/language
+  // doesn't carry over to the next day's visitors. Only the app's own keys are
+  // touched (never the whole localStorage).
+  const today = new Date().toDateString();
+  if (localStorage.getItem("lastResetDate") !== today) {
+    localStorage.removeItem("appSettings");
+    localStorage.setItem("lastResetDate", today);
+    return defaultSettings;
+  }
+
   let saved;
   try {
     saved = JSON.parse(localStorage.getItem("appSettings"));
@@ -69,22 +79,10 @@ export const useIsSpeechEnabled = () => {
   return settings.speechEnabled.value;
 };
 
-function resetLocalStorageAtMidnight() {
-  const today = new Date().toDateString();
-  const lastReset = localStorage.getItem("lastResetDate");
-
-  if (lastReset !== today) {
-    // Reset what you need
-    localStorage.clear();
-    localStorage.setItem("lastResetDate", today);
-  }
-}
-
 export const SettingsProvider = ({ children }) => {
   const [settings, setSettings] = useState(loadSettings);
 
   useEffect(() => {
-    resetLocalStorageAtMidnight();
     localStorage.setItem("appSettings", JSON.stringify(settings));
   }, [settings]);
 

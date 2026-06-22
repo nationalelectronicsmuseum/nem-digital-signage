@@ -39,7 +39,11 @@ export function useSpeechSynthesis() {
     if (selectedVoice) {
       utterance.voice = selectedVoice;
     } else {
-      alert(`No voice found for language: ${settings.language.speechCode}`);
+      // Fall back to the browser default voice rather than blocking the kiosk
+      // with a modal dialog nobody can dismiss.
+      console.warn(
+        `No voice found for language: ${settings.language.speechCode}`
+      );
     }
 
     utterance.onstart = () => setStatus("playing");

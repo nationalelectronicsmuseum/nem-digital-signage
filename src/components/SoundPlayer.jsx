@@ -23,13 +23,31 @@ export default function SoundPlayer({ src }) {
     stop();
   };
 
+  const buttonReset = {
+    background: "none",
+    border: "none",
+    padding: 0,
+    cursor: "pointer",
+  };
+
   return (
     <div className="audioPlayer">
-      <img
-        src={localPlaying ? iconPause : iconPlay}
+      <button
+        type="button"
+        style={buttonReset}
         onClick={handlePlayPause}
-      />
-      <img src={iconStop} onClick={handleStop} />
+        aria-label={localPlaying ? "Pause audio" : "Play audio"}
+      >
+        <img src={localPlaying ? iconPause : iconPlay} alt="" />
+      </button>
+      <button
+        type="button"
+        style={buttonReset}
+        onClick={handleStop}
+        aria-label="Stop audio"
+      >
+        <img src={iconStop} alt="" />
+      </button>
     </div>
   );
 }

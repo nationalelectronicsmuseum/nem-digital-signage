@@ -21,7 +21,11 @@ export default function SectionRenderer({ station, section }) {
       <header className="section-header">
         <div className="controls">
           <MenuButton station={station} section={section} />
-          <img className="section-grant-logo" src={GrantLogo}></img>
+          <img
+            className="section-grant-logo"
+            src={GrantLogo}
+            alt="Miller Grant logo"
+          />
           <AccessibilityButton />
         </div>
         <h1 className="section-title">{title}</h1>

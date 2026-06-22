@@ -18,7 +18,13 @@ export default function VocabularyOverlay({ term, definition, onClose }) {
   const speechText = term != null ? term + ". " + definition : definition;
   return createPortal(
     <div className="vocabulary-overlay-background" onClick={onClose}>
-      <div className="vocabulary-overlay" onClick={(e) => e.stopPropagation()}>
+      <div
+        className="vocabulary-overlay"
+        role="dialog"
+        aria-modal="true"
+        aria-label={term}
+        onClick={(e) => e.stopPropagation()}
+      >
         <span style={labelStyle} className="vocabulary-label">
           {term}
           <SpeechPlaybackControls text={speechText} />

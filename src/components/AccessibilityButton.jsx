@@ -27,7 +27,7 @@ export default function AccessibilityButton() {
   return (
     <div className={open}>
       <button onClick={toggleMenu} className="accessibility-button">
-        <img src={aIcon} className="accessibility-icon"></img>
+        <img src={aIcon} className="accessibility-icon" alt="" />
         Accessibility
       </button>
       <div className="accessibility-background"></div>

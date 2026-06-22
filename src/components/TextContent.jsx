@@ -49,7 +49,15 @@ function parseVocabularyText(text, vocabEntries, onClick) {
       <span
         key={`vocab-${i}`}
         className="vocabulary-word"
+        role="button"
+        tabIndex={0}
         onClick={() => onClick(m.entry)}
+        onKeyDown={(e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            onClick(m.entry);
+          }
+        }}
       >
         {m.text}
       </span>

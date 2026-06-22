@@ -19,11 +19,15 @@ function SpeechPlaybackControls({ text }) {
     <div className="speech-playback-controls">
       <div className="speechPlayer">
         <div className={speechEnabled ? "present" : "hidden"}>
-          <button onClick={() => toggle(text)} className="speech">
-            <img src={playButtonLabel} className="iconImg"></img>
+          <button
+            onClick={() => toggle(text)}
+            className="speech"
+            aria-label="Play or pause speech"
+          >
+            <img src={playButtonLabel} className="iconImg" alt="" />
           </button>
-          <button onClick={stop} className="speech">
-            <img src={iconStop} className="iconImg"></img>
+          <button onClick={stop} className="speech" aria-label="Stop speech">
+            <img src={iconStop} className="iconImg" alt="" />
           </button>
         </div>
       </div>

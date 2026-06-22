@@ -7,7 +7,11 @@ export default function StationRenderer({ station }) {
   return (
     <div className="station">
       <header className="station-header">
-        <img className="station-grant-logo" src={GrantLogo}></img>
+        <img
+          className="station-grant-logo"
+          src={GrantLogo}
+          alt="Miller Grant logo"
+        />
         <div className="controls">
           <AccessibilityButton />
         </div>
