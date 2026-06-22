@@ -7,6 +7,7 @@ import "../styles/Section.css";
 import { getSlideComponent } from "./SlideRegistry";
 import MenuButton from "./MenuButton.jsx";
 import AccessibilityButton from "./AccessibilityButton.jsx";
+import ErrorBoundary from "./ErrorBoundary.jsx";
 import { useContent } from "../context/ContentProvider.jsx";
 import { resolvePath } from "../utils/resolvePath.js";
 import GrantLogo from "/images/millerGrant.png?url";
@@ -43,7 +44,9 @@ export default function SectionRenderer({ station, section }) {
             const Slide = getSlideComponent(slide.type);
             return (
               <SwiperSlide key={i}>
-                <Slide {...slide} />
+                <ErrorBoundary>
+                  <Slide {...slide} />
+                </ErrorBoundary>
               </SwiperSlide>
             );
           })}
