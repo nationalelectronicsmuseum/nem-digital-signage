@@ -1,0 +1,33 @@
+.swiper,
+.swiper-slide {
+  height: 100%;
+}
+
+.faq-slide-split-container {
+  display: flex;
+  height: 100%;
+}
+
+.faq-slide-pane {
+  flex: 0 0 70%;
+  height: 100%;
+  overflow-y: auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+/* Avoid scrollbars making layout jump */
+.faq-slide-pane::-webkit-scrollbar {
+  width: 6px;
+}
+.faq-slide-pane::-webkit-scrollbar-thumb {
+  background: #5b0b0b;
+  border-radius: 3px;
+}
+
+/* Inner content spacing */
+.faq-slide-content {
+  min-height: 100%;
+  height: 100%;
+  display: flex;
+}

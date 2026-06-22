@@ -1,0 +1,32 @@
+.facts {
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.facts-title-label {
+  margin: 0.25em 0.5em 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-weight: bold;
+  gap: 20px;
+}
+
+.facts-label {
+  font-style: italic;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.facts-value {
+  font-style: italic;
+  font-weight: 300;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}

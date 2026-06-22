@@ -1,86 +1,167 @@
-#!/bin/bash
-
+#!/usr/bin/env bash
 set -e
 
-VENV_DIR="./nemdsvenv"
-PYTHON_SCRIPT="scripts/updateLocalizations.py"
-NODE_SCRIPT="scripts/addTags.js"
-REQUIREMENTS_FILE="requirements.txt"
+echo "==> Starting cross-platform Vite dev setup"
 
-install_if_missing() {
-    CMD=$1
-    PKG=$2
-    if ! command -v "$CMD" &>/dev/null; then
-        echo "$CMD not found. Attempting to install $PKG..."
-        if [[ "$OSTYPE" == "linux-gnu"* ]]; then
-            sudo apt update
-            sudo apt install -y "$PKG"
-        elif [[ "$OSTYPE" == "darwin"* ]]; then
-            brew install "$PKG"
-        else
-            echo "Unsupported OS. Please install $PKG manually."
-            exit 1
-        fi
+# -------------------------------------------------
+# Helpers
+# -------------------------------------------------
+command_exists() { command -v "$1" >/dev/null 2>&1; }
+
+OS="$(uname -s)"
+ARCH="$(uname -m)"
+
+IS_WSL=false
+IS_GITBASH=false
+
+if grep -qi microsoft /proc/version 2>/dev/null; then
+  IS_WSL=true
+fi
+
+if [[ "$OS" == MINGW* || "$OS" == MSYS* ]]; then
+  IS_GITBASH=true
+fi
+
+# -------------------------------------------------
+# Package manager (macOS / Linux)
+# -------------------------------------------------
+install_system_packages() {
+  if [[ "$OS" == "Darwin" ]]; then
+    if ! command_exists brew; then
+      echo "==> Installing Homebrew"
+      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     fi
-}
-
-check_vite_installed() {
-  if command -v vite &> /dev/null; then
-    echo "Vite is already installed globally."
-  else
-    echo "Vite not found. Installing globally..."
-    sudo npm install -g vite
-    echo "Vite installed globally."
+  elif [[ "$OS" == "Linux" || "$IS_WSL" == true ]]; then
+    if command_exists apt-get; then
+      sudo apt-get update
+      sudo apt-get install -y curl build-essential python3 python3-venv python3-pip
+    elif command_exists dnf; then
+      sudo dnf install -y curl gcc gcc-c++ make python3 python3-venv python3-pip
+    fi
   fi
 }
 
-# Ensure Python and Node.js are installed
+# -------------------------------------------------
+# Install latest NVM (Linux/macOS/WSL)
+# -------------------------------------------------
+install_latest_nvm_unix() {
+  echo "==> Installing latest NVM (nvm-sh)"
 
-install_if_missing python3 python3
-install_if_missing pip3 python3-pip
-install_if_missing node nodejs
-install_if_missing npm npm
-check_vite_installed
-npm install
+  # Query latest tag dynamically
+  LATEST_NVM_TAG=$(curl -s https://api.github.com/repos/nvm-sh/nvm/releases/latest \
+    | grep '"tag_name":' \
+    | sed -E 's/.*"([^"]+)".*/\1/')
 
-# Check if venv module is available
+  echo "Latest NVM version: $LATEST_NVM_TAG"
 
-if ! python3 -m venv --help &>/dev/null; then
-    echo "Python venv module not found. Installing..."
-    install_if_missing python3-venv python3-venv
+  curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/$LATEST_NVM_TAG/install.sh | bash
+
+  export NVM_DIR="$HOME/.nvm"
+  # shellcheck disable=SC1090
+  [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+}
+
+# -------------------------------------------------
+# Install latest NVM for Windows (nvm-windows)
+# -------------------------------------------------
+install_latest_nvm_windows() {
+  echo "==> Installing latest NVM for Windows"
+
+  TMPFILE=$(mktemp).zip
+
+  DOWNLOAD_URL=$(curl -s https://api.github.com/repos/coreybutler/nvm-windows/releases/latest \
+    | grep browser_download_url \
+    | grep nvm-setup.zip \
+    | cut -d '"' -f 4)
+
+  echo "Downloading $DOWNLOAD_URL"
+  curl -L "$DOWNLOAD_URL" -o "$TMPFILE"
+
+  unzip -o "$TMPFILE" -d /tmp/nvm-win-install
+  echo "Launching NVM Windows installer..."
+  cmd.exe /C start /wait /tmp/nvm-win-install/nvm-setup.exe
+}
+
+# -------------------------------------------------
+# Node install via NVM
+# -------------------------------------------------
+setup_node() {
+  if command_exists nvm; then
+    echo "==> Installing latest LTS Node"
+    nvm install --lts
+    nvm use --lts
+  else
+    echo "NVM not found — Node setup skipped"
+  fi
+
+  node -v || true
+  npm -v || true
+}
+
+# -------------------------------------------------
+# Python venv
+# -------------------------------------------------
+setup_python() {
+  if ! command_exists python3; then
+    echo "Python not found, skipping"
+    return
+  fi
+
+  if [[ ! -d ".venv" ]]; then
+    python3 -m venv .venv
+  fi
+
+  # shellcheck disable=SC1091
+  source .venv/bin/activate
+
+  pip install --upgrade pip
+
+  if [[ -f requirements.txt ]]; then
+    pip install -r requirements.txt
+  fi
+}
+
+# -------------------------------------------------
+# Node deps + Vite
+# -------------------------------------------------
+setup_node_deps() {
+  if ! command_exists vite; then
+    npm install -g vite
+  fi
+
+  if [[ -f package-lock.json ]]; then
+    npm ci
+  elif [[ -f package.json ]]; then
+    npm install
+  fi
+}
+
+# -------------------------------------------------
+# MAIN
+# -------------------------------------------------
+echo "Detected OS: $OS"
+
+if [[ "$IS_GITBASH" == true ]]; then
+  install_latest_nvm_windows
+  echo "Please restart Git Bash after NVM Windows install."
+  exit 0
 fi
 
-# Create virtual environment if it doesn't exist
+install_system_packages
 
-if [ ! -d "$VENV_DIR" ]; then
-    echo "Creating Python virtual environment in $VENV_DIR..."
-    python3 -m venv "$VENV_DIR"
-fi
-
-# Activate virtual environment
-
-echo "Activating Python virtual environment..."
-source "$VENV_DIR/bin/activate"
-
-# Install Python dependencies
-
-if [ -f "$REQUIREMENTS_FILE" ]; then
-    echo "Installing Python dependencies from $REQUIREMENTS_FILE..."
-    pip install -r "$REQUIREMENTS_FILE"
+if ! command_exists nvm; then
+  install_latest_nvm_unix
 else
-    echo "No $REQUIREMENTS_FILE found, skipping Python dependencies."
+  export NVM_DIR="$HOME/.nvm"
+  [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 fi
 
-# Run scripts
+setup_node
+setup_python
+setup_node_deps
 
-echo "Running Python script: $PYTHON_SCRIPT"
-python "$PYTHON_SCRIPT"
-
-echo "Running Node.js script: $NODE_SCRIPT"
-node "$NODE_SCRIPT"
-
-# Deactivate Python virtual environment
-deactivate
-echo "Python script completed."
-
-echo "All tasks completed successfully."
+echo
+echo "==> Setup complete!"
+echo "Run:"
+echo "  source .venv/bin/activate"
+echo "  npm run dev"

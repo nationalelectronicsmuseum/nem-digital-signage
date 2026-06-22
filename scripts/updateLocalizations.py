@@ -1,119 +1,236 @@
-import re
 import json
+import re
 import asyncio
-import os
-import hashlib
+from pathlib import Path
+from typing import Any, Dict, Set, List
+
 from googletrans import Translator
-from titlecase import titlecase
+from tqdm.asyncio import tqdm_asyncio
 
-# https://developers.google.com/workspace/admin/directory/v1/languages
-language_codes = ["es", "fr", "de", "zh-CN", "ja"]
 
-cache_file = "./translation_cache.json"
+# -------------------------------------------------
+# Configuration
+# -------------------------------------------------
+DATA_DIR = Path("./data")
+EN_DIR = DATA_DIR / "en"
+CACHE_FILE = DATA_DIR / ".translation_cache.json"
 
-input_file = "./src/assets/database/artifact.js"
-output_files = ["./src/assets/database/artifact-spanish.js",
-                "./src/assets/database/artifact-french.js",
-                "./src/assets/database/artifact-german.js",
-                "./src/assets/database/artifact-chinese.js",
-                "./src/assets/database/artifact-japanese.js"]
+BATCH_SIZE = 20
+BATCH_DELAY = 0.2
 
-input_file_constants = "./src/assets/database/constant.js"
-output_files_constants = ["./src/assets/database/constant-spanish.js",
-                          "./src/assets/database/constant-french.js",
-                          "./src/assets/database/constant-german.js",
-                          "./src/assets/database/constant-chinese.js",
-                          "./src/assets/database/constant-japanese.js"]
+VOCAB_FILE_NAME = "vocabulary.json"
 
-translator = Translator()
+FILE_EXTENSION_REGEX = re.compile(r"\.[a-zA-Z0-9]{2,5}$")
 
-def is_email(s):
-    return re.match(r"[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+", s)
 
-def string_hash(s):
-    return hashlib.sha256(s.encode('utf-8')).hexdigest()
+# -------------------------------------------------
+# JSON helpers
+# -------------------------------------------------
+def load_json(path: Path) -> Dict:
+    with path.open("r", encoding="utf-8") as f:
+        return json.load(f)
 
-def escape_quotes(s):
-    return s.replace('"', '\\"')
 
-string_literal_pattern = re.compile(r'(?<!\\)(["\'])(.*?)(?<!\\)\1')
+def save_json(path: Path, data: Dict):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
 
-def load_cache():
-    if os.path.exists(cache_file):
-        with open(cache_file, 'r', encoding='utf-8') as f:
-            return json.load(f)
-    return {}
 
-def save_cache(cache):
-    with open(cache_file, 'w', encoding='utf-8') as f:
-        json.dump(cache, f, ensure_ascii=False, indent=2)
+# -------------------------------------------------
+# Translation helpers
+# -------------------------------------------------
+def is_translatable_string(value: Any) -> bool:
+    return (
+        isinstance(value, str)
+        and value.strip()
+        and not FILE_EXTENSION_REGEX.search(value)
+    )
 
-async def translate_file_for_language(lang_code, output_file, content, cache, string_to_hash):
-    all_strings = list(string_to_hash.keys())
 
-    to_translate = [
-        s for s in all_strings
-        if string_to_hash[s] not in cache or lang_code not in cache[string_to_hash[s]].get("translations", {})
+def collect_strings(data: Any, collected: Set[str]):
+    if isinstance(data, dict):
+        for k, v in data.items():
+            if is_translatable_string(k):
+                collected.add(k)
+            collect_strings(v, collected)
+
+    elif isinstance(data, list):
+        for item in data:
+            collect_strings(item, collected)
+
+    elif is_translatable_string(data):
+        collected.add(data)
+
+
+async def translate_batch(
+    texts: List[str],
+    target_lang: str,
+    translator: Translator
+) -> Dict[str, str]:
+    try:
+        results = await translator.translate(texts, src="en", dest=target_lang)
+
+        if results is None:
+            return {}
+
+        if not isinstance(results, list):
+            results = [results]
+
+        translated = {}
+        for src, res in zip(texts, results):
+            if res and res.text:
+                translated[src] = res.text
+
+        return translated
+
+    except Exception:
+        return {}
+
+
+async def populate_cache_for_language(
+    english_files: List[Path],
+    target_lang: str,
+    cache: Dict[str, Dict[str, str]]
+):
+    lang_cache = cache.setdefault(target_lang, {})
+    to_translate: Set[str] = set()
+
+    for file in english_files:
+        collect_strings(load_json(file), to_translate)
+
+    to_translate -= set(lang_cache.keys())
+    if not to_translate:
+        return
+
+    batches = [
+        list(to_translate)[i:i + BATCH_SIZE]
+        for i in range(0, len(to_translate), BATCH_SIZE)
     ]
 
-    if to_translate:
-        translations = await translator.translate(to_translate, dest=lang_code)
-        for original, translated in zip(to_translate, translations):
-            h = string_to_hash[original]
-            if h not in cache:
-                cache[h] = {
-                    "original": original,
-                    "translations": {}
-                }
-            cache[h]["translations"][lang_code] = translated.text
-        print(f"[{lang_code}] Cached {len(to_translate)} new translations.")
-    else:
-        print(f"[{lang_code}] All strings already translated.")
+    translator = Translator()
+    tasks = [
+        translate_batch(batch, target_lang, translator)
+        for batch in batches
+    ]
 
-    def replacer(match):
-        quote, text = match.groups()
-        after = content[match.end():match.end() + 1]
-        if after == ":":
-            return f"{quote}{text}{quote}"
-        if is_email(text) or not text.strip():
-            return f"{quote}{text}{quote}"
-        h = string_to_hash[text]
-        translated = cache.get(h, {}).get("translations", {}).get(lang_code, text)
-        escaped = escape_quotes(translated) if quote == '"' else translated
-        prefix = content[:match.start()]
-        if re.search(r'title"\s*:\s*$', prefix[-30:], re.IGNORECASE):
-            escaped = titlecase(escaped)
-        return f"{quote}{escaped}{quote}"
+    for coro in tqdm_asyncio.as_completed(
+        tasks,
+        total=len(tasks),
+        desc=f"Translating [{target_lang}]",
+        unit="batch"
+    ):
+        result = await coro
+        lang_cache.update(result)
+        await asyncio.sleep(BATCH_DELAY)
 
 
+# -------------------------------------------------
+# Translation strategies
+# -------------------------------------------------
+def translate_structure(
+    data: Any,
+    target_lang: str,
+    cache: Dict[str, Dict[str, str]]
+) -> Any:
+    if isinstance(data, dict):
+        return {
+            k: translate_structure(v, target_lang, cache)
+            for k, v in data.items()
+        }
 
-    translated_content = string_literal_pattern.sub(replacer, content)
+    if isinstance(data, list):
+        return [
+            translate_structure(item, target_lang, cache)
+            for item in data
+        ]
 
-    with open(output_file, 'w', encoding='utf-8') as f:
-        f.write(translated_content)
-    print(f"[{lang_code}] Translation written to {output_file}")
+    if is_translatable_string(data):
+        return cache[target_lang].get(data, data)
 
-async def runLocalizer(inputFile, outputFiles):
-    if len(language_codes) != len(outputFiles):
-        raise ValueError("Language codes and output file paths must have the same length.")
+    return data
 
-    with open(inputFile, 'r', encoding='utf-8') as f:
-        content = f.read()
 
-    matches = string_literal_pattern.findall(content)
-    strings = set(s for _, s in matches if not is_email(s) and s.strip())
-    string_to_hash = {s: string_hash(s) for s in strings}
+def translate_vocabulary_structure(
+    data: Dict[str, Any],
+    target_lang: str,
+    cache: Dict[str, Dict[str, str]]
+) -> Dict[str, Any]:
+    translated = {}
 
-    cache = load_cache()
+    for key, value in data.items():
+        new_key = (
+            cache[target_lang].get(key, key)
+            if is_translatable_string(key)
+            else key
+        )
 
-    for lang_code, output_file in zip(language_codes, outputFiles):
-        await translate_file_for_language(lang_code, output_file, content, cache, string_to_hash)
+        if isinstance(value, dict):
+            translated[new_key] = {
+                k: (
+                    cache[target_lang].get(v, v)
+                    if is_translatable_string(v)
+                    else v
+                )
+                for k, v in value.items()
+            }
+        else:
+            translated[new_key] = value
 
-    save_cache(cache)
+    return translated
 
+
+# -------------------------------------------------
+# File discovery
+# -------------------------------------------------
+def get_all_english_json_files() -> List[Path]:
+    return list(EN_DIR.rglob("*.json"))
+
+
+# -------------------------------------------------
+# Main
+# -------------------------------------------------
 async def main():
-    await runLocalizer(input_file, output_files)
-    await runLocalizer(input_file_constants, output_files_constants)
+    languages_data = load_json(DATA_DIR / "languages.json")
+    language_codes = [
+        lang["languageCode"]
+        for lang in languages_data.get("languages", [])
+        if "languageCode" in lang
+    ]
+
+    cache = load_json(CACHE_FILE) if CACHE_FILE.exists() else {}
+    english_files = get_all_english_json_files()
+
+    for lang in language_codes:
+        if lang == "en":
+            continue
+
+        await populate_cache_for_language(english_files, lang, cache)
+
+        for en_file in english_files:
+            relative_path = en_file.relative_to(EN_DIR)
+            target_file = DATA_DIR / lang / relative_path
+
+            source_data = load_json(en_file)
+
+            if en_file.name == VOCAB_FILE_NAME:
+                translated = translate_vocabulary_structure(
+                    source_data,
+                    lang,
+                    cache
+                )
+            else:
+                translated = translate_structure(
+                    source_data,
+                    lang,
+                    cache
+                )
+
+            save_json(target_file, translated)
+
+    save_json(CACHE_FILE, cache)
+    print("Localization refresh complete.")
+
 
 if __name__ == "__main__":
     asyncio.run(main())

@@ -1,0 +1,57 @@
+:root {
+  --app-font: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  width: 100%;
+
+  color-scheme: light;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: var(--app-font);
+}
+
+/* NEM styling */
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("/images/bg-opacity.webp");
+  background-repeat: repeat;
+  background-size: 50%;
+  overflow: hidden;
+  height: 100%;
+}
+
+.title {
+  padding: 5px 25px;
+  border: 5px solid #5b0b0b;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+}
+
+label {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+}
+
+a {
+  text-decoration-line: none;
+}

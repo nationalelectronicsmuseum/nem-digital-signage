@@ -1,0 +1,43 @@
+.section {
+  height: 100vh;
+  width: 95vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-header {
+  display: flex;
+  flex-shrink: 0;
+  line-height: 1.25;
+}
+
+.swiper-wrapper {
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+.section-title {
+  font-size: 4em;
+  margin: 0;
+  margin-top: 100px;
+}
+
+.swiper-button-next {
+  position: fixed;
+  right: -30px;
+}
+
+.swiper-button-prev {
+  position: fixed;
+  left: -30px;
+}
+
+.slide-wrapper {
+  height: inherit;
+}
+
+.section-grant-logo {
+  position: fixed;
+  left: 75px;
+  margin: 10px;
+}

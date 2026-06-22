@@ -1,0 +1,150 @@
+{
+  "Stromspannung": {
+    "term": "Stromspannung",
+    "definition": "Die elektrische Kraft, die elektrische Ladungen durch einen Stromkreis drückt, ähnlich dem Druck, der Wasser durch ein Rohr drückt."
+  },
+  "aktuell": {
+    "term": "Aktuell",
+    "definition": "Der Fluss elektrischer Ladung durch einen Draht oder Stromkreis."
+  },
+  "elektrische Ladung": {
+    "term": "Elektrische Ladung",
+    "definition": "Eine Eigenschaft der Materie, die dazu führt, dass sie in einem elektrischen Feld eine positive oder negative Kraft erfährt."
+  },
+  "Schaltung": {
+    "term": "Schaltung",
+    "definition": "Ein vollständiger Pfad, der den Fluss von elektrischem Strom ermöglicht."
+  },
+  "Schaltkreise": {
+    "term": "Schaltung",
+    "definition": "Ein vollständiger Pfad, der den Fluss von elektrischem Strom ermöglicht."
+  },
+  "Amperemeter": {
+    "term": "Amperemeter",
+    "definition": "Ein Gerät zur Messung des elektrischen Stroms."
+  },
+  "Voltmeter": {
+    "term": "Voltmeter",
+    "definition": "Ein Gerät zur Messung der elektrischen Spannung."
+  },
+  "Elektronen": {
+    "term": "Elektronen",
+    "definition": "Winzige negativ geladene Teilchen, die sich durch Materialien bewegen und dabei Elektrizität erzeugen."
+  },
+  "Leiter": {
+    "term": "Leiter",
+    "definition": "Ein Material, durch das elektrischer Strom problemlos fließen kann."
+  },
+  "Elektrolyte": {
+    "term": "Elektrolyte",
+    "definition": "Flüssigkeiten oder Stoffe, die Elektrizität leiten, weil sie geladene Teilchen enthalten."
+  },
+  "Potentialdifferenz": {
+    "term": "Möglicher Unterschied",
+    "definition": "Ein anderer Name für Spannung; die Differenz der elektrischen Energie zwischen zwei Punkten."
+  },
+  "Magnetfeld": {
+    "term": "Magnetfeld",
+    "definition": "Ein unsichtbarer Bereich um einen Magneten oder elektrischen Strom, in dem magnetische Kräfte wirken."
+  },
+  "Elektromagnetismus": {
+    "term": "Elektromagnetismus",
+    "definition": "Die Beziehung zwischen Elektrizität und Magnetismus, wobei elektrische Ströme Magnetfelder erzeugen."
+  },
+  "elektromagnetische Induktion": {
+    "term": "Elektromagnetische Induktion",
+    "definition": "Der Prozess der Erzeugung von elektrischem Strom durch Änderung eines Magnetfelds in der Nähe eines Drahtes."
+  },
+  "Spule": {
+    "term": "Spule",
+    "definition": "Ein in Schleifen gewickelter Draht, der magnetische und elektrische Effekte verstärkt."
+  },
+  "Generator": {
+    "term": "Generator",
+    "definition": "Eine Art Generator, der Wechselstrom (AC) erzeugt."
+  },
+  "Wechselstrom": {
+    "term": "Wechselstrom (AC)",
+    "definition": "Elektrischer Strom, der regelmäßig seine Richtung ändert, wie der Strom, der in Haushalten verwendet wird."
+  },
+  "Gleichstrom": {
+    "term": "Gleichstrom (DC)",
+    "definition": "Elektrischer Strom, der nur in eine Richtung fließt, wie Strom aus einer Batterie."
+  },
+  "Kondensator": {
+    "term": "Kondensator",
+    "definition": "Eine Komponente, die elektrische Energie für kurze Zeit speichert."
+  },
+  "Gleichrichter": {
+    "term": "Gleichrichter",
+    "definition": "Ein Gerät, das Wechselstrom (AC) in Gleichstrom (DC) umwandelt."
+  },
+  "Frequenz": {
+    "term": "Frequenz",
+    "definition": "Wie oft sich ein elektrisches Signal oder eine Welle pro Sekunde wiederholt, gemessen in Hertz (Hz)."
+  },
+  "statische Elektrizität": {
+    "term": "Statische Elektrizität",
+    "definition": "Elektrische Ladung, die sich an einem Objekt aufbaut und erst nach Entladung fließt."
+  },
+  "Entladung": {
+    "term": "Entladung",
+    "definition": "Die plötzliche Freisetzung gespeicherter elektrischer Energie."
+  },
+  "Ionisation": {
+    "term": "Ionisation",
+    "definition": "Der Prozess, bei dem Atome Elektronen aufnehmen oder verlieren, wodurch Elektrizität durch die Luft fließen kann."
+  },
+  "Bogen": {
+    "term": "Elektrischer Lichtbogen",
+    "definition": "Eine helle elektrische Entladung, die sich zwischen zwei Leitern durch die Luft bewegt."
+  },
+  "Antenne": {
+    "term": "Antenne",
+    "definition": "Ein Gerät, das elektromagnetische Wellen sendet oder empfängt."
+  },
+  "elektromagnetische Wellen": {
+    "term": "Elektromagnetische Wellen",
+    "definition": "Energiewellen, die sich mit Lichtgeschwindigkeit durch den Raum bewegen, einschließlich Radiowellen und Licht."
+  },
+  "Radiowellen": {
+    "term": "Radiowellen",
+    "definition": "Eine Art elektromagnetischer Welle, die zur drahtlosen Übertragung von Informationen verwendet wird."
+  },
+  "Bandbreite": {
+    "term": "Bandbreite",
+    "definition": "Die Menge an Informationen, die über ein Signal übertragen werden kann."
+  },
+  "Polarisation": {
+    "term": "Polarisation",
+    "definition": "Die Richtung, in der eine elektromagnetische Welle schwingt."
+  },
+  "Mikrowellen": {
+    "term": "Mikrowellen",
+    "definition": "Elektromagnetische Wellen, die zum Kochen, zur Kommunikation und für Radar verwendet werden."
+  },
+  "elektromagnetisches Spektrum": {
+    "term": "Elektromagnetisches Spektrum",
+    "definition": "Das gesamte Spektrum elektromagnetischer Wellen, von Radiowellen bis hin zu Gammastrahlen."
+  },
+  "Infrarot": {
+    "term": "Infrarot",
+    "definition": "Elektromagnetische Wellen, die mit Hitze in Zusammenhang stehen und in Nachtsichtgeräten und Fernbedienungen verwendet werden."
+  },
+  "Ultraviolett": {
+    "term": "Ultraviolett",
+    "definition": "Hochenergetische elektromagnetische Wellen, die Oberflächen sterilisieren, aber auch die Haut schädigen können."
+  },
+  "Röntgenstrahlen": {
+    "term": "Röntgenaufnahmen",
+    "definition": "Hochenergetische elektromagnetische Wellen werden verwendet, um in das Innere von Objekten zu sehen, beispielsweise in der medizinischen Bildgebung."
+  },
+  "Gammastrahlen": {
+    "term": "Gammastrahlen",
+    "definition": "Die energiereichsten elektromagnetischen Wellen, die durch radioaktive Materialien und kosmische Ereignisse erzeugt werden."
+  },
+  "Kapazität": {
+    "term": "Kapazität",
+    "definition": "Die Fähigkeit eines Systems, elektrische Ladung zu speichern."
+  }
+}

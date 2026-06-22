@@ -1,0 +1,43 @@
+.swiper,
+.swiper-slide {
+  height: 100%;
+}
+
+.audio-slide-split-container {
+  display: flex;
+  height: 100%;
+}
+
+.audio-slide-pane {
+  flex: 1;
+  height: 100%;
+  overflow-y: auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+/* Avoid scrollbars making layout jump */
+.audio-slide-pane::-webkit-scrollbar {
+  width: 6px;
+}
+.audio-slide-pane::-webkit-scrollbar-thumb {
+  background: #5b0b0b;
+  border-radius: 3px;
+}
+
+.audio-slide-content {
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.audio-slide-left {
+  background-color: #d3d3d3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.audio-slide-right {
+  background-color: beige;
+}

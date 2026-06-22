@@ -1,0 +1,13 @@
+.text-content-label {
+  margin: 0.25em 0.5em 0.25em 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-weight: bold;
+  gap: 20px;
+}
+
+.text-content-text {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}

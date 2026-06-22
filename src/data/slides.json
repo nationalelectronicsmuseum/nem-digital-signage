@@ -1,0 +1,274 @@
+{
+  "VoltageAndCurrent1": {
+    "left": ["concept.VoltageAndCurrent.description"],
+    "right": ["concept.VoltageAndCurrent.image1"]
+  },
+  "VoltageAndCurrent2": {
+    "left": ["concept.VoltageAndCurrent.theImpact"],
+    "right": ["concept.VoltageAndCurrent.image2"]
+  },
+  "VoltageAndCurrent3": {
+    "left": ["concept.HumanBattery.steps", "concept.HumanBattery.whatToWatch"],
+    "right": ["concept.HumanBattery.whatsGoingOn"]
+  },
+  "HumanBattery1": {
+    "left": ["concept.HumanBattery.description"],
+    "right": ["concept.HumanBattery.image1"]
+  },
+  "HumanBattery2": {
+    "left": ["concept.HumanBattery.theImpact"],
+    "right": ["concept.HumanBattery.image2"]
+  },
+  "HumanBattery3": {
+    "left": ["concept.HumanBattery.steps", "concept.HumanBattery.whatToWatch"],
+    "right": ["concept.HumanBattery.whatsGoingOn"]
+  },
+  "Oersted1": {
+    "left": ["concept.Oersted.description"],
+    "right": ["concept.Oersted.image1"]
+  },
+  "Oersted2": {
+    "left": ["concept.Oersted.theImpact"],
+    "right": ["concept.Oersted.image2"]
+  },
+  "Oersted3": {
+    "left": ["concept.Oersted.steps"],
+    "right": ["concept.Oersted.whatsGoingOn"]
+  },
+  "TheFaradayProject1": {
+    "left": [
+      "concept.TheFaradayProject.description",
+      "concept.TheFaradayProject.facts"
+    ],
+    "right": ["concept.TheFaradayProject.image1"]
+  },
+  "TheFaradayProject2": {
+    "left": ["concept.TheFaradayProject.theImpact"],
+    "right": ["concept.TheFaradayProject.image2"]
+  },
+  "TheFaradayProject3": {
+    "left": ["concept.TheFaradayProject.steps"],
+    "right": ["concept.TheFaradayProject.whatsGoingOn"]
+  },
+  "JumpingWire1": {
+    "left": ["concept.JumpingWire.description"],
+    "right": ["concept.JumpingWire.image1"]
+  },
+  "JumpingWire2": {
+    "left": ["concept.JumpingWire.theImpact"],
+    "right": ["concept.JumpingWire.image2"]
+  },
+  "JumpingWire3": {
+    "left": ["concept.JumpingWire.steps", "concept.JumpingWire.whatsGoingOn"],
+    "right": ["concept.JumpingWire.image1"]
+  },
+  "StaticElectricity1": {
+    "left": ["concept.StaticElectricity.description"],
+    "right": ["concept.StaticElectricity.image1"]
+  },
+  "StaticElectricity2": {
+    "left": ["concept.StaticElectricity.theImpact"],
+    "right": ["concept.StaticElectricity.image2"]
+  },
+  "HumanDynamo1": {
+    "left": ["concept.HumanDynamo.description"],
+    "right": ["concept.HumanDynamo.image1"]
+  },
+  "HumanDynamo2": {
+    "left": ["concept.HumanDynamo.theImpact"],
+    "right": ["concept.HumanDynamo.image1"]
+  },
+  "HumanDynamo3": {
+    "left": ["concept.HumanDynamo.steps", "concept.HumanDynamo.whatToWatch"],
+    "right": ["concept.HumanDynamo.video1"]
+  },
+  "HumanDynamo4": {
+    "left": ["concept.HumanDynamo.whatsGoingOn"],
+    "right": ["concept.HumanDynamo.image1"]
+  },
+  "VanDeGraaffGenerator1": {
+    "left": [
+      "concept.VanDeGraaffGenerator.description",
+      "concept.VanDeGraaffGenerator.facts"
+    ],
+    "right": ["concept.VanDeGraaffGenerator.image1"]
+  },
+  "VanDeGraaffGenerator2": {
+    "left": ["concept.VanDeGraaffGenerator.theImpact"],
+    "right": ["concept.VanDeGraaffGenerator.image2"]
+  },
+  "VanDeGraaffGenerator3": {
+    "left": ["concept.VanDeGraaffGenerator.howDoesItWork"],
+    "right": ["concept.VanDeGraaffGenerator.image3"]
+  },
+  "VanDeGraaffGenerator4": {
+    "left": ["concept.VanDeGraaffGenerator.steps"],
+    "right": ["concept.VanDeGraaffGenerator.image4"]
+  },
+  "JacobsLadderExperiment1": {
+    "left": ["concept.JacobsLadderExperiment.description"],
+    "right": ["concept.JacobsLadderExperiment.image1"]
+  },
+  "JacobsLadderExperiment2": {
+    "left": ["concept.JacobsLadderExperiment.theImpact"],
+    "right": ["concept.JacobsLadderExperiment.image2"]
+  },
+  "JacobsLadderExperiment3": {
+    "left": ["concept.JacobsLadderExperiment.steps"],
+    "right": ["concept.JacobsLadderExperiment.whatsGoingOn"]
+  },
+  "AudioTranslator1": {
+    "left": [
+      "concept.AudioTranslator.description",
+      "concept.AudioTranslator.facts"
+    ],
+    "right": ["concept.AudioTranslator.image1"]
+  },
+  "AudioTranslator2": {
+    "left": ["concept.AudioTranslator.theImpact"],
+    "right": ["concept.AudioTranslator.image2"]
+  },
+  "AudioTranslator3": {
+    "left": ["concept.AudioTranslator.steps"],
+    "right": ["concept.AudioTranslator.whatsGoingOn"]
+  },
+  "ElectromagneticRadioWaves1": {
+    "left": [
+      "concept.ElectromagneticRadioWaves.description",
+      "concept.ElectromagneticRadioWaves.facts"
+    ],
+    "right": ["concept.ElectromagneticRadioWaves.image1"]
+  },
+  "ElectromagneticRadioWaves2": {
+    "left": ["concept.ElectromagneticRadioWaves.theImpact"],
+    "right": ["concept.ElectromagneticRadioWaves.image2"]
+  },
+  "ElectromagneticRadioWaves3": {
+    "left": ["concept.ElectromagneticRadioWaves.steps"],
+    "right": ["concept.ElectromagneticRadioWaves.whatsGoingOn"]
+  },
+  "hamRadio": {
+    "left": ["faq.hamRadio.faq"],
+    "right": ["faq.hamRadio.video"]
+  },
+  "EvolutionOfRecordedSound1": {
+    "left": ["concept.EvolutionOfRecordedSound.image1"],
+    "right": ["concept.EvolutionOfRecordedSound.audioInfo.bunkerHill"]
+  },
+  "EvolutionOfRecordedSound2": {
+    "left": ["concept.EvolutionOfRecordedSound.image2"],
+    "right": ["concept.EvolutionOfRecordedSound.audioInfo.overThere"]
+  },
+  "EvolutionOfRecordedSound3": {
+    "left": ["concept.EvolutionOfRecordedSound.image3"],
+    "right": ["concept.EvolutionOfRecordedSound.audioInfo.johnnyBGoode"]
+  },
+  "TelegraphMachine1": {
+    "left": [
+      "concept.TelegraphMachine.description",
+      "concept.TelegraphMachine.facts"
+    ],
+    "right": ["concept.TelegraphMachine.image1"]
+  },
+  "TelegraphMachine2": {
+    "left": ["concept.TelegraphMachine.theImpact"],
+    "right": ["concept.TelegraphMachine.image2"]
+  },
+  "TelegraphMachine3": {
+    "left": ["concept.TelegraphMachine.steps"],
+    "right": ["concept.TelegraphMachine.whatsGoingOn"]
+  },
+  "TelegraphMachine4": {
+    "left": ["concept.TelegraphMachine.telegraphSteps"],
+    "right": []
+  },
+  "TheMarconiMagneticDetector1": {
+    "left": [
+      "concept.TheMarconiMagneticDetector.description",
+      "concept.TheMarconiMagneticDetector.facts"
+    ],
+    "right": ["concept.TheMarconiMagneticDetector.image1"]
+  },
+  "TheMarconiMagneticDetector2": {
+    "left": ["concept.TheMarconiMagneticDetector.theImpact"],
+    "right": ["concept.TheMarconiMagneticDetector.timeline"]
+  },
+  "TheMarconiMagneticDetector3": {
+    "left": ["concept.TheMarconiMagneticDetector.steps"],
+    "right": ["concept.TheMarconiMagneticDetector.image2"]
+  },
+  "TheMarconiMagneticDetector4": {
+    "left": ["concept.TheMarconiMagneticDetector.whatsGoingOn"],
+    "right": ["concept.TheMarconiMagneticDetector.image3"]
+  },
+  "WhyDoMicrowavesHaveTurntables1": {
+    "left": ["concept.WhyDoMicrowavesHaveTurntables.description"],
+    "right": ["concept.WhyDoMicrowavesHaveTurntables.image1"]
+  },
+  "WhyDoMicrowavesHaveTurntables2": {
+    "left": ["concept.WhyDoMicrowavesHaveTurntables.theImpact"],
+    "right": ["concept.WhyDoMicrowavesHaveTurntables.image2"]
+  },
+  "WhyDoMicrowavesHaveTurntables3": {
+    "left": ["concept.WhyDoMicrowavesHaveTurntables.steps"],
+    "right": ["concept.WhyDoMicrowavesHaveTurntables.whatsGoingOn"]
+  },
+  "Theremin1": {
+    "left": ["concept.Theremin.description"],
+    "right": ["concept.Theremin.image1"]
+  },
+  "Theremin2": {
+    "left": ["concept.Theremin.theImpact"],
+    "right": ["concept.Theremin.image2"]
+  },
+  "Theremin3": {
+    "left": ["concept.Theremin.steps"],
+    "right": ["concept.Theremin.whatsGoingOn"]
+  },
+  "PolarizationExperiment1": {
+    "left": ["concept.PolarizationExperiment.description"],
+    "right": []
+  },
+  "PolarizationExperiment2": {
+    "left": ["concept.PolarizationExperiment.theImpact"],
+    "right": []
+  },
+  "PolarizationExperiment3": {
+    "left": ["concept.PolarizationExperiment.steps"],
+    "right": ["concept.PolarizationExperiment.whatsGoingOn"]
+  },
+  "ElectromagneticWaves1": ["concept.ElectromagneticWaves.intro"],
+  "ElectromagneticWaves2": {
+    "left": ["concept.ElectromagneticWaves.radioWaves"],
+    "right": []
+  },
+  "ElectromagneticWaves3": {
+    "left": ["concept.ElectromagneticWaves.microWaves"],
+    "right": []
+  },
+  "ElectromagneticWaves4": {
+    "left": ["concept.ElectromagneticWaves.infraredLight"],
+    "right": []
+  },
+  "ElectromagneticWaves5": {
+    "left": ["concept.ElectromagneticWaves.visibleLight"],
+    "right": []
+  },
+  "ElectromagneticWaves6": {
+    "left": ["concept.ElectromagneticWaves.ultravioletWaves"],
+    "right": []
+  },
+  "ElectromagneticWaves7": {
+    "left": ["concept.ElectromagneticWaves.xRays"],
+    "right": []
+  },
+  "ElectromagneticWaves8": {
+    "left": ["concept.ElectromagneticWaves.gammaRays"],
+    "right": []
+  },
+  "ElectromagneticWaves9": ["concept.ElectromagneticWaves.outro"],
+  "HAMRadio": {
+    "left": ["faq.hamRadio.faq"],
+    "right": ["faq.hamRadio.video"]
+  }
+}

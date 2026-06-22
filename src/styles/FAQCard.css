@@ -1,0 +1,76 @@
+.faqcard-overlay-background {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.87);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+
+.faqcard-overlay {
+  z-index: 4;
+  height: auto;
+  background-color: #f0f8ff;
+  padding: 2rem;
+  border-radius: 25px;
+}
+
+.faqcard-overlay-content {
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+  display: flex;
+  max-height: 75vh;
+  max-width: 75vw;
+}
+
+.faqcard-button {
+  --button_radius: 0.75em;
+  --button_color: #e8e8e8;
+  --button_outline_color: #000000;
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid var(--button_outline_color);
+  border-radius: var(--button_radius);
+  padding: 0.75em 1.5em;
+  background: var(--button_color);
+  color: var(--button_outline_color);
+  transform: translateY(-0.2em);
+  transition: transform 0.1s ease;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.faqcard-button:hover {
+  transform: translateY(-0.752748px);
+}
+
+.faqcard-overlay-content-left {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.faqcard-overlay-content-right {
+  flex: 1;
+  overflow-y: hidden;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.faqcard-overlay-content-text {
+  margin-top: 0px;
+}
+
+.faqcard-overlay-content-caption {
+  margin-top: 0px;
+}
+
+.faqcard-overlay-content-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

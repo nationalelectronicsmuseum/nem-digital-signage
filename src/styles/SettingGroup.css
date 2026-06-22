@@ -1,0 +1,32 @@
+.setting-group-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.setting-group-title {
+  margin: 10px;
+  font-size: 28px;
+}
+
+.setting-group-option-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.setting-group-option {
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 5px;
+  font-size: 24px;
+}
+
+.setting-group-option-selected {
+  color: white;
+  background-color: black;
+}
