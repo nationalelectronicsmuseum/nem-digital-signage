@@ -1,22 +1,19 @@
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
-import { loadContent } from "../utils/loadContent";
-import { useSettings } from "../context/SettingsContext.jsx";
+import { useEffect, useRef } from "react";
+import { useContent } from "../context/ContentProvider.jsx";
 import { resolvePath } from "../utils/resolvePath.js";
 import "../styles/StationNav.css";
 
 export default function StationNav({ station }) {
-  const { settings } = useSettings();
-  const languageCode = settings.language.languageCode;
-  const content = loadContent(languageCode);
-  let swiper = null;
+  const content = useContent();
+  const swiperRef = useRef(null);
 
   const resetSwiper = () => {
-    if (swiper) swiper.slideTo(0);
+    if (swiperRef.current) swiperRef.current.slideTo(0);
   };
 
   useEffect(() => {
-    swiper = document.querySelector(".swiper").swiper;
+    swiperRef.current = document.querySelector(".swiper")?.swiper;
   });
 
   return (

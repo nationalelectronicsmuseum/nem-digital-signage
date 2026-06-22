@@ -2,11 +2,12 @@ import "../styles/SpeechPlaybackControls.css";
 import iconPlay from "/images/icon_play.svg?url";
 import iconStop from "/images/icon_stop.svg?url";
 import iconPause from "/images/icon_pause.svg?url";
-import { isSpeechEnabled } from "../context/SettingsContext.jsx";
+import { useIsSpeechEnabled } from "../context/SettingsContext.jsx";
 import { useSpeechSynthesis } from "./SpeechSynthesis.jsx";
 
 function SpeechPlaybackControls({ text }) {
-  const { voices, status, toggle, stop } = useSpeechSynthesis();
+  const { status, toggle, stop } = useSpeechSynthesis();
+  const speechEnabled = useIsSpeechEnabled();
 
   const playButtonLabel = {
     idle: iconPlay,
@@ -15,9 +16,9 @@ function SpeechPlaybackControls({ text }) {
   }[status];
 
   return (
-    <div class="speech-playback-controls">
+    <div className="speech-playback-controls">
       <div className="speechPlayer">
-        <div className={isSpeechEnabled() ? "present" : "hidden"}>
+        <div className={speechEnabled ? "present" : "hidden"}>
           <button onClick={() => toggle(text)} className="speech">
             <img src={playButtonLabel} className="iconImg"></img>
           </button>

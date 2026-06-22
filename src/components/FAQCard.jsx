@@ -8,7 +8,6 @@ const FAQOverlay = ({ onClose, componentObject }) => {
   const { settings } = useSettings();
   const aStyle = {
     fontSize: settings.fontSize.point,
-    fontCode: settings.font.fontCode,
   };
   return createPortal(
     <div className="faqcard-overlay-background" onClick={onClose}>
@@ -58,7 +57,6 @@ export default function FAQCard({ componentObject }) {
   const nameFontSize = parseFloat(settings.fontSize.point) - 11 + "pt";
   const aStyle = {
     fontSize: nameFontSize,
-    fontCode: settings.font.fontCode,
   };
 
   let speechText = componentObject.name ? componentObject.name : "";

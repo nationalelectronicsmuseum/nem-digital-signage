@@ -15,11 +15,9 @@ export default function AudioCard({ componentObject }) {
     "pt";
   const titleStyle = {
     fontSize: nameFontSize,
-    fontCode: settings.font.fontCode,
   };
   const aStyle = {
     fontSize: aFontSize,
-    fontCode: settings.font.fontCode,
   };
 
   let speechText =

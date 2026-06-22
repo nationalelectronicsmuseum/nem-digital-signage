@@ -6,13 +6,11 @@ export default function Facts({ componentObject }) {
   const { settings } = useSettings();
   const aStyle = {
     fontSize: settings.fontSize.point,
-    fontCode: settings.font.fontCode,
   };
 
   const labelFontSize = parseFloat(settings.fontSize.point) + 2 + "pt";
   const labelStyle = {
     fontSize: labelFontSize,
-    fontCode: settings.font.fontCode,
   };
 
   let speechText = "";

@@ -1,0 +1,9 @@
+/* Self-hosted Orbitron (latin, variable weight 400–900) so kiosks render the
+   title without a render-blocking request to fonts.googleapis.com. */
+@font-face {
+  font-family: "Orbitron";
+  src: url("./Orbitron-Variable.woff2") format("woff2");
+  font-weight: 400 900;
+  font-style: normal;
+  font-display: swap;
+}

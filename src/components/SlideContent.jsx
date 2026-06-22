@@ -1,5 +1,4 @@
-import { loadContent } from "../utils/loadContent";
-import { useSettings } from "../context/SettingsContext.jsx";
+import { useContent } from "../context/ContentProvider.jsx";
 import { resolvePath } from "../utils/resolvePath.js";
 import "../styles/SlideContent.css";
 import Facts from "./Facts.jsx";
@@ -69,21 +68,20 @@ const objectImplementsFacts = (contentItem) => {
 };
 
 export default function SlideContent({ data, className }) {
-  const { settings } = useSettings();
-  const languageCode = settings.language.languageCode;
-  const content = loadContent(languageCode);
+  const content = useContent();
 
-  let addPadding = true;
+  // Padding is added after the content unless the last item is media
+  // (videos and images render edge-to-edge without trailing padding).
+  const lastItem = data.length
+    ? resolvePath(content, data[data.length - 1])
+    : null;
+  const addPadding = !(isVideo(lastItem) || isImage(lastItem));
 
   return (
     <div className={className}>
       {data.map((itemPath, i) => {
         let contentItem = resolvePath(content, itemPath);
-        addPadding = true;
         if (!contentItem) {
-          console.log(
-            "Content item of path " + itemPath + " unresolved. Skipping..."
-          );
           return;
         }
         const fieldName = getFieldName(itemPath);
@@ -98,10 +96,8 @@ export default function SlideContent({ data, className }) {
         }
 
         if (isVideo(contentItem)) {
-          addPadding = false;
           return <Video src={"/video/" + contentItem} key={i} />;
         } else if (isImage(contentItem)) {
-          addPadding = false;
           return (
             <SlideImage
               img={"/images/" + contentItem}

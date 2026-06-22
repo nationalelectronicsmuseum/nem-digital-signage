@@ -2,7 +2,7 @@ import { useSettings } from "../context/SettingsContext.jsx";
 import { useState } from "react";
 import SpeechPlaybackControls from "./SpeechPlaybackControls.jsx";
 import VocabularyOverlay from "./VocabularyOverlay.jsx";
-import { loadContent } from "../utils/loadContent";
+import { useContent } from "../context/ContentProvider.jsx";
 import { resolvePath } from "../utils/resolvePath.js";
 import "../styles/TextContent.css";
 
@@ -69,13 +69,11 @@ function parseVocabularyText(text, vocabEntries, onClick) {
 
 export default function TextContent({ componentObject }) {
   const { settings } = useSettings();
-  const languageCode = settings.language.languageCode;
-  const content = loadContent(languageCode);
+  const content = useContent();
   const vocabulary = resolvePath(content, "vocabulary");
   const [activeWord, setActiveWord] = useState(null);
   const aStyle = {
     fontSize: settings.fontSize.point,
-    fontCode: settings.font.fontCode,
   };
 
 const vocabEntries = Object.entries(vocabulary)
@@ -90,7 +88,6 @@ const vocabEntries = Object.entries(vocabulary)
   const labelFontSize = parseFloat(settings.fontSize.point) + 2 + "pt";
   const labelStyle = {
     fontSize: labelFontSize,
-    fontCode: settings.font.fontCode,
   };
 
   const label = componentObject.label;

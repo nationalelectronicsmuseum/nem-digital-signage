@@ -7,13 +7,11 @@ export default function VocabularyOverlay({ term, definition, onClose }) {
   const { settings } = useSettings();
   const aStyle = {
     fontSize: settings.fontSize.point,
-    fontCode: settings.font.fontCode,
   };
 
   const labelFontSize = parseFloat(settings.fontSize.point) + 8 + "pt";
   const labelStyle = {
     fontSize: labelFontSize,
-    fontCode: settings.font.fontCode,
     fontWeight: 700
   };
 

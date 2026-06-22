@@ -2,16 +2,16 @@ import { createContext, useContext, useState, useEffect } from "react";
 import languagesJson from "../data/languages.json";
 import fontsJson from "../data/fonts.json";
 import paddingJson from "../data/padding.json";
-import { toggleOptions } from "../components/SettingGroup.jsx";
+import { toggleOptions } from "../data/toggleOptions.js";
 
 const defaultSettings = {
   language: languagesJson.languages.find((item) =>
-    item.hasOwnProperty("default")
+    Object.hasOwn(item, "default")
   ),
-  font: fontsJson.font.find((item) => item.hasOwnProperty("default")),
-  fontSize: fontsJson.fontSize.find((item) => item.hasOwnProperty("default")),
+  font: fontsJson.font.find((item) => Object.hasOwn(item, "default")),
+  fontSize: fontsJson.fontSize.find((item) => Object.hasOwn(item, "default")),
   listPadding: paddingJson.padding.find((item) =>
-    item.hasOwnProperty("default")
+    Object.hasOwn(item, "default")
   ),
   speechEnabled: toggleOptions.toggle.find((item) => item.name === "On"),
 };
@@ -20,8 +20,8 @@ const SettingsContext = createContext();
 
 export const useSettings = () => useContext(SettingsContext);
 
-export const isSpeechEnabled = () => {
-  const { settings, setSettings } = useSettings();
+export const useIsSpeechEnabled = () => {
+  const { settings } = useSettings();
   return settings.speechEnabled.value;
 };
 

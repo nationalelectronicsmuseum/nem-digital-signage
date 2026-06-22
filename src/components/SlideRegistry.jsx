@@ -22,7 +22,10 @@ for (const path in modules) {
 export function getSlideComponent(name) {
   const Slide = registry[name];
   if (!Slide) {
-    return () => <div>Slide "{name}" not found in registry.</div>;
+    const SlideNotFound = () => (
+      <div>Slide &quot;{name}&quot; not found in registry.</div>
+    );
+    return SlideNotFound;
   }
   return Slide;
 }

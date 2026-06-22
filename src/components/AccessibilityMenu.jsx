@@ -11,7 +11,7 @@ export default function AccessibilityMenu({ menuRef }) {
     <div ref={menuRef} className="accessibility-menu-container">
       <h2 className="accessibility-menu-title">Accessibility Menu</h2>
 
-      {process.env.NODE_ENV === "development" && (
+      {import.meta.env.DEV && (
         <div>{JSON.stringify(settings)}</div>
       )}
 

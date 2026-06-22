@@ -11,11 +11,11 @@ vitejs
 python
 python-pip
 googletrans (python library)
-titlecase (python library)
+tqdm (python library)
 
 How to setup:
 Linux (Debian 13):
-Run the setup.py script from the repository's root directory.
+Run the setup.sh script from the repository's root directory.
 
 How to dev:
 npm run dev
@@ -24,7 +24,7 @@ Dev notes for updating localisation (linux):
 sudo apt install python3.13-venv
 python3 -m venv .venv
 source .venv/bin/activate
-pip install googletrans==4.0.0-rc1 tqdm legacy-cgi
+pip install -r requirements.txt
 python3 ./scripts/updateLocalizations.py
 
     deactivate

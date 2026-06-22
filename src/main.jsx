@@ -4,6 +4,7 @@ import App from "./App.jsx";
 import { BrowserRouter } from "react-router-dom";
 import "./styles/main.css";
 import "./assets/fonts/OpenDyslexicMono.css";
+import "./assets/fonts/Orbitron.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

@@ -1,15 +1,12 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/SectionCardCarousel.css";
-import { loadContent } from "../utils/loadContent";
-import { useSettings } from "../context/SettingsContext.jsx";
+import { useContent } from "../context/ContentProvider.jsx";
 import { resolvePath } from "../utils/resolvePath.js";
 import defaultImage from "/images/section.jpg?url";
 
 export default function SectionCardCarousel({ station }) {
-  const { settings } = useSettings();
-  const languageCode = settings.language.languageCode;
-  const content = loadContent(languageCode);
+  const content = useContent();
   const [rows, setRows] = useState([]);
 
   useEffect(() => {

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useAudioContext } from "../context/AudioProvider.jsx";
 
 import iconPlay from "/images/evoPlay.svg?url";
@@ -8,15 +8,11 @@ import iconStop from "/images/evoStop.svg?url";
 export default function SoundPlayer({ src }) {
   const { play, pause, stop, preload, currentSrc, isPlaying } =
     useAudioContext();
-  const [localPlaying, setLocalPlaying] = useState(false);
+  const localPlaying = isPlaying && currentSrc === src;
 
   useEffect(() => {
     preload(src);
   }, [src, preload]);
-
-  useEffect(() => {
-    setLocalPlaying(isPlaying && currentSrc === src);
-  }, [isPlaying, currentSrc, src]);
 
   const handlePlayPause = () => {
     if (localPlaying) pause();

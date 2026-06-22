@@ -1,4 +1,5 @@
 :root {
+  --app-font: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   width: 100%;
@@ -21,6 +22,7 @@ body {
   margin: 0;
   display: flex;
   justify-content: center;
+  font-family: var(--app-font);
 }
 
 /* NEM styling */

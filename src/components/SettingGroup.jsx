@@ -1,17 +1,5 @@
 import "../styles/SettingGroup.css";
-
-export const toggleOptions = {
-  toggle: [
-    {
-      name: "On",
-      value: true,
-    },
-    {
-      name: "Off",
-      value: false,
-    },
-  ],
-};
+import { toggleOptions } from "../data/toggleOptions.js";
 
 export default function SettingGroup({ label, options, value, onChange }) {
   if (!options) {
