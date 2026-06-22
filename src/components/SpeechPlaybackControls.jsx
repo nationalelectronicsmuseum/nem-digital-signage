@@ -3,17 +3,15 @@ import iconPlay from "/images/icon_play.svg?url";
 import iconStop from "/images/icon_stop.svg?url";
 import iconPause from "/images/icon_pause.svg?url";
 import { useIsSpeechEnabled } from "../context/SettingsContext.jsx";
-import { useSpeechSynthesis } from "./SpeechSynthesis.jsx";
+import { useSpeech } from "../context/SpeechProvider.jsx";
 
 function SpeechPlaybackControls({ text }) {
-  const { status, toggle, stop } = useSpeechSynthesis();
+  const { status, activeText, toggle, stop } = useSpeech();
   const speechEnabled = useIsSpeechEnabled();
 
-  const playButtonLabel = {
-    idle: iconPlay,
-    playing: iconPause,
-    paused: iconPlay,
-  }[status];
+  // Only the control whose text is currently being spoken shows the pause icon.
+  const isPlayingThis = activeText === text && status === "playing";
+  const playButtonLabel = isPlayingThis ? iconPause : iconPlay;
 
   return (
     <div className="speech-playback-controls">
