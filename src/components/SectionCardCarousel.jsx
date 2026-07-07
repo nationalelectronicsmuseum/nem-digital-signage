@@ -3,12 +3,15 @@ import { Link } from "react-router-dom";
 import "../styles/SectionCardCarousel.css";
 import { useContent } from "../context/ContentProvider.jsx";
 import { resolvePath } from "../utils/resolvePath.js";
-import defaultImage from "/images/section.jpg?url";
+import defaultImage from "/images/section.webp?url";
 
 export default function SectionCardCarousel({ station }) {
   const content = useContent();
   const [rows, setRows] = useState([]);
 
+  // Balance cards into centered rows. A pure CSS grid can't do this: it can't
+  // move a lone trailing card up to avoid an isolated row (4,1 -> 3,2), and a
+  // partial last row stays left-aligned instead of centered.
   useEffect(() => {
     function update() {
       const perRow = getCardsPerRow();
@@ -39,7 +42,7 @@ export default function SectionCardCarousel({ station }) {
                   <div className="card-image-wrapper">
                     <img
                       src={section.image ? section.image : defaultImage}
-                      alt={title ? title : "Sample Title"}
+                      alt=""
                       className="card-image"
                     />
                   </div>
@@ -63,6 +66,9 @@ function getCardsPerRow() {
   return Math.max(1, Math.floor(containerWidth / cardWidth));
 }
 
+// Split items into rows of `perRow`, but never leave a final row with a single
+// card when there is a previous row to borrow from: pull one card down so the
+// last two rows split evenly (e.g. 4,1 becomes 3,2).
 function chunkBalanced(items, perRow) {
   const rows = [];
   let i = 0;

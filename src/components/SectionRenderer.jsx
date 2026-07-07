@@ -10,7 +10,7 @@ import AccessibilityButton from "./AccessibilityButton.jsx";
 import ErrorBoundary from "./ErrorBoundary.jsx";
 import { useContent } from "../context/ContentProvider.jsx";
 import { resolvePath } from "../utils/resolvePath.js";
-import GrantLogo from "/images/millerGrant.png?url";
+import GrantLogo from "/images/millerGrant.webp?url";
 import loop from "/audio/loop.wav?url";
 
 export default function SectionRenderer({ station, section }) {

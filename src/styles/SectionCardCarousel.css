@@ -17,6 +17,8 @@
   gap: 16px;
 }
 
+/* Rows are balanced in JS (see SectionCardCarousel.jsx); space-evenly keeps
+   each row's cards centered and evenly spaced across the width. */
 .carousel-row {
   display: flex;
   justify-content: space-evenly;
@@ -26,6 +28,7 @@
 .card {
   display: block;
   width: 400px;
+  max-width: 100%;
   background: transparent;
   border-radius: 12px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);

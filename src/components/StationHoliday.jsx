@@ -2,7 +2,7 @@ import { useState } from "react";
 import AccessibilityButton from "./AccessibilityButton.jsx";
 
 import snoopy from "/images/snoopy.gif?url";
-import profSnoopy from "/images/profSnoopy.jpg?url";
+import profSnoopy from "/images/profSnoopy.webp?url";
 
 import "../styles/snowflakes.css";
 

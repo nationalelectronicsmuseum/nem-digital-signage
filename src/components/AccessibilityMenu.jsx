@@ -26,15 +26,7 @@ export default function AccessibilityMenu({ menuRef }) {
         label="Font Type"
         options={fontsJson.font}
         value={settings.font}
-        onChange={(v) =>
-          setSettings((p) => {
-            document.documentElement.style.setProperty(
-              "--app-font",
-              v.fontCode
-            );
-            return { ...p, font: v };
-          })
-        }
+        onChange={(v) => setSettings((p) => ({ ...p, font: v }))}
       />
 
       <SettingGroup

@@ -5,14 +5,10 @@ import "../styles/AudioCard.css";
 
 export default function AudioCard({ componentObject }) {
   const { settings } = useSettings();
-  const nameFontSize =
-    parseFloat(settings.fontSize.point) -
-    (settings.fontSize.name === "Small" ? 7 : 11) +
-    "pt";
-  const aFontSize =
-    parseFloat(settings.fontSize.point) -
-    (settings.fontSize.name === "Small" ? 11 : 15) +
-    "pt";
+  // Scale relative to the visitor's text-size setting so "Large" stays large
+  // here too (a fixed subtraction shrank small sizes disproportionately).
+  const nameFontSize = parseFloat(settings.fontSize.point) * 0.7 + "pt";
+  const aFontSize = parseFloat(settings.fontSize.point) * 0.55 + "pt";
   const titleStyle = {
     fontSize: nameFontSize,
   };

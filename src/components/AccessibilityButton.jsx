@@ -26,12 +26,20 @@ export default function AccessibilityButton() {
 
   return (
     <div className={open}>
-      <button onClick={toggleMenu} className="accessibility-button">
+      <button
+        onClick={toggleMenu}
+        className="accessibility-button"
+        aria-expanded={open !== ""}
+      >
         <img src={aIcon} className="accessibility-icon" alt="" />
         Accessibility
       </button>
       <div className="accessibility-background"></div>
-      <div className={hideMenu} onMouseDown={handleBackdropClick}>
+      <div
+        className={hideMenu}
+        role="presentation"
+        onMouseDown={handleBackdropClick}
+      >
         <AccessibilityMenu menuRef={menuRef} />
       </div>
     </div>
