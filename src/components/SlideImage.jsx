@@ -1,10 +1,18 @@
 import { useState } from "react";
 import { createPortal } from "react-dom";
+import useModalBehavior from "../hooks/useModalBehavior.js";
 import "../styles/SlideImage.css";
 
 const ImageOverlay = ({ onClose, image }) => {
+  const dialogRef = useModalBehavior(onClose);
   return createPortal(
-    <div className="image-overlay-background" onClick={onClose}>
+    <div
+      className="image-overlay-background"
+      role="presentation"
+      onClick={(e) => {
+        if (e.target === e.currentTarget) onClose();
+      }}
+    >
       <button
         type="button"
         className="image-overlay-close"
@@ -12,11 +20,12 @@ const ImageOverlay = ({ onClose, image }) => {
         aria-label="Close image"
       ></button>
       <div
+        ref={dialogRef}
+        tabIndex={-1}
         className="image-overlay"
         role="dialog"
         aria-modal="true"
         aria-label="Enlarged image"
-        onClick={(e) => e.stopPropagation()}
       >
         {image && (
           <div className="image-overlay-content">
@@ -40,7 +49,13 @@ export default function SlideImage(props) {
         onClick={() => setOpen(true)}
         aria-label="Enlarge image"
       >
-        <img className="slideImage" src={props.img} alt={props.caption || ""} />
+        <img
+          className="slideImage"
+          src={props.img}
+          alt={props.alt || ""}
+          loading="lazy"
+          decoding="async"
+        />
       </button>
       <i className="slideImageCaption">{props.caption}</i>
       {open && (

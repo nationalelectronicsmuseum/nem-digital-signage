@@ -2,20 +2,36 @@ import { useState } from "react";
 import { createPortal } from "react-dom";
 import { useSettings } from "../context/SettingsContext.jsx";
 import SpeechPlaybackControls from "./SpeechPlaybackControls.jsx";
+import useModalBehavior from "../hooks/useModalBehavior.js";
 import "../styles/FAQCard.css";
 
 const FAQOverlay = ({ onClose, componentObject }) => {
   const { settings } = useSettings();
+  const dialogRef = useModalBehavior(onClose);
   const aStyle = {
     fontSize: settings.fontSize.point,
   };
   return createPortal(
-    <div className="faqcard-overlay-background" onClick={onClose}>
+    <div
+      className="faqcard-overlay-background"
+      role="presentation"
+      onClick={(e) => {
+        if (e.target === e.currentTarget) onClose();
+      }}
+    >
+      <button
+        type="button"
+        className="faqcard-overlay-close"
+        onClick={onClose}
+        aria-label="Close"
+      ></button>
       <div
+        ref={dialogRef}
+        tabIndex={-1}
         className="faqcard-overlay"
         role="dialog"
         aria-modal="true"
-        onClick={(e) => e.stopPropagation()}
+        aria-label={componentObject.name}
       >
         {componentObject && (
           <div className="faqcard-overlay-content">
@@ -23,7 +39,7 @@ const FAQOverlay = ({ onClose, componentObject }) => {
               {componentObject.description && (
                 <div>
                   <SpeechPlaybackControls
-                    speechText={componentObject.description}
+                    text={componentObject.description}
                   />
                   <p className="faqcard-overlay-content-text" style={aStyle}>
                     {componentObject.description}
@@ -60,7 +76,9 @@ const FAQOverlay = ({ onClose, componentObject }) => {
 
 export default function FAQCard({ componentObject }) {
   const { settings } = useSettings();
-  const nameFontSize = parseFloat(settings.fontSize.point) - 11 + "pt";
+  // Scale relative to the visitor's text-size setting so "Large" stays large
+  // here too (a fixed subtraction shrank small sizes disproportionately).
+  const nameFontSize = parseFloat(settings.fontSize.point) * 0.7 + "pt";
   const aStyle = {
     fontSize: nameFontSize,
   };

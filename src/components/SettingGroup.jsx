@@ -18,6 +18,7 @@ export default function SettingGroup({ label, options, value, onChange }) {
                 : "setting-group-option"
             }
             key={label + opt.name}
+            aria-pressed={opt.name === value.name}
             onClick={() => onChange(opt)}
           >
             {opt.name}

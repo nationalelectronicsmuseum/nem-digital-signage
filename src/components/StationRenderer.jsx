@@ -1,6 +1,6 @@
 import AccessibilityButton from "./AccessibilityButton.jsx";
 import SectionCardCarousel from "./SectionCardCarousel";
-import GrantLogo from "/images/millerGrant.png?url";
+import GrantLogo from "/images/millerGrant.webp?url";
 import "../styles/Station.css";
 
 export default function StationRenderer({ station }) {

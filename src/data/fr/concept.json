@@ -18,8 +18,8 @@
     },
     "whatToWatch": "Tourner le bouton permet à la tension de changer comme l'indique le voltmètre. Le compteur reste immobile car aucun courant n'est utilisé jusqu'à ce que vous actionniez l'interrupteur. Lorsque vous actionnez l'interrupteur, l'ampèremètre indique le courant consommé par l'ampoule lorsque vous tournez le bouton. La quantité de courant consommée varie, modifiant la luminosité de l'ampoule.",
     "whatsGoingOn": "En appuyant sur l'interrupteur, vous fermez le circuit et permettez au courant de circuler sur le chemin du circuit. Sans la force de la tension et le trajet d’un circuit, le courant ne circulera pas. La tension pousse le courant, le forçant à circuler dans un circuit fermé et à allumer l'ampoule.",
-    "image1": "ohmslaw.gif",
-    "image2": "volt_impact.jpg"
+    "image1": "ohmslaw.webp",
+    "image2": "volt_impact.webp"
   },
   "HumanBattery": {
     "description": "Lorsque vous placez une main sur la plaque de cuivre et l’autre sur la plaque d’aluminium, le courant traverse votre corps d’une plaque à l’autre.",
@@ -37,8 +37,8 @@
     },
     "whatToWatch": "Surveillez le compteur. Il montre un flux de courant constant dans une direction.",
     "whatsGoingOn": "Lorsque vous touchez les plaques métalliques, l’humidité de vos mains agit comme les électrolytes conducteurs salins de la batterie. Les électrolytes réagissent avec les plaques de cuivre et d'aluminium. Il éloigne les électrons chargés négativement de la plaque de cuivre, laissant derrière eux les charges positives. Il donne ensuite des électrons à la plaque d’aluminium, la rendant chargée négativement. Ces électrons traversent le compteur lorsqu’ils retournent vers la plaque de cuivre. Dans un circuit simple comme celui-ci, la direction du flux de courant est déterminée par la différence de potentiel entre les deux plaques. Lorsque vous touchez les deux plaques simultanément, vous complétez le circuit, permettant ainsi la circulation des électrons du potentiel le plus élevé (plaque de cuivre) au potentiel inférieur (plaque d'aluminium) à travers votre corps.",
-    "image1": "humanBatt2.gif",
-    "image2": "humanBatt1.png"
+    "image1": "humanBatt2.webp",
+    "image2": "humanBatt1.webp"
   },
   "Oersted": {
     "description": "Au début du XIXe siècle, Oersted se lança dans une expérience qui allait changer notre compréhension de la nature. La curiosité d'Oersted le conduisit à une expérience extraordinaire. Avec une configuration simple, il a observé l’interaction entre l’électricité et le magnétisme. Il a remarqué que lorsqu'un courant électrique circulait dans un fil, l'aiguille d'une boussole magnétique à proximité se déplaçait. Cette interaction inattendue entre l’électricité et le magnétisme a été l’étincelle qui a déclenché une révolution scientifique.",
@@ -79,8 +79,8 @@
       ]
     },
     "whatsGoingOn": "L’aiguille d’une boussole pointe vers une force magnétique et généralement vers le pôle magnétique nord de la Terre. Lorsque vous actionnez l’interrupteur, vous permettez au courant de circuler dans une direction à partir de la batterie. Le champ magnétique créé par le courant électrique traversant la bobine de fil enroulé a créé son propre champ magnétique. Les aiguilles de la boussole s'alignent avec le champ magnétique autour du fil. Lorsque vous actionnez l’interrupteur dans l’autre sens, les aiguilles de la boussole s’inversent car le sens du courant a été inversé.",
-    "image1": "oersted2.jpg",
-    "image2": "oersted3.png"
+    "image1": "oersted2.webp",
+    "image2": "oersted3.webp"
   },
   "TheFaradayProject": {
     "description": "Michael Faraday, un scientifique du XIXe siècle, a fait des découvertes qui ont changé notre façon de comprendre l'électricité et le magnétisme. Faraday a mené une expérience révolutionnaire en 1831 qui a montré comment l'électricité et le magnétisme sont liés. Il a découvert que lorsqu’un aimant se déplace à proximité d’un fil, il crée un courant électrique. Cette découverte a jeté les bases de la technologie moderne que nous utilisons aujourd’hui. Lorsque Michael Faraday a fait sa découverte de l’induction électromagnétique, il a émis l’hypothèse qu’un champ magnétique changeant était nécessaire pour induire un courant dans un circuit proche. Pour tester son hypothèse, il a fabriqué une bobine en enveloppant un cylindre de papier avec du fil. Inclinez doucement le tube pour que l'aimant glisse le long du tube et voyez si vous pouvez générer un petit courant électrique. La force d'un électro-aimant dépend du nombre d'enroulements dans la bobine et de la force du courant électrique. Un plus grand nombre d'enroulements et un courant plus fort produisent des champs magnétiques plus intenses.",
@@ -115,8 +115,8 @@
       ]
     },
     "whatsGoingOn": "Ce phénomène est dû à l'induction électromagnétique, un principe découvert par Faraday. Cela démontre qu'un champ magnétique changeant induit un courant électrique dans un conducteur. Le facteur clé ici est le mouvement relatif entre l’aimant et le fil, provoquant une modification du flux magnétique à travers la bobine.  Le flux magnétique est une mesure de l'ampleur d'un champ magnétique traversant une zone donnée.",
-    "image1": "faraday1.jpg",
-    "image2": "faraday2.jpg"
+    "image1": "faraday1.webp",
+    "image2": "faraday2.webp"
   },
   "JumpingWire": {
     "description": "Il y a bien longtemps, les scientifiques s’interrogeaient sur les forces invisibles qui nous entourent. Une de ces forces, appelée électricité, les fascinait. Ils ont découvert que cela pouvait faire bouger et briller les objets. Mais ils ne savaient pas comment le créer. Dans les années 1800, un brillant scientifique nommé Michael Faraday s’est intéressé à l’électricité et aux aimants. Il a découvert quelque chose d'incroyable : lorsque des aimants se déplacent à proximité d'un fil, ils créent de l'électricité. Grâce à la découverte de Faraday, les ingénieurs ont construit le premier générateur électrique. Imaginez une machine qui transforme la puissance des aimants en rotation en électricité. Cette invention a changé le monde pour toujours.",
@@ -156,12 +156,12 @@
       ]
     },
     "image1": "jumpingwire1.webp",
-    "image2": "jumpingwire2.jpg"
+    "image2": "jumpingwire2.webp"
   },
   "StaticElectricity": {
     "description": "L'électricité statique est une forme d'électricité résultant du déséquilibre entre les charges positives et négatives au sein d'un matériau qui se produit lorsque les électrons (les particules chargées négativement dans un atome) se déplacent d'un matériau à un autre. Si le matériau récepteur d'électrons est isolé ou n'est pas conducteur électrique, il a tendance à retenir les électrons, ce qui entraîne une accumulation de charge électrique. Puisque cette charge ne bouge pas, on parle d’électricité statique. Lorsque les conditions permettent à la charge accumulée de s'écouler, le surplus d'électricité statique est déchargé et devient de l'électricité actuelle. L'électricité statique est un phénomène qui se produit lorsque certains matériaux frottent les uns contre les autres, provoquant le déplacement d'électrons d'une surface à une autre. Ce mouvement crée un déséquilibre des charges électriques, conduisant à l’accumulation d’électricité statique. Les orages sont des générateurs électriques naturels, produisant d'immenses charges statiques lorsque les gouttelettes d'eau et les particules de glace entrent en collision dans les nuages. Lorsque l’accumulation d’électricité statique devient trop importante, elle cherche un chemin vers le sol, ce qui provoque des éclairs. Ces éclairs électriques peuvent atteindre des températures plus élevées que la surface du soleil et libérer une puissance destructrice sur tout ce qui se trouve sur leur passage.",
     "theImpact": "La découverte de l’électricité statique a eu un impact profond sur la technologie et la vie quotidienne. De l’invention du télégraphe au développement de l’électronique moderne, l’électricité statique joue un rôle crucial dans l’alimentation de nos appareils et dans la facilitation de la communication. Au XVIIIe siècle, Benjamin Franklin a mené son célèbre expérience sur le cerf-volant, prouvant que la foudre est une forme d'électricité. Cette découverte révolutionnaire a conduit à l'invention du paratonnerre, un dispositif conçu pour protéger les bâtiments et les navires des coups de foudre en redirigeant en toute sécurité la charge électrique vers le sol. L'invention de Franklin a révolutionné notre compréhension de la foudre et a ouvert la voie aux systèmes modernes de protection contre la foudre.",
-    "image1": "static1.jpg",
+    "image1": "static1.webp",
     "image2": "static2.webp"
   },
   "HumanDynamo": {
@@ -188,7 +188,7 @@
         }
       ]
     },
-    "image1": "section.jpg",
+    "image1": "section.webp",
     "video1": "humanDynamo.mp4"
   },
   "VanDeGraaffGenerator": {
@@ -255,10 +255,10 @@
         }
       ]
     },
-    "image1": "graaff2.jpg",
-    "image2": "graaff3.png",
-    "image3": "graaff4.png",
-    "image4": "graaff5.jpg"
+    "image1": "graaff2.webp",
+    "image2": "graaff3.webp",
+    "image3": "graaff4.webp",
+    "image4": "graaff5.webp"
   },
   "JacobsLadderExperiment": {
     "description": "L'expérience de l'échelle de Jacob est une démonstration du pouvoir de l'électricité à créer des arcs de lumière fascinants. Il se compose de deux conducteurs verticaux, généralement constitués de tiges ou de fils métalliques, placés en forme de V avec un petit espace entre eux en bas.",
@@ -275,8 +275,8 @@
       ]
     },
     "whatsGoingOn": "Lorsqu'une haute tension est appliquée aux deux conducteurs, l'électricité circule dans l'air entre eux, ionisant l'air et créant un chemin conducteur. La chaleur intense générée par cette décharge électrique provoque une expansion rapide de l’air, poussant l’arc vers le haut. À mesure que l’arc monte, il se refroidit et l’air devient moins ionisé, ce qui finit par couper le circuit et éteindre l’arc. Le processus se répète, créant un affichage fascinant ressemblant à une échelle grimpant vers le haut.  Être témoin de la décharge d'arc et comprendre ses principes sous-jacents fournit des informations précieuses sur le monde de la science et de l'ingénierie.",
-    "image1": "jacobs3.gif",
-    "image2": "jacobs1.jpg"
+    "image1": "jacobs3.webp",
+    "image2": "jacobs1.webp"
   },
   "AudioTranslator": {
     "description": "L'Audio Translator, à ne pas confondre avec un traducteur de langue, est un appareil qui capture des sons lointains et les transforme en signaux électriques. Cette percée a marqué une nouvelle ère dans la communication.",
@@ -306,8 +306,8 @@
       ]
     },
     "whatsGoingOn": "Un traducteur audio fonctionne en capturant les ondes sonores via un microphone ou un diaphragme sensible. Ces ondes sonores sont ensuite converties en signaux électriques. Cette transformation permet aux signaux d'être amplifiés, transmis et reproduits sous forme de son à la réception. Essentiellement, il convertit les informations sonores en impulsions électriques pour une transmission efficace sur plusieurs distances, garantissant ainsi que les sons d'origine restent intacts lorsqu'ils atteignent leur destination.",
-    "image1": "audiotrans2.jpg",
-    "image2": "audiotrans3.jpg"
+    "image1": "audiotrans2.webp",
+    "image2": "audiotrans3.webp"
   },
   "ElectromagneticRadioWaves": {
     "description": "Les ondes radio électromagnétiques sont la force invisible qui nous relie sur de vastes distances.  Telle une symphonie de fréquences, ces ondes transportent des informations, de la musique et des voix dans les airs, façonnant notre monde moderne d’une manière que nous tenons souvent pour acquise. À la fin du XIXe siècle, Heinrich Hertz a mené des expériences qui ont confirmé l'existence d'ondes électromagnétiques prédites par les équations de James Clerk Maxwell.  Les travaux de Hertz ont jeté les bases de notre compréhension des ondes radio et de leurs applications.",
@@ -351,7 +351,7 @@
       ]
     },
     "whatsGoingOn": "Dans les communications électroniques, la bande passante est la quantité d’informations transmises sur une onde électromagnétique.  Plus une transmission contient d’informations, plus elle se propage sur de fréquences.  Puisque la fréquence d'un signal est mesurée en hertz (le nombre de cycles de changement par seconde), une bande passante est la différence en hertz entre la fréquence la plus élevée et la fréquence la plus basse utilisée.  La bande passante est intimement liée à l'efficacité, à la capacité et à la qualité des systèmes de communication basés sur les ondes radio.  En gérant l'allocation de bande passante et en optimisant les paramètres de transmission, les ingénieurs peuvent concevoir des réseaux de communication offrant une connectivité fiable et haut débit aux utilisateurs du monde entier. Quelque part au-dessus de vous, un avion diffuse sa position, sa vitesse et son relèvement sur 1090 MHz.  Un satellite météorologique géostationnaire situé à 22 000 milles de la Terre transmet des cartes météorologiques détaillées sur 1 694,1 MHz.  Une voiture qui passe près de chez vous transmet un signal avec la pression de l'un de ses pneus à 315 MHz.  Un satellite GPS survolant votre téléphone à 8 000 milles à l'heure envoie un signal à 1 575,42 MHz.  Une bouée de données flottant dans l'océan Atlantique transmet les relevés de la température de la mer, de la hauteur des vagues et de la vitesse du vent à un satellite de la NOAA à 401 MHz.  En plus de tout cela, chaque appareil mobile et routeur WiFi à proximité diffuse le trafic Internet de tout le monde par voie aérienne via les ondes radio.  Tous ces phénomènes peuvent se produire simultanément grâce à un spectre radioélectrique très soigneusement régulé.  Les radiodiffuseurs agréés peuvent se voir attribuer des parties de la bande passante disponible au niveau régional afin que leurs signaux n'interfèrent pas les uns avec les autres. La Federal Communication Commission (FCC) et la National Telecommunications and Information Administration (NTIA) partagent la tâche de gérer l'attribution des fréquences radio pour les ondes américaines.  La NTIA gère toutes les applications radio fédérales (y compris les utilisations militaires), tandis que la FCC gère tout le reste, y compris l'utilisation des radios par les gouvernements étatiques et locaux, commerciales et amateurs.",
-    "image1": "ewaves2.jpg",
+    "image1": "ewaves2.webp",
     "image2": "ewaves3.webp"
   },
   "EvolutionOfRecordedSound": {
@@ -378,7 +378,7 @@
         "file": "03C.mp3"
       }
     },
-    "image1": "audioPic1.jpg",
+    "image1": "audioPic1.webp",
     "image2": "audioPic2.jfif",
     "image3": "audioPic3.webp"
   },
@@ -440,8 +440,8 @@
       ]
     },
     "whatsGoingOn": "Les qualités magnétiques de l’électricité aident à envoyer le courant le long du fil télégraphique. Le code spécial composé de points et de tirets appelé « code Morse » utilise des impulsions de courant pour envoyer des messages. Il s’agissait de la première forme de communication instantanée longue distance. Les messages pouvaient être envoyés en tapant un code spécial créé par Samuel Morse sur une clé télégraphique. Chaque lettre de l'alphabet possède sa propre séquence spéciale de points et de tirets. Le nom télégraphe est dérivé du mot « télé » signifiant loin et du mot « graphique » signifiant écrire.",
-    "image1": "telegraph1.jpg",
-    "image2": "telegraph2.png"
+    "image1": "telegraph1.webp",
+    "image2": "telegraph2.webp"
   },
   "TheMarconiMagneticDetector": {
     "description": "À la fin du XIXe siècle, un jeune inventeur nommé Guglielmo Marconi a développé le détecteur magnétique Marconi, un appareil capable de détecter les champs magnétiques dans les ondes radio. Ce sont des signaux invisibles qui rendent possible la communication sans fil. Ces signaux pouvaient être transmis et reçus sur de longues distances sans fil et sont devenus le point de départ de la communication sans fil.",
@@ -531,9 +531,9 @@
       ]
     },
     "whatsGoingOn": "\"Maggie\" déplace la bande de fil de fer à travers la bobine radiofréquence lorsque vous tournez le bouton. Le détecteur fonctionne en capturant les ondes radio, qui sont des signaux invisibles voyageant dans l’air. Cet appareil utilisait un champ magnétique pour intercepter ces ondes. Lorsque les ondes radio interagissaient avec le champ magnétique à l’intérieur du détecteur, elles provoquaient des fluctuations, créant de minuscules courants électriques. Ces courants étaient ensuite amplifiés et convertis en sons audibles, permettant aux populations d'entendre les messages véhiculés par les ondes radio. Le détecteur magnétique Marconi fonctionne sur les principes de l'induction électromagnétique. Il détecte les ondes radio en utilisant un cohéreur, qui est un composant sensible aux ondes électromagnétiques.  Il fonctionne en utilisant une antenne pour recevoir des ondes radio, un cohéreur pour détecter et répondre à ces ondes en modifiant sa résistance électrique, et des circuits ultérieurs qui interprètent ce changement pour générer une sortie perceptible, généralement un signal audible. Cette technologie pionnière a jeté les bases des systèmes de communication sans fil que nous utilisons aujourd’hui.",
-    "image1": "marconi2.jpg",
-    "image2": "marconi3.jpg",
-    "image3": "marconi02.png"
+    "image1": "marconi2.webp",
+    "image2": "marconi3.webp",
+    "image3": "marconi02.webp"
   },
   "WhyDoMicrowavesHaveTurntables": {
     "description": "Les fours à micro-ondes génèrent des ondes électromagnétiques (micro-ondes) qui chauffent les aliments en excitant les molécules d'eau qu'ils contiennent. Les micro-ondes sont invisibles, vous ne pouvez donc pas les voir à l'intérieur d'un four à micro-ondes, mais leur présence peut être détectée grâce à des lampes au néon. Le champ électromagnétique changeant des micro-ondes fera bouger les particules chargées, et ainsi les électrons dans les pattes métalliques se déplaceront en créant du courant. Ce courant fait briller les lampes.  La répartition de ces ondes à l'intérieur du micro-ondes a tendance à être inégale, c'est pourquoi un plateau tournant permet de faire tourner les aliments, garantissant ainsi que toutes les parties du plat reçoivent une exposition relativement égale aux micro-ondes. Il en résulte une cuisson plus cohérente et uniforme.",

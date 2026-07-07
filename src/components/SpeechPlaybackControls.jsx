@@ -20,7 +20,7 @@ function SpeechPlaybackControls({ text }) {
           <button
             onClick={() => toggle(text)}
             className="speech"
-            aria-label="Play or pause speech"
+            aria-label={isPlayingThis ? "Pause speech" : "Play speech"}
           >
             <img src={playButtonLabel} className="iconImg" alt="" />
           </button>
