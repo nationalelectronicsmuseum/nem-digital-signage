@@ -6,7 +6,31 @@
     "whatsGoingOn": "这是怎么回事：",
     "tryThis": "试试这个：",
     "imageCaption": "点击放大",
-    "performedBy": "表演者："
+    "performedBy": "表演者：",
+    "sectionComingSoon": "内容即将推出。",
+    "enlargeImage": "放大图像",
+    "closeImage": "关闭图像",
+    "enlargedImage": "放大图像",
+    "playPauseSpeech": "播放或暂停语音",
+    "stopSpeech": "停止讲话",
+    "playAudio": "播放音频",
+    "pauseAudio": "暂停音频",
+    "stopAudio": "停止音频",
+    "home": "首页",
+    "index": "索引",
+    "accessibility": "无障碍",
+    "accessibilityMenu": "无障碍菜单",
+    "language": "语言",
+    "fontType": "字体类型",
+    "textSize": "文字大小",
+    "audioControls": "音频控制",
+    "videoUnsupported": "您的浏览器不支持视频标签。",
+    "grantLogo": "米勒·格兰特标志",
+    "small": "小",
+    "medium": "中",
+    "large": "大",
+    "on": "开",
+    "off": "关"
   },
   "sectionCardTitle": {
     "VoltageAndCurrent": "电压和电流",
@@ -56,7 +80,8 @@
     "CountermeasureBiography": "对策传记",
     "SatellitesAndHowTheyWork": "卫星及其工作原理",
     "LunarCamera": "月球相机",
-    "Telstar": "泰事达"
+    "Telstar": "泰事达",
+    "Sponsors": "赞助商"
   },
   "sectionTitle": {
     "VoltageAndCurrent": "电压和电流",
@@ -106,6 +131,7 @@
     "CountermeasureBiography": "对策传记",
     "SatellitesAndHowTheyWork": "卫星及其工作原理",
     "LunarCamera": "月球相机",
-    "Telstar": "泰事达"
+    "Telstar": "泰事达",
+    "Sponsors": "感谢我们的赞助商"
   }
 }

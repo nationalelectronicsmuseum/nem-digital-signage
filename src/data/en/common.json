@@ -6,7 +6,31 @@
     "whatsGoingOn": "What's Going On:",
     "tryThis": "Try this:",
     "imageCaption": "Click to enlarge",
-    "performedBy": "Performed by"
+    "performedBy": "Performed by",
+    "sectionComingSoon": "Content coming soon.",
+    "enlargeImage": "Enlarge image",
+    "closeImage": "Close image",
+    "enlargedImage": "Enlarged image",
+    "playPauseSpeech": "Play or pause speech",
+    "stopSpeech": "Stop speech",
+    "playAudio": "Play audio",
+    "pauseAudio": "Pause audio",
+    "stopAudio": "Stop audio",
+    "home": "Home",
+    "index": "Index",
+    "accessibility": "Accessibility",
+    "accessibilityMenu": "Accessibility Menu",
+    "language": "Language",
+    "fontType": "Font Type",
+    "textSize": "Text Size",
+    "audioControls": "Audio Controls",
+    "videoUnsupported": "Your browser does not support the video tag.",
+    "grantLogo": "Miller Grant logo",
+    "small": "Small",
+    "medium": "Medium",
+    "large": "Large",
+    "on": "On",
+    "off": "Off"
   },
   "sectionCardTitle": {
     "VoltageAndCurrent": "Voltage and Current",
@@ -56,7 +80,8 @@
     "CountermeasureBiography": "Countermeasure Biography",
     "SatellitesAndHowTheyWork": "Satellites and How They Work",
     "LunarCamera": "Lunar Camera",
-    "Telstar": "Telstar"
+    "Telstar": "Telstar",
+    "Sponsors": "Sponsors"
   },
   "sectionTitle": {
     "VoltageAndCurrent": "Voltage and Current",
@@ -106,6 +131,7 @@
     "CountermeasureBiography": "Countermeasure Biography",
     "SatellitesAndHowTheyWork": "Satellites and How They Work",
     "LunarCamera": "Lunar Camera",
-    "Telstar": "Telstar"
+    "Telstar": "Telstar",
+    "Sponsors": "Thank You to Our Sponsors"
   }
 }

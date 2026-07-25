@@ -18,8 +18,8 @@
     },
     "whatToWatch": "Durch Drehen des Knopfes kann die Spannung entsprechend der Anzeige des Voltmeters geändert werden. Das Messgerät bleibt still, da kein Strom verbraucht wird, bis Sie den Schalter umlegen. Wenn Sie den Schalter umlegen, zeigt das Amperemeter den von der Glühbirne aufgenommenen Strom an, während Sie den Knopf drehen. Die Menge des entnommenen Stroms variiert und verändert die Helligkeit der Glühbirne.",
     "whatsGoingOn": "Durch Umlegen des Schalters schließen Sie den Stromkreis und lassen den Strom im Stromkreis fließen. Ohne die Kraft der Spannung und den Weg eines Stromkreises kann kein Strom fließen. Die Spannung drückt den Strom und zwingt ihn, durch einen geschlossenen Stromkreis zu fließen und die Glühbirne zum Leuchten zu bringen.",
-    "image1": "ohmslaw.gif",
-    "image2": "volt_impact.jpg"
+    "image1": "ohmslaw.webp",
+    "image2": "volt_impact.webp"
   },
   "HumanBattery": {
     "description": "Wenn Sie eine Hand auf die Kupferplatte und die andere Hand auf die Aluminiumplatte legen, fließt der Strom durch Ihren Körper von einer Platte zur anderen.",
@@ -37,8 +37,8 @@
     },
     "whatToWatch": "Beobachten Sie den Zähler. Es zeigt einen konstanten Stromfluss in eine Richtung.",
     "whatsGoingOn": "Wenn Sie die Metallplatten berühren, fungiert die Feuchtigkeit an Ihren Händen als salzhaltiger, leitender Elektrolyt der Batterie. Die Elektrolyte reagieren mit den Kupfer- und Aluminiumplatten. Es entzieht der Kupferplatte die negativ geladenen Elektronen und hinterlässt die positiven Ladungen. Anschließend gibt es Elektronen an die Aluminiumplatte ab, wodurch diese negativ aufgeladen wird. Diese Elektronen passieren das Messgerät und kehren zur Kupferplatte zurück. In einer einfachen Schaltung wie dieser wird die Richtung des Stromflusses durch die Potentialdifferenz zwischen den beiden Platten bestimmt. Wenn Sie beide Platten gleichzeitig berühren, schließen Sie den Stromkreis und ermöglichen den Elektronenfluss vom höheren Potenzial (Kupferplatte) zum niedrigeren Potenzial (Aluminiumplatte) durch Ihren Körper.",
-    "image1": "humanBatt2.gif",
-    "image2": "humanBatt1.png"
+    "image1": "humanBatt2.webp",
+    "image2": "humanBatt1.webp"
   },
   "Oersted": {
     "description": "Im frühen 19. Jahrhundert startete Oersted ein Experiment, das unser Verständnis der Natur verändern sollte. Oersteds Neugier führte ihn zu einem außergewöhnlichen Experiment. Mit einem einfachen Aufbau beobachtete er die Wechselwirkung zwischen Elektrizität und Magnetismus. Er bemerkte, dass sich eine magnetische Kompassnadel in der Nähe bewegte, wenn ein elektrischer Strom durch einen Draht floss. Diese unerwartete Wechselwirkung zwischen Elektrizität und Magnetismus war der Funke, der eine Revolution in der Wissenschaft auslöste.",
@@ -79,8 +79,8 @@
       ]
     },
     "whatsGoingOn": "Eine Kompassnadel zeigt auf eine magnetische Kraft und typischerweise auf den magnetischen Nordpol der Erde. Wenn Sie den Schalter umlegen, ermöglichen Sie den Stromfluss in eine Richtung von der Batterie. Das durch den elektrischen Strom durch die umwickelte Drahtspule erzeugte Magnetfeld erzeugte ein eigenes Magnetfeld. Die Kompassnadeln richten sich nach dem Magnetfeld um den Draht. Wenn Sie den Schalter in die andere Richtung umlegen, kehren die Kompassnadeln um, da sich die Richtung des Stroms umgekehrt hat.",
-    "image1": "oersted2.jpg",
-    "image2": "oersted3.png"
+    "image1": "oersted2.webp",
+    "image2": "oersted3.webp"
   },
   "TheFaradayProject": {
     "description": "Michael Faraday, ein Wissenschaftler aus dem 19. Jahrhundert, machte Entdeckungen, die unser Verständnis von Elektrizität und Magnetismus veränderten. Faraday führte 1831 ein bahnbrechendes Experiment durch, das zeigte, wie Elektrizität und Magnetismus zusammenhängen. Er entdeckte, dass ein Magnet, der sich in der Nähe eines Drahtes bewegt, einen elektrischen Strom erzeugt. Diese Entdeckung legte den Grundstein für die moderne Technologie, die wir heute verwenden. Als Michael Faraday die elektromagnetische Induktion entdeckte, stellte er die Hypothese auf, dass ein sich änderndes Magnetfeld erforderlich ist, um in einem nahegelegenen Stromkreis einen Strom zu induzieren. Um seine Hypothese zu testen, stellte er eine Spule her, indem er einen Papierzylinder mit Draht umwickelte. Kippen Sie die Röhre vorsichtig, sodass der Magnet an der Röhre entlang gleitet, und prüfen Sie, ob Sie einen kleinen elektrischen Strom erzeugen können. Die Stärke eines Elektromagneten hängt von der Anzahl der Windungen in der Spule und der Stärke des elektrischen Stroms ab. Mehr Wicklungen und ein stärkerer Strom erzeugen stärkere Magnetfelder.",
@@ -115,8 +115,8 @@
       ]
     },
     "whatsGoingOn": "Dieses Phänomen entsteht durch elektromagnetische Induktion, ein von Faraday entdecktes Prinzip. Es zeigt, dass ein sich änderndes Magnetfeld einen elektrischen Strom in einem Leiter induziert. Der entscheidende Faktor hierbei ist die Relativbewegung zwischen Magnet und Draht, die zu einer Änderung des magnetischen Flusses durch die Spule führt.  Der magnetische Fluss ist ein Maß für die Stärke eines Magnetfelds, das durch einen bestimmten Bereich verläuft.",
-    "image1": "faraday1.jpg",
-    "image2": "faraday2.jpg"
+    "image1": "faraday1.webp",
+    "image2": "faraday2.webp"
   },
   "JumpingWire": {
     "description": "Vor langer Zeit wunderten sich Wissenschaftler über unsichtbare Kräfte um uns herum. Eine solche Kraft namens Elektrizität faszinierte sie. Sie entdeckten, dass es Dinge in Bewegung und zum Leuchten bringen konnte. Aber sie wussten nicht, wie man es herstellt. Im 19. Jahrhundert wurde ein brillanter Wissenschaftler namens Michael Faraday neugierig auf Elektrizität und Magnete. Er entdeckte etwas Unglaubliches: Wenn sich Magnete in der Nähe eines Drahtes bewegen, erzeugen sie Strom. Basierend auf Faradays Entdeckung bauten Ingenieure den ersten elektrischen Generator. Stellen Sie sich eine Maschine vor, die die Kraft rotierender Magnete in Elektrizität umwandelt. Diese Erfindung hat die Welt für immer verändert.",
@@ -156,12 +156,12 @@
       ]
     },
     "image1": "jumpingwire1.webp",
-    "image2": "jumpingwire2.jpg"
+    "image2": "jumpingwire2.webp"
   },
   "StaticElectricity": {
     "description": "Statische Elektrizität ist eine Form von Elektrizität, die aus dem Ungleichgewicht zwischen positiven und negativen Ladungen innerhalb eines Materials entsteht, das auftritt, wenn Elektronen (die negativ geladenen Teilchen in einem Atom) von einem Material zu einem anderen wandern. Wenn das elektronenaufnehmende Material entweder isoliert oder kein elektrischer Leiter ist, neigt es dazu, die Elektronen festzuhalten, was zu einem Aufbau elektrischer Ladung führt. Da sich diese Ladung nicht bewegt, spricht man von statischer Elektrizität. Wenn die Bedingungen den Abfluss der aufgebauten Ladung zulassen, wird der Überschuss an statischer Elektrizität entladen und in Strom umgewandelt. Statische Elektrizität ist ein Phänomen, das auftritt, wenn bestimmte Materialien aneinander reiben und dadurch Elektronen von einer Oberfläche zur anderen bewegen. Diese Bewegung führt zu einem Ungleichgewicht der elektrischen Ladungen, was zum Aufbau statischer Elektrizität führt. Gewitter sind elektrische Generatoren der Natur, die enorme statische Aufladungen erzeugen, wenn Wassertropfen und Eispartikel in Wolken kollidieren. Wenn die statische Elektrizität zu groß wird, sucht sie sich einen Weg zum Boden, was zu Blitzeinschlägen führt. Diese Elektrizitätsblitze können Temperaturen erreichen, die heißer sind als die der Sonnenoberfläche, und zerstörerische Kraft auf alles entfalten, was ihnen in den Weg kommt.",
     "theImpact": "Die Entdeckung der statischen Elektrizität hatte tiefgreifende Auswirkungen auf die Technologie und das Alltagsleben. Von der Erfindung des Telegraphen bis zur Entwicklung moderner Elektronik spielt statische Elektrizität eine entscheidende Rolle bei der Stromversorgung unserer Geräte und der Erleichterung der Kommunikation. Im 18. Jahrhundert führte Benjamin Franklin sein berühmtes Drachenexperiment durch und bewies, dass Blitze eine Form von Elektrizität sind. Diese bahnbrechende Entdeckung führte zur Erfindung des Blitzableiters – eines Geräts, das Gebäude und Schiffe vor Blitzeinschlägen schützen soll, indem es die elektrische Ladung sicher auf den Boden umleitet. Franklins Erfindung revolutionierte unser Verständnis von Blitzen und ebnete den Weg für moderne Blitzschutzsysteme.",
-    "image1": "static1.jpg",
+    "image1": "static1.webp",
     "image2": "static2.webp"
   },
   "HumanDynamo": {
@@ -188,7 +188,7 @@
         }
       ]
     },
-    "image1": "section.jpg",
+    "image1": "section.webp",
     "video1": "humanDynamo.mp4"
   },
   "VanDeGraaffGenerator": {
@@ -255,10 +255,10 @@
         }
       ]
     },
-    "image1": "graaff2.jpg",
-    "image2": "graaff3.png",
-    "image3": "graaff4.png",
-    "image4": "graaff5.jpg"
+    "image1": "graaff2.webp",
+    "image2": "graaff3.webp",
+    "image3": "graaff4.webp",
+    "image4": "graaff5.webp"
   },
   "JacobsLadderExperiment": {
     "description": "Jacob's Ladder Experiment ist eine Demonstration der Kraft der Elektrizität, faszinierende Lichtbögen zu erzeugen. Es besteht aus zwei vertikalen Leitern, typischerweise aus Metallstäben oder -drähten, die in einer V-Form angeordnet sind und an der Unterseite einen kleinen Spalt zwischen ihnen haben.",
@@ -275,8 +275,8 @@
       ]
     },
     "whatsGoingOn": "Wenn an die beiden Leiter eine Hochspannung angelegt wird, fließt Elektrizität durch die Luft im Spalt zwischen ihnen, ionisiert die Luft und erzeugt einen leitenden Pfad. Die durch diese elektrische Entladung erzeugte starke Hitze führt dazu, dass sich die Luft schnell ausdehnt und den Lichtbogen nach oben drückt. Während der Lichtbogen ansteigt, kühlt er ab und die Luft wird weniger ionisiert, wodurch schließlich der Stromkreis unterbrochen und der Lichtbogen gelöscht wird. Der Vorgang wiederholt sich und es entsteht ein faszinierendes Schauspiel, das einer nach oben kletternden Leiter ähnelt.  Die Beobachtung der Lichtbogenentladung und das Verständnis ihrer zugrunde liegenden Prinzipien bieten wertvolle Einblicke in die Welt der Wissenschaft und Technik.",
-    "image1": "jacobs3.gif",
-    "image2": "jacobs1.jpg"
+    "image1": "jacobs3.webp",
+    "image2": "jacobs1.webp"
   },
   "AudioTranslator": {
     "description": "Der Audioübersetzer, nicht zu verwechseln mit einem Sprachübersetzer, ist ein Gerät, das entfernte Geräusche erfasst und sie in elektrische Signale umwandelt. Dieser Durchbruch markierte eine neue Ära in der Kommunikation.",
@@ -306,8 +306,8 @@
       ]
     },
     "whatsGoingOn": "Ein Audioübersetzer erfasst Schallwellen durch ein empfindliches Mikrofon oder eine Membran. Diese Schallwellen werden dann in elektrische Signale umgewandelt. Durch diese Transformation können die Signale am Empfangsende verstärkt, übertragen und als Ton wiedergegeben werden. Im Wesentlichen wandelt es hörbare Informationen in elektrische Impulse für eine effiziente Übertragung über Entfernungen um und stellt sicher, dass die Originaltöne erhalten bleiben, wenn sie ihr Ziel erreichen.",
-    "image1": "audiotrans2.jpg",
-    "image2": "audiotrans3.jpg"
+    "image1": "audiotrans2.webp",
+    "image2": "audiotrans3.webp"
   },
   "ElectromagneticRadioWaves": {
     "description": "Elektromagnetische Radiowellen sind die unsichtbare Kraft, die uns über weite Entfernungen verbindet.  Wie eine Symphonie aus Frequenzen tragen diese Wellen Informationen, Musik und Stimmen durch die Luft und prägen unsere moderne Welt auf eine Weise, die wir oft für selbstverständlich halten. Im späten 19. Jahrhundert führte Heinrich Hertz Experimente durch, die die Existenz elektromagnetischer Wellen bestätigten, die in den Gleichungen von James Clerk Maxwell vorhergesagt wurde.  Die Arbeit von Hertz legte den Grundstein für unser Verständnis von Radiowellen und ihren Anwendungen.",
@@ -351,7 +351,7 @@
       ]
     },
     "whatsGoingOn": "In der elektronischen Kommunikation ist die Bandbreite die Informationsmenge, die auf einer elektromagnetischen Welle übertragen wird.  Je mehr Informationen in einer Übertragung enthalten sind, desto mehr Frequenzen werden übertragen.  Da die Frequenz eines Signals in Hertz (Anzahl der Änderungszyklen pro Sekunde) gemessen wird, ist eine Bandbreite die Differenz in Hertz zwischen der höchsten und der niedrigsten verwendeten Frequenz.  Die Bandbreite ist eng mit der Effizienz, Kapazität und Qualität radiowellenbasierter Kommunikationssysteme verknüpft.  Durch die Verwaltung der Bandbreitenzuweisung und die Optimierung der Übertragungsparameter können Ingenieure Kommunikationsnetzwerke entwerfen, die Benutzern weltweit zuverlässige Hochgeschwindigkeitsverbindungen bieten. Irgendwo über Ihnen sendet gerade ein Flugzeug seinen Standort, seine Geschwindigkeit und seine Peilung auf 1090 MHz.  Ein geostationärer Wettersatellit 22.000 Meilen von der Erde entfernt sendet detaillierte Wetterkarten auf 1694,1 MHz.  Ein Auto, das an Ihrem Haus vorbeifährt, sendet ein Signal mit der Druckanzeige eines seiner Reifen auf 315 MHz.  Ein GPS-Satellit, der mit 8.000 Meilen pro Stunde über Ihnen fliegt, sendet ein Signal mit 1575,42 MHz an Ihr Telefon.  Eine im Atlantischen Ozean schaukelnde Datenboje übermittelt mit 401 MHz Messwerte zu Meerestemperatur, Wellenhöhe und Windgeschwindigkeit an einen NOAA-Satelliten.  Darüber hinaus sendet jedes einzelne Mobilgerät und jeder WLAN-Router in Ihrer Nähe den Internetverkehr aller über Funkwellen durch die Luft.  All dies kann dank eines sehr sorgfältig regulierten Funkspektrums gleichzeitig auftreten.  Lizenzierten Rundfunkveranstaltern können Teile der regional verfügbaren Bandbreite zugewiesen werden, damit sich ihre Signale nicht gegenseitig stören. Die Federal Communication Commission (FCC) und die National Telecommunications and Information Administration (NTIA) teilen sich die Aufgabe, die Zuteilung von Funkfrequenzen für US-amerikanische Funkwellen zu verwalten.  Die NTIA verwaltet alle Funkanwendungen auf Bundesebene (einschließlich militärischer Nutzung), während die FCC alles andere verwaltet, einschließlich der Nutzung durch Landes- und Kommunalverwaltung sowie kommerzielle und Amateurfunknutzung.",
-    "image1": "ewaves2.jpg",
+    "image1": "ewaves2.webp",
     "image2": "ewaves3.webp"
   },
   "EvolutionOfRecordedSound": {
@@ -378,7 +378,7 @@
         "file": "03C.mp3"
       }
     },
-    "image1": "audioPic1.jpg",
+    "image1": "audioPic1.webp",
     "image2": "audioPic2.jfif",
     "image3": "audioPic3.webp"
   },
@@ -440,8 +440,8 @@
       ]
     },
     "whatsGoingOn": "Die magnetischen Eigenschaften der Elektrizität tragen dazu bei, den Strom über den Telegrafendraht zu leiten. Der spezielle Code aus Punkten und Strichen namens „Morsecode“ verwendet Stromimpulse, um Nachrichten zu senden. Dies war die früheste Form der sofortigen Fernkommunikation. Nachrichten konnten durch Tippen auf einen von Samuel Morse erstellten speziellen Code auf einer Telegrafentaste gesendet werden. Jeder Buchstabe des Alphabets hat seine eigene spezielle Reihenfolge aus Punkten und Strichen. Der Name Telegraph leitet sich vom Wort „tele“ für „fern“ und dem Wort „graph“ für schreiben ab.",
-    "image1": "telegraph1.jpg",
-    "image2": "telegraph2.png"
+    "image1": "telegraph1.webp",
+    "image2": "telegraph2.webp"
   },
   "TheMarconiMagneticDetector": {
     "description": "Im späten 19. Jahrhundert entwickelte ein junger Erfinder namens Guglielmo Marconi den Marconi-Magnetdetektor, ein Gerät, das Magnetfelder in Radiowellen erkennen konnte. Dabei handelt es sich um unsichtbare Signale, die eine drahtlose Kommunikation ermöglichen. Diese Signale konnten ohne Kabel über große Entfernungen übertragen und empfangen werden und wurden zum Ausgangspunkt für die drahtlose Kommunikation.",
@@ -531,9 +531,9 @@
       ]
     },
     "whatsGoingOn": "„Maggie“ bewegt das Eisendrahtband durch die Hochfrequenzspule, während Sie den Knopf drehen. Der Detektor erfasst Radiowellen, unsichtbare Signale, die sich durch die Luft bewegen. Dieses Gerät nutzte ein Magnetfeld, um diese Wellen abzufangen. Wenn die Radiowellen mit dem Magnetfeld im Detektor interagierten, verursachten sie Schwankungen und erzeugten winzige elektrische Ströme. Diese Ströme wurden dann verstärkt und in hörbare Töne umgewandelt, sodass die Menschen die von den Radiowellen übertragenen Nachrichten hören konnten. Der Marconi-Magnetdetektor arbeitet nach den Prinzipien der elektromagnetischen Induktion. Es erkennt Radiowellen mithilfe eines Kohärenters, einer Komponente, die gegenüber elektromagnetischen Wellen empfindlich ist.  Es funktioniert, indem es eine Antenne zum Empfang von Radiowellen, einen Kohärenter, der diese Wellen erkennt und darauf reagiert, indem er seinen elektrischen Widerstand ändert, und eine nachfolgende Schaltung nutzt, die diese Änderung interpretiert, um ein wahrnehmbares Ausgangssignal, normalerweise ein akustisches Signal, zu erzeugen. Diese bahnbrechende Technologie legte den Grundstein für die drahtlosen Kommunikationssysteme, die wir heute verwenden.",
-    "image1": "marconi2.jpg",
-    "image2": "marconi3.jpg",
-    "image3": "marconi02.png"
+    "image1": "marconi2.webp",
+    "image2": "marconi3.webp",
+    "image3": "marconi02.webp"
   },
   "WhyDoMicrowavesHaveTurntables": {
     "description": "Mikrowellenöfen erzeugen elektromagnetische Wellen (Mikrowellen), die Lebensmittel erhitzen, indem sie Wassermoleküle in den Lebensmitteln anregen. Mikrowellen sind unsichtbar, daher kann man sie in einem Mikrowellenherd nicht sehen, aber ihre Anwesenheit kann mit Neonlampen erkannt werden. Das sich verändernde elektromagnetische Feld der Mikrowellen bewegt geladene Teilchen, und so bewegen sich die Elektronen in den Metallbeinen und erzeugen Strom. Dieser Strom bringt die Lampen zum Leuchten.  Da die Verteilung dieser Wellen innerhalb der Mikrowelle tendenziell ungleichmäßig ist, hilft ein Drehteller dabei, das Essen zu drehen und sicherzustellen, dass alle Teile des Gerichts den Mikrowellen relativ gleichmäßig ausgesetzt sind. Dies führt zu einem gleichmäßigeren und gleichmäßigeren Garen.",

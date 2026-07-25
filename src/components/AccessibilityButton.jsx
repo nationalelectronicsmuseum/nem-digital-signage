@@ -1,9 +1,12 @@
 import { useRef, useState } from "react";
 import "../styles/AccessibilityButton.css";
 import AccessibilityMenu from "./AccessibilityMenu.jsx";
+import { useContent } from "../context/ContentProvider.jsx";
+import { resolvePath } from "../utils/resolvePath.js";
 import aIcon from "/images/accessibleIcon.svg?url";
 
 export default function AccessibilityButton() {
+  const content = useContent();
   const [open, setOpen] = useState("");
   const [hideMenu, setHideMenu] = useState("hide-menu");
   const menuRef = useRef();
@@ -26,12 +29,20 @@ export default function AccessibilityButton() {
 
   return (
     <div className={open}>
-      <button onClick={toggleMenu} className="accessibility-button">
+      <button
+        onClick={toggleMenu}
+        className="accessibility-button"
+        aria-expanded={open !== ""}
+      >
         <img src={aIcon} className="accessibility-icon" alt="" />
-        Accessibility
+        {resolvePath(content, "common.label.accessibility") || "Accessibility"}
       </button>
       <div className="accessibility-background"></div>
-      <div className={hideMenu} onMouseDown={handleBackdropClick}>
+      <div
+        className={hideMenu}
+        role="presentation"
+        onMouseDown={handleBackdropClick}
+      >
         <AccessibilityMenu menuRef={menuRef} />
       </div>
     </div>

@@ -1,4 +1,10 @@
-import { createContext, useContext, useState, useEffect } from "react";
+import {
+  createContext,
+  useCallback,
+  useContext,
+  useState,
+  useEffect,
+} from "react";
 import languagesJson from "../data/languages.json";
 import fontsJson from "../data/fonts.json";
 import paddingJson from "../data/padding.json";
@@ -86,8 +92,19 @@ export const SettingsProvider = ({ children }) => {
     localStorage.setItem("appSettings", JSON.stringify(settings));
   }, [settings]);
 
+  // Apply the selected font app-wide. Doing it here rather than in the menu's
+  // onChange keeps the CSS variable correct after reloads and idle resets.
+  useEffect(() => {
+    document.documentElement.style.setProperty(
+      "--app-font",
+      settings.font.fontCode
+    );
+  }, [settings.font]);
+
+  const resetSettings = useCallback(() => setSettings(defaultSettings), []);
+
   return (
-    <SettingsContext.Provider value={{ settings, setSettings }}>
+    <SettingsContext.Provider value={{ settings, setSettings, resetSettings }}>
       {children}
     </SettingsContext.Provider>
   );

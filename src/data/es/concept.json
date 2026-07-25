@@ -18,8 +18,8 @@
     },
     "whatToWatch": "Girar la perilla permite que el voltaje cambie como muestra el voltímetro. El medidor permanece quieto porque no se utiliza corriente hasta que acciona el interruptor. Cuando accionas el interruptor, el amperímetro muestra la corriente consumida por la bombilla mientras giras la perilla. La cantidad de corriente consumida varía, cambiando el brillo de la bombilla.",
     "whatsGoingOn": "Al accionar el interruptor, se cierra el circuito y se permite que la corriente fluya en el camino del circuito. Sin la fuerza del voltaje y la trayectoria de un circuito, la corriente no fluirá. El voltaje empuja la corriente, obligándola a fluir a través de un circuito cerrado y encender la bombilla.",
-    "image1": "ohmslaw.gif",
-    "image2": "volt_impact.jpg"
+    "image1": "ohmslaw.webp",
+    "image2": "volt_impact.webp"
   },
   "HumanBattery": {
     "description": "Cuando colocas una mano sobre la placa de cobre y la otra sobre la placa de aluminio, la corriente fluirá a través de tu cuerpo de una placa a la otra.",
@@ -37,8 +37,8 @@
     },
     "whatToWatch": "Mira el medidor. Muestra un flujo de corriente constante en una dirección.",
     "whatsGoingOn": "Cuando tocas las placas de metal, la humedad de tus manos actúa como electrolitos conductores salinos de la batería. Los electrolitos reaccionan con las placas de cobre y aluminio. Quita los electrones cargados negativamente de la placa de cobre, dejando atrás las cargas positivas. Luego le da electrones a la placa de aluminio, lo que hace que se cargue negativamente. Estos electrones pasan a través del medidor y regresan a la placa de cobre. En un circuito simple como este, la dirección del flujo de corriente está determinada por la diferencia de potencial entre las dos placas. Cuando tocas ambas placas simultáneamente, completas el circuito, permitiendo el flujo de electrones desde el potencial más alto (placa de cobre) al potencial más bajo (placa de aluminio) a través de tu cuerpo.",
-    "image1": "humanBatt2.gif",
-    "image2": "humanBatt1.png"
+    "image1": "humanBatt2.webp",
+    "image2": "humanBatt1.webp"
   },
   "Oersted": {
     "description": "A principios del siglo XIX, Oersted se embarcó en un experimento que cambiaría nuestra comprensión de la naturaleza. La curiosidad de Oersted lo llevó a realizar un experimento extraordinario. Con una sencilla configuración, observó la interacción entre la electricidad y el magnetismo. Se dio cuenta de que cuando una corriente eléctrica fluía a través de un cable, la aguja de una brújula magnética cercana se movía. Esta interacción inesperada entre la electricidad y el magnetismo fue la chispa que encendió una revolución en la ciencia.",
@@ -79,8 +79,8 @@
       ]
     },
     "whatsGoingOn": "La aguja de una brújula apunta a una fuerza magnética y, normalmente, al polo norte magnético de la Tierra. Cuando accionas el interruptor, permites que la corriente fluya en una dirección desde la batería. El campo magnético creado por la corriente eléctrica a través de la bobina de alambre envuelto creó su propio campo magnético. Las agujas de la brújula se alinean con el campo magnético alrededor del cable. Cuando mueves el interruptor en la otra dirección, las agujas de la brújula se invierten porque se ha invertido la dirección de la corriente.",
-    "image1": "oersted2.jpg",
-    "image2": "oersted3.png"
+    "image1": "oersted2.webp",
+    "image2": "oersted3.webp"
   },
   "TheFaradayProject": {
     "description": "Michael Faraday, un científico del siglo XIX, hizo descubrimientos que cambiaron la forma en que entendemos la electricidad y el magnetismo. Faraday llevó a cabo un experimento innovador en 1831 que demostró cómo están conectados la electricidad y el magnetismo. Descubrió que cuando un imán se mueve cerca de un cable, crea una corriente eléctrica. Este descubrimiento sentó las bases de la tecnología moderna que utilizamos hoy. Cuando Michael Faraday descubrió la inducción electromagnética, planteó la hipótesis de que era necesario un campo magnético cambiante para inducir una corriente en un circuito cercano. Para probar su hipótesis hizo una bobina envolviendo un cilindro de papel con alambre. Incline suavemente el tubo para que el imán se deslice hacia abajo y vea si puede generar una pequeña corriente eléctrica. La fuerza de un electroimán depende del número de devanados de la bobina y de la fuerza de la corriente eléctrica. Más devanados y una corriente más fuerte producen campos magnéticos más intensos.",
@@ -115,8 +115,8 @@
       ]
     },
     "whatsGoingOn": "Este fenómeno se produce debido a la inducción electromagnética, principio descubierto por Faraday. Demuestra que un campo magnético cambiante induce una corriente eléctrica en un conductor. El factor clave aquí es el movimiento relativo entre el imán y el cable, lo que hace que cambie el flujo magnético a través de la bobina.  El flujo magnético es una medida de la magnitud de un campo magnético que pasa a través de un área determinada.",
-    "image1": "faraday1.jpg",
-    "image2": "faraday2.jpg"
+    "image1": "faraday1.webp",
+    "image2": "faraday2.webp"
   },
   "JumpingWire": {
     "description": "Hace mucho tiempo, los científicos se preguntaron acerca de las fuerzas invisibles que nos rodean. Una de esas fuerzas, llamada electricidad, los fascinó. Descubrieron que podía hacer que las cosas se movieran y brillaran. Pero no sabían cómo crearlo. En el siglo XIX, un brillante científico llamado Michael Faraday sintió curiosidad por la electricidad y los imanes. Descubrió algo increíble: cuando los imanes se mueven cerca de un cable, generan electricidad. Aprovechando el descubrimiento de Faraday, los ingenieros construyeron el primer generador eléctrico. Imagine una máquina que convierte el poder de los imanes giratorios en electricidad. Este invento cambió el mundo para siempre.",
@@ -156,12 +156,12 @@
       ]
     },
     "image1": "jumpingwire1.webp",
-    "image2": "jumpingwire2.jpg"
+    "image2": "jumpingwire2.webp"
   },
   "StaticElectricity": {
     "description": "La electricidad estática es una forma de electricidad resultante del desequilibrio entre cargas positivas y negativas dentro de un material que ocurre cuando los electrones (las partículas cargadas negativamente en un átomo) se mueven de un material a otro. Si el material receptor de electrones está aislado o no es un conductor eléctrico, tiende a retener los electrones, lo que produce una acumulación de carga eléctrica. Como esta carga no se mueve, se la conoce como electricidad estática. Cuando las condiciones permiten que fluya la carga acumulada, el excedente de electricidad estática se descarga y se convierte en electricidad actual. La electricidad estática es un fenómeno que se produce cuando ciertos materiales rozan entre sí, provocando que los electrones se desplacen de una superficie a otra. Este movimiento crea un desequilibrio de cargas eléctricas, lo que lleva a la acumulación de electricidad estática. Las tormentas son los generadores eléctricos de la naturaleza y producen inmensas cargas estáticas cuando las gotas de agua y las partículas de hielo chocan dentro de las nubes. Cuando la acumulación de electricidad estática se vuelve demasiado grande, busca un camino hacia el suelo, lo que provoca la caída de rayos. Estos rayos de electricidad pueden alcanzar temperaturas más altas que la superficie del sol y desatar un poder destructivo sobre cualquier cosa que se interponga en su camino.",
     "theImpact": "El descubrimiento de la electricidad estática ha tenido un profundo impacto en la tecnología y la vida cotidiana. Desde la invención del telégrafo hasta el desarrollo de la electrónica moderna, la electricidad estática desempeña un papel crucial a la hora de alimentar nuestros dispositivos y facilitar la comunicación. En el siglo XVIII, Benjamin Franklin realizó su famoso experimento con cometas, demostrando que los rayos son una forma de electricidad. Este descubrimiento innovador condujo a la invención del pararrayos, un dispositivo diseñado para proteger edificios y barcos de los rayos al redirigir de forma segura la carga eléctrica al suelo. El invento de Franklin revolucionó nuestra comprensión de los rayos y allanó el camino para los sistemas modernos de protección contra rayos.",
-    "image1": "static1.jpg",
+    "image1": "static1.webp",
     "image2": "static2.webp"
   },
   "HumanDynamo": {
@@ -188,7 +188,7 @@
         }
       ]
     },
-    "image1": "section.jpg",
+    "image1": "section.webp",
     "video1": "humanDynamo.mp4"
   },
   "VanDeGraaffGenerator": {
@@ -255,10 +255,10 @@
         }
       ]
     },
-    "image1": "graaff2.jpg",
-    "image2": "graaff3.png",
-    "image3": "graaff4.png",
-    "image4": "graaff5.jpg"
+    "image1": "graaff2.webp",
+    "image2": "graaff3.webp",
+    "image3": "graaff4.webp",
+    "image4": "graaff5.webp"
   },
   "JacobsLadderExperiment": {
     "description": "El experimento de la escalera de Jacob es una demostración del poder de la electricidad para crear fascinantes arcos de luz. Consta de dos conductores verticales, generalmente hechos de varillas o alambres de metal, colocados en forma de V con un pequeño espacio entre ellos en la parte inferior.",
@@ -275,8 +275,8 @@
       ]
     },
     "whatsGoingOn": "Cuando se aplica un alto voltaje a los dos conductores, la electricidad fluye a través del aire en el espacio entre ellos, ionizando el aire y creando un camino conductor. El intenso calor generado por esta descarga eléctrica hace que el aire se expanda rápidamente, empujando el arco hacia arriba. A medida que el arco asciende, se enfría y el aire se vuelve menos ionizado, lo que eventualmente rompe el circuito y extingue el arco. El proceso se repite, creando una exhibición fascinante que se asemeja a una escalera que sube hacia arriba.  Ser testigo de la descarga del arco y comprender sus principios subyacentes proporciona información valiosa sobre el mundo de la ciencia y la ingeniería.",
-    "image1": "jacobs3.gif",
-    "image2": "jacobs1.jpg"
+    "image1": "jacobs3.webp",
+    "image2": "jacobs1.webp"
   },
   "AudioTranslator": {
     "description": "El Audio Translator, que no debe confundirse con un traductor de idiomas, es un dispositivo que capta sonidos lejanos y los convierte en señales eléctricas. Este avance marcó una nueva era en la comunicación.",
@@ -306,8 +306,8 @@
       ]
     },
     "whatsGoingOn": "Un traductor de audio funciona capturando ondas sonoras a través de un micrófono o diafragma sensible. Estas ondas sonoras luego se convierten en señales eléctricas. Esta transformación permite que las señales se amplifiquen, transmitan y reproduzcan como sonido en un extremo receptor. Básicamente, convierte información audible en impulsos eléctricos para una transmisión eficiente a través de distancias, asegurando que los sonidos originales permanezcan intactos cuando llegan a su destino.",
-    "image1": "audiotrans2.jpg",
-    "image2": "audiotrans3.jpg"
+    "image1": "audiotrans2.webp",
+    "image2": "audiotrans3.webp"
   },
   "ElectromagneticRadioWaves": {
     "description": "Las ondas de radio electromagnéticas son la fuerza invisible que nos conecta a través de grandes distancias.  Como una sinfonía de frecuencias, estas ondas transportan información, música y voces a través del aire, dando forma a nuestro mundo moderno de maneras que a menudo damos por sentado. A finales del siglo XIX, Heinrich Hertz realizó experimentos que confirmaron la existencia de ondas electromagnéticas predichas por las ecuaciones de James Clerk Maxwell.  El trabajo de Hertz sentó las bases para nuestra comprensión de las ondas de radio y sus aplicaciones.",
@@ -351,7 +351,7 @@
       ]
     },
     "whatsGoingOn": "En las comunicaciones electrónicas, el ancho de banda es la cantidad de información que se transmite en una onda electromagnética.  Cuanta más información haya en una transmisión, más frecuencias se difundirán.  Dado que la frecuencia de una señal se mide en hercios (el número de ciclos de cambio por segundo), un ancho de banda es la diferencia en hercios entre la frecuencia más alta y la frecuencia más baja que utiliza.  El ancho de banda está íntimamente ligado a la eficiencia, capacidad y calidad de los sistemas de comunicación basados ​​en ondas de radio.  Al gestionar la asignación de ancho de banda y optimizar los parámetros de transmisión, los ingenieros pueden diseñar redes de comunicación que brinden conectividad confiable y de alta velocidad a usuarios de todo el mundo. En algún lugar encima de usted en este momento, un avión está transmitiendo su ubicación, velocidad y rumbo en 1090 MHz.  Un satélite meteorológico geoestacionario a 22.000 millas de la Tierra transmite mapas meteorológicos detallados en 1694,1 MHz.  Un automóvil que pasa por su casa está transmitiendo una señal con la lectura de presión de uno de sus neumáticos a 315 MHz.  Un satélite GPS que vuela sobre nosotros a 8.000 millas por hora envía una señal a su teléfono a 1575,42 MHz.  Una boya de datos que flota en el océano Atlántico transmite lecturas de la temperatura del mar, la altura de las olas y la velocidad del viento a un satélite de la NOAA a 401 MHz.  Además de todo eso, cada dispositivo móvil y enrutador WiFi cercano a usted explota el tráfico de Internet de todos a través del aire a través de ondas de radio.  Todo esto puede ocurrir simultáneamente gracias a un espectro radioeléctrico muy cuidadosamente regulado.  A las emisoras con licencia se les pueden asignar partes del ancho de banda disponible regionalmente para que sus señales no interfieran entre sí. La Comisión Federal de Comunicaciones (FCC) y la Administración Nacional de Información y Telecomunicaciones (NTIA) comparten la tarea de gestionar la asignación de frecuencias de radio para las ondas de radio de Estados Unidos.  La NTIA gestiona todas las aplicaciones de radio federales (incluidos los usos militares), mientras que la FCC gestiona todo lo demás, incluido el uso de radioaficionados, comerciales y de los gobiernos estatales y locales.",
-    "image1": "ewaves2.jpg",
+    "image1": "ewaves2.webp",
     "image2": "ewaves3.webp"
   },
   "EvolutionOfRecordedSound": {
@@ -378,7 +378,7 @@
         "file": "03C.mp3"
       }
     },
-    "image1": "audioPic1.jpg",
+    "image1": "audioPic1.webp",
     "image2": "audioPic2.jfif",
     "image3": "audioPic3.webp"
   },
@@ -440,8 +440,8 @@
       ]
     },
     "whatsGoingOn": "Las cualidades magnéticas de la electricidad ayudan a enviar la corriente a lo largo del cable telegráfico. El código especial de puntos y rayas llamado “Código Morse” utiliza pulsos de corriente para enviar mensajes. Esta fue la primera forma de comunicación instantánea a larga distancia. Los mensajes se podían enviar pulsando un código especial creado por Samuel Morse en una tecla de telégrafo. Cada letra del alfabeto tiene su propia secuencia especial de puntos y rayas. El nombre telégrafo se deriva de la palabra \"tele\" que significa lejos y la palabra \"graph\" que significa escribir.",
-    "image1": "telegraph1.jpg",
-    "image2": "telegraph2.png"
+    "image1": "telegraph1.webp",
+    "image2": "telegraph2.webp"
   },
   "TheMarconiMagneticDetector": {
     "description": "A finales del siglo XIX, un joven inventor llamado Guglielmo Marconi desarrolló el detector magnético Marconi, un dispositivo que podía detectar campos magnéticos en ondas de radio. Se trata de señales invisibles que hacen posible la comunicación inalámbrica. Estas señales podían transmitirse y recibirse a largas distancias sin cables y se convirtieron en el punto de partida de la comunicación inalámbrica.",
@@ -531,9 +531,9 @@
       ]
     },
     "whatsGoingOn": "\"Maggie\" mueve la banda de alambre de hierro a través de la bobina de radiofrecuencia mientras giras la perilla. El detector funciona capturando ondas de radio, que son señales invisibles que viajan por el aire. Este dispositivo utilizó un campo magnético para interceptar estas ondas. Cuando las ondas de radio interactuaban con el campo magnético dentro del detector, provocaban fluctuaciones y creaban pequeñas corrientes eléctricas. Luego, estas corrientes se amplificaron y se convirtieron en sonidos audibles, lo que permitió a las personas escuchar los mensajes transmitidos por las ondas de radio. El detector magnético Marconi funciona según los principios de la inducción electromagnética. Detecta ondas de radio utilizando un cohesor, que es un componente sensible a las ondas electromagnéticas.  Funciona utilizando una antena para recibir ondas de radio, un cohesor para detectar y responder a estas ondas alterando su resistencia eléctrica y un circuito posterior que interpreta este cambio para generar una salida discernible, generalmente una señal audible. Esta tecnología pionera sentó las bases de los sistemas de comunicación inalámbrica que utilizamos hoy en día.",
-    "image1": "marconi2.jpg",
-    "image2": "marconi3.jpg",
-    "image3": "marconi02.png"
+    "image1": "marconi2.webp",
+    "image2": "marconi3.webp",
+    "image3": "marconi02.webp"
   },
   "WhyDoMicrowavesHaveTurntables": {
     "description": "Los hornos microondas generan ondas electromagnéticas (microondas) que calientan los alimentos excitando las moléculas de agua dentro de los alimentos. Las microondas son invisibles, por lo que no se pueden ver dentro de un horno microondas, pero su presencia se puede detectar con lámparas de neón. El campo electromagnético cambiante de las microondas hará que las partículas cargadas se muevan, por lo que los electrones en las patas metálicas se moverán creando corriente. Esta corriente hace que las lámparas brillen.  La distribución de estas ondas dentro del microondas tiende a ser desigual, por lo que un plato giratorio ayuda a rotar la comida, asegurando que todas las partes del plato reciban una exposición relativamente igual a las microondas. Esto da como resultado una cocción más consistente y uniforme.",

@@ -18,7 +18,12 @@ export default function MenuButton({ station }) {
 
   return (
     <div className={open}>
-      <button className="burger-menu-icon" onClick={toggleMenu}>
+      <button
+        className="burger-menu-icon"
+        onClick={toggleMenu}
+        aria-label="Section menu"
+        aria-expanded={open !== ""}
+      >
         <svg
           width="30px"
           height="30px"
@@ -32,7 +37,8 @@ export default function MenuButton({ station }) {
         </svg>
       </button>
       <div className="menu-background"></div>
-      <div className="station-menu" onClick={toggleMenu}>
+      {/* Any tap inside the menu (a nav link or the backdrop) closes it. */}
+      <div className="station-menu" role="presentation" onClick={toggleMenu}>
         <StationNav station={station} />
       </div>
     </div>

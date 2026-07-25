@@ -3,7 +3,7 @@
     "term": "Tension",
     "definition": "La force électrique qui pousse les charges électriques à travers un circuit, semblable à la pression poussant l’eau à travers un tuyau."
   },
-  "actuel": {
+  "courant": {
     "term": "Actuel",
     "definition": "Le flux de charge électrique à travers un fil ou un circuit."
   },

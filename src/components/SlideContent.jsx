@@ -38,6 +38,16 @@ const isImage = (contentItem) => {
   );
 };
 
+// Images may also be authored as { "image": "file.jpg", "alt": "…" } so
+// content creators can give artifact photos meaningful alt text.
+const isImageObject = (contentItem) => {
+  return (
+    contentItem !== null &&
+    typeof contentItem === "object" &&
+    isImage(contentItem.image)
+  );
+};
+
 const objectImplementsAudioCard = (contentItem) => {
   return (
     typeof contentItem !== "string" &&
@@ -54,6 +64,7 @@ const objectImplementsSteps = (contentItem) => {
     typeof contentItem !== "string" &&
     "list" in contentItem &&
     Array.isArray(contentItem.list) &&
+    contentItem.list.length > 0 &&
     "text" in contentItem.list[0]
   );
 };
@@ -63,6 +74,7 @@ const objectImplementsFacts = (contentItem) => {
     typeof contentItem !== "string" &&
     "facts" in contentItem &&
     Array.isArray(contentItem.facts) &&
+    contentItem.facts.length > 0 &&
     "value" in contentItem.facts[0]
   );
 };
@@ -75,7 +87,11 @@ export default function SlideContent({ data, className }) {
   const lastItem = data.length
     ? resolvePath(content, data[data.length - 1])
     : null;
-  const addPadding = !(isVideo(lastItem) || isImage(lastItem));
+  const addPadding = !(
+    isVideo(lastItem) ||
+    isImage(lastItem) ||
+    isImageObject(lastItem)
+  );
 
   return (
     <div className={className}>
@@ -97,17 +113,26 @@ export default function SlideContent({ data, className }) {
 
         if (isVideo(contentItem)) {
           return <Video src={"/video/" + contentItem} key={i} />;
-        } else if (isImage(contentItem)) {
+        } else if (isImage(contentItem) || isImageObject(contentItem)) {
+          const file = isImageObject(contentItem)
+            ? contentItem.image
+            : contentItem;
           return (
             <SlideImage
-              img={"/images/" + contentItem}
+              img={"/images/" + file}
+              alt={isImageObject(contentItem) ? contentItem.alt : ""}
               caption={content.common.label.imageCaption}
               key={i}
             />
           );
         } else if (objectImplementsAudioCard(contentItem)) {
-          contentItem.performedByText = content.common.label.performedBy;
-          return <AudioCard componentObject={contentItem} key={i} />;
+          // Copy before adding the label: contentItem is the cached language
+          // JSON module, which must stay pristine across renders.
+          const audioCardItem = {
+            ...contentItem,
+            performedByText: content.common.label.performedBy,
+          };
+          return <AudioCard componentObject={audioCardItem} key={i} />;
         } else if (objectImplementsFacts(contentItem)) {
           return <Facts componentObject={contentItem} key={i} />;
         }
@@ -116,7 +141,8 @@ export default function SlideContent({ data, className }) {
         if (typeof contentItem === "string") {
           contentItem = { text: contentItem, label: label };
         } else if (!("label" in contentItem)) {
-          contentItem.label = label;
+          // Copy instead of writing label back onto the shared content object.
+          contentItem = { ...contentItem, label };
         }
 
         if (fieldName === "steps" || objectImplementsSteps(contentItem)) {

@@ -1,9 +1,25 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
+// Stamps each build with a version file that deployed kiosks poll to detect
+// new deploys (see src/components/KioskLifecycle.jsx).
+function emitVersionFile() {
+  return {
+    name: "emit-version-file",
+    apply: "build",
+    generateBundle() {
+      this.emitFile({
+        type: "asset",
+        fileName: "version.json",
+        source: JSON.stringify({ version: Date.now() }),
+      });
+    },
+  };
+}
+
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), emitVersionFile()],
   build: {
     rollupOptions: {
       output: {

@@ -6,7 +6,31 @@
     "whatsGoingOn": "どうしたの：",
     "tryThis": "これを試してください:",
     "imageCaption": "クリックして拡大",
-    "performedBy": "出演者"
+    "performedBy": "出演者",
+    "sectionComingSoon": "コンテンツは近日公開予定です。",
+    "enlargeImage": "画像を拡大する",
+    "closeImage": "画像を閉じる",
+    "enlargedImage": "拡大画像",
+    "playPauseSpeech": "音声を再生または一時停止する",
+    "stopSpeech": "スピーチをやめる",
+    "playAudio": "オーディオを再生する",
+    "pauseAudio": "音声を一時停止する",
+    "stopAudio": "音声を停止する",
+    "home": "ホーム",
+    "index": "索引",
+    "accessibility": "アクセシビリティ",
+    "accessibilityMenu": "アクセシビリティメニュー",
+    "language": "言語",
+    "fontType": "フォントの種類",
+    "textSize": "文字サイズ",
+    "audioControls": "オーディオコントロール",
+    "videoUnsupported": "お使いのブラウザはvideoタグをサポートしていません。",
+    "grantLogo": "ミラー・グラントのロゴ",
+    "small": "小",
+    "medium": "中",
+    "large": "大",
+    "on": "オン",
+    "off": "オフ"
   },
   "sectionCardTitle": {
     "VoltageAndCurrent": "電圧と電流",
@@ -56,7 +80,8 @@
     "CountermeasureBiography": "対策略歴",
     "SatellitesAndHowTheyWork": "衛星とその仕組み",
     "LunarCamera": "月面カメラ",
-    "Telstar": "テルスター"
+    "Telstar": "テルスター",
+    "Sponsors": "スポンサー"
   },
   "sectionTitle": {
     "VoltageAndCurrent": "電圧と電流",
@@ -106,6 +131,7 @@
     "CountermeasureBiography": "対策略歴",
     "SatellitesAndHowTheyWork": "衛星とその仕組み",
     "LunarCamera": "月面カメラ",
-    "Telstar": "テルスター"
+    "Telstar": "テルスター",
+    "Sponsors": "スポンサーの皆様に感謝します"
   }
 }

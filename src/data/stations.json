@@ -6,7 +6,7 @@
       "sections": [
         {
           "id": "VoltageAndCurrent",
-          "image": "/images/voltcurr.png",
+          "image": "/images/voltcurr.webp",
           "slides": [
             { "type": "BifoldSlide", "slideID": "VoltageAndCurrent1" },
             { "type": "BifoldSlide", "slideID": "VoltageAndCurrent2" },
@@ -15,7 +15,7 @@
         },
         {
           "id": "HumanBattery",
-          "image": "/images/humanbatt.png",
+          "image": "/images/humanbatt.webp",
           "slides": [
             { "type": "BifoldSlide", "slideID": "HumanBattery1" },
             { "type": "BifoldSlide", "slideID": "HumanBattery2" },
@@ -24,7 +24,7 @@
         },
         {
           "id": "Oersted",
-          "image": "/images/oersted1.jpg",
+          "image": "/images/oersted1.webp",
           "slides": [
             { "type": "BifoldSlide", "slideID": "Oersted1" },
             { "type": "BifoldSlide", "slideID": "Oersted2" },
@@ -33,7 +33,7 @@
         },
         {
           "id": "TheFaradayProject",
-          "image": "/images/faraday.png",
+          "image": "/images/faraday.webp",
           "slides": [
             { "type": "BifoldSlide", "slideID": "TheFaradayProject1" },
             { "type": "BifoldSlide", "slideID": "TheFaradayProject2" },
@@ -57,7 +57,7 @@
         },
         {
           "id": "StaticElectricity",
-          "image": "/images/static-electricity-section-thumbnail.jpg",
+          "image": "/images/static-electricity-section-thumbnail.webp",
           "slides": [
             { "type": "BifoldSlide", "slideID": "StaticElectricity1" },
             { "type": "BifoldSlide", "slideID": "StaticElectricity2" }
@@ -65,7 +65,7 @@
         },
         {
           "id": "HumanDynamo",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": [
             { "type": "BifoldSlide", "slideID": "HumanDynamo1" },
             { "type": "BifoldSlide", "slideID": "HumanDynamo2" },
@@ -75,7 +75,7 @@
         },
         {
           "id": "VanDeGraaffGenerator",
-          "image": "/images/graaff1.jpg",
+          "image": "/images/graaff1.webp",
           "slides": [
             { "type": "BifoldSlide", "slideID": "VanDeGraaffGenerator1" },
             { "type": "BifoldSlide", "slideID": "VanDeGraaffGenerator2" },
@@ -100,7 +100,7 @@
       "sections": [
         {
           "id": "AudioTranslator",
-          "image": "/images/audiotrans1.jpg",
+          "image": "/images/audiotrans1.webp",
           "slides": [
             { "type": "BifoldSlide", "slideID": "AudioTranslator1" },
             { "type": "BifoldSlide", "slideID": "AudioTranslator2" },
@@ -133,7 +133,7 @@
       "sections": [
         {
           "id": "TelegraphMachine",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": [
             { "type": "BifoldSlide", "slideID": "TelegraphMachine1" },
             { "type": "BifoldSlide", "slideID": "TelegraphMachine2" },
@@ -153,7 +153,7 @@
         },
         {
           "id": "AudioTranslator",
-          "image": "/images/audiotrans1.jpg",
+          "image": "/images/audiotrans1.webp",
           "slides": [
             { "type": "BifoldSlide", "slideID": "AudioTranslator1" },
             { "type": "BifoldSlide", "slideID": "AudioTranslator2" },
@@ -168,7 +168,7 @@
       "sections": [
         {
           "id": "WhyDoMicrowavesHaveTurntables",
-          "image": "/images/microwaveHome.jpg",
+          "image": "/images/microwaveHome.webp",
           "slides": [
             {
               "type": "BifoldSlide",
@@ -186,7 +186,7 @@
         },
         {
           "id": "Theremin",
-          "image": "/images/thereminHome.jpg",
+          "image": "/images/thereminHome.webp",
           "slides": [
             { "type": "BifoldSlide", "slideID": "Theremin1" },
             { "type": "BifoldSlide", "slideID": "Theremin2" },
@@ -201,12 +201,12 @@
       "sections": [
         {
           "id": "Infrared",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         },
         {
           "id": "Theremin",
-          "image": "/images/thereminHome.jpg",
+          "image": "/images/thereminHome.webp",
           "slides": [
             { "type": "BifoldSlide", "slideID": "Theremin1" },
             { "type": "BifoldSlide", "slideID": "Theremin2" },
@@ -215,7 +215,7 @@
         },
         {
           "id": "Bombsights",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         }
       ]
@@ -226,7 +226,7 @@
       "sections": [
         {
           "id": "ElectromagneticWaves",
-          "image": "/images/wavesHome.jpg",
+          "image": "/images/wavesHome.webp",
           "slides": [
             { "type": "CenteredMonoSlide", "slideID": "ElectromagneticWaves1" },
             { "type": "BifoldSlide", "slideID": "ElectromagneticWaves2" },
@@ -241,7 +241,7 @@
         },
         {
           "id": "PolarizationExperiment",
-          "image": "/images/polarHome.png",
+          "image": "/images/polarHome.webp",
           "slides": [
             { "type": "BifoldSlide", "slideID": "PolarizationExperiment1" },
             { "type": "BifoldSlide", "slideID": "PolarizationExperiment2" },
@@ -265,17 +265,17 @@
       "sections": [
         {
           "id": "VacuumTubeHistory",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         },
         {
           "id": "VacuumTubeTypes",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         },
         {
           "id": "HowDoVacuumTubesWork",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         }
       ]
@@ -286,7 +286,7 @@
       "sections": [
         {
           "id": "HAMRadio",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": [{ "type": "FAQSlide", "slideID": "HAMRadio" }]
         }
       ]
@@ -297,17 +297,17 @@
       "sections": [
         {
           "id": "ProximityFuze",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         },
         {
           "id": "SCR-270",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         },
         {
           "id": "SCR-399",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         }
       ]
@@ -318,27 +318,27 @@
       "sections": [
         {
           "id": "SoundsAtSea",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         },
         {
           "id": "SonarBeacon",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         },
         {
           "id": "SonarBuoys",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         },
         {
           "id": "XBot",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         },
         {
           "id": "VeteranSeas",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         }
       ]
@@ -349,17 +349,17 @@
       "sections": [
         {
           "id": "WhatIsRadar",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         },
         {
           "id": "TypesOfRadar",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         },
         {
           "id": "AWACS",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         }
       ]
@@ -370,27 +370,27 @@
       "sections": [
         {
           "id": "WhatIsDoppler",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         },
         {
           "id": "DopplerHistory",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         },
         {
           "id": "BOMARC",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         },
         {
           "id": "ModernDopplerUse",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         },
         {
           "id": "DopplerOralHistory",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         }
       ]
@@ -401,27 +401,27 @@
       "sections": [
         {
           "id": "WhatAreCountermeasures",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         },
         {
           "id": "Chaff",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         },
         {
           "id": "Decoys",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         },
         {
           "id": "TypesOfCountermeasures",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         },
         {
           "id": "CountermeasureBiography",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         }
       ]
@@ -432,18 +432,29 @@
       "sections": [
         {
           "id": "SatellitesAndHowTheyWork",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         },
         {
           "id": "LunarCamera",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
         },
         {
           "id": "Telstar",
-          "image": "/images/section.jpg",
+          "image": "/images/section.webp",
           "slides": []
+        }
+      ]
+    },
+    {
+      "id": "demo",
+      "name": "Demo Station",
+      "sections": [
+        {
+          "id": "Sponsors",
+          "image": "/images/rattie1.webp",
+          "slides": [{ "type": "SponsorSlide", "slideID": "TheodoreRattie" }]
         }
       ]
     }

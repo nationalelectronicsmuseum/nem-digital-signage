@@ -36,6 +36,17 @@
   height: inherit;
 }
 
+.section-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 2em;
+  color: #5b0b0b;
+  text-align: center;
+  padding: 2rem;
+}
+
 .section-grant-logo {
   position: fixed;
   left: 75px;

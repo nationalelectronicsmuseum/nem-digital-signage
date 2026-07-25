@@ -147,10 +147,6 @@
     "left": ["concept.ElectromagneticRadioWaves.steps"],
     "right": ["concept.ElectromagneticRadioWaves.whatsGoingOn"]
   },
-  "hamRadio": {
-    "left": ["faq.hamRadio.faq"],
-    "right": ["faq.hamRadio.video"]
-  },
   "EvolutionOfRecordedSound1": {
     "left": ["concept.EvolutionOfRecordedSound.image1"],
     "right": ["concept.EvolutionOfRecordedSound.audioInfo.bunkerHill"]
@@ -270,5 +266,13 @@
   "HAMRadio": {
     "left": ["faq.hamRadio.faq"],
     "right": ["faq.hamRadio.video"]
+  },
+  "TheodoreRattie": {
+    "left": ["sponsor.TheodoreRattie.image1"],
+    "center": [
+      "sponsor.TheodoreRattie.title",
+      "sponsor.TheodoreRattie.description"
+    ],
+    "right": ["sponsor.TheodoreRattie.image2"]
   }
 }
