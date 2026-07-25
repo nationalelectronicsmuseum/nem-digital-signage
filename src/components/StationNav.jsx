@@ -14,23 +14,29 @@ export default function StationNav({ station }) {
 
   return (
     <nav>
-      <Link to={"/" + station.id}>Home</Link>
-      {station.sections.map((sec) => {
-        let title = resolvePath(content, "common.sectionCardTitle." + sec.id);
-        return (
-          <Link
-            key={sec.id}
-            to={"/" + station.id + "/" + sec.id}
-            onClick={resetSwiper}
-          >
-            {title}
-          </Link>
-        );
-      })}
+      <Link to={"/" + station.id}>
+        {resolvePath(content, "common.label.home") || "Home"}
+      </Link>
+      {station.sections
+        .filter((sec) => sec.slides?.length > 0)
+        .map((sec) => {
+          let title = resolvePath(content, "common.sectionCardTitle." + sec.id);
+          return (
+            <Link
+              key={sec.id}
+              to={"/" + station.id + "/" + sec.id}
+              onClick={resetSwiper}
+            >
+              {title}
+            </Link>
+          );
+        })}
       {/* Invisible staff-only shortcut back to the station index. Hidden from
           assistive tech and the tab order so visitors never land on it. */}
       <Link to={"/"} aria-hidden="true" tabIndex={-1}>
-        <div className="transparent">Index</div>
+        <div className="transparent">
+          {resolvePath(content, "common.label.index") || "Index"}
+        </div>
       </Link>
     </nav>
   );

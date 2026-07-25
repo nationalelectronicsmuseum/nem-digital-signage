@@ -38,7 +38,7 @@ export default function VocabularyOverlay({ term, definition, onClose }) {
         className="vocabulary-overlay"
         role="dialog"
         aria-modal="true"
-        aria-label={term}
+        aria-label={term || definition}
       >
         <span style={labelStyle} className="vocabulary-label">
           {term}

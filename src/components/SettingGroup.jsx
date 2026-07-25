@@ -1,10 +1,13 @@
 import "../styles/SettingGroup.css";
 import { toggleOptions } from "../data/toggleOptions.js";
 
-export default function SettingGroup({ label, options, value, onChange }) {
+export default function SettingGroup({ label, options, value, onChange, getLabel }) {
   if (!options) {
     options = toggleOptions.toggle;
   }
+  // getLabel translates the option's display text; opt.name stays the stable
+  // identity used for selection matching and persisted settings.
+  const display = getLabel || ((opt) => opt.name);
   return (
     <div className="setting-group-container">
       <h3 className="setting-group-title">{label}</h3>
@@ -21,7 +24,7 @@ export default function SettingGroup({ label, options, value, onChange }) {
             aria-pressed={opt.name === value.name}
             onClick={() => onChange(opt)}
           >
-            {opt.name}
+            {display(opt)}
           </button>
         ))}
       </div>

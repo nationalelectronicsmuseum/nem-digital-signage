@@ -446,6 +446,17 @@
           "slides": []
         }
       ]
+    },
+    {
+      "id": "demo",
+      "name": "Demo Station",
+      "sections": [
+        {
+          "id": "Sponsors",
+          "image": "/images/rattie1.webp",
+          "slides": [{ "type": "SponsorSlide", "slideID": "TheodoreRattie" }]
+        }
+      ]
     }
   ]
 }

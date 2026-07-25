@@ -2,32 +2,38 @@
   "languages": [
     {
       "name": "English",
+      "endonym": "English",
       "languageCode": "en",
       "speechCode": "en-CA",
       "default": "true"
     },
     {
       "name": "Spanish",
+      "endonym": "Español",
       "languageCode": "es",
       "speechCode": "es-MX"
     },
     {
       "name": "French",
+      "endonym": "Français",
       "languageCode": "fr",
       "speechCode": "fr-FR"
     },
     {
       "name": "German",
+      "endonym": "Deutsch",
       "languageCode": "de",
       "speechCode": "de-DE"
     },
     {
       "name": "Chinese",
+      "endonym": "中文",
       "languageCode": "zh-CN",
       "speechCode": "zh-CN"
     },
     {
       "name": "Japanese",
+      "endonym": "日本語",
       "languageCode": "ja",
       "speechCode": "ja-JP"
     }
