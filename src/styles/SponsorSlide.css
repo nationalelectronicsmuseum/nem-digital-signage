@@ -1,0 +1,85 @@
+.swiper,
+.swiper-slide {
+  height: 100%;
+}
+
+/* An image on each side bookending a centered title and description. */
+/* This slide type replaces the site-wide collage with a plain grey across the
+   whole display; SponsorSlide toggles this class on <body> while it is mounted
+   (the collage lives on body, above the section, so a container background
+   can't cover the header). */
+body.sponsor-slide-active {
+  background-image: none;
+  background-color: white;
+}
+
+.sponsor-slide-container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  height: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+/* Images keep their aspect ratio and never crowd out the text. */
+.sponsor-slide-image-pane {
+  flex: 0 0 18%;
+  align-self: stretch;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Give SlideImage a sized ancestor so it scales to the pane instead of
+   falling back to the image's natural size. */
+.sponsor-slide-image {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sponsor-slide-image .slideImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.sponsor-slide-center-pane {
+  flex: 1 1 0;
+  min-width: 0;
+  max-height: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  /* "safe" keeps the top of the text reachable when a large accessibility
+     font size pushes it past the pane instead of centering it out of view. */
+  justify-content: safe center;
+}
+
+/* Avoid scrollbars making layout jump */
+.sponsor-slide-center-pane::-webkit-scrollbar {
+  width: 6px;
+}
+.sponsor-slide-center-pane::-webkit-scrollbar-thumb {
+  background: #5b0b0b;
+  border-radius: 3px;
+}
+
+/* This slide is short enough to fit without scrolling, so drop the scroll
+   runway SlideContent appends after text content. */
+.sponsor-slide-content .text-padding {
+  display: none;
+}
+
+/* The first entry is the sponsorship credit, the rest is the story. */
+.sponsor-slide-content .text-content:first-child .text-content-text {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.sponsor-slide-content .text-content:last-of-type .text-content-text {
+  margin-bottom: 0;
+}

@@ -4,8 +4,8 @@ import DataRegistry from "../data";
 
 export default function AudioSlide({ slideID }) {
   const slide = DataRegistry.slides[slideID];
-  const leftContent = slide.left;
-  const rightContent = slide.right;
+  const leftContent = slide?.left;
+  const rightContent = slide?.right;
 
   return (
     <div className="slide-wrapper">

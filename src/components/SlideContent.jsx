@@ -54,6 +54,7 @@ const objectImplementsSteps = (contentItem) => {
     typeof contentItem !== "string" &&
     "list" in contentItem &&
     Array.isArray(contentItem.list) &&
+    contentItem.list.length > 0 &&
     "text" in contentItem.list[0]
   );
 };
@@ -63,6 +64,7 @@ const objectImplementsFacts = (contentItem) => {
     typeof contentItem !== "string" &&
     "facts" in contentItem &&
     Array.isArray(contentItem.facts) &&
+    contentItem.facts.length > 0 &&
     "value" in contentItem.facts[0]
   );
 };
@@ -106,8 +108,17 @@ export default function SlideContent({ data, className }) {
             />
           );
         } else if (objectImplementsAudioCard(contentItem)) {
-          contentItem.performedByText = content.common.label.performedBy;
-          return <AudioCard componentObject={contentItem} key={i} />;
+          // Build a new object rather than mutating the shared, cached content
+          // module in place (render must stay pure).
+          return (
+            <AudioCard
+              componentObject={{
+                ...contentItem,
+                performedByText: content.common.label.performedBy,
+              }}
+              key={i}
+            />
+          );
         } else if (objectImplementsFacts(contentItem)) {
           return <Facts componentObject={contentItem} key={i} />;
         }
@@ -116,7 +127,8 @@ export default function SlideContent({ data, className }) {
         if (typeof contentItem === "string") {
           contentItem = { text: contentItem, label: label };
         } else if (!("label" in contentItem)) {
-          contentItem.label = label;
+          // Copy instead of writing label back onto the shared content object.
+          contentItem = { ...contentItem, label: label };
         }
 
         if (fieldName === "steps" || objectImplementsSteps(contentItem)) {

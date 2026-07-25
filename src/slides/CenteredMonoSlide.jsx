@@ -2,7 +2,7 @@ import "../styles/CenteredMonoSlide.css";
 import SlideContent from "../components/SlideContent";
 import DataRegistry from "../data";
 
-export default function MonoSlide({ slideID }) {
+export default function CenteredMonoSlide({ slideID }) {
   const content = DataRegistry.slides[slideID];
 
   return (

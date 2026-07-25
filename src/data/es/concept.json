@@ -37,7 +37,7 @@
     },
     "whatToWatch": "Mira el medidor. Muestra un flujo de corriente constante en una dirección.",
     "whatsGoingOn": "Cuando tocas las placas de metal, la humedad de tus manos actúa como electrolitos conductores salinos de la batería. Los electrolitos reaccionan con las placas de cobre y aluminio. Quita los electrones cargados negativamente de la placa de cobre, dejando atrás las cargas positivas. Luego le da electrones a la placa de aluminio, lo que hace que se cargue negativamente. Estos electrones pasan a través del medidor y regresan a la placa de cobre. En un circuito simple como este, la dirección del flujo de corriente está determinada por la diferencia de potencial entre las dos placas. Cuando tocas ambas placas simultáneamente, completas el circuito, permitiendo el flujo de electrones desde el potencial más alto (placa de cobre) al potencial más bajo (placa de aluminio) a través de tu cuerpo.",
-    "image1": "humanBatt2.gif",
+    "image1": "humanBatt2.webp",
     "image2": "humanBatt1.png"
   },
   "Oersted": {
@@ -275,7 +275,7 @@
       ]
     },
     "whatsGoingOn": "Cuando se aplica un alto voltaje a los dos conductores, la electricidad fluye a través del aire en el espacio entre ellos, ionizando el aire y creando un camino conductor. El intenso calor generado por esta descarga eléctrica hace que el aire se expanda rápidamente, empujando el arco hacia arriba. A medida que el arco asciende, se enfría y el aire se vuelve menos ionizado, lo que eventualmente rompe el circuito y extingue el arco. El proceso se repite, creando una exhibición fascinante que se asemeja a una escalera que sube hacia arriba.  Ser testigo de la descarga del arco y comprender sus principios subyacentes proporciona información valiosa sobre el mundo de la ciencia y la ingeniería.",
-    "image1": "jacobs3.gif",
+    "image1": "jacobs3.webp",
     "image2": "jacobs1.jpg"
   },
   "AudioTranslator": {

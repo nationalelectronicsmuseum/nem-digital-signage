@@ -1,9 +1,10 @@
 import { useSettings } from "../context/SettingsContext.jsx";
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import SpeechPlaybackControls from "./SpeechPlaybackControls.jsx";
 import VocabularyOverlay from "./VocabularyOverlay.jsx";
 import { useContent } from "../context/ContentProvider.jsx";
 import { resolvePath } from "../utils/resolvePath.js";
+import { buildVocabRegex } from "../utils/vocab.js";
 import "../styles/TextContent.css";
 
 function parseVocabularyText(text, vocabEntries, onClick) {
@@ -84,14 +85,20 @@ export default function TextContent({ componentObject }) {
     fontSize: settings.fontSize.point,
   };
 
-const vocabEntries = Object.entries(vocabulary)
-  .map(([key, value]) => ({
-    key,
-    regex: new RegExp(`\\b${key.replace(/\s+/g, "\\s+")}\\b`, "gi"),
-    ...value
-  }))
-  .sort((a, b) => b.key.length - a.key.length);
-
+  // Rebuilt only when the language (vocabulary) changes, not on every render
+  // (font-size changes, slide transitions). Longest keys first so multi-word
+  // terms win over their sub-words.
+  const vocabEntries = useMemo(
+    () =>
+      Object.entries(vocabulary || {})
+        .map(([key, value]) => ({
+          key,
+          regex: buildVocabRegex(key),
+          ...value,
+        }))
+        .sort((a, b) => b.key.length - a.key.length),
+    [vocabulary]
+  );
 
   const labelFontSize = parseFloat(settings.fontSize.point) + 2 + "pt";
   const labelStyle = {
@@ -102,6 +109,11 @@ const vocabEntries = Object.entries(vocabulary)
   const text = componentObject.text;
   const speechText = label != null ? label + " " + text : text;
 
+  const parsedText = useMemo(
+    () => parseVocabularyText(text, vocabEntries, setActiveWord),
+    [text, vocabEntries]
+  );
+
   return (
     <div className="text-content">
       <span style={labelStyle} className="text-content-label">
@@ -109,7 +121,7 @@ const vocabEntries = Object.entries(vocabulary)
         <SpeechPlaybackControls text={speechText} />
       </span>
       <p style={aStyle} className="text-content-text">
-      {parseVocabularyText(text, vocabEntries, setActiveWord)}
+      {parsedText}
 
       {activeWord && (
         <VocabularyOverlay

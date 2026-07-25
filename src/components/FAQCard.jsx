@@ -23,7 +23,7 @@ const FAQOverlay = ({ onClose, componentObject }) => {
               {componentObject.description && (
                 <div>
                   <SpeechPlaybackControls
-                    speechText={componentObject.description}
+                    text={componentObject.description}
                   />
                   <p className="faqcard-overlay-content-text" style={aStyle}>
                     {componentObject.description}

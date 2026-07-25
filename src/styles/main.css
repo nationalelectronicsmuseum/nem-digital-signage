@@ -55,3 +55,16 @@ label {
 a {
   text-decoration-line: none;
 }
+
+/* Global button reset so unclassed buttons (accessibility toggle, burger menu,
+   media controls) look the same on every route. Buttons with their own class
+   styling (.setting-group-option, .station-button, .faqcard-button) keep their
+   borders via higher specificity. Previously this lived in MenuButton.css and
+   only applied on section pages, so the accessibility button showed a stray
+   border until the visitor navigated into a section. */
+button {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}

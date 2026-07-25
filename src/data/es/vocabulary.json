@@ -3,8 +3,8 @@
     "term": "Voltaje",
     "definition": "La fuerza eléctrica que empuja cargas eléctricas a través de un circuito, similar a la presión que empuja agua a través de una tubería."
   },
-  "corriente eléctrica": {
-    "term": "Corriente eléctrica",
+  "corriente": {
+    "term": "Actual",
     "definition": "El flujo de carga eléctrica a través de un cable o circuito."
   },
   "carga eléctrica": {

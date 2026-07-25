@@ -10,9 +10,12 @@ export default function SectionCardCarousel({ station }) {
   const [rows, setRows] = useState([]);
 
   useEffect(() => {
+    // Sections with no slides are dead-ends (they render a blank slideshow),
+    // so don't surface them as cards.
+    const sections = station.sections.filter((s) => s.slides?.length > 0);
     function update() {
       const perRow = getCardsPerRow();
-      setRows(chunkBalanced(station.sections, perRow));
+      setRows(chunkBalanced(sections, perRow));
     }
     update();
     window.addEventListener("resize", update);
@@ -39,14 +42,14 @@ export default function SectionCardCarousel({ station }) {
                   <div className="card-image-wrapper">
                     <img
                       src={section.image ? section.image : defaultImage}
-                      alt={title ? title : "Sample Title"}
+                      alt={title || ""}
                       className="card-image"
+                      loading="lazy"
+                      decoding="async"
                     />
                   </div>
 
-                  <div className="card-title stationPages">
-                    {title ? title : "Sample Title"}
-                  </div>
+                  <div className="card-title stationPages">{title || ""}</div>
                 </Link>
               );
             })}
@@ -72,6 +75,9 @@ function chunkBalanced(items, perRow) {
     if (remaining === 1 && rows.length > 0) {
       const last = rows[rows.length - 1];
       const movedCard = last.pop();
+      // If that row held only one card (e.g. perRow === 1), it's now empty —
+      // drop it so we don't render a blank row.
+      if (last.length === 0) rows.pop();
       rows.push([movedCard, items[i]]);
       i += 1;
     } else {

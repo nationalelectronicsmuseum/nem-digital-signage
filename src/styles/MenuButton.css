@@ -7,13 +7,6 @@
   bottom: 0;
 }
 
-button {
-  border: 0;
-  padding: 0;
-  background: transparent;
-  cursor: pointer;
-}
-
 .burger-menu-icon {
   position: fixed;
   z-index: 4;

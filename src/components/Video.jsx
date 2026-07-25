@@ -1,7 +1,10 @@
 import "../styles/Video.css";
+import { useContent } from "../context/ContentProvider.jsx";
+import { resolvePath } from "../utils/resolvePath.js";
 
 const Video = ({ src, width, height }) => {
-  let ext = "video/" + src.substr(src.lastIndexOf(".") + 1);
+  const content = useContent();
+  let ext = "video/" + src.slice(src.lastIndexOf(".") + 1);
   return (
     <div className="video-wrapper">
       <video
@@ -13,7 +16,8 @@ const Video = ({ src, width, height }) => {
         className="content-video"
       >
         <source src={src} type={ext} />
-        Your browser does not support the video tag.
+        {resolvePath(content, "common.label.videoUnsupported") ||
+          "Your browser does not support the video tag."}
       </video>
     </div>
   );

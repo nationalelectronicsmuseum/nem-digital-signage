@@ -37,7 +37,7 @@
     },
     "whatToWatch": "Surveillez le compteur. Il montre un flux de courant constant dans une direction.",
     "whatsGoingOn": "Lorsque vous touchez les plaques métalliques, l’humidité de vos mains agit comme les électrolytes conducteurs salins de la batterie. Les électrolytes réagissent avec les plaques de cuivre et d'aluminium. Il éloigne les électrons chargés négativement de la plaque de cuivre, laissant derrière eux les charges positives. Il donne ensuite des électrons à la plaque d’aluminium, la rendant chargée négativement. Ces électrons traversent le compteur lorsqu’ils retournent vers la plaque de cuivre. Dans un circuit simple comme celui-ci, la direction du flux de courant est déterminée par la différence de potentiel entre les deux plaques. Lorsque vous touchez les deux plaques simultanément, vous complétez le circuit, permettant ainsi la circulation des électrons du potentiel le plus élevé (plaque de cuivre) au potentiel inférieur (plaque d'aluminium) à travers votre corps.",
-    "image1": "humanBatt2.gif",
+    "image1": "humanBatt2.webp",
     "image2": "humanBatt1.png"
   },
   "Oersted": {
@@ -275,7 +275,7 @@
       ]
     },
     "whatsGoingOn": "Lorsqu'une haute tension est appliquée aux deux conducteurs, l'électricité circule dans l'air entre eux, ionisant l'air et créant un chemin conducteur. La chaleur intense générée par cette décharge électrique provoque une expansion rapide de l’air, poussant l’arc vers le haut. À mesure que l’arc monte, il se refroidit et l’air devient moins ionisé, ce qui finit par couper le circuit et éteindre l’arc. Le processus se répète, créant un affichage fascinant ressemblant à une échelle grimpant vers le haut.  Être témoin de la décharge d'arc et comprendre ses principes sous-jacents fournit des informations précieuses sur le monde de la science et de l'ingénierie.",
-    "image1": "jacobs3.gif",
+    "image1": "jacobs3.webp",
     "image2": "jacobs1.jpg"
   },
   "AudioTranslator": {

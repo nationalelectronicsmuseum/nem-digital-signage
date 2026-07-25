@@ -6,8 +6,8 @@ import DataRegistry from "../data";
 
 export default function FAQSlide({ slideID }) {
   const slide = DataRegistry.slides[slideID];
-  const leftContent = slide.left;
-  const rightContent = slide.right;
+  const leftContent = slide?.left;
+  const rightContent = slide?.right;
 
   return (
     <SwiperSlide className="slide-wrapper">

@@ -37,7 +37,7 @@
     },
     "whatToWatch": "Beobachten Sie den Zähler. Es zeigt einen konstanten Stromfluss in eine Richtung.",
     "whatsGoingOn": "Wenn Sie die Metallplatten berühren, fungiert die Feuchtigkeit an Ihren Händen als salzhaltiger, leitender Elektrolyt der Batterie. Die Elektrolyte reagieren mit den Kupfer- und Aluminiumplatten. Es entzieht der Kupferplatte die negativ geladenen Elektronen und hinterlässt die positiven Ladungen. Anschließend gibt es Elektronen an die Aluminiumplatte ab, wodurch diese negativ aufgeladen wird. Diese Elektronen passieren das Messgerät und kehren zur Kupferplatte zurück. In einer einfachen Schaltung wie dieser wird die Richtung des Stromflusses durch die Potentialdifferenz zwischen den beiden Platten bestimmt. Wenn Sie beide Platten gleichzeitig berühren, schließen Sie den Stromkreis und ermöglichen den Elektronenfluss vom höheren Potenzial (Kupferplatte) zum niedrigeren Potenzial (Aluminiumplatte) durch Ihren Körper.",
-    "image1": "humanBatt2.gif",
+    "image1": "humanBatt2.webp",
     "image2": "humanBatt1.png"
   },
   "Oersted": {
@@ -275,7 +275,7 @@
       ]
     },
     "whatsGoingOn": "Wenn an die beiden Leiter eine Hochspannung angelegt wird, fließt Elektrizität durch die Luft im Spalt zwischen ihnen, ionisiert die Luft und erzeugt einen leitenden Pfad. Die durch diese elektrische Entladung erzeugte starke Hitze führt dazu, dass sich die Luft schnell ausdehnt und den Lichtbogen nach oben drückt. Während der Lichtbogen ansteigt, kühlt er ab und die Luft wird weniger ionisiert, wodurch schließlich der Stromkreis unterbrochen und der Lichtbogen gelöscht wird. Der Vorgang wiederholt sich und es entsteht ein faszinierendes Schauspiel, das einer nach oben kletternden Leiter ähnelt.  Die Beobachtung der Lichtbogenentladung und das Verständnis ihrer zugrunde liegenden Prinzipien bieten wertvolle Einblicke in die Welt der Wissenschaft und Technik.",
-    "image1": "jacobs3.gif",
+    "image1": "jacobs3.webp",
     "image2": "jacobs1.jpg"
   },
   "AudioTranslator": {

@@ -6,7 +6,31 @@
     "whatsGoingOn": "Qué está sucediendo:",
     "tryThis": "Prueba esto:",
     "imageCaption": "Haga clic para ampliar",
-    "performedBy": "Realizado por"
+    "performedBy": "Realizado por",
+    "sectionComingSoon": "Contenido próximamente.",
+    "enlargeImage": "Ampliar imagen",
+    "closeImage": "Cerrar imagen",
+    "enlargedImage": "Imagen ampliada",
+    "playPauseSpeech": "Reproducir o pausar el discurso",
+    "stopSpeech": "dejar de hablar",
+    "playAudio": "Reproducir audio",
+    "pauseAudio": "Pausar audio",
+    "stopAudio": "Detener audio",
+    "home": "Inicio",
+    "index": "Índice",
+    "accessibility": "Accesibilidad",
+    "accessibilityMenu": "Menú de accesibilidad",
+    "language": "Idioma",
+    "fontType": "Tipo de fuente",
+    "textSize": "Tamaño del texto",
+    "audioControls": "Controles de audio",
+    "videoUnsupported": "Su navegador no soporta la etiqueta de video.",
+    "grantLogo": "Logotipo de Miller Grant",
+    "small": "Pequeño",
+    "medium": "Mediano",
+    "large": "Grande",
+    "on": "Activado",
+    "off": "Desactivado"
   },
   "sectionCardTitle": {
     "VoltageAndCurrent": "Voltaje y corriente",
@@ -56,7 +80,8 @@
     "CountermeasureBiography": "Biografía de contramedida",
     "SatellitesAndHowTheyWork": "Satélites y cómo funcionan",
     "LunarCamera": "cámara lunar",
-    "Telstar": "Telstar"
+    "Telstar": "Telstar",
+    "Sponsors": "Patrocinadores"
   },
   "sectionTitle": {
     "VoltageAndCurrent": "Voltaje y corriente",
@@ -106,6 +131,7 @@
     "CountermeasureBiography": "Biografía de contramedida",
     "SatellitesAndHowTheyWork": "Satélites y cómo funcionan",
     "LunarCamera": "cámara lunar",
-    "Telstar": "Telstar"
+    "Telstar": "Telstar",
+    "Sponsors": "Gracias a nuestros patrocinadores"
   }
 }
